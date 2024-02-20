@@ -435,6 +435,10 @@ subroutine readthermal
       read(line, * ) Z, A, isoT, isoR, xs ,dxs, Einc, author, year, sub
       Ntherm_xs(type, Z, A, isoT, isoR) = Ntherm_xs(type, Z, A, isoT, isoR) + 1
       N = Ntherm_xs(type, Z, A, isoT, isoR)
+      if (N > numex) then
+        Ntherm_xs(type, Z, A, isoT, isoR) = numex
+        exit
+      endif
       if (type <= 6) then
         Etherm_xs(type, Z, A, isoT, isoR, N) = 0.001*xs
         Etherm_dxs(type, Z, A, isoT, isoR, N) = 0.001*dxs

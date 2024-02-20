@@ -177,6 +177,10 @@ subroutine readmacs
       read(line, * ) Z, A, isoT, isoR, xs ,dxs, Einc, author, year, sub
       Nmacs_xs(type, Z, A, isoT, isoR) = Nmacs_xs(type, Z, A, isoT, isoR) + 1
       N = Nmacs_xs(type, Z, A, isoT, isoR)
+      if (N > numex) then
+        Nmacs_xs(type, Z, A, isoT, isoR) = numex
+        exit
+      endif
       Emacs_xs(type, Z, A, isoT, isoR, N) = 0.001*xs
       Emacs_dxs(type, Z, A, isoT, isoR, N) = 0.001*dxs
       Emacs_author(type, Z, A, isoT, isoR, N) = author

@@ -32,6 +32,8 @@ git clone https://github.com/arjankoning1/resonancetables.git
 ```
 ### Installation instructions:
 
+This is only relevant if you want to construct the database yourself.
+If not, the database is directly available.
 To install RESONANCETABLES, you can use one of the following options:
 #### 1. Using make:
 ```
@@ -39,15 +41,15 @@ git clone https://github.com/arjankoning1/resonancetables.git
 cd resonancetables/source
 make
 ```
-#### 2. Using the code_build script:
+#### 2. Using the install_resonancetables.bash script:
 ```
 git clone https://github.com/arjankoning1/resonancetables.git
 cd resonancetables
-code_build resonancetables
+install_resonancetables.bash
 ```
 
 The above instructions will produce a *resonancetables* executable in the *resonancetables/bin* directory. 
-The compiler and its flags can be set in either the ource/Makefile* or in *code_build*.
+The compiler and its flags can be set in either the *source/Makefile* or in *code_build.bash*.
 
 ## The RESONANCETABLES package
 
@@ -55,7 +57,7 @@ The *resonancetables/* directory contains the following directories and files:
 
 + `README.md` is this README file
 + `LICENSE` is the License file
-+ `code_build` and `path_change` installation scripts
++ `install_resonancetables.bash`, `code_build.bash` and `path_change.bash` installation scripts
 + `source/` contains the Fortran source code of RESONANCETABLES and the Makefile
 + `bin/` contains the executable after successful installation
 + `doc/` contains the tutorial in pdf format

@@ -11,7 +11,7 @@ set output "bin.RI.eps"
 plot \
 "cendl3.2_bin.RI" u 1:2   title "CENDL-3.2" w histeps linestyle 1, \
 "jeff3.3_bin.RI" u 1:2  title "JEFF3.3" w histeps linestyle 2, \
-"endfb8.0_bin.RI" u 1:2   title "ENDFB8.0" w histeps linestyle 3, \
+"endfb8.1_bin.RI" u 1:2   title "ENDFB8.1" w histeps linestyle 3, \
 "jendl5.0_bin.RI" u 1:2   title "JENDL5.0" w histeps linestyle 4, \
 "tendl.2023_bin.RI" u 1:2   title "TENDL-2023" w histeps linestyle 5, \
 #   "dum" u 1:2 notitle

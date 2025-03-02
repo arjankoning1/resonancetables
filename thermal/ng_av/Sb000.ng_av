@@ -1,0 +1,24 @@
+# header:
+#   title: Sb000(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 51
+#   A: 0
+#   nuclide: Sb000
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  5.020000E+00
+#   selected value uncertainty [b]:  1.200000E-01
+#   selected value source: Firestone
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      J.Coltman               EXFOR                1946        4.800000E+00   3.000000E-01   12616-018-0    9.561753E-01
+      S.P.Harris              EXFOR                1950        8.150000E+00   4.075000E-01   11528-030-0    1.623506E+00
+      H.Pomerance             EXFOR                1951        5.300000E+00   2.650000E-01   11047-061-0    1.055777E+00
+      Firestone               Compilation          2022        5.020000E+00   1.200000E-01                  1.000000E+00

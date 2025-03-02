@@ -1,0 +1,33 @@
+# header:
+#   title: Li007(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 3
+#   A: 7
+#   nuclide: Li007
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  4.420000E-02
+#   selected value uncertainty [b]:  5.000000E-04
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 13
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      D.J.Hughes              EXFOR                1947        3.300000E-02   5.000000E-03   11143-002-0    7.466063E-01
+      E.A.Koltypin            EXFOR                1956        4.200000E-02   1.000000E-02   40707-002-0    9.502262E-01
+      W.L.Imhof               EXFOR                1959        4.000000E-02   8.000000E-03   11101-004-0    9.049774E-01
+      L.Jarczyk               EXFOR                1961        4.000000E-02   1.200000E-02   22510-003-0    9.049774E-01
+      J.E.Lynn                EXFOR                1991        4.540000E-02   3.000000E-03   13520-002-0    1.027149E+00
+      RIPL-3                  Compilation          2004        4.500000E-02   5.000000E-03                  1.018100E+00
+      R.B.Firestone           EXFOR                2016        4.430000E-02   5.000000E-04   31768-025-0    1.002262E+00
+      Mughabghab_2016         Compilation          2016        4.420000E-02   5.000000E-04                  1.000000E+00
+      cendl3.2                NDL                  2019        4.540170E-02   0.000000E+00                  1.027188E+00
+      jeff3.3                 NDL                  2020        4.540170E-02   0.000000E+00                  1.027188E+00
+      jendl5.0                NDL                  2021        4.540000E-02   0.000000E+00                  1.027149E+00
+      tendl.2023              NDL                  2023        4.540170E-02   0.000000E+00                  1.027188E+00
+      endfb8.1                NDL                  2024        4.540170E-02   0.000000E+00                  1.027188E+00

@@ -1,0 +1,43 @@
+# header:
+#   title: V051(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 23
+#   A: 51
+#   nuclide: V051
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  4.794000E+00
+#   selected value uncertainty [b]:  7.400000E-02
+#   selected value source: Kayzero
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 23
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      L.Seren                 EXFOR                1947        4.500000E+00   9.000000E-01   11447-020-0    9.386733E-01
+      B.Grimeland             EXFOR                1951        4.790000E+00   8.000000E-02   21395-014-0    9.991656E-01
+      J.Bouzyk                EXFOR                1961        4.650000E+00   0.000000E+00   30412-004-0    9.699624E-01
+      R.Sher                  EXFOR                1962        5.500000E+00   3.000000E-01   11501-003-0    1.147267E+00
+      S.Glickstein            EXFOR                1963        4.880000E+00   1.800000E-01   11648-003-0    1.017939E+00
+      W.Koehler               EXFOR                1967        4.500000E+00   5.000000E-01   20654-004-0    9.386733E-01
+      T.B.Ryves               EXFOR                1970        4.880000E+00   0.000000E+00   20790-005-0    1.017939E+00
+      G.Gleason               EXFOR                1975        5.100000E+00   1.000000E-01   10644-016-0    1.063830E+00
+      E.A.Pavlenko            EXFOR                1976        5.300000E+00   4.000000E-01   40464-003-0    1.105549E+00
+      F.De Corte              EXFOR                1988        4.790000E+00   8.143000E-02   23488-012-0    9.991656E-01
+      I.Celenk                EXFOR                1991        1.013000E+01   0.000000E+00   22234-002-0    2.113058E+00
+      RIPL-3                  Compilation          2004        4.900000E+00   1.000000E-01                  1.022111E+00
+      Mughabghab_2006         Compilation          2006        4.940000E+00   4.000000E-02                  1.030455E+00
+      B.J.B.Nyarko            EXFOR                2010        5.660000E+00   3.600000E-01   31698-015-0    1.180642E+00
+      S.E.Agbemava            EXFOR                2011        5.150000E+00   1.900000E-01   31716-002-0    1.074260E+00
+      F.Farina Arbocco        EXFOR                2013        4.770000E+00   5.000000E-02   23266-028-0    9.949937E-01
+      F.Farina Arbocco        EXFOR                2013        4.770000E+00   0.000000E+00   23266-029-0    9.949937E-01
+      Mughabghab_2016         Compilation          2016        4.940000E+00   4.000000E-02                  1.030455E+00
+      Kayzero                 Compilation          2018        4.794000E+00   7.400000E-02                  1.000000E+00
+      jeff3.3                 NDL                  2020        4.994040E+00   0.000000E+00                  1.041727E+00
+      jendl5.0                NDL                  2021        4.917480E+00   0.000000E+00                  1.025757E+00
+      tendl.2023              NDL                  2023        4.945210E+00   0.000000E+00                  1.031541E+00
+      endfb8.1                NDL                  2024        4.912950E+00   0.000000E+00                  1.024812E+00

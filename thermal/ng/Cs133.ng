@@ -1,0 +1,45 @@
+# header:
+#   title: Cs133(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 55
+#   A: 133
+#   nuclide: Cs133
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  3.015000E+01
+#   selected value uncertainty [b]:  3.300000E-01
+#   selected value source: Kayzero
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 25
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      H.Pomerance             EXFOR                1951        2.900000E+01   1.500000E+00   11047-045-0    9.618574E-01
+      J.D.Cummins             EXFOR                1957        2.870000E+01   7.000000E-01   21469-008-0    9.519072E-01
+      T.A.Eastwood            EXFOR                1958        2.980000E+01   1.200000E+00   12011-016-0    9.883913E-01
+      J.G.Bayly               EXFOR                1958        3.040000E+01   6.080000E-01   12017-002-0    1.008292E+00
+      D.Bidinosti             EXFOR                1959        3.990000E+01   0.000000E+00   12010-003-0    1.323383E+00
+      W.S.Lyon                EXFOR                1960        4.720000E+01   4.720000E+00   11625-021-0    1.565506E+00
+      R.B.Tattersall          EXFOR                1960        2.800000E+01   1.000000E+00   20638-040-0    9.286899E-01
+      F.Brown                 EXFOR                1961        3.340000E+01   2.600000E+00   12022-002-0    1.107794E+00
+      J.C.Carre               EXFOR                1966        2.800000E+01   1.000000E+00   20658-022-0    9.286899E-01
+      G.H.E.Sims              EXFOR                1968        3.400000E+01   2.600000E+00   11658-016-0    1.127695E+00
+      G.H.E.Sims              EXFOR                1968        2.920000E+01   2.300000E+00   11658-015-0    9.684909E-01
+      J.Olsen                 EXFOR                1972        2.490000E+01   0.000000E+00   20231-006-0    8.258706E-01
+      F.Widder                EXFOR                1975        3.091800E+01   7.481000E-01   20437-004-0    1.025473E+00
+      M.Takiue                EXFOR                1978        2.870000E+01   7.000000E-01   20853-007-0    9.519072E-01
+      F.De Corte              EXFOR                1988        3.070000E+01   3.070000E-01   23488-057-2    1.018242E+00
+      S.Nakamura              EXFOR                1999        2.900000E+01   1.000000E+00   22469-008-0    9.618574E-01
+      RIPL-3                  Compilation          2004        2.900000E+01   1.000000E+00                  9.618574E-01
+      Mughabghab_2006         Compilation          2006        3.030000E+01   1.100000E+00                  1.004975E+00
+      Mughabghab_2016         Compilation          2016        3.010000E+01   1.100000E+00                  9.983417E-01
+      Kayzero                 Compilation          2018        3.015000E+01   3.300000E-01                  1.000000E+00
+      cendl3.2                NDL                  2019        2.899820E+01   0.000000E+00                  9.617977E-01
+      jeff3.3                 NDL                  2020        2.904620E+01   0.000000E+00                  9.633897E-01
+      jendl5.0                NDL                  2021        3.218510E+01   0.000000E+00                  1.067499E+00
+      tendl.2023              NDL                  2023        2.904620E+01   0.000000E+00                  9.633897E-01
+      endfb8.1                NDL                  2024        2.904620E+01   0.000000E+00                  9.633897E-01

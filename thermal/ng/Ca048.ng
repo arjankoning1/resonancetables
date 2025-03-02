@@ -1,0 +1,32 @@
+# header:
+#   title: Ca048(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 20
+#   A: 48
+#   nuclide: Ca048
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  1.143000E+00
+#   selected value uncertainty [b]:  1.280000E-01
+#   selected value source: Kayzero
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 12
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      J.S.Levin               EXFOR                1952        1.100000E+00   1.000000E-01   11566-002-0    9.623797E-01
+      F.De Corte              EXFOR                1988        1.120000E+00   2.464000E-02   23488-009-0    9.798775E-01
+      H.Beer                  EXFOR                1996        9.820000E-01   0.000000E+00   22371-002-0    8.591426E-01
+      RIPL-3                  Compilation          2004        1.100000E+00   1.000000E-01                  9.623797E-01
+      G.S.Zahn                EXFOR                2007        9.790000E-01   2.000000E-02   31595-002-0    8.565179E-01
+      B.J.B.Nyarko            EXFOR                2010        1.140000E+00   2.000000E-02   31698-012-0    9.973753E-01
+      Mughabghab_2016         Compilation          2016        1.090000E+00   7.000000E-02                  9.536308E-01
+      Kayzero                 Compilation          2018        1.143000E+00   1.280000E-01                  1.000000E+00
+      jeff3.3                 NDL                  2020        1.085870E+00   0.000000E+00                  9.500175E-01
+      jendl5.0                NDL                  2021        1.092800E+00   0.000000E+00                  9.560805E-01
+      tendl.2023              NDL                  2023        1.090020E+00   0.000000E+00                  9.536482E-01
+      endfb8.1                NDL                  2024        1.092800E+00   0.000000E+00                  9.560805E-01

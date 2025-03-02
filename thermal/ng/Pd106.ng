@@ -1,0 +1,26 @@
+# header:
+#   title: Pd106(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 46
+#   A: 106
+#   nuclide: Pd106
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  3.050000E-01
+#   selected value uncertainty [b]:  3.000000E-02
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 6
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      RIPL-3                  Compilation          2004        2.930000E-01   0.000000E+00                  9.606557E-01
+      Mughabghab_2016         Compilation          2016        3.050000E-01   3.000000E-02                  1.000000E+00
+      jeff3.3                 NDL                  2020        3.082310E-01   0.000000E+00                  1.010593E+00
+      jendl5.0                NDL                  2021        3.169960E-01   0.000000E+00                  1.039331E+00
+      tendl.2023              NDL                  2023        3.040850E-01   0.000000E+00                  9.969999E-01
+      endfb8.1                NDL                  2024        3.082310E-01   0.000000E+00                  1.010593E+00

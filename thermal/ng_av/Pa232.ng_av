@@ -1,0 +1,25 @@
+# header:
+#   title: Pa232(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 91
+#   A: 232
+#   nuclide: Pa232
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  2.300000E+03
+#   selected value uncertainty [b]:  1.300000E+02
+#   selected value source: L.N.Jurova
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      R.Elson                 EXFOR                1953        4.000000E+01   0.000000E+00   12272-003-0    1.739130E-02
+      R.R.Smith               EXFOR                1956        7.600000E+02   1.000000E+02   12273-003-0    3.304348E-01
+      E.M.Gryntakis           EXFOR                1976        4.640000E+02   9.500000E+01   20625-037-0    2.017391E-01
+      L.N.Jurova              EXFOR                1984        2.300000E+03   1.300000E+02   40579-004-0    1.000000E+00
+      Sukhoruchkin            Compilation          2015        2.460000E+02   3.000000E+01                  1.069565E-01

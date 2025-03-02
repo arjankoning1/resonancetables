@@ -1,0 +1,23 @@
+# header:
+#   title: Hf176(n,tot) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 72
+#   A: 176
+#   nuclide: Hf176
+# reaction:
+#   type: (n,tot)
+# observables:
+#   selected value [b]:  1.900000E+01
+#   selected value uncertainty [b]:  0.000000E+00
+#   selected value source: V.P.Vertebny
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      C.A.Conrad              EXFOR                1969        3.620000E+01   9.400000E+00   12085-002-0    1.905263E+00
+      K.Okamoto               EXFOR                1971        2.700000E+02   2.830000E+02   20318-003-0    1.421053E+01
+      V.P.Vertebny            EXFOR                1975        1.900000E+01   0.000000E+00   40279-013-0    1.000000E+00

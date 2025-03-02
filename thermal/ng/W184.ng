@@ -1,0 +1,47 @@
+# header:
+#   title: W184(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 74
+#   A: 184
+#   nuclide: W184
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  1.730000E+00
+#   selected value uncertainty [b]:  9.000000E-02
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 27
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      L.Seren                 EXFOR                1947        2.120000E+00   4.240000E-01   11447-114-0    1.225433E+00
+      H.Pomerance             EXFOR                1952        1.970000E+00   2.955000E-01   11507-093-0    1.138728E+00
+      W.S.Lyon                EXFOR                1960        2.280000E+00   2.280000E-01   11625-030-0    1.317919E+00
+      S.J.Friesenhahn         EXFOR                1966        1.700000E+00   1.000000E-01   12167-007-0    9.826590E-01
+      S.J.Friesenhahn         EXFOR                1966        1.700000E+00   0.000000E+00   12167-006-0    9.826590E-01
+      RIPL-3                  Compilation          2004        2.002000E+00   2.000000E-01                  1.157225E+00
+      V.Bondarenko            EXFOR                2005        1.760000E+00   9.000000E-02   31572-004-0    1.017341E+00
+      V.Bondarenko            EXFOR                2005        1.610000E+00   2.600000E-01   31572-003-0    9.306358E-01
+      V.Bondarenko            EXFOR                2005        2.100000E+00   4.000000E-01   31572-003-0    1.213873E+00
+      V.Bondarenko            EXFOR                2005        1.290000E+00   5.500000E-01   31572-003-0    7.456647E-01
+      V.Bondarenko            EXFOR                2005        1.740000E+00   2.400000E-01   31572-003-0    1.005780E+00
+      V.Bondarenko            EXFOR                2005        1.700000E+00   5.000000E-01   31572-003-0    9.826590E-01
+      V.Bondarenko            EXFOR                2005        2.170000E+00   2.400000E-01   31572-003-0    1.254335E+00
+      V.Bondarenko            EXFOR                2005        1.950000E+00   4.000000E-02   31572-003-0    1.127168E+00
+      V.Bondarenko            EXFOR                2005        1.400000E+00   3.700000E-01   31572-003-0    8.092485E-01
+      V.Bondarenko            EXFOR                2005        1.620000E+00   2.900000E-01   31572-003-0    9.364161E-01
+      V.Bondarenko            EXFOR                2005        1.790000E+00   1.900000E-01   31572-003-0    1.034682E+00
+      V.Bondarenko            EXFOR                2005        1.250000E+00   4.200000E-01   31572-003-0    7.225434E-01
+      Mughabghab_2006         Compilation          2006        1.700000E+00   1.000000E-01                  9.826590E-01
+      Sukhoruchkin            Compilation          2015        1.700000E+00   1.000000E-01                  9.826590E-01
+      Mughabghab_2016         Compilation          2016        1.730000E+00   9.000000E-02                  1.000000E+00
+      K.S.Krane               EXFOR                2019        1.620000E+00   1.100000E-01   14679-004-0    9.364161E-01
+      cendl3.2                NDL                  2019        1.697740E+00   0.000000E+00                  9.813526E-01
+      jeff3.3                 NDL                  2020        1.700230E+00   0.000000E+00                  9.827919E-01
+      jendl5.0                NDL                  2021        1.697500E+00   0.000000E+00                  9.812139E-01
+      tendl.2023              NDL                  2023        1.703940E+00   0.000000E+00                  9.849364E-01
+      endfb8.1                NDL                  2024        1.634760E+00   0.000000E+00                  9.449480E-01

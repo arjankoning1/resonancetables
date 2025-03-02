@@ -1,0 +1,24 @@
+# header:
+#   title: U235(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 92
+#   A: 235
+#   nuclide: U235
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  7.901000E+01
+#   selected value uncertainty [b]:  9.050000E+00
+#   selected value source: A.Letourneau
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      D.Williams              EXFOR                1946        1.010000E+02   5.000000E+00   12441-002-0    1.278319E+00
+      C.H.Hogg                EXFOR                1960        9.250000E+01   2.000000E+00   12438-005-0    1.170738E+00
+      A.Letourneau            EXFOR                2009        7.901000E+01   9.050000E+00   22941-029-0    1.000000E+00
+      Sukhoruchkin            Compilation          2015        9.869000E+01   0.000000E+00                  1.249082E+00

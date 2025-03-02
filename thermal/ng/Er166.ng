@@ -1,0 +1,30 @@
+# header:
+#   title: Er166(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 68
+#   A: 166
+#   nuclide: Er166
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  1.690000E+01
+#   selected value uncertainty [b]:  1.600000E+00
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 10
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      G.R.Hopkins             EXFOR                1958        4.500000E+01   9.000000E+00   12081-002-0    2.662722E+00
+      V.P.Vertebnyi           EXFOR                1968        3.000000E+01   0.000000E+00   40061-019-0    1.775148E+00
+      W.Michaelis             EXFOR                1969        6.500000E+02   0.000000E+00   23372-010-0    3.846154E+01
+      R.Dobrozemsky           EXFOR                1971        1.960000E+01   1.500000E+00   20637-018-0    1.159763E+00
+      RIPL-3                  Compilation          2004        2.000000E+01   1.500000E+00                  1.183432E+00
+      Mughabghab_2016         Compilation          2016        1.690000E+01   1.600000E+00                  1.000000E+00
+      jeff3.3                 NDL                  2020        1.713820E+01   0.000000E+00                  1.014095E+00
+      jendl5.0                NDL                  2021        1.674330E+01   0.000000E+00                  9.907278E-01
+      tendl.2023              NDL                  2023        1.693770E+01   0.000000E+00                  1.002231E+00
+      endfb8.1                NDL                  2024        1.687190E+01   0.000000E+00                  9.983373E-01

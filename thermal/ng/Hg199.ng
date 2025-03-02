@@ -1,0 +1,27 @@
+# header:
+#   title: Hg199(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 80
+#   A: 199
+#   nuclide: Hg199
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  2.150000E+03
+#   selected value uncertainty [b]:  4.800000E+01
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 7
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      RIPL-3                  Compilation          2004        2.100000E+03   2.000000E+01                  9.767442E-01
+      Mughabghab_2006         Compilation          2006        2.150000E+03   4.800000E+01                  1.000000E+00
+      Mughabghab_2016         Compilation          2016        2.150000E+03   4.800000E+01                  1.000000E+00
+      jeff3.3                 NDL                  2020        2.150080E+03   0.000000E+00                  1.000037E+00
+      jendl5.0                NDL                  2021        2.149270E+03   0.000000E+00                  9.996605E-01
+      tendl.2023              NDL                  2023        2.224950E+03   0.000000E+00                  1.034860E+00
+      endfb8.1                NDL                  2024        2.149270E+03   0.000000E+00                  9.996605E-01

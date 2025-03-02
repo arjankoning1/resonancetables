@@ -1,0 +1,39 @@
+# header:
+#   title: Ti050(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 22
+#   A: 50
+#   nuclide: Ti050
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  1.780000E-01
+#   selected value uncertainty [b]:  2.000000E-03
+#   selected value source: Kayzero
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 19
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      L.Seren                 EXFOR                1947        1.410000E-01   2.820000E-02   11447-018-0    7.921348E-01
+      H.Pomerance             EXFOR                1952        0.000000E+00   0.000000E+00   11507-017-0    0.000000E+00
+      T.B.Ryves               EXFOR                1970        1.790000E-01   0.000000E+00   20789-010-0    1.005618E+00
+      R.Van Der Linden        EXFOR                1972        1.400000E-01   0.000000E+00   20643-011-0    7.865168E-01
+      G.Gleason               EXFOR                1975        1.600000E-01   1.000000E-02   10644-014-0    8.988764E-01
+      F.De Corte              EXFOR                1988        1.700000E-01   3.740000E-03   23488-011-0    9.550562E-01
+      RIPL-3                  Compilation          2004        1.790000E-01   3.000000E-03                  1.005618E+00
+      Mughabghab_2006         Compilation          2006        1.790000E-01   3.000000E-03                  1.005618E+00
+      F.Farina Arbocco        EXFOR                2013        1.725000E-01   4.600000E-03   23266-024-0    9.691011E-01
+      F.Farina Arbocco        EXFOR                2013        1.692000E-01   0.000000E+00   23266-025-0    9.505618E-01
+      F.Farina Arbocco        EXFOR                2013        1.757000E-01   0.000000E+00   23266-025-0    9.870786E-01
+      Sukhoruchkin            Compilation          2015        1.790000E-01   3.000000E-03                  1.005618E+00
+      Mughabghab_2016         Compilation          2016        1.790000E-01   3.000000E-03                  1.005618E+00
+      Kayzero                 Compilation          2018        1.780000E-01   2.000000E-03                  1.000000E+00
+      cendl3.2                NDL                  2019        1.783610E-01   0.000000E+00                  1.002028E+00
+      jeff3.3                 NDL                  2020        1.807840E-01   0.000000E+00                  1.015640E+00
+      jendl5.0                NDL                  2021        1.795120E-01   0.000000E+00                  1.008494E+00
+      tendl.2023              NDL                  2023        1.807840E-01   0.000000E+00                  1.015640E+00
+      endfb8.1                NDL                  2024        1.795120E-01   0.000000E+00                  1.008494E+00

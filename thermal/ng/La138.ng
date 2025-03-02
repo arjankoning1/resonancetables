@@ -1,0 +1,28 @@
+# header:
+#   title: La138(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 57
+#   A: 138
+#   nuclide: La138
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  5.720000E+01
+#   selected value uncertainty [b]:  5.700000E+00
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 8
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      H.Michael               EXFOR                1976        5.720000E+01   5.700000E+00   20666-002-0    1.000000E+00
+      RIPL-3                  Compilation          2004        5.700000E+01   6.000000E+00                  9.965035E-01
+      Mughabghab_2006         Compilation          2006        5.720000E+01   5.700000E+00                  1.000000E+00
+      Mughabghab_2016         Compilation          2016        5.720000E+01   5.700000E+00                  1.000000E+00
+      jeff3.3                 NDL                  2020        5.711810E+01   0.000000E+00                  9.985682E-01
+      jendl5.0                NDL                  2021        5.706280E+01   0.000000E+00                  9.976014E-01
+      tendl.2023              NDL                  2023        5.691700E+01   0.000000E+00                  9.950525E-01
+      endfb8.1                NDL                  2024        5.708640E+01   0.000000E+00                  9.980140E-01

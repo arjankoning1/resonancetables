@@ -1,0 +1,34 @@
+# header:
+#   title: Gd155(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 64
+#   A: 155
+#   nuclide: Gd155
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  6.033000E+04
+#   selected value uncertainty [b]:  5.000000E+02
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 14
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      M.G.Inghram             EXFOR                1950        4.100000E+04   0.000000E+00   12106-003-0    6.795955E-01
+      W.H.Walker              EXFOR                1956        2.500000E+04   0.000000E+00   12127-011-0    4.143875E-01
+      N.J.Pattenden           EXFOR                1958        6.600000E+04   2.000000E+03   21325-019-0    1.093983E+00
+      R.B.Tattersall          EXFOR                1960        4.980000E+04   6.000000E+02   20638-079-0    8.254600E-01
+      RIPL-3                  Compilation          2004        6.100000E+04   1.000000E+03                  1.011106E+00
+      Mughabghab_2006         Compilation          2006        6.090000E+04   5.000000E+02                  1.009448E+00
+      Mughabghab_2016         Compilation          2016        6.033000E+04   5.000000E+02                  1.000000E+00
+      cendl3.2                NDL                  2019        6.072940E+04   0.000000E+00                  1.006620E+00
+      jeff3.3                 NDL                  2020        6.072940E+04   0.000000E+00                  1.006620E+00
+      jendl5.0                NDL                  2021        6.044740E+04   0.000000E+00                  1.001946E+00
+      A.Kimura                EXFOR                2023        5.670800E+04   2.503000E+03   23607-010-0    9.399635E-01
+      A.Kimura                EXFOR                2023        5.977800E+04   2.538000E+03   23607-010-0    9.908503E-01
+      tendl.2023              NDL                  2023        6.017840E+04   0.000000E+00                  9.974871E-01
+      endfb8.1                NDL                  2024        6.072900E+04   0.000000E+00                  1.006614E+00

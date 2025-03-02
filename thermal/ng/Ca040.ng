@@ -1,0 +1,32 @@
+# header:
+#   title: Ca040(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 20
+#   A: 40
+#   nuclide: Ca040
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  4.100000E-01
+#   selected value uncertainty [b]:  2.000000E-02
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 12
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      L.Seren                 EXFOR                1947        1.250000E-04   5.000000E-05   11447-013-0    3.048781E-04
+      H.Pomerance             EXFOR                1952        2.200000E-01   4.400000E-02   11507-011-0    5.365854E-01
+      H.Gruppelaar            EXFOR                1967        4.300000E-01   0.000000E+00   20215-003-0    1.048781E+00
+      RIPL-3                  Compilation          2004        4.100000E-01   3.000000E-02                  1.000000E+00
+      Mughabghab_2006         Compilation          2006        4.100000E-01   2.000000E-02                  1.000000E+00
+      Sukhoruchkin            Compilation          2015        4.100000E-02   2.000000E-03                  1.000000E-01
+      Mughabghab_2016         Compilation          2016        4.100000E-01   2.000000E-02                  1.000000E+00
+      cendl3.2                NDL                  2019        4.075270E-01   0.000000E+00                  9.939683E-01
+      jeff3.3                 NDL                  2020        4.113000E-01   0.000000E+00                  1.003171E+00
+      jendl5.0                NDL                  2021        4.075270E-01   0.000000E+00                  9.939683E-01
+      tendl.2023              NDL                  2023        4.102510E-01   0.000000E+00                  1.000612E+00
+      endfb8.1                NDL                  2024        4.099840E-01   0.000000E+00                  9.999610E-01

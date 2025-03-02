@@ -1,0 +1,26 @@
+# header:
+#   title: Zn070(n,g)_g thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 30
+#   A: 70
+#   nuclide: Zn070
+# reaction:
+#   type: (n,g)_g
+# observables:
+#   selected value [b]:  2.000000E-02
+#   selected value uncertainty [b]:  4.000000E-03
+#   selected value source: K.S.Krane
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 6
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      D.Hughes                EXFOR                1951        8.500000E-02   2.000000E-02   11799-002-0    4.250000E+00
+      S.K.Mangal              EXFOR                1962        1.110000E-01   2.220000E-02   31248-005-0    5.550000E+00
+      H.Arino                 EXFOR                1964        1.040000E-01   0.000000E+00   11817-002-0    5.200000E+00
+      W.Mannhart              EXFOR                1968        8.300000E-02   5.000000E-03   22521-004-0    4.150000E+00
+      K.S.Krane               EXFOR                2017        2.300000E-02   3.000000E-03   14468-006-0    1.150000E+00
+      K.S.Krane               EXFOR                2017        2.000000E-02   4.000000E-03   14468-006-0    1.000000E+00

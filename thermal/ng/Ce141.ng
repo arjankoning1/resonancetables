@@ -1,0 +1,28 @@
+# header:
+#   title: Ce141(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 58
+#   A: 141
+#   nuclide: Ce141
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  2.900000E+01
+#   selected value uncertainty [b]:  3.000000E+00
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 8
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      P.M.Lantz               EXFOR                1964        2.900000E+01   3.000000E+00   12056-004-0    1.000000E+00
+      RIPL-3                  Compilation          2004        2.900000E+01   3.000000E+00                  1.000000E+00
+      Mughabghab_2016         Compilation          2016        2.900000E+01   3.000000E+00                  1.000000E+00
+      cendl3.2                NDL                  2019        2.901390E+01   0.000000E+00                  1.000479E+00
+      jeff3.3                 NDL                  2020        2.900270E+01   0.000000E+00                  1.000093E+00
+      jendl5.0                NDL                  2021        2.901390E+01   0.000000E+00                  1.000479E+00
+      tendl.2023              NDL                  2023        2.910970E+01   0.000000E+00                  1.003783E+00
+      endfb8.1                NDL                  2024        2.900270E+01   0.000000E+00                  1.000093E+00

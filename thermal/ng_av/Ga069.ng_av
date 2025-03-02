@@ -1,0 +1,24 @@
+# header:
+#   title: Ga069(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 31
+#   A: 69
+#   nuclide: Ga069
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  2.180000E+00
+#   selected value uncertainty [b]:  1.100000E-01
+#   selected value source: K.S.Krane
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      L.Seren                 EXFOR                1947        1.400000E+00   2.800000E-01   11447-033-0    6.422018E-01
+      H.Pomerance             EXFOR                1952        1.990000E+00   1.592000E-01   11507-032-0    9.128440E-01
+      K.S.Krane               EXFOR                2012        2.180000E+00   1.100000E-01   14342-002-0    1.000000E+00
+      Sukhoruchkin            Compilation          2015        1.730000E+00   7.000000E-02                  7.935780E-01

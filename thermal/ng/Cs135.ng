@@ -1,0 +1,31 @@
+# header:
+#   title: Cs135(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 55
+#   A: 135
+#   nuclide: Cs135
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  8.300000E+00
+#   selected value uncertainty [b]:  3.000000E-01
+#   selected value source: RIPL-3
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 11
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      N.Sugarman              EXFOR                1949        1.450000E+01   4.000000E+00   12038-002-0    1.746988E+00
+      T.A.Eastwood            EXFOR                1958        8.700000E+00   5.000000E-01   12011-018-0    1.048193E+00
+      A.P.Baerg               EXFOR                1958        8.700000E+00   5.000000E-01   12008-002-0    1.048193E+00
+      T.Katoh                 EXFOR                1997        8.300000E+00   3.000000E-01   22342-002-0    1.000000E+00
+      RIPL-3                  Compilation          2004        8.300000E+00   3.000000E-01                  1.000000E+00
+      cendl3.2                NDL                  2019        8.701480E+00   0.000000E+00                  1.048371E+00
+      S.Nakamura              EXFOR                2020        8.570000E+00   2.500000E-01   23602-002-0    1.032530E+00
+      jeff3.3                 NDL                  2020        8.299960E+00   0.000000E+00                  9.999952E-01
+      jendl5.0                NDL                  2021        8.571650E+00   0.000000E+00                  1.032729E+00
+      tendl.2023              NDL                  2023        8.567830E+00   0.000000E+00                  1.032269E+00
+      endfb8.1                NDL                  2024        8.660230E+00   0.000000E+00                  1.043401E+00

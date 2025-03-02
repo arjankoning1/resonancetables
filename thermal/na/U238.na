@@ -1,0 +1,25 @@
+# header:
+#   title: U238(n,a) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction:
+#   type: (n,a)
+# observables:
+#   selected value [b]:  1.300000E-06
+#   selected value uncertainty [b]:  6.000000E-07
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      M.Asghar                EXFOR                1976        9.200000E-06   6.000000E-08   20588-002-0    7.076923E+00
+      C.Wagemans              EXFOR                1981        1.500000E-06   0.000000E+00   21724-005-0    1.153846E+00
+      Mughabghab_2006         Compilation          2006        1.300000E-06   6.000000E-07                  1.000000E+00
+      Sukhoruchkin            Compilation          2015        1.300000E-06   6.000000E-07                  1.000000E+00
+      Mughabghab_2016         Compilation          2016        1.300000E-06   6.000000E-07                  1.000000E+00

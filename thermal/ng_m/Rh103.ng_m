@@ -1,0 +1,25 @@
+# header:
+#   title: Rh103(n,g)_m thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 45
+#   A: 103
+#   nuclide: Rh103
+# reaction:
+#   type: (n,g)_m
+# observables:
+#   selected value [b]:  1.060000E+01
+#   selected value uncertainty [b]:  3.000000E-01
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      L.Seren                 EXFOR                1947        1.160000E+01   1.160000E+00   11447-063-0    1.094340E+00
+      W.H.Walker              EXFOR                1966        1.100000E+01   1.000000E+00   11917-002-0    1.037736E+00
+      F.De Corte              EXFOR                1988        1.100000E+01   0.000000E+00   23488-041-1    1.037736E+00
+      RIPL-3                  Compilation          2004        1.100000E+01   1.000000E+00                  1.037736E+00
+      Mughabghab_2016         Compilation          2016        1.060000E+01   3.000000E-01                  1.000000E+00

@@ -1,0 +1,24 @@
+# header:
+#   title: Os184(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 76
+#   A: 184
+#   nuclide: Os184
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  3.000000E+03
+#   selected value uncertainty [b]:  1.500000E+02
+#   selected value source: Mughabghab_2006
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      S.V.Nablo               EXFOR                1958        2.200000E+03   5.000000E+02   14527-002-0    7.333333E-01
+      J.I.Kim                 EXFOR                1968        3.005000E+03   1.220000E+02   20656-008-0    1.001667E+00
+      Mughabghab_2006         Compilation          2006        3.000000E+03   1.500000E+02                  1.000000E+00
+      K.S.Krane               EXFOR                2012        3.480000E+03   0.000000E+00   14332-002-0    1.160000E+00

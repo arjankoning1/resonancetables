@@ -1,0 +1,30 @@
+# header:
+#   title: Eu155(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 63
+#   A: 155
+#   nuclide: Eu155
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  3.950000E+03
+#   selected value uncertainty [b]:  1.250000E+02
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 10
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      R.J.Hayden              EXFOR                1949        7.900000E+03   0.000000E+00   12138-006-0    2.000000E+00
+      R.S.Mowatt              EXFOR                1970        4.040000E+03   1.250000E+02   10154-002-0    1.022785E+00
+      RIPL-3                  Compilation          2004        3.900000E+03   2.000000E+02                  9.873418E-01
+      Mughabghab_2006         Compilation          2006        3.950000E+03   1.250000E+02                  1.000000E+00
+      Mughabghab_2016         Compilation          2016        3.950000E+03   1.250000E+02                  1.000000E+00
+      cendl3.2                NDL                  2019        3.759460E+03   0.000000E+00                  9.517620E-01
+      jeff3.3                 NDL                  2020        3.759460E+03   0.000000E+00                  9.517620E-01
+      jendl5.0                NDL                  2021        3.759460E+03   0.000000E+00                  9.517620E-01
+      tendl.2023              NDL                  2023        3.959360E+03   0.000000E+00                  1.002370E+00
+      endfb8.1                NDL                  2024        3.759460E+03   0.000000E+00                  9.517620E-01

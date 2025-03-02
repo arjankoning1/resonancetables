@@ -1,0 +1,30 @@
+# header:
+#   title: Yb171(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 70
+#   A: 171
+#   nuclide: Yb171
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  5.880000E+01
+#   selected value uncertainty [b]:  3.800000E+00
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 10
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      W.H.Walker              EXFOR                1956        6.400000E+01   7.000000E+00   12127-022-0    1.088435E+00
+      R.Dobrozemsky           EXFOR                1971        5.800000E+01   4.000000E+00   20637-022-0    9.863946E-01
+      RIPL-3                  Compilation          2004        5.000000E+01   1.000000E+01                  8.503401E-01
+      Mughabghab_2006         Compilation          2006        5.830000E+01   3.800000E+00                  9.914966E-01
+      Sukhoruchkin            Compilation          2015        5.830000E+01   3.800000E+00                  9.914966E-01
+      Mughabghab_2016         Compilation          2016        5.880000E+01   3.800000E+00                  1.000000E+00
+      jeff3.3                 NDL                  2020        5.830750E+01   0.000000E+00                  9.916241E-01
+      jendl5.0                NDL                  2021        5.829870E+01   0.000000E+00                  9.914744E-01
+      tendl.2023              NDL                  2023        5.882060E+01   0.000000E+00                  1.000350E+00
+      endfb8.1                NDL                  2024        5.829870E+01   0.000000E+00                  9.914744E-01

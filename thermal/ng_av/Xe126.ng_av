@@ -1,0 +1,25 @@
+# header:
+#   title: Xe126(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 54
+#   A: 126
+#   nuclide: Xe126
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  4.270000E+00
+#   selected value uncertainty [b]:  6.000000E-01
+#   selected value source: E.Kondaiah
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      T.Eastwood              EXFOR                1963        1.600000E+02   0.000000E+00   11849-006-0    3.747073E+01
+      G.Winter                EXFOR                1965        7.000000E-01   4.000000E-01   31819-002-0    1.639344E-01
+      M.Bresesti              EXFOR                1965        2.450000E+00   2.500000E-01   20630-002-0    5.737705E-01
+      E.Kondaiah              EXFOR                1968        4.270000E+00   6.000000E-01   11883-010-0    1.000000E+00
+      Sukhoruchkin            Compilation          2015        3.500000E+00   8.000000E-01                  8.196721E-01

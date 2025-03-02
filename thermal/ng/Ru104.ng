@@ -1,0 +1,44 @@
+# header:
+#   title: Ru104(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 44
+#   A: 104
+#   nuclide: Ru104
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  5.040000E-01
+#   selected value uncertainty [b]:  1.000000E-02
+#   selected value source: Kayzero
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 24
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      P.Lantz                 EXFOR                1964        4.800000E-01   0.000000E+00   11929-002-0    9.523809E-01
+      P.Lantz                 EXFOR                1964        4.700000E-01   0.000000E+00   11929-003-0    9.325396E-01
+      J.P.Rambaek             EXFOR                1977        3.200000E-01   2.000000E-02   23383-004-0    6.349206E-01
+      F.De Corte              EXFOR                1988        4.910000E-01   9.820000E-03   23488-040-0    9.742063E-01
+      RIPL-3                  Compilation          2004        4.900000E-01   2.000000E-02                  9.722222E-01
+      Mughabghab_2006         Compilation          2006        4.910000E-01   1.000000E-02                  9.742063E-01
+      F.Farina Arbocco        EXFOR                2014        4.990000E-01   0.000000E+00   23260-085-0    9.900794E-01
+      F.Farina Arbocco        EXFOR                2014        5.080000E-01   0.000000E+00   23260-085-0    1.007936E+00
+      F.Farina Arbocco        EXFOR                2014        5.080000E-01   0.000000E+00   23260-085-0    1.007936E+00
+      F.Farina Arbocco        EXFOR                2014        5.080000E-01   0.000000E+00   23260-085-0    1.007936E+00
+      F.Farina Arbocco        EXFOR                2014        5.050000E-01   0.000000E+00   23260-085-0    1.001984E+00
+      F.Farina Arbocco        EXFOR                2014        5.060000E-01   0.000000E+00   23260-085-0    1.003968E+00
+      F.Farina Arbocco        EXFOR                2014        5.080000E-01   0.000000E+00   23260-085-0    1.007936E+00
+      F.Farina Arbocco        EXFOR                2014        5.070000E-01   0.000000E+00   23260-085-0    1.005952E+00
+      F.Farina Arbocco        EXFOR                2014        5.050000E-01   5.000000E-03   23260-084-0    1.001984E+00
+      Mughabghab_2016         Compilation          2016        4.910000E-01   1.000000E-02                  9.742063E-01
+      Kayzero                 Compilation          2018        5.040000E-01   1.000000E-02                  1.000000E+00
+      P.Panikkath             EXFOR                2019        4.790000E-01   1.524200E-01   33134-008-0    9.503968E-01
+      P.Panikkath             EXFOR                2019        4.770000E-01   2.568600E-01   33134-006-0    9.464285E-01
+      cendl3.2                NDL                  2019        4.715690E-01   0.000000E+00                  9.356528E-01
+      jeff3.3                 NDL                  2020        4.715690E-01   0.000000E+00                  9.356528E-01
+      jendl5.0                NDL                  2021        4.690570E-01   0.000000E+00                  9.306687E-01
+      tendl.2023              NDL                  2023        4.937070E-01   0.000000E+00                  9.795774E-01
+      endfb8.1                NDL                  2024        4.715690E-01   0.000000E+00                  9.356528E-01

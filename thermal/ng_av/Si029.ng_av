@@ -1,0 +1,26 @@
+# header:
+#   title: Si029(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 14
+#   A: 29
+#   nuclide: Si029
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  1.190000E-01
+#   selected value uncertainty [b]:  3.000000E-03
+#   selected value source: Mughabghab_2006
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 6
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      H.Pomerance             EXFOR                1952        2.700000E-01   8.100000E-02   11507-006-0    2.268908E+00
+      A.M.J.Spits             EXFOR                1974        1.010000E-01   1.400000E-02   20542-003-0    8.487395E-01
+      M.A.Islam               EXFOR                1990        1.200000E-01   3.000000E-03   13864-006-0    1.008403E+00
+      S.Raman                 EXFOR                1992        1.190000E-01   3.000000E-03   13549-006-0    1.000000E+00
+      Mughabghab_2006         Compilation          2006        1.190000E-01   3.000000E-03                  1.000000E+00
+      Sukhoruchkin            Compilation          2015        1.200000E-01   3.000000E-03                  1.008403E+00

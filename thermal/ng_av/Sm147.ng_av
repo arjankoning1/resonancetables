@@ -1,0 +1,24 @@
+# header:
+#   title: Sm147(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 62
+#   A: 147
+#   nuclide: Sm147
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  7.500000E+01
+#   selected value uncertainty [b]:  1.100000E+01
+#   selected value source: L.Forman
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      W.H.Walker              EXFOR                1956        8.500000E+01   2.500000E+01   12127-003-0    1.133333E+00
+      N.C.Fenner              EXFOR                1967        5.100000E+01   3.000000E+00   20631-008-0    6.800000E-01
+      L.Forman                EXFOR                1967        7.500000E+01   1.100000E+01   12103-002-0    1.000000E+00
+      Sukhoruchkin            Compilation          2015        5.700000E+01   3.000000E+00                  7.600000E-01

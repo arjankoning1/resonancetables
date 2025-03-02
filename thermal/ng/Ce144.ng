@@ -1,0 +1,28 @@
+# header:
+#   title: Ce144(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 58
+#   A: 144
+#   nuclide: Ce144
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  1.000000E+00
+#   selected value uncertainty [b]:  1.000000E-01
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 8
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      P.M.Lantz               EXFOR                1962        1.000000E+00   1.000000E-01   12055-002-0    1.000000E+00
+      RIPL-3                  Compilation          2004        1.000000E+00   1.000000E-01                  1.000000E+00
+      Mughabghab_2016         Compilation          2016        1.000000E+00   1.000000E-01                  1.000000E+00
+      cendl3.2                NDL                  2019        1.000030E+00   0.000000E+00                  1.000030E+00
+      jeff3.3                 NDL                  2020        1.000030E+00   0.000000E+00                  1.000030E+00
+      jendl5.0                NDL                  2021        1.000030E+00   0.000000E+00                  1.000030E+00
+      tendl.2023              NDL                  2023        9.997710E-01   0.000000E+00                  9.997710E-01
+      endfb8.1                NDL                  2024        1.000030E+00   0.000000E+00                  1.000030E+00

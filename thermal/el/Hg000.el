@@ -1,0 +1,22 @@
+# header:
+#   title: Hg000(n,el) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 80
+#   A: 0
+#   nuclide: Hg000
+# reaction:
+#   type: (n,el)
+# observables:
+#   selected value [b]:  2.650000E+01
+#   selected value uncertainty [b]:  1.000000E-01
+#   selected value source: C.T.Hibdon
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      A.C.G.Mitchell          EXFOR                1936        4.700000E+00   0.000000E+00   14700-015-0    1.773585E-01
+      C.T.Hibdon              EXFOR                1951        2.650000E+01   1.000000E-01   12202-003-0    1.000000E+00

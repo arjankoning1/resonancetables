@@ -1,0 +1,36 @@
+# header:
+#   title: Hf177(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 72
+#   A: 177
+#   nuclide: Hf177
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  3.740000E+02
+#   selected value uncertainty [b]:  8.000000E+00
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 16
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      H.Pomerance             EXFOR                1952        3.750000E+02   3.000000E+01   11507-086-0    1.002674E+00
+      K.F.Alexander           EXFOR                1962        1.400000E+00   6.000000E-01   31467-002-0    3.743315E-03
+      A.Foglio Para           EXFOR                1967        1.000000E+00   1.000000E-01   21403-009-0    2.673797E-03
+      R.G.Helmer              EXFOR                1973        2.000000E-07   1.000000E-07   10354-002-0    5.347593E-10
+      M.C.Moxon               EXFOR                1974        3.664000E+02   8.200000E+00   22360-016-0    9.796791E-01
+      E.A.Pavlenko            EXFOR                1976        3.740000E+02   8.000000E+00   40464-006-0    1.000000E+00
+      RIPL-3                  Compilation          2004        3.750100E+02   1.000000E+01                  1.002701E+00
+      S.A.Karamian            EXFOR                2006        2.600000E-06   0.000000E+00   41541-002-1    6.951872E-09
+      Mughabghab_2006         Compilation          2006        3.750000E+02   1.000000E+01                  1.002674E+00
+      Sukhoruchkin            Compilation          2015        3.750000E+02   1.000000E+01                  1.002674E+00
+      Mughabghab_2016         Compilation          2016        3.740000E+02   8.000000E+00                  1.000000E+00
+      cendl3.2                NDL                  2019        3.735870E+02   0.000000E+00                  9.988958E-01
+      jeff3.3                 NDL                  2020        3.712320E+02   0.000000E+00                  9.925989E-01
+      jendl5.0                NDL                  2021        3.718820E+02   0.000000E+00                  9.943368E-01
+      tendl.2023              NDL                  2023        3.734730E+02   0.000000E+00                  9.985909E-01
+      endfb8.1                NDL                  2024        3.718820E+02   0.000000E+00                  9.943368E-01

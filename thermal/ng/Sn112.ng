@@ -1,0 +1,33 @@
+# header:
+#   title: Sn112(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 50
+#   A: 112
+#   nuclide: Sn112
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  5.410000E-01
+#   selected value uncertainty [b]:  7.000000E-03
+#   selected value source: Kayzero
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 13
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      L.Seren                 EXFOR                1947        1.100000E+00   4.400000E-01   11447-076-0    2.033272E+00
+      C.Nelson                EXFOR                1950        1.300000E+00   2.600000E-01   11961-002-0    2.402957E+00
+      W.Lyon                  EXFOR                1967        6.500000E-01   0.000000E+00   12608-002-0    1.201479E+00
+      M.Ricabarra             EXFOR                1973        4.200000E-01   8.000000E-02   31477-002-0    7.763401E-01
+      RIPL-3                  Compilation          2004        5.500000E-01   0.000000E+00                  1.016636E+00
+      K.S.Krane               EXFOR                2006        5.130000E-01   3.000000E-02   14107-002-0    9.482440E-01
+      Mughabghab_2016         Compilation          2016        5.130000E-01   3.000000E-02                  9.482440E-01
+      Kayzero                 Compilation          2018        5.410000E-01   7.000000E-03                  1.000000E+00
+      cendl3.2                NDL                  2019        1.009120E+00   0.000000E+00                  1.865286E+00
+      jeff3.3                 NDL                  2020        8.605020E-01   0.000000E+00                  1.590577E+00
+      jendl5.0                NDL                  2021        8.605000E-01   0.000000E+00                  1.590573E+00
+      tendl.2023              NDL                  2023        5.140500E-01   0.000000E+00                  9.501848E-01
+      endfb8.1                NDL                  2024        8.501610E-01   0.000000E+00                  1.571462E+00

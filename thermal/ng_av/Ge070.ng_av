@@ -1,0 +1,27 @@
+# header:
+#   title: Ge070(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 32
+#   A: 70
+#   nuclide: Ge070
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  3.150000E+00
+#   selected value uncertainty [b]:  1.600000E-01
+#   selected value source: W.Mannhart
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 7
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      L.Seren                 EXFOR                1947        4.500000E-01   1.800000E-01   11447-036-0    1.428571E-01
+      H.Pomerance             EXFOR                1952        3.250000E+00   2.600000E-01   11507-034-0    1.031746E+00
+      W.A.Brooksbank          EXFOR                1955        3.900000E+00   1.200000E+00   11426-006-0    1.238095E+00
+      W.S.Lyon                EXFOR                1960        3.470000E+00   3.470000E-01   11625-009-0    1.101587E+00
+      K.F.Alexander           EXFOR                1963        2.800000E-01   7.000000E-02   31003-004-0    8.888888E-02
+      W.Mannhart              EXFOR                1968        3.150000E+00   1.600000E-01   22521-005-0    1.000000E+00
+      Sukhoruchkin            Compilation          2015        3.050000E+00   1.300000E-01                  9.682539E-01

@@ -1,0 +1,27 @@
+# header:
+#   title: Ba132(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 56
+#   A: 132
+#   nuclide: Ba132
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  8.200000E+00
+#   selected value uncertainty [b]:  3.000000E-01
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 7
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      RIPL-3                  Compilation          2004        1.054000E+01   1.000000E+00                  1.285366E+00
+      Mughabghab_2016         Compilation          2016        8.200000E+00   3.000000E-01                  1.000000E+00
+      cendl3.2                NDL                  2019        6.506250E+00   0.000000E+00                  7.934451E-01
+      jeff3.3                 NDL                  2020        7.000230E+00   0.000000E+00                  8.536866E-01
+      jendl5.0                NDL                  2021        8.074460E+00   0.000000E+00                  9.846902E-01
+      tendl.2023              NDL                  2023        8.204130E+00   0.000000E+00                  1.000504E+00
+      endfb8.1                NDL                  2024        6.530230E+00   0.000000E+00                  7.963696E-01

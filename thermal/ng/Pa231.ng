@@ -1,0 +1,36 @@
+# header:
+#   title: Pa231(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 91
+#   A: 231
+#   nuclide: Pa231
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  2.002000E+02
+#   selected value uncertainty [b]:  2.300000E+00
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 16
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      G.T.Seaborg             EXFOR                1946        1.750000E+02   2.625000E+01   12287-002-0    8.741259E-01
+      R.Elson                 EXFOR                1953        2.930000E+02   4.395000E+01   12272-002-0    1.463537E+00
+      R.R.Smith               EXFOR                1956        2.000000E+02   1.500000E+01   12273-002-0    9.990010E-01
+      B.M.Aleksandrov         EXFOR                1972        2.600000E+02   1.300000E+01   40163-002-0    1.298701E+00
+      K.Kobayashi             EXFOR                1974        2.010000E+02   6.000000E+00   20691-003-0    1.003996E+00
+      E.M.Gryntakis           EXFOR                1974        2.180000E+02   1.400000E+01   20634-002-0    1.088911E+00
+      E.M.Gryntakis           EXFOR                1974        2.010000E+02   2.200000E+01   20634-002-0    1.003996E+00
+      L.N.Jurova              EXFOR                1984        2.190000E+02   6.000000E+00   40579-003-0    1.093906E+00
+      T.Hashimoto             EXFOR                1988        1.860000E+02   1.300000E+01   23227-002-0    9.290709E-01
+      Mughabghab_2006         Compilation          2006        2.006000E+02   2.300000E+00                  1.001998E+00
+      Sukhoruchkin            Compilation          2015        2.006000E+02   2.300000E+00                  1.001998E+00
+      Mughabghab_2016         Compilation          2016        2.002000E+02   2.300000E+00                  1.000000E+00
+      jeff3.3                 NDL                  2020        2.006300E+02   0.000000E+00                  1.002148E+00
+      jendl5.0                NDL                  2021        2.016290E+02   0.000000E+00                  1.007138E+00
+      tendl.2023              NDL                  2023        2.003060E+02   0.000000E+00                  1.000530E+00
+      endfb8.1                NDL                  2024        2.006300E+02   0.000000E+00                  1.002148E+00

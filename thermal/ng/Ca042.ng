@@ -1,0 +1,28 @@
+# header:
+#   title: Ca042(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 20
+#   A: 42
+#   nuclide: Ca042
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  6.800000E-01
+#   selected value uncertainty [b]:  7.000000E-02
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 8
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      H.Pomerance             EXFOR                1952        3.970000E+01   3.176000E+00   11507-012-0    5.838235E+01
+      H.Gruppelaar            EXFOR                1967        1.000000E-01   0.000000E+00   20215-005-0    1.470588E-01
+      RIPL-3                  Compilation          2004        6.500000E-01   1.000000E-01                  9.558823E-01
+      Mughabghab_2016         Compilation          2016        6.800000E-01   7.000000E-02                  1.000000E+00
+      jeff3.3                 NDL                  2020        6.797760E-01   0.000000E+00                  9.996706E-01
+      jendl5.0                NDL                  2021        6.830320E-01   0.000000E+00                  1.004459E+00
+      tendl.2023              NDL                  2023        6.815780E-01   0.000000E+00                  1.002321E+00
+      endfb8.1                NDL                  2024        6.830320E-01   0.000000E+00                  1.004459E+00

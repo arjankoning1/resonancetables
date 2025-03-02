@@ -1,0 +1,25 @@
+# header:
+#   title: Ru102(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 44
+#   A: 102
+#   nuclide: Ru102
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  1.210000E+00
+#   selected value uncertainty [b]:  7.000000E-02
+#   selected value source: J.P.Rambaek
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      L.Seren                 EXFOR                1947        3.700000E-01   7.400000E-02   11447-061-0    3.057851E-01
+      S.Katcoff               EXFOR                1958        1.500000E+00   0.000000E+00   12613-003-0    1.239669E+00
+      P.M.Lantz               EXFOR                1965        1.230000E+00   1.230000E-01   11906-002-0    1.016529E+00
+      H.Ishikawa              EXFOR                1969        1.370000E+00   1.320000E-01   20313-002-0    1.132231E+00
+      J.P.Rambaek             EXFOR                1977        1.210000E+00   7.000000E-02   23383-003-0    1.000000E+00

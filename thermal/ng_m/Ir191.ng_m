@@ -1,0 +1,24 @@
+# header:
+#   title: Ir191(n,g)_m thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 77
+#   A: 191
+#   nuclide: Ir191
+# reaction:
+#   type: (n,g)_m
+# observables:
+#   selected value [b]:  6.450000E+02
+#   selected value uncertainty [b]:  3.200000E+01
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      G.Harbottle             EXFOR                1963        3.800000E-01   0.000000E+00   12166-002-0    5.891473E-04
+      Huang Xiao-Long         EXFOR                2000        1.400000E-01   6.000000E-02   31638-004-0    2.170543E-04
+      RIPL-3                  Compilation          2004        6.600000E+02   3.200000E+01                  1.023256E+00
+      Mughabghab_2016         Compilation          2016        6.450000E+02   3.200000E+01                  1.000000E+00

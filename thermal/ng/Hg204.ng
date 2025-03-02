@@ -1,0 +1,29 @@
+# header:
+#   title: Hg204(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 80
+#   A: 204
+#   nuclide: Hg204
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  4.400000E-01
+#   selected value uncertainty [b]:  1.000000E-02
+#   selected value source: Kayzero
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 9
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      L.Seren                 EXFOR                1947        3.400000E-01   6.800000E-02   11447-127-0    7.727273E-01
+      W.Lyon                  EXFOR                1951        4.700000E-01   0.000000E+00   12201-003-0    1.068182E+00
+      RIPL-3                  Compilation          2004        4.000000E-01   1.000000E-01                  9.090909E-01
+      Mughabghab_2016         Compilation          2016        4.300000E-01   1.000000E-01                  9.772727E-01
+      Kayzero                 Compilation          2018        4.400000E-01   1.000000E-02                  1.000000E+00
+      jeff3.3                 NDL                  2020        4.314370E-01   0.000000E+00                  9.805386E-01
+      jendl5.0                NDL                  2021        4.345370E-01   0.000000E+00                  9.875841E-01
+      tendl.2023              NDL                  2023        4.311700E-01   0.000000E+00                  9.799318E-01
+      endfb8.1                NDL                  2024        4.314370E-01   0.000000E+00                  9.805386E-01

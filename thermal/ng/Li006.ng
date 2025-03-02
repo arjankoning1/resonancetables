@@ -1,0 +1,31 @@
+# header:
+#   title: Li006(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 3
+#   A: 6
+#   nuclide: Li006
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  3.930000E-02
+#   selected value uncertainty [b]:  7.000000E-04
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 11
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      G.A.Bartholomew         EXFOR                1957        2.800000E-02   8.000000E-03   11014-002-0    7.124683E-01
+      L.Jarczyk               EXFOR                1961        4.800000E-02   1.500000E-02   22510-002-0    1.221374E+00
+      E.T.Jurney              EXFOR                1973        3.850000E-02   3.000000E-03   13879-002-0    9.796438E-01
+      RIPL-3                  Compilation          2004        3.900000E-02   5.000000E-03                  9.923665E-01
+      Chang Su Park           EXFOR                2006        3.770000E-02   3.053700E-03   31570-003-0    9.592876E-01
+      R.B.Firestone           EXFOR                2016        3.930000E-02   7.000000E-04   31768-023-0    1.000000E+00
+      Mughabghab_2016         Compilation          2016        3.930000E-02   7.000000E-04                  1.000000E+00
+      jeff3.3                 NDL                  2020        3.850000E-02   0.000000E+00                  9.796438E-01
+      jendl5.0                NDL                  2021        3.849130E-02   0.000000E+00                  9.794225E-01
+      tendl.2023              NDL                  2023        3.850000E-02   0.000000E+00                  9.796438E-01
+      endfb8.1                NDL                  2024        3.850000E-02   0.000000E+00                  9.796438E-01

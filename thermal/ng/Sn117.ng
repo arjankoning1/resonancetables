@@ -1,0 +1,28 @@
+# header:
+#   title: Sn117(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 50
+#   A: 117
+#   nuclide: Sn117
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  1.070000E+00
+#   selected value uncertainty [b]:  5.000000E-02
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 8
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      L.V.Groshev             EXFOR                1960        2.600000E+00   1.000000E+00   41669-005-0    2.429906E+00
+      RIPL-3                  Compilation          2004        1.100000E+00   1.000000E-01                  1.028037E+00
+      Mughabghab_2016         Compilation          2016        1.070000E+00   5.000000E-02                  1.000000E+00
+      cendl3.2                NDL                  2019        2.173380E+00   0.000000E+00                  2.031196E+00
+      jeff3.3                 NDL                  2020        1.080080E+00   0.000000E+00                  1.009421E+00
+      jendl5.0                NDL                  2021        1.080080E+00   0.000000E+00                  1.009421E+00
+      tendl.2023              NDL                  2023        1.267190E+00   0.000000E+00                  1.184290E+00
+      endfb8.1                NDL                  2024        1.070620E+00   0.000000E+00                  1.000579E+00

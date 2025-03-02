@@ -1,0 +1,23 @@
+# header:
+#   title: Ca040(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 20
+#   A: 40
+#   nuclide: Ca040
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  4.300000E-01
+#   selected value uncertainty [b]:  0.000000E+00
+#   selected value source: H.Gruppelaar
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      L.Seren                 EXFOR                1947        1.250000E-04   5.000000E-05   11447-013-0    2.906977E-04
+      H.Pomerance             EXFOR                1952        2.200000E-01   4.400000E-02   11507-011-0    5.116279E-01
+      H.Gruppelaar            EXFOR                1967        4.300000E-01   0.000000E+00   20215-003-0    1.000000E+00

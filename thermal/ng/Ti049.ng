@@ -1,0 +1,29 @@
+# header:
+#   title: Ti049(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 22
+#   A: 49
+#   nuclide: Ti049
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  1.870000E+00
+#   selected value uncertainty [b]:  4.000000E-02
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 9
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      H.Pomerance             EXFOR                1952        1.800000E+00   4.500000E-01   11507-016-0    9.625668E-01
+      J.F.A.G.Ruyl            EXFOR                1984        1.670000E+00   1.200000E-01   23502-003-0    8.930481E-01
+      RIPL-3                  Compilation          2004        1.900000E+00   5.000000E-01                  1.016043E+00
+      Mughabghab_2016         Compilation          2016        1.870000E+00   4.000000E-02                  1.000000E+00
+      cendl3.2                NDL                  2019        1.829720E+00   0.000000E+00                  9.784599E-01
+      jeff3.3                 NDL                  2020        1.860370E+00   0.000000E+00                  9.948503E-01
+      jendl5.0                NDL                  2021        1.862330E+00   0.000000E+00                  9.958984E-01
+      tendl.2023              NDL                  2023        1.875820E+00   0.000000E+00                  1.003112E+00
+      endfb8.1                NDL                  2024        1.862330E+00   0.000000E+00                  9.958984E-01

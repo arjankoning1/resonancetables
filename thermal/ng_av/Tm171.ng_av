@@ -1,0 +1,24 @@
+# header:
+#   title: Tm171(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 69
+#   A: 171
+#   nuclide: Tm171
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  1.900000E+02
+#   selected value uncertainty [b]:  0.000000E+00
+#   selected value source: Mughabghab_2006
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      J.H.Gillette            EXFOR                1967        4.500000E+00   2.000000E-01   10259-004-0    2.368421E-02
+      K.Miyano                EXFOR                1971        1.600000E+02   0.000000E+00   20345-003-0    8.421053E-01
+      Mughabghab_2006         Compilation          2006        1.900000E+02   0.000000E+00                  1.000000E+00
+      Sukhoruchkin            Compilation          2015        1.250000E+02   6.500000E+01                  6.578947E-01

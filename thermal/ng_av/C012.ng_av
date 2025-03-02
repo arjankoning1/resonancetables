@@ -1,0 +1,24 @@
+# header:
+#   title: C012(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 6
+#   A: 12
+#   nuclide: C012
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  3.530000E-03
+#   selected value uncertainty [b]:  7.000000E-05
+#   selected value source: E.T.Jurney
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      G.R.Hennig              EXFOR                1957        3.290000E-03   1.500000E-04   11345-002-0    9.320113E-01
+      E.Jurney                EXFOR                1963        3.800000E-03   4.000000E-04   11133-004-0    1.076487E+00
+      E.T.Jurney              EXFOR                1982        3.530000E-03   7.000000E-05   12744-003-0    1.000000E+00
+      Sukhoruchkin            Compilation          2015        3.860000E-03   1.200000E-04                  1.093484E+00

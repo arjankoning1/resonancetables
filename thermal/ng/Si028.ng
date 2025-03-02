@@ -1,0 +1,31 @@
+# header:
+#   title: Si028(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 14
+#   A: 28
+#   nuclide: Si028
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  1.770000E-01
+#   selected value uncertainty [b]:  4.000000E-03
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 11
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      H.Pomerance             EXFOR                1952        8.100000E-02   2.430000E-02   11507-005-0    4.576271E-01
+      A.M.J.Spits             EXFOR                1974        1.600000E-01   1.800000E-02   20542-002-0    9.039548E-01
+      M.A.Islam               EXFOR                1990        2.070000E-01   4.000000E-03   13864-005-0    1.169492E+00
+      S.Raman                 EXFOR                1992        1.690000E-01   4.000000E-03   13549-005-0    9.548023E-01
+      RIPL-3                  Compilation          2004        1.700000E-01   1.000000E-02                  9.604520E-01
+      Mughabghab_2016         Compilation          2016        1.770000E-01   4.000000E-03                  1.000000E+00
+      cendl3.2                NDL                  2019        1.691340E-01   0.000000E+00                  9.555594E-01
+      jeff3.3                 NDL                  2020        1.691340E-01   0.000000E+00                  9.555594E-01
+      jendl5.0                NDL                  2021        1.691340E-01   0.000000E+00                  9.555594E-01
+      tendl.2023              NDL                  2023        1.691340E-01   0.000000E+00                  9.555594E-01
+      endfb8.1                NDL                  2024        1.861930E-01   0.000000E+00                  1.051938E+00

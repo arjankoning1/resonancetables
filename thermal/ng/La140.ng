@@ -1,0 +1,27 @@
+# header:
+#   title: La140(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 57
+#   A: 140
+#   nuclide: La140
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  2.700000E+00
+#   selected value uncertainty [b]:  3.000000E-01
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 7
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      H.A.O'Brien Jr          EXFOR                1967        2.700000E+00   3.000000E-01   10085-005-0    1.000000E+00
+      RIPL-3                  Compilation          2004        2.700000E+00   3.000000E-01                  1.000000E+00
+      Mughabghab_2016         Compilation          2016        2.700000E+00   3.000000E-01                  1.000000E+00
+      jeff3.3                 NDL                  2020        1.329190E+01   0.000000E+00                  4.922926E+00
+      jendl5.0                NDL                  2021        2.700090E+00   0.000000E+00                  1.000033E+00
+      tendl.2023              NDL                  2023        2.685390E+00   0.000000E+00                  9.945889E-01
+      endfb8.1                NDL                  2024        2.703050E+00   0.000000E+00                  1.001130E+00

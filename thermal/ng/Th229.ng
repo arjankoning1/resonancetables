@@ -1,0 +1,26 @@
+# header:
+#   title: Th229(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 90
+#   A: 229
+#   nuclide: Th229
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  6.280000E+01
+#   selected value uncertainty [b]:  6.000000E+00
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 6
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      S.F.Mughabghab          EXFOR                2006        6.280000E+01   6.000000E+00   V1002-555-1    1.000000E+00
+      Mughabghab_2016         Compilation          2016        6.280000E+01   6.000000E+00                  1.000000E+00
+      jeff3.3                 NDL                  2020        7.054470E+01   0.000000E+00                  1.123323E+00
+      jendl5.0                NDL                  2021        7.054470E+01   0.000000E+00                  1.123323E+00
+      tendl.2023              NDL                  2023        6.282480E+01   0.000000E+00                  1.000395E+00
+      endfb8.1                NDL                  2024        7.054470E+01   0.000000E+00                  1.123323E+00

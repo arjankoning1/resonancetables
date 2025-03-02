@@ -1,0 +1,28 @@
+# header:
+#   title: Ti046(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 22
+#   A: 46
+#   nuclide: Ti046
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  5.900000E-01
+#   selected value uncertainty [b]:  1.800000E-01
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 8
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      H.Pomerance             EXFOR                1952        5.700000E-01   1.710000E-01   11507-013-0    9.661017E-01
+      RIPL-3                  Compilation          2004        6.000000E-01   2.000000E-01                  1.016949E+00
+      Mughabghab_2016         Compilation          2016        5.900000E-01   1.800000E-01                  1.000000E+00
+      cendl3.2                NDL                  2019        5.760660E-01   0.000000E+00                  9.763831E-01
+      jeff3.3                 NDL                  2020        6.082860E-01   0.000000E+00                  1.030993E+00
+      jendl5.0                NDL                  2021        5.896730E-01   0.000000E+00                  9.994458E-01
+      tendl.2023              NDL                  2023        6.109710E-01   0.000000E+00                  1.035544E+00
+      endfb8.1                NDL                  2024        5.896730E-01   0.000000E+00                  9.994458E-01

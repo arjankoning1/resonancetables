@@ -1,0 +1,23 @@
+# header:
+#   title: Eu153(n,tot) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 63
+#   A: 153
+#   nuclide: Eu153
+# reaction:
+#   type: (n,tot)
+# observables:
+#   selected value [b]:  3.000000E+02
+#   selected value uncertainty [b]:  1.500000E+00
+#   selected value source: V.F.Razbudey
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      N.J.Pattenden           EXFOR                1958        4.560000E+02   1.600000E+01   21325-015-0    1.520000E+00
+      V.P.Vertebny            EXFOR                1972        2.820000E+02   9.000000E+00   40109-002-0    9.400000E-01
+      V.F.Razbudey            EXFOR                1976        3.000000E+02   1.500000E+00   40498-002-0    1.000000E+00

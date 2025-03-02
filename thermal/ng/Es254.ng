@@ -1,0 +1,27 @@
+# header:
+#   title: Es254(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 99
+#   A: 254
+#   nuclide: Es254
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  2.800000E+01
+#   selected value uncertainty [b]:  3.000000E+00
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 7
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      B.G.Harvey              EXFOR                1954        1.500000E+01   0.000000E+00   12567-010-0    5.357143E-01
+      J.Halperin              EXFOR                1985        2.830000E+01   2.500000E+00   12933-002-0    1.010714E+00
+      Mughabghab_2016         Compilation          2016        2.800000E+01   3.000000E+00                  1.000000E+00
+      jeff3.3                 NDL                  2020        2.830070E+01   0.000000E+00                  1.010739E+00
+      jendl5.0                NDL                  2021        2.830070E+01   0.000000E+00                  1.010739E+00
+      tendl.2023              NDL                  2023        8.073590E+01   0.000000E+00                  2.883425E+00
+      endfb8.1                NDL                  2024        2.830070E+01   0.000000E+00                  1.010739E+00

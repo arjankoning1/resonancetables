@@ -1,0 +1,30 @@
+# header:
+#   title: Sm144(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 62
+#   A: 144
+#   nuclide: Sm144
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  1.640000E+00
+#   selected value uncertainty [b]:  1.000000E-01
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 10
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      W.H.Walker              EXFOR                1956        8.500000E+01   5.500000E+01   12127-002-0    5.182927E+01
+      M.Nurmia                EXFOR                1962        7.000000E-01   0.000000E+00   20104-002-0    4.268293E-01
+      C.W.Alexander           EXFOR                1987        1.640000E+00   1.000000E-01   13108-002-0    1.000000E+00
+      RIPL-3                  Compilation          2004        1.600000E+00   1.000000E-01                  9.756098E-01
+      Mughabghab_2016         Compilation          2016        1.640000E+00   1.000000E-01                  1.000000E+00
+      cendl3.2                NDL                  2019        1.640360E+00   0.000000E+00                  1.000219E+00
+      jeff3.3                 NDL                  2020        1.630250E+00   0.000000E+00                  9.940549E-01
+      jendl5.0                NDL                  2021        1.640360E+00   0.000000E+00                  1.000219E+00
+      tendl.2023              NDL                  2023        1.648910E+00   0.000000E+00                  1.005433E+00
+      endfb8.1                NDL                  2024        1.630250E+00   0.000000E+00                  9.940549E-01

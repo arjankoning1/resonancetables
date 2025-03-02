@@ -1,0 +1,31 @@
+# header:
+#   title: Sm150(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 62
+#   A: 150
+#   nuclide: Sm150
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  9.800000E+01
+#   selected value uncertainty [b]:  4.000000E+00
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 11
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      W.H.Walker              EXFOR                1956        1.150000E+02   4.500000E+01   12127-006-0    1.173469E+00
+      K.L.Aitken              EXFOR                1961        1.020000E+02   5.000000E+00   21406-005-0    1.040816E+00
+      J.Halperin              EXFOR                1962        9.700000E+01   9.700000E+00   12253-002-0    9.897959E-01
+      RIPL-3                  Compilation          2004        1.020000E+02   5.000000E+00                  1.040816E+00
+      Mughabghab_2006         Compilation          2006        1.000000E+02   4.000000E+00                  1.020408E+00
+      Mughabghab_2016         Compilation          2016        9.800000E+01   4.000000E+00                  1.000000E+00
+      cendl3.2                NDL                  2019        1.085660E+02   0.000000E+00                  1.107816E+00
+      jeff3.3                 NDL                  2020        1.001260E+02   0.000000E+00                  1.021694E+00
+      jendl5.0                NDL                  2021        1.008710E+02   0.000000E+00                  1.029296E+00
+      tendl.2023              NDL                  2023        9.872040E+01   0.000000E+00                  1.007351E+00
+      endfb8.1                NDL                  2024        9.999520E+01   0.000000E+00                  1.020359E+00

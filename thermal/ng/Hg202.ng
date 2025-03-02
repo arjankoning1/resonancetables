@@ -1,0 +1,36 @@
+# header:
+#   title: Hg202(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 80
+#   A: 202
+#   nuclide: Hg202
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  4.339000E+00
+#   selected value uncertainty [b]:  8.300000E-02
+#   selected value source: Kayzero
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 16
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      L.Seren                 EXFOR                1947        2.440000E+00   4.880000E-01   11447-128-0    5.623415E-01
+      W.Lyon                  EXFOR                1951        3.800000E+00   0.000000E+00   12201-002-0    8.757778E-01
+      M.Sehgal                EXFOR                1962        4.600000E+00   7.000000E-01   11994-015-0    1.060152E+00
+      J.I.Kim                 EXFOR                1967        5.040000E+00   3.800000E-01   20254-006-0    1.161558E+00
+      G.H.E.Sims              EXFOR                1968        4.860000E+00   5.000000E-02   11658-023-0    1.120074E+00
+      G.H.E.Sims              EXFOR                1968        4.870000E+00   5.000000E-02   11658-024-0    1.122378E+00
+      F.De Corte              EXFOR                1988        4.350000E+00   8.265000E-02   23488-093-0    1.002535E+00
+      RIPL-3                  Compilation          2004        4.900000E+00   5.000000E-01                  1.129292E+00
+      Mughabghab_2006         Compilation          2006        4.890000E+00   5.000000E-02                  1.126988E+00
+      Sukhoruchkin            Compilation          2015        4.890000E+00   5.000000E-02                  1.126988E+00
+      Mughabghab_2016         Compilation          2016        4.910000E+00   5.000000E-02                  1.131597E+00
+      Kayzero                 Compilation          2018        4.339000E+00   8.300000E-02                  1.000000E+00
+      jeff3.3                 NDL                  2020        4.919690E+00   0.000000E+00                  1.133830E+00
+      jendl5.0                NDL                  2021        4.953460E+00   0.000000E+00                  1.141613E+00
+      tendl.2023              NDL                  2023        4.912600E+00   0.000000E+00                  1.132196E+00
+      endfb8.1                NDL                  2024        4.954460E+00   0.000000E+00                  1.141844E+00

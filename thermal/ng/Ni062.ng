@@ -1,0 +1,36 @@
+# header:
+#   title: Ni062(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 28
+#   A: 62
+#   nuclide: Ni062
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  1.490000E+01
+#   selected value uncertainty [b]:  3.000000E-01
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 16
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      H.Pomerance             EXFOR                1952        1.460000E+01   2.190000E+00   11507-029-0    9.798658E-01
+      C.Mcmullen              EXFOR                1956        2.100000E+01   2.000000E+00   12620-002-0    1.409396E+00
+      D.Horrocks              EXFOR                1962        1.400000E+01   1.000000E+00   12619-002-0    9.395974E-01
+      G.H.E.Sims              EXFOR                1970        1.420000E+01   0.000000E+00   10608-006-0    9.530202E-01
+      G.H.E.Sims              EXFOR                1970        1.420000E+01   0.000000E+00   10608-007-0    9.530202E-01
+      H.Ishikawa              EXFOR                1973        1.589000E+01   5.200000E-01   20301-006-0    1.066443E+00
+      H.Michael               EXFOR                1974        1.480000E+01   8.000000E-01   20660-002-0    9.932886E-01
+      A.F.M.Ishaq             EXFOR                1977        1.420000E+01   0.000000E+00   10676-004-0    9.530202E-01
+      RIPL-3                  Compilation          2004        1.500000E+01   1.000000E-01                  1.006711E+00
+      A.M.Alpizar-Vicente     EXFOR                2008        1.420000E+01   9.610000E-01   14164-002-0    9.530202E-01
+      Mughabghab_2016         Compilation          2016        1.490000E+01   3.000000E-01                  1.000000E+00
+      cendl3.2                NDL                  2019        1.441420E+01   0.000000E+00                  9.673960E-01
+      jeff3.3                 NDL                  2020        1.419870E+01   0.000000E+00                  9.529329E-01
+      jendl5.0                NDL                  2021        1.490000E+01   0.000000E+00                  1.000000E+00
+      tendl.2023              NDL                  2023        1.489470E+01   0.000000E+00                  9.996443E-01
+      endfb8.1                NDL                  2024        1.490000E+01   0.000000E+00                  1.000000E+00

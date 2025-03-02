@@ -1,0 +1,24 @@
+# header:
+#   title: Xe132(n,g)_g thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 54
+#   A: 132
+#   nuclide: Xe132
+# reaction:
+#   type: (n,g)_g
+# observables:
+#   selected value [b]:  4.000000E-01
+#   selected value uncertainty [b]:  0.000000E+00
+#   selected value source: RIPL-3
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      T.Eastwood              EXFOR                1963        2.500000E-01   2.500000E-02   11849-012-0    6.250000E-01
+      R.S.Tilbury             EXFOR                1968        5.300000E-01   1.000000E-01   11927-010-0    1.325000E+00
+      E.Kondaiah              EXFOR                1968        4.150000E-01   4.500000E-02   11883-013-0    1.037500E+00
+      RIPL-3                  Compilation          2004        4.000000E-01   0.000000E+00                  1.000000E+00

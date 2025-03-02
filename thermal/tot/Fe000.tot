@@ -1,0 +1,25 @@
+# header:
+#   title: Fe000(n,tot) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 26
+#   A: 0
+#   nuclide: Fe000
+# reaction:
+#   type: (n,tot)
+# observables:
+#   selected value [b]:  1.243000E+01
+#   selected value uncertainty [b]:  6.844300E-02
+#   selected value source: J.A.Harvey
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      M.Goldhaber             EXFOR                1937        1.360000E+01   0.000000E+00   22518-005-0    1.094127E+00
+      J.A.Harvey              EXFOR                1982        1.239400E+01   6.845200E-02   13733-005-0    9.971038E-01
+      J.A.Harvey              EXFOR                1982        1.245400E+01   6.875800E-02   13733-005-0    1.001931E+00
+      J.A.Harvey              EXFOR                1982        1.236500E+01   6.815900E-02   13733-005-0    9.947706E-01
+      J.A.Harvey              EXFOR                1982        1.243000E+01   6.844300E-02   13733-005-0    1.000000E+00

@@ -1,0 +1,29 @@
+# header:
+#   title: Os191(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 76
+#   A: 191
+#   nuclide: Os191
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  3.830000E+02
+#   selected value uncertainty [b]:  5.400000E+01
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 9
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      R.F.Casten              EXFOR                1978        4.040000E+02   6.000000E+01   23500-003-3    1.054830E+00
+      R.F.Casten              EXFOR                1978        3.000000E+02   0.000000E+00   23500-003-2    7.832898E-01
+      R.F.Casten              EXFOR                1978        3.830000E+02   5.400000E+01   23500-003-1    1.000000E+00
+      RIPL-3                  Compilation          2004        3.830000E+02   6.000000E+01                  1.000000E+00
+      Mughabghab_2016         Compilation          2016        3.830000E+02   5.400000E+01                  1.000000E+00
+      jeff3.3                 NDL                  2020        3.809560E+02   0.000000E+00                  9.946632E-01
+      jendl5.0                NDL                  2021        3.830130E+02   0.000000E+00                  1.000034E+00
+      tendl.2023              NDL                  2023        4.371940E+02   0.000000E+00                  1.141499E+00
+      endfb8.1                NDL                  2024        3.809560E+02   0.000000E+00                  9.946632E-01

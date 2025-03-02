@@ -1,0 +1,37 @@
+# header:
+#   title: Rb085(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 37
+#   A: 85
+#   nuclide: Rb085
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  5.020000E-01
+#   selected value uncertainty [b]:  5.000000E-03
+#   selected value source: Kayzero
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 17
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      L.Seren                 EXFOR                1947        7.200000E-01   1.440000E-01   11447-047-0    1.434263E+00
+      W.S.Lyon                EXFOR                1960        1.000000E+00   1.000000E-01   11625-013-0    1.992032E+00
+      G.H.E.Sims              EXFOR                1967        6.650000E-01   9.000000E-03   11813-009-0    1.324701E+00
+      A.Foglio Para           EXFOR                1967        4.500000E-01   4.000000E-02   21403-003-0    8.964143E-01
+      G.H.E.Sims              EXFOR                1967        3.960000E-01   5.000000E-03   11813-008-0    7.888446E-01
+      M.Takiue                EXFOR                1978        4.880000E-01   1.000000E-03   20853-004-0    9.721116E-01
+      F.De Corte              EXFOR                1988        4.940000E-01   7.410000E-03   23488-027-0    9.840637E-01
+      RIPL-3                  Compilation          2004        5.000000E-01   2.000000E-02                  9.960160E-01
+      F.Farina Arbocco        EXFOR                2013        5.210000E-01   5.000000E-03   23266-082-0    1.037849E+00
+      F.Farina Arbocco        EXFOR                2013        5.210000E-01   0.000000E+00   23266-083-0    1.037849E+00
+      Mughabghab_2016         Compilation          2016        4.940000E-01   7.000000E-03                  9.840637E-01
+      Kayzero                 Compilation          2018        5.020000E-01   5.000000E-03                  1.000000E+00
+      cendl3.2                NDL                  2019        4.800540E-01   0.000000E+00                  9.562829E-01
+      jeff3.3                 NDL                  2020        4.988150E-01   0.000000E+00                  9.936554E-01
+      jendl5.0                NDL                  2021        4.800540E-01   0.000000E+00                  9.562829E-01
+      tendl.2023              NDL                  2023        4.914750E-01   0.000000E+00                  9.790339E-01
+      endfb8.1                NDL                  2024        4.934920E-01   0.000000E+00                  9.830518E-01

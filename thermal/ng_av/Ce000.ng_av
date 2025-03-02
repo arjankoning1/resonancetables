@@ -1,0 +1,23 @@
+# header:
+#   title: Ce000(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 58
+#   A: 0
+#   nuclide: Ce000
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  6.400000E-01
+#   selected value uncertainty [b]:  1.700000E-02
+#   selected value source: Firestone
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      S.P.Harris              EXFOR                1950        6.500000E-01   0.000000E+00   11528-036-0    1.015625E+00
+      H.Pomerance             EXFOR                1951        8.000000E-01   8.000000E-02   11047-064-0    1.250000E+00
+      Firestone               Compilation          2022        6.400000E-01   1.700000E-02                  1.000000E+00

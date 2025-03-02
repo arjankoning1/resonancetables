@@ -1,0 +1,24 @@
+# header:
+#   title: Se080(n,g)_m thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 34
+#   A: 80
+#   nuclide: Se080
+# reaction:
+#   type: (n,g)_m
+# observables:
+#   selected value [b]:  5.700000E-02
+#   selected value uncertainty [b]:  3.000000E-03
+#   selected value source: S.Nakamura
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      L.Seren                 EXFOR                1947        1.700000E-02   3.400000E-03   11447-042-0    2.982456E-01
+      S.Nakamura              EXFOR                1999        4.600000E-02   2.000000E-03   22632-002-0    8.070176E-01
+      S.Nakamura              EXFOR                2003        4.600000E-02   1.700000E-03   22834-002-0    8.070176E-01
+      S.Nakamura              EXFOR                2008        5.700000E-02   3.000000E-03   23097-002-0    1.000000E+00

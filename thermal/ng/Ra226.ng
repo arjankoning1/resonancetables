@@ -1,0 +1,31 @@
+# header:
+#   title: Ra226(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 88
+#   A: 226
+#   nuclide: Ra226
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  1.370000E+01
+#   selected value uncertainty [b]:  7.000000E-01
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 11
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      S.Peterson              EXFOR                1949        1.900000E+01   0.000000E+00   12282-002-0    1.386861E+00
+      F.Hagemann              EXFOR                1950        1.500000E+01   0.000000E+00   11727-002-0    1.094890E+00
+      J.P.Butler              EXFOR                1953        2.300000E+01   1.000000E+00   12262-002-0    1.678832E+00
+      Mughabghab_2006         Compilation          2006        1.280000E+01   1.500000E+00                  9.343066E-01
+      R.Bagheri               EXFOR                2015        1.380000E+01   3.000000E-01   31760-002-0    1.007299E+00
+      E.Kukleva               EXFOR                2015        1.400000E+01   4.000000E+00   31745-002-0    1.021898E+00
+      Mughabghab_2016         Compilation          2016        1.370000E+01   7.000000E-01                  1.000000E+00
+      jeff3.3                 NDL                  2020        1.279230E+01   0.000000E+00                  9.337445E-01
+      jendl5.0                NDL                  2021        1.278880E+01   0.000000E+00                  9.334891E-01
+      tendl.2023              NDL                  2023        1.123560E+01   0.000000E+00                  8.201168E-01
+      endfb8.1                NDL                  2024        1.278880E+01   0.000000E+00                  9.334891E-01

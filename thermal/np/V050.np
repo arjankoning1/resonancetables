@@ -1,0 +1,23 @@
+# header:
+#   title: V050(n,p) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 23
+#   A: 50
+#   nuclide: V050
+# reaction:
+#   type: (n,p)
+# observables:
+#   selected value [b]:  7.000000E-04
+#   selected value uncertainty [b]:  4.000000E-04
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      C.Wagemans              EXFOR                1994        7.100000E-04   4.000000E-05   22302-002-0    1.014286E+00
+      Sukhoruchkin            Compilation          2015        7.000000E-04   4.000000E-04                  1.000000E+00
+      Mughabghab_2016         Compilation          2016        7.000000E-04   4.000000E-04                  1.000000E+00

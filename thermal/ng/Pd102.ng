@@ -1,0 +1,27 @@
+# header:
+#   title: Pd102(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 46
+#   A: 102
+#   nuclide: Pd102
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  3.200000E+00
+#   selected value uncertainty [b]:  3.000000E-01
+#   selected value source: RIPL-3
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 7
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      W.Meinke                EXFOR                1953        4.800000E+00   0.000000E+00   12612-002-0    1.500000E+00
+      RIPL-3                  Compilation          2004        3.200000E+00   3.000000E-01                  1.000000E+00
+      C.L.Duncan              EXFOR                2005        1.820000E+00   2.000000E-01   14012-002-0    5.687500E-01
+      jeff3.3                 NDL                  2020        1.806120E+00   0.000000E+00                  5.644125E-01
+      jendl5.0                NDL                  2021        1.820230E+00   0.000000E+00                  5.688218E-01
+      tendl.2023              NDL                  2023        1.819850E+00   0.000000E+00                  5.687031E-01
+      endfb8.1                NDL                  2024        1.821490E+00   0.000000E+00                  5.692157E-01

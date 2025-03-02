@@ -1,0 +1,25 @@
+# header:
+#   title: Dy164(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 66
+#   A: 164
+#   nuclide: Dy164
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  2.650000E+03
+#   selected value uncertainty [b]:  7.000000E+01
+#   selected value source: Mughabghab_2006
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      M.Goldhaber             EXFOR                1947        2.770000E+03   0.000000E+00   12077-002-0    1.045283E+00
+      W.H.Walker              EXFOR                1956        2.630000E+03   2.000000E+02   12127-020-0    9.924529E-01
+      J.J.Scoville            EXFOR                1966        2.600000E+03   4.100000E+02   12101-012-0    9.811321E-01
+      M.Karadag               EXFOR                2005        2.672000E+03   7.722100E+01   22891-002-0    1.008302E+00
+      Mughabghab_2006         Compilation          2006        2.650000E+03   7.000000E+01                  1.000000E+00

@@ -1,0 +1,24 @@
+# header:
+#   title: Cr000(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 24
+#   A: 0
+#   nuclide: Cr000
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  3.120000E+00
+#   selected value uncertainty [b]:  6.000000E-02
+#   selected value source: Firestone
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      J.Coltman               EXFOR                1946        2.500000E+00   5.000000E-02   12616-009-0    8.012821E-01
+      H.Pomerance             EXFOR                1951        2.830000E+00   1.415000E-01   11047-018-0    9.070513E-01
+      Yu.A.Prokhorov          EXFOR                1956        3.200000E+00   1.000000E-01   41648-006-0    1.025641E+00
+      Firestone               Compilation          2022        3.120000E+00   6.000000E-02                  1.000000E+00

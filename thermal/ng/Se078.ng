@@ -1,0 +1,28 @@
+# header:
+#   title: Se078(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 34
+#   A: 78
+#   nuclide: Se078
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  4.300000E-01
+#   selected value uncertainty [b]:  2.000000E-02
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 8
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      H.Pomerance             EXFOR                1952        4.000000E-01   4.000000E-01   11507-042-0    9.302326E-01
+      RIPL-3                  Compilation          2004        4.300000E-01   2.000000E-02                  1.000000E+00
+      Mughabghab_2016         Compilation          2016        4.300000E-01   2.000000E-02                  1.000000E+00
+      cendl3.2                NDL                  2019        4.300450E-01   0.000000E+00                  1.000105E+00
+      jeff3.3                 NDL                  2020        4.279460E-01   0.000000E+00                  9.952232E-01
+      jendl5.0                NDL                  2021        4.300450E-01   0.000000E+00                  1.000105E+00
+      tendl.2023              NDL                  2023        4.377950E-01   0.000000E+00                  1.018128E+00
+      endfb8.1                NDL                  2024        4.300450E-01   0.000000E+00                  1.000105E+00

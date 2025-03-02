@@ -1,0 +1,27 @@
+# header:
+#   title: Pd105(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 46
+#   A: 105
+#   nuclide: Pd105
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  2.100000E+01
+#   selected value uncertainty [b]:  7.000000E-01
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 7
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      RIPL-3                  Compilation          2004        2.200000E+01   2.000000E+00                  1.047619E+00
+      Mughabghab_2016         Compilation          2016        2.100000E+01   7.000000E-01                  1.000000E+00
+      cendl3.2                NDL                  2019        2.101850E+01   0.000000E+00                  1.000881E+00
+      jeff3.3                 NDL                  2020        2.087490E+01   0.000000E+00                  9.940429E-01
+      jendl5.0                NDL                  2021        2.043020E+01   0.000000E+00                  9.728667E-01
+      tendl.2023              NDL                  2023        2.107770E+01   0.000000E+00                  1.003700E+00
+      endfb8.1                NDL                  2024        2.087490E+01   0.000000E+00                  9.940429E-01

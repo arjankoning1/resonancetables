@@ -1,0 +1,27 @@
+# header:
+#   title: Ar036(n,a) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 18
+#   A: 36
+#   nuclide: Ar036
+# reaction:
+#   type: (n,a)
+# observables:
+#   selected value [b]:  5.500000E-03
+#   selected value uncertainty [b]:  1.000000E-04
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 7
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      G.C.Hanna               EXFOR                1961        5.520000E-03   1.100000E-04   11275-004-0    1.003636E+00
+      E.A.Davis               EXFOR                1964        5.000000E-03   0.000000E+00   11553-007-0    9.090909E-01
+      Yu.M.Gledenov           EXFOR                1997        5.430000E-03   2.700000E-04   41337-003-0    9.872727E-01
+      Yu.M.Gledenov           EXFOR                1997        5.430000E-03   2.700000E-04   41309-003-0    9.872727E-01
+      Mughabghab_2006         Compilation          2006        5.500000E-03   1.000000E-04                  1.000000E+00
+      Sukhoruchkin            Compilation          2015        6.000000E-03   1.000000E-03                  1.090909E+00
+      Mughabghab_2016         Compilation          2016        5.500000E-03   1.000000E-04                  1.000000E+00

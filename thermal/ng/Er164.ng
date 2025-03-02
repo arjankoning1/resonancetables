@@ -1,0 +1,27 @@
+# header:
+#   title: Er164(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 68
+#   A: 164
+#   nuclide: Er164
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  1.300000E+01
+#   selected value uncertainty [b]:  2.000000E+00
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 7
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      O.Glomset               EXFOR                1972        1.300000E+01   2.000000E+00   20093-004-0    1.000000E+00
+      RIPL-3                  Compilation          2004        1.300000E+01   3.000000E+00                  1.000000E+00
+      Mughabghab_2016         Compilation          2016        1.300000E+01   2.000000E+00                  1.000000E+00
+      jeff3.3                 NDL                  2020        1.287130E+01   0.000000E+00                  9.901000E-01
+      jendl5.0                NDL                  2021        1.287130E+01   0.000000E+00                  9.901000E-01
+      tendl.2023              NDL                  2023        1.303190E+01   0.000000E+00                  1.002454E+00
+      endfb8.1                NDL                  2024        1.295170E+01   0.000000E+00                  9.962846E-01

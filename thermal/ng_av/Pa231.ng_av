@@ -1,0 +1,27 @@
+# header:
+#   title: Pa231(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 91
+#   A: 231
+#   nuclide: Pa231
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  1.860000E+02
+#   selected value uncertainty [b]:  1.300000E+01
+#   selected value source: T.Hashimoto
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 7
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      G.T.Seaborg             EXFOR                1946        1.750000E+02   2.625000E+01   12287-002-0    9.408602E-01
+      R.Elson                 EXFOR                1953        2.930000E+02   4.395000E+01   12272-002-0    1.575269E+00
+      R.R.Smith               EXFOR                1956        2.000000E+02   1.500000E+01   12273-002-0    1.075269E+00
+      K.Kobayashi             EXFOR                1974        2.010000E+02   6.000000E+00   20691-003-0    1.080645E+00
+      E.M.Gryntakis           EXFOR                1974        2.180000E+02   1.400000E+01   20634-002-0    1.172043E+00
+      E.M.Gryntakis           EXFOR                1974        2.010000E+02   2.200000E+01   20634-002-0    1.080645E+00
+      T.Hashimoto             EXFOR                1988        1.860000E+02   1.300000E+01   23227-002-0    1.000000E+00

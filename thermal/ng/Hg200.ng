@@ -1,0 +1,26 @@
+# header:
+#   title: Hg200(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 80
+#   A: 200
+#   nuclide: Hg200
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  1.400000E+00
+#   selected value uncertainty [b]:  0.000000E+00
+#   selected value source: RIPL-3
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 6
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      RIPL-3                  Compilation          2004        1.400000E+00   0.000000E+00                  1.000000E+00
+      S.F.Mughabghab          EXFOR                2006        1.400000E+00   0.000000E+00   V1002-501-2    1.000000E+00
+      jeff3.3                 NDL                  2020        2.984210E+01   0.000000E+00                  2.131579E+01
+      jendl5.0                NDL                  2021        1.435610E+00   0.000000E+00                  1.025436E+00
+      tendl.2023              NDL                  2023        1.381720E+00   0.000000E+00                  9.869428E-01
+      endfb8.1                NDL                  2024        1.442910E+00   0.000000E+00                  1.030650E+00

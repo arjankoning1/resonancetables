@@ -1,0 +1,31 @@
+# header:
+#   title: Lu175(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 71
+#   A: 175
+#   nuclide: Lu175
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  2.330000E+01
+#   selected value uncertainty [b]:  1.100000E+00
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 11
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      A.H.Baston              EXFOR                1960        2.300000E+01   3.000000E+00   21322-004-0    9.871245E-01
+      T.E.Young               EXFOR                1970        1.550000E+01   0.000000E+00   14026-005-0    6.652361E-01
+      F.Widder                EXFOR                1975        2.577300E+01   9.368000E-01   20437-010-0    1.106137E+00
+      RIPL-3                  Compilation          2004        2.400000E+01   1.100000E+00                  1.030043E+00
+      Mughabghab_2006         Compilation          2006        2.330000E+01   1.100000E+00                  1.000000E+00
+      Sukhoruchkin            Compilation          2015        2.310000E+01   1.100000E+00                  9.914163E-01
+      Mughabghab_2016         Compilation          2016        2.330000E+01   1.100000E+00                  1.000000E+00
+      jeff3.3                 NDL                  2020        2.328530E+01   0.000000E+00                  9.993691E-01
+      jendl5.0                NDL                  2021        2.294180E+01   0.000000E+00                  9.846266E-01
+      tendl.2023              NDL                  2023        2.334140E+01   0.000000E+00                  1.001777E+00
+      endfb8.1                NDL                  2024        2.307430E+01   0.000000E+00                  9.903134E-01

@@ -1,0 +1,29 @@
+# header:
+#   title: Ce136(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 58
+#   A: 136
+#   nuclide: Ce136
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  4.250000E+00
+#   selected value uncertainty [b]:  1.800000E-01
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 9
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      H.Pomerance             EXFOR                1952        2.500000E+01   2.500000E+01   11507-073-0    5.882353E+00
+      A.R.Brosi               EXFOR                1956        7.000000E+00   0.000000E+00   12062-002-3    1.647059E+00
+      RIPL-3                  Compilation          2004        7.500000E+00   0.000000E+00                  1.764706E+00
+      Mughabghab_2016         Compilation          2016        4.250000E+00   1.800000E-01                  1.000000E+00
+      cendl3.2                NDL                  2019        7.455460E+00   0.000000E+00                  1.754226E+00
+      jeff3.3                 NDL                  2020        7.508670E+00   0.000000E+00                  1.766746E+00
+      jendl5.0                NDL                  2021        4.228470E+00   0.000000E+00                  9.949341E-01
+      tendl.2023              NDL                  2023        4.253090E+00   0.000000E+00                  1.000727E+00
+      endfb8.1                NDL                  2024        7.455460E+00   0.000000E+00                  1.754226E+00

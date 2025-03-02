@@ -1,0 +1,34 @@
+# header:
+#   title: S034(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 16
+#   A: 34
+#   nuclide: S034
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  2.560000E-01
+#   selected value uncertainty [b]:  9.000000E-03
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 14
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      L.Seren                 EXFOR                1947        2.600000E-01   5.200000E-02   11447-009-0    1.015625E+00
+      R.W.Durham              EXFOR                1961        2.700000E-01   4.000000E-02   11549-002-0    1.054688E+00
+      D.W.Kappe               EXFOR                1966        2.380000E-01   9.520000E-03   11277-003-2    9.296875E-01
+      H.Ishikawa              EXFOR                1973        2.300000E-01   3.000000E-03   20301-004-0    8.984375E-01
+      S.Raman                 EXFOR                1985        2.940000E-01   1.500000E-02   12896-003-0    1.148438E+00
+      H.Beer                  EXFOR                1997        2.493000E-01   9.000000E-03   22446-003-2    9.738281E-01
+      H.Beer                  EXFOR                1997        2.443000E-01   8.800000E-03   22446-003-1    9.542968E-01
+      RIPL-3                  Compilation          2004        2.900000E-01   6.000000E-02                  1.132812E+00
+      Mughabghab_2016         Compilation          2016        2.560000E-01   9.000000E-03                  1.000000E+00
+      cendl3.2                NDL                  2019        2.236010E-01   0.000000E+00                  8.734413E-01
+      jeff3.3                 NDL                  2020        2.560330E-01   0.000000E+00                  1.000129E+00
+      jendl5.0                NDL                  2021        2.236010E-01   0.000000E+00                  8.734413E-01
+      tendl.2023              NDL                  2023        2.579370E-01   0.000000E+00                  1.007566E+00
+      endfb8.1                NDL                  2024        2.236010E-01   0.000000E+00                  8.734413E-01

@@ -1,0 +1,26 @@
+# header:
+#   title: Ar039(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 18
+#   A: 39
+#   nuclide: Ar039
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  6.000000E+02
+#   selected value uncertainty [b]:  3.000000E+02
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 6
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      RIPL-3                  Compilation          2004        6.000000E+02   2.000000E+02                  1.000000E+00
+      Mughabghab_2016         Compilation          2016        6.000000E+02   3.000000E+02                  1.000000E+00
+      jeff3.3                 NDL                  2020        6.010560E+02   0.000000E+00                  1.001760E+00
+      jendl5.0                NDL                  2021        5.652730E+02   0.000000E+00                  9.421217E-01
+      tendl.2023              NDL                  2023        6.221260E+02   0.000000E+00                  1.036877E+00
+      endfb8.1                NDL                  2024        2.636790E-03   0.000000E+00                  4.394650E-06

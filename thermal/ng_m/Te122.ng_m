@@ -1,0 +1,27 @@
+# header:
+#   title: Te122(n,g)_m thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 52
+#   A: 122
+#   nuclide: Te122
+# reaction:
+#   type: (n,g)_m
+# observables:
+#   selected value [b]:  1.100000E+00
+#   selected value uncertainty [b]:  5.000000E-01
+#   selected value source: RIPL-3
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 7
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      R.Hill                  EXFOR                1949        1.000000E+00   0.000000E+00   11998-003-0    9.090909E-01
+      H.Pomerance             EXFOR                1952        2.700000E+00   9.450000E-01   11507-061-0    2.454545E+00
+      V.G.Alpatov             EXFOR                1990        4.400000E-01   3.000000E-02   41039-002-0    4.000000E-01
+      V.G.Alpatov             EXFOR                1995        4.400000E-01   3.000000E-02   41168-002-0    4.000000E-01
+      I.Tomandl               EXFOR                2003        4.000000E+00   6.000000E-01   31567-002-0    3.636364E+00
+      RIPL-3                  Compilation          2004        1.100000E+00   5.000000E-01                  1.000000E+00
+      M.C.Eastman             EXFOR                2008        4.180000E-01   2.700000E-02   14165-004-0    3.800000E-01

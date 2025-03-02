@@ -1,0 +1,26 @@
+# header:
+#   title: Fe059(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 26
+#   A: 59
+#   nuclide: Fe059
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  1.300000E+01
+#   selected value uncertainty [b]:  3.000000E+00
+#   selected value source: RIPL-3
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 6
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      A.Elhardt               EXFOR                1998        7.000000E+00   1.400000E+00   23811-002-0    5.384616E-01
+      K.Knie                  EXFOR                2003        6.000000E+00   1.300000E+00   23795-002-0    4.615385E-01
+      RIPL-3                  Compilation          2004        1.300000E+01   3.000000E+00                  1.000000E+00
+      jeff3.3                 NDL                  2020        1.295910E+01   0.000000E+00                  9.968538E-01
+      jendl5.0                NDL                  2021        1.000040E+00   0.000000E+00                  7.692616E-02
+      tendl.2023              NDL                  2023        1.299980E+01   0.000000E+00                  9.999846E-01

@@ -1,0 +1,27 @@
+# header:
+#   title: Mo094(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 42
+#   A: 94
+#   nuclide: Mo094
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  3.400000E-01
+#   selected value uncertainty [b]:  6.000000E-02
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 7
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      RIPL-3                  Compilation          2004        1.500000E-02   0.000000E+00                  4.411764E-02
+      Mughabghab_2016         Compilation          2016        3.400000E-01   6.000000E-02                  1.000000E+00
+      cendl3.2                NDL                  2019        3.403200E-01   0.000000E+00                  1.000941E+00
+      jeff3.3                 NDL                  2020        3.391320E-01   0.000000E+00                  9.974471E-01
+      jendl5.0                NDL                  2021        3.391320E-01   0.000000E+00                  9.974471E-01
+      tendl.2023              NDL                  2023        3.416320E-01   0.000000E+00                  1.004800E+00
+      endfb8.1                NDL                  2024        3.403200E-01   0.000000E+00                  1.000941E+00

@@ -1,0 +1,24 @@
+# header:
+#   title: C014(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 6
+#   A: 14
+#   nuclide: C014
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  1.000000E-06
+#   selected value uncertainty [b]:  0.000000E+00
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      RIPL-3                  Compilation          2004        1.000000E-06   0.000000E+00                  1.000000E+00
+      Mughabghab_2016         Compilation          2016        1.000000E-06   0.000000E+00                  1.000000E+00
+      jendl5.0                NDL                  2021        3.083290E-07   0.000000E+00                  3.083290E-01
+      tendl.2023              NDL                  2023        3.244160E-03   0.000000E+00                  3.244160E+03

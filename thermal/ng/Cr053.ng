@@ -1,0 +1,28 @@
+# header:
+#   title: Cr053(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 24
+#   A: 53
+#   nuclide: Cr053
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  1.860000E+01
+#   selected value uncertainty [b]:  6.000000E-01
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 8
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      H.Pomerance             EXFOR                1952        1.750000E+01   1.400000E+00   11507-020-0    9.408602E-01
+      RIPL-3                  Compilation          2004        1.800000E+01   2.000000E+00                  9.677419E-01
+      Mughabghab_2016         Compilation          2016        1.860000E+01   6.000000E-01                  1.000000E+00
+      cendl3.2                NDL                  2019        1.821230E+01   0.000000E+00                  9.791558E-01
+      jeff3.3                 NDL                  2020        1.808730E+01   0.000000E+00                  9.724354E-01
+      jendl5.0                NDL                  2021        1.840590E+01   0.000000E+00                  9.895644E-01
+      tendl.2023              NDL                  2023        1.906190E+01   0.000000E+00                  1.024833E+00
+      endfb8.1                NDL                  2024        1.939490E+01   0.000000E+00                  1.042737E+00

@@ -1,0 +1,29 @@
+# header:
+#   title: Y091(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 39
+#   A: 91
+#   nuclide: Y091
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  1.400000E+00
+#   selected value uncertainty [b]:  3.000000E-01
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 9
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      T.A.Eastwood            EXFOR                1958        1.000000E+01   0.000000E+00   12011-012-0    7.142857E+00
+      G.Milton                EXFOR                1960        1.400000E+00   3.000000E-01   12604-002-0    1.000000E+00
+      RIPL-3                  Compilation          2004        1.400000E+00   3.000000E-01                  1.000000E+00
+      Mughabghab_2016         Compilation          2016        1.400000E+00   3.000000E-01                  1.000000E+00
+      cendl3.2                NDL                  2019        1.407530E+00   0.000000E+00                  1.005379E+00
+      jeff3.3                 NDL                  2020        1.395240E+00   0.000000E+00                  9.966000E-01
+      jendl5.0                NDL                  2021        1.400050E+00   0.000000E+00                  1.000036E+00
+      tendl.2023              NDL                  2023        1.399310E+00   0.000000E+00                  9.995071E-01
+      endfb8.1                NDL                  2024        1.400050E+00   0.000000E+00                  1.000036E+00

@@ -1,0 +1,24 @@
+# header:
+#   title: Na022(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 11
+#   A: 22
+#   nuclide: Na022
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  2.830000E+04
+#   selected value uncertainty [b]:  6.000000E+02
+#   selected value source: R.D.Werner
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      U.Farinelli             EXFOR                1963        9.000000E+04   1.000000E+04   21427-002-0    3.180212E+00
+      G.H.E.Sims              EXFOR                1967        3.940000E+04   0.000000E+00   10555-004-0    1.392226E+00
+      R.D.Werner              EXFOR                1972        2.830000E+04   6.000000E+02   10293-002-0    1.000000E+00
+      Sukhoruchkin            Compilation          2015        2.520000E+02   5.000000E+00                  8.904594E-03

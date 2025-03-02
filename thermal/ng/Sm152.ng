@@ -1,0 +1,43 @@
+# header:
+#   title: Sm152(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 62
+#   A: 152
+#   nuclide: Sm152
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  2.060000E+02
+#   selected value uncertainty [b]:  3.000000E+00
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 23
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      L.Seren                 EXFOR                1947        1.380000E+02   2.760000E+01   11447-096-0    6.699029E-01
+      W.H.Walker              EXFOR                1956        2.500000E+02   5.000000E+01   12127-008-0    1.213592E+00
+      N.J.Pattenden           EXFOR                1958        2.000000E+02   6.000000E+00   21325-012-0    9.708738E-01
+      E.Fehr                  EXFOR                1960        2.150000E+02   1.000000E+01   12023-006-0    1.043689E+00
+      R.B.Tattersall          EXFOR                1960        2.240000E+02   7.000000E+00   20638-048-0    1.087379E+00
+      R.E.Chrien              EXFOR                1961        2.240000E+02   1.800000E+01   14457-004-0    1.087379E+00
+      M.J.Cabell              EXFOR                1962        2.090000E+02   9.000000E+00   20627-002-0    1.014563E+00
+      F.De Corte              EXFOR                1988        2.200000E+02   5.280000E+00   23488-067-0    1.067961E+00
+      RIPL-3                  Compilation          2004        2.060000E+02   1.500000E+01                  1.000000E+00
+      Mughabghab_2006         Compilation          2006        2.060000E+02   6.000000E+00                  1.000000E+00
+      B.J.B.Nyarko            EXFOR                2010        2.389300E+02   1.911000E+01   31698-006-0    1.159854E+00
+      S.E.Agbemava            EXFOR                2011        2.073000E+02   9.400000E+00   31717-003-0    1.006311E+00
+      F.Farina Arbocco        EXFOR                2013        2.070000E+02   1.000000E+00   23266-134-0    1.004854E+00
+      F.Farina Arbocco        EXFOR                2013        2.070000E+02   0.000000E+00   23266-135-0    1.004854E+00
+      F.Farina Arbocco        EXFOR                2013        2.350000E+02   0.000000E+00   23266-135-0    1.140777E+00
+      F.Farina Arbocco        EXFOR                2013        2.060000E+02   0.000000E+00   23266-135-0    1.000000E+00
+      Mughabghab_2016         Compilation          2016        2.060000E+02   3.000000E+00                  1.000000E+00
+      V.D.Nguyen              EXFOR                2017        2.120000E+02   8.000000E+00   30843-002-0    1.029126E+00
+      cendl3.2                NDL                  2019        2.066390E+02   0.000000E+00                  1.003102E+00
+      jeff3.3                 NDL                  2020        2.059730E+02   0.000000E+00                  9.998690E-01
+      jendl5.0                NDL                  2021        2.058410E+02   0.000000E+00                  9.992282E-01
+      tendl.2023              NDL                  2023        2.059700E+02   0.000000E+00                  9.998544E-01
+      endfb8.1                NDL                  2024        2.059450E+02   0.000000E+00                  9.997330E-01

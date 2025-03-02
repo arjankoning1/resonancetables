@@ -1,0 +1,26 @@
+# header:
+#   title: Cf251(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 98
+#   A: 251
+#   nuclide: Cf251
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  2.850000E+03
+#   selected value uncertainty [b]:  1.500000E+02
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 6
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      L.B.Magnusson           EXFOR                1954        3.000000E+03   0.000000E+00   12568-004-0    1.052632E+00
+      Mughabghab_2016         Compilation          2016        2.850000E+03   1.500000E+02                  1.000000E+00
+      jeff3.3                 NDL                  2020        2.861630E+03   0.000000E+00                  1.004081E+00
+      jendl5.0                NDL                  2021        2.863390E+03   0.000000E+00                  1.004698E+00
+      tendl.2023              NDL                  2023        2.893180E+03   0.000000E+00                  1.015151E+00
+      endfb8.1                NDL                  2024        2.863390E+03   0.000000E+00                  1.004698E+00

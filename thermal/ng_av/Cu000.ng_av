@@ -1,0 +1,29 @@
+# header:
+#   title: Cu000(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 29
+#   A: 0
+#   nuclide: Cu000
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  3.782000E+00
+#   selected value uncertainty [b]:  1.500000E-02
+#   selected value source: Firestone
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 9
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      J.Coltman               EXFOR                1946        3.400000E+00   3.000000E-01   12616-013-0    8.989952E-01
+      S.P.Harris              EXFOR                1950        3.710000E+00   0.000000E+00   11528-015-0    9.809625E-01
+      H.Pomerance             EXFOR                1951        3.570000E+00   1.785000E-01   11047-023-0    9.439450E-01
+      Yu.A.Prokhorov          EXFOR                1956        3.800000E+00   1.000000E-01   41648-009-0    1.004759E+00
+      J.W.Wade                EXFOR                1957        3.790000E+00   1.200000E-01   11777-002-0    1.002115E+00
+      D.J.Donahue             EXFOR                1960        3.790000E+00   4.000000E-02   11779-002-0    1.002115E+00
+      J.Bouzyk                EXFOR                1963        3.620000E+00   1.200000E-01   31100-004-0    9.571655E-01
+      V.Markovic              EXFOR                1971        3.850000E+00   5.000000E-02   30289-002-0    1.017980E+00
+      Firestone               Compilation          2022        3.782000E+00   1.500000E-02                  1.000000E+00

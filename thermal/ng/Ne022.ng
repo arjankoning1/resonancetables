@@ -1,0 +1,30 @@
+# header:
+#   title: Ne022(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 10
+#   A: 22
+#   nuclide: Ne022
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  5.270000E-02
+#   selected value uncertainty [b]:  7.000000E-04
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 10
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      A.J.Ferguson            EXFOR                1952        3.600000E-02   1.500000E-02   14780-002-0    6.831119E-01
+      E.Selin                 EXFOR                1970        4.700000E-02   0.000000E+00   23510-004-1    8.918405E-01
+      D.Bellmann              EXFOR                1971        5.100000E-02   4.500000E-03   23482-005-0    9.677419E-01
+      RIPL-3                  Compilation          2004        5.000000E-02   1.000000E-02                  9.487666E-01
+      T.Belgya                EXFOR                2009        5.270000E-02   7.000000E-04   31670-003-0    1.000000E+00
+      Mughabghab_2016         Compilation          2016        5.270000E-02   7.000000E-04                  1.000000E+00
+      jeff3.3                 NDL                  2020        4.549420E-02   0.000000E+00                  8.632675E-01
+      jendl5.0                NDL                  2021        5.270150E-02   0.000000E+00                  1.000028E+00
+      tendl.2023              NDL                  2023        5.269820E-02   0.000000E+00                  9.999658E-01
+      endfb8.1                NDL                  2024        4.549420E-02   0.000000E+00                  8.632675E-01

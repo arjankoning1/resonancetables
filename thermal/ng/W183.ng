@@ -1,0 +1,31 @@
+# header:
+#   title: W183(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 74
+#   A: 183
+#   nuclide: W183
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  1.040000E+01
+#   selected value uncertainty [b]:  2.000000E-01
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 11
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      H.Pomerance             EXFOR                1952        1.090000E+01   1.090000E+00   11507-092-0    1.048077E+00
+      S.J.Friesenhahn         EXFOR                1966        1.000000E+01   3.000000E-01   12167-005-0    9.615385E-01
+      RIPL-3                  Compilation          2004        1.050000E+01   3.000000E-01                  1.009615E+00
+      Mughabghab_2006         Compilation          2006        1.040000E+01   2.000000E-01                  1.000000E+00
+      Sukhoruchkin            Compilation          2015        1.040000E+01   2.000000E-01                  1.000000E+00
+      Mughabghab_2016         Compilation          2016        1.040000E+01   2.000000E-01                  1.000000E+00
+      cendl3.2                NDL                  2019        1.040190E+01   0.000000E+00                  1.000183E+00
+      jeff3.3                 NDL                  2020        1.030060E+01   0.000000E+00                  9.904423E-01
+      jendl5.0                NDL                  2021        1.040190E+01   0.000000E+00                  1.000183E+00
+      tendl.2023              NDL                  2023        1.041160E+01   0.000000E+00                  1.001115E+00
+      endfb8.1                NDL                  2024        9.868740E+00   0.000000E+00                  9.489173E-01

@@ -1,0 +1,29 @@
+# header:
+#   title: Cd110(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 48
+#   A: 110
+#   nuclide: Cd110
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  1.100000E+01
+#   selected value uncertainty [b]:  1.000000E+00
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 9
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      M.Goldhaber             EXFOR                1947        2.000000E-01   0.000000E+00   11986-002-0    1.818182E-02
+      C.R.Baldock             EXFOR                1966        1.100000E+01   1.000000E+00   11769-002-0    1.000000E+00
+      RIPL-3                  Compilation          2004        1.106000E+01   1.000000E+00                  1.005455E+00
+      K.Volev                 EXFOR                2013        1.099900E+01   0.000000E+00   23196-004-2    9.999090E-01
+      Mughabghab_2016         Compilation          2016        1.100000E+01   1.000000E+00                  1.000000E+00
+      jeff3.3                 NDL                  2020        1.099820E+01   0.000000E+00                  9.998364E-01
+      jendl5.0                NDL                  2021        1.105380E+01   0.000000E+00                  1.004891E+00
+      tendl.2023              NDL                  2023        1.099910E+01   0.000000E+00                  9.999182E-01
+      endfb8.1                NDL                  2024        1.099820E+01   0.000000E+00                  9.998364E-01

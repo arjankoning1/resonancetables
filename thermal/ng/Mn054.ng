@@ -1,0 +1,27 @@
+# header:
+#   title: Mn054(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 25
+#   A: 54
+#   nuclide: Mn054
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  3.800000E+01
+#   selected value uncertainty [b]:  0.000000E+00
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 7
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      C.Hogg                  EXFOR                1964        1.000000E+01   0.000000E+00   12618-002-0    2.631579E-01
+      RIPL-3                  Compilation          2004        1.000000E+01   0.000000E+00                  2.631579E-01
+      Mughabghab_2016         Compilation          2016        3.800000E+01   0.000000E+00                  1.000000E+00
+      jeff3.3                 NDL                  2020        3.779320E+01   0.000000E+00                  9.945579E-01
+      jendl5.0                NDL                  2021        3.800130E+01   0.000000E+00                  1.000034E+00
+      tendl.2023              NDL                  2023        3.803550E+01   0.000000E+00                  1.000934E+00
+      endfb8.1                NDL                  2024        3.779320E+01   0.000000E+00                  9.945579E-01

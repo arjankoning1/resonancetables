@@ -1,0 +1,27 @@
+# header:
+#   title: Ar036(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 18
+#   A: 36
+#   nuclide: Ar036
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  5.200000E+00
+#   selected value uncertainty [b]:  5.000000E-01
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 7
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      G.E.Mc Murtrie          EXFOR                1950        6.500000E+00   1.000000E+00   13573-002-0    1.250000E+00
+      RIPL-3                  Compilation          2004        5.600000E+00   5.000000E-01                  1.076923E+00
+      Mughabghab_2016         Compilation          2016        5.200000E+00   5.000000E-01                  1.000000E+00
+      jeff3.3                 NDL                  2020        5.195090E+00   0.000000E+00                  9.990557E-01
+      jendl5.0                NDL                  2021        5.242120E+00   0.000000E+00                  1.008100E+00
+      tendl.2023              NDL                  2023        5.196040E+00   0.000000E+00                  9.992386E-01
+      endfb8.1                NDL                  2024        5.043900E+00   0.000000E+00                  9.699808E-01

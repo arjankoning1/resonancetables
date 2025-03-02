@@ -1,0 +1,31 @@
+# header:
+#   title: Sr088(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 38
+#   A: 88
+#   nuclide: Sr088
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  5.500000E-03
+#   selected value uncertainty [b]:  4.000000E-04
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 11
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      L.Seren                 EXFOR                1947        5.000000E-03   1.000000E-03   11447-050-0    9.090909E-01
+      T.A.Eastwood            EXFOR                1958        5.800000E-03   4.060000E-04   12011-010-0    1.054545E+00
+      J.C.Roy                 EXFOR                1958        5.800000E+00   4.000000E-01   11847-003-0    1.054546E+03
+      RIPL-3                  Compilation          2004        5.800000E-03   4.000000E-04                  1.054545E+00
+      Mughabghab_2016         Compilation          2016        5.500000E-03   4.000000E-04                  1.000000E+00
+      cendl3.2                NDL                  2019        8.686600E-03   0.000000E+00                  1.579382E+00
+      jeff3.3                 NDL                  2020        5.776930E-03   0.000000E+00                  1.050351E+00
+      K.S.Krane               EXFOR                2021        4.070000E-03   1.800000E-04   14714-011-2    7.399999E-01
+      K.S.Krane               EXFOR                2021        4.070000E-03   1.800000E-04   14714-011-1    7.399999E-01
+      jendl5.0                NDL                  2021        5.800460E-03   0.000000E+00                  1.054629E+00
+      tendl.2023              NDL                  2023        5.364780E-03   0.000000E+00                  9.754145E-01

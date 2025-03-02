@@ -1,0 +1,25 @@
+# header:
+#   title: Sm000(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 62
+#   A: 0
+#   nuclide: Sm000
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  5.840000E+03
+#   selected value uncertainty [b]:  3.000000E+01
+#   selected value source: Firestone
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      S.P.Harris              EXFOR                1950        8.200000E+03   0.000000E+00   11528-038-0    1.404110E+00
+      H.Pomerance             EXFOR                1951        1.060000E+04   0.000000E+00   11047-048-0    1.815068E+00
+      K.L.Aitken              EXFOR                1957        1.038000E+04   1.600000E+02   21184-002-2    1.777397E+00
+      R.B.Tattersall          EXFOR                1960        9.420000E+03   9.000000E+01   20638-076-0    1.613014E+00
+      Firestone               Compilation          2022        5.840000E+03   3.000000E+01                  1.000000E+00

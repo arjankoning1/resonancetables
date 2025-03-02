@@ -1,0 +1,48 @@
+# header:
+#   title: Zr096(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 40
+#   A: 96
+#   nuclide: Zr096
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  2.060000E-02
+#   selected value uncertainty [b]:  7.000000E-04
+#   selected value source: Kayzero
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 28
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      H.Pomerance             EXFOR                1952        1.000000E-01   1.000000E-01   11507-049-0    4.854369E+00
+      W.A.Brooksbank          EXFOR                1955        5.400000E-02   5.400000E-03   11426-013-0    2.621359E+00
+      M.D.Ricabarra           EXFOR                1970        5.700000E-03   1.000000E-03   30188-004-0    2.766990E-01
+      R.H.Fulmer              EXFOR                1971        2.000000E-02   3.000000E-03   10192-004-0    9.708738E-01
+      D.C.Santry              EXFOR                1973        2.010000E-02   1.100000E-03   10385-007-0    9.757281E-01
+      D.C.Santry              EXFOR                1973        2.290000E-02   1.000000E-03   10385-003-0    1.111650E+00
+      J.M.Wyrick              EXFOR                1982        2.030000E-02   6.000000E-04   12831-003-0    9.854369E-01
+      F.De Corte              EXFOR                1988        2.130000E-02   2.130000E-04   23488-034-0    1.033980E+00
+      S.Nakamura              EXFOR                2003        4.380000E-02   5.600000E-03   22834-008-0    2.126214E+00
+      RIPL-3                  Compilation          2004        2.000000E-02   3.000000E-03                  9.708738E-01
+      P.M.Prajapati           EXFOR                2012        2.430000E-02   3.880000E-03   33037-003-0    1.179612E+00
+      K.S.Krane               EXFOR                2014        2.190000E-02   1.100000E-03   14407-020-0    1.063107E+00
+      K.S.Krane               EXFOR                2014        2.010000E-02   1.100000E-03   14407-019-0    9.757281E-01
+      K.S.Krane               EXFOR                2014        1.900000E-02   4.000000E-03   14407-018-0    9.223300E-01
+      K.S.Krane               EXFOR                2014        2.100000E-02   3.000000E-03   14407-017-0    1.019417E+00
+      K.S.Krane               EXFOR                2014        2.200000E-02   9.000000E-03   14407-016-0    1.067961E+00
+      K.S.Krane               EXFOR                2014        2.300000E-02   9.000000E-03   14407-015-0    1.116505E+00
+      K.S.Krane               EXFOR                2014        2.100000E-02   1.300000E-02   14407-014-0    1.019417E+00
+      F.Farina Arbocco        EXFOR                2014        2.130000E-02   0.000000E+00   23260-077-0    1.033980E+00
+      F.Farina Arbocco        EXFOR                2014        2.110000E-02   0.000000E+00   23260-077-0    1.024272E+00
+      F.Farina Arbocco        EXFOR                2014        2.110000E-02   2.000000E-04   23260-076-0    1.024272E+00
+      Mughabghab_2016         Compilation          2016        2.110000E-02   6.000000E-04                  1.024272E+00
+      Kayzero                 Compilation          2018        2.060000E-02   7.000000E-04                  1.000000E+00
+      cendl3.2                NDL                  2019        2.280460E-02   0.000000E+00                  1.107019E+00
+      jeff3.3                 NDL                  2020        2.284700E-02   0.000000E+00                  1.109078E+00
+      jendl5.0                NDL                  2021        2.230410E-02   0.000000E+00                  1.082723E+00
+      tendl.2023              NDL                  2023        2.107940E-02   0.000000E+00                  1.023272E+00
+      endfb8.1                NDL                  2024        2.031180E-02   0.000000E+00                  9.860097E-01

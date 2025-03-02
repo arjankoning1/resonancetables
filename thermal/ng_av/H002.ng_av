@@ -1,0 +1,26 @@
+# header:
+#   title: H002(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 1
+#   A: 2
+#   nuclide: H002
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  5.080000E-04
+#   selected value uncertainty [b]:  1.500000E-05
+#   selected value source: Mughabghab_2006
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 6
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      B.W.Sargent             EXFOR                1947        9.200000E-04   2.200000E-04   11157-002-0    1.811024E+00
+      L.Kaplan                EXFOR                1952        5.700000E-04   1.000000E-05   11054-002-0    1.122047E+00
+      E.Jurney                EXFOR                1963        6.000000E-04   5.000000E-05   11133-002-0    1.181102E+00
+      H.Ishikawa              EXFOR                1973        5.500000E-04   1.000000E-05   20301-002-0    1.082677E+00
+      E.T.Jurney              EXFOR                1982        5.080000E-04   1.500000E-05   12744-002-0    1.000000E+00
+      Mughabghab_2006         Compilation          2006        5.080000E-04   1.500000E-05                  1.000000E+00

@@ -1,0 +1,24 @@
+# header:
+#   title: Sb121(n,g)_m thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 51
+#   A: 121
+#   nuclide: Sb121
+# reaction:
+#   type: (n,g)_m
+# observables:
+#   selected value [b]:  6.000000E-02
+#   selected value uncertainty [b]:  1.000000E-02
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      M.Sehgal                EXFOR                1959        1.900000E-01   3.000000E-02   31244-009-0    3.166667E+00
+      E.Der Mateosian         EXFOR                1962        5.700000E-02   1.000000E-02   11993-003-0    9.500000E-01
+      RIPL-3                  Compilation          2004        4.000000E-01   0.000000E+00                  6.666667E+00
+      Mughabghab_2016         Compilation          2016        6.000000E-02   1.000000E-02                  1.000000E+00

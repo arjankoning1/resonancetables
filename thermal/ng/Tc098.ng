@@ -1,0 +1,26 @@
+# header:
+#   title: Tc098(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 43
+#   A: 98
+#   nuclide: Tc098
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  9.300000E-01
+#   selected value uncertainty [b]:  2.000000E-02
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 6
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      RIPL-3                  Compilation          2004        9.300000E-01   2.000000E-01                  1.000000E+00
+      Mughabghab_2016         Compilation          2016        9.300000E-01   2.000000E-02                  1.000000E+00
+      jeff3.3                 NDL                  2020        9.269360E-01   0.000000E+00                  9.967054E-01
+      jendl5.0                NDL                  2021        1.183420E+01   0.000000E+00                  1.272495E+01
+      tendl.2023              NDL                  2023        9.252280E-01   0.000000E+00                  9.948688E-01
+      endfb8.1                NDL                  2024        9.269360E-01   0.000000E+00                  9.967054E-01

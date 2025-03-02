@@ -1,0 +1,27 @@
+# header:
+#   title: Tm170(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 69
+#   A: 170
+#   nuclide: Tm170
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  9.200000E+01
+#   selected value uncertainty [b]:  4.000000E+00
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 7
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      J.H.Gillette            EXFOR                1967        9.200000E+01   4.000000E+00   10259-003-0    1.000000E+00
+      RIPL-3                  Compilation          2004        1.000000E+02   2.000000E+01                  1.086957E+00
+      Mughabghab_2016         Compilation          2016        9.200000E+01   4.000000E+00                  1.000000E+00
+      jeff3.3                 NDL                  2020        9.150270E+01   0.000000E+00                  9.945946E-01
+      jendl5.0                NDL                  2021        9.219720E+01   0.000000E+00                  1.002144E+00
+      tendl.2023              NDL                  2023        9.309170E+01   0.000000E+00                  1.011866E+00
+      endfb8.1                NDL                  2024        9.202880E+01   0.000000E+00                  1.000313E+00

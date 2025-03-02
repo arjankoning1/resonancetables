@@ -1,0 +1,42 @@
+# header:
+#   title: Be009(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 4
+#   A: 9
+#   nuclide: Be009
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  8.270000E-03
+#   selected value uncertainty [b]:  1.300000E-04
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 22
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      D.J.Hughes              EXFOR                1947        9.000000E-03   3.000000E-03   11247-002-0    1.088271E+00
+      R.Nobles                EXFOR                1947        9.000000E-03   0.000000E+00   11184-003-0    1.088271E+00
+      R.Nobles                EXFOR                1947        1.020000E-02   5.000000E-04   11184-002-0    1.233374E+00
+      H.Palevsky              EXFOR                1952        1.000000E-02   1.000000E-03   11204-002-0    1.209190E+00
+      Yu.A.Prokhorov          EXFOR                1956        1.800000E-02   1.000000E-02   41648-003-0    2.176542E+00
+      H.Rose                  EXFOR                1959        8.000000E-03   0.000000E+00   21470-002-0    9.673519E-01
+      L.Jarczyk               EXFOR                1961        7.500000E-03   1.000000E-03   22510-004-0    9.068924E-01
+      R.Vidal                 EXFOR                1963        9.300000E-03   1.600000E-03   21513-003-0    1.124547E+00
+      E.Jurney                EXFOR                1963        9.200000E-03   1.500000E-03   11133-003-0    1.112455E+00
+      C.M.Conneely            EXFOR                1986        8.490000E-03   3.400000E-04   12983-002-0    1.026602E+00
+      RIPL-3                  Compilation          2004        8.000000E-03   1.000000E-03                  9.673519E-01
+      R.B.Firestone           EXFOR                2016        8.270000E-03   1.300000E-04   31768-020-0    1.000000E+00
+      Mughabghab_2016         Compilation          2016        8.270000E-03   1.300000E-04                  1.000000E+00
+      A.Wallner               EXFOR                2019        8.310000E-03   5.200000E-04   23467-006-0    1.004837E+00
+      A.Wallner               EXFOR                2019        8.510000E-03   5.700000E-04   23467-005-0    1.029021E+00
+      A.Wallner               EXFOR                2019        8.110000E-03   5.400000E-04   23467-005-0    9.806529E-01
+      cendl3.2                NDL                  2019        8.600100E-03   0.000000E+00                  1.039915E+00
+      D.J.Marin-Lambarri      EXFOR                2020        9.700000E+00   5.300000E-01   31830-002-0    1.172914E+03
+      jeff3.3                 NDL                  2020        8.773440E-03   0.000000E+00                  1.060875E+00
+      jendl5.0                NDL                  2021        8.490010E-03   0.000000E+00                  1.026603E+00
+      tendl.2023              NDL                  2023        1.003070E-02   0.000000E+00                  1.212902E+00
+      endfb8.1                NDL                  2024        8.373060E-03   0.000000E+00                  1.012462E+00

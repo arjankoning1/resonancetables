@@ -1,0 +1,26 @@
+# header:
+#   title: W000(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 74
+#   A: 0
+#   nuclide: W000
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  1.830000E+01
+#   selected value uncertainty [b]:  5.000000E-01
+#   selected value source: S.J.Friesenhahn
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 6
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      H.Pomerance             EXFOR                1951        1.770000E+01   8.000000E-01   11047-058-0    9.672132E-01
+      Yu.A.Prokhorov          EXFOR                1956        1.940000E+01   7.000000E-01   41648-012-0    1.060109E+00
+      R.B.Tattersall          EXFOR                1960        1.900000E+01   5.000000E-01   20638-058-0    1.038251E+00
+      R.E.Schmunk             EXFOR                1960        1.880000E+01   8.000000E-01   11634-008-0    1.027322E+00
+      S.J.Friesenhahn         EXFOR                1966        1.810000E+01   0.000000E+00   12167-010-0    9.890711E-01
+      S.J.Friesenhahn         EXFOR                1966        1.830000E+01   5.000000E-01   12167-002-0    1.000000E+00

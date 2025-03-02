@@ -1,0 +1,24 @@
+# header:
+#   title: Ba130(n,g)_g thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 56
+#   A: 130
+#   nuclide: Ba130
+# reaction:
+#   type: (n,g)_g
+# observables:
+#   selected value [b]:  7.500000E+00
+#   selected value uncertainty [b]:  1.900000E-01
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      H.Arino                 EXFOR                1964        1.370000E+01   2.200000E+00   11817-010-0    1.826667E+00
+      RIPL-3                  Compilation          2004        8.000000E+00   9.000000E-01                  1.066667E+00
+      A.Y.Dauenhauer          EXFOR                2012        7.150000E+00   3.400000E-01   14340-003-0    9.533333E-01
+      Mughabghab_2016         Compilation          2016        7.500000E+00   1.900000E-01                  1.000000E+00

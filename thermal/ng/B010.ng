@@ -1,0 +1,30 @@
+# header:
+#   title: B010(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 5
+#   A: 10
+#   nuclide: B010
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  3.940000E-01
+#   selected value uncertainty [b]:  1.500000E-02
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 10
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      G.A.Bartholomew         EXFOR                1957        5.000000E-01   2.000000E-01   11014-004-0    1.269036E+00
+      P.J.J.Kok               EXFOR                1986        2.900000E-01   4.000000E-02   23486-002-0    7.360406E-01
+      RIPL-3                  Compilation          2004        3.000000E-01   1.000000E-01                  7.614214E-01
+      R.B.Firestone           EXFOR                2016        3.940000E-01   1.500000E-02   31768-014-0    1.000000E+00
+      Mughabghab_2016         Compilation          2016        3.940000E-01   1.500000E-02                  1.000000E+00
+      cendl3.2                NDL                  2019        4.998670E-01   0.000000E+00                  1.268698E+00
+      jeff3.3                 NDL                  2020        4.998670E-01   0.000000E+00                  1.268698E+00
+      jendl5.0                NDL                  2021        5.000000E-01   0.000000E+00                  1.269036E+00
+      tendl.2023              NDL                  2023        3.960570E-01   0.000000E+00                  1.005221E+00
+      endfb8.1                NDL                  2024        3.960570E-01   0.000000E+00                  1.005221E+00

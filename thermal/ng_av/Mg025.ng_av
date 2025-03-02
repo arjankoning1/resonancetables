@@ -1,0 +1,27 @@
+# header:
+#   title: Mg025(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 12
+#   A: 25
+#   nuclide: Mg025
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  1.990000E-01
+#   selected value uncertainty [b]:  3.000000E-03
+#   selected value source: Mughabghab_2006
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 7
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      H.Pomerance             EXFOR                1952        2.700000E-01   8.100000E-02   11507-003-0    1.356784E+00
+      P.Spilling              EXFOR                1967        1.810000E-01   5.000000E-02   20214-005-0    9.095477E-01
+      E.Selin                 EXFOR                1970        1.250000E-01   3.000000E-02   20219-003-0    6.281407E-01
+      W.V.Prestwich           EXFOR                1990        2.010000E-01   9.000000E-03   13192-006-0    1.010050E+00
+      T.A.Walkiewicz          EXFOR                1992        2.000000E-01   3.000000E-03   13544-006-0    1.005025E+00
+      Mughabghab_2006         Compilation          2006        1.990000E-01   3.000000E-03                  1.000000E+00
+      Sukhoruchkin            Compilation          2015        1.900000E-01   4.000000E-03                  9.547738E-01

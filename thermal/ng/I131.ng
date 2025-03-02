@@ -1,0 +1,30 @@
+# header:
+#   title: I131(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 53
+#   A: 131
+#   nuclide: I131
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  7.000000E-01
+#   selected value uncertainty [b]:  0.000000E+00
+#   selected value source: RIPL-3
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 10
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      L.Yaffe                 EXFOR                1949        6.000000E+02   3.000000E+02   12045-002-0    8.571429E+02
+      T.J.Kennet              EXFOR                1958        5.100000E+01   4.000000E+01   12016-002-0    7.285715E+01
+      J.Halperin              EXFOR                1963        7.000000E-01   0.000000E+00   12026-002-0    1.000000E+00
+      D.C.Santry              EXFOR                1977        8.500000E+01   5.000000E+01   14803-003-0    1.214286E+02
+      RIPL-3                  Compilation          2004        7.000000E-01   0.000000E+00                  1.000000E+00
+      cendl3.2                NDL                  2019        8.000270E+01   0.000000E+00                  1.142896E+02
+      jeff3.3                 NDL                  2020        8.000270E+01   0.000000E+00                  1.142896E+02
+      jendl5.0                NDL                  2021        8.000270E+01   0.000000E+00                  1.142896E+02
+      tendl.2023              NDL                  2023        8.010270E+01   0.000000E+00                  1.144324E+02
+      endfb8.1                NDL                  2024        8.000270E+01   0.000000E+00                  1.142896E+02

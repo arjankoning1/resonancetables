@@ -1,0 +1,29 @@
+# header:
+#   title: K040(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 19
+#   A: 40
+#   nuclide: K040
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  3.800000E+01
+#   selected value uncertainty [b]:  8.000000E+00
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 9
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      H.Pomerance             EXFOR                1952        6.600000E+01   1.980000E+01   11507-009-0    1.736842E+00
+      J.H.Gillette            EXFOR                1966        7.000000E+01   0.000000E+00   11603-003-0    1.842105E+00
+      D.F.Beckstrand          EXFOR                1971        3.000000E+01   8.000000E+00   10152-002-0    7.894737E-01
+      RIPL-3                  Compilation          2004        3.000000E+01   8.000000E+00                  7.894737E-01
+      Mughabghab_2016         Compilation          2016        3.800000E+01   8.000000E+00                  1.000000E+00
+      jeff3.3                 NDL                  2020        2.996260E+01   0.000000E+00                  7.884895E-01
+      jendl5.0                NDL                  2021        9.000170E+01   0.000000E+00                  2.368466E+00
+      tendl.2023              NDL                  2023        3.821830E+01   0.000000E+00                  1.005745E+00
+      endfb8.1                NDL                  2024        3.000060E+01   0.000000E+00                  7.894895E-01

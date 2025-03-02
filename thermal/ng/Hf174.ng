@@ -1,0 +1,37 @@
+# header:
+#   title: Hf174(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 72
+#   A: 174
+#   nuclide: Hf174
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  5.760000E+02
+#   selected value uncertainty [b]:  3.600000E+01
+#   selected value source: Kayzero
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 17
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      H.Pomerance             EXFOR                1952        5.000000E+02   5.000000E+02   11507-084-0    8.680556E-01
+      L.Esch                  EXFOR                1961        3.900000E+02   5.500000E+01   11989-004-0    6.770833E-01
+      M.C.Moxon               EXFOR                1974        2.337000E+03   7.500000E+02   22360-013-0    4.057292E+00
+      E.A.Pavlenko            EXFOR                1976        5.610000E+02   5.500000E+01   40464-004-0    9.739583E-01
+      F.De Corte              EXFOR                1988        5.490000E+02   9.882000E+00   23488-080-0    9.531250E-01
+      RIPL-3                  Compilation          2004        6.000000E+02   5.000000E+01                  1.041667E+00
+      Mughabghab_2006         Compilation          2006        6.480000E+02   7.000000E+01                  1.125000E+00
+      F.Farina Arbocco        EXFOR                2014        5.490000E+02   0.000000E+00   23260-132-0    9.531250E-01
+      F.Farina Arbocco        EXFOR                2014        5.490000E+02   6.000000E+00   23260-131-0    9.531250E-01
+      Sukhoruchkin            Compilation          2015        5.490000E+02   7.000000E+00                  9.531250E-01
+      Mughabghab_2016         Compilation          2016        5.490000E+02   8.000000E+00                  9.531250E-01
+      Kayzero                 Compilation          2018        5.760000E+02   3.600000E+01                  1.000000E+00
+      cendl3.2                NDL                  2019        5.616210E+02   0.000000E+00                  9.750364E-01
+      jeff3.3                 NDL                  2020        6.513200E+02   0.000000E+00                  1.130764E+00
+      jendl5.0                NDL                  2021        5.621740E+02   0.000000E+00                  9.759966E-01
+      tendl.2023              NDL                  2023        5.921670E+02   0.000000E+00                  1.028068E+00
+      endfb8.1                NDL                  2024        5.621740E+02   0.000000E+00                  9.759966E-01

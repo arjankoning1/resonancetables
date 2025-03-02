@@ -1,0 +1,28 @@
+# header:
+#   title: Os189(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 76
+#   A: 189
+#   nuclide: Os189
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  2.500000E+01
+#   selected value uncertainty [b]:  4.000000E+00
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 8
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      V.P.Vertebnyy           EXFOR                1975        6.100000E+01   1.600000E+01   40254-013-0    2.440000E+00
+      RIPL-3                  Compilation          2004        4.000000E+01   2.000000E+01                  1.600000E+00
+      Mughabghab_2006         Compilation          2006        2.500000E+01   4.000000E+00                  1.000000E+00
+      Mughabghab_2016         Compilation          2016        2.500000E+01   4.000000E+00                  1.000000E+00
+      jeff3.3                 NDL                  2020        2.487510E+01   0.000000E+00                  9.950039E-01
+      jendl5.0                NDL                  2021        2.499690E+01   0.000000E+00                  9.998760E-01
+      tendl.2023              NDL                  2023        2.521770E+01   0.000000E+00                  1.008708E+00
+      endfb8.1                NDL                  2024        2.499690E+01   0.000000E+00                  9.998760E-01

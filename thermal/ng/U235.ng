@@ -1,0 +1,34 @@
+# header:
+#   title: U235(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 92
+#   A: 235
+#   nuclide: U235
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  9.880000E+01
+#   selected value uncertainty [b]:  8.000000E-01
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 14
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      D.Williams              EXFOR                1946        1.010000E+02   5.000000E+00   12441-002-0    1.022267E+00
+      C.H.Hogg                EXFOR                1960        9.250000E+01   2.000000E+00   12438-005-0    9.362348E-01
+      C.H.Hogg                EXFOR                1960        9.660000E+01   6.800000E+00   12438-002-0    9.777328E-01
+      H.Ceulemans             EXFOR                1970        9.870000E+01   4.500000E+00   20369-008-0    9.989878E-01
+      Mughabghab_2006         Compilation          2006        9.880000E+01   8.000000E-01                  1.000000E+00
+      A.Letourneau            EXFOR                2009        7.901000E+01   9.050000E+00   22941-029-0    7.996963E-01
+      A.Letourneau            EXFOR                2009        9.800000E+01   1.100000E+01   22941-030-0    9.919028E-01
+      A.Wallner               EXFOR                2014        1.005000E+02   2.100000E+00   31719-002-0    1.017206E+00
+      Mughabghab_2016         Compilation          2016        9.880000E+01   8.000000E-01                  1.000000E+00
+      cendl3.2                NDL                  2019        9.935520E+01   0.000000E+00                  1.005619E+00
+      jeff3.3                 NDL                  2020        9.962330E+01   0.000000E+00                  1.008333E+00
+      jendl5.0                NDL                  2021        9.936810E+01   0.000000E+00                  1.005750E+00
+      tendl.2023              NDL                  2023        9.936870E+01   0.000000E+00                  1.005756E+00
+      endfb8.1                NDL                  2024        9.940200E+01   0.000000E+00                  1.006093E+00

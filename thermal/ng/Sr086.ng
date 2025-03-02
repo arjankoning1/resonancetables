@@ -1,0 +1,26 @@
+# header:
+#   title: Sr086(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 38
+#   A: 86
+#   nuclide: Sr086
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  1.040000E+00
+#   selected value uncertainty [b]:  7.000000E-02
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 6
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      RIPL-3                  Compilation          2004        1.010000E+00   7.000000E-02                  9.711539E-01
+      Mughabghab_2016         Compilation          2016        1.040000E+00   7.000000E-02                  1.000000E+00
+      jeff3.3                 NDL                  2020        1.034370E+00   0.000000E+00                  9.945865E-01
+      jendl5.0                NDL                  2021        1.040150E+00   0.000000E+00                  1.000144E+00
+      tendl.2023              NDL                  2023        1.043200E+00   0.000000E+00                  1.003077E+00
+      endfb8.1                NDL                  2024        1.005320E+00   0.000000E+00                  9.666538E-01

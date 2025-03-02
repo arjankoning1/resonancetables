@@ -1,0 +1,26 @@
+# header:
+#   title: Te122(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 52
+#   A: 122
+#   nuclide: Te122
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  3.900000E+00
+#   selected value uncertainty [b]:  4.000000E-01
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 6
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      RIPL-3                  Compilation          2004        3.400000E+00   5.000000E-01                  8.717949E-01
+      Mughabghab_2016         Compilation          2016        3.900000E+00   4.000000E-01                  1.000000E+00
+      jeff3.3                 NDL                  2020        3.915640E+00   0.000000E+00                  1.004010E+00
+      jendl5.0                NDL                  2021        4.007280E+00   0.000000E+00                  1.027508E+00
+      tendl.2023              NDL                  2023        3.914890E+00   0.000000E+00                  1.003818E+00
+      endfb8.1                NDL                  2024        4.007280E+00   0.000000E+00                  1.027508E+00

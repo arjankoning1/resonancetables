@@ -1,0 +1,23 @@
+# header:
+#   title: Zr000(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 40
+#   A: 0
+#   nuclide: Zr000
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  1.880000E-01
+#   selected value uncertainty [b]:  3.000000E-03
+#   selected value source: Firestone
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      H.Pomerance             EXFOR                1951        1.800000E-01   1.800000E-02   11047-033-0    9.574469E-01
+      A.Kocic                 EXFOR                1968        1.880000E-01   8.000000E-03   30295-004-0    1.000000E+00
+      Firestone               Compilation          2022        1.880000E-01   3.000000E-03                  1.000000E+00

@@ -1,0 +1,27 @@
+# header:
+#   title: Ge074(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 32
+#   A: 74
+#   nuclide: Ge074
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  5.000000E-01
+#   selected value uncertainty [b]:  2.000000E-02
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 7
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      RIPL-3                  Compilation          2004        4.200000E-01   4.000000E-02                  8.400000E-01
+      Mughabghab_2016         Compilation          2016        5.000000E-01   2.000000E-02                  1.000000E+00
+      cendl3.2                NDL                  2019        5.301890E-01   0.000000E+00                  1.060378E+00
+      jeff3.3                 NDL                  2020        5.181410E-01   0.000000E+00                  1.036282E+00
+      jendl5.0                NDL                  2021        5.189210E-01   0.000000E+00                  1.037842E+00
+      tendl.2023              NDL                  2023        5.000520E-01   0.000000E+00                  1.000104E+00
+      endfb8.1                NDL                  2024        5.189210E-01   0.000000E+00                  1.037842E+00

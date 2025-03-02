@@ -1,0 +1,31 @@
+# header:
+#   title: Zn067(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 30
+#   A: 67
+#   nuclide: Zn067
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  7.500000E+00
+#   selected value uncertainty [b]:  1.000000E-01
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 11
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      L.N.Bystrov             EXFOR                1968        8.000000E+00   0.000000E+00   40780-003-0    1.066667E+00
+      W.Michaelis             EXFOR                1969        6.900000E+00   0.000000E+00   23372-007-0    9.200000E-01
+      W.Michaelis             EXFOR                1969        6.900000E+00   1.400000E+00   23372-002-0    9.200000E-01
+      H.Ottmar                EXFOR                1971        6.900000E+00   1.400000E+00   20803-005-0    9.200000E-01
+      RIPL-3                  Compilation          2004        6.900000E+00   1.400000E+00                  9.200000E-01
+      Mughabghab_2016         Compilation          2016        7.500000E+00   1.000000E-01                  1.000000E+00
+      cendl3.2                NDL                  2019        7.469650E+00   0.000000E+00                  9.959533E-01
+      jeff3.3                 NDL                  2020        7.534710E+00   0.000000E+00                  1.004628E+00
+      jendl5.0                NDL                  2021        7.469650E+00   0.000000E+00                  9.959533E-01
+      tendl.2023              NDL                  2023        7.497070E+00   0.000000E+00                  9.996093E-01
+      endfb8.1                NDL                  2024        7.469650E+00   0.000000E+00                  9.959533E-01

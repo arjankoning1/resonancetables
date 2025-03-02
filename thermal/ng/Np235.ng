@@ -1,0 +1,27 @@
+# header:
+#   title: Np235(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 93
+#   A: 235
+#   nuclide: Np235
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  1.500000E+02
+#   selected value uncertainty [b]:  2.000000E+00
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 7
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      J.H.Landrum             EXFOR                1972        1.480000E+02   2.220000E+00   10294-002-0    9.866667E-01
+      RIPL-3                  Compilation          2004        1.600000E+02   1.000000E+00                  1.066667E+00
+      Mughabghab_2016         Compilation          2016        1.500000E+02   2.000000E+00                  1.000000E+00
+      jeff3.3                 NDL                  2020        1.550040E+02   0.000000E+00                  1.033360E+00
+      jendl5.0                NDL                  2021        1.550040E+02   0.000000E+00                  1.033360E+00
+      tendl.2023              NDL                  2023        8.604440E+01   0.000000E+00                  5.736294E-01
+      endfb8.1                NDL                  2024        1.550040E+02   0.000000E+00                  1.033360E+00

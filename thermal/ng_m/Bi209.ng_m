@@ -1,0 +1,25 @@
+# header:
+#   title: Bi209(n,g)_m thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 83
+#   A: 209
+#   nuclide: Bi209
+# reaction:
+#   type: (n,g)_m
+# observables:
+#   selected value [b]:  1.820000E-02
+#   selected value uncertainty [b]:  7.000000E-04
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      D.J.Littler             EXFOR                1953        1.030000E-02   2.500000E-03   23520-006-0    5.659341E-01
+      RIPL-3                  Compilation          2004        1.100000E-02   8.000000E-04                  6.043956E-01
+      A.Borella               EXFOR                2011        1.820000E-02   7.000000E-04   31552-006-0    1.000000E+00
+      Mughabghab_2016         Compilation          2016        1.820000E-02   7.000000E-04                  1.000000E+00
+      A.Shor                  EXFOR                2022        2.230000E-02   2.800000E-03   31849-002-2    1.225275E+00

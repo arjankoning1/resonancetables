@@ -1,0 +1,27 @@
+# header:
+#   title: Pu239(n,tot) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 94
+#   A: 239
+#   nuclide: Pu239
+# reaction:
+#   type: (n,tot)
+# observables:
+#   selected value [b]:  1.018000E+03
+#   selected value uncertainty [b]:  8.000000E+00
+#   selected value source: G.J.Safford
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 7
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      E.E.Anderson            EXFOR                1945        1.045000E+03   2.500000E+01   12519-002-0    1.026523E+00
+      W.W.Havens Jr           EXFOR                1951        1.067000E+03   2.000000E+01   12517-004-0    1.048134E+00
+      H.Palevsky              EXFOR                1955        1.025000E+03   1.000000E+01   12520-003-0    1.006876E+00
+      N.J.Pattenden           EXFOR                1956        1.015000E+03   3.000000E+01   21033-003-0    9.970530E-01
+      B.R.Leonard Jr          EXFOR                1956        1.055000E+03   1.371500E+01   12518-002-0    1.036346E+00
+      L.M.Bollinger           EXFOR                1958        1.030000E+03   0.000000E+00   12502-003-0    1.011788E+00
+      G.J.Safford             EXFOR                1961        1.018000E+03   8.000000E+00   12507-002-0    1.000000E+00

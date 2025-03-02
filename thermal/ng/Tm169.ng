@@ -1,0 +1,41 @@
+# header:
+#   title: Tm169(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 69
+#   A: 169
+#   nuclide: Tm169
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  1.060000E+02
+#   selected value uncertainty [b]:  2.000000E+00
+#   selected value source: Kayzero
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 21
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      L.Seren                 EXFOR                1947        1.060000E+02   2.120000E+01   11447-108-0    1.000000E+00
+      H.Pomerance             EXFOR                1951        1.180000E+02   5.900000E+00   11047-066-0    1.113208E+00
+      A.Andreeff              EXFOR                1967        1.000000E+01   2.000000E+00   23494-002-0    9.433962E-02
+      J.H.Gillette            EXFOR                1967        1.160000E+02   3.000000E+00   10259-002-0    1.094340E+00
+      G.H.E.Sims              EXFOR                1970        1.270000E+02   0.000000E+00   10608-018-0    1.198113E+00
+      G.H.E.Sims              EXFOR                1970        1.060000E+02   0.000000E+00   10608-019-0    1.000000E+00
+      J.Alstad                EXFOR                1972        1.050000E+02   3.000000E+00   20094-002-0    9.905660E-01
+      M.Takiue                EXFOR                1978        1.050000E+02   2.000000E+00   20853-012-0    9.905660E-01
+      Luo Dexing              EXFOR                1984        1.046000E+02   3.100000E+00   30688-002-0    9.867924E-01
+      F.De Corte              EXFOR                1988        1.070000E+02   0.000000E+00   23488-076-0    1.009434E+00
+      RIPL-3                  Compilation          2004        1.060000E+02   2.000000E+00                  1.000000E+00
+      Mughabghab_2006         Compilation          2006        1.050000E+02   2.000000E+00                  9.905660E-01
+      F.Farina Arbocco        EXFOR                2014        1.070000E+02   0.000000E+00   23260-124-0    1.009434E+00
+      F.Farina Arbocco        EXFOR                2014        1.070000E+02   8.000000E+00   23260-123-0    1.009434E+00
+      Sukhoruchkin            Compilation          2015        1.050000E+02   2.000000E+00                  9.905660E-01
+      Mughabghab_2016         Compilation          2016        1.070000E+02   2.000000E+00                  1.009434E+00
+      Kayzero                 Compilation          2018        1.060000E+02   2.000000E+00                  1.000000E+00
+      jeff3.3                 NDL                  2020        1.052150E+02   0.000000E+00                  9.925943E-01
+      jendl5.0                NDL                  2021        1.050390E+02   0.000000E+00                  9.909340E-01
+      tendl.2023              NDL                  2023        1.068680E+02   0.000000E+00                  1.008189E+00
+      endfb8.1                NDL                  2024        1.050150E+02   0.000000E+00                  9.907075E-01

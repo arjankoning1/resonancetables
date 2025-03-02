@@ -1,0 +1,27 @@
+# header:
+#   title: Be007(n,p) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 4
+#   A: 7
+#   nuclide: Be007
+# reaction:
+#   type: (n,p)
+# observables:
+#   selected value [b]:  3.882000E+04
+#   selected value uncertainty [b]:  8.090000E+02
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 7
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      R.C.Hanna               EXFOR                1955        5.300000E+04   8.000000E+03   23291-002-0    1.365276E+00
+      P.E.Koehler             EXFOR                1988        3.882000E+04   8.090000E+02   13163-003-0    1.000000E+00
+      J.Cervena               EXFOR                1989        4.680000E+04   4.000000E+03   32103-002-0    1.205564E+00
+      RIPL-3                  Compilation          2004        3.900000E+04   1.000000E+03                  1.004637E+00
+      Sukhoruchkin            Compilation          2015        3.880000E+04   8.000000E+02                  9.994848E-01
+      Mughabghab_2016         Compilation          2016        3.882000E+04   8.090000E+02                  1.000000E+00
+      I.Tomandl               EXFOR                2019        4.430000E+04   1.400000E+03   31791-003-0    1.141164E+00

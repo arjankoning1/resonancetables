@@ -1,0 +1,34 @@
+# header:
+#   title: Cs137(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 55
+#   A: 137
+#   nuclide: Cs137
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  2.500000E-01
+#   selected value uncertainty [b]:  2.000000E-02
+#   selected value source: RIPL-3
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 14
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      D.C.Stupegia            EXFOR                1960        1.100000E-01   3.300000E-02   12021-002-0    4.400000E-01
+      H.Harada                EXFOR                1990        2.900000E-01   2.000000E-02   22174-004-0    1.160000E+00
+      H.Harada                EXFOR                1990        2.500000E-01   1.300000E-02   22174-002-0    1.000000E+00
+      T.Sekine                EXFOR                1993        2.900000E-01   2.000000E-02   22737-004-0    1.160000E+00
+      T.Sekine                EXFOR                1993        2.530000E-01   2.200000E-02   22737-002-0    1.012000E+00
+      N.L.Maidana             EXFOR                1998        2.640000E-01   1.500000E-02   31517-002-0    1.056000E+00
+      N.L.Maidana             EXFOR                1998        2.530000E-01   1.500000E-02   31517-003-0    1.012000E+00
+      H.Wada                  EXFOR                2000        3.000000E-01   2.000000E-02   22649-003-0    1.200000E+00
+      RIPL-3                  Compilation          2004        2.500000E-01   2.000000E-02                  1.000000E+00
+      cendl3.2                NDL                  2019        2.629270E-01   0.000000E+00                  1.051708E+00
+      jeff3.3                 NDL                  2020        2.685410E-01   0.000000E+00                  1.074164E+00
+      jendl5.0                NDL                  2021        2.700090E-01   0.000000E+00                  1.080036E+00
+      tendl.2023              NDL                  2023        2.700100E-01   0.000000E+00                  1.080040E+00
+      endfb8.1                NDL                  2024        2.500090E-01   0.000000E+00                  1.000036E+00

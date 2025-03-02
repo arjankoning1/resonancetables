@@ -1,0 +1,28 @@
+# header:
+#   title: Ni059(n,a) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 28
+#   A: 59
+#   nuclide: Ni059
+# reaction:
+#   type: (n,a)
+# observables:
+#   selected value [b]:  1.230000E+01
+#   selected value uncertainty [b]:  6.000000E-01
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 8
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      A.A.Bauer               EXFOR                1972        7.380000E+00   2.214000E-01   10257-002-0    6.000000E-01
+      H.M.Eiland              EXFOR                1974        1.370000E+01   1.200000E+00   10387-002-0    1.113821E+00
+      R.D.Werner              EXFOR                1975        1.800000E+01   1.600000E+00   10472-003-0    1.463415E+00
+      J.Mcdonald              EXFOR                1976        2.230000E+01   1.600000E+00   20433-003-0    1.813008E+00
+      J.A.Harvey              EXFOR                1976        1.140000E+01   8.000000E-01   10680-002-0    9.268292E-01
+      Mughabghab_2006         Compilation          2006        1.230000E+01   6.000000E-01                  1.000000E+00
+      Sukhoruchkin            Compilation          2015        1.230000E+01   6.000000E-01                  1.000000E+00
+      Mughabghab_2016         Compilation          2016        1.230000E+01   6.000000E-01                  1.000000E+00

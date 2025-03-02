@@ -1,0 +1,23 @@
+# header:
+#   title: Ru096(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 44
+#   A: 96
+#   nuclide: Ru096
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  2.900000E-01
+#   selected value uncertainty [b]:  2.000000E-02
+#   selected value source: J.P.Rambaek
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      S.Katcoff               EXFOR                1958        2.100000E-01   0.000000E+00   12613-002-0    7.241379E-01
+      J.Halperin              EXFOR                1965        2.710000E-01   2.710000E-02   11892-002-0    9.344828E-01
+      J.P.Rambaek             EXFOR                1977        2.900000E-01   2.000000E-02   23383-002-0    1.000000E+00

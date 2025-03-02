@@ -1,0 +1,23 @@
+# header:
+#   title: Se000(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 34
+#   A: 0
+#   nuclide: Se000
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  1.170000E+01
+#   selected value uncertainty [b]:  1.000000E-01
+#   selected value source: J.W.Meadows
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      H.Pomerance             EXFOR                1951        1.210000E+01   6.050000E-01   11047-028-0    1.034188E+00
+      J.Bouzyk                EXFOR                1961        1.360000E+01   0.000000E+00   30412-007-0    1.162393E+00
+      J.W.Meadows             EXFOR                1961        1.170000E+01   1.000000E-01   11028-011-0    1.000000E+00

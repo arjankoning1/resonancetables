@@ -1,0 +1,25 @@
+# header:
+#   title: Cs133(n,g)_m thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 55
+#   A: 133
+#   nuclide: Cs133
+# reaction:
+#   type: (n,g)_m
+# observables:
+#   selected value [b]:  2.700000E+00
+#   selected value uncertainty [b]:  1.300000E-01
+#   selected value source: S.Nakamura
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      L.Seren                 EXFOR                1947        1.600000E-02   3.200000E-03   11447-092-0    5.925926E-03
+      A.Baerg                 EXFOR                1960        2.820000E+00   7.000000E-02   12006-002-0    1.044444E+00
+      B.Keisch                EXFOR                1961        2.440000E+00   1.500000E-01   12018-002-0    9.037037E-01
+      M.U.Rajput              EXFOR                1995        2.790000E+00   7.000000E-02   23388-005-0    1.033333E+00
+      S.Nakamura              EXFOR                1999        2.700000E+00   1.300000E-01   22469-002-0    1.000000E+00

@@ -1,0 +1,27 @@
+# header:
+#   title: Ag111(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 47
+#   A: 111
+#   nuclide: Ag111
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  3.000000E+00
+#   selected value uncertainty [b]:  2.000000E+00
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 7
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      R.E.Druschel            EXFOR                1966        3.200000E+00   2.000000E+00   11812-002-0    1.066667E+00
+      RIPL-3                  Compilation          2004        3.000000E+00   2.000000E+00                  1.000000E+00
+      Mughabghab_2016         Compilation          2016        3.000000E+00   2.000000E+00                  1.000000E+00
+      jeff3.3                 NDL                  2020        2.987580E+00   0.000000E+00                  9.958600E-01
+      jendl5.0                NDL                  2021        3.000100E+00   0.000000E+00                  1.000033E+00
+      tendl.2023              NDL                  2023        2.999090E+00   0.000000E+00                  9.996967E-01
+      endfb8.1                NDL                  2024        2.998770E+00   0.000000E+00                  9.995900E-01

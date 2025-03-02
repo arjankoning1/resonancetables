@@ -1,0 +1,36 @@
+# header:
+#   title: Nd148(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 60
+#   A: 148
+#   nuclide: Nd148
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  2.470000E+00
+#   selected value uncertainty [b]:  5.000000E-02
+#   selected value source: Kayzero
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 16
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      D.C.Hess                EXFOR                1949        4.500000E+01   0.000000E+00   12067-007-0    1.821862E+01
+      H.Pomerance             EXFOR                1952        3.300000E+00   9.900000E-01   11507-082-0    1.336032E+00
+      W.H.Walker              EXFOR                1953        3.700000E+00   9.000000E-01   12059-004-0    1.497976E+00
+      C.P.Ruiz                EXFOR                1964        2.540000E+00   1.800000E-01   12049-003-0    1.028340E+00
+      J.Alstad                EXFOR                1967        2.500000E+00   2.000000E-01   20044-008-0    1.012146E+00
+      E.M.Gryntakis           EXFOR                1976        2.450000E+00   1.400000E-01   20625-020-0    9.919028E-01
+      F.De Corte              EXFOR                1988        2.360000E+00   1.581200E-01   23488-065-0    9.554656E-01
+      RIPL-3                  Compilation          2004        2.400000E+00   1.000000E-01                  9.716600E-01
+      Mughabghab_2006         Compilation          2006        2.580000E+00   7.000000E-02                  1.044534E+00
+      M.Karadag               EXFOR                2014        2.510000E+00   1.300000E-01   23202-004-0    1.016194E+00
+      Kayzero                 Compilation          2018        2.470000E+00   5.000000E-02                  1.000000E+00
+      cendl3.2                NDL                  2019        2.581240E+00   0.000000E+00                  1.045036E+00
+      jeff3.3                 NDL                  2020        2.581190E+00   0.000000E+00                  1.045016E+00
+      jendl5.0                NDL                  2021        2.581190E+00   0.000000E+00                  1.045016E+00
+      tendl.2023              NDL                  2023        2.583940E+00   0.000000E+00                  1.046130E+00
+      endfb8.1                NDL                  2024        2.584010E+00   0.000000E+00                  1.046158E+00

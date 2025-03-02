@@ -1,0 +1,23 @@
+# header:
+#   title: Np236(n,f) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 93
+#   A: 236
+#   nuclide: Np236
+# reaction:
+#   type: (n,f)
+# observables:
+#   selected value [b]:  2.140000E+03
+#   selected value uncertainty [b]:  1.600000E+02
+#   selected value source: M.Lindner
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      M.H.Studier             EXFOR                1955        2.800000E+03   0.000000E+00   12486-002-0    1.308411E+00
+      A.H.Jaffey              EXFOR                1961        2.500000E+03   1.500000E+02   12251-005-0    1.168224E+00
+      M.Lindner               EXFOR                1990        2.140000E+03   1.600000E+02   12919-003-0    1.000000E+00

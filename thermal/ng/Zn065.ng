@@ -1,0 +1,25 @@
+# header:
+#   title: Zn065(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 30
+#   A: 65
+#   nuclide: Zn065
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  6.600000E+01
+#   selected value uncertainty [b]:  8.000000E+00
+#   selected value source: RIPL-3
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      RIPL-3                  Compilation          2004        6.600000E+01   8.000000E+00                  1.000000E+00
+      jeff3.3                 NDL                  2020        6.552270E+01   0.000000E+00                  9.927682E-01
+      jendl5.0                NDL                  2021        6.400230E+01   0.000000E+00                  9.697317E-01
+      tendl.2023              NDL                  2023        6.602830E+01   0.000000E+00                  1.000429E+00
+      endfb8.1                NDL                  2024        6.400230E+01   0.000000E+00                  9.697317E-01

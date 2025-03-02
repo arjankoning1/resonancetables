@@ -1,0 +1,23 @@
+# header:
+#   title: Eu153(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 63
+#   A: 153
+#   nuclide: Eu153
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  6.780000E+02
+#   selected value uncertainty [b]:  8.000000E+00
+#   selected value source: G.H.E.Sims
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      R.J.Hayden              EXFOR                1949        2.400000E+02   0.000000E+00   12138-003-0    3.539823E-01
+      G.H.E.Sims              EXFOR                1967        6.780000E+02   8.000000E+00   12090-010-0    1.000000E+00
+      Sukhoruchkin            Compilation          2015        3.580000E+02   8.000000E+00                  5.280236E-01

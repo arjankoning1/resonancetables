@@ -1,0 +1,29 @@
+# header:
+#   title: Ni063(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 28
+#   A: 63
+#   nuclide: Ni063
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  2.430000E+01
+#   selected value uncertainty [b]:  3.000000E+00
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 9
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      I.L.Barnes              EXFOR                1971        2.300000E+01   3.000000E+00   10626-002-0    9.465021E-01
+      H.Michael               EXFOR                1974        2.570000E+01   3.000000E+00   20660-003-0    1.057613E+00
+      A.Harder                EXFOR                1992        2.000000E+01   0.000000E+00   22262-004-0    8.230453E-01
+      RIPL-3                  Compilation          2004        2.400000E+01   3.000000E+00                  9.876543E-01
+      Mughabghab_2016         Compilation          2016        2.430000E+01   3.000000E+00                  1.000000E+00
+      jeff3.3                 NDL                  2020        2.431230E+01   0.000000E+00                  1.000506E+00
+      jendl5.0                NDL                  2021        2.430640E+01   0.000000E+00                  1.000263E+00
+      tendl.2023              NDL                  2023        2.430790E+01   0.000000E+00                  1.000325E+00
+      endfb8.1                NDL                  2024        2.431230E+01   0.000000E+00                  1.000506E+00

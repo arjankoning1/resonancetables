@@ -1,0 +1,32 @@
+# header:
+#   title: Cm248(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 96
+#   A: 248
+#   nuclide: Cm248
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  2.630000E+00
+#   selected value uncertainty [b]:  2.600000E-01
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 12
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      G.T.Seaborg             EXFOR                1955        4.000000E+00   0.000000E+00   12557-003-0    1.520913E+00
+      T.A.Eastwood            EXFOR                1958        6.000000E+00   0.000000E+00   12047-002-0    2.281369E+00
+      A.Chetham-Strode        EXFOR                1965        7.200000E+00   2.000000E+00   13014-002-0    2.737642E+00
+      R.E.Druschel            EXFOR                1973        2.630000E+00   2.630000E-01   13015-002-0    1.000000E+00
+      V.D.Gavrilov            EXFOR                1978        1.070000E+01   1.500000E+00   40486-012-0    4.068441E+00
+      Mughabghab_2006         Compilation          2006        2.630000E+00   2.600000E-01                  1.000000E+00
+      Sukhoruchkin            Compilation          2015        2.600000E+00   3.000000E-01                  9.885931E-01
+      Mughabghab_2016         Compilation          2016        2.630000E+00   2.600000E-01                  1.000000E+00
+      jeff3.3                 NDL                  2020        2.871410E+00   0.000000E+00                  1.091791E+00
+      jendl5.0                NDL                  2021        2.871410E+00   0.000000E+00                  1.091791E+00
+      tendl.2023              NDL                  2023        2.871410E+00   0.000000E+00                  1.091791E+00
+      endfb8.1                NDL                  2024        2.871410E+00   0.000000E+00                  1.091791E+00

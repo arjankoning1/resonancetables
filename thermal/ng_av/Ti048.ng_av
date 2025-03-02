@@ -1,0 +1,23 @@
+# header:
+#   title: Ti048(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 22
+#   A: 48
+#   nuclide: Ti048
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  8.320000E+00
+#   selected value uncertainty [b]:  1.600000E-01
+#   selected value source: Mughabghab_2006
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      H.Pomerance             EXFOR                1952        8.000000E+00   6.400000E-01   11507-015-0    9.615385E-01
+      Mughabghab_2006         Compilation          2006        8.320000E+00   1.600000E-01                  1.000000E+00
+      Sukhoruchkin            Compilation          2015        8.320000E+00   2.400000E-01                  1.000000E+00

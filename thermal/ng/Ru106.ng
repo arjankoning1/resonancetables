@@ -1,0 +1,29 @@
+# header:
+#   title: Ru106(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 44
+#   A: 106
+#   nuclide: Ru106
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  1.460000E-01
+#   selected value uncertainty [b]:  4.500000E-02
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 9
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      R.Werner                EXFOR                1965        1.890000E-01   0.000000E+00   11925-003-0    1.294520E+00
+      R.Werner                EXFOR                1965        1.460000E-01   4.500000E-02   11925-004-0    1.000000E+00
+      RIPL-3                  Compilation          2004        1.500000E-01   4.000000E-02                  1.027397E+00
+      Mughabghab_2006         Compilation          2006        1.460000E-01   4.500000E-02                  1.000000E+00
+      Mughabghab_2016         Compilation          2016        1.460000E-01   4.500000E-02                  1.000000E+00
+      jeff3.3                 NDL                  2020        1.455070E-01   0.000000E+00                  9.966233E-01
+      jendl5.0                NDL                  2021        1.450050E-01   0.000000E+00                  9.931850E-01
+      tendl.2023              NDL                  2023        1.459730E-01   0.000000E+00                  9.998150E-01
+      endfb8.1                NDL                  2024        1.460050E-01   0.000000E+00                  1.000034E+00

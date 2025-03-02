@@ -1,0 +1,32 @@
+# header:
+#   title: Hf176(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 72
+#   A: 176
+#   nuclide: Hf176
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  2.350000E+01
+#   selected value uncertainty [b]:  3.100000E+00
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 12
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      H.Pomerance             EXFOR                1952        1.500000E+01   1.500000E+01   11507-085-0    6.382979E-01
+      M.C.Moxon               EXFOR                1974        1.370000E+01   3.200000E+00   22360-014-0    5.829787E-01
+      E.A.Pavlenko            EXFOR                1976        1.130000E+01   5.000000E+00   40464-005-0    4.808511E-01
+      RIPL-3                  Compilation          2004        2.300000E+01   4.000000E+00                  9.787234E-01
+      Mughabghab_2006         Compilation          2006        1.680000E+01   3.100000E+00                  7.148936E-01
+      Sukhoruchkin            Compilation          2015        2.360000E+01   3.100000E+00                  1.004255E+00
+      Mughabghab_2016         Compilation          2016        2.350000E+01   3.100000E+00                  1.000000E+00
+      cendl3.2                NDL                  2019        1.376000E+01   0.000000E+00                  5.855319E-01
+      jeff3.3                 NDL                  2020        1.684580E+01   0.000000E+00                  7.168426E-01
+      jendl5.0                NDL                  2021        2.213330E+01   0.000000E+00                  9.418426E-01
+      tendl.2023              NDL                  2023        2.345070E+01   0.000000E+00                  9.979022E-01
+      endfb8.1                NDL                  2024        2.213330E+01   0.000000E+00                  9.418426E-01

@@ -1,0 +1,28 @@
+# header:
+#   title: Ra226(n,f) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 88
+#   A: 226
+#   nuclide: Ra226
+# reaction:
+#   type: (n,f)
+# observables:
+#   selected value [b]:  5.000000E-05
+#   selected value uncertainty [b]:  0.000000E+00
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 8
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      D.Ames                  EXFOR                1949        1.100000E-04   0.000000E+00   12248-002-0    2.200000E+00
+      H.Nakahara              EXFOR                1974        4.600000E-04   0.000000E+00   20525-002-0    9.200001E+00
+      H.Nakahara              EXFOR                1976        7.000000E-06   0.000000E+00   21555-002-0    1.400000E-01
+      I.M.Kuks                EXFOR                1978        5.000000E-05   0.000000E+00   41628-002-0    1.000000E+00
+      RIPL-3                  Compilation          2004        5.000000E-05   0.000000E+00                  1.000000E+00
+      Mughabghab_2006         Compilation          2006        5.000000E-05   0.000000E+00                  1.000000E+00
+      Sukhoruchkin            Compilation          2015        7.002000E-06   0.000000E+00                  1.400400E-01
+      Mughabghab_2016         Compilation          2016        5.000000E-05   0.000000E+00                  1.000000E+00

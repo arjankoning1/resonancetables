@@ -1,0 +1,33 @@
+# header:
+#   title: Ar040(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 18
+#   A: 40
+#   nuclide: Ar040
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  6.430000E-01
+#   selected value uncertainty [b]:  6.430000E-01
+#   selected value source: Kayzero
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 13
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      S.Katcoff               EXFOR                1952        5.300000E-01   3.000000E-02   11597-002-0    8.242612E-01
+      W.Koehler               EXFOR                1963        6.300000E-01   2.000000E-02   21357-004-0    9.797822E-01
+      W.Koehler               EXFOR                1963        6.600000E-01   2.000000E-02   21357-003-0    1.026439E+00
+      W.Koehler               EXFOR                1963        6.300000E-01   2.000000E-02   21357-002-0    9.797822E-01
+      R.L.D.French            EXFOR                1965        7.230000E-01   2.500000E-02   20648-002-0    1.124417E+00
+      N.Ranakumar             EXFOR                1969        5.100000E-01   2.500000E-02   11585-003-0    7.931570E-01
+      RIPL-3                  Compilation          2004        6.400000E-01   3.000000E-02                  9.953343E-01
+      Mughabghab_2016         Compilation          2016        6.600000E-01   1.000000E-02                  1.026439E+00
+      Kayzero                 Compilation          2018        6.430000E-01   6.430000E-01                  1.000000E+00
+      jeff3.3                 NDL                  2020        6.600030E-01   0.000000E+00                  1.026443E+00
+      jendl5.0                NDL                  2021        6.600030E-01   0.000000E+00                  1.026443E+00
+      tendl.2023              NDL                  2023        6.601430E-01   0.000000E+00                  1.026661E+00
+      endfb8.1                NDL                  2024        6.600030E-01   0.000000E+00                  1.026443E+00

@@ -1,0 +1,31 @@
+# header:
+#   title: Gd160(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 64
+#   A: 160
+#   nuclide: Gd160
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  1.559000E+00
+#   selected value uncertainty [b]:  2.390000E-01
+#   selected value source: Kayzero
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 11
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      W.H.Walker              EXFOR                1956        1.700000E+01   1.100000E+01   12127-015-0    1.090443E+01
+      S.K.Mangal              EXFOR                1963        7.680000E-01   1.152000E-01   31249-007-0    4.926235E-01
+      F.De Corte              EXFOR                1988        1.510000E+00   0.000000E+00   23488-071-0    9.685696E-01
+      RIPL-3                  Compilation          2004        1.500000E+00   7.000000E-01                  9.621552E-01
+      Mughabghab_2016         Compilation          2016        1.400000E+00   3.000000E-01                  8.980115E-01
+      Kayzero                 Compilation          2018        1.559000E+00   2.390000E-01                  1.000000E+00
+      cendl3.2                NDL                  2019        7.961670E-01   0.000000E+00                  5.106908E-01
+      jeff3.3                 NDL                  2020        7.700850E-01   0.000000E+00                  4.939609E-01
+      jendl5.0                NDL                  2021        7.853740E-01   0.000000E+00                  5.037678E-01
+      tendl.2023              NDL                  2023        1.411880E+00   0.000000E+00                  9.056318E-01
+      endfb8.1                NDL                  2024        1.410090E+00   0.000000E+00                  9.044836E-01

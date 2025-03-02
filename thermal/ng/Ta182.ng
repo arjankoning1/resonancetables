@@ -1,0 +1,31 @@
+# header:
+#   title: Ta182(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 73
+#   A: 182
+#   nuclide: Ta182
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  8.200000E+03
+#   selected value uncertainty [b]:  6.000000E+02
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 11
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      E.Der Mateosian         EXFOR                1955        4.700000E+04   5.000000E+03   12171-002-0    5.731707E+00
+      J.J.Murray              EXFOR                1955        1.300000E+04   3.900000E+03   12170-002-0    1.585366E+00
+      R.Smith                 EXFOR                1955        1.500000E+04   2.000000E+03   12160-002-0    1.829268E+00
+      R.P.Schuman             EXFOR                1969        1.470000E+04   1.500000E+03   11687-008-0    1.792683E+00
+      E.M.Gryntakis           EXFOR                1976        8.530000E+03   4.500000E+02   20625-032-0    1.040244E+00
+      RIPL-3                  Compilation          2004        8.200000E+03   6.000000E+02                  1.000000E+00
+      Mughabghab_2006         Compilation          2006        8.200000E+03   6.000000E+02                  1.000000E+00
+      Mughabghab_2016         Compilation          2016        8.200000E+03   6.000000E+02                  1.000000E+00
+      jeff3.3                 NDL                  2020        8.235010E+03   0.000000E+00                  1.004269E+00
+      tendl.2023              NDL                  2023        2.802760E+03   0.000000E+00                  3.418000E-01
+      endfb8.1                NDL                  2024        8.287090E+03   0.000000E+00                  1.010621E+00

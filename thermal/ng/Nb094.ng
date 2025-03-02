@@ -1,0 +1,28 @@
+# header:
+#   title: Nb094(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 41
+#   A: 94
+#   nuclide: Nb094
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  1.490000E+01
+#   selected value uncertainty [b]:  1.000000E+00
+#   selected value source: Mughabghab_2006
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 8
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      D.Douglas               EXFOR                1953        1.500000E+01   4.000000E+00   11903-002-0    1.006711E+00
+      R.Schuman               EXFOR                1969        1.360000E+01   1.500000E+00   11899-004-0    9.127517E-01
+      M.R.Serpa               EXFOR                1970        1.500000E+01   7.000000E+00   10404-008-0    1.006711E+00
+      RIPL-3                  Compilation          2004        1.550000E+01   1.000000E+00                  1.040269E+00
+      Mughabghab_2006         Compilation          2006        1.490000E+01   1.000000E+00                  1.000000E+00
+      jeff3.3                 NDL                  2020        1.576510E+01   0.000000E+00                  1.058060E+00
+      tendl.2023              NDL                  2023        1.551810E+01   0.000000E+00                  1.041483E+00
+      endfb8.1                NDL                  2024        1.576510E+01   0.000000E+00                  1.058060E+00

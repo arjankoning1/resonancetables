@@ -1,0 +1,26 @@
+# header:
+#   title: Xe124(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 54
+#   A: 124
+#   nuclide: Xe124
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  1.440000E+02
+#   selected value uncertainty [b]:  1.100000E+01
+#   selected value source: E.Kondaiah
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 6
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      J.M.Tobin               EXFOR                1958        7.440000E+01   0.000000E+00   12013-002-0    5.166667E-01
+      P.V.Harper              EXFOR                1961        1.150000E+02   0.000000E+00   12046-003-0    7.986111E-01
+      T.Eastwood              EXFOR                1963        9.400000E+01   9.400000E+00   11849-005-0    6.527778E-01
+      M.Bresesti              EXFOR                1964        1.110000E+02   1.100000E+01   20628-002-0    7.708333E-01
+      E.Kondaiah              EXFOR                1968        1.440000E+02   1.100000E+01   11883-008-0    1.000000E+00
+      Sukhoruchkin            Compilation          2015        1.500000E+02   2.000000E+01                  1.041667E+00

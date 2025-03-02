@@ -1,0 +1,38 @@
+# header:
+#   title: Nd143(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 60
+#   A: 143
+#   nuclide: Nd143
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  3.250000E+02
+#   selected value uncertainty [b]:  1.000000E+01
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 18
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      D.C.Hess                EXFOR                1949        2.400000E+02   5.000000E+01   12067-002-0    7.384616E-01
+      H.Pomerance             EXFOR                1952        2.920000E+02   2.336000E+01   11507-078-0    8.984615E-01
+      W.H.Walker              EXFOR                1953        3.340000E+02   1.200000E+01   12059-002-0    1.027692E+00
+      J.D.Cummins             EXFOR                1957        2.360000E+02   1.300000E+01   21469-012-0    7.261539E-01
+      H.J.Hay                 EXFOR                1958        3.430000E+02   2.000000E+01   21204-004-0    1.055385E+00
+      R.B.Tattersall          EXFOR                1960        3.360000E+02   1.000000E+01   20638-042-0    1.033846E+00
+      M.J.Cabell              EXFOR                1968        3.161000E+02   1.350000E+01   21467-003-0    9.726154E-01
+      M.J.Cabell              EXFOR                1968        3.180000E+02   1.360000E+01   21467-006-0    9.784616E-01
+      V.P.Vertebnyj           EXFOR                1973        3.380000E+02   8.000000E+00   40290-013-0    1.040000E+00
+      M.Lucas                 EXFOR                1977        3.350000E+02   0.000000E+00   21563-002-0    1.030769E+00
+      RIPL-3                  Compilation          2004        3.300000E+02   1.000000E+02                  1.015385E+00
+      Mughabghab_2006         Compilation          2006        3.250000E+02   1.000000E+01                  1.000000E+00
+      Mughabghab_2016         Compilation          2016        3.250000E+02   1.000000E+01                  1.000000E+00
+      cendl3.2                NDL                  2019        3.230430E+02   0.000000E+00                  9.939784E-01
+      jeff3.3                 NDL                  2020        3.251340E+02   0.000000E+00                  1.000412E+00
+      jendl5.0                NDL                  2021        3.249930E+02   0.000000E+00                  9.999785E-01
+      tendl.2023              NDL                  2023        3.251260E+02   0.000000E+00                  1.000388E+00
+      endfb8.1                NDL                  2024        3.251300E+02   0.000000E+00                  1.000400E+00

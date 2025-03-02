@@ -1,0 +1,30 @@
+# header:
+#   title: Th230(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 90
+#   A: 230
+#   nuclide: Th230
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  2.290000E+01
+#   selected value uncertainty [b]:  3.000000E-01
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 10
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      E.K.Hyde                EXFOR                1948        2.800000E+01   0.000000E+00   12292-002-0    1.222707E+00
+      A.H.Jaffey              EXFOR                1949        4.600000E+01   0.000000E+00   12293-002-0    2.008734E+00
+      H.Pomerance             EXFOR                1953        2.600000E+01   2.000000E+00   12303-002-0    1.135371E+00
+      M.J.Cabell              EXFOR                1958        2.270000E+01   6.000000E-01   12297-004-0    9.912664E-01
+      L.N.Jurova              EXFOR                1984        2.240000E+01   5.000000E-01   40579-002-0    9.781659E-01
+      Mughabghab_2016         Compilation          2016        2.290000E+01   3.000000E-01                  1.000000E+00
+      jeff3.3                 NDL                  2020        2.308060E+01   0.000000E+00                  1.007887E+00
+      jendl5.0                NDL                  2021        2.340550E+01   0.000000E+00                  1.022074E+00
+      tendl.2023              NDL                  2023        2.300100E+01   0.000000E+00                  1.004411E+00
+      endfb8.1                NDL                  2024        2.340550E+01   0.000000E+00                  1.022074E+00

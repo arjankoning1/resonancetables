@@ -1,0 +1,27 @@
+# header:
+#   title: Pu236(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 94
+#   A: 236
+#   nuclide: Pu236
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  1.590000E+01
+#   selected value uncertainty [b]:  0.000000E+00
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 7
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      S.F.Mughabghab          EXFOR                2006        1.590000E+01   0.000000E+00   V1002-612-1    1.000000E+00
+      Mughabghab_2016         Compilation          2016        1.590000E+01   0.000000E+00                  1.000000E+00
+      cendl3.2                NDL                  2019        3.122320E+01   0.000000E+00                  1.963723E+00
+      jeff3.3                 NDL                  2020        2.755040E+01   0.000000E+00                  1.732730E+00
+      jendl5.0                NDL                  2021        2.755040E+01   0.000000E+00                  1.732730E+00
+      tendl.2023              NDL                  2023        1.547420E+01   0.000000E+00                  9.732202E-01
+      endfb8.1                NDL                  2024        2.755040E+01   0.000000E+00                  1.732730E+00

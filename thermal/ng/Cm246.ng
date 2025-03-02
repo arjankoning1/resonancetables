@@ -1,0 +1,29 @@
+# header:
+#   title: Cm246(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 96
+#   A: 246
+#   nuclide: Cm246
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  1.220000E+00
+#   selected value uncertainty [b]:  1.600000E-01
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: thermal cross section
+#   columns: 8
+#   entries: 9
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      C.M.Stevens             EXFOR                1954        1.500000E+01   1.000000E+01   12585-005-0    1.229508E+01
+      V.D.Gavrilov            EXFOR                1978        1.140000E+00   3.000000E-01   40486-008-0    9.344262E-01
+      Mughabghab_2006         Compilation          2006        1.220000E+00   1.600000E-01                  1.000000E+00
+      Sukhoruchkin            Compilation          2015        1.220000E+00   1.600000E-01                  1.000000E+00
+      Mughabghab_2016         Compilation          2016        1.220000E+00   1.600000E-01                  1.000000E+00
+      jeff3.3                 NDL                  2020        1.178990E+00   0.000000E+00                  9.663852E-01
+      jendl5.0                NDL                  2021        1.135460E+00   0.000000E+00                  9.307049E-01
+      tendl.2023              NDL                  2023        1.178990E+00   0.000000E+00                  9.663852E-01
+      endfb8.1                NDL                  2024        1.178990E+00   0.000000E+00                  9.663852E-01

@@ -1,11 +1,11 @@
-subroutine readmacs
+subroutine readmacs(Z, A, Liso, Riso, flagav)
 !
 !-----------------------------------------------------------------------------------------------------------------------------------
 ! Purpose: Read data from MACS cross section databases
 !
 ! Revision    Date      Author      Quality  Description
 ! ======================================================
-!    1     17-08-2023   A.J. Koning    A     Original code
+!    1     2025-02-08   A.J. Koning    A     Original code
 !-----------------------------------------------------------------------------------------------------------------------------------
 !
 ! *** Use data from other modules
@@ -16,20 +16,27 @@ subroutine readmacs
 ! *** Declaration of local data
 !
   implicit none
+  logical            :: flagav     ! flag for spectrum average
   character(len=1)   :: isosym     ! isomeric symbol
-  character(len=4)   :: year       ! year
+  character(len=3)   :: exten
   character(len=9)   :: sub        ! subentry
+  character(len=9)   :: ref        ! reference
   character(len=24)  :: author     ! author
   character(len=132) :: macsfile  ! macsfile
   character(len=1200):: line       ! input line
+  integer            :: iz         ! charge number
+  integer            :: ia         ! mass number
   integer            :: Z          ! charge number
+  integer            :: year       ! year
   integer            :: A          ! mass number
   integer            :: N          ! counter
   integer            :: ix
+  integer            :: k
   integer            :: isoT       ! target isomer
+  integer            :: Liso       ! target isomer
+  integer            :: Riso       ! residual isomer
   integer            :: isoR       ! residual isomer
   integer            :: lib        ! library number
-  integer            :: type       ! reaction type
   integer            :: istat      ! error code
   real(sgl)          :: Einc       ! incident energy
   real(sgl)          :: xs         ! cross section
@@ -40,175 +47,218 @@ subroutine readmacs
 !
 ! **************** Read RIPL-3 database for MACS cross sections *****
 !
-  macs_xs = 0.
-  macs_dxs = 0.
-  macs_ref = ''
-  macs_exist = .false.
-  ratiomacs_xs = 0.
-  Nmacs_xs = 0
-  Emacs_xs = 0.
-  Emacs_dxs = 0.
-  Emacs_author = ''
-  Emacs_year = ''
-  Emacs_subentry = ''
-  Emacs_ref = ''
-  Emacs_xs = 0.
-  Emacs_exist = .false.
-  Lmacs_xs = 0.
-  Lratiomacs_xs = 0.
+  res_author = ''
+  res_type = ''
+  res_year = 0
+  res_ref = ''
+  res_xs = 0.
+  res_dxs = 0.
+  ref = ''
+  Nres_exp = 0
+  Nres = 0
+  k = 0
+  if (flagav) then   
+    exten='_av'      
+  else
+    exten=''
+  endif
 !
 ! KADONIS database: experimental values only
 !
-  write(*, *) "Reading data from MACS databases....."
-  lib = 1
-  type = 4
-  macsfile = trim(filespath)//'macs_kadonis.ng'
-  open (unit = 1, status = 'old', file = macsfile)
-  read(1,'()')
-  read(1,'()')
-  do
-    read(1, '(a)', iostat = istat) line
-    if (istat == -1) exit
-    if (istat > 0) call read_error(macsfile, istat)
-    isosym = ''
-    read(line(1:9), * ) Z, A
-    if (line(10:10) == 'm') isoT = 1
-    read(line(78:89), * ) xs
-    read(line(150:161), * ) dxs
-    isoT = 0
-    isoR = -1
-    if (isosym == 'm') isoT = 1
-    macs_xs(lib, type, Z, A, isoT, isoR) = 0.001 * xs
-    macs_dxs(lib, type, Z, A, isoT, isoR) = 0.001 * dxs
-    macs_ref(lib, type, Z, A, isoT, isoR) = 'Kadonis'
-    macs_exist(lib, type, isoR) = .true.
-  enddo
-  close (1)
+  if (flagav) then
+    xs = 0.
+    dxs = 0.
+    macsfile = trim(filespath)//'macs_kadonis.ng'
+    open (unit = 2, status = 'old', file = macsfile)
+    read(2,'()')
+    read(2,'()')
+    do
+      read(2, '(a)', iostat = istat) line
+      if (istat == -1) exit
+      if (istat > 0) call read_error(macsfile, istat)
+      isoT = 0
+      read(line(1:9), * ) iz, ia
+      if (line(10:10) == 'm') isoT = 1
+      if (iz == Z .and. ia == A .and. Liso == isoT .and. Riso == -1) then
+        read(line(78:89), * ) xs
+        read(line(150:161), * ) dxs
+        if (xs > 0.) then
+          k = k + 1
+          res_author(k) = 'Kadonis'
+          res_type(k) = 'Compilation'
+          res_year(k) = 2000 
+          res_ref(k) = ref
+          res_xs(k) = 0.001 * xs
+          res_dxs(k) = 0.001 * dxs
+          res_exist = .true.
+        endif
+        exit
+      endif
+    enddo
+    close (2)
 !
 ! ASTRAL database: experimental values only
 !
-  write(*, *) "Reading data from MACS databases....."
-  lib = 1
-  type = 4
-  macsfile = trim(filespath)//'macs_astral.ng'
-  open (unit = 1, status = 'old', file = macsfile)
-  do
-    read(1, '(a)', iostat = istat) line
-    if (istat == -1) exit
-    if (istat > 0) call read_error(macsfile, istat)
-    if (line(1:1) == '#') cycle
-    isosym = ''
-    read(line, * ) Z, A
-    ix=index(line,'_0')
-    if (ix > 0) isosym = 'g'
-    ix=index(line,'_1')
-    if (ix > 0) isosym = 'm'
-    read(line(40:80), * ) xs,dxs
-    isoT = 0
-    isoR = -1
-    if (isosym == 'g') isoR = 0
-    if (isosym == 'm') isoR = 1
-    macs_xs(lib, type, Z, A, isoT, isoR) = 0.001 * xs
-    macs_dxs(lib, type, Z, A, isoT, isoR) = 0.001 * dxs
-    macs_ref(lib, type, Z, A, isoT, isoR) = 'Astral'
-    macs_exist(lib, type, isoR) = .true.
-  enddo
-  close (1)
+    xs = 0.
+    dxs = 0.
+    macsfile = trim(filespath)//'macs_astral.ng'
+    open (unit = 2, status = 'old', file = macsfile)
+    do
+      read(2, '(a)', iostat = istat) line
+      if (istat == -1) exit
+      if (istat > 0) call read_error(macsfile, istat)
+      if (line(1:1) == '#') cycle
+      isosym = ''
+      read(line, * ) iz, ia
+      ix=index(line,'_0')
+      if (ix > 0) isosym = 'g'
+      ix=index(line,'_1')
+      if (ix > 0) isosym = 'm'
+      if (iz == Z .and. ia == A .and. Liso == 0) then
+        read(line(40:80), * ) xs,dxs
+        isoR = -1
+        if (isosym == 'g') isoR = 0
+        if (isosym == 'm') isoR = 1
+        if (xs > 0.) then
+          k = k + 1
+          res_author(k) = 'Astral'
+          res_type(k) = 'Compilation'
+          res_year(k) = 2020
+          res_ref(k) = ref
+          res_xs(k) = 0.001 * xs
+          res_dxs(k) = 0.001 * dxs
+          res_exist = .true.
+        endif
+        exit
+      endif
+    enddo
+    close (2)
 !
 ! Mughabghab 2016 MACS database
 !
-  lib = 3
-  macsfile = trim(filespath)//'thermal.mugh18'
-  open (unit = 1, status = 'old', file = macsfile)
-  do
-    read(1, '(a)', iostat = istat) line
-    if (istat == -1) exit
-    if (istat > 0) call read_error(macsfile, istat)
-    if (line(4:4) < 'A' .or. line(4:4) > 'Z') cycle
-    read(line(10:24), * ) A, Z, isoT
-    if (A == 0) cycle
-    isoR = -1
-    type = 4
-    xs = rochread(line(839:849))
-    dxs = rochread(line(853:860))
-    if (xs > 0.) then
-      macs_xs(lib, type, Z, A, isoT, isoR) = xs
-      macs_dxs(lib, type, Z, A, isoT, isoR) = dxs
-      macs_ref(lib, type, Z, A, isoT, isoR) = 'Mugh18'
-      macs_exist(lib, type, isoR) = .true.
-    endif
-  enddo
-  close (1)
+    xs = 0.
+    dxs = 0.
+    macsfile = trim(filespath)//'global.2023.txt'
+    open (unit = 2, status = 'old', file = macsfile)
+    do
+      read(2, '(a)', iostat = istat) line
+      if (istat == -1) exit
+      if (istat > 0) call read_error(macsfile, istat)
+      if (line(4:4) < 'A' .or. line(4:4) > 'Z') cycle
+      read(line(10:24), * ) ia, iz, isoT
+      if (ia == 0) cycle
+      isoR = -1
+      if (iz == Z .and. ia == A .and. Liso == isoT .and. Riso == isoR) then
+        xs = rochread(line(839:849))
+        dxs = rochread(line(853:860))
+        if (xs > 0.) then
+          k = k + 1
+          res_author(k) = 'Mughabghab_2016'
+          res_type(k) = 'Compilation'
+          res_year(k) = 2016
+          res_ref(k) = ref
+          res_xs(k) = xs
+          res_dxs(k) = dxs
+          res_exist = .true.
+        endif
+        exit
+      endif
+    enddo
+    close (2)
 !
 ! Sukhoruchkin 2015 MACS database
 !
-  lib = 5
-  macsfile = trim(filespath)//'sukhoruchkin.txt'
-  open (unit = 1, status = 'old', file = macsfile)
-  do
-    read(1, '(a)', iostat = istat) line
-    if (istat == -1) exit
-    if (istat > 0) call read_error(macsfile, istat)
-    if (line(4:4) < 'A' .or. line(4:4) > 'Z') cycle
-    read(line(10:24), * ) A, Z, isoT
-    if (A == 0) cycle
-    isoR = -1
-    type = 4
-    xs = rochread(line(187:199))
-    dxs = rochread(line(201:210))
-    if (xs > 0.) then
-      macs_xs(lib, type, Z, A, isoT, isoR) = xs
-      macs_dxs(lib, type, Z, A, isoT, isoR) = dxs
-      macs_ref(lib, type, Z, A, isoT, isoR) = 'Sukhoruchkin'
-      macs_exist(lib, type, isoR) = .true.
-    endif
-  enddo
-  close (1)
-!
-! EXFOR MACS database
-!
-  do type = 4,4
-    macsfile = trim(filespath)//'macs_exfor.'//reac(type)
-    open (unit = 1, status = 'old', file = macsfile)
+    macsfile = trim(filespath)//'sukhoruchkin.txt'
+    open (unit = 2, status = 'old', file = macsfile)
     do
-      read(1, '(a)', iostat = istat) line
+      read(2, '(a)', iostat = istat) line
       if (istat == -1) exit
       if (istat > 0) call read_error(macsfile, istat)
-      read(line, * ) Z, A, isoT, isoR, xs ,dxs, Einc, author, year, sub
-      Nmacs_xs(type, Z, A, isoT, isoR) = Nmacs_xs(type, Z, A, isoT, isoR) + 1
-      N = Nmacs_xs(type, Z, A, isoT, isoR)
-      if (N > numex) then
-        Nmacs_xs(type, Z, A, isoT, isoR) = numex
+      if (line(4:4) < 'A' .or. line(4:4) > 'Z') cycle
+      read(line(10:24), * ) ia, iz, isoT
+      if (ia == 0) cycle
+      isoR = -1
+      if (iz == Z .and. ia == A .and. Liso == isoT .and. Riso == isoR) then
+        xs = rochread(line(187:199))
+        dxs = rochread(line(201:210))
+        if (xs > 0.) then
+          k = k + 1
+          res_author(k) = 'Sukhoruchkin'
+          res_type(k) = 'Compilation'
+          res_year(k) = 2015
+          res_ref(k) = ref
+          res_xs(k) =  xs
+          res_dxs(k) = dxs
+          res_exist = .true.
+        endif
         exit
       endif
-      Emacs_xs(type, Z, A, isoT, isoR, N) = 0.001*xs
-      Emacs_dxs(type, Z, A, isoT, isoR, N) = 0.001*dxs
-      Emacs_author(type, Z, A, isoT, isoR, N) = author
-      Emacs_year(type, Z, A, isoT, isoR, N) = year
-      Emacs_subentry(type, Z, A, isoT, isoR, N) = sub
-      Emacs_ref(type, Z, A, isoT, isoR, N) = trim(author)//'_'//trim(year)//'_'//trim(sub)
-      Emacs_exist(type, isoR) = .true.
     enddo
-    close (1)
-  enddo
+    close (2)
 !
 ! MACS from Nuclear data libraries
 !
-  do type = 4,4
+    xs = 0.
+    dxs = 0.
     do lib = 1, numndlib
       macsfile = trim(libspath)//trim(ndlib(lib))//'.MACS'
-      open (unit = 1, status = 'old', file = macsfile)
+      open (unit = 2, status = 'old', file = macsfile)
       do
-        read(1, '(a)', iostat = istat) line
+        read(2, '(a)', iostat = istat) line
         if (istat == -1) exit
         if (istat > 0) call read_error(macsfile, istat)
         if (line(1:1) == '#') cycle
-        read(line, * ) Z, A, isoT, CE, chi2, xs
-        Lmacs_xs(lib, type, Z, A, isoT, isoR) = xs
+        read(line, * ) iz, ia, isoT, CE, chi2, xs
+        if (iz == Z .and. ia == A .and. Liso == isoT .and. Riso == -1) then
+          if (xs > 0.) then
+            k = k + 1
+            res_author(k) = ndlib(lib)
+            res_type(k) = 'NDL'
+            res_year(k) = ndyear(lib)
+            res_ref(k) = ref
+            res_xs(k) = xs
+            res_dxs(k) = dxs
+            res_exist = .true.
+          endif
+          exit
+        endif
       enddo
-      close (1)
+      close (2)
     enddo
+  endif
+!
+! EXFOR MACS database
+!
+  xs = 0.
+  dxs = 0.
+  macsfile = trim(exforpath)//'exfor_30keV'//trim(exten)//'.txt'
+  open (unit = 2, status = 'old', file = macsfile)
+  do
+    read(2, '(a)', iostat = istat) line
+    if (istat == -1) exit
+    if (istat > 0) call read_error(macsfile, istat)
+    read(line, * ) iz, ia, isoT,isoR, xs ,dxs, Einc, author, year, sub
+    if (iz == Z .and. ia == A .and. Liso == isoT .and. Riso == isoR) then
+      Nres_exp = Nres_exp + 1
+      N = Nres_exp
+      if (N > numex) then
+        Nres_exp = numex
+        exit
+      endif
+      if (xs > 0.) then
+        k = k + 1
+        res_author(k) = author
+        res_type(k) = 'EXFOR'
+        res_year(k) = year
+        res_ref(k) = sub 
+        res_xs(k) = 0.001 * xs
+        res_dxs(k) = 0.001 * dxs
+        res_exist = .true.
+      endif
+    endif
   enddo
+  close (2)
+  Nres = k
   return
 end subroutine readmacs
-! Copyright A.J. Koning 2019
+! Copyright A.J. Koning 2025

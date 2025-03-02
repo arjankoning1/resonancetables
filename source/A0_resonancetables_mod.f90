@@ -5,7 +5,7 @@ module A0_resonancetables_mod
 !                                                                                                                                   
 ! Revision    Date      Author           Description                                                                                
 ! ====================================================                                                                              
-!    1     2023-12-29   A.J. Koning      Original code                                                                              
+!    1     2025-02-27   A.J. Koning      Original code                                                                              
 !-----------------------------------------------------------------------------------------------------------------------------------
 !                                                                                                                                   
 ! *** Use data from other modules                                                                                                   
@@ -19,77 +19,73 @@ module A0_resonancetables_mod
 !                                                                                                                                   
 ! Array dimensions                                                                                                                  
 !                                                                                                                                   
-  integer, parameter :: numpar=7        ! maximum number of particles                                                               
-  integer, parameter :: numZ=100        ! maximum number of elements                                                                
-  integer, parameter :: numA=257        ! maximum number of masses                                                                  
-  integer, parameter :: numisom=2       ! maximum number of isomers                                                                 
-  integer, parameter :: numlib=6        ! maximum number of data libraries                                                          
-  integer, parameter :: numndlib=5      ! maximum number of ND libraries                                                          
-  integer, parameter :: numtype=9       ! number of reaction types
-  integer, parameter :: numex=50        ! number of EXFOR subentries per reaction
+  integer, parameter :: numpar=7    ! maximum number of particles                                                               
+  integer, parameter :: numZ=100    ! maximum number of elements                                                                
+  integer, parameter :: numA=257    ! maximum number of masses                                                                  
+  integer, parameter :: numisom=2   ! maximum number of isomers                                                                 
+  integer, parameter :: numlib=6    ! maximum number of databases
+  integer, parameter :: numndlib=5  ! maximum number of ND libraries                                                          
+  integer, parameter :: numtype=9   ! number of reaction types
+  integer, parameter :: numex=500   ! number of subentries per reaction
+  integer, parameter :: numdat=1000 ! number of total Z, A data points
 !                                                                                                                                   
 ! machine                                                                                                                           
 !                                                                                                                                   
+  character(len=132) :: filespath   ! directory containing structure files to be read
+  character(len=132) :: libspath    ! directory containing data from nuclear data libraries
+  character(len=132) :: exforpath   ! directory containing X4 data
+  character(len=132) :: resbasepath ! directory containing TARES data
   character(len=132) :: thermalpath ! directory containing data libraries
   character(len=132) :: macspath    ! directory containing data libraries
   character(len=132) :: respath     ! directory containing data libraries
-  character(len=132) :: filespath   ! directory containing X4 and structure files to be read
-  character(len=132) :: libspath    ! directory containing data from nuclear data libraries
 !
 ! thermalbaseinitial
 !
-  character(len=2)   :: nuc(numZ)        ! symbol of nucleus                                                
-  character(len=3)   :: reac(numtype)    ! reaction type
-  character(len=6)   :: restype(numtype) ! resonance type
-  character(len=20)  :: ext(0:numlib)    ! library
-  character(len=10)  :: ndlib(numndlib)  ! ND library
-!                                                                                                                                   
-! readthermal                                                                                                                       
-!                                                                                                                                   
-  logical, dimension(0:numlib, numtype, -1:numisom)                                    :: therm_exist ! flag for existence
-  logical, dimension(numtype, -1:numisom)                                              :: Etherm_exist ! flag for existence
-  character(len=4), dimension(numtype, numZ, 0:numA, -1:numisom, -1:numisom, numex)    :: Etherm_year ! EXFOR thermal year
-  character(len=40), dimension(0:numlib, numtype, numZ, 0:numA, -1:numisom, -1:numisom):: therm_ref ! reference
-  character(len=40), dimension(numtype, numZ, 0:numA, -1:numisom, -1:numisom, numex)   :: Etherm_ref ! reference
-  character(len=9), dimension(numtype, numZ, 0:numA, -1:numisom, -1:numisom, numex)    :: Etherm_subentry ! EXFOR thermal subentry
-  character(len=24), dimension(numtype, numZ, 0:numA, -1:numisom, -1:numisom, numex)   :: Etherm_author ! EXFOR thermal author
-  integer, dimension(numtype, numZ, 0:numA, -1:numisom, -1:numisom)                    :: Ntherm_xs ! number of EXFOR cases
-  real, dimension(0:numlib, numtype, numZ, 0:numA, -1:numisom, -1:numisom)             :: therm_xs  ! thermal cross section
-  real, dimension(0:numlib, numtype, numZ, 0:numA, -1:numisom, -1:numisom)             :: ratio_xs  ! ratio of thermal cross section
-  real, dimension(numndlib, numtype, numZ, 0:numA, -1:numisom, -1:numisom)             :: Lratio_xs  ! NDL ratio of thermal cross section
-  real, dimension(numtype, numZ, 0:numA, -1:numisom, -1:numisom)                       :: capratio_xs ! ratio to (n,g) thermal cross s.
-  real, dimension(0:numlib, numtype, numZ, 0:numA, -1:numisom, -1:numisom)          :: therm_dxs ! thermal cross section uncertainty
-  real, dimension(numtype, numZ, 0:numA, -1:numisom, -1:numisom, numex)                :: Etherm_xs ! EXFOR thermal cross section
-  real, dimension(numtype, numZ, 0:numA, -1:numisom, -1:numisom, numex)      :: Etherm_dxs ! EXFOR thermal cross section uncertainty
-  real, dimension(numtype, numZ, 0:numA, -1:numisom, -1:numisom, numex)                :: Eratio_xs ! EXFOR thermal ratio
-  real, dimension(numndlib, numtype, numZ, 0:numA, -1:numisom, -1:numisom)             :: Ltherm_xs  ! NDL thermal cross section
-!                                                                                                                                   
-! readmacs                                                                                                                       
-!                                                                                                                                   
-  logical, dimension(0:numlib, numtype, -1:numisom)                                    :: macs_exist ! flag for existence
-  logical, dimension(numtype, -1:numisom)                                              :: Emacs_exist ! flag for existence
-  character(len=4), dimension(numtype, numZ, 0:numA, -1:numisom, -1:numisom, numex)    :: Emacs_year ! EXFOR MACS year
-  character(len=40), dimension(0:numlib, numtype, numZ, 0:numA, -1:numisom, -1:numisom):: macs_ref ! reference
-  character(len=40), dimension(numtype, numZ, 0:numA, -1:numisom, -1:numisom, numex)   :: Emacs_ref ! reference
-  character(len=9), dimension(numtype, numZ, 0:numA, -1:numisom, -1:numisom, numex)    :: Emacs_subentry ! EXFOR MACS subentry
-  character(len=24), dimension(numtype, numZ, 0:numA, -1:numisom, -1:numisom, numex)   :: Emacs_author ! EXFOR MACS author
-  integer, dimension(numtype, numZ, 0:numA, -1:numisom, -1:numisom)                    :: Nmacs_xs ! number of EXFOR cases
-  real, dimension(0:numlib, numtype, numZ, 0:numA, -1:numisom, -1:numisom)             :: macs_xs  ! MACS cross section
-  real, dimension(0:numlib, numtype, numZ, 0:numA, -1:numisom, -1:numisom)             :: ratiomacs_xs  ! ratio of MACS cross section
-  real, dimension(0:numlib, numtype, numZ, 0:numA, -1:numisom, -1:numisom)          :: macs_dxs ! MACS cross section uncertainty
-  real, dimension(numtype, numZ, 0:numA, -1:numisom, -1:numisom, numex)                :: Emacs_xs ! EXFOR MACS cross section
-  real, dimension(numtype, numZ, 0:numA, -1:numisom, -1:numisom, numex)      :: Emacs_dxs ! EXFOR MACS cross section uncertainty
-  real, dimension(numtype, numZ, 0:numA, -1:numisom, -1:numisom, numex)                :: Eratiomacs_xs ! EXFOR MACS ratio
-  real, dimension(numndlib, numtype, numZ, 0:numA, -1:numisom, -1:numisom)             :: Lmacs_xs  ! NDL MACS
-  real, dimension(numndlib, numtype, numZ, 0:numA, -1:numisom, -1:numisom)             :: Lratiomacs_xs  ! NDL ratio of MACS
+  character(len=2)         :: nuc(numZ)         ! symbol of nucleus                                                
+  character(len=3)         :: reac(numtype)     ! reaction type
+  character(len=10)        :: restype(numtype)  ! resonance type
+  character(len=20)        :: reaction(numtype) ! reaction
+  character(len=10)        :: ndlib(numndlib)   ! ND library
+  integer                  :: ndyear(numndlib)  ! year of ND library
+  character(len=132)       :: source            ! source of data
+  character(len=132)       :: oformat           ! format of data
+  character(len=132)       :: user              ! user of data
+  integer, dimension(numZ) :: heavy             ! heaviest isotope
+  integer, dimension(numZ) :: light             ! lightest isotope
+  character(len=10)        :: date              ! date
 !                                                                                                                                   
 ! readresonance
 !                                                                                                                                   
-  logical, dimension(0:numlib, numtype)                         :: res_exist ! flag for existence
-  logical, dimension(numtype)                                   :: Eres_exist ! flag for existence
-  character(len=40), dimension(0:numlib, numtype, numZ, 0:numA) :: res_ref ! reference
-  real, dimension(0:numlib, numtype, numZ, 0:numA)              :: res_R  ! 
-  real, dimension(0:numlib, numtype, numZ, 0:numA)              :: res_dR ! 
-  real, dimension(0:numlib, numtype, numZ, 0:numA)              :: ratio_R  ! 
+  logical                             :: res_exist ! flag for existence
+  integer, dimension(numex)           :: res_year ! res year
+  character(len=40), dimension(numex) :: res_ref ! reference
+  character(len=40), dimension(numex) :: res_type ! type
+  character(len=24), dimension(numex) :: res_author ! EXFOR res author
+  integer                             :: Nres ! number of cases
+  integer                             :: Nres_exp ! number of EXFOR cases
+  real, dimension(numex)              :: res_xs  ! res parameter
+  real, dimension(numex)              :: res_dxs ! res parameter uncertainty
+!                                                                                                                                   
+! procres                                                                                                                       
+!                                                                                                                                   
+  character(len=40)                   :: res_author_sel 
+  real                                :: res_xs_sel  
+  real                                :: res_dxs_sel 
+!                                                                                                                                   
+! readthermal                                                                                                                       
+!                                                                                                                                   
+  character(len=40), dimension(numdat) :: refsave
+  integer, dimension(numdat)           :: Zsave
+  integer, dimension(numdat)           :: Asave
+  integer, dimension(numdat)           :: Lisosave
+  integer, dimension(numdat)           :: Nexpsave
+  real, dimension(numdat)              :: xssave
+  real, dimension(numdat)              :: dxssave
+  integer                              :: Nsave
+!                                                                                                                                   
+! writethermal                                                                                                                       
+  integer                             :: Ztarget
+  integer                             :: Atarget
+  character(len=6)                    :: targetnuclide    
 end module A0_resonancetables_mod                                                                                          
-!Copyright (C) 2019  A.J. Koning                                                                                                    
+!Copyright (C) 2025  A.J. Koning                                                                                                    

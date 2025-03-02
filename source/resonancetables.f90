@@ -1,11 +1,11 @@
 program resonancetables
 !
 !-----------------------------------------------------------------------------------------------------------------------------------
-! Purpose: Unify databases for thermal cross sections, resonance integral and MACS
+! Purpose: Unify databases for thermal cross sections, resonance integrals, average resonance parameters, and MACS
 !
 ! Revision    Date      Author      Quality  Description
 ! ======================================================
-!    1     2023-12-29   A.J. Koning    A     Original code
+!    1     2025-02-27   A.J. Koning    A     Original code
 !-----------------------------------------------------------------------------------------------------------------------------------
 !
 !   |-------------------------------------------------------|
@@ -16,7 +16,7 @@ program resonancetables
 !
 ! MIT License
 !
-! Copyright (c) 2023 Arjan Koning
+! Copyright (c) 2025 Arjan Koning
 !
 ! Permission is hereby granted, free of charge, to any person obtaining a copy
 ! of this software and associated documentation files (the "Software"), to deal
@@ -48,14 +48,8 @@ program resonancetables
 !
   call machine
   call resonancetablesinitial
-  call readthermal
-  call procthermal
-  call writethermal
-  call readmacs
-  call procmacs
-  call writemacs
-  call readresonance
-  call procresonance
-  call writeresonance
+  call thermal
+  call macs
+  call resonance
 end program resonancetables
-! Copyright A.J. Koning 2022
+! Copyright A.J. Koning 2025

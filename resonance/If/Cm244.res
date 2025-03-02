@@ -1,0 +1,26 @@
+# header:
+#   title: Cm244 If resonance data
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 96
+#   A: 244
+#   nuclide: Cm244
+# reaction:
+#   type: If
+# observables:
+#   selected value [eV]:  6.200000E+00
+#   selected value uncertainty [eV]:  2.000000E-01
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: resonance data
+#   columns: 8
+#   entries: 6
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      Benjamin                EXFOR                1972        1.800000E+01   1.000000E+00       10128003   2.903226E+00
+      Zhuravlev               EXFOR                1975        1.340000E+01   1.500000E+00       40436015   2.161290E+00
+      JUKO                    Compilation          2000        1.250000E+01   2.500000E+00                  2.016129E+00
+      Alekseev                EXFOR                2010        6.140000E+00   3.100000E-01       41524007   9.903226E-01
+      Sukhoruchkin            Compilation          2015        1.540000E+01   2.400000E+00                  2.483871E+00
+      Mughabghab_2016         Compilation          2016        6.200000E+00   2.000000E-01                  1.000000E+00

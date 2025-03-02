@@ -1,0 +1,22 @@
+# header:
+#   title: Yb166 D0 resonance data
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 70
+#   A: 166
+#   nuclide: Yb166
+# reaction:
+#   type: D0
+# observables:
+#   selected value [eV]:  5.100000E+00
+#   selected value uncertainty [eV]:  5.000000E-01
+#   selected value source: Mughabghab_2016
+# datablock:
+#   quantity: resonance data
+#   columns: 8
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      Mughabghab_2016         Compilation          2016        5.100000E+00   5.000000E-01                  1.000000E+00
+      TARES                   NDL                  2025        6.276280E+00   0.000000E+00                  1.230643E+00

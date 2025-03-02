@@ -1,0 +1,27 @@
+# header:
+#   title: Te130(n,g) MACS
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 52
+#   A: 130
+#   nuclide: Te130
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  1.470000E-02
+#   selected value uncertainty [b]:  2.800000E-03
+#   selected value source: Kadonis
+# datablock:
+#   quantity: MACS
+#   columns: 8
+#   entries: 7
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      Macklin                 EXFOR                1967        1.400000E-02   5.000000E-03   14322028       9.523810E-01
+      Kadonis                 Compilation          2000        1.470000E-02   2.800000E-03                  1.000000E+00
+      cendl3.2                NDL                  2019        1.432900E-02   0.000000E+00                  9.747619E-01
+      jeff3.3                 NDL                  2020        1.031200E-02   0.000000E+00                  7.014966E-01
+      jendl5.0                NDL                  2021        1.497000E-02   0.000000E+00                  1.018367E+00
+      tendl.2023              NDL                  2023        2.080000E-02   0.000000E+00                  1.414966E+00
+      endfb8.1                NDL                  2024        1.432900E-02   0.000000E+00                  9.747619E-01

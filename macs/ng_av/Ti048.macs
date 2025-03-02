@@ -1,0 +1,28 @@
+# header:
+#   title: Ti048(n,g) MACS
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 22
+#   A: 48
+#   nuclide: Ti048
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  3.180000E-02
+#   selected value uncertainty [b]:  5.100000E-03
+#   selected value source: Kadonis
+# datablock:
+#   quantity: MACS
+#   columns: 8
+#   entries: 8
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      Kadonis                 Compilation          2000        3.180000E-02   5.100000E-03                  1.000000E+00
+      Sukhoruchkin            Compilation          2015        2.650000E-02   1.500000E-03                  8.333333E-01
+      Mughabghab_2016         Compilation          2016        2.970000E-02   4.900000E-03                  9.339622E-01
+      cendl3.2                NDL                  2019        2.702100E-02   0.000000E+00                  8.497170E-01
+      jeff3.3                 NDL                  2020        2.702000E-02   0.000000E+00                  8.496855E-01
+      jendl5.0                NDL                  2021        2.702000E-02   0.000000E+00                  8.496855E-01
+      tendl.2023              NDL                  2023        2.702000E-02   0.000000E+00                  8.496855E-01
+      endfb8.1                NDL                  2024        2.702000E-02   0.000000E+00                  8.496855E-01

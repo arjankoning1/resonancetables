@@ -1,0 +1,29 @@
+# header:
+#   title: Sc045(n,g) MACS
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 21
+#   A: 45
+#   nuclide: Sc045
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  5.529599E-02
+#   selected value uncertainty [b]:  6.107487E-04
+#   selected value source: Astral
+# datablock:
+#   quantity: MACS
+#   columns: 8
+#   entries: 9
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      Kadonis                 Compilation          2000        6.900001E-02   5.000000E-03                  1.247830E+00
+      Sukhoruchkin            Compilation          2015        6.800000E-02   9.000000E-03                  1.229746E+00
+      Heil                    EXFOR                2016        6.500001E-02   1.800000E-03   23306006       1.175492E+00
+      Mughabghab_2016         Compilation          2016        6.130000E-02   1.800000E-03                  1.108579E+00
+      jeff3.3                 NDL                  2020        6.545300E-02   0.000000E+00                  1.183684E+00
+      Astral                  Compilation          2020        5.529599E-02   6.107487E-04                  1.000000E+00
+      jendl5.0                NDL                  2021        6.644000E-02   0.000000E+00                  1.201534E+00
+      tendl.2023              NDL                  2023        7.270600E-02   0.000000E+00                  1.314851E+00
+      endfb8.1                NDL                  2024        6.929700E-02   0.000000E+00                  1.253201E+00

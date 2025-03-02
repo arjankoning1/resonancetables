@@ -1,0 +1,30 @@
+# header:
+#   title: W186(n,g) MACS
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 74
+#   A: 186
+#   nuclide: W186
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  1.768613E-01
+#   selected value uncertainty [b]:  2.622492E-03
+#   selected value source: Astral
+# datablock:
+#   quantity: MACS
+#   columns: 8
+#   entries: 10
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      Kadonis                 Compilation          2000        2.350000E-01   9.000001E-03                  1.328725E+00
+      Marganiec               EXFOR                2009        1.990830E-01   5.802400E-03   14248003       1.125645E+00
+      Sukhoruchkin            Compilation          2015        1.920000E-01   2.200000E-02                  1.085596E+00
+      Mughabghab_2016         Compilation          2016        2.280000E-01   1.000000E-02                  1.289146E+00
+      cendl3.2                NDL                  2019        1.946400E-01   0.000000E+00                  1.100523E+00
+      jeff3.3                 NDL                  2020        1.745800E-01   0.000000E+00                  9.871011E-01
+      Astral                  Compilation          2020        1.768613E-01   2.622492E-03                  1.000000E+00
+      jendl5.0                NDL                  2021        1.933600E-01   0.000000E+00                  1.093286E+00
+      tendl.2023              NDL                  2023        2.894200E-01   0.000000E+00                  1.636424E+00
+      endfb8.1                NDL                  2024        1.893600E-01   0.000000E+00                  1.070669E+00

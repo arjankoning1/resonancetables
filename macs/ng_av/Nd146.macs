@@ -1,0 +1,30 @@
+# header:
+#   title: Nd146(n,g) MACS
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 60
+#   A: 146
+#   nuclide: Nd146
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  9.706615E-02
+#   selected value uncertainty [b]:  1.458656E-03
+#   selected value source: Astral
+# datablock:
+#   quantity: MACS
+#   columns: 8
+#   entries: 10
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      Toukan                  EXFOR                1995        1.003420E-01   4.702000E-03   223050083      1.033749E+00
+      Kadonis                 Compilation          2000        9.120000E-02   1.000000E-03                  9.395655E-01
+      Sukhoruchkin            Compilation          2015        9.900000E-02   9.000000E-03                  1.019923E+00
+      Mughabghab_2016         Compilation          2016        9.120000E-02   2.000000E-03                  9.395655E-01
+      cendl3.2                NDL                  2019        1.288600E-01   0.000000E+00                  1.327548E+00
+      jeff3.3                 NDL                  2020        9.881200E-02   0.000000E+00                  1.017986E+00
+      Astral                  Compilation          2020        9.706615E-02   1.458656E-03                  1.000000E+00
+      jendl5.0                NDL                  2021        9.157400E-02   0.000000E+00                  9.434185E-01
+      tendl.2023              NDL                  2023        1.124600E-01   0.000000E+00                  1.158591E+00
+      endfb8.1                NDL                  2024        9.881200E-02   0.000000E+00                  1.017986E+00

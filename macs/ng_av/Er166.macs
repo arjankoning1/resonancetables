@@ -1,0 +1,26 @@
+# header:
+#   title: Er166(n,g) MACS
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 68
+#   A: 166
+#   nuclide: Er166
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  5.630000E-01
+#   selected value uncertainty [b]:  5.600000E-02
+#   selected value source: Kadonis
+# datablock:
+#   quantity: MACS
+#   columns: 8
+#   entries: 6
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      Kadonis                 Compilation          2000        5.630000E-01   5.600000E-02                  1.000000E+00
+      Sukhoruchkin            Compilation          2015        7.000000E-01   4.000000E-02                  1.243339E+00
+      jeff3.3                 NDL                  2020        5.188900E-01   0.000000E+00                  9.216518E-01
+      jendl5.0                NDL                  2021        6.520500E-01   0.000000E+00                  1.158170E+00
+      tendl.2023              NDL                  2023        6.542800E-01   0.000000E+00                  1.162131E+00
+      endfb8.1                NDL                  2024        6.079100E-01   0.000000E+00                  1.079769E+00

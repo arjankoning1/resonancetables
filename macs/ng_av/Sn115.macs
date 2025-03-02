@@ -1,0 +1,29 @@
+# header:
+#   title: Sn115(n,g) MACS
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 50
+#   A: 115
+#   nuclide: Sn115
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  3.761786E-01
+#   selected value uncertainty [b]:  1.147071E-02
+#   selected value source: Astral
+# datablock:
+#   quantity: MACS
+#   columns: 8
+#   entries: 9
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      Kadonis                 Compilation          2000        3.424000E-01   8.700000E-03                  9.102060E-01
+      Sukhoruchkin            Compilation          2015        3.900000E-01   1.100000E-01                  1.036742E+00
+      Mughabghab_2016         Compilation          2016        3.606000E-01   9.200000E-03                  9.585872E-01
+      cendl3.2                NDL                  2019        3.917900E-01   0.000000E+00                  1.041500E+00
+      jeff3.3                 NDL                  2020        3.727800E-01   0.000000E+00                  9.909655E-01
+      Astral                  Compilation          2020        3.761786E-01   1.147071E-02                  1.000000E+00
+      jendl5.0                NDL                  2021        3.727800E-01   0.000000E+00                  9.909655E-01
+      tendl.2023              NDL                  2023        6.680800E-01   0.000000E+00                  1.775965E+00
+      endfb8.1                NDL                  2024        3.593000E-01   0.000000E+00                  9.551314E-01

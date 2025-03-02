@@ -1,0 +1,27 @@
+# header:
+#   title: Re185(n,g) MACS
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 75
+#   A: 185
+#   nuclide: Re185
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  1.535000E+00
+#   selected value uncertainty [b]:  6.200000E-02
+#   selected value source: Kadonis
+# datablock:
+#   quantity: MACS
+#   columns: 8
+#   entries: 7
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      Kadonis                 Compilation          2000        1.535000E+00   6.200000E-02                  1.000000E+00
+      Sukhoruchkin            Compilation          2015        1.170000E+00   2.400000E-01                  7.622149E-01
+      Mughabghab_2016         Compilation          2016        1.532000E+00   6.200000E-01                  9.980455E-01
+      jeff3.3                 NDL                  2020        1.708700E+00   0.000000E+00                  1.113160E+00
+      jendl5.0                NDL                  2021        1.309500E+00   0.000000E+00                  8.530944E-01
+      tendl.2023              NDL                  2023        1.799500E+00   0.000000E+00                  1.172313E+00
+      endfb8.1                NDL                  2024        1.160300E+00   0.000000E+00                  7.558957E-01

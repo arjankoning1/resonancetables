@@ -1,0 +1,28 @@
+# header:
+#   title: Mo092(n,g) MACS
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 42
+#   A: 92
+#   nuclide: Mo092
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  7.000000E-02
+#   selected value uncertainty [b]:  1.000000E-02
+#   selected value source: Kadonis
+# datablock:
+#   quantity: MACS
+#   columns: 8
+#   entries: 8
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      Kadonis                 Compilation          2000        7.000000E-02   1.000000E-02                  1.000000E+00
+      Sukhoruchkin            Compilation          2015        6.900000E-02   1.500000E-02                  9.857143E-01
+      Mughabghab_2016         Compilation          2016        7.000000E-02   1.000000E-02                  1.000000E+00
+      cendl3.2                NDL                  2019        6.697500E-02   0.000000E+00                  9.567857E-01
+      jeff3.3                 NDL                  2020        6.739900E-02   0.000000E+00                  9.628429E-01
+      jendl5.0                NDL                  2021        6.739900E-02   0.000000E+00                  9.628429E-01
+      tendl.2023              NDL                  2023        6.713600E-02   0.000000E+00                  9.590856E-01
+      endfb8.1                NDL                  2024        6.955100E-02   0.000000E+00                  9.935857E-01

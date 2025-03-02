@@ -1,0 +1,28 @@
+# header:
+#   title: Cd116(n,g) MACS
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 48
+#   A: 116
+#   nuclide: Cd116
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  7.981290E-02
+#   selected value uncertainty [b]:  1.271497E-03
+#   selected value source: Astral
+# datablock:
+#   quantity: MACS
+#   columns: 8
+#   entries: 8
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      Kadonis                 Compilation          2000        7.480001E-02   9.000000E-04                  9.371920E-01
+      Sukhoruchkin            Compilation          2015        9.100000E-02   1.400000E-02                  1.140167E+00
+      Mughabghab_2016         Compilation          2016        7.480000E-02   9.000000E-04                  9.371918E-01
+      jeff3.3                 NDL                  2020        9.202700E-02   0.000000E+00                  1.153034E+00
+      Astral                  Compilation          2020        7.981290E-02   1.271497E-03                  1.000000E+00
+      jendl5.0                NDL                  2021        7.648800E-02   0.000000E+00                  9.583414E-01
+      tendl.2023              NDL                  2023        7.717600E-02   0.000000E+00                  9.669614E-01
+      endfb8.1                NDL                  2024        9.120200E-02   0.000000E+00                  1.142697E+00

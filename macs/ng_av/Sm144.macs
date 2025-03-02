@@ -1,0 +1,29 @@
+# header:
+#   title: Sm144(n,g) MACS
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 62
+#   A: 144
+#   nuclide: Sm144
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  9.200001E-02
+#   selected value uncertainty [b]:  6.000000E-03
+#   selected value source: Kadonis
+# datablock:
+#   quantity: MACS
+#   columns: 8
+#   entries: 9
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      Macklin                 EXFOR                1967        1.500000E-01   7.000000E-02   14322007       1.630435E+00
+      Kadonis                 Compilation          2000        9.200001E-02   6.000000E-03                  1.000000E+00
+      Sukhoruchkin            Compilation          2015        8.800000E-02   1.500000E-02                  9.565216E-01
+      Mughabghab_2016         Compilation          2016        9.200000E-02   6.000000E-03                  9.999999E-01
+      cendl3.2                NDL                  2019        8.831700E-02   0.000000E+00                  9.599673E-01
+      jeff3.3                 NDL                  2020        8.787900E-02   0.000000E+00                  9.552065E-01
+      jendl5.0                NDL                  2021        8.847300E-02   0.000000E+00                  9.616629E-01
+      tendl.2023              NDL                  2023        9.080500E-02   0.000000E+00                  9.870108E-01
+      endfb8.1                NDL                  2024        8.787900E-02   0.000000E+00                  9.552065E-01

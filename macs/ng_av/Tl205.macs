@@ -1,0 +1,27 @@
+# header:
+#   title: Tl205(n,g) MACS
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 81
+#   A: 205
+#   nuclide: Tl205
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  5.400000E-02
+#   selected value uncertainty [b]:  4.000000E-03
+#   selected value source: Kadonis
+# datablock:
+#   quantity: MACS
+#   columns: 8
+#   entries: 7
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      Kadonis                 Compilation          2000        5.400000E-02   4.000000E-03                  1.000000E+00
+      Sukhoruchkin            Compilation          2015        5.256000E-02   0.000000E+00                  9.733334E-01
+      Mughabghab_2016         Compilation          2016        5.400000E-02   4.000000E-03                  1.000000E+00
+      jeff3.3                 NDL                  2020        1.087500E-01   0.000000E+00                  2.013889E+00
+      jendl5.0                NDL                  2021        5.362100E-02   0.000000E+00                  9.929815E-01
+      tendl.2023              NDL                  2023        5.537300E-02   0.000000E+00                  1.025426E+00
+      endfb8.1                NDL                  2024        5.266600E-02   0.000000E+00                  9.752963E-01

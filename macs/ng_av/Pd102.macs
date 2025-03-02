@@ -1,0 +1,30 @@
+# header:
+#   title: Pd102(n,g) MACS
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 46
+#   A: 102
+#   nuclide: Pd102
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  3.597212E-01
+#   selected value uncertainty [b]:  9.903142E-03
+#   selected value source: Astral
+# datablock:
+#   quantity: MACS
+#   columns: 8
+#   entries: 10
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      Kadonis                 Compilation          2000        3.690000E-01   1.700000E-02                  1.025794E+00
+      Dillmann                EXFOR                2010        3.991670E-01   1.700710E-02   229390252      1.109657E+00
+      Dillmann                EXFOR                2010        3.760000E-01   1.700000E-02   22939007       1.045254E+00
+      Sukhoruchkin            Compilation          2015        4.600000E-01   8.000000E-02                  1.278768E+00
+      Mughabghab_2016         Compilation          2016        3.760000E-01   1.700000E-02                  1.045254E+00
+      jeff3.3                 NDL                  2020        3.683100E-01   0.000000E+00                  1.023876E+00
+      Astral                  Compilation          2020        3.597212E-01   9.903142E-03                  1.000000E+00
+      jendl5.0                NDL                  2021        2.902100E-01   0.000000E+00                  8.067636E-01
+      tendl.2023              NDL                  2023        2.993600E-01   0.000000E+00                  8.322001E-01
+      endfb8.1                NDL                  2024        3.689800E-01   0.000000E+00                  1.025739E+00

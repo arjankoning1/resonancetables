@@ -1,0 +1,30 @@
+# header:
+#   title: Os190(n,g) MACS
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 76
+#   A: 190
+#   nuclide: Os190
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  2.640826E-01
+#   selected value uncertainty [b]:  5.949725E-03
+#   selected value source: Astral
+# datablock:
+#   quantity: MACS
+#   columns: 8
+#   entries: 10
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      Kadonis                 Compilation          2000        2.740000E-01   1.200000E-02                  1.037554E+00
+      Marganiec               EXFOR                2014        2.858200E-01   1.086110E-02   232670342      1.082313E+00
+      Marganiec               EXFOR                2014        2.690000E-01   1.076000E-02   23267022       1.018621E+00
+      Sukhoruchkin            Compilation          2015        2.950000E-01   4.500000E-02                  1.117075E+00
+      Mughabghab_2016         Compilation          2016        2.690000E-01   1.100000E-02                  1.018621E+00
+      jeff3.3                 NDL                  2020        3.098600E-01   0.000000E+00                  1.173345E+00
+      Astral                  Compilation          2020        2.640826E-01   5.949725E-03                  1.000000E+00
+      jendl5.0                NDL                  2021        3.573000E-01   0.000000E+00                  1.352986E+00
+      tendl.2023              NDL                  2023        3.096400E-01   0.000000E+00                  1.172512E+00
+      endfb8.1                NDL                  2024        3.573000E-01   0.000000E+00                  1.352986E+00

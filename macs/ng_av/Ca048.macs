@@ -1,0 +1,29 @@
+# header:
+#   title: Ca048(n,g) MACS
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 20
+#   A: 48
+#   nuclide: Ca048
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  8.700000E-04
+#   selected value uncertainty [b]:  9.000001E-05
+#   selected value source: Kadonis
+# datablock:
+#   quantity: MACS
+#   columns: 8
+#   entries: 9
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      Carlton                 EXFOR                1987        1.050000E-03   1.300000E-04   12921002       1.206896E+00
+      Beer                    EXFOR                1996        7.510000E-04   6.800001E-05   22371004       8.632184E-01
+      Kadonis                 Compilation          2000        8.700000E-04   9.000001E-05                  1.000000E+00
+      Sukhoruchkin            Compilation          2015        1.080000E-04   1.600000E-05                  1.241379E-01
+      Mughabghab_2016         Compilation          2016        6.900000E-04   7.000000E-05                  7.931034E-01
+      jeff3.3                 NDL                  2020        8.852400E-04   0.000000E+00                  1.017517E+00
+      jendl5.0                NDL                  2021        1.108300E-04   0.000000E+00                  1.273908E-01
+      tendl.2023              NDL                  2023        5.314800E-04   0.000000E+00                  6.108965E-01
+      endfb8.1                NDL                  2024        1.108300E-04   0.000000E+00                  1.273908E-01

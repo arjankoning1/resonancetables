@@ -1,0 +1,28 @@
+# header:
+#   title: W182(n,g) MACS
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 74
+#   A: 182
+#   nuclide: W182
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  2.740000E-01
+#   selected value uncertainty [b]:  8.000000E-03
+#   selected value source: Kadonis
+# datablock:
+#   quantity: MACS
+#   columns: 8
+#   entries: 8
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      Kadonis                 Compilation          2000        2.740000E-01   8.000000E-03                  1.000000E+00
+      Sukhoruchkin            Compilation          2015        2.900000E-01   4.000000E-02                  1.058394E+00
+      Mughabghab_2016         Compilation          2016        2.740000E-01   8.000000E-03                  9.999999E-01
+      cendl3.2                NDL                  2019        2.810100E-01   0.000000E+00                  1.025584E+00
+      jeff3.3                 NDL                  2020        2.978500E-01   0.000000E+00                  1.087044E+00
+      jendl5.0                NDL                  2021        2.792000E-01   0.000000E+00                  1.018978E+00
+      tendl.2023              NDL                  2023        2.907400E-01   0.000000E+00                  1.061095E+00
+      endfb8.1                NDL                  2024        2.871800E-01   0.000000E+00                  1.048102E+00

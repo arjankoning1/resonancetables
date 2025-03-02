@@ -1,0 +1,28 @@
+# header:
+#   title: K041(n,g) MACS
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 19
+#   A: 41
+#   nuclide: K041
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  2.200000E-02
+#   selected value uncertainty [b]:  7.000000E-04
+#   selected value source: Kadonis
+# datablock:
+#   quantity: MACS
+#   columns: 8
+#   entries: 8
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      Kadonis                 Compilation          2000        2.200000E-02   7.000000E-04                  1.000000E+00
+      Sukhoruchkin            Compilation          2015        2.000000E-02   4.000000E-03                  9.090908E-01
+      Heil                    EXFOR                2016        2.190000E-02   8.000000E-04   23306007       9.954545E-01
+      Mughabghab_2016         Compilation          2016        1.920000E-02   6.000000E-04                  8.727272E-01
+      jeff3.3                 NDL                  2020        2.016700E-02   0.000000E+00                  9.166818E-01
+      jendl5.0                NDL                  2021        2.060200E-02   0.000000E+00                  9.364545E-01
+      tendl.2023              NDL                  2023        1.581800E-02   0.000000E+00                  7.189999E-01
+      endfb8.1                NDL                  2024        2.060200E-02   0.000000E+00                  9.364545E-01

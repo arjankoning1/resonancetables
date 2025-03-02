@@ -1,0 +1,29 @@
+# header:
+#   title: Te126(n,g) MACS
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 52
+#   A: 126
+#   nuclide: Te126
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  8.638100E-02
+#   selected value uncertainty [b]:  1.594460E-03
+#   selected value source: Astral
+# datablock:
+#   quantity: MACS
+#   columns: 8
+#   entries: 9
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      Macklin                 EXFOR                1967        8.900000E-02   1.500000E-02   14322026       1.030319E+00
+      Kadonis                 Compilation          2000        8.130001E-02   1.400000E-03                  9.411793E-01
+      Sukhoruchkin            Compilation          2015        8.000000E-02   1.500000E-02                  9.261296E-01
+      Mughabghab_2016         Compilation          2016        8.130000E-02   1.400000E-03                  9.411792E-01
+      jeff3.3                 NDL                  2020        6.774800E-02   0.000000E+00                  7.842929E-01
+      Astral                  Compilation          2020        8.638100E-02   1.594460E-03                  1.000000E+00
+      jendl5.0                NDL                  2021        8.656000E-02   0.000000E+00                  1.002072E+00
+      tendl.2023              NDL                  2023        8.101800E-02   0.000000E+00                  9.379147E-01
+      endfb8.1                NDL                  2024        7.985000E-02   0.000000E+00                  9.243932E-01

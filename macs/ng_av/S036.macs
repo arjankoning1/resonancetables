@@ -1,0 +1,28 @@
+# header:
+#   title: S036(n,g) MACS
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 16
+#   A: 36
+#   nuclide: S036
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  1.710000E-04
+#   selected value uncertainty [b]:  1.400000E-05
+#   selected value source: Kadonis
+# datablock:
+#   quantity: MACS
+#   columns: 8
+#   entries: 8
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      Beer                    EXFOR                1995        1.993000E-04   1.502200E-05   224450042      1.165497E+00
+      Kadonis                 Compilation          2000        1.710000E-04   1.400000E-05                  1.000000E+00
+      Mughabghab_2016         Compilation          2016        1.870000E-04   1.400000E-05                  1.093567E+00
+      cendl3.2                NDL                  2019        1.839000E-04   0.000000E+00                  1.075439E+00
+      jeff3.3                 NDL                  2020        2.316500E-03   0.000000E+00                  1.354678E+01
+      jendl5.0                NDL                  2021        6.397100E-04   0.000000E+00                  3.740994E+00
+      tendl.2023              NDL                  2023        5.089600E-04   0.000000E+00                  2.976374E+00
+      endfb8.1                NDL                  2024        6.397100E-04   0.000000E+00                  3.740994E+00

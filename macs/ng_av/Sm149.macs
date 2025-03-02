@@ -1,0 +1,30 @@
+# header:
+#   title: Sm149(n,g) MACS
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 62
+#   A: 149
+#   nuclide: Sm149
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  1.932460E+00
+#   selected value uncertainty [b]:  2.933776E-02
+#   selected value source: Astral
+# datablock:
+#   quantity: MACS
+#   columns: 8
+#   entries: 10
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      Macklin                 EXFOR                1967        1.620000E+00   2.800000E-01   14322010       8.383098E-01
+      Kadonis                 Compilation          2000        1.820000E+00   1.700000E-02                  9.418048E-01
+      Sukhoruchkin            Compilation          2015        1.800000E+00   4.000000E-01                  9.314552E-01
+      Mughabghab_2016         Compilation          2016        1.820000E+00   2.000000E-02                  9.418048E-01
+      cendl3.2                NDL                  2019        1.830300E+00   0.000000E+00                  9.471347E-01
+      jeff3.3                 NDL                  2020        1.787600E+00   0.000000E+00                  9.250385E-01
+      Astral                  Compilation          2020        1.932460E+00   2.933776E-02                  1.000000E+00
+      jendl5.0                NDL                  2021        1.823600E+00   0.000000E+00                  9.436677E-01
+      tendl.2023              NDL                  2023        2.005700E+00   0.000000E+00                  1.037900E+00
+      endfb8.1                NDL                  2024        1.787600E+00   0.000000E+00                  9.250385E-01

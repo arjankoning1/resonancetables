@@ -1,0 +1,28 @@
+# header:
+#   title: Kr078(n,g) MACS
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 36
+#   A: 78
+#   nuclide: Kr078
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  3.210000E-01
+#   selected value uncertainty [b]:  2.600000E-02
+#   selected value source: Kadonis
+# datablock:
+#   quantity: MACS
+#   columns: 8
+#   entries: 8
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      Kadonis                 Compilation          2000        3.210000E-01   2.600000E-02                  1.000000E+00
+      Sukhoruchkin            Compilation          2015        4.700000E-01   1.000000E-01                  1.464174E+00
+      Mughabghab_2016         Compilation          2016        3.230000E-01   2.700000E-02                  1.006231E+00
+      jeff3.3                 NDL                  2020        2.821900E-01   0.000000E+00                  8.790965E-01
+      Tessler                 EXFOR                2021        3.940000E-01   2.000000E-02   31837009       1.227414E+00
+      jendl5.0                NDL                  2021        4.263100E-01   0.000000E+00                  1.328068E+00
+      tendl.2023              NDL                  2023        3.401200E-01   0.000000E+00                  1.059564E+00
+      endfb8.1                NDL                  2024        3.211800E-01   0.000000E+00                  1.000561E+00

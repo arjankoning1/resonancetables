@@ -1,0 +1,29 @@
+# header:
+#   title: Sb121(n,g) MACS
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 51
+#   A: 121
+#   nuclide: Sb121
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  4.796929E-01
+#   selected value uncertainty [b]:  5.260967E-03
+#   selected value source: Astral
+# datablock:
+#   quantity: MACS
+#   columns: 8
+#   entries: 9
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      Kadonis                 Compilation          2000        5.320000E-01   1.600000E-02                  1.109043E+00
+      Sukhoruchkin            Compilation          2015        5.100000E-01   8.000000E-02                  1.063180E+00
+      Mughabghab_2016         Compilation          2016        5.600000E-01   1.700000E-02                  1.167413E+00
+      cendl3.2                NDL                  2019        5.294400E-01   0.000000E+00                  1.103706E+00
+      jeff3.3                 NDL                  2020        5.240700E-01   0.000000E+00                  1.092511E+00
+      Astral                  Compilation          2020        4.796929E-01   5.260967E-03                  1.000000E+00
+      jendl5.0                NDL                  2021        6.715100E-01   0.000000E+00                  1.399875E+00
+      tendl.2023              NDL                  2023        6.526400E-01   0.000000E+00                  1.360537E+00
+      endfb8.1                NDL                  2024        5.133100E-01   0.000000E+00                  1.070080E+00

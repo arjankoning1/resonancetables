@@ -1,0 +1,31 @@
+# header:
+#   title: Nd142(n,g) MACS
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 60
+#   A: 142
+#   nuclide: Nd142
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  3.574990E-02
+#   selected value uncertainty [b]:  6.603053E-04
+#   selected value source: Astral
+# datablock:
+#   quantity: MACS
+#   columns: 8
+#   entries: 11
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      Mathews                 EXFOR                1984        5.100000E-02   4.080000E-03   219060022      1.426577E+00
+      Mathews                 EXFOR                1984        4.900000E-02   4.000000E-03   219060021      1.370633E+00
+      Kadonis                 Compilation          2000        3.500000E-02   7.000000E-04                  9.790237E-01
+      Sukhoruchkin            Compilation          2015        3.300000E-02   4.000000E-03                  9.230795E-01
+      Mughabghab_2016         Compilation          2016        3.570000E-02   7.000000E-04                  9.986042E-01
+      cendl3.2                NDL                  2019        5.495600E-02   0.000000E+00                  1.537235E+00
+      jeff3.3                 NDL                  2020        3.552700E-02   0.000000E+00                  9.937649E-01
+      Astral                  Compilation          2020        3.574990E-02   6.603053E-04                  1.000000E+00
+      jendl5.0                NDL                  2021        3.565000E-02   0.000000E+00                  9.972056E-01
+      tendl.2023              NDL                  2023        3.817800E-02   0.000000E+00                  1.067919E+00
+      endfb8.1                NDL                  2024        3.354500E-02   0.000000E+00                  9.383242E-01

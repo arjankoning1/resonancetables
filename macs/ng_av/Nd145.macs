@@ -1,0 +1,29 @@
+# header:
+#   title: Nd145(n,g) MACS
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 60
+#   A: 145
+#   nuclide: Nd145
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  4.513606E-01
+#   selected value uncertainty [b]:  7.071096E-03
+#   selected value source: Astral
+# datablock:
+#   quantity: MACS
+#   columns: 8
+#   entries: 9
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      Kadonis                 Compilation          2000        4.250000E-01   5.000000E-03                  9.415975E-01
+      Sukhoruchkin            Compilation          2015        4.200000E-01   5.000000E-02                  9.305198E-01
+      Mughabghab_2016         Compilation          2016        4.248000E-01   4.500000E-03                  9.411544E-01
+      cendl3.2                NDL                  2019        5.067300E-01   0.000000E+00                  1.122672E+00
+      jeff3.3                 NDL                  2020        4.235400E-01   0.000000E+00                  9.383628E-01
+      Astral                  Compilation          2020        4.513606E-01   7.071096E-03                  1.000000E+00
+      jendl5.0                NDL                  2021        4.095200E-01   0.000000E+00                  9.073011E-01
+      tendl.2023              NDL                  2023        4.358000E-01   0.000000E+00                  9.655251E-01
+      endfb8.1                NDL                  2024        4.219900E-01   0.000000E+00                  9.349287E-01

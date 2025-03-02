@@ -1,0 +1,28 @@
+# header:
+#   title: C012(n,g) MACS
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 6
+#   A: 12
+#   nuclide: C012
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  1.540000E-05
+#   selected value uncertainty [b]:  1.000000E-06
+#   selected value source: Kadonis
+# datablock:
+#   quantity: MACS
+#   columns: 8
+#   entries: 8
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      Nagai                   EXFOR                1991        1.680000E-05   2.100000E-06   22271007       1.090909E+00
+      Kadonis                 Compilation          2000        1.540000E-05   1.000000E-06                  1.000000E+00
+      Sukhoruchkin            Compilation          2015        1.600000E-05   3.000000E-06                  1.038961E+00
+      Mughabghab_2016         Compilation          2016        1.540000E-05   1.000000E-06                  1.000000E+00
+      cendl3.2                NDL                  2019        1.395300E-06   0.000000E+00                  9.060390E-02
+      jendl5.0                NDL                  2021        1.549900E-05   0.000000E+00                  1.006428E+00
+      tendl.2023              NDL                  2023        1.527700E-05   0.000000E+00                  9.920130E-01
+      endfb8.1                NDL                  2024        1.527700E-05   0.000000E+00                  9.920130E-01

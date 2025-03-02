@@ -1,0 +1,31 @@
+# header:
+#   title: Ba130(n,g) MACS
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 56
+#   A: 130
+#   nuclide: Ba130
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  7.294734E-01
+#   selected value uncertainty [b]:  1.166732E-02
+#   selected value source: Astral
+# datablock:
+#   quantity: MACS
+#   columns: 8
+#   entries: 11
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      Kadonis                 Compilation          2000        7.460001E-01   3.400000E-02                  1.022656E+00
+      Dillmann                EXFOR                2010        7.823271E-01   3.001260E-02   229390322      1.072455E+00
+      Dillmann                EXFOR                2010        7.360001E-01   2.900000E-02   22939014       1.008947E+00
+      Sukhoruchkin            Compilation          2015        7.400000E-01   1.100000E-01                  1.014430E+00
+      Mughabghab_2016         Compilation          2016        7.560000E-01   2.900000E-02                  1.036364E+00
+      cendl3.2                NDL                  2019        7.389000E-01   0.000000E+00                  1.012922E+00
+      jeff3.3                 NDL                  2020        7.391400E-01   0.000000E+00                  1.013251E+00
+      Astral                  Compilation          2020        7.294734E-01   1.166732E-02                  1.000000E+00
+      jendl5.0                NDL                  2021        6.963200E-01   0.000000E+00                  9.545516E-01
+      tendl.2023              NDL                  2023        8.106700E-01   0.000000E+00                  1.111309E+00
+      endfb8.1                NDL                  2024        7.828100E-01   0.000000E+00                  1.073117E+00

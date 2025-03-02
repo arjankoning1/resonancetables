@@ -1,0 +1,29 @@
+# header:
+#   title: Fe057(n,g) MACS
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 26
+#   A: 57
+#   nuclide: Fe057
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  4.000000E-02
+#   selected value uncertainty [b]:  4.000000E-03
+#   selected value source: Kadonis
+# datablock:
+#   quantity: MACS
+#   columns: 8
+#   entries: 9
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      Kadonis                 Compilation          2000        4.000000E-02   4.000000E-03                  1.000000E+00
+      Giubrone                EXFOR                2014        2.680000E-02   4.400000E-03   23734035       6.700000E-01
+      Sukhoruchkin            Compilation          2015        2.850000E-02   2.000000E-03                  7.125000E-01
+      Mughabghab_2016         Compilation          2016        3.770000E-02   2.300000E-03                  9.424999E-01
+      cendl3.2                NDL                  2019        3.068100E-02   0.000000E+00                  7.670249E-01
+      jeff3.3                 NDL                  2020        3.073900E-02   0.000000E+00                  7.684749E-01
+      jendl5.0                NDL                  2021        3.652300E-02   0.000000E+00                  9.130749E-01
+      tendl.2023              NDL                  2023        4.105600E-02   0.000000E+00                  1.026400E+00
+      endfb8.1                NDL                  2024        3.652500E-02   0.000000E+00                  9.131249E-01

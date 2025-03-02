@@ -1,0 +1,28 @@
+# header:
+#   title: Ti047(n,g) MACS
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 22
+#   A: 47
+#   nuclide: Ti047
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  6.440000E-02
+#   selected value uncertainty [b]:  7.700000E-03
+#   selected value source: Kadonis
+# datablock:
+#   quantity: MACS
+#   columns: 8
+#   entries: 8
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      Kadonis                 Compilation          2000        6.440000E-02   7.700000E-03                  1.000000E+00
+      Sukhoruchkin            Compilation          2015        4.900000E-02   7.000000E-03                  7.608695E-01
+      Mughabghab_2016         Compilation          2016        6.440000E-02   7.700000E-03                  1.000000E+00
+      cendl3.2                NDL                  2019        4.639400E-02   0.000000E+00                  7.204037E-01
+      jeff3.3                 NDL                  2020        5.927100E-02   0.000000E+00                  9.203571E-01
+      jendl5.0                NDL                  2021        4.728600E-02   0.000000E+00                  7.342547E-01
+      tendl.2023              NDL                  2023        5.468500E-02   0.000000E+00                  8.491459E-01
+      endfb8.1                NDL                  2024        4.927400E-02   0.000000E+00                  7.651242E-01

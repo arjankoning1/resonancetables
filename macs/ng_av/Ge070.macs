@@ -1,0 +1,28 @@
+# header:
+#   title: Ge070(n,g) MACS
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 32
+#   A: 70
+#   nuclide: Ge070
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  8.800001E-02
+#   selected value uncertainty [b]:  5.000000E-03
+#   selected value source: Kadonis
+# datablock:
+#   quantity: MACS
+#   columns: 8
+#   entries: 8
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      Kadonis                 Compilation          2000        8.800001E-02   5.000000E-03                  1.000000E+00
+      Sukhoruchkin            Compilation          2015        8.900000E-02   1.000000E-02                  1.011364E+00
+      Mughabghab_2016         Compilation          2016        8.800000E-02   5.000000E-03                  9.999999E-01
+      cendl3.2                NDL                  2019        5.327400E-02   0.000000E+00                  6.053863E-01
+      jeff3.3                 NDL                  2020        5.649500E-02   0.000000E+00                  6.419886E-01
+      jendl5.0                NDL                  2021        8.976700E-02   0.000000E+00                  1.020079E+00
+      tendl.2023              NDL                  2023        7.479100E-02   0.000000E+00                  8.498976E-01
+      endfb8.1                NDL                  2024        8.976700E-02   0.000000E+00                  1.020079E+00

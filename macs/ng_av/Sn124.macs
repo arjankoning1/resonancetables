@@ -1,0 +1,29 @@
+# header:
+#   title: Sn124(n,g) MACS
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 50
+#   A: 124
+#   nuclide: Sn124
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  1.200000E-02
+#   selected value uncertainty [b]:  1.800000E-03
+#   selected value source: Kadonis
+# datablock:
+#   quantity: MACS
+#   columns: 8
+#   entries: 9
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      Macklin                 EXFOR                1962        2.300000E-02   4.000000E-03   11958009       1.916667E+00
+      Kadonis                 Compilation          2000        1.200000E-02   1.800000E-03                  1.000000E+00
+      Sukhoruchkin            Compilation          2015        1.180000E-02   2.300000E-02                  9.833333E-01
+      Mughabghab_2016         Compilation          2016        1.200000E-02   1.800000E-03                  1.000000E+00
+      cendl3.2                NDL                  2019        1.509400E-02   0.000000E+00                  1.257833E+00
+      jeff3.3                 NDL                  2020        1.927000E-02   0.000000E+00                  1.605833E+00
+      jendl5.0                NDL                  2021        1.964100E-02   0.000000E+00                  1.636750E+00
+      tendl.2023              NDL                  2023        2.779800E-02   0.000000E+00                  2.316500E+00
+      endfb8.1                NDL                  2024        1.159200E-02   0.000000E+00                  9.660000E-01

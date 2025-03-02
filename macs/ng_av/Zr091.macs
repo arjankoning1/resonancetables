@@ -1,0 +1,31 @@
+# header:
+#   title: Zr091(n,g) MACS
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 40
+#   A: 91
+#   nuclide: Zr091
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  6.200000E-02
+#   selected value uncertainty [b]:  3.400000E-03
+#   selected value source: Kadonis
+# datablock:
+#   quantity: MACS
+#   columns: 8
+#   entries: 11
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      Macklin                 EXFOR                1967        5.900000E-02   1.000000E-02   14322018       9.516129E-01
+      Boldeman                EXFOR                1976        6.000000E-02   6.000000E-03   30352004       9.677419E-01
+      Musgrove                EXFOR                1977        6.000000E-02   8.000000E-03   30423006       9.677419E-01
+      Kadonis                 Compilation          2000        6.200000E-02   3.400000E-03                  1.000000E+00
+      Sukhoruchkin            Compilation          2015        7.400000E-02   1.300000E-02                  1.193548E+00
+      Mughabghab_2016         Compilation          2016        6.300000E-02   4.000000E-03                  1.016129E+00
+      cendl3.2                NDL                  2019        6.741100E-02   0.000000E+00                  1.087274E+00
+      jeff3.3                 NDL                  2020        7.442100E-02   0.000000E+00                  1.200339E+00
+      jendl5.0                NDL                  2021        6.386100E-02   0.000000E+00                  1.030016E+00
+      tendl.2023              NDL                  2023        6.632000E-02   0.000000E+00                  1.069677E+00
+      endfb8.1                NDL                  2024        6.656700E-02   0.000000E+00                  1.073661E+00

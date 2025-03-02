@@ -1,0 +1,27 @@
+# header:
+#   title: Pt196(n,g) MACS
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 78
+#   A: 196
+#   nuclide: Pt196
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  1.830000E-01
+#   selected value uncertainty [b]:  1.600000E-02
+#   selected value source: Kadonis
+# datablock:
+#   quantity: MACS
+#   columns: 8
+#   entries: 7
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      Kadonis                 Compilation          2000        1.830000E-01   1.600000E-02                  1.000000E+00
+      Sukhoruchkin            Compilation          2015        1.970000E-01   2.300000E-02                  1.076503E+00
+      Mughabghab_2016         Compilation          2016        1.674000E-01   5.200000E-03                  9.147540E-01
+      jeff3.3                 NDL                  2020        2.010600E-01   0.000000E+00                  1.098688E+00
+      jendl5.0                NDL                  2021        1.605300E-01   0.000000E+00                  8.772131E-01
+      tendl.2023              NDL                  2023        1.995800E-01   0.000000E+00                  1.090601E+00
+      endfb8.1                NDL                  2024        1.757300E-01   0.000000E+00                  9.602732E-01

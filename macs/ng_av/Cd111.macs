@@ -1,0 +1,28 @@
+# header:
+#   title: Cd111(n,g) MACS
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 48
+#   A: 111
+#   nuclide: Cd111
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  7.994093E-01
+#   selected value uncertainty [b]:  1.504041E-02
+#   selected value source: Astral
+# datablock:
+#   quantity: MACS
+#   columns: 8
+#   entries: 8
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      Kadonis                 Compilation          2000        7.540000E-01   1.200000E-02                  9.431964E-01
+      Sukhoruchkin            Compilation          2015        9.200000E-01   2.100000E-01                  1.150850E+00
+      Mughabghab_2016         Compilation          2016        7.540000E-01   1.200000E-02                  9.431964E-01
+      jeff3.3                 NDL                  2020        7.286900E-01   0.000000E+00                  9.115356E-01
+      Astral                  Compilation          2020        7.994093E-01   1.504041E-02                  1.000000E+00
+      jendl5.0                NDL                  2021        7.266600E-01   0.000000E+00                  9.089962E-01
+      tendl.2023              NDL                  2023        7.214400E-01   0.000000E+00                  9.024664E-01
+      endfb8.1                NDL                  2024        9.277500E-01   0.000000E+00                  1.160544E+00

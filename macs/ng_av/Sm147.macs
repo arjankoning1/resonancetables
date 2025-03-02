@@ -1,0 +1,30 @@
+# header:
+#   title: Sm147(n,g) MACS
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 62
+#   A: 147
+#   nuclide: Sm147
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  9.730000E-01
+#   selected value uncertainty [b]:  1.000000E-02
+#   selected value source: Kadonis
+# datablock:
+#   quantity: MACS
+#   columns: 8
+#   entries: 10
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      Macklin                 EXFOR                1967        1.170000E+00   1.900000E-01   14322008       1.202467E+00
+      Gerstenhoefer           EXFOR                1993        9.814110E-01   4.001670E-02   223760072      1.008644E+00
+      Kadonis                 Compilation          2000        9.730000E-01   1.000000E-02                  1.000000E+00
+      Sukhoruchkin            Compilation          2015        9.700000E-01   1.700000E-01                  9.969167E-01
+      Mughabghab_2016         Compilation          2016        9.730000E-01   1.000000E-02                  9.999999E-01
+      cendl3.2                NDL                  2019        1.027900E+00   0.000000E+00                  1.056423E+00
+      jeff3.3                 NDL                  2020        1.065100E+00   0.000000E+00                  1.094656E+00
+      jendl5.0                NDL                  2021        9.692500E-01   0.000000E+00                  9.961459E-01
+      tendl.2023              NDL                  2023        9.684000E-01   0.000000E+00                  9.952723E-01
+      endfb8.1                NDL                  2024        9.707200E-01   0.000000E+00                  9.976567E-01

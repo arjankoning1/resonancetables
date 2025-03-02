@@ -1,0 +1,28 @@
+# header:
+#   title: Xe126(n,g) MACS
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 54
+#   A: 126
+#   nuclide: Xe126
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  3.376750E-01
+#   selected value uncertainty [b]:  4.747035E-02
+#   selected value source: Astral
+# datablock:
+#   quantity: MACS
+#   columns: 8
+#   entries: 8
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      Kadonis                 Compilation          2000        3.590000E-01   5.100000E-02                  1.063153E+00
+      Sukhoruchkin            Compilation          2015        6.700000E-01   1.600000E-01                  1.984156E+00
+      Mughabghab_2016         Compilation          2016        3.590000E-01   5.100000E-02                  1.063152E+00
+      jeff3.3                 NDL                  2020        3.737300E-01   0.000000E+00                  1.106774E+00
+      Astral                  Compilation          2020        3.376750E-01   4.747035E-02                  1.000000E+00
+      jendl5.0                NDL                  2021        5.502800E-01   0.000000E+00                  1.629614E+00
+      tendl.2023              NDL                  2023        3.669700E-01   0.000000E+00                  1.086755E+00
+      endfb8.1                NDL                  2024        6.734900E-01   0.000000E+00                  1.994492E+00

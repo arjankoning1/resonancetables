@@ -1,0 +1,27 @@
+# header:
+#   title: Pd106(n,g) MACS
+#   source: Resonancetables
+#   date: 2025-03-02
+# target:
+#   Z: 46
+#   A: 106
+#   nuclide: Pd106
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  2.520000E-01
+#   selected value uncertainty [b]:  2.500000E-02
+#   selected value source: Kadonis
+# datablock:
+#   quantity: MACS
+#   columns: 8
+#   entries: 7
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             [b]            [b]            []             []             []
+      Kadonis                 Compilation          2000        2.520000E-01   2.500000E-02                  1.000000E+00
+      Sukhoruchkin            Compilation          2015        2.400000E-01   4.000000E-02                  9.523809E-01
+      Mughabghab_2016         Compilation          2016        2.540000E-01   2.400000E-02                  1.007936E+00
+      jeff3.3                 NDL                  2020        2.380100E-01   0.000000E+00                  9.444841E-01
+      jendl5.0                NDL                  2021        2.546700E-01   0.000000E+00                  1.010595E+00
+      tendl.2023              NDL                  2023        1.976500E-01   0.000000E+00                  7.843254E-01
+      endfb8.1                NDL                  2024        2.380100E-01   0.000000E+00                  9.444841E-01

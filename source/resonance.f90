@@ -51,7 +51,7 @@ subroutine resonance
         endif
       enddo
     enddo
-    call sumresonance(type)
+    if (Nsave > 0) call sumresonance(type)
   enddo
   return
 end subroutine resonance

@@ -18,8 +18,8 @@ subroutine procmacs(Z, A, Liso, Riso)
   implicit none
   character(len=40)  :: ttmp          ! subentry
   character(len=24)  :: atmp          ! author
+  character(len=40)  :: avtmp 
   character(len=40)  :: rtmp          ! reference
-  logical            :: flagav     ! flag for spectrum average
   integer            :: Z             ! charge number
   integer            :: A             ! mass number
   integer            :: N             ! counter
@@ -36,6 +36,11 @@ subroutine procmacs(Z, A, Liso, Riso)
 !
 ! Sort data according to year
 !
+  Nexp = 0
+  Nexp_av = 0
+  Ncomp = 0
+  Ncomp_av = 0
+  Nlib = 0
   N = Nres
   if (N > 0) then
     do i = 1, N
@@ -47,19 +52,42 @@ subroutine procmacs(Z, A, Liso, Riso)
         atmp = res_author(i)
         ttmp = res_type(i)
         rtmp = res_ref(i)
+        avtmp = res_av(i)
         res_xs(i) = res_xs(j)
         res_dxs(i) = res_dxs(j)
         res_year(i) = res_year(j)
         res_author(i) = res_author(j)
         res_type(i) = res_type(j)
         res_ref(i) = res_ref(j)
+        res_av(i) = res_av(j)
         res_xs(j) = xstmp 
         res_dxs(j) = dxstmp 
         res_year(j) = ytmp 
         res_author(j) = atmp 
         res_type(j) = ttmp 
         res_ref(j) = rtmp
+        res_av(j) = avtmp
       enddo
+    enddo
+!
+! Determine numer of each type
+!
+    do i = 1, N
+      if (res_type(i) == 'Compilation') then
+        if (res_av(i) == '') then
+          Ncomp = Ncomp + 1
+        else
+          Ncomp_av = Ncomp_av + 1
+        endif
+      endif
+      if (res_type(i) == 'EXFOR') then
+        if (res_av(i) == '') then
+          Nexp = Nexp + 1
+        else
+          Nexp_av = Nexp_av + 1
+        endif
+      endif
+      if (res_type(i) == 'NDL') Nlib = Nlib + 1
     enddo
   endif
 !
@@ -100,10 +128,12 @@ Loop1:  do
      res_xs_sel = res_xs(Nsel)
      res_dxs_sel = res_dxs(Nsel)
      res_author_sel = res_author(Nsel)
+     res_av_sel = res_av(Nsel)
   else
      res_xs_sel = 0.
      res_dxs_sel = 0.
      res_author_sel = ''
+     res_av_sel = ''
   endif
   Nsave = Nsave +1
   N = Nsave
@@ -113,6 +143,7 @@ Loop1:  do
   xssave(N) = res_xs_sel
   dxssave(N) = res_dxs_sel
   refsave(N) = res_author_sel
+  avsave(N) = res_av_sel
   Nexpsave(N) = Nres_exp
   return
 end subroutine procmacs

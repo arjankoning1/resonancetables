@@ -1,0 +1,40 @@
+# Header: 
+#   title: 92-U-235(N,G) thermal cross section 
+#   source: EXFOR 
+#   date created: 2025-01-22 
+# Target: 
+#   Z: 92 
+#   A: 235 
+#   Nuclide: 92-U-235 
+# Reaction: 
+#   Type: N,G 
+#   Incident energy       : 2.5300e-08 MeV 
+# Residual: 
+#   Z: 92 
+#   A: 236 
+#   Nuclide: 92-U-236
+# Statistics:
+#   Thermal Simple Mean       |  Simple Stdev        : 9.84500E+01  |   1.62173E+00   (N = 4)
+#   Thermal Weighted Mean    +/- Weighted Error      : 9.98664E+01 +/-  1.80766E+00   (N = 4)
+#   MXW Simple Mean           |  Simple Stdev        : 9.25000E+01  |           NAN   (N = 1)
+#   MXW Weighted Mean        +/- Weighted Error      :         NAN +/-          NAN   (N = 1)
+#   SPA Simple Mean           |  Simple Stdev        : 9.00050E+01  |   1.55493E+01   (N = 2)
+#   SPA Weighted Mean        +/- Weighted Error      : 9.58575E+01 +/-  4.37648E+00   (N = 2)
+#
+# Data Table
+#   Experimental Data
+# EXFOR ID          First Author            Year   En_inc       dEn_inc      Data         dData         sf8    sf9
+12438-002-0         C.H.Hogg                1960   2.5300E-08   0.0000E+00   9.6600E+01   6.8000E+00                
+20369-008-0         H.Ceulemans             1970   2.5300E-08   0.0000E+00   9.8700E+01   4.5000E+00                
+22941-030-0         A.Letourneau            2009   2.5300E-08   0.0000E+00   9.8000E+01   1.1000E+01                
+31719-002-0         A.Wallner               2014   2.5300E-08   0.0000E+00   1.0050E+02   2.1000E+00                
+12438-005-0         C.H.Hogg                1960   2.5300E-08   0.0000E+00   9.2500E+01   2.0000E+00     MXW        
+12441-002-0         D.Williams              1946   2.5300E-08   0.0000E+00   1.0100E+02   5.0000E+00     SPA        
+22941-029-0         A.Letourneau            2009   2.5300E-08   0.0000E+00   7.9010E+01   9.0500E+00     SPA        
+# ------------------
+#   Recom./Eval./Deriv./Calc. Data
+# EXFOR ID          First Author            Year   En_inc       dEn_inc      Data         dData         sf8    sf9
+V1002-586-1         S.F.Mughabghab          2006   2.5300E-08   0.0000E+00   9.8800E+01   8.0000E-01           RECOM
+# ------------------
+#
+

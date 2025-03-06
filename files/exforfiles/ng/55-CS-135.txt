@@ -1,0 +1,57 @@
+# Header: 
+#   title: 55-CS-135(N,G) thermal cross section 
+#   source: EXFOR 
+#   date created: 2025-01-22 
+# Target: 
+#   Z: 55 
+#   A: 135 
+#   Nuclide: 55-CS-135 
+# Reaction: 
+#   Type: N,G 
+#   Incident energy       : 2.5300e-08 MeV - 2.5300e-08 MeV 
+# Residual: 
+#   Z: 55 
+#   A: 136 
+#   Nuclide: 55-CS-136
+# Statistics:
+#   Thermal Simple Mean       |  Simple Stdev        : 8.43500E+00  |   1.90919E-01   (N = 2)
+#   Thermal Weighted Mean    +/- Weighted Error      : 8.45934E+00 +/-  1.92055E-01   (N = 2)
+#   MXW Simple Mean           |  Simple Stdev        : 8.70000E+00  |           NAN   (N = 1)
+#   MXW Weighted Mean        +/- Weighted Error      :         NAN +/-          NAN   (N = 1)
+#   SPA Simple Mean           |  Simple Stdev        : 1.16000E+01  |   4.10122E+00   (N = 2)
+#   SPA Weighted Mean        +/- Weighted Error      : 8.78923E+00 +/-  4.96139E-01   (N = 2)
+#
+# Data Table
+#   Experimental Data
+# EXFOR ID          First Author            Year   En_inc       dEn_inc      Data         dData         sf8    sf9
+22342-002-0         T.Katoh                 1997   2.5300E-08   0.0000E+00   8.3000E+00   3.0000E-01                
+23602-002-0         S.Nakamura              2020   2.5300E-08   0.0000E+00   8.5700E+00   2.5000E-01                
+12008-002-0         A.P.Baerg               1958   2.5300E-08   0.0000E+00   8.7000E+00   5.0000E-01     MXW        
+12038-002-0         N.Sugarman              1949   2.5300E-08   0.0000E+00   1.4500E+01   4.0000E+00     SPA        
+12011-018-0         T.A.Eastwood            1958   2.5300E-08   0.0000E+00   8.7000E+00   5.0000E-01     SPA        
+# ------------------
+#
+
+# Header: 
+#   title: 55-CS-135(N,G) thermal cross section 
+#   source: EXFOR 
+#   date created: 2025-01-22 
+# Target: 
+#   Z: 55 
+#   A: 135 
+#   Nuclide: 55-CS-135 
+# Reaction: 
+#   Type: N,G 
+#   Incident energy       : 2.5300e-08 MeV 
+# Residual: 
+#   Z: 55 
+#   A: 136 
+#   Nuclide: 55-CS-136-G
+#
+# Data Table
+#   Recom./Eval./Deriv./Calc. Data
+# EXFOR ID          First Author            Year   En_inc       dEn_inc      Data         dData         sf8    sf9
+V1002-081-0         S.F.Mughabghab          2006   2.5300E-08   0.0000E+00   8.3000E+00   3.0000E-01           RECOM
+# ------------------
+#
+

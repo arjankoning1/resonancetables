@@ -1,0 +1,120 @@
+# Header: 
+#   title: 55-CS-133(N,G) thermal cross section 
+#   source: EXFOR 
+#   date created: 2025-01-22 
+# Target: 
+#   Z: 55 
+#   A: 133 
+#   Nuclide: 55-CS-133 
+# Reaction: 
+#   Type: N,G 
+#   Incident energy       : 2.5300e-08 MeV - 2.5380e-08 MeV 
+# Residual: 
+#   Z: 55 
+#   A: 134 
+#   Nuclide: 55-CS-134
+# Statistics:
+#   Thermal Simple Mean       |  Simple Stdev        : 2.94045E+01  |   1.62422E+00   (N = 4)
+#   Thermal Weighted Mean    +/- Weighted Error      : 3.03520E+01 +/-  2.63550E-01   (N = 4)
+#   MXW Simple Mean           |  Simple Stdev        : 2.91625E+01  |   2.33418E+00   (N = 8)
+#   MXW Weighted Mean        +/- Weighted Error      : 2.93795E+01 +/-  3.41629E-01   (N = 8)
+#   SPA Simple Mean           |  Simple Stdev        : 3.77250E+01  |   7.55397E+00   (N = 4)
+#   SPA Weighted Mean        +/- Weighted Error      : 3.13805E+01 +/-  1.06163E+00   (N = 4)
+#
+# Data Table
+#   Experimental Data
+# EXFOR ID          First Author            Year   En_inc       dEn_inc      Data         dData         sf8    sf9
+20638-040-0         R.B.Tattersall          1960   2.5300E-08   0.0000E+00   2.8000E+01   1.0000E+00                
+20658-022-0         J.C.Carre               1966   2.5300E-08   0.0000E+00   2.8000E+01   1.0000E+00                
+20437-004-0         F.Widder                1975   2.5380E-08   0.0000E+00   3.0918E+01   7.4810E-01                
+23488-057-2         F.De Corte              1988   2.5300E-08   0.0000E+00   3.0700E+01   3.0700E-01                
+11047-045-0         H.Pomerance             1951   2.5300E-08   0.0000E+00   2.9000E+01   1.5000E+00     MXW        
+21469-008-0         J.D.Cummins             1957   2.5300E-08   0.0000E+00   2.8700E+01   7.0000E-01     MXW        
+12017-002-0         J.G.Bayly               1958   2.5300E-08   0.0000E+00   3.0400E+01   6.0800E-01     MXW        
+12022-002-0         F.Brown                 1961   2.5300E-08   0.0000E+00   3.3400E+01   2.6000E+00     MXW        
+11658-015-0         G.H.E.Sims              1968   2.5300E-08   0.0000E+00   2.9200E+01   2.3000E+00     MXW        
+20231-006-0         J.Olsen                 1972   2.5300E-08   0.0000E+00   2.4900E+01   0.0000E+00     MXW        
+20853-007-0         M.Takiue                1978   2.5300E-08   0.0000E+00   2.8700E+01   7.0000E-01     MXW        
+22469-008-0         S.Nakamura              1999   2.5300E-08   0.0000E+00   2.9000E+01   1.0000E+00     MXW        
+12011-016-0         T.A.Eastwood            1958   2.5300E-08   0.0000E+00   2.9800E+01   1.2000E+00     SPA        
+12010-003-0         D.Bidinosti             1959   2.5300E-08   0.0000E+00   3.9900E+01   0.0000E+00     SPA        
+11625-021-0         W.S.Lyon                1960   2.5300E-08   0.0000E+00   4.7200E+01   4.7200E+00     SPA        
+11658-016-0         G.H.E.Sims              1968   2.5300E-08   0.0000E+00   3.4000E+01   2.6000E+00     SPA        
+# ------------------
+#   Recom./Eval./Deriv./Calc. Data
+# EXFOR ID          First Author            Year   En_inc       dEn_inc      Data         dData         sf8    sf9
+14528-019-0         R.C.Block               2019   2.5300E-08   0.0000E+00   3.2100E+01   9.0000E-01           DERIV
+V1002-076-2         S.F.Mughabghab          2006   2.5300E-08   0.0000E+00   3.0300E+01   1.1000E+00           RECOM
+# ------------------
+#
+
+# Header: 
+#   title: 55-CS-133(N,G) thermal cross section 
+#   source: EXFOR 
+#   date created: 2025-01-22 
+# Target: 
+#   Z: 55 
+#   A: 133 
+#   Nuclide: 55-CS-133 
+# Reaction: 
+#   Type: N,G 
+#   Incident energy       : 2.5300e-08 MeV - 2.5300e-08 MeV 
+# Residual: 
+#   Z: 55 
+#   A: 134 
+#   Nuclide: 55-CS-134-M
+# Statistics:
+#   Thermal Simple Mean       |  Simple Stdev        : 2.75500E+00  |   2.12132E-02   (N = 2)
+#   Thermal Weighted Mean    +/- Weighted Error      : 2.74769E+00 +/-  7.08848E-02   (N = 2)
+#   MXW Simple Mean           |  Simple Stdev        : 2.68750E+00  |   1.72699E-01   (N = 4)
+#   MXW Weighted Mean        +/- Weighted Error      : 2.76116E+00 +/-  4.42037E-02   (N = 4)
+#   SPA Simple Mean           |  Simple Stdev        : 1.60000E-02  |           NAN   (N = 1)
+#   SPA Weighted Mean        +/- Weighted Error      :         NAN +/-          NAN   (N = 1)
+#
+# Data Table
+#   Experimental Data
+# EXFOR ID          First Author            Year   En_inc       dEn_inc      Data         dData         sf8    sf9
+23488-057-1         F.De Corte              1988   2.5300E-08   0.0000E+00   2.7400E+00   8.2200E-02                
+23202-006-0         M.Karadag               2014   2.5300E-08   0.0000E+00   2.7700E+00   1.4000E-01                
+12006-002-0         A.Baerg                 1960   2.5300E-08   0.0000E+00   2.8200E+00   7.0000E-02     MXW        
+12018-002-0         B.Keisch                1961   2.5300E-08   0.0000E+00   2.4400E+00   1.5000E-01     MXW        
+23388-005-0         M.U.Rajput              1995   2.5300E-08   0.0000E+00   2.7900E+00   7.0000E-02     MXW        
+22469-002-0         S.Nakamura              1999   2.5300E-08   0.0000E+00   2.7000E+00   1.3000E-01     MXW        
+11447-092-0         L.Seren                 1947   2.5300E-08   0.0000E+00   1.6000E-02   3.2000E-03     SPA        
+# ------------------
+#   Recom./Eval./Deriv./Calc. Data
+# EXFOR ID          First Author            Year   En_inc       dEn_inc      Data         dData         sf8    sf9
+V1002-076-1         S.F.Mughabghab          2006   2.5300E-08   0.0000E+00   2.6000E+00   1.0000E-01           RECOM
+# ------------------
+#
+
+# Header: 
+#   title: 55-CS-133(N,G) thermal cross section 
+#   source: EXFOR 
+#   date created: 2025-01-22 
+# Target: 
+#   Z: 55 
+#   A: 133 
+#   Nuclide: 55-CS-133 
+# Reaction: 
+#   Type: N,G 
+#   Incident energy       : 2.5300e-08 MeV 
+# Residual: 
+#   Z: 55 
+#   A: 134 
+#   Nuclide: 55-CS-134-G
+# Statistics:
+#   MXW Simple Mean           |  Simple Stdev        : 2.77600E+01  |   2.06475E+00   (N = 2)
+#   MXW Weighted Mean        +/- Weighted Error      : 2.83715E+01 +/-  5.39054E-01   (N = 2)
+#   SPA Simple Mean           |  Simple Stdev        : 2.56000E+01  |           NAN   (N = 1)
+#   SPA Weighted Mean        +/- Weighted Error      :         NAN +/-          NAN   (N = 1)
+#
+# Data Table
+#   Experimental Data
+# EXFOR ID          First Author            Year   En_inc       dEn_inc      Data         dData         sf8    sf9
+23388-006-0         M.U.Rajput              1995   2.5300E-08   0.0000E+00   2.9220E+01   6.4000E-01     MXW        
+22469-003-0         S.Nakamura              1999   2.5300E-08   0.0000E+00   2.6300E+01   1.0000E+00     MXW        
+11447-091-0         L.Seren                 1947   2.5300E-08   0.0000E+00   2.5600E+01   5.1200E+00     SPA        
+# ------------------
+#
+

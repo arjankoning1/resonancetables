@@ -1,11 +1,11 @@
-subroutine writethermal(Z, A, Liso, Riso, type, flagav)
+subroutine writethermal(Z, A, Liso, Riso, type)
 !
 !-----------------------------------------------------------------------------------------------------------------------------------
 ! Purpose: Write thermal cross section data
 !
 ! Revision    Date      Author      Quality  Description
 ! ======================================================
-!    1     2025-02-15   A.J. Koning    A     Original code
+!    1     2025-03-05   A.J. Koning    A     Original code
 !-----------------------------------------------------------------------------------------------------------------------------------
 !
 ! *** Use data from other modules
@@ -16,14 +16,12 @@ subroutine writethermal(Z, A, Liso, Riso, type, flagav)
 ! *** Declaration of local data
 !
   implicit none
-  logical            :: flagav     ! flag for spectrum average
   character(len=2)   :: iso        ! extension
-  character(len=3)   :: exten
   character(len=132) :: nucfile    ! nuclide file
   character(len=18)  :: rfile
   character(len=20)  :: react      ! reaction
-  character(len=15)  :: col(8)     ! header
-  character(len=15)  :: un(8)      ! units
+  character(len=15)  :: col(9)     ! header
+  character(len=15)  :: un(9)      ! units
   character(len=80)  :: quantity   ! quantity
   character(len=132) :: topline    ! topline
   integer            :: Z          ! charge number
@@ -38,11 +36,6 @@ subroutine writethermal(Z, A, Liso, Riso, type, flagav)
 ! **************** Write databases for thermal cross sections *****
 !
   if (.not.res_exist) return
-  if (flagav) then
-    exten='_av'
-  else
-    exten=''
-  endif
   Ztarget = Z
   Atarget = A
   iso = ''
@@ -56,7 +49,7 @@ subroutine writethermal(Z, A, Liso, Riso, type, flagav)
   endif
   react=trim(reaction(type))//iso
   topline=trim(targetnuclide)//trim(react)//' '//trim(quantity)
-  rfile=trim(reac(type))//trim(iso)//trim(exten)
+  rfile=trim(reac(type))//trim(iso)
   nucfile=trim(thermalpath)//trim(rfile)//'/'//trim(targetnuclide)//'.'//trim(rfile)
   write(*,*) Z, A, Liso, Riso, trim(nucfile), " ", Nres
   open (unit = 1, status = 'unknown', file = trim(nucfile))
@@ -80,27 +73,73 @@ subroutine writethermal(Z, A, Liso, Riso, type, flagav)
   col(6) = 'dValue'
   col(7) = 'Reference'
   col(8) = 'Ratio'
-  Ncol = 8
+  col(9) = 'Average'
+  Ncol = 9
   un = ''
   if (type <= 6) then
-    un(4) = 'b'
     un(5) = 'b'
+    un(6) = 'b'
   endif
-! do isource = 1, 3
-!   if (isource == 1) Nr = Ncomp
-!   if (isource == 2) Nr = Nexp
-!   if (isource == 3) Nr = Nlib
-  call write_datablock(quantity,Ncol,Nres,col,un)
-! call write_datablock(quantity,Ncol,Nr,col,un)
-  do k = 1, Nres
-    F = res_xs(k) / res_xs_sel
-!   if (isource == 1 .and.  res_type(k) /= 'Compilation') cycle
-!   if (isource == 2 .and.  res_type(k) /= 'EXFOR') cycle
-!   if (isource == 3 .and.  res_type(k) /= 'NDL') cycle
-    write(1, '(a30,a15,6x,i4,5x,2es15.6,3x,a12,es15.6)') res_author(k), res_type(k), res_year(k), res_xs(k), & 
- &    res_dxs(k), res_ref(k), F
-  enddo
-! enddo
+  if (Ncomp > 0) then
+    quantity='Compilation'
+    call write_quantity(quantity)
+    call write_datablock(Ncol,Ncomp,col,un)
+    do k = 1, Nres
+      if (res_type(k) == 'Compilation' .and. res_av(k) == '') then
+        F = res_xs(k) / res_xs_sel
+        write(1, '(a30,a15,6x,i4,5x,2es15.6,3x,a12,es15.6,3x,a12)') res_author(k), res_type(k), res_year(k), res_xs(k), & 
+ &        res_dxs(k), res_ref(k), F, res_av(k)
+      endif
+    enddo
+  endif
+  if (Ncomp_av > 0) then
+    quantity='Compilation spectrum-averaged'
+    call write_quantity(quantity)
+    call write_datablock(Ncol,Ncomp_av,col,un)
+    do k = 1, Nres
+      if (res_type(k) == 'Compilation' .and. res_av(k) /= '') then
+        F = res_xs(k) / res_xs_sel
+        write(1, '(a30,a15,6x,i4,5x,2es15.6,3x,a12,es15.6,3x,a12)') res_author(k), res_type(k), res_year(k), res_xs(k), & 
+ &        res_dxs(k), res_ref(k), F, res_av(k)
+      endif
+    enddo
+  endif
+  if (Nexp > 0) then
+    quantity='EXFOR'
+    call write_quantity(quantity)
+    call write_datablock(Ncol,Nexp,col,un)
+    do k = 1, Nres
+      if (res_type(k) == 'EXFOR' .and. res_av(k) == '') then
+        F = res_xs(k) / res_xs_sel
+        write(1, '(a30,a15,6x,i4,5x,2es15.6,3x,a12,es15.6,3x,a12)') res_author(k), res_type(k), res_year(k), res_xs(k), & 
+ &        res_dxs(k), res_ref(k), F, res_av(k)
+      endif
+    enddo
+  endif
+  if (Nexp_av > 0) then
+    quantity='EXFOR spectrum-averaged'
+    call write_quantity(quantity)
+    call write_datablock(Ncol,Nexp_av,col,un)
+    do k = 1, Nres
+      if (res_type(k) == 'EXFOR' .and. res_av(k) /= '') then
+        F = res_xs(k) / res_xs_sel
+        write(1, '(a30,a15,6x,i4,5x,2es15.6,3x,a12,es15.6,3x,a12)') res_author(k), res_type(k), res_year(k), res_xs(k), & 
+ &        res_dxs(k), res_ref(k), F, res_av(k)
+      endif
+    enddo
+  endif
+  if (Nlib > 0) then
+    quantity='Nuclear data library'
+    call write_quantity(quantity)
+    call write_datablock(Ncol,Nlib,col,un)
+    do k = 1, Nres
+      if (res_type(k) == 'NDL') then
+        F = res_xs(k) / res_xs_sel
+        write(1, '(a30,a15,6x,i4,5x,2es15.6,3x,a12,es15.6,6x,a9)') res_author(k), res_type(k), res_year(k), res_xs(k), & 
+ &        res_dxs(k), res_ref(k), F, res_av(k)
+      endif
+    enddo
+  endif
   close(1)
   return
 end subroutine writethermal

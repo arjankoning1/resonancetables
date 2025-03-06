@@ -122,7 +122,29 @@
   return
   end
 !Copyright (C)  2023 A.J. Koning
-  subroutine write_datablock(quantity,Nc,Ne,col,un)
+  subroutine write_quantity(quantity)
+! 
+! +---------------------------------------------------------------------
+! | Author: Arjan Koning
+! | Date  : February 23, 2025
+! | Task  : Write output block for quantity
+! +---------------------------------------------------------------------
+! 
+! ****************** Declarations **************************************
+! 
+  implicit none
+  character(len=*) quantity
+  integer          indent
+!
+! ************* Write output block *************************************
+!
+  write(1,'("# quantity:")')
+  indent=2
+  call write_char(indent,'type',trim(quantity))
+  return
+  end
+!Copyright (C)  2025 A.J. Koning
+  subroutine write_datablock(Nc,Ne,col,un)
 !
 ! +---------------------------------------------------------------------
 ! | Author: Arjan Koning
@@ -141,7 +163,6 @@
   integer            k
   integer            ibeg
   integer            width
-  character(len=*)   quantity
   character(len=*)   col(Nc)
   character(len=*)   un(Nc)
   character(len=15)  word
@@ -152,7 +173,6 @@
 !
   write(1,'("# datablock:")')
   indent=2
-  call write_char(indent,'quantity',trim(quantity))
   call write_integer(indent,'columns',Nc)
   call write_integer(indent,'entries',Ne)
   width=15

@@ -1,4 +1,4 @@
-subroutine summacs(flagav)
+subroutine summacs
 !
 !-----------------------------------------------------------------------------------------------------------------------------------
 ! Purpose: Summarize MACS
@@ -21,8 +21,8 @@ subroutine summacs(flagav)
   character(len=6)   :: nuclide
   character(len=132) :: nucfile    ! nuclide file
   character(len=20)  :: react      ! reaction
-  character(len=15)  :: col(8)     ! header
-  character(len=15)  :: un(8)      ! units
+  character(len=15)  :: col(9)     ! header
+  character(len=15)  :: un(9)      ! units
   character(len=80)  :: quantity   ! quantity
   character(len=132) :: topline    ! topline
   logical            :: flagav
@@ -33,11 +33,7 @@ subroutine summacs(flagav)
 ! **************** Write databases for thermal cross sections *****
 !
   quantity='MACS'
-  if (flagav) then
-    dir='ng_av/'
-  else
-    dir='ng/'
-  endif
+  dir='ng/'
   react=reaction(4)
   topline=trim(react)//' '//trim(quantity)
   nucfile=trim(macspath)//trim(dir)//'ng.macs'
@@ -48,25 +44,27 @@ subroutine summacs(flagav)
   col(1) = 'Z'
   col(2) = 'A'
   col(3) = 'Liso'
-  col(4) = 'xs'
-  col(5) = 'dxs'
+  col(4) = 'Value'
+  col(5) = 'dValue'
   col(6) = 'Reference'
   col(7) = '#Experiments'
   col(8) = 'Nuclide'
-  Ncol = 8
+  col(9) = 'Average'
+  Ncol = 9
   un = ''
   un(4) = 'b'
   un(5) = 'b'
   N = Nsave
-  call write_datablock(quantity,Ncol,N,col,un)
+  call write_quantity(quantity)
+  call write_datablock(Ncol,N,col,un)
   do k = 1, N
     Astring='   '
     write(Astring(1:3),'(i3.3)') Asave(k)
     nuclide=trim(nuc(Zsave(k)))//Astring
     if (Lisosave(k) == 1) nuclide = trim(nuclide)//'m'
     if (Lisosave(k) == 2) nuclide = trim(nuclide)//'n'
-    write(1, '(3(6x,i4,5x),2es15.6,2x,a15,4x,i4,11x,a6)') Zsave(k), Asave(k), Lisosave(k), xssave(k), dxssave(k), refsave(k), &
- &     Nexpsave(k), nuclide
+    write(1, '(3(6x,i4,5x),2es15.6,2x,a15,4x,i4,11x,a6,3x,a9)') Zsave(k), Asave(k), Lisosave(k), xssave(k), dxssave(k), & 
+ &     refsave(k), Nexpsave(k), nuclide, avsave(k)
   enddo
   close(1)
   return

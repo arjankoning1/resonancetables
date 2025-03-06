@@ -1,0 +1,128 @@
+# Header: 
+#   title: 95-AM-243(N,G) thermal cross section 
+#   source: EXFOR 
+#   date created: 2025-01-22 
+# Target: 
+#   Z: 95 
+#   A: 243 
+#   Nuclide: 95-AM-243 
+# Reaction: 
+#   Type: N,G 
+#   Incident energy       : 2.5234e-08 MeV - 2.5389e-08 MeV 
+# Residual: 
+#   Z: 95 
+#   A: 244 
+#   Nuclide: 95-AM-244
+# Statistics:
+#   Thermal Simple Mean       |  Simple Stdev        : 9.17506E+01  |   1.13740E+01  (N = 16)
+#   Thermal Weighted Mean    +/- Weighted Error      : 8.34051E+01 +/-  1.38652E+00  (N = 16)
+#   MXW Simple Mean           |  Simple Stdev        : 7.10500E+01  |   3.60624E+00   (N = 2)
+#   MXW Weighted Mean        +/- Weighted Error      : 7.13177E+01 +/-  1.33793E+00   (N = 2)
+#   SPA Simple Mean           |  Simple Stdev        : 1.06371E+02  |   3.11066E+01   (N = 7)
+#   SPA Weighted Mean        +/- Weighted Error      : 1.27310E+02 +/-  7.54973E-01   (N = 7)
+#
+# Data Table
+#   Experimental Data
+# EXFOR ID          First Author            Year   En_inc       dEn_inc      Data         dData         sf8    sf9
+12534-004-0         R.L.Folger              1968   2.5300E-08   0.0000E+00   7.8000E+01   0.0000E+00                
+23109-003-1         S.H.Eberle              1971   2.5300E-08   0.0000E+00   7.7000E+01   2.0000E+00                
+40467-012-0         V.D.Gavrilov            1976   2.5300E-08   0.0000E+00   8.3000E+01   6.0000E+00                
+23534-004-0         A.Kimura                2019   2.5389E-08   0.0000E+00   1.2251E+02   1.7940E+01                
+23534-004-0         A.Kimura                2019   2.5337E-08   0.0000E+00   1.0910E+02   1.7790E+01                
+23534-004-0         A.Kimura                2019   2.5285E-08   0.0000E+00   9.8620E+01   1.7870E+01                
+23534-004-0         A.Kimura                2019   2.5234E-08   0.0000E+00   9.6150E+01   1.7790E+01                
+23534-005-0         A.Kimura                2019   2.5389E-08   0.0000E+00   9.3630E+01   7.9500E+00                
+23534-005-0         A.Kimura                2019   2.5337E-08   0.0000E+00   8.9440E+01   7.8700E+00                
+23534-005-0         A.Kimura                2019   2.5285E-08   0.0000E+00   8.6420E+01   7.8100E+00                
+23534-005-0         A.Kimura                2019   2.5234E-08   0.0000E+00   8.6310E+01   7.8700E+00                
+23534-006-0         A.Kimura                2019   2.5389E-08   0.0000E+00   8.9820E+01   6.2200E+00                
+23534-006-0         A.Kimura                2019   2.5337E-08   0.0000E+00   8.6800E+01   6.1500E+00                
+23534-006-0         A.Kimura                2019   2.5285E-08   0.0000E+00   8.7020E+01   6.1600E+00                
+23534-006-0         A.Kimura                2019   2.5234E-08   0.0000E+00   9.5690E+01   6.4300E+00                
+23744-004-0         S.Nakamura              2021   2.5300E-08   0.0000E+00   8.8500E+01   4.0000E+00                
+12481-012-0         J.Butler                1957   2.5300E-08   0.0000E+00   6.8500E+01   2.0000E+00     MXW        
+12481-016-0         J.Butler                1957   2.5300E-08   0.0000E+00   7.3600E+01   1.8000E+00     MXW        
+12567-002-0         B.G.Harvey              1954   2.5300E-08   0.0000E+00   1.4000E+02   5.0000E+01     SPA        
+12585-002-0         C.M.Stevens             1954   2.5300E-08   0.0000E+00   1.1500E+02   2.0000E+01     SPA        
+12481-015-0         J.Butler                1957   2.5300E-08   0.0000E+00   1.3380E+02   8.0000E-01     SPA        
+12550-005-0         C.H.Ice                 1966   2.5300E-08   0.0000E+00   6.6000E+01   0.0000E+00     SPA        
+12550-005-0         C.H.Ice                 1966   2.5300E-08   0.0000E+00   8.4000E+01   0.0000E+00     SPA        
+23109-003-3         S.H.Eberle              1971   2.5300E-08   0.0000E+00   1.3200E+02   0.0000E+00     SPA        
+22941-044-0         A.Letourneau            2009   2.5300E-08   0.0000E+00   7.3800E+01   2.3000E+00     SPA        
+# ------------------
+#   Recom./Eval./Deriv./Calc. Data
+# EXFOR ID          First Author            Year   En_inc       dEn_inc      Data         dData         sf8    sf9
+23534-008-0         A.Kimura                2019   2.5300E-08   0.0000E+00   9.6000E+01   1.8000E+01           DERIV
+23534-008-0         A.Kimura                2019   2.5300E-08   0.0000E+00   8.9500E+01   5.7000E+00           DERIV
+23534-008-0         A.Kimura                2019   2.5300E-08   0.0000E+00   8.7700E+01   5.4000E+00           DERIV
+V1002-652-1         S.F.Mughabghab          2006   2.5300E-08   0.0000E+00   7.5100E+01   1.8000E+00           RECOM
+# ------------------
+#
+
+# Header: 
+#   title: 95-AM-243(N,G) thermal cross section 
+#   source: EXFOR 
+#   date created: 2025-01-22 
+# Target: 
+#   Z: 95 
+#   A: 243 
+#   Nuclide: 95-AM-243 
+# Reaction: 
+#   Type: N,G 
+#   Incident energy       : 2.5300e-08 MeV - 2.5300e-08 MeV 
+# Residual: 
+#   Z: 95 
+#   A: 244 
+#   Nuclide: 95-AM-244-G
+# Statistics:
+#   Thermal Simple Mean       |  Simple Stdev        : 4.73000E+00  |           NAN   (N = 1)
+#   Thermal Weighted Mean    +/- Weighted Error      :         NAN +/-          NAN   (N = 1)
+#   MXW Simple Mean           |  Simple Stdev        : 4.91000E+00  |   1.40007E+00   (N = 2)
+#   MXW Weighted Mean        +/- Weighted Error      :         NAN +/-          NAN   (N = 2)
+#   SPA Simple Mean           |  Simple Stdev        : 4.30000E+00  |           NAN   (N = 1)
+#   SPA Weighted Mean        +/- Weighted Error      :         NAN +/-          NAN   (N = 1)
+#
+# Data Table
+#   Experimental Data
+# EXFOR ID          First Author            Year   En_inc       dEn_inc      Data         dData         sf8    sf9
+23744-002-0         S.Nakamura              2021   2.5300E-08   0.0000E+00   4.7300E+00   2.7000E-01                
+12577-002-0         R.P.Schuman             1967   2.5300E-08   0.0000E+00   5.9000E+00   0.0000E+00     MXW        
+22429-002-0         Y.Hatsukawa             1998   2.5300E-08   0.0000E+00   3.9200E+00   0.0000E+00     MXW        
+12550-006-0         C.H.Ice                 1966   2.5300E-08   0.0000E+00   4.3000E+00   0.0000E+00     SPA        
+# ------------------
+#   Recom./Eval./Deriv./Calc. Data
+# EXFOR ID          First Author            Year   En_inc       dEn_inc      Data         dData         sf8    sf9
+V1002-652-2         S.F.Mughabghab          2006   2.5300E-08   0.0000E+00   3.8000E+00   4.0000E-01           RECOM
+# ------------------
+#
+
+# Header: 
+#   title: 95-AM-243(N,G) thermal cross section 
+#   source: EXFOR 
+#   date created: 2025-01-22 
+# Target: 
+#   Z: 95 
+#   A: 243 
+#   Nuclide: 95-AM-243 
+# Reaction: 
+#   Type: N,G 
+#   Incident energy       : 2.5300e-08 MeV - 2.5300e-08 MeV 
+# Residual: 
+#   Z: 95 
+#   A: 244 
+#   Nuclide: 95-AM-244-M
+# Statistics:
+#   MXW Simple Mean           |  Simple Stdev        : 6.72200E+01  |   2.43528E+01   (N = 2)
+#   MXW Weighted Mean        +/- Weighted Error      :         NAN +/-          NAN   (N = 2)
+#   SPA Simple Mean           |  Simple Stdev        : 8.00000E+01  |           NAN   (N = 1)
+#   SPA Weighted Mean        +/- Weighted Error      :         NAN +/-          NAN   (N = 1)
+#
+# Data Table
+#   Experimental Data
+# EXFOR ID          First Author            Year   En_inc       dEn_inc      Data         dData         sf8    sf9
+12581-004-0         K.Street Jr             1950   2.5300E-08   0.0000E+00   5.0000E+01   0.0000E+00     MXW        
+22429-003-0         Y.Hatsukawa             1998   2.5300E-08   0.0000E+00   8.4440E+01   0.0000E+00     MXW        
+12550-004-0         C.H.Ice                 1966   2.5300E-08   0.0000E+00   8.0000E+01   0.0000E+00     SPA        
+# ------------------
+#
+

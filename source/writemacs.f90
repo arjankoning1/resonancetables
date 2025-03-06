@@ -1,4 +1,4 @@
-subroutine writemacs(Z, A, Liso, Riso, flagav)
+subroutine writemacs(Z, A, Liso, Riso)
 !
 !-----------------------------------------------------------------------------------------------------------------------------------
 ! Purpose: Write MACS data
@@ -19,11 +19,10 @@ subroutine writemacs(Z, A, Liso, Riso, flagav)
   character(len=132) :: nucfile    ! nuclide file
   character(len=6)   :: dir
   character(len=20)  :: react      ! reaction
-  character(len=15)  :: col(8)     ! header
-  character(len=15)  :: un(8)      ! units
+  character(len=15)  :: col(9)     ! header
+  character(len=15)  :: un(9)      ! units
   character(len=80)  :: quantity   ! quantity
   character(len=132) :: topline    ! topline
-  logical            :: flagav     ! flag for spectrum average
   integer            :: Z          ! charge number
   integer            :: A          ! mass number
   integer            :: k          ! counter
@@ -35,11 +34,7 @@ subroutine writemacs(Z, A, Liso, Riso, flagav)
 ! **************** Write databases for MACS *****
 !
   if (.not.res_exist) return
-  if (flagav) then
-    dir='ng_av/'
-  else
-    dir='ng/'
-  endif
+  dir='ng/'
   Ztarget = Z
   Atarget = A
   quantity='MACS'
@@ -63,16 +58,71 @@ subroutine writemacs(Z, A, Liso, Riso, flagav)
   col(6) = 'dValue'
   col(7) = 'Reference'
   col(8) = 'Ratio'
-  Ncol = 8
+  col(9) = 'Average'
+  Ncol = 9
   un = ''
-  un(4) = 'b'
   un(5) = 'b'
-  call write_datablock(quantity,Ncol,Nres,col,un)
-  do k = 1, Nres
-    F = res_xs(k) / res_xs_sel
-    write(1, '(a30,a15,6x,i4,5x,2es15.6,3x,a12,es15.6)') res_author(k), res_type(k), res_year(k), res_xs(k), res_dxs(k), &
- &    res_ref(k), F
-  enddo
+  un(6) = 'b'
+  if (Ncomp > 0) then
+    quantity='Compilation'
+    call write_quantity(quantity)
+    call write_datablock(Ncol,Ncomp,col,un)
+    do k = 1, Nres
+      if (res_type(k) == 'Compilation' .and. res_av(k) == '') then
+        F = res_xs(k) / res_xs_sel
+        write(1, '(a30,a15,6x,i4,5x,2es15.6,3x,a12,es15.6,3x,a12)') res_author(k), res_type(k), res_year(k), res_xs(k), &
+ &        res_dxs(k), res_ref(k), F, res_av(k)
+      endif
+    enddo
+  endif
+  if (Ncomp_av > 0) then
+    quantity='Compilation spectrum-averaged'
+    call write_quantity(quantity)
+    call write_datablock(Ncol,Ncomp_av,col,un)
+    do k = 1, Nres
+      if (res_type(k) == 'Compilation' .and. res_av(k) /= '') then
+        F = res_xs(k) / res_xs_sel
+        write(1, '(a30,a15,6x,i4,5x,2es15.6,3x,a12,es15.6,3x,a12)') res_author(k), res_type(k), res_year(k), res_xs(k), &
+ &        res_dxs(k), res_ref(k), F, res_av(k)
+      endif
+    enddo
+  endif
+  if (Nexp > 0) then
+    quantity='EXFOR'
+    call write_quantity(quantity)
+    call write_datablock(Ncol,Nexp,col,un)
+    do k = 1, Nres
+      if (res_type(k) == 'EXFOR' .and. res_av(k) == '') then
+        F = res_xs(k) / res_xs_sel
+        write(1, '(a30,a15,6x,i4,5x,2es15.6,3x,a12,es15.6,3x,a12)') res_author(k), res_type(k), res_year(k), res_xs(k), &
+ &        res_dxs(k), res_ref(k), F, res_av(k)
+      endif
+    enddo
+  endif
+  if (Nexp_av > 0) then
+    quantity='EXFOR spectrum-averaged'
+    call write_quantity(quantity)
+    call write_datablock(Ncol,Nexp_av,col,un)
+    do k = 1, Nres
+      if (res_type(k) == 'EXFOR' .and. res_av(k) /= '') then
+        F = res_xs(k) / res_xs_sel
+        write(1, '(a30,a15,6x,i4,5x,2es15.6,3x,a12,es15.6,3x,a12)') res_author(k), res_type(k), res_year(k), res_xs(k), &
+ &        res_dxs(k), res_ref(k), F, res_av(k)
+      endif
+    enddo
+  endif
+  if (Nlib > 0) then
+    quantity='Nuclear data library'
+    call write_quantity(quantity)
+    call write_datablock(Ncol,Nlib,col,un)
+    do k = 1, Nres
+      if (res_type(k) == 'NDL') then
+        F = res_xs(k) / res_xs_sel
+        write(1, '(a30,a15,6x,i4,5x,2es15.6,3x,a12,es15.6,6x,a9)') res_author(k), res_type(k), res_year(k), res_xs(k), &
+ &        res_dxs(k), res_ref(k), F, res_av(k)
+      endif
+    enddo
+  endif
   close(1)
   return
 end subroutine writemacs

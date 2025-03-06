@@ -55,7 +55,8 @@ subroutine sumresonance(type)
   un(4) = 'eV'
   un(5) = 'eV'
   N = Nsave
-  call write_datablock(quantity,Ncol,N,col,un)
+  call write_quantity(quantity)
+  call write_datablock(Ncol,N,col,un)
   do k = 1, N
     Astring='   '
     write(Astring(1:3),'(i3.3)') Asave(k)

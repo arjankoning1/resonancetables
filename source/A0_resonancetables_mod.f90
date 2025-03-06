@@ -5,7 +5,7 @@ module A0_resonancetables_mod
 !                                                                                                                                   
 ! Revision    Date      Author           Description                                                                                
 ! ====================================================                                                                              
-!    1     2025-02-27   A.J. Koning      Original code                                                                              
+!    1     2025-03-05   A.J. Koning      Original code                                                                              
 !-----------------------------------------------------------------------------------------------------------------------------------
 !                                                                                                                                   
 ! *** Use data from other modules                                                                                                   
@@ -60,6 +60,7 @@ module A0_resonancetables_mod
   integer, dimension(numex)           :: res_year ! res year
   character(len=40), dimension(numex) :: res_ref ! reference
   character(len=40), dimension(numex) :: res_type ! type
+  character(len=40), dimension(numex) :: res_av ! average flag
   character(len=24), dimension(numex) :: res_author ! EXFOR res author
   integer                             :: Nres ! number of cases
   integer                             :: Nres_exp ! number of EXFOR cases
@@ -69,12 +70,14 @@ module A0_resonancetables_mod
 ! procres                                                                                                                       
 !                                                                                                                                   
   character(len=40)                   :: res_author_sel 
+  character(len=40)                   :: res_av_sel 
   real                                :: res_xs_sel  
   real                                :: res_dxs_sel 
 !                                                                                                                                   
 ! readthermal                                                                                                                       
 !                                                                                                                                   
   character(len=40), dimension(numdat) :: refsave
+  character(len=40), dimension(numdat) :: avsave
   integer, dimension(numdat)           :: Zsave
   integer, dimension(numdat)           :: Asave
   integer, dimension(numdat)           :: Lisosave
@@ -82,6 +85,11 @@ module A0_resonancetables_mod
   real, dimension(numdat)              :: xssave
   real, dimension(numdat)              :: dxssave
   integer                              :: Nsave
+  integer                              :: Nexp
+  integer                              :: Nexp_av
+  integer                              :: Nlib
+  integer                              :: Ncomp
+  integer                              :: Ncomp_av
 !                                                                                                                                   
 ! writethermal                                                                                                                       
   integer                             :: Ztarget

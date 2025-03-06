@@ -65,7 +65,8 @@ subroutine writeresonance(Z, A, Liso, type)
   col(7) = 'Reference'
   col(8) = 'Ratio'
   Ncol = 8
-  call write_datablock(quantity,Ncol,Nres,col,un)
+  call write_quantity(quantity)
+  call write_datablock(Ncol,Nres,col,un)
   do k = 1, Nres
     F = res_xs(k) / res_xs_sel
     write(1, '(a30,a15,6x,i4,5x,2es15.6,3x,a12,es15.6)') res_author(k), res_type(k), res_year(k), res_xs(k), res_dxs(k), &

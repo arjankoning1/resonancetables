@@ -100,8 +100,6 @@ subroutine resonancetablesinitial
   do i = 1, numtype
     cmd = 'mkdir '//trim(thermalpath)//reac(i)
     isys = system(cmd)
-    cmd = 'mkdir '//trim(thermalpath)//trim(reac(i))//'_av'
-    isys = system(cmd)
     if (i == 4 .or. i == 5 .or. i == 6) then
       cmd = 'mkdir '//trim(thermalpath)//trim(reac(i))//'_g'
       isys = system(cmd)
@@ -109,17 +107,9 @@ subroutine resonancetablesinitial
       isys = system(cmd)
       cmd = 'mkdir '//trim(thermalpath)//trim(reac(i))//'_n'
       isys = system(cmd)
-      cmd = 'mkdir '//trim(thermalpath)//trim(reac(i))//'_g_av'
-      isys = system(cmd)
-      cmd = 'mkdir '//trim(thermalpath)//trim(reac(i))//'_m_av'
-      isys = system(cmd)
-      cmd = 'mkdir '//trim(thermalpath)//trim(reac(i))//'_n_av'
-      isys = system(cmd)
     endif
     if (i == 4) then
       cmd = 'mkdir '//trim(macspath)//reac(i)
-      isys = system(cmd)
-      cmd = 'mkdir '//trim(macspath)//trim(reac(i))//'_av'
       isys = system(cmd)
     endif
     if (i <= 8) then

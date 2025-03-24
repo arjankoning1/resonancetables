@@ -1,22 +1,37 @@
 # header:
 #   title: Co060m Ig resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 27
 #   A: 60
 #   nuclide: Co060m
 # reaction:
 #   type: Ig
-# observables:
+# parameters:
 #   selected value [eV]:  2.300000E+02
 #   selected value uncertainty [eV]:  5.000000E+00
 #   selected value source: Mughabghab_2016
+#   number of values: 2
+#   average value [b]:  2.300000E+02
+#   relative standard deviation [%]:       0.000000
+# quantity:
+#   type: Compilation
+#   average value:  2.300000E+02
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: resonance data
 #   columns: 8
-#   entries: 2
+#   entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Hogg                    EXFOR                1966        2.300000E+02   5.000000E+01       12596005   1.000000E+00
-      Mughabghab_2016         Compilation          2016        2.300000E+02   5.000000E+00                  1.000000E+00
+      Mughabghab_2016         Compilation          2016        2.300000E+02   5.000000E+00                      1.000000
+# quantity:
+#   type: EXFOR
+#   average value:  2.300000E+02
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      Hogg                    EXFOR                1966        2.300000E+02   5.000000E+01       12596005       1.000000

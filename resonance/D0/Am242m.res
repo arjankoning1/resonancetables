@@ -1,23 +1,37 @@
 # header:
 #   title: Am242m D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 95
 #   A: 242
 #   nuclide: Am242m
 # reaction:
 #   type: D0
-# observables:
+# parameters:
 #   selected value [eV]:  4.200000E-01
 #   selected value uncertainty [eV]:  3.000000E-02
 #   selected value source: Mughabghab_2016
+#   number of values: 2
+#   average value [b]:  4.217020E-01
+#   relative standard deviation [%]:       0.403605
+# quantity:
+#   type: Compilation
+#   average value:  4.200000E-01
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: resonance data
 #   columns: 8
-#   entries: 3
+#   entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Bowman                  EXFOR                1968        1.200000E+00   0.000000E+00      125720092   2.857143E+00
-      Mughabghab_2016         Compilation          2016        4.200000E-01   3.000000E-02                  1.000000E+00
-      TARES                   NDL                  2025        4.234040E-01   0.000000E+00                  1.008105E+00
+      Mughabghab_2016         Compilation          2016        4.200000E-01   3.000000E-02                      1.000000
+# quantity:
+#   type: Nuclear data library
+#   average value:  4.234040E-01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      TARES                   NDL                  2025        4.234040E-01   0.000000E+00                      1.008105

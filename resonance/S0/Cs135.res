@@ -1,22 +1,37 @@
 # header:
 #   title: Cs135 S0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 55
 #   A: 135
 #   nuclide: Cs135
 # reaction:
 #   type: S0
-# observables:
-#   selected value [eV]:  5.400000E-01
-#   selected value uncertainty [eV]:  1.600000E-01
+# parameters:
+#   selected value [*e-4]:  5.400000E-01
+#   selected value uncertainty [*e-4]:  1.600000E-01
 #   selected value source: RIPL-2
+#   number of values: 2
+#   average value [b]:  8.171350E-01
+#   relative standard deviation [%]:      33.915447
+# quantity:
+#   type: Compilation
+#   average value:  5.400000E-01
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: resonance data
 #   columns: 8
-#   entries: 2
+#   entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []           [*e-4]         [*e-4]           []             []
-      RIPL-2                  Compilation          2000        5.400000E-01   1.600000E-01            97I   1.000000E+00
-      TARES                   NDL                  2025        1.094270E+00   0.000000E+00                  2.026426E+00
+      RIPL-2                  Compilation          2000        5.400000E-01   1.600000E-01            97I       1.000000
+# quantity:
+#   type: Nuclear data library
+#   average value:  1.094270E+00
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []           [*e-4]         [*e-4]           []             []
+      TARES                   NDL                  2025        1.094270E+00   0.000000E+00                      2.026426

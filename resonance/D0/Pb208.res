@@ -1,24 +1,48 @@
 # header:
 #   title: Pb208 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 82
 #   A: 208
 #   nuclide: Pb208
 # reaction:
 #   type: D0
-# observables:
+# parameters:
 #   selected value [eV]:  9.000000E+04
 #   selected value uncertainty [eV]:  1.500000E+04
 #   selected value source: RIPL-3
+#   number of values: 4
+#   average value [b]:  2.545000E+05
+#   relative standard deviation [%]:      78.537071
+# quantity:
+#   type: Compilation
+#   average value:  2.450000E+05
+#   relative standard deviation [%]:      63.265305
 # datablock:
-#   quantity: resonance data
 #   columns: 8
-#   entries: 4
+#   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Allen                   EXFOR                1973        2.800000E+04   6.000000E+03      101550182   3.111111E-01
-      RIPL-2                  Compilation          2000        4.000000E+05   0.000000E+00            00I   4.444445E+00
-      RIPL-3                  Compilation          2009        9.000000E+04   1.500000E+04           *05I   1.000000E+00
-      TARES                   NDL                  2025        5.000000E+05   0.000000E+00                  5.555555E+00
+      RIPL-2                  Compilation          2000        4.000000E+05   0.000000E+00            00I       4.444445
+      RIPL-3                  Compilation          2009        9.000000E+04   1.500000E+04           *05I       1.000000
+# quantity:
+#   type: EXFOR
+#   average value:  2.800000E+04
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      B.J.Allen               EXFOR                1973        2.800000E+04   6.000000E+03      10155-018       0.311111
+# quantity:
+#   type: Nuclear data library
+#   average value:  5.000000E+05
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      TARES                   NDL                  2025        5.000000E+05   0.000000E+00                      5.555555

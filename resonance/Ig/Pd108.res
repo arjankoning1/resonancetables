@@ -1,34 +1,63 @@
 # header:
 #   title: Pd108 Ig resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 46
 #   A: 108
 #   nuclide: Pd108
 # reaction:
 #   type: Ig
-# observables:
+# parameters:
 #   selected value [eV]:  2.372800E+02
 #   selected value uncertainty [eV]:  4.280000E+00
 #   selected value source: Kayzero
+#   number of values: 19
+#   average value [b]:  1.613887E+02
+#   relative standard deviation [%]:      52.988937
+# quantity:
+#   type: Compilation
+#   average value:  2.158200E+02
+#   relative standard deviation [%]:      20.856768
 # datablock:
-#   quantity: resonance data
 #   columns: 8
-#   entries: 14
+#   entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      VichaiHayodomm          EXFOR                1969        8.420000E+01   0.000000E+00       30368016   3.548550E-01
-      VichaiHayodomm          EXFOR                1969        1.640000E+00   0.000000E+00       30368015   6.911666E-03
-      Vanderlinden            EXFOR                1972        1.730000E+02   9.000000E+00      206430471   7.290964E-01
-      Vanderlinden            EXFOR                1972        2.260000E+00   4.000000E-02      206430461   9.524613E-03
-      Rambaek                 EXFOR                1977        2.440000E+02   4.000000E+00       23383014   1.028321E+00
-      JUKO                    Compilation          2000        2.440000E+02   4.000000E+00                  1.028321E+00
-      Duncan                  EXFOR                2005        1.200000E+02   1.800000E+01       14012007   5.057316E-01
-      Duncan                  EXFOR                2005        1.220000E+02   1.800000E+01       14012006   5.141605E-01
-      Sukhoruchkin            Compilation          2015        2.440000E+02   4.000000E+00                  1.028321E+00
-      Mughabghab_2016         Compilation          2016        1.380000E+02   8.000000E+00                  5.815914E-01
-      Nguyen                  EXFOR                2018        2.456000E+02   2.480000E+01       30844003   1.035064E+00
-      Kayzero                 Compilation          2018        2.372800E+02   4.280000E+00                  1.000000E+00
-      Krane                   EXFOR                2019        3.070000E+00   1.500000E-01       14558005   1.293830E-02
-      Krane                   EXFOR                2019        1.380000E+02   8.000000E+00       14558003   5.815914E-01
+      JUKO                    Compilation          2000        2.440000E+02   4.000000E+00                      1.028321
+      Sukhoruchkin            Compilation          2015        2.440000E+02   4.000000E+00                      1.028321
+      Mughabghab_2016         Compilation          2016        1.380000E+02   8.000000E+00                      0.581591
+      Kayzero                 Compilation          2018        2.372800E+02   4.280000E+00                      1.000000
+# quantity:
+#   type: EXFOR
+#   average value:  1.133770E+02
+#   relative standard deviation [%]:      77.233223
+# datablock:
+#   columns: 8
+#   entries: 10
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      VichaiHayodomm          EXFOR                1969        8.420000E+01   0.000000E+00       30368016       0.354855
+      VichaiHayodomm          EXFOR                1969        1.640000E+00   0.000000E+00       30368015       0.006912
+      Vanderlinden            EXFOR                1972        1.730000E+02   9.000000E+00      206430471       0.729096
+      Vanderlinden            EXFOR                1972        2.260000E+00   4.000000E-02      206430461       0.009525
+      Rambaek                 EXFOR                1977        2.440000E+02   4.000000E+00       23383014       1.028321
+      Duncan                  EXFOR                2005        1.200000E+02   1.800000E+01       14012007       0.505732
+      Duncan                  EXFOR                2005        1.220000E+02   1.800000E+01       14012006       0.514161
+      Nguyen                  EXFOR                2018        2.456000E+02   2.480000E+01       30844003       1.035064
+      Krane                   EXFOR                2019        3.070000E+00   1.500000E-01       14558005       0.012938
+      Krane                   EXFOR                2019        1.380000E+02   8.000000E+00       14558003       0.581591
+# quantity:
+#   type: Nuclear data library
+#   average value:  2.138672E+02
+#   relative standard deviation [%]:      15.509432
+# datablock:
+#   columns: 8
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        2.435530E+02   0.000000E+00                      1.026437
+      jendl5.0                NDL                  2021        2.354640E+02   0.000000E+00                      0.992347
+      tendl.2023              NDL                  2023        1.734370E+02   0.000000E+00                      0.730938
+      endfb8.1                NDL                  2024        2.435120E+02   0.000000E+00                      1.026264
+      jeff4.0                 NDL                  2025        1.733700E+02   0.000000E+00                      0.730656

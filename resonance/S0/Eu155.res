@@ -1,23 +1,38 @@
 # header:
 #   title: Eu155 S0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 63
 #   A: 155
 #   nuclide: Eu155
 # reaction:
 #   type: S0
-# observables:
-#   selected value [eV]:  1.900000E+00
-#   selected value uncertainty [eV]:  9.000000E-01
+# parameters:
+#   selected value [*e-4]:  1.900000E+00
+#   selected value uncertainty [*e-4]:  9.000000E-01
 #   selected value source: RIPL-3
+#   number of values: 3
+#   average value [b]:  4.421383E+00
+#   relative standard deviation [%]:      80.648392
+# quantity:
+#   type: Compilation
+#   average value:  1.900000E+00
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: resonance data
 #   columns: 8
-#   entries: 3
+#   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []           [*e-4]         [*e-4]           []             []
-      RIPL-2                  Compilation          2000        1.900000E+00   5.000000E-01            97I   1.000000E+00
-      RIPL-3                  Compilation          2009        1.900000E+00   9.000000E-01            97I   1.000000E+00
-      TARES                   NDL                  2025        9.464150E+00   0.000000E+00                  4.981132E+00
+      RIPL-2                  Compilation          2000        1.900000E+00   5.000000E-01            97I       1.000000
+      RIPL-3                  Compilation          2009        1.900000E+00   9.000000E-01            97I       1.000000
+# quantity:
+#   type: Nuclear data library
+#   average value:  9.464150E+00
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []           [*e-4]         [*e-4]           []             []
+      TARES                   NDL                  2025        9.464150E+00   0.000000E+00                      4.981132

@@ -1,22 +1,37 @@
 # header:
 #   title: Xe132 S0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 54
 #   A: 132
 #   nuclide: Xe132
 # reaction:
 #   type: S0
-# observables:
-#   selected value [eV]:  3.100000E-01
-#   selected value uncertainty [eV]:  1.600000E-01
+# parameters:
+#   selected value [*e-4]:  3.100000E-01
+#   selected value uncertainty [*e-4]:  1.600000E-01
 #   selected value source: RIPL-2
+#   number of values: 2
+#   average value [b]:  1.145340E+00
+#   relative standard deviation [%]:      72.933800
+# quantity:
+#   type: Compilation
+#   average value:  3.100000E-01
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: resonance data
 #   columns: 8
-#   entries: 2
+#   entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []           [*e-4]         [*e-4]           []             []
-      RIPL-2                  Compilation          2000        3.100000E-01   1.600000E-01            79R   1.000000E+00
-      TARES                   NDL                  2025        1.980680E+00   0.000000E+00                  6.389290E+00
+      RIPL-2                  Compilation          2000        3.100000E-01   1.600000E-01            79R       1.000000
+# quantity:
+#   type: Nuclear data library
+#   average value:  1.980680E+00
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []           [*e-4]         [*e-4]           []             []
+      TARES                   NDL                  2025        1.980680E+00   0.000000E+00                      6.389290

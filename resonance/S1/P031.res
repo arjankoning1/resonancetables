@@ -1,22 +1,38 @@
 # header:
 #   title: P031 S1 resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 15
 #   A: 31
 #   nuclide: P031
 # reaction:
 #   type: S1
-# observables:
-#   selected value [eV]:  1.500000E+00
-#   selected value uncertainty [eV]:  5.000000E-01
+# parameters:
+#   selected value [*e-4]:  1.500000E+00
+#   selected value uncertainty [*e-4]:  5.000000E-01
 #   selected value source: RIPL-3
+#   number of values: 3
+#   average value [b]:  9.734843E-01
+#   relative standard deviation [%]:      39.773525
+# quantity:
+#   type: Compilation
+#   average value:  1.040000E+00
+#   relative standard deviation [%]:      44.230770
 # datablock:
-#   quantity: resonance data
 #   columns: 8
 #   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []           [*e-4]         [*e-4]           []             []
-      RIPL-3                  Compilation          2009        1.500000E+00   5.000000E-01            08M   1.000000E+00
-      Mughabghab_2016         Compilation          2016        5.800000E-01   1.600000E-01                  3.866667E-01
+      RIPL-3                  Compilation          2009        1.500000E+00   5.000000E-01            08M       1.000000
+      Mughabghab_2016         Compilation          2016        5.800000E-01   1.600000E-01                      0.386667
+# quantity:
+#   type: Nuclear data library
+#   average value:  8.404530E-01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []           [*e-4]         [*e-4]           []             []
+      TARES                   NDL                  2025        8.404530E-01   0.000000E+00                      0.560302

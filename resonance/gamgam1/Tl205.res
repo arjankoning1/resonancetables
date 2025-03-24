@@ -1,22 +1,38 @@
 # header:
 #   title: Tl205 gamgam1 resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 81
 #   A: 205
 #   nuclide: Tl205
 # reaction:
 #   type: gamgam1
-# observables:
+# parameters:
 #   selected value [eV]:  3.300000E-02
 #   selected value uncertainty [eV]:  5.000000E-03
 #   selected value source: RIPL-3
+#   number of values: 3
+#   average value [b]:  2.424923E-01
+#   relative standard deviation [%]:      61.363029
+# quantity:
+#   type: Compilation
+#   average value:  1.815000E-01
+#   relative standard deviation [%]:      81.818176
 # datablock:
-#   quantity: resonance data
 #   columns: 8
 #   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-3                  Compilation          2009        3.300000E-02   5.000000E-03            06M   1.000000E+00
-      Mughabghab_2016         Compilation          2016        3.300000E-01   5.000000E-02                  1.000000E+01
+      RIPL-3                  Compilation          2009        3.300000E-02   5.000000E-03            06M       1.000000
+      Mughabghab_2016         Compilation          2016        3.300000E-01   5.000000E-02                     10.000000
+# quantity:
+#   type: Nuclear data library
+#   average value:  3.644770E-01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      TARES                   NDL                  2025        3.644770E-01   0.000000E+00                     11.044758

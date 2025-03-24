@@ -1,25 +1,49 @@
 # header:
 #   title: Ru104 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 44
 #   A: 104
 #   nuclide: Ru104
 # reaction:
 #   type: D0
-# observables:
+# parameters:
 #   selected value [eV]:  3.200000E+02
 #   selected value uncertainty [eV]:  6.500000E+01
 #   selected value source: RIPL-3
+#   number of values: 5
+#   average value [b]:  3.338334E+02
+#   relative standard deviation [%]:      53.502361
+# quantity:
+#   type: Compilation
+#   average value:  3.100000E+02
+#   relative standard deviation [%]:       3.225806
 # datablock:
-#   quantity: resonance data
 #   columns: 8
-#   entries: 5
+#   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Priesmeyer              EXFOR                1972        2.780000E+02   6.300000E+01       20507026   8.687500E-01
-      Hockenbury              EXFOR                1975        1.120000E+02   0.000000E+00      105520162   3.500000E-01
-      RIPL-2                  Compilation          2000        3.000000E+02   7.500000E+01            79F   9.375000E-01
-      RIPL-3                  Compilation          2009        3.200000E+02   6.500000E+01            04I   1.000000E+00
-      TARES                   NDL                  2025        6.591670E+02   0.000000E+00                  2.059897E+00
+      RIPL-2                  Compilation          2000        3.000000E+02   7.500000E+01            79F       0.937500
+      RIPL-3                  Compilation          2009        3.200000E+02   6.500000E+01            04I       1.000000
+# quantity:
+#   type: EXFOR
+#   average value:  1.950000E+02
+#   relative standard deviation [%]:      42.564102
+# datablock:
+#   columns: 8
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      H.G.Priesmeyer          EXFOR                1972        2.780000E+02   6.300000E+01      20507-026       0.868750
+      R.W.Hockenbury          EXFOR                1975        1.120000E+02   0.000000E+00      10552-016       0.350000
+# quantity:
+#   type: Nuclear data library
+#   average value:  6.591670E+02
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      TARES                   NDL                  2025        6.591670E+02   0.000000E+00                      2.059897

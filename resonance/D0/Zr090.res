@@ -1,27 +1,54 @@
 # header:
 #   title: Zr090 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 40
 #   A: 90
 #   nuclide: Zr090
 # reaction:
 #   type: D0
-# observables:
+# parameters:
 #   selected value [eV]:  6.000000E+03
 #   selected value uncertainty [eV]:  1.400000E+03
 #   selected value source: RIPL-3
+#   number of values: 10
+#   average value [b]:  8.213244E+03
+#   relative standard deviation [%]:      74.778648
+# quantity:
+#   type: Compilation
+#   average value:  6.223333E+03
+#   relative standard deviation [%]:       5.075110
 # datablock:
-#   quantity: resonance data
 #   columns: 8
-#   entries: 7
+#   entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Moskalev                EXFOR                1964        4.500000E+03   1.600000E+03       40758002   7.500000E-01
-      Kapchigashev            EXFOR                1966        2.600000E+04   0.000000E+00       40778016   4.333333E+00
-      Good                    EXFOR                1968        5.000000E+03   1.000000E+03       11876004   8.333333E-01
-      RIPL-2                  Compilation          2000        6.000000E+03   1.400000E+03            96I   1.000000E+00
-      RIPL-3                  Compilation          2009        6.000000E+03   1.400000E+03            96I   1.000000E+00
-      Mughabghab_2016         Compilation          2016        6.670000E+03   8.600000E+02                  1.111667E+00
-      TARES                   NDL                  2025        7.407440E+03   0.000000E+00                  1.234573E+00
+      RIPL-2                  Compilation          2000        6.000000E+03   1.400000E+03            96I       1.000000
+      RIPL-3                  Compilation          2009        6.000000E+03   1.400000E+03            96I       1.000000
+      Mughabghab_2016         Compilation          2016        6.670000E+03   8.600000E+02                      1.111667
+# quantity:
+#   type: EXFOR
+#   average value:  9.342500E+03
+#   relative standard deviation [%]:      82.533905
+# datablock:
+#   columns: 8
+#   entries: 6
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      S.S.Moskalev            EXFOR                1964        4.500000E+03   1.600000E+03      40758-002       0.750000
+      S.P.Kapchigashev        EXFOR                1966        2.600000E+04   0.000000E+00      40778-016       4.333333
+      W.M.Good                EXFOR                1968        5.000000E+03   1.000000E+03      11876-004       0.833333
+      Z.M.Bartolome           EXFOR                1969        3.355000E+03   0.000000E+00      10002-029       0.559167
+      J.W.Boldeman            EXFOR                1975        8.600000E+03   1.600000E+03      30329-003       1.433333
+      A.R.De L.Musgrove       EXFOR                1977        8.600000E+03   1.600000E+03      30422-003       1.433333
+# quantity:
+#   type: Nuclear data library
+#   average value:  7.407440E+03
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      TARES                   NDL                  2025        7.407440E+03   0.000000E+00                      1.234573

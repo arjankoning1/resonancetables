@@ -1,38 +1,67 @@
 # header:
 #   title: I127 Ig resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 53
 #   A: 127
 #   nuclide: I127
 # reaction:
 #   type: Ig
-# observables:
+# parameters:
 #   selected value [eV]:  1.338700E+02
 #   selected value uncertainty [eV]:  4.200000E+00
 #   selected value source: Kayzero
+#   number of values: 23
+#   average value [b]:  1.412340E+02
+#   relative standard deviation [%]:      24.617683
+# quantity:
+#   type: Compilation
+#   average value:  1.527175E+02
+#   relative standard deviation [%]:       7.318277
 # datablock:
-#   quantity: resonance data
 #   columns: 8
-#   entries: 18
+#   entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Harris                  EXFOR                1950        1.190000E+02   0.000000E+00       11343023   8.889221E-01
-      Macklin                 EXFOR                1955        1.400000E+02   5.600000E+00      143880441   1.045791E+00
-      Tattersall              EXFOR                1960        1.800000E+02   3.000000E+01       20638039   1.344588E+00
-      Ricabarra               EXFOR                1968        1.530000E+02   6.000000E+00      301290062   1.142900E+00
-      VichaiHayodomm          EXFOR                1969        1.320000E+02   0.000000E+00       30368019   9.860312E-01
-      Brune                   EXFOR                1969        3.500000E-01   1.000000E-01       23483003   2.614477E-03
-      Ryves                   EXFOR                1970        1.450000E+02   5.807540E+00       20789032   1.083140E+00
-      Breitenhuber            EXFOR                1970        1.490000E+02   7.450000E+00       20029004   1.113020E+00
-      Vanderlinden            EXFOR                1974        1.470000E+02   1.000000E+01       20645007   1.098080E+00
-      Gleason                 EXFOR                1977        1.500000E+02   3.000000E+00       10662011   1.120490E+00
-      Heft                    EXFOR                1978        1.500000E+02   1.000000E+01       12866113   1.120490E+00
-      Friedmann               EXFOR                1983        1.070000E+02   5.000000E+00       23485005   7.992829E-01
-      Friedmann               EXFOR                1983        1.090000E+02   5.000000E+00       23485004   8.142228E-01
-      Katoh                   EXFOR                1999        1.620000E+02   8.000000E+00       22426003   1.210129E+00
-      JUKO                    Compilation          2000        1.550000E+02   7.000000E+00                  1.157840E+00
-      Sukhoruchkin            Compilation          2015        1.600000E+02   6.000000E+00                  1.195189E+00
-      Mughabghab_2016         Compilation          2016        1.620000E+02   8.000000E+00                  1.210129E+00
-      Kayzero                 Compilation          2018        1.338700E+02   4.200000E+00                  1.000000E+00
+      JUKO                    Compilation          2000        1.550000E+02   7.000000E+00                      1.157840
+      Sukhoruchkin            Compilation          2015        1.600000E+02   6.000000E+00                      1.195189
+      Mughabghab_2016         Compilation          2016        1.620000E+02   8.000000E+00                      1.210129
+      Kayzero                 Compilation          2018        1.338700E+02   4.200000E+00                      1.000000
+# quantity:
+#   type: EXFOR
+#   average value:  1.316679E+02
+#   relative standard deviation [%]:      31.244085
+# datablock:
+#   columns: 8
+#   entries: 14
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      Harris                  EXFOR                1950        1.190000E+02   0.000000E+00       11343023       0.888922
+      Macklin                 EXFOR                1955        1.400000E+02   5.600000E+00      143880441       1.045791
+      Tattersall              EXFOR                1960        1.800000E+02   3.000000E+01       20638039       1.344588
+      Ricabarra               EXFOR                1968        1.530000E+02   6.000000E+00      301290062       1.142900
+      VichaiHayodomm          EXFOR                1969        1.320000E+02   0.000000E+00       30368019       0.986031
+      Brune                   EXFOR                1969        3.500000E-01   1.000000E-01       23483003       0.002614
+      Ryves                   EXFOR                1970        1.450000E+02   5.807540E+00       20789032       1.083140
+      Breitenhuber            EXFOR                1970        1.490000E+02   7.450000E+00       20029004       1.113020
+      Vanderlinden            EXFOR                1974        1.470000E+02   1.000000E+01       20645007       1.098080
+      Gleason                 EXFOR                1977        1.500000E+02   3.000000E+00       10662011       1.120490
+      Heft                    EXFOR                1978        1.500000E+02   1.000000E+01       12866113       1.120490
+      Friedmann               EXFOR                1983        1.070000E+02   5.000000E+00       23485005       0.799283
+      Friedmann               EXFOR                1983        1.090000E+02   5.000000E+00       23485004       0.814223
+      Katoh                   EXFOR                1999        1.620000E+02   8.000000E+00       22426003       1.210129
+# quantity:
+#   type: Nuclear data library
+#   average value:  1.588322E+02
+#   relative standard deviation [%]:       4.484130
+# datablock:
+#   columns: 8
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        1.481450E+02   0.000000E+00                      1.106633
+      jendl5.0                NDL                  2021        1.539780E+02   0.000000E+00                      1.150205
+      tendl.2023              NDL                  2023        1.662420E+02   0.000000E+00                      1.241817
+      endfb8.1                NDL                  2024        1.591640E+02   0.000000E+00                      1.188945
+      jeff4.0                 NDL                  2025        1.666320E+02   0.000000E+00                      1.244730

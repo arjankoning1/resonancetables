@@ -1,35 +1,64 @@
 # header:
 #   title: Zr096 Ig resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 40
 #   A: 96
 #   nuclide: Zr096
 # reaction:
 #   type: Ig
-# observables:
+# parameters:
 #   selected value [eV]:  5.190000E+00
 #   selected value uncertainty [eV]:  1.700000E-01
 #   selected value source: Kayzero
+#   number of values: 20
+#   average value [b]:  5.289594E+00
+#   relative standard deviation [%]:       5.167048
+# quantity:
+#   type: Compilation
+#   average value:  5.230000E+00
+#   relative standard deviation [%]:       0.965537
 # datablock:
-#   quantity: resonance data
 #   columns: 8
-#   entries: 15
+#   entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Ricabarra               EXFOR                1970        4.970000E+00   5.000000E-01       30188003   9.576107E-01
-      Fulmer                  EXFOR                1971        5.000000E+00   4.000000E-02       10192005   9.633911E-01
-      Fulmer                  EXFOR                1971        5.000000E+00   4.000000E-02       10192005   9.633911E-01
-      Santry                  EXFOR                1973        5.200000E+00   3.400000E-01       10385005   1.001927E+00
-      Santry                  EXFOR                1973        5.200000E+00   3.400000E-01       10385005   1.001927E+00
-      Heft                    EXFOR                1978        5.980000E+00   1.500000E-01       12866075   1.152216E+00
-      JUKO                    Compilation          2000        5.280000E+00   1.100000E-01                  1.017341E+00
-      Nakamura                EXFOR                2003        4.940000E+00   1.000000E+00       22834009   9.518304E-01
-      Krane                   EXFOR                2014        5.260000E+00   2.400000E-01       14407024   1.013487E+00
-      Krane                   EXFOR                2014        5.250000E+00   2.400000E-01       14407023   1.011561E+00
-      Krane                   EXFOR                2014        5.700000E+00   2.600000E-01       14407022   1.098266E+00
-      Krane                   EXFOR                2014        5.520000E+00   2.500000E-01       14407021   1.063584E+00
-      Sukhoruchkin            Compilation          2015        5.170000E+00   1.100000E-01                  9.961464E-01
-      Mughabghab_2016         Compilation          2016        5.280000E+00   1.100000E-01                  1.017341E+00
-      Kayzero                 Compilation          2018        5.190000E+00   1.700000E-01                  1.000000E+00
+      JUKO                    Compilation          2000        5.280000E+00   1.100000E-01                      1.017341
+      Sukhoruchkin            Compilation          2015        5.170000E+00   1.100000E-01                      0.996146
+      Mughabghab_2016         Compilation          2016        5.280000E+00   1.100000E-01                      1.017341
+      Kayzero                 Compilation          2018        5.190000E+00   1.700000E-01                      1.000000
+# quantity:
+#   type: EXFOR
+#   average value:  5.274545E+00
+#   relative standard deviation [%]:       6.012426
+# datablock:
+#   columns: 8
+#   entries: 11
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      Ricabarra               EXFOR                1970        4.970000E+00   5.000000E-01       30188003       0.957611
+      Fulmer                  EXFOR                1971        5.000000E+00   4.000000E-02       10192005       0.963391
+      Fulmer                  EXFOR                1971        5.000000E+00   4.000000E-02       10192005       0.963391
+      Santry                  EXFOR                1973        5.200000E+00   3.400000E-01       10385005       1.001927
+      Santry                  EXFOR                1973        5.200000E+00   3.400000E-01       10385005       1.001927
+      Heft                    EXFOR                1978        5.980000E+00   1.500000E-01       12866075       1.152216
+      Nakamura                EXFOR                2003        4.940000E+00   1.000000E+00       22834009       0.951830
+      Krane                   EXFOR                2014        5.260000E+00   2.400000E-01       14407024       1.013487
+      Krane                   EXFOR                2014        5.250000E+00   2.400000E-01       14407023       1.011561
+      Krane                   EXFOR                2014        5.700000E+00   2.600000E-01       14407022       1.098266
+      Krane                   EXFOR                2014        5.520000E+00   2.500000E-01       14407021       1.063584
+# quantity:
+#   type: Nuclear data library
+#   average value:  5.370376E+00
+#   relative standard deviation [%]:       4.770915
+# datablock:
+#   columns: 8
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        5.853620E+00   0.000000E+00                      1.127865
+      jendl5.0                NDL                  2021        5.355850E+00   0.000000E+00                      1.031956
+      tendl.2023              NDL                  2023        5.273670E+00   0.000000E+00                      1.016121
+      endfb8.1                NDL                  2024        5.095070E+00   0.000000E+00                      0.981709
+      jeff4.0                 NDL                  2025        5.273670E+00   0.000000E+00                      1.016121

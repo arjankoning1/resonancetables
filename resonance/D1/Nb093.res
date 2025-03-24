@@ -1,22 +1,38 @@
 # header:
 #   title: Nb093 D1 resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 41
 #   A: 93
 #   nuclide: Nb093
 # reaction:
 #   type: D1
-# observables:
+# parameters:
 #   selected value [eV]:  5.000000E+01
 #   selected value uncertainty [eV]:  6.000000E+00
 #   selected value source: RIPL-3
+#   number of values: 3
+#   average value [b]:  4.992120E+01
+#   relative standard deviation [%]:       7.167613
+# quantity:
+#   type: Compilation
+#   average value:  4.775000E+01
+#   relative standard deviation [%]:       4.712042
 # datablock:
-#   quantity: resonance data
 #   columns: 8
 #   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-3                  Compilation          2009        5.000000E+01   6.000000E+00            07I   1.000000E+00
-      Mughabghab_2016         Compilation          2016        4.550000E+01   1.600000E+00                  9.100000E-01
+      RIPL-3                  Compilation          2009        5.000000E+01   6.000000E+00            07I       1.000000
+      Mughabghab_2016         Compilation          2016        4.550000E+01   1.600000E+00                      0.910000
+# quantity:
+#   type: Nuclear data library
+#   average value:  5.426360E+01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      TARES                   NDL                  2025        5.426360E+01   0.000000E+00                      1.085272

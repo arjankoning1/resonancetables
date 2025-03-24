@@ -1,22 +1,38 @@
 # header:
 #   title: Rh103 D1 resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 45
 #   A: 103
 #   nuclide: Rh103
 # reaction:
 #   type: D1
-# observables:
+# parameters:
 #   selected value [eV]:  1.300000E+01
 #   selected value uncertainty [eV]:  1.500000E+00
 #   selected value source: RIPL-3
+#   number of values: 3
+#   average value [b]:  1.664410E+01
+#   relative standard deviation [%]:      25.249987
+# quantity:
+#   type: Compilation
+#   average value:  1.370000E+01
+#   relative standard deviation [%]:       5.109488
 # datablock:
-#   quantity: resonance data
 #   columns: 8
 #   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-3                  Compilation          2009        1.300000E+01   1.500000E+00            04I   1.000000E+00
-      Mughabghab_2016         Compilation          2016        1.440000E+01   6.000000E-01                  1.107692E+00
+      RIPL-3                  Compilation          2009        1.300000E+01   1.500000E+00            04I       1.000000
+      Mughabghab_2016         Compilation          2016        1.440000E+01   6.000000E-01                      1.107692
+# quantity:
+#   type: Nuclear data library
+#   average value:  2.253230E+01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      TARES                   NDL                  2025        2.253230E+01   0.000000E+00                      1.733254

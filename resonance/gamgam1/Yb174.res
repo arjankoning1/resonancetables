@@ -1,21 +1,37 @@
 # header:
 #   title: Yb174 gamgam1 resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 70
 #   A: 174
 #   nuclide: Yb174
 # reaction:
 #   type: gamgam1
-# observables:
+# parameters:
 #   selected value [eV]:  4.720000E-02
 #   selected value uncertainty [eV]:  2.200000E-03
 #   selected value source: Mughabghab_2016
+#   number of values: 2
+#   average value [b]:  6.510000E-02
+#   relative standard deviation [%]:      27.496157
+# quantity:
+#   type: Compilation
+#   average value:  4.720000E-02
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: resonance data
 #   columns: 8
 #   entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Mughabghab_2016         Compilation          2016        4.720000E-02   2.200000E-03                  1.000000E+00
+      Mughabghab_2016         Compilation          2016        4.720000E-02   2.200000E-03                      1.000000
+# quantity:
+#   type: Nuclear data library
+#   average value:  8.300000E-02
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      TARES                   NDL                  2025        8.300000E-02   0.000000E+00                      1.758474

@@ -1,26 +1,50 @@
 # header:
 #   title: Er164 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 68
 #   A: 164
 #   nuclide: Er164
 # reaction:
 #   type: D0
-# observables:
+# parameters:
 #   selected value [eV]:  2.100000E+01
 #   selected value uncertainty [eV]:  4.000000E+00
 #   selected value source: RIPL-3
+#   number of values: 6
+#   average value [b]:  2.247627E+01
+#   relative standard deviation [%]:      16.942631
+# quantity:
+#   type: Compilation
+#   average value:  1.980000E+01
+#   relative standard deviation [%]:       8.570992
 # datablock:
-#   quantity: resonance data
 #   columns: 8
-#   entries: 6
+#   entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Vertebnyi               EXFOR                1968        3.000000E+01   8.000000E+00       40239009   1.428571E+00
-      Karzhavina              EXFOR                1968        2.300000E+01   4.000000E+00       40147004   1.095238E+00
-      RIPL-2                  Compilation          2000        2.100000E+01   4.000000E+00            97I   1.000000E+00
-      RIPL-3                  Compilation          2009        2.100000E+01   4.000000E+00            97I   1.000000E+00
-      Mughabghab_2016         Compilation          2016        1.740000E+01   3.000000E+00                  8.285714E-01
-      TARES                   NDL                  2025        2.245760E+01   0.000000E+00                  1.069409E+00
+      RIPL-2                  Compilation          2000        2.100000E+01   4.000000E+00            97I       1.000000
+      RIPL-3                  Compilation          2009        2.100000E+01   4.000000E+00            97I       1.000000
+      Mughabghab_2016         Compilation          2016        1.740000E+01   3.000000E+00                      0.828571
+# quantity:
+#   type: EXFOR
+#   average value:  2.650000E+01
+#   relative standard deviation [%]:      13.207547
+# datablock:
+#   columns: 8
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      V.P.Vertebnyi           EXFOR                1968        3.000000E+01   8.000000E+00      40239-009       1.428571
+      E.N.Karzhavina          EXFOR                1968        2.300000E+01   4.000000E+00      40147-004       1.095238
+# quantity:
+#   type: Nuclear data library
+#   average value:  2.245760E+01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      TARES                   NDL                  2025        2.245760E+01   0.000000E+00                      1.069409

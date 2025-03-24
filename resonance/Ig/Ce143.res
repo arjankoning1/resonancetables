@@ -1,21 +1,40 @@
 # header:
 #   title: Ce143 Ig resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 58
 #   A: 143
 #   nuclide: Ce143
 # reaction:
 #   type: Ig
-# observables:
+# parameters:
 #   selected value [eV]:  2.700000E+00
 #   selected value uncertainty [eV]:  3.000000E-01
 #   selected value source: JUKO
+#   number of values: 5
+#   average value [b]:  1.435603E+01
+#   relative standard deviation [%]:      80.439568
+# quantity:
+#   type: Compilation
+#   average value:  2.700000E+00
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: resonance data
 #   columns: 8
 #   entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      JUKO                    Compilation          2000        2.700000E+00   3.000000E-01                  1.000000E+00
+      JUKO                    Compilation          2000        2.700000E+00   3.000000E-01                      1.000000
+# quantity:
+#   type: Nuclear data library
+#   average value:  1.727003E+01
+#   relative standard deviation [%]:      64.540253
+# datablock:
+#   columns: 8
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        1.591900E+01   0.000000E+00                      5.895926
+      tendl.2023              NDL                  2023        8.641920E+00   0.000000E+00                      3.200711
+      endfb8.1                NDL                  2024        3.587730E+01   0.000000E+00                     13.287889
+      jeff4.0                 NDL                  2025        8.641920E+00   0.000000E+00                      3.200711

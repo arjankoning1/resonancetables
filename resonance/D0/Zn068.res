@@ -1,24 +1,49 @@
 # header:
 #   title: Zn068 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 30
 #   A: 68
 #   nuclide: Zn068
 # reaction:
 #   type: D0
-# observables:
+# parameters:
 #   selected value [eV]:  5.560000E+03
 #   selected value uncertainty [eV]:  4.300000E+02
 #   selected value source: RIPL-3
+#   number of values: 5
+#   average value [b]:  5.315222E+03
+#   relative standard deviation [%]:      14.944354
+# quantity:
+#   type: Compilation
+#   average value:  4.968333E+03
+#   relative standard deviation [%]:      16.841522
 # datablock:
-#   quantity: resonance data
 #   columns: 8
-#   entries: 4
+#   entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-2                  Compilation          2000        5.560000E+03   4.300000E+02            81G   1.000000E+00
-      RIPL-3                  Compilation          2009        5.560000E+03   4.300000E+02            82G   1.000000E+00
-      Mughabghab_2016         Compilation          2016        3.785000E+03   1.900000E+02                  6.807554E-01
-      TARES                   NDL                  2025        6.111110E+03   0.000000E+00                  1.099120E+00
+      RIPL-2                  Compilation          2000        5.560000E+03   4.300000E+02            81G       1.000000
+      RIPL-3                  Compilation          2009        5.560000E+03   4.300000E+02            82G       1.000000
+      Mughabghab_2016         Compilation          2016        3.785000E+03   1.900000E+02                      0.680755
+# quantity:
+#   type: EXFOR
+#   average value:  5.560000E+03
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      J.B.Garg                EXFOR                1982        5.560000E+03   4.300000E+02      10982-007       1.000000
+# quantity:
+#   type: Nuclear data library
+#   average value:  6.111110E+03
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      TARES                   NDL                  2025        6.111110E+03   0.000000E+00                      1.099120

@@ -1,23 +1,39 @@
 # header:
 #   title: Cd116 gamgam1 resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 48
 #   A: 116
 #   nuclide: Cd116
 # reaction:
 #   type: gamgam1
-# observables:
+# parameters:
 #   selected value [eV]:  7.600001E-02
 #   selected value uncertainty [eV]:  6.000000E-03
 #   selected value source: RIPL-3
+#   number of values: 4
+#   average value [b]:  6.996705E-02
+#   relative standard deviation [%]:      10.579695
+# quantity:
+#   type: Compilation
+#   average value:  7.400000E-02
+#   relative standard deviation [%]:       3.822199
 # datablock:
-#   quantity: resonance data
 #   columns: 8
 #   entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-2                  Compilation          2000        7.000000E-02   1.000000E-02            78M   9.210526E-01
-      RIPL-3                  Compilation          2009        7.600001E-02   6.000000E-03            06M   1.000000E+00
-      Mughabghab_2016         Compilation          2016        7.600000E-02   6.000000E-03                  9.999999E-01
+      RIPL-2                  Compilation          2000        7.000000E-02   1.000000E-02            78M       0.921053
+      RIPL-3                  Compilation          2009        7.600001E-02   6.000000E-03            06M       1.000000
+      Mughabghab_2016         Compilation          2016        7.600000E-02   6.000000E-03                      1.000000
+# quantity:
+#   type: Nuclear data library
+#   average value:  5.786820E-02
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      TARES                   NDL                  2025        5.786820E-02   0.000000E+00                      0.761424

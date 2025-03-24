@@ -1,31 +1,59 @@
 # header:
 #   title: Ru096 Ig resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 44
 #   A: 96
 #   nuclide: Ru096
 # reaction:
 #   type: Ig
-# observables:
+# parameters:
 #   selected value [eV]:  6.090000E+00
 #   selected value uncertainty [eV]:  2.600000E-01
 #   selected value source: Kayzero
+#   number of values: 15
+#   average value [b]:  5.844097E+00
+#   relative standard deviation [%]:      25.349352
+# quantity:
+#   type: Compilation
+#   average value:  6.225000E+00
+#   relative standard deviation [%]:       2.168674
 # datablock:
-#   quantity: resonance data
 #   columns: 8
-#   entries: 11
+#   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Halperin                EXFOR                1965        5.510000E+00   3.857000E-01       11892003   9.047619E-01
-      Ricabarra               EXFOR                1970        6.670000E+00   1.100000E-01      301900062   1.095238E+00
-      Vanderlinden            EXFOR                1972        4.800000E+00   2.000000E-01      206430421   7.881774E-01
-      Bereznai                EXFOR                1977        6.500000E+00   8.000000E-01       31512002   1.067323E+00
-      Bereznai                EXFOR                1977        6.500000E+00   8.000000E-01       31476002   1.067323E+00
-      Rambaek                 EXFOR                1977        7.340000E+00   8.000000E-02       23383011   1.205255E+00
-      Heft                    EXFOR                1978        7.000000E+00   3.000000E-01       12866081   1.149425E+00
-      JUKO                    Compilation          2000        6.360000E+00   2.300000E-01                  1.044335E+00
-      Krane                   EXFOR                2010        7.210000E+00   3.600000E-01       14270005   1.183908E+00
-      Kayzero                 Compilation          2018        6.090000E+00   2.600000E-01                  1.000000E+00
-      Panikkath               EXFOR                2019        4.210000E+00   3.793210E-01       33134003   6.912972E-01
+      JUKO                    Compilation          2000        6.360000E+00   2.300000E-01                      1.044335
+      Kayzero                 Compilation          2018        6.090000E+00   2.600000E-01                      1.000000
+# quantity:
+#   type: EXFOR
+#   average value:  6.193333E+00
+#   relative standard deviation [%]:      16.811214
+# datablock:
+#   columns: 8
+#   entries: 9
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      Halperin                EXFOR                1965        5.510000E+00   3.857000E-01       11892003       0.904762
+      Ricabarra               EXFOR                1970        6.670000E+00   1.100000E-01      301900062       1.095238
+      Vanderlinden            EXFOR                1972        4.800000E+00   2.000000E-01      206430421       0.788177
+      Bereznai                EXFOR                1977        6.500000E+00   8.000000E-01       31512002       1.067323
+      Bereznai                EXFOR                1977        6.500000E+00   8.000000E-01       31476002       1.067323
+      Rambaek                 EXFOR                1977        7.340000E+00   8.000000E-02       23383011       1.205255
+      Heft                    EXFOR                1978        7.000000E+00   3.000000E-01       12866081       1.149425
+      Krane                   EXFOR                2010        7.210000E+00   3.600000E-01       14270005       1.183908
+      Panikkath               EXFOR                2019        4.210000E+00   3.793210E-01       33134003       0.691297
+# quantity:
+#   type: Nuclear data library
+#   average value:  4.867863E+00
+#   relative standard deviation [%]:      43.489777
+# datablock:
+#   columns: 8
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        6.235350E+00   0.000000E+00                      1.023867
+      tendl.2023              NDL                  2023        4.397500E+00   0.000000E+00                      0.722085
+      endfb8.1                NDL                  2024        7.197200E+00   0.000000E+00                      1.181806
+      jeff4.0                 NDL                  2025        1.641400E+00   0.000000E+00                      0.269524

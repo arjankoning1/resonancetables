@@ -1,27 +1,42 @@
 # header:
 #   title: Am241 If resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 95
 #   A: 241
 #   nuclide: Am241
 # reaction:
 #   type: If
-# observables:
+# parameters:
 #   selected value [eV]:  1.440000E+01
 #   selected value uncertainty [eV]:  1.000000E+00
 #   selected value source: Mughabghab_2016
+#   number of values: 7
+#   average value [b]:  1.941429E+01
+#   relative standard deviation [%]:      24.149303
+# quantity:
+#   type: Compilation
+#   average value:  1.456667E+01
+#   relative standard deviation [%]:       1.618093
 # datablock:
-#   quantity: resonance data
 #   columns: 8
-#   entries: 7
+#   entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Bak                     EXFOR                1967        2.100000E+01   2.000000E+00       40062010   1.458333E+00
-      Bak                     EXFOR                1970        2.100000E+01   2.000000E+00      403490051   1.458333E+00
-      Zhuravlev               EXFOR                1975        2.770000E+01   1.600000E+00       40436012   1.923611E+00
-      Gavrilov                EXFOR                1976        2.250000E+01   1.700000E+00       40467007   1.562500E+00
-      JUKO                    Compilation          2000        1.440000E+01   1.000000E+00                  1.000000E+00
-      Sukhoruchkin            Compilation          2015        1.490000E+01   1.000000E+00                  1.034722E+00
-      Mughabghab_2016         Compilation          2016        1.440000E+01   1.000000E+00                  1.000000E+00
+      JUKO                    Compilation          2000        1.440000E+01   1.000000E+00                      1.000000
+      Sukhoruchkin            Compilation          2015        1.490000E+01   1.000000E+00                      1.034722
+      Mughabghab_2016         Compilation          2016        1.440000E+01   1.000000E+00                      1.000000
+# quantity:
+#   type: EXFOR
+#   average value:  2.305000E+01
+#   relative standard deviation [%]:      11.946353
+# datablock:
+#   columns: 8
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      Bak                     EXFOR                1967        2.100000E+01   2.000000E+00       40062010       1.458333
+      Bak                     EXFOR                1970        2.100000E+01   2.000000E+00      403490051       1.458333
+      Zhuravlev               EXFOR                1975        2.770000E+01   1.600000E+00       40436012       1.923611
+      Gavrilov                EXFOR                1976        2.250000E+01   1.700000E+00       40467007       1.562500

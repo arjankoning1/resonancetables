@@ -1,13 +1,14 @@
 # header:
 #   title: gamgam resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # reaction:
 #   type: gamgam
+# quantity:
+#   type: resonance data
 # datablock:
-#   quantity: resonance data
 #   columns: 8
-#   entries: 291
+#   entries: 292
 ##       Z              A            Liso           Value         dValue        Reference    #Experiments      Nuclide
 ##      []             []             []            [eV]           [eV]            []             []             []
         13             27              0        1.600000E+00   4.000000E-01  RIPL-3                0           Al027 
@@ -175,6 +176,7 @@
         60            146              0        5.500000E-02   8.000000E-03  RIPL-3                2           Nd146 
         60            148              0        4.000000E-02   5.000000E-03  RIPL-3                2           Nd148 
         60            150              0        6.700000E-02   2.500000E-02  RIPL-3                2           Nd150 
+        61            147              0        6.900001E-02   5.000000E-03  RIPL-3                0           Pm147 
         62            144              0        7.400000E-02   5.000000E-03  RIPL-3                0           Sm144 
         62            147              0        6.900001E-02   4.000000E-03  RIPL-3                2           Sm147 
         62            148              0        4.400000E-02   4.000000E-03  RIPL-3                0           Sm148 

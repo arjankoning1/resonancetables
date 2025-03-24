@@ -1,23 +1,42 @@
 # header:
 #   title: K040 Ig resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 19
 #   A: 40
 #   nuclide: K040
 # reaction:
 #   type: Ig
-# observables:
+# parameters:
 #   selected value [eV]:  1.300000E+01
 #   selected value uncertainty [eV]:  4.000000E+00
 #   selected value source: Mughabghab_2016
+#   number of values: 7
+#   average value [b]:  1.758539E+01
+#   relative standard deviation [%]:      52.768181
+# quantity:
+#   type: Compilation
+#   average value:  1.300000E+01
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: resonance data
 #   columns: 8
 #   entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      JUKO                    Compilation          2000        1.300000E+01   4.000000E+00                  1.000000E+00
-      Sukhoruchkin            Compilation          2015        1.300000E+01   4.000000E+00                  1.000000E+00
-      Mughabghab_2016         Compilation          2016        1.300000E+01   4.000000E+00                  1.000000E+00
+      JUKO                    Compilation          2000        1.300000E+01   4.000000E+00                      1.000000
+      Sukhoruchkin            Compilation          2015        1.300000E+01   4.000000E+00                      1.000000
+      Mughabghab_2016         Compilation          2016        1.300000E+01   4.000000E+00                      1.000000
+# quantity:
+#   type: Nuclear data library
+#   average value:  2.102443E+01
+#   relative standard deviation [%]:      52.770931
+# datablock:
+#   columns: 8
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        4.020040E+01   0.000000E+00                      3.092339
+      tendl.2023              NDL                  2023        1.522210E+01   0.000000E+00                      1.170931
+      endfb8.1                NDL                  2024        1.345310E+01   0.000000E+00                      1.034854
+      jeff4.0                 NDL                  2025        1.522210E+01   0.000000E+00                      1.170931

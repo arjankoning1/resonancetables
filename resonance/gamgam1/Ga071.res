@@ -1,22 +1,38 @@
 # header:
 #   title: Ga071 gamgam1 resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 31
 #   A: 71
 #   nuclide: Ga071
 # reaction:
 #   type: gamgam1
-# observables:
+# parameters:
 #   selected value [eV]:  2.200000E-01
 #   selected value uncertainty [eV]:  3.000000E-02
 #   selected value source: RIPL-3
+#   number of values: 3
+#   average value [b]:  1.864310E-01
+#   relative standard deviation [%]:      28.667503
+# quantity:
+#   type: Compilation
+#   average value:  1.655000E-01
+#   relative standard deviation [%]:      32.930515
 # datablock:
-#   quantity: resonance data
 #   columns: 8
 #   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-3                  Compilation          2009        2.200000E-01   3.000000E-02            06M   1.000000E+00
-      Mughabghab_2016         Compilation          2016        1.110000E-01   2.000000E-02                  5.045455E-01
+      RIPL-3                  Compilation          2009        2.200000E-01   3.000000E-02            06M       1.000000
+      Mughabghab_2016         Compilation          2016        1.110000E-01   2.000000E-02                      0.504545
+# quantity:
+#   type: Nuclear data library
+#   average value:  2.282930E-01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      TARES                   NDL                  2025        2.282930E-01   0.000000E+00                      1.037695

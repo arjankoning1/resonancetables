@@ -1,24 +1,53 @@
 # header:
 #   title: Ba136 Ig resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 56
 #   A: 136
 #   nuclide: Ba136
 # reaction:
 #   type: Ig
-# observables:
+# parameters:
 #   selected value [eV]:  1.870000E+00
 #   selected value uncertainty [eV]:  2.600000E-01
 #   selected value source: Sukhoruchkin
+#   number of values: 9
+#   average value [b]:  3.160040E+00
+#   relative standard deviation [%]:     115.711983
+# quantity:
+#   type: Compilation
+#   average value:  1.785000E+00
+#   relative standard deviation [%]:       4.761903
 # datablock:
-#   quantity: resonance data
 #   columns: 8
-#   entries: 4
+#   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Vanderlinden            EXFOR                1974        7.500000E-01   4.000000E-02       20645013   4.010695E-01
-      JUKO                    Compilation          2000        1.700000E+00   3.000000E-01                  9.090909E-01
-      Dauenhauer              EXFOR                2012        3.490000E+00   1.700000E-01       14340014   1.866310E+00
-      Sukhoruchkin            Compilation          2015        1.870000E+00   2.600000E-01                  1.000000E+00
+      JUKO                    Compilation          2000        1.700000E+00   3.000000E-01                      0.909091
+      Sukhoruchkin            Compilation          2015        1.870000E+00   2.600000E-01                      1.000000
+# quantity:
+#   type: EXFOR
+#   average value:  2.120000E+00
+#   relative standard deviation [%]:      64.622643
+# datablock:
+#   columns: 8
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      Vanderlinden            EXFOR                1974        7.500000E-01   4.000000E-02       20645013       0.401070
+      Dauenhauer              EXFOR                2012        3.490000E+00   1.700000E-01       14340014       1.866310
+# quantity:
+#   type: Nuclear data library
+#   average value:  4.126072E+00
+#   relative standard deviation [%]:     111.567131
+# datablock:
+#   columns: 8
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        1.333270E+01   0.000000E+00                      7.129786
+      jendl5.0                NDL                  2021        1.844850E+00   0.000000E+00                      0.986551
+      tendl.2023              NDL                  2023        1.807150E+00   0.000000E+00                      0.966390
+      endfb8.1                NDL                  2024        1.838510E+00   0.000000E+00                      0.983160
+      jeff4.0                 NDL                  2025        1.807150E+00   0.000000E+00                      0.966390

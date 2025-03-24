@@ -1,22 +1,41 @@
 # header:
 #   title: Mn054 Ig resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 25
 #   A: 54
 #   nuclide: Mn054
 # reaction:
 #   type: Ig
-# observables:
+# parameters:
 #   selected value [eV]:  1.700000E+01
 #   selected value uncertainty [eV]:  0.000000E+00
 #   selected value source: Mughabghab_2016
+#   number of values: 6
+#   average value [b]:  1.766123E+01
+#   relative standard deviation [%]:       5.533126
+# quantity:
+#   type: Compilation
+#   average value:  1.700000E+01
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: resonance data
 #   columns: 8
 #   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      JUKO                    Compilation          2000        1.700000E+01   0.000000E+00                  1.000000E+00
-      Mughabghab_2016         Compilation          2016        1.700000E+01   0.000000E+00                  1.000000E+00
+      JUKO                    Compilation          2000        1.700000E+01   0.000000E+00                      1.000000
+      Mughabghab_2016         Compilation          2016        1.700000E+01   0.000000E+00                      1.000000
+# quantity:
+#   type: Nuclear data library
+#   average value:  1.799185E+01
+#   relative standard deviation [%]:       5.841295
+# datablock:
+#   columns: 8
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        1.970240E+01   0.000000E+00                      1.158965
+      tendl.2023              NDL                  2023        1.712820E+01   0.000000E+00                      1.007541
+      endfb8.1                NDL                  2024        1.800860E+01   0.000000E+00                      1.059329
+      jeff4.0                 NDL                  2025        1.712820E+01   0.000000E+00                      1.007541

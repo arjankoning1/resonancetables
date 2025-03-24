@@ -1,23 +1,39 @@
 # header:
 #   title: Fe054 S1 resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 26
 #   A: 54
 #   nuclide: Fe054
 # reaction:
 #   type: S1
-# observables:
-#   selected value [eV]:  4.200000E-01
-#   selected value uncertainty [eV]:  8.000000E-02
+# parameters:
+#   selected value [*e-4]:  4.200000E-01
+#   selected value uncertainty [*e-4]:  8.000000E-02
 #   selected value source: RIPL-3
+#   number of values: 4
+#   average value [b]:  6.192525E-01
+#   relative standard deviation [%]:      53.882442
+# quantity:
+#   type: Compilation
+#   average value:  4.266666E-01
+#   relative standard deviation [%]:       2.209710
 # datablock:
-#   quantity: resonance data
 #   columns: 8
 #   entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []           [*e-4]         [*e-4]           []             []
-      RIPL-2                  Compilation          2000        4.200000E-01   1.200000E-01            90P   1.000000E+00
-      RIPL-3                  Compilation          2009        4.200000E-01   8.000000E-02            04I   1.000000E+00
-      Mughabghab_2016         Compilation          2016        4.400000E-01   7.000000E-02                  1.047619E+00
+      RIPL-2                  Compilation          2000        4.200000E-01   1.200000E-01            90P       1.000000
+      RIPL-3                  Compilation          2009        4.200000E-01   8.000000E-02            04I       1.000000
+      Mughabghab_2016         Compilation          2016        4.400000E-01   7.000000E-02                      1.047619
+# quantity:
+#   type: Nuclear data library
+#   average value:  1.197010E+00
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []           [*e-4]         [*e-4]           []             []
+      TARES                   NDL                  2025        1.197010E+00   0.000000E+00                      2.850024

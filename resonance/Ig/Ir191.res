@@ -1,33 +1,61 @@
 # header:
 #   title: Ir191 Ig resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 77
 #   A: 191
 #   nuclide: Ir191
 # reaction:
 #   type: Ig
-# observables:
+# parameters:
 #   selected value [eV]:  3.550000E+03
 #   selected value uncertainty [eV]:  1.000000E+02
 #   selected value source: Mughabghab_2016
+#   number of values: 17
+#   average value [b]:  3.481471E+03
+#   relative standard deviation [%]:      30.010038
+# quantity:
+#   type: Compilation
+#   average value:  3.474667E+03
+#   relative standard deviation [%]:       3.066119
 # datablock:
-#   quantity: resonance data
 #   columns: 8
-#   entries: 13
+#   entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Harris                  EXFOR                1950        3.270000E+03   0.000000E+00       11343033   9.211268E-01
-      Macklin                 EXFOR                1955        3.500000E+03   1.400000E+02       14388056   9.859155E-01
-      Sims                    EXFOR                1968        4.420000E+03   2.200000E+02       11658021   1.245070E+00
-      Sims                    EXFOR                1968        4.800000E+03   2.400000E+02       11658018   1.352113E+00
-      Koehler                 EXFOR                1969        4.074000E+03   2.850000E+02       20655006   1.147606E+00
-      Koehler                 EXFOR                1969        9.400000E+02   1.600000E+02       20655005   2.647887E-01
-      Vanderlinden            EXFOR                1974        3.480000E+03   3.820000E+02       20645053   9.802817E-01
-      Rambaek                 EXFOR                1977        4.460000E+03   1.200000E+02       23383015   1.256338E+00
-      Heft                    EXFOR                1978        5.320000E+03   4.800000E+02       12866189   1.498592E+00
-      JUKO                    Compilation          2000        3.550000E+03   1.000000E+02                  1.000000E+00
-      Karamian                EXFOR                2014        1.350000E+03   1.000000E+02       41599003   3.802817E-01
-      Sukhoruchkin            Compilation          2015        3.324000E+03   1.120000E+02                  9.363380E-01
-      Mughabghab_2016         Compilation          2016        3.550000E+03   1.000000E+02                  1.000000E+00
+      JUKO                    Compilation          2000        3.550000E+03   1.000000E+02                      1.000000
+      Sukhoruchkin            Compilation          2015        3.324000E+03   1.120000E+02                      0.936338
+      Mughabghab_2016         Compilation          2016        3.550000E+03   1.000000E+02                      1.000000
+# quantity:
+#   type: EXFOR
+#   average value:  3.561400E+03
+#   relative standard deviation [%]:      37.975613
+# datablock:
+#   columns: 8
+#   entries: 10
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      Harris                  EXFOR                1950        3.270000E+03   0.000000E+00       11343033       0.921127
+      Macklin                 EXFOR                1955        3.500000E+03   1.400000E+02       14388056       0.985915
+      Sims                    EXFOR                1968        4.420000E+03   2.200000E+02       11658021       1.245070
+      Sims                    EXFOR                1968        4.800000E+03   2.400000E+02       11658018       1.352113
+      Koehler                 EXFOR                1969        4.074000E+03   2.850000E+02       20655006       1.147606
+      Koehler                 EXFOR                1969        9.400000E+02   1.600000E+02       20655005       0.264789
+      Vanderlinden            EXFOR                1974        3.480000E+03   3.820000E+02       20645053       0.980282
+      Rambaek                 EXFOR                1977        4.460000E+03   1.200000E+02       23383015       1.256338
+      Heft                    EXFOR                1978        5.320000E+03   4.800000E+02       12866189       1.498592
+      Karamian                EXFOR                2014        1.350000E+03   1.000000E+02       41599003       0.380282
+# quantity:
+#   type: Nuclear data library
+#   average value:  3.286753E+03
+#   relative standard deviation [%]:       1.905154
+# datablock:
+#   columns: 8
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        3.178300E+03   0.000000E+00                      0.895296
+      tendl.2023              NDL                  2023        3.322600E+03   0.000000E+00                      0.935944
+      endfb8.1                NDL                  2024        3.323820E+03   0.000000E+00                      0.936287
+      jeff4.0                 NDL                  2025        3.322290E+03   0.000000E+00                      0.935856

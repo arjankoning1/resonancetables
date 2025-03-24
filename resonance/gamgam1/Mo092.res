@@ -1,22 +1,38 @@
 # header:
 #   title: Mo092 gamgam1 resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 42
 #   A: 92
 #   nuclide: Mo092
 # reaction:
 #   type: gamgam1
-# observables:
+# parameters:
 #   selected value [eV]:  2.400000E-01
 #   selected value uncertainty [eV]:  4.000000E-02
 #   selected value source: RIPL-3
+#   number of values: 3
+#   average value [b]:  2.486407E-01
+#   relative standard deviation [%]:       4.914623
+# quantity:
+#   type: Compilation
+#   average value:  2.400000E-01
+#   relative standard deviation [%]:       0.000004
 # datablock:
-#   quantity: resonance data
 #   columns: 8
 #   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-3                  Compilation          2009        2.400000E-01   4.000000E-02            04I   1.000000E+00
-      Mughabghab_2016         Compilation          2016        2.400000E-01   4.000000E-02                  9.999999E-01
+      RIPL-3                  Compilation          2009        2.400000E-01   4.000000E-02            04I       1.000000
+      Mughabghab_2016         Compilation          2016        2.400000E-01   4.000000E-02                      1.000000
+# quantity:
+#   type: Nuclear data library
+#   average value:  2.659220E-01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      TARES                   NDL                  2025        2.659220E-01   0.000000E+00                      1.108008

@@ -1,21 +1,27 @@
 # header:
 #   title: K000 Ig resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 19
 #   A: 0
 #   nuclide: K000
 # reaction:
 #   type: Ig
-# observables:
+# parameters:
 #   selected value [eV]:  1.100000E+00
 #   selected value uncertainty [eV]:  4.400000E-02
 #   selected value source: Macklin
+#   number of values: 1
+#   average value [b]:  1.100000E+00
+#   relative standard deviation [%]:       0.000000
+# quantity:
+#   type: EXFOR
+#   average value:  1.100000E+00
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: resonance data
 #   columns: 8
 #   entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Macklin                 EXFOR                1955        1.100000E+00   4.400000E-02       14388010   1.000000E+00
+      Macklin                 EXFOR                1955        1.100000E+00   4.400000E-02       14388010       1.000000

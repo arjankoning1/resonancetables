@@ -1,22 +1,38 @@
 # header:
 #   title: Cd113 S1 resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 48
 #   A: 113
 #   nuclide: Cd113
 # reaction:
 #   type: S1
-# observables:
-#   selected value [eV]:  3.000000E+00
-#   selected value uncertainty [eV]:  5.000000E-01
+# parameters:
+#   selected value [*e-4]:  3.000000E+00
+#   selected value uncertainty [*e-4]:  5.000000E-01
 #   selected value source: RIPL-3
+#   number of values: 3
+#   average value [b]:  3.797707E+00
+#   relative standard deviation [%]:      29.705498
+# quantity:
+#   type: Compilation
+#   average value:  3.000000E+00
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: resonance data
 #   columns: 8
 #   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []           [*e-4]         [*e-4]           []             []
-      RIPL-2                  Compilation          2000        3.000000E+00   5.000000E-01            94F   1.000000E+00
-      RIPL-3                  Compilation          2009        3.000000E+00   5.000000E-01            94F   1.000000E+00
+      RIPL-2                  Compilation          2000        3.000000E+00   5.000000E-01            94F       1.000000
+      RIPL-3                  Compilation          2009        3.000000E+00   5.000000E-01            94F       1.000000
+# quantity:
+#   type: Nuclear data library
+#   average value:  5.393120E+00
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []           [*e-4]         [*e-4]           []             []
+      TARES                   NDL                  2025        5.393120E+00   0.000000E+00                      1.797707

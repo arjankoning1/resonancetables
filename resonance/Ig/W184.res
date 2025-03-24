@@ -1,27 +1,56 @@
 # header:
 #   title: W184 Ig resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 74
 #   A: 184
 #   nuclide: W184
 # reaction:
 #   type: Ig
-# observables:
+# parameters:
 #   selected value [eV]:  1.470000E+01
 #   selected value uncertainty [eV]:  1.500000E+00
 #   selected value source: Mughabghab_2016
+#   number of values: 12
+#   average value [b]:  1.713404E+01
+#   relative standard deviation [%]:      19.795977
+# quantity:
+#   type: Compilation
+#   average value:  1.503333E+01
+#   relative standard deviation [%]:       3.135728
 # datablock:
-#   quantity: resonance data
 #   columns: 8
-#   entries: 7
+#   entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Pierce                  EXFOR                1968        1.490000E+01   1.600000E+00       11891003   1.013605E+00
-      Vanderlinden            EXFOR                1974        2.200000E+01   9.000000E-01       20645043   1.496599E+00
-      Anufriev                EXFOR                1983        1.600000E+01   3.000000E+00       40850003   1.088435E+00
-      JUKO                    Compilation          2000        1.470000E+01   1.500000E+00                  1.000000E+00
-      Sukhoruchkin            Compilation          2015        1.570000E+01   1.400000E+01                  1.068027E+00
-      Mughabghab_2016         Compilation          2016        1.470000E+01   1.500000E+00                  1.000000E+00
-      Krane                   EXFOR                2019        2.660000E+01   2.300000E+00       14679005   1.809524E+00
+      JUKO                    Compilation          2000        1.470000E+01   1.500000E+00                      1.000000
+      Sukhoruchkin            Compilation          2015        1.570000E+01   1.400000E+01                      1.068027
+      Mughabghab_2016         Compilation          2016        1.470000E+01   1.500000E+00                      1.000000
+# quantity:
+#   type: EXFOR
+#   average value:  1.987500E+01
+#   relative standard deviation [%]:      23.800858
+# datablock:
+#   columns: 8
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      Pierce                  EXFOR                1968        1.490000E+01   1.600000E+00       11891003       1.013605
+      Vanderlinden            EXFOR                1974        2.200000E+01   9.000000E-01       20645043       1.496599
+      Anufriev                EXFOR                1983        1.600000E+01   3.000000E+00       40850003       1.088435
+      Krane                   EXFOR                2019        2.660000E+01   2.300000E+00       14679005       1.809524
+# quantity:
+#   type: Nuclear data library
+#   average value:  1.620170E+01
+#   relative standard deviation [%]:       1.366243
+# datablock:
+#   columns: 8
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        1.631830E+01   0.000000E+00                      1.110088
+      jendl5.0                NDL                  2021        1.657740E+01   0.000000E+00                      1.127714
+      tendl.2023              NDL                  2023        1.611700E+01   0.000000E+00                      1.096395
+      endfb8.1                NDL                  2024        1.599790E+01   0.000000E+00                      1.088292
+      jeff4.0                 NDL                  2025        1.599790E+01   0.000000E+00                      1.088292

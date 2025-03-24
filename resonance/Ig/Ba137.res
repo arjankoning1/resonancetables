@@ -1,22 +1,41 @@
 # header:
 #   title: Ba137 Ig resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 56
 #   A: 137
 #   nuclide: Ba137
 # reaction:
 #   type: Ig
-# observables:
+# parameters:
 #   selected value [eV]:  3.500000E+00
 #   selected value uncertainty [eV]:  8.000000E-01
 #   selected value source: Sukhoruchkin
+#   number of values: 6
+#   average value [b]:  2.642168E+01
+#   relative standard deviation [%]:     188.035690
+# quantity:
+#   type: Compilation
+#   average value:  3.900000E+00
+#   relative standard deviation [%]:      10.256412
 # datablock:
-#   quantity: resonance data
 #   columns: 8
 #   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      JUKO                    Compilation          2000        4.300000E+00   1.000000E+00                  1.228572E+00
-      Sukhoruchkin            Compilation          2015        3.500000E+00   8.000000E-01                  1.000000E+00
+      JUKO                    Compilation          2000        4.300000E+00   1.000000E+00                      1.228572
+      Sukhoruchkin            Compilation          2015        3.500000E+00   8.000000E-01                      1.000000
+# quantity:
+#   type: Nuclear data library
+#   average value:  3.768252E+01
+#   relative standard deviation [%]:     152.953217
+# datablock:
+#   columns: 8
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        1.375120E+02   0.000000E+00                     39.289143
+      tendl.2023              NDL                  2023        4.462120E+00   0.000000E+00                      1.274891
+      endfb8.1                NDL                  2024        4.293820E+00   0.000000E+00                      1.226806
+      jeff4.0                 NDL                  2025        4.462120E+00   0.000000E+00                      1.274891

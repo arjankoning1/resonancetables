@@ -1,27 +1,55 @@
 # header:
 #   title: Yb176 Ig resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 70
 #   A: 176
 #   nuclide: Yb176
 # reaction:
 #   type: Ig
-# observables:
+# parameters:
 #   selected value [eV]:  7.300000E+00
 #   selected value uncertainty [eV]:  5.000000E-01
 #   selected value source: Kayzero
+#   number of values: 11
+#   average value [b]:  6.853356E+00
+#   relative standard deviation [%]:      46.346626
+# quantity:
+#   type: Compilation
+#   average value:  7.033333E+00
+#   relative standard deviation [%]:       2.680974
 # datablock:
-#   quantity: resonance data
 #   columns: 8
-#   entries: 7
+#   entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Alstad                  EXFOR                1972        2.700000E+00   3.000000E-01       20094009   3.698630E-01
-      Vanderlinden            EXFOR                1974        1.440000E+01   1.200000E+00       20645035   1.972603E+00
-      Steinnes                EXFOR                1975        9.200000E+00   1.800000E+00       20635011   1.260274E+00
-      Heft                    EXFOR                1978        1.330000E+00   1.300000E-01       12866171   1.821918E-01
-      JUKO                    Compilation          2000        6.900000E+00   6.000000E-01                  9.452055E-01
-      Sukhoruchkin            Compilation          2015        6.900000E+00   6.000000E-01                  9.452055E-01
-      Kayzero                 Compilation          2018        7.300000E+00   5.000000E-01                  1.000000E+00
+      JUKO                    Compilation          2000        6.900000E+00   6.000000E-01                      0.945205
+      Sukhoruchkin            Compilation          2015        6.900000E+00   6.000000E-01                      0.945205
+      Kayzero                 Compilation          2018        7.300000E+00   5.000000E-01                      1.000000
+# quantity:
+#   type: EXFOR
+#   average value:  6.907500E+00
+#   relative standard deviation [%]:      75.988716
+# datablock:
+#   columns: 8
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      Alstad                  EXFOR                1972        2.700000E+00   3.000000E-01       20094009       0.369863
+      Vanderlinden            EXFOR                1974        1.440000E+01   1.200000E+00       20645035       1.972603
+      Steinnes                EXFOR                1975        9.200000E+00   1.800000E+00       20635011       1.260274
+      Heft                    EXFOR                1978        1.330000E+00   1.300000E-01       12866171       0.182192
+# quantity:
+#   type: Nuclear data library
+#   average value:  6.664230E+00
+#   relative standard deviation [%]:       4.829404
+# datablock:
+#   columns: 8
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        6.957820E+00   0.000000E+00                      0.953126
+      tendl.2023              NDL                  2023        6.318420E+00   0.000000E+00                      0.865537
+      endfb8.1                NDL                  2024        7.012200E+00   0.000000E+00                      0.960575
+      jeff4.0                 NDL                  2025        6.368480E+00   0.000000E+00                      0.872395

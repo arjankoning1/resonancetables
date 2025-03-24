@@ -1,23 +1,38 @@
 # header:
 #   title: Hg201 gamgam resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 80
 #   A: 201
 #   nuclide: Hg201
 # reaction:
 #   type: gamgam
-# observables:
+# parameters:
 #   selected value [eV]:  4.000000E-01
 #   selected value uncertainty [eV]:  1.000000E-01
 #   selected value source: RIPL-3
+#   number of values: 3
+#   average value [b]:  3.906666E-01
+#   relative standard deviation [%]:       1.702215
+# quantity:
+#   type: Compilation
+#   average value:  3.935000E-01
+#   relative standard deviation [%]:       1.651844
 # datablock:
-#   quantity: resonance data
 #   columns: 8
-#   entries: 3
+#   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-3                  Compilation          2009        4.000000E-01   1.000000E-01            97I   1.000000E+00
-      Mughabghab_2016         Compilation          2016        3.870000E-01   1.500000E-02                  9.675000E-01
-      TARES                   NDL                  2025        3.850000E-01   0.000000E+00                  9.625000E-01
+      RIPL-3                  Compilation          2009        4.000000E-01   1.000000E-01            97I       1.000000
+      Mughabghab_2016         Compilation          2016        3.870000E-01   1.500000E-02                      0.967500
+# quantity:
+#   type: Nuclear data library
+#   average value:  3.850000E-01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      TARES                   NDL                  2025        3.850000E-01   0.000000E+00                      0.962500

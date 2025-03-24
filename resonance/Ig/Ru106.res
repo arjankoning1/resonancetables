@@ -1,23 +1,51 @@
 # header:
 #   title: Ru106 Ig resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 44
 #   A: 106
 #   nuclide: Ru106
 # reaction:
 #   type: Ig
-# observables:
+# parameters:
 #   selected value [eV]:  2.000000E+00
 #   selected value uncertainty [eV]:  6.000000E-01
 #   selected value source: Mughabghab_2016
+#   number of values: 7
+#   average value [b]:  2.591562E+00
+#   relative standard deviation [%]:      36.575195
+# quantity:
+#   type: Compilation
+#   average value:  2.000000E+00
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: resonance data
 #   columns: 8
-#   entries: 3
+#   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Werner                  EXFOR                1965        2.000000E+00   6.000000E-01       11925002   1.000000E+00
-      JUKO                    Compilation          2000        2.000000E+00   6.000000E-01                  1.000000E+00
-      Mughabghab_2016         Compilation          2016        2.000000E+00   6.000000E-01                  1.000000E+00
+      JUKO                    Compilation          2000        2.000000E+00   6.000000E-01                      1.000000
+      Mughabghab_2016         Compilation          2016        2.000000E+00   6.000000E-01                      1.000000
+# quantity:
+#   type: EXFOR
+#   average value:  2.000000E+00
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      Werner                  EXFOR                1965        2.000000E+00   6.000000E-01       11925002       1.000000
+# quantity:
+#   type: Nuclear data library
+#   average value:  3.035233E+00
+#   relative standard deviation [%]:      34.757973
+# datablock:
+#   columns: 8
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        1.967660E+00   0.000000E+00                      0.983830
+      tendl.2023              NDL                  2023        4.090180E+00   0.000000E+00                      2.045090
+      endfb8.1                NDL                  2024        1.992910E+00   0.000000E+00                      0.996455
+      jeff4.0                 NDL                  2025        4.090180E+00   0.000000E+00                      2.045090

@@ -1,22 +1,37 @@
 # header:
 #   title: Xe132 gamgam resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 54
 #   A: 132
 #   nuclide: Xe132
 # reaction:
 #   type: gamgam
-# observables:
+# parameters:
 #   selected value [eV]:  7.000000E-02
 #   selected value uncertainty [eV]:  1.000000E-02
 #   selected value source: Mughabghab_2016
+#   number of values: 2
+#   average value [b]:  6.745675E-02
+#   relative standard deviation [%]:       3.770196
+# quantity:
+#   type: Compilation
+#   average value:  7.000000E-02
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: resonance data
 #   columns: 8
-#   entries: 2
+#   entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Mughabghab_2016         Compilation          2016        7.000000E-02   1.000000E-02                  1.000000E+00
-      TARES                   NDL                  2025        6.491350E-02   0.000000E+00                  9.273357E-01
+      Mughabghab_2016         Compilation          2016        7.000000E-02   1.000000E-02                      1.000000
+# quantity:
+#   type: Nuclear data library
+#   average value:  6.491350E-02
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      TARES                   NDL                  2025        6.491350E-02   0.000000E+00                      0.927336

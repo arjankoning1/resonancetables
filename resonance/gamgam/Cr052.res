@@ -1,25 +1,49 @@
 # header:
 #   title: Cr052 gamgam resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 24
 #   A: 52
 #   nuclide: Cr052
 # reaction:
 #   type: gamgam
-# observables:
+# parameters:
 #   selected value [eV]:  2.000000E+00
 #   selected value uncertainty [eV]:  5.000000E-01
 #   selected value source: RIPL-3
+#   number of values: 5
+#   average value [b]:  1.693690E+00
+#   relative standard deviation [%]:      18.818659
+# quantity:
+#   type: Compilation
+#   average value:  1.950000E+00
+#   relative standard deviation [%]:       3.626185
 # datablock:
-#   quantity: resonance data
 #   columns: 8
-#   entries: 5
+#   entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Brusegan                EXFOR                1986        1.320000E+00   1.920000E+00      220410123   6.600000E-01
-      RIPL-2                  Compilation          2000        1.850000E+00   5.500000E-01            89R   9.250001E-01
-      RIPL-3                  Compilation          2009        2.000000E+00   5.000000E-01            07I   1.000000E+00
-      Mughabghab_2016         Compilation          2016        2.000000E+00   0.000000E+00                  1.000000E+00
-      TARES                   NDL                  2025        1.298450E+00   0.000000E+00                  6.492250E-01
+      RIPL-2                  Compilation          2000        1.850000E+00   5.500000E-01            89R       0.925000
+      RIPL-3                  Compilation          2009        2.000000E+00   5.000000E-01            07I       1.000000
+      Mughabghab_2016         Compilation          2016        2.000000E+00   0.000000E+00                      1.000000
+# quantity:
+#   type: EXFOR
+#   average value:  1.320000E+00
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      Brusegan                EXFOR                1986        1.320000E+00   1.920000E+00      220410123       0.660000
+# quantity:
+#   type: Nuclear data library
+#   average value:  1.298450E+00
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      TARES                   NDL                  2025        1.298450E+00   0.000000E+00                      0.649225

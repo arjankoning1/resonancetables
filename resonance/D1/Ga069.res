@@ -1,22 +1,38 @@
 # header:
 #   title: Ga069 D1 resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 31
 #   A: 69
 #   nuclide: Ga069
 # reaction:
 #   type: D1
-# observables:
+# parameters:
 #   selected value [eV]:  1.800000E+02
 #   selected value uncertainty [eV]:  6.000000E+01
 #   selected value source: RIPL-3
+#   number of values: 3
+#   average value [b]:  2.356110E+02
+#   relative standard deviation [%]:      51.443138
+# quantity:
+#   type: Compilation
+#   average value:  1.515000E+02
+#   relative standard deviation [%]:      18.811882
 # datablock:
-#   quantity: resonance data
 #   columns: 8
 #   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-3                  Compilation          2009        1.800000E+02   6.000000E+01            07I   1.000000E+00
-      Mughabghab_2016         Compilation          2016        1.230000E+02   6.000000E+01                  6.833333E-01
+      RIPL-3                  Compilation          2009        1.800000E+02   6.000000E+01            07I       1.000000
+      Mughabghab_2016         Compilation          2016        1.230000E+02   6.000000E+01                      0.683333
+# quantity:
+#   type: Nuclear data library
+#   average value:  4.038330E+02
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      TARES                   NDL                  2025        4.038330E+02   0.000000E+00                      2.243517

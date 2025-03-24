@@ -1,23 +1,49 @@
 # header:
 #   title: Fe058 D1 resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 26
 #   A: 58
 #   nuclide: Fe058
 # reaction:
 #   type: D1
-# observables:
+# parameters:
 #   selected value [eV]:  5.030000E+03
 #   selected value uncertainty [eV]:  3.000000E+02
 #   selected value source: RIPL-3
+#   number of values: 5
+#   average value [b]:  5.978700E+03
+#   relative standard deviation [%]:      18.180298
+# quantity:
+#   type: Compilation
+#   average value:  5.353333E+03
+#   relative standard deviation [%]:       8.541638
 # datablock:
-#   quantity: resonance data
 #   columns: 8
 #   entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-2                  Compilation          2000        6.000000E+03   1.500000E+03            96I   1.192843E+00
-      RIPL-3                  Compilation          2009        5.030000E+03   3.000000E+02            06M   1.000000E+00
-      Mughabghab_2016         Compilation          2016        5.030000E+03   3.000000E+02                  1.000000E+00
+      RIPL-2                  Compilation          2000        6.000000E+03   1.500000E+03            96I       1.192843
+      RIPL-3                  Compilation          2009        5.030000E+03   3.000000E+02            06M       1.000000
+      Mughabghab_2016         Compilation          2016        5.030000E+03   3.000000E+02                      1.000000
+# quantity:
+#   type: EXFOR
+#   average value:  8.000000E+03
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      J.B.Garg                EXFOR                1978        8.000000E+03   1.000000E+03      10753-002       1.590457
+# quantity:
+#   type: Nuclear data library
+#   average value:  5.833500E+03
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      TARES                   NDL                  2025        5.833500E+03   0.000000E+00                      1.159742

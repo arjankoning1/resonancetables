@@ -1,26 +1,55 @@
 # header:
 #   title: Ni062 Ig resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 28
 #   A: 62
 #   nuclide: Ni062
 # reaction:
 #   type: Ig
-# observables:
+# parameters:
 #   selected value [eV]:  7.300000E+00
 #   selected value uncertainty [eV]:  5.000000E-01
 #   selected value source: Sukhoruchkin
+#   number of values: 11
+#   average value [b]:  6.979350E+00
+#   relative standard deviation [%]:      23.903269
+# quantity:
+#   type: Compilation
+#   average value:  7.050000E+00
+#   relative standard deviation [%]:       3.546099
 # datablock:
-#   quantity: resonance data
 #   columns: 8
-#   entries: 6
+#   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Sims                    EXFOR                1970        9.600000E+00   3.500000E+00       10608009   1.315068E+00
-      Sims                    EXFOR                1970        4.200000E+00   1.500000E+00       10608008   5.753424E-01
-      Sims                    EXFOR                1970        9.600000E+00   3.500000E+00       10608009   1.315068E+00
-      Sims                    EXFOR                1970        4.200000E+00   1.500000E+00       10608008   5.753424E-01
-      JUKO                    Compilation          2000        6.800000E+00   3.000000E-01                  9.315069E-01
-      Sukhoruchkin            Compilation          2015        7.300000E+00   5.000000E-01                  1.000000E+00
+      JUKO                    Compilation          2000        6.800000E+00   3.000000E-01                      0.931507
+      Sukhoruchkin            Compilation          2015        7.300000E+00   5.000000E-01                      1.000000
+# quantity:
+#   type: EXFOR
+#   average value:  6.900001E+00
+#   relative standard deviation [%]:      39.130436
+# datablock:
+#   columns: 8
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      Sims                    EXFOR                1970        9.600000E+00   3.500000E+00       10608009       1.315068
+      Sims                    EXFOR                1970        4.200000E+00   1.500000E+00       10608008       0.575342
+      Sims                    EXFOR                1970        9.600000E+00   3.500000E+00       10608009       1.315068
+      Sims                    EXFOR                1970        4.200000E+00   1.500000E+00       10608008       0.575342
+# quantity:
+#   type: Nuclear data library
+#   average value:  7.014570E+00
+#   relative standard deviation [%]:       7.237901
+# datablock:
+#   columns: 8
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        5.999210E+00   0.000000E+00                      0.821810
+      jendl5.0                NDL                  2021        7.273740E+00   0.000000E+00                      0.996403
+      tendl.2023              NDL                  2023        7.262500E+00   0.000000E+00                      0.994863
+      endfb8.1                NDL                  2024        7.274900E+00   0.000000E+00                      0.996562
+      jeff4.0                 NDL                  2025        7.262500E+00   0.000000E+00                      0.994863

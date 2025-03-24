@@ -1,23 +1,39 @@
 # header:
 #   title: Pd106 S1 resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 46
 #   A: 106
 #   nuclide: Pd106
 # reaction:
 #   type: S1
-# observables:
-#   selected value [eV]:  4.000000E+00
-#   selected value uncertainty [eV]:  1.000000E+00
+# parameters:
+#   selected value [*e-4]:  4.000000E+00
+#   selected value uncertainty [*e-4]:  1.000000E+00
 #   selected value source: RIPL-3
+#   number of values: 4
+#   average value [b]:  4.762753E+00
+#   relative standard deviation [%]:      16.044453
+# quantity:
+#   type: Compilation
+#   average value:  4.486667E+00
+#   relative standard deviation [%]:      15.339909
 # datablock:
-#   quantity: resonance data
 #   columns: 8
 #   entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []           [*e-4]         [*e-4]           []             []
-      RIPL-2                  Compilation          2000        4.000000E+00   1.000000E+00            98C   1.000000E+00
-      RIPL-3                  Compilation          2009        4.000000E+00   1.000000E+00            98C   1.000000E+00
-      Mughabghab_2016         Compilation          2016        5.460000E+00   5.000000E-01                  1.365000E+00
+      RIPL-2                  Compilation          2000        4.000000E+00   1.000000E+00            98C       1.000000
+      RIPL-3                  Compilation          2009        4.000000E+00   1.000000E+00            98C       1.000000
+      Mughabghab_2016         Compilation          2016        5.460000E+00   5.000000E-01                      1.365000
+# quantity:
+#   type: Nuclear data library
+#   average value:  5.591010E+00
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []           [*e-4]         [*e-4]           []             []
+      TARES                   NDL                  2025        5.591010E+00   0.000000E+00                      1.397753

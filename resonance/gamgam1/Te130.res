@@ -1,21 +1,37 @@
 # header:
 #   title: Te130 gamgam1 resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 52
 #   A: 130
 #   nuclide: Te130
 # reaction:
 #   type: gamgam1
-# observables:
+# parameters:
 #   selected value [eV]:  6.970000E-02
 #   selected value uncertainty [eV]:  1.250000E+02
 #   selected value source: Mughabghab_2016
+#   number of values: 2
+#   average value [b]:  7.132836E-02
+#   relative standard deviation [%]:       2.282894
+# quantity:
+#   type: Compilation
+#   average value:  6.970000E-02
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: resonance data
 #   columns: 8
 #   entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Mughabghab_2016         Compilation          2016        6.970000E-02   1.250000E+02                  1.000000E+00
+      Mughabghab_2016         Compilation          2016        6.970000E-02   1.250000E+02                      1.000000
+# quantity:
+#   type: Nuclear data library
+#   average value:  7.295670E-02
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      TARES                   NDL                  2025        7.295670E-02   0.000000E+00                      1.046725

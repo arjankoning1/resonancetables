@@ -1,21 +1,37 @@
 # header:
 #   title: Ce138 S1 resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 58
 #   A: 138
 #   nuclide: Ce138
 # reaction:
 #   type: S1
-# observables:
-#   selected value [eV]:  9.700000E+00
-#   selected value uncertainty [eV]:  1.900000E+00
+# parameters:
+#   selected value [*e-4]:  9.700000E+00
+#   selected value uncertainty [*e-4]:  1.900000E+00
 #   selected value source: Mughabghab_2016
+#   number of values: 2
+#   average value [b]:  5.210496E+00
+#   relative standard deviation [%]:      86.162682
+# quantity:
+#   type: Compilation
+#   average value:  9.700000E+00
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: resonance data
 #   columns: 8
 #   entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []           [*e-4]         [*e-4]           []             []
-      Mughabghab_2016         Compilation          2016        9.700000E+00   1.900000E+00                  1.000000E+00
+      Mughabghab_2016         Compilation          2016        9.700000E+00   1.900000E+00                      1.000000
+# quantity:
+#   type: Nuclear data library
+#   average value:  7.209930E-01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []           [*e-4]         [*e-4]           []             []
+      TARES                   NDL                  2025        7.209930E-01   0.000000E+00                      0.074329

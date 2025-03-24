@@ -1,24 +1,53 @@
 # header:
 #   title: Mo095 Ig resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 42
 #   A: 95
 #   nuclide: Mo095
 # reaction:
 #   type: Ig
-# observables:
+# parameters:
 #   selected value [eV]:  1.050000E+02
 #   selected value uncertainty [eV]:  6.000000E+00
 #   selected value source: Sukhoruchkin
+#   number of values: 9
+#   average value [b]:  1.108071E+02
+#   relative standard deviation [%]:       6.910088
+# quantity:
+#   type: Compilation
+#   average value:  1.115000E+02
+#   relative standard deviation [%]:       5.829597
 # datablock:
-#   quantity: resonance data
 #   columns: 8
-#   entries: 4
+#   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Tattersall              EXFOR                1960        1.000000E+02   2.000000E+01       20638025   9.523810E-01
-      JUKO                    Compilation          2000        1.180000E+02   7.000000E+00                  1.123810E+00
-      Leinweber               EXFOR                2010        1.210000E+02   1.000000E+00       14263005   1.152381E+00
-      Sukhoruchkin            Compilation          2015        1.050000E+02   6.000000E+00                  1.000000E+00
+      JUKO                    Compilation          2000        1.180000E+02   7.000000E+00                      1.123810
+      Sukhoruchkin            Compilation          2015        1.050000E+02   6.000000E+00                      1.000000
+# quantity:
+#   type: EXFOR
+#   average value:  1.105000E+02
+#   relative standard deviation [%]:       9.502262
+# datablock:
+#   columns: 8
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      Tattersall              EXFOR                1960        1.000000E+02   2.000000E+01       20638025       0.952381
+      Leinweber               EXFOR                2010        1.210000E+02   1.000000E+00       14263005       1.152381
+# quantity:
+#   type: Nuclear data library
+#   average value:  1.106528E+02
+#   relative standard deviation [%]:       6.013435
+# datablock:
+#   columns: 8
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        1.109110E+02   0.000000E+00                      1.056295
+      jendl5.0                NDL                  2021        1.017780E+02   0.000000E+00                      0.969314
+      tendl.2023              NDL                  2023        1.178380E+02   0.000000E+00                      1.122267
+      endfb8.1                NDL                  2024        1.046640E+02   0.000000E+00                      0.996800
+      jeff4.0                 NDL                  2025        1.180730E+02   0.000000E+00                      1.124505

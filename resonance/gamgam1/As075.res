@@ -1,22 +1,38 @@
 # header:
 #   title: As075 gamgam1 resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 33
 #   A: 75
 #   nuclide: As075
 # reaction:
 #   type: gamgam1
-# observables:
+# parameters:
 #   selected value [eV]:  3.000000E-01
 #   selected value uncertainty [eV]:  6.000000E-02
 #   selected value source: RIPL-3
+#   number of values: 3
+#   average value [b]:  3.034077E-01
+#   relative standard deviation [%]:       6.003163
+# quantity:
+#   type: Compilation
+#   average value:  2.915000E-01
+#   relative standard deviation [%]:       2.915955
 # datablock:
-#   quantity: resonance data
 #   columns: 8
 #   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-3                  Compilation          2009        3.000000E-01   6.000000E-02            07I   1.000000E+00
-      Mughabghab_2016         Compilation          2016        2.830000E-01   1.800000E-02                  9.433333E-01
+      RIPL-3                  Compilation          2009        3.000000E-01   6.000000E-02            07I       1.000000
+      Mughabghab_2016         Compilation          2016        2.830000E-01   1.800000E-02                      0.943333
+# quantity:
+#   type: Nuclear data library
+#   average value:  3.272230E-01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      TARES                   NDL                  2025        3.272230E-01   0.000000E+00                      1.090743

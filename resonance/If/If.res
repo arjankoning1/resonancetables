@@ -1,11 +1,12 @@
 # header:
 #   title: If resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # reaction:
 #   type: If
+# quantity:
+#   type: resonance data
 # datablock:
-#   quantity: resonance data
 #   columns: 8
 #   entries: 52
 ##       Z              A            Liso           Value         dValue        Reference    #Experiments      Nuclide

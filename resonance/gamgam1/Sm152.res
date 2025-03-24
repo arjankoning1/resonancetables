@@ -1,21 +1,37 @@
 # header:
 #   title: Sm152 gamgam1 resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 62
 #   A: 152
 #   nuclide: Sm152
 # reaction:
 #   type: gamgam1
-# observables:
+# parameters:
 #   selected value [eV]:  4.060000E-02
 #   selected value uncertainty [eV]:  2.400000E-03
 #   selected value source: Mughabghab_2016
+#   number of values: 2
+#   average value [b]:  5.318890E-02
+#   relative standard deviation [%]:      23.668282
+# quantity:
+#   type: Compilation
+#   average value:  4.060000E-02
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: resonance data
 #   columns: 8
 #   entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Mughabghab_2016         Compilation          2016        4.060000E-02   2.400000E-03                  1.000000E+00
+      Mughabghab_2016         Compilation          2016        4.060000E-02   2.400000E-03                      1.000000
+# quantity:
+#   type: Nuclear data library
+#   average value:  6.577780E-02
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      TARES                   NDL                  2025        6.577780E-02   0.000000E+00                      1.620143

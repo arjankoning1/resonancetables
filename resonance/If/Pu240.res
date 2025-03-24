@@ -1,23 +1,38 @@
 # header:
 #   title: Pu240 If resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 94
 #   A: 240
 #   nuclide: Pu240
 # reaction:
 #   type: If
-# observables:
+# parameters:
 #   selected value [eV]:  8.960000E+00
 #   selected value uncertainty [eV]:  2.600000E-01
 #   selected value source: Sukhoruchkin
+#   number of values: 3
+#   average value [b]:  5.040000E+00
+#   relative standard deviation [%]:      55.012463
+# quantity:
+#   type: Compilation
+#   average value:  6.060000E+00
+#   relative standard deviation [%]:      47.854786
 # datablock:
-#   quantity: resonance data
 #   columns: 8
-#   entries: 3
+#   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Eastwood                EXFOR                1958        3.000000E+00   4.000000E+00       12011008   3.348214E-01
-      JUKO                    Compilation          2000        3.160000E+00   0.000000E+00                  3.526786E-01
-      Sukhoruchkin            Compilation          2015        8.960000E+00   2.600000E-01                  1.000000E+00
+      JUKO                    Compilation          2000        3.160000E+00   0.000000E+00                      0.352679
+      Sukhoruchkin            Compilation          2015        8.960000E+00   2.600000E-01                      1.000000
+# quantity:
+#   type: EXFOR
+#   average value:  3.000000E+00
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      Eastwood                EXFOR                1958        3.000000E+00   4.000000E+00       12011008       0.334821

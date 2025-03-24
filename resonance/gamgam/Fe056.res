@@ -1,25 +1,49 @@
 # header:
 #   title: Fe056 gamgam resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 26
 #   A: 56
 #   nuclide: Fe056
 # reaction:
 #   type: gamgam
-# observables:
+# parameters:
 #   selected value [eV]:  9.200000E-01
 #   selected value uncertainty [eV]:  4.100000E-01
 #   selected value source: RIPL-3
+#   number of values: 5
+#   average value [b]:  7.695060E-01
+#   relative standard deviation [%]:      45.960503
+# quantity:
+#   type: Compilation
+#   average value:  9.133334E-01
+#   relative standard deviation [%]:       1.032275
 # datablock:
-#   quantity: resonance data
 #   columns: 8
-#   entries: 5
+#   entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Popov                   EXFOR                1999        6.900000E-02   0.000000E+00       41409003   7.500000E-02
-      RIPL-2                  Compilation          2000        9.200000E-01   4.100000E-01            90P   1.000000E+00
-      RIPL-3                  Compilation          2009        9.200000E-01   4.100000E-01            90P   1.000000E+00
-      Mughabghab_2016         Compilation          2016        9.000000E-01   4.700000E-01                  9.782608E-01
-      TARES                   NDL                  2025        1.038530E+00   0.000000E+00                  1.128837E+00
+      RIPL-2                  Compilation          2000        9.200000E-01   4.100000E-01            90P       1.000000
+      RIPL-3                  Compilation          2009        9.200000E-01   4.100000E-01            90P       1.000000
+      Mughabghab_2016         Compilation          2016        9.000000E-01   4.700000E-01                      0.978261
+# quantity:
+#   type: EXFOR
+#   average value:  6.900000E-02
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      Popov                   EXFOR                1999        6.900000E-02   0.000000E+00       41409003       0.075000
+# quantity:
+#   type: Nuclear data library
+#   average value:  1.038530E+00
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      TARES                   NDL                  2025        1.038530E+00   0.000000E+00                      1.128837

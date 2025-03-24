@@ -1,46 +1,75 @@
 # header:
 #   title: Th232 Ig resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 90
 #   A: 232
 #   nuclide: Th232
 # reaction:
 #   type: Ig
-# observables:
+# parameters:
 #   selected value [eV]:  8.440000E+01
 #   selected value uncertainty [eV]:  3.100000E+00
 #   selected value source: Kayzero
+#   number of values: 31
+#   average value [b]:  8.196610E+01
+#   relative standard deviation [%]:      11.527977
+# quantity:
+#   type: Compilation
+#   average value:  8.383750E+01
+#   relative standard deviation [%]:       0.641466
 # datablock:
-#   quantity: resonance data
 #   columns: 8
-#   entries: 26
+#   entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Macklin                 EXFOR                1956        6.700000E+01   5.000000E+00       12261002   7.938389E-01
-      Myasishcheva            EXFOR                1957        9.600000E+01   6.000000E+00      403570043   1.137441E+00
-      Myasishcheva            EXFOR                1957        6.800000E+01   3.000000E+00      403570042   8.056872E-01
-      Myasishcheva            EXFOR                1957        6.400000E+01   7.000000E+00      403570041   7.582938E-01
-      Myasishcheva            EXFOR                1957        8.800000E+01   5.000000E+00      403570023   1.042654E+00
-      Myasishcheva            EXFOR                1957        6.300000E+01   2.000000E+00      403570022   7.464455E-01
-      Myasishcheva            EXFOR                1957        5.900000E+01   6.000000E+00      403570021   6.990521E-01
-      Tattersall              EXFOR                1960        1.060000E+02   1.000000E+01       20638068   1.255924E+00
-      Johnston                EXFOR                1960        8.500000E+01   8.000000E+00       11739003   1.007109E+00
-      Tiren                   EXFOR                1962        8.300000E+01   6.000000E+00       20622002   9.834123E-01
-      Sampson                 EXFOR                1962        8.000000E+01   5.000000E+00       11655005   9.478673E-01
-      Sampson                 EXFOR                1962        8.300000E+01   5.000000E+00       11655004   9.834123E-01
-      Brose                   EXFOR                1964        8.270000E+01   1.800000E+00       20650002   9.798577E-01
-      Hardyjr                 EXFOR                1965        8.250000E+01   3.000000E+00       12283002   9.774882E-01
-      Foell                   EXFOR                1965        8.120000E+01   3.400000E+00       12266002   9.620852E-01
-      Breitenhuber            EXFOR                1970        8.610000E+01   4.000000E+00      200290052   1.020142E+00
-      Breitenhuber            EXFOR                1970        8.980000E+01   4.000000E+00      200290051   1.063981E+00
-      Steinnes                EXFOR                1972        8.800000E+01   3.000000E+00       20188030   1.042654E+00
-      Alian                   EXFOR                1973        8.600000E+01   0.000000E+00       20644018   1.018957E+00
-      Vanderlinden            EXFOR                1974        7.240000E+01   4.500000E+00       20645062   8.578199E-01
-      Heft                    EXFOR                1978        8.760000E+01   3.800000E+00       12866207   1.037915E+00
-      Kimura                  EXFOR                1989        8.571000E+01   2.939850E+00       23491015   1.015521E+00
-      JUKO                    Compilation          2000        8.330000E+01   1.500000E+00                  9.869668E-01
-      Sukhoruchkin            Compilation          2015        8.435000E+01   0.000000E+00                  9.994075E-01
-      Mughabghab_2016         Compilation          2016        8.330000E+01   1.500000E+00                  9.869668E-01
-      Kayzero                 Compilation          2018        8.440000E+01   3.100000E+00                  1.000000E+00
+      JUKO                    Compilation          2000        8.330000E+01   1.500000E+00                      0.986967
+      Sukhoruchkin            Compilation          2015        8.435000E+01   0.000000E+00                      0.999408
+      Mughabghab_2016         Compilation          2016        8.330000E+01   1.500000E+00                      0.986967
+      Kayzero                 Compilation          2018        8.440000E+01   3.100000E+00                      1.000000
+# quantity:
+#   type: EXFOR
+#   average value:  8.109136E+01
+#   relative standard deviation [%]:      13.682028
+# datablock:
+#   columns: 8
+#   entries: 22
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      Macklin                 EXFOR                1956        6.700000E+01   5.000000E+00       12261002       0.793839
+      Myasishcheva            EXFOR                1957        9.600000E+01   6.000000E+00      403570043       1.137441
+      Myasishcheva            EXFOR                1957        6.800000E+01   3.000000E+00      403570042       0.805687
+      Myasishcheva            EXFOR                1957        6.400000E+01   7.000000E+00      403570041       0.758294
+      Myasishcheva            EXFOR                1957        8.800000E+01   5.000000E+00      403570023       1.042654
+      Myasishcheva            EXFOR                1957        6.300000E+01   2.000000E+00      403570022       0.746445
+      Myasishcheva            EXFOR                1957        5.900000E+01   6.000000E+00      403570021       0.699052
+      Tattersall              EXFOR                1960        1.060000E+02   1.000000E+01       20638068       1.255924
+      Johnston                EXFOR                1960        8.500000E+01   8.000000E+00       11739003       1.007109
+      Tiren                   EXFOR                1962        8.300000E+01   6.000000E+00       20622002       0.983412
+      Sampson                 EXFOR                1962        8.000000E+01   5.000000E+00       11655005       0.947867
+      Sampson                 EXFOR                1962        8.300000E+01   5.000000E+00       11655004       0.983412
+      Brose                   EXFOR                1964        8.270000E+01   1.800000E+00       20650002       0.979858
+      Hardyjr                 EXFOR                1965        8.250000E+01   3.000000E+00       12283002       0.977488
+      Foell                   EXFOR                1965        8.120000E+01   3.400000E+00       12266002       0.962085
+      Breitenhuber            EXFOR                1970        8.610000E+01   4.000000E+00      200290052       1.020142
+      Breitenhuber            EXFOR                1970        8.980000E+01   4.000000E+00      200290051       1.063981
+      Steinnes                EXFOR                1972        8.800000E+01   3.000000E+00       20188030       1.042654
+      Alian                   EXFOR                1973        8.600000E+01   0.000000E+00       20644018       1.018957
+      Vanderlinden            EXFOR                1974        7.240000E+01   4.500000E+00       20645062       0.857820
+      Heft                    EXFOR                1978        8.760000E+01   3.800000E+00       12866207       1.037915
+      Kimura                  EXFOR                1989        8.571000E+01   2.939850E+00       23491015       1.015521
+# quantity:
+#   type: Nuclear data library
+#   average value:  8.431783E+01
+#   relative standard deviation [%]:       0.051081
+# datablock:
+#   columns: 8
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        8.430040E+01   0.000000E+00                      0.998820
+      jendl5.0                NDL                  2021        8.425720E+01   0.000000E+00                      0.998308
+      tendl.2023              NDL                  2023        8.432050E+01   0.000000E+00                      0.999058
+      endfb8.1                NDL                  2024        8.432050E+01   0.000000E+00                      0.999058
+      jeff4.0                 NDL                  2025        8.439050E+01   0.000000E+00                      0.999887

@@ -1,26 +1,50 @@
 # header:
 #   title: Tc099 gamgam resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 43
 #   A: 99
 #   nuclide: Tc099
 # reaction:
 #   type: gamgam
-# observables:
+# parameters:
 #   selected value [eV]:  1.400000E-01
 #   selected value uncertainty [eV]:  1.500000E-02
 #   selected value source: RIPL-3
+#   number of values: 6
+#   average value [b]:  1.511388E-01
+#   relative standard deviation [%]:       8.317818
+# quantity:
+#   type: Compilation
+#   average value:  1.456667E-01
+#   relative standard deviation [%]:       7.008422
 # datablock:
-#   quantity: resonance data
 #   columns: 8
-#   entries: 6
+#   entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Adamchuk                EXFOR                1975        1.740000E-01   8.000000E-03       40245006   1.242857E+00
-      Gunsing                 EXFOR                1997        1.490000E-01   1.043000E-02       22397003   1.064286E+00
-      RIPL-2                  Compilation          2000        1.600000E-01   5.000000E-02            99G   1.142857E+00
-      RIPL-3                  Compilation          2009        1.400000E-01   1.500000E-02            04I   1.000000E+00
-      Mughabghab_2016         Compilation          2016        1.370000E-01   8.000000E-03                  9.785714E-01
-      TARES                   NDL                  2025        1.468330E-01   0.000000E+00                  1.048807E+00
+      RIPL-2                  Compilation          2000        1.600000E-01   5.000000E-02            99G       1.142857
+      RIPL-3                  Compilation          2009        1.400000E-01   1.500000E-02            04I       1.000000
+      Mughabghab_2016         Compilation          2016        1.370000E-01   8.000000E-03                      0.978571
+# quantity:
+#   type: EXFOR
+#   average value:  1.615000E-01
+#   relative standard deviation [%]:       7.739935
+# datablock:
+#   columns: 8
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      Adamchuk                EXFOR                1975        1.740000E-01   8.000000E-03       40245006       1.242857
+      Gunsing                 EXFOR                1997        1.490000E-01   1.043000E-02       22397003       1.064286
+# quantity:
+#   type: Nuclear data library
+#   average value:  1.468330E-01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      TARES                   NDL                  2025        1.468330E-01   0.000000E+00                      1.048807

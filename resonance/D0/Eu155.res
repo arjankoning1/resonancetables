@@ -1,24 +1,48 @@
 # header:
 #   title: Eu155 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 63
 #   A: 155
 #   nuclide: Eu155
 # reaction:
 #   type: D0
-# observables:
+# parameters:
 #   selected value [eV]:  4.300000E+00
 #   selected value uncertainty [eV]:  1.500000E+00
 #   selected value source: RIPL-3
+#   number of values: 4
+#   average value [b]:  4.395207E+00
+#   relative standard deviation [%]:       5.431308
+# quantity:
+#   type: Compilation
+#   average value:  4.300000E+00
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: resonance data
 #   columns: 8
-#   entries: 4
+#   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Anufriev                EXFOR                1979        4.800000E+00   4.000000E-01      404840061   1.116279E+00
-      RIPL-2                  Compilation          2000        4.300000E+00   1.500000E+00            97I   1.000000E+00
-      RIPL-3                  Compilation          2009        4.300000E+00   1.500000E+00            97I   1.000000E+00
-      TARES                   NDL                  2025        4.180830E+00   0.000000E+00                  9.722860E-01
+      RIPL-2                  Compilation          2000        4.300000E+00   1.500000E+00            97I       1.000000
+      RIPL-3                  Compilation          2009        4.300000E+00   1.500000E+00            97I       1.000000
+# quantity:
+#   type: EXFOR
+#   average value:  4.800000E+00
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      V.A.Anufriev            EXFOR                1979        4.800000E+00   4.000000E-01      40484-006       1.116279
+# quantity:
+#   type: Nuclear data library
+#   average value:  4.180830E+00
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      TARES                   NDL                  2025        4.180830E+00   0.000000E+00                      0.972286

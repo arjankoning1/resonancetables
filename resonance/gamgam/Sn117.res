@@ -1,25 +1,49 @@
 # header:
 #   title: Sn117 gamgam resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 50
 #   A: 117
 #   nuclide: Sn117
 # reaction:
 #   type: gamgam
-# observables:
+# parameters:
 #   selected value [eV]:  1.170000E-01
 #   selected value uncertainty [eV]:  2.000000E-02
 #   selected value source: RIPL-3
+#   number of values: 5
+#   average value [b]:  9.898001E-02
+#   relative standard deviation [%]:      15.629440
+# quantity:
+#   type: Compilation
+#   average value:  1.046667E-01
+#   relative standard deviation [%]:      16.664297
 # datablock:
-#   quantity: resonance data
 #   columns: 8
-#   entries: 5
+#   entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Julien                  EXFOR                1969        9.500000E-02   1.500000E-02       20687029   8.119658E-01
-      RIPL-2                  Compilation          2000        8.000001E-02   2.000000E-02            79B   6.837607E-01
-      RIPL-3                  Compilation          2009        1.170000E-01   2.000000E-02            06M   1.000000E+00
-      Mughabghab_2016         Compilation          2016        1.170000E-01   2.000000E-02                  9.999999E-01
-      TARES                   NDL                  2025        8.590000E-02   0.000000E+00                  7.341880E-01
+      RIPL-2                  Compilation          2000        8.000001E-02   2.000000E-02            79B       0.683761
+      RIPL-3                  Compilation          2009        1.170000E-01   2.000000E-02            06M       1.000000
+      Mughabghab_2016         Compilation          2016        1.170000E-01   2.000000E-02                      1.000000
+# quantity:
+#   type: EXFOR
+#   average value:  9.500000E-02
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      Julien                  EXFOR                1969        9.500000E-02   1.500000E-02       20687029       0.811966
+# quantity:
+#   type: Nuclear data library
+#   average value:  8.590000E-02
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      TARES                   NDL                  2025        8.590000E-02   0.000000E+00                      0.734188

@@ -1,34 +1,63 @@
 # header:
 #   title: Sn112 Ig resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 50
 #   A: 112
 #   nuclide: Sn112
 # reaction:
 #   type: Ig
-# observables:
+# parameters:
 #   selected value [eV]:  2.619000E+01
 #   selected value uncertainty [eV]:  4.500000E-01
 #   selected value source: Kayzero
+#   number of values: 19
+#   average value [b]:  3.567094E+01
+#   relative standard deviation [%]:     102.913200
+# quantity:
+#   type: Compilation
+#   average value:  2.814750E+01
+#   relative standard deviation [%]:       5.193854
 # datablock:
-#   quantity: resonance data
 #   columns: 8
-#   entries: 14
+#   entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Lyon                    EXFOR                1967        2.400000E+01   0.000000E+00       12608003   9.163803E-01
-      Vanderlinden            EXFOR                1972        4.200000E+01   2.100000E+00      206430561   1.603665E+00
-      Ricabarra               EXFOR                1973        2.100000E+01   4.000000E+00       31477003   8.018327E-01
-      Maenhaut                EXFOR                1973        2.540000E+01   0.000000E+00       20731003   9.698358E-01
-      Sage                    EXFOR                1976        1.890000E+02   8.550000E+01       10637013   7.216495E+00
-      Heft                    EXFOR                1978        2.870000E+01   1.500000E+00       12866101   1.095838E+00
-      Anufriev                EXFOR                1987        3.100000E+01   6.000000E+00       40957005   1.183658E+00
-      JUKO                    Compilation          2000        2.900000E+01   2.000000E+00                  1.107293E+00
-      Krane                   EXFOR                2006        7.400000E+00   6.000000E-01       14107012   2.825506E-01
-      Krane                   EXFOR                2006        2.000000E+01   1.600000E+00       14107011   7.636502E-01
-      Krane                   EXFOR                2006        2.590000E+01   2.100000E+00       14107010   9.889271E-01
-      Sukhoruchkin            Compilation          2015        3.000000E+01   2.000000E+00                  1.145475E+00
-      Mughabghab_2016         Compilation          2016        2.740000E+01   1.700000E+00                  1.046201E+00
-      Kayzero                 Compilation          2018        2.619000E+01   4.500000E-01                  1.000000E+00
+      JUKO                    Compilation          2000        2.900000E+01   2.000000E+00                      1.107293
+      Sukhoruchkin            Compilation          2015        3.000000E+01   2.000000E+00                      1.145475
+      Mughabghab_2016         Compilation          2016        2.740000E+01   1.700000E+00                      1.046201
+      Kayzero                 Compilation          2018        2.619000E+01   4.500000E-01                      1.000000
+# quantity:
+#   type: EXFOR
+#   average value:  4.144000E+01
+#   relative standard deviation [%]:     120.377769
+# datablock:
+#   columns: 8
+#   entries: 10
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      Lyon                    EXFOR                1967        2.400000E+01   0.000000E+00       12608003       0.916380
+      Vanderlinden            EXFOR                1972        4.200000E+01   2.100000E+00      206430561       1.603665
+      Ricabarra               EXFOR                1973        2.100000E+01   4.000000E+00       31477003       0.801833
+      Maenhaut                EXFOR                1973        2.540000E+01   0.000000E+00       20731003       0.969836
+      Sage                    EXFOR                1976        1.890000E+02   8.550000E+01       10637013       7.216495
+      Heft                    EXFOR                1978        2.870000E+01   1.500000E+00       12866101       1.095838
+      Anufriev                EXFOR                1987        3.100000E+01   6.000000E+00       40957005       1.183658
+      Krane                   EXFOR                2006        7.400000E+00   6.000000E-01       14107012       0.282551
+      Krane                   EXFOR                2006        2.000000E+01   1.600000E+00       14107011       0.763650
+      Krane                   EXFOR                2006        2.590000E+01   2.100000E+00       14107010       0.988927
+# quantity:
+#   type: Nuclear data library
+#   average value:  3.015160E+01
+#   relative standard deviation [%]:       0.721781
+# datablock:
+#   columns: 8
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        3.039870E+01   0.000000E+00                      1.160699
+      jendl5.0                NDL                  2021        3.039570E+01   0.000000E+00                      1.160584
+      tendl.2023              NDL                  2023        3.011980E+01   0.000000E+00                      1.150050
+      endfb8.1                NDL                  2024        2.985250E+01   0.000000E+00                      1.139843
+      jeff4.0                 NDL                  2025        2.999130E+01   0.000000E+00                      1.145143

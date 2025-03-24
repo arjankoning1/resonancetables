@@ -1,22 +1,37 @@
 # header:
 #   title: Si030 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 14
 #   A: 30
 #   nuclide: Si030
 # reaction:
 #   type: D0
-# observables:
+# parameters:
 #   selected value [eV]:  2.250000E+05
 #   selected value uncertainty [eV]:  3.000000E+04
 #   selected value source: RIPL-3
+#   number of values: 2
+#   average value [b]:  8.625000E+05
+#   relative standard deviation [%]:      73.913040
+# quantity:
+#   type: Compilation
+#   average value:  2.250000E+05
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: resonance data
 #   columns: 8
-#   entries: 2
+#   entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-3                  Compilation          2009        2.250000E+05   3.000000E+04           *07I   1.000000E+00
-      TARES                   NDL                  2025        1.500000E+06   0.000000E+00                  6.666667E+00
+      RIPL-3                  Compilation          2009        2.250000E+05   3.000000E+04           *07I       1.000000
+# quantity:
+#   type: Nuclear data library
+#   average value:  1.500000E+06
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      TARES                   NDL                  2025        1.500000E+06   0.000000E+00                      6.666667

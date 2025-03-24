@@ -1,27 +1,52 @@
 # header:
 #   title: Pu240 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 94
 #   A: 240
 #   nuclide: Pu240
 # reaction:
 #   type: D0
-# observables:
+# parameters:
 #   selected value [eV]:  1.300000E+01
 #   selected value uncertainty [eV]:  5.000000E-01
 #   selected value source: RIPL-3
+#   number of values: 8
+#   average value [b]:  8.003111E+01
+#   relative standard deviation [%]:     221.955429
+# quantity:
+#   type: Compilation
+#   average value:  1.273333E+01
+#   relative standard deviation [%]:       1.958981
 # datablock:
-#   quantity: resonance data
 #   columns: 8
-#   entries: 7
+#   entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Simpson                 EXFOR                1957        1.200000E+01   2.000000E+00      125260042   9.230769E-01
-      Kolar                   EXFOR                1968        1.470000E+01   8.000000E-01       20117008   1.130769E+00
-      Budtzjorgensen          EXFOR                1981        5.500000E+02   7.500000E+01       21764005   4.230769E+01
-      RIPL-2                  Compilation          2000        1.240000E+01   7.000000E-01            97I   9.538462E-01
-      RIPL-3                  Compilation          2009        1.300000E+01   5.000000E-01            04I   1.000000E+00
-      Mughabghab_2016         Compilation          2016        1.280000E+01   6.000000E-01                  9.846154E-01
-      TARES                   NDL                  2025        1.334890E+01   0.000000E+00                  1.026838E+00
+      RIPL-2                  Compilation          2000        1.240000E+01   7.000000E-01            97I       0.953846
+      RIPL-3                  Compilation          2009        1.300000E+01   5.000000E-01            04I       1.000000
+      Mughabghab_2016         Compilation          2016        1.280000E+01   6.000000E-01                      0.984615
+# quantity:
+#   type: EXFOR
+#   average value:  1.471750E+02
+#   relative standard deviation [%]:     158.025299
+# datablock:
+#   columns: 8
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      O.D.Simpson             EXFOR                1957        1.200000E+01   2.000000E+00      12526-004       0.923077
+      W.Kolar                 EXFOR                1968        1.470000E+01   8.000000E-01      20117-008       1.130769
+      C.Budtz-Jorgensen       EXFOR                1981        5.500000E+02   7.500000E+01      21764-005      42.307693
+      C.Guerrero              EXFOR                2012        1.200000E+01   0.000000E+00      23069-009       0.923077
+# quantity:
+#   type: Nuclear data library
+#   average value:  1.334890E+01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      TARES                   NDL                  2025        1.334890E+01   0.000000E+00                      1.026838

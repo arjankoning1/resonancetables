@@ -1,22 +1,48 @@
 # header:
 #   title: Ni060 D1 resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 28
 #   A: 60
 #   nuclide: Ni060
 # reaction:
 #   type: D1
-# observables:
+# parameters:
 #   selected value [eV]:  3.850000E+03
 #   selected value uncertainty [eV]:  3.100000E+02
 #   selected value source: RIPL-3
+#   number of values: 4
+#   average value [b]:  4.043565E+03
+#   relative standard deviation [%]:      11.011491
+# quantity:
+#   type: Compilation
+#   average value:  4.155000E+03
+#   relative standard deviation [%]:       7.340554
 # datablock:
-#   quantity: resonance data
 #   columns: 8
 #   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-2                  Compilation          2000        4.460000E+03   4.100000E+02            94B   1.158442E+00
-      RIPL-3                  Compilation          2009        3.850000E+03   3.100000E+02            08L   1.000000E+00
+      RIPL-2                  Compilation          2000        4.460000E+03   4.100000E+02            94B       1.158442
+      RIPL-3                  Compilation          2009        3.850000E+03   3.100000E+02            08L       1.000000
+# quantity:
+#   type: EXFOR
+#   average value:  4.460000E+03
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      A.Brusegan              EXFOR                1994        4.460000E+03   3.100000E+02      22314-003       1.158442
+# quantity:
+#   type: Nuclear data library
+#   average value:  3.404260E+03
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      TARES                   NDL                  2025        3.404260E+03   0.000000E+00                      0.884223

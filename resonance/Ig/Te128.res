@@ -1,28 +1,56 @@
 # header:
 #   title: Te128 Ig resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 52
 #   A: 128
 #   nuclide: Te128
 # reaction:
 #   type: Ig
-# observables:
+# parameters:
 #   selected value [eV]:  1.350000E+00
 #   selected value uncertainty [eV]:  9.000000E-02
 #   selected value source: Sukhoruchkin
+#   number of values: 12
+#   average value [b]:  1.149858E+00
+#   relative standard deviation [%]:      40.649277
+# quantity:
+#   type: Compilation
+#   average value:  1.295000E+00
+#   relative standard deviation [%]:       4.247105
 # datablock:
-#   quantity: resonance data
 #   columns: 8
-#   entries: 8
+#   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Maxia                   EXFOR                1969        1.480000E+00   1.300000E-01       21258005   1.096296E+00
-      Maxia                   EXFOR                1969        7.740000E-02   5.200000E-03       21258003   5.733333E-02
-      Browne                  EXFOR                1973        1.098000E+00   1.050000E-01       10340004   8.133333E-01
-      Vanderlinden            EXFOR                1974        1.590000E+00   6.000000E-02       20645005   1.177778E+00
-      Alpatov                 EXFOR                1995        2.070000E-01   1.200000E-02       41168009   1.533333E-01
-      JUKO                    Compilation          2000        1.240000E+00   0.000000E+00                  9.185185E-01
-      Eastman                 EXFOR                2008        1.490000E+00   7.000000E-02       14165018   1.103704E+00
-      Sukhoruchkin            Compilation          2015        1.350000E+00   9.000000E-02                  1.000000E+00
+      JUKO                    Compilation          2000        1.240000E+00   0.000000E+00                      0.918518
+      Sukhoruchkin            Compilation          2015        1.350000E+00   9.000000E-02                      1.000000
+# quantity:
+#   type: EXFOR
+#   average value:  9.904000E-01
+#   relative standard deviation [%]:      62.618488
+# datablock:
+#   columns: 8
+#   entries: 6
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      Maxia                   EXFOR                1969        1.480000E+00   1.300000E-01       21258005       1.096296
+      Maxia                   EXFOR                1969        7.740000E-02   5.200000E-03       21258003       0.057333
+      Browne                  EXFOR                1973        1.098000E+00   1.050000E-01       10340004       0.813333
+      Vanderlinden            EXFOR                1974        1.590000E+00   6.000000E-02       20645005       1.177778
+      Alpatov                 EXFOR                1995        2.070000E-01   1.200000E-02       41168009       0.153333
+      Eastman                 EXFOR                2008        1.490000E+00   7.000000E-02       14165018       1.103704
+# quantity:
+#   type: Nuclear data library
+#   average value:  1.316473E+00
+#   relative standard deviation [%]:       1.771315
+# datablock:
+#   columns: 8
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        1.281810E+00   0.000000E+00                      0.949489
+      tendl.2023              NDL                  2023        1.329640E+00   0.000000E+00                      0.984919
+      endfb8.1                NDL                  2024        1.344090E+00   0.000000E+00                      0.995622
+      jeff4.0                 NDL                  2025        1.310350E+00   0.000000E+00                      0.970630

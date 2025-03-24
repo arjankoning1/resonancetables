@@ -1,22 +1,28 @@
 # header:
 #   title: Br000 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 35
 #   A: 0
 #   nuclide: Br000
 # reaction:
 #   type: D0
-# observables:
+# parameters:
 #   selected value [eV]:  5.100000E+02
 #   selected value uncertainty [eV]:  8.000000E+01
-#   selected value source: Kapchigashev
+#   selected value source: S.P.Kapchigashev
+#   number of values: 2
+#   average value [b]:  2.750000E+02
+#   relative standard deviation [%]:      85.454544
+# quantity:
+#   type: EXFOR
+#   average value:  2.750000E+02
+#   relative standard deviation [%]:      85.454544
 # datablock:
-#   quantity: resonance data
 #   columns: 8
 #   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Gibbons                 EXFOR                1961        4.000000E+01   0.000000E+00      113290812   7.843138E-02
-      Kapchigashev            EXFOR                1966        5.100000E+02   8.000000E+01       40778010   1.000000E+00
+      J.H.Gibbons             EXFOR                1961        4.000000E+01   0.000000E+00      11329-081       0.078431
+      S.P.Kapchigashev        EXFOR                1966        5.100000E+02   8.000000E+01      40778-010       1.000000

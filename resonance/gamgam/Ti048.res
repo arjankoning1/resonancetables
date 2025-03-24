@@ -1,24 +1,39 @@
 # header:
 #   title: Ti048 gamgam resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 22
 #   A: 48
 #   nuclide: Ti048
 # reaction:
 #   type: gamgam
-# observables:
+# parameters:
 #   selected value [eV]:  2.300000E+00
 #   selected value uncertainty [eV]:  1.400000E-01
 #   selected value source: RIPL-3
+#   number of values: 4
+#   average value [b]:  1.860317E+00
+#   relative standard deviation [%]:      23.647823
+# quantity:
+#   type: Compilation
+#   average value:  2.000000E+00
+#   relative standard deviation [%]:      21.213203
 # datablock:
-#   quantity: resonance data
 #   columns: 8
-#   entries: 4
+#   entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-2                  Compilation          2000        1.400000E+00   4.000000E-01            88V   6.086956E-01
-      RIPL-3                  Compilation          2009        2.300000E+00   1.400000E-01            06M   1.000000E+00
-      Mughabghab_2016         Compilation          2016        2.300000E+00   1.400000E+00                  9.999999E-01
-      TARES                   NDL                  2025        1.441270E+00   0.000000E+00                  6.266391E-01
+      RIPL-2                  Compilation          2000        1.400000E+00   4.000000E-01            88V       0.608696
+      RIPL-3                  Compilation          2009        2.300000E+00   1.400000E-01            06M       1.000000
+      Mughabghab_2016         Compilation          2016        2.300000E+00   1.400000E+00                      1.000000
+# quantity:
+#   type: Nuclear data library
+#   average value:  1.441270E+00
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      TARES                   NDL                  2025        1.441270E+00   0.000000E+00                      0.626639

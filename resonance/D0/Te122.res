@@ -1,26 +1,50 @@
 # header:
 #   title: Te122 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 52
 #   A: 122
 #   nuclide: Te122
 # reaction:
 #   type: D0
-# observables:
+# parameters:
 #   selected value [eV]:  1.460000E+02
 #   selected value uncertainty [eV]:  1.400000E+01
 #   selected value source: RIPL-3
+#   number of values: 6
+#   average value [b]:  1.599820E+02
+#   relative standard deviation [%]:      33.092934
+# quantity:
+#   type: Compilation
+#   average value:  1.365667E+02
+#   relative standard deviation [%]:       4.885159
 # datablock:
-#   quantity: resonance data
 #   columns: 8
-#   entries: 6
+#   entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Danelyan                EXFOR                1963        1.400000E+02   0.000000E+00       41270005   9.589041E-01
-      Tellier                 EXFOR                1970        1.324000E+02   0.000000E+00       20120013   9.068493E-01
-      RIPL-2                  Compilation          2000        1.320000E+02   1.500000E+01            81M   9.041096E-01
-      RIPL-3                  Compilation          2009        1.460000E+02   1.400000E+01            06M   1.000000E+00
-      Mughabghab_2016         Compilation          2016        1.317000E+02   1.350000E+01                  9.020548E-01
-      TARES                   NDL                  2025        2.777920E+02   0.000000E+00                  1.902685E+00
+      RIPL-2                  Compilation          2000        1.320000E+02   1.500000E+01            81M       0.904110
+      RIPL-3                  Compilation          2009        1.460000E+02   1.400000E+01            06M       1.000000
+      Mughabghab_2016         Compilation          2016        1.317000E+02   1.350000E+01                      0.902055
+# quantity:
+#   type: EXFOR
+#   average value:  1.362000E+02
+#   relative standard deviation [%]:       2.790017
+# datablock:
+#   columns: 8
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      L.S.Danelyan            EXFOR                1963        1.400000E+02   0.000000E+00      41270-005       0.958904
+      H.Tellier               EXFOR                1970        1.324000E+02   0.000000E+00      20120-013       0.906849
+# quantity:
+#   type: Nuclear data library
+#   average value:  2.777920E+02
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      TARES                   NDL                  2025        2.777920E+02   0.000000E+00                      1.902685

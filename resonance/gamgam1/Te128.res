@@ -1,22 +1,38 @@
 # header:
 #   title: Te128 gamgam1 resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 52
 #   A: 128
 #   nuclide: Te128
 # reaction:
 #   type: gamgam1
-# observables:
+# parameters:
 #   selected value [eV]:  8.400001E-02
 #   selected value uncertainty [eV]:  1.500000E-02
 #   selected value source: RIPL-3
+#   number of values: 3
+#   average value [b]:  7.093643E-02
+#   relative standard deviation [%]:      19.487225
+# quantity:
+#   type: Compilation
+#   average value:  8.050001E-02
+#   relative standard deviation [%]:       4.347830
 # datablock:
-#   quantity: resonance data
 #   columns: 8
 #   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-3                  Compilation          2009        8.400001E-02   1.500000E-02            07I   1.000000E+00
-      Mughabghab_2016         Compilation          2016        7.700000E-02   5.000000E-03                  9.166666E-01
+      RIPL-3                  Compilation          2009        8.400001E-02   1.500000E-02            07I       1.000000
+      Mughabghab_2016         Compilation          2016        7.700000E-02   5.000000E-03                      0.916667
+# quantity:
+#   type: Nuclear data library
+#   average value:  5.180930E-02
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      TARES                   NDL                  2025        5.180930E-02   0.000000E+00                      0.616777

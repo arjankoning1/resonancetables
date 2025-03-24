@@ -1,27 +1,51 @@
 # header:
 #   title: Ru101 gamgam resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 44
 #   A: 101
 #   nuclide: Ru101
 # reaction:
 #   type: gamgam
-# observables:
+# parameters:
 #   selected value [eV]:  1.800000E-01
 #   selected value uncertainty [eV]:  1.500000E-02
 #   selected value source: RIPL-3
+#   number of values: 7
+#   average value [b]:  1.808961E-01
+#   relative standard deviation [%]:       3.288553
+# quantity:
+#   type: Compilation
+#   average value:  1.810000E-01
+#   relative standard deviation [%]:       0.781331
 # datablock:
-#   quantity: resonance data
 #   columns: 8
-#   entries: 7
+#   entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Priesmeyer              EXFOR                1972        1.790000E-01   1.900000E-02       20507015   9.944444E-01
-      Hockenbury              EXFOR                1975        1.940000E-01   0.000000E+00      105520121   1.077778E+00
-      Popov                   EXFOR                1979        1.750000E-01   0.000000E+00      405910072   9.722221E-01
-      RIPL-2                  Compilation          2000        1.800000E-01   1.500000E-02            96I   1.000000E+00
-      RIPL-3                  Compilation          2009        1.800000E-01   1.500000E-02            96I   1.000000E+00
-      Mughabghab_2016         Compilation          2016        1.830000E-01   1.500000E-02                  1.016667E+00
-      TARES                   NDL                  2025        1.752730E-01   0.000000E+00                  9.737388E-01
+      RIPL-2                  Compilation          2000        1.800000E-01   1.500000E-02            96I       1.000000
+      RIPL-3                  Compilation          2009        1.800000E-01   1.500000E-02            96I       1.000000
+      Mughabghab_2016         Compilation          2016        1.830000E-01   1.500000E-02                      1.016667
+# quantity:
+#   type: EXFOR
+#   average value:  1.826667E-01
+#   relative standard deviation [%]:       4.477317
+# datablock:
+#   columns: 8
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      Priesmeyer              EXFOR                1972        1.790000E-01   1.900000E-02       20507015       0.994444
+      Hockenbury              EXFOR                1975        1.940000E-01   0.000000E+00      105520121       1.077778
+      Popov                   EXFOR                1979        1.750000E-01   0.000000E+00      405910072       0.972222
+# quantity:
+#   type: Nuclear data library
+#   average value:  1.752730E-01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      TARES                   NDL                  2025        1.752730E-01   0.000000E+00                      0.973739

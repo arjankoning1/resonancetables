@@ -1,24 +1,39 @@
 # header:
 #   title: Hf180 S0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 72
 #   A: 180
 #   nuclide: Hf180
 # reaction:
 #   type: S0
-# observables:
-#   selected value [eV]:  1.900000E+00
-#   selected value uncertainty [eV]:  6.000000E-01
+# parameters:
+#   selected value [*e-4]:  1.900000E+00
+#   selected value uncertainty [*e-4]:  6.000000E-01
 #   selected value source: RIPL-3
+#   number of values: 4
+#   average value [b]:  1.778777E+00
+#   relative standard deviation [%]:      12.796082
+# quantity:
+#   type: Compilation
+#   average value:  1.910000E+00
+#   relative standard deviation [%]:       0.740425
 # datablock:
-#   quantity: resonance data
 #   columns: 8
-#   entries: 4
+#   entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []           [*e-4]         [*e-4]           []             []
-      RIPL-2                  Compilation          2000        1.900000E+00   6.000000E-01            97I   1.000000E+00
-      RIPL-3                  Compilation          2009        1.900000E+00   6.000000E-01            97I   1.000000E+00
-      Mughabghab_2016         Compilation          2016        1.930000E+00   4.000000E-01                  1.015790E+00
-      TARES                   NDL                  2025        1.385110E+00   0.000000E+00                  7.290052E-01
+      RIPL-2                  Compilation          2000        1.900000E+00   6.000000E-01            97I       1.000000
+      RIPL-3                  Compilation          2009        1.900000E+00   6.000000E-01            97I       1.000000
+      Mughabghab_2016         Compilation          2016        1.930000E+00   4.000000E-01                      1.015790
+# quantity:
+#   type: Nuclear data library
+#   average value:  1.385110E+00
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []           [*e-4]         [*e-4]           []             []
+      TARES                   NDL                  2025        1.385110E+00   0.000000E+00                      0.729005

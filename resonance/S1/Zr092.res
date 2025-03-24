@@ -1,23 +1,39 @@
 # header:
 #   title: Zr092 S1 resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 40
 #   A: 92
 #   nuclide: Zr092
 # reaction:
 #   type: S1
-# observables:
-#   selected value [eV]:  6.400000E+00
-#   selected value uncertainty [eV]:  1.500000E+00
+# parameters:
+#   selected value [*e-4]:  6.400000E+00
+#   selected value uncertainty [*e-4]:  1.500000E+00
 #   selected value source: RIPL-3
+#   number of values: 4
+#   average value [b]:  6.548842E+00
+#   relative standard deviation [%]:       3.977539
+# quantity:
+#   type: Compilation
+#   average value:  6.600000E+00
+#   relative standard deviation [%]:       4.285495
 # datablock:
-#   quantity: resonance data
 #   columns: 8
 #   entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []           [*e-4]         [*e-4]           []             []
-      RIPL-2                  Compilation          2000        6.400000E+00   1.500000E+00            96I   1.000000E+00
-      RIPL-3                  Compilation          2009        6.400000E+00   1.500000E+00            96I   1.000000E+00
-      Mughabghab_2016         Compilation          2016        7.000000E+00   1.300000E+00                  1.093750E+00
+      RIPL-2                  Compilation          2000        6.400000E+00   1.500000E+00            96I       1.000000
+      RIPL-3                  Compilation          2009        6.400000E+00   1.500000E+00            96I       1.000000
+      Mughabghab_2016         Compilation          2016        7.000000E+00   1.300000E+00                      1.093750
+# quantity:
+#   type: Nuclear data library
+#   average value:  6.395370E+00
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []           [*e-4]         [*e-4]           []             []
+      TARES                   NDL                  2025        6.395370E+00   0.000000E+00                      0.999277

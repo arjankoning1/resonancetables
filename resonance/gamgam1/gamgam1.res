@@ -1,11 +1,12 @@
 # header:
 #   title: gamgam1 resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # reaction:
 #   type: gamgam1
+# quantity:
+#   type: resonance data
 # datablock:
-#   quantity: resonance data
 #   columns: 8
 #   entries: 207
 ##       Z              A            Liso           Value         dValue        Reference    #Experiments      Nuclide

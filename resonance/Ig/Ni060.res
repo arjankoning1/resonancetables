@@ -1,22 +1,42 @@
 # header:
 #   title: Ni060 Ig resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 28
 #   A: 60
 #   nuclide: Ni060
 # reaction:
 #   type: Ig
-# observables:
+# parameters:
 #   selected value [eV]:  1.260000E+00
 #   selected value uncertainty [eV]:  1.600000E-01
 #   selected value source: Sukhoruchkin
+#   number of values: 7
+#   average value [b]:  1.290838E+00
+#   relative standard deviation [%]:       5.394118
+# quantity:
+#   type: Compilation
+#   average value:  1.330000E+00
+#   relative standard deviation [%]:       5.263157
 # datablock:
-#   quantity: resonance data
 #   columns: 8
 #   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      JUKO                    Compilation          2000        1.400000E+00   2.000000E-01                  1.111111E+00
-      Sukhoruchkin            Compilation          2015        1.260000E+00   1.600000E-01                  1.000000E+00
+      JUKO                    Compilation          2000        1.400000E+00   2.000000E-01                      1.111111
+      Sukhoruchkin            Compilation          2015        1.260000E+00   1.600000E-01                      1.000000
+# quantity:
+#   type: Nuclear data library
+#   average value:  1.275174E+00
+#   relative standard deviation [%]:       4.940329
+# datablock:
+#   columns: 8
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        1.398720E+00   0.000000E+00                      1.110095
+      jendl5.0                NDL                  2021        1.258540E+00   0.000000E+00                      0.998841
+      tendl.2023              NDL                  2023        1.230470E+00   0.000000E+00                      0.976563
+      endfb8.1                NDL                  2024        1.257670E+00   0.000000E+00                      0.998151
+      jeff4.0                 NDL                  2025        1.230470E+00   0.000000E+00                      0.976563

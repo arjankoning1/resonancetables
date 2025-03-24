@@ -1,24 +1,39 @@
 # header:
 #   title: Th229 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 90
 #   A: 229
 #   nuclide: Th229
 # reaction:
 #   type: D0
-# observables:
+# parameters:
 #   selected value [eV]:  6.200000E-01
 #   selected value uncertainty [eV]:  1.200000E-01
 #   selected value source: RIPL-3
+#   number of values: 4
+#   average value [b]:  7.176775E-01
+#   relative standard deviation [%]:      31.236242
+# quantity:
+#   type: Compilation
+#   average value:  5.900000E-01
+#   relative standard deviation [%]:       7.190920
 # datablock:
-#   quantity: resonance data
 #   columns: 8
-#   entries: 4
+#   entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-2                  Compilation          2000        6.200000E-01   1.200000E-01            97I   1.000000E+00
-      RIPL-3                  Compilation          2009        6.200000E-01   1.200000E-01            97I   1.000000E+00
-      Mughabghab_2016         Compilation          2016        5.300000E-01   1.500000E-01                  8.548387E-01
-      TARES                   NDL                  2025        1.100710E+00   0.000000E+00                  1.775339E+00
+      RIPL-2                  Compilation          2000        6.200000E-01   1.200000E-01            97I       1.000000
+      RIPL-3                  Compilation          2009        6.200000E-01   1.200000E-01            97I       1.000000
+      Mughabghab_2016         Compilation          2016        5.300000E-01   1.500000E-01                      0.854839
+# quantity:
+#   type: Nuclear data library
+#   average value:  1.100710E+00
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      TARES                   NDL                  2025        1.100710E+00   0.000000E+00                      1.775339

@@ -1,22 +1,38 @@
 # header:
 #   title: Sn116 D1 resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 50
 #   A: 116
 #   nuclide: Sn116
 # reaction:
 #   type: D1
-# observables:
+# parameters:
 #   selected value [eV]:  1.550000E+03
 #   selected value uncertainty [eV]:  6.000000E+00
 #   selected value source: RIPL-3
+#   number of values: 3
+#   average value [b]:  6.244933E+02
+#   relative standard deviation [%]:     104.797783
+# quantity:
+#   type: Compilation
+#   average value:  8.525000E+02
+#   relative standard deviation [%]:      81.818184
 # datablock:
-#   quantity: resonance data
 #   columns: 8
 #   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-3                  Compilation          2009        1.550000E+03   6.000000E+00            06M   1.000000E+00
-      Mughabghab_2016         Compilation          2016        1.550000E+02   6.000000E+00                  1.000000E-01
+      RIPL-3                  Compilation          2009        1.550000E+03   6.000000E+00            06M       1.000000
+      Mughabghab_2016         Compilation          2016        1.550000E+02   6.000000E+00                      0.100000
+# quantity:
+#   type: Nuclear data library
+#   average value:  1.684800E+02
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      TARES                   NDL                  2025        1.684800E+02   0.000000E+00                      0.108697

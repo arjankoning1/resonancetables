@@ -1,24 +1,52 @@
 # header:
 #   title: Cm247 Ig resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 96
 #   A: 247
 #   nuclide: Cm247
 # reaction:
 #   type: Ig
-# observables:
+# parameters:
 #   selected value [eV]:  5.300000E+02
 #   selected value uncertainty [eV]:  3.000000E+01
 #   selected value source: Mughabghab_2016
+#   number of values: 8
+#   average value [b]:  5.521672E+02
+#   relative standard deviation [%]:      16.043064
+# quantity:
+#   type: Compilation
+#   average value:  5.976667E+02
+#   relative standard deviation [%]:      19.294205
 # datablock:
-#   quantity: resonance data
+#   columns: 8
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      JUKO                    Compilation          2000        7.600000E+02   5.000000E+01                      1.433962
+      Sukhoruchkin            Compilation          2015        5.030000E+02   1.100000E+01                      0.949057
+      Mughabghab_2016         Compilation          2016        5.300000E+02   3.000000E+01                      1.000000
+# quantity:
+#   type: EXFOR
+#   average value:  4.900000E+02
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      Gavrilov                EXFOR                1978        4.900000E+02   0.000000E+00       40486011       0.924528
+# quantity:
+#   type: Nuclear data library
+#   average value:  5.335845E+02
+#   relative standard deviation [%]:      10.017533
+# datablock:
 #   columns: 8
 #   entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Gavrilov                EXFOR                1978        4.900000E+02   0.000000E+00       40486011   9.245283E-01
-      JUKO                    Compilation          2000        7.600000E+02   5.000000E+01                  1.433962E+00
-      Sukhoruchkin            Compilation          2015        5.030000E+02   1.100000E+01                  9.490566E-01
-      Mughabghab_2016         Compilation          2016        5.300000E+02   3.000000E+01                  1.000000E+00
+      jendl5.0                NDL                  2021        5.025080E+02   0.000000E+00                      0.948128
+      tendl.2023              NDL                  2023        6.261650E+02   0.000000E+00                      1.181443
+      endfb8.1                NDL                  2024        5.025150E+02   0.000000E+00                      0.948142
+      jeff4.0                 NDL                  2025        5.031500E+02   0.000000E+00                      0.949340

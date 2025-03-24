@@ -1,26 +1,55 @@
 # header:
 #   title: Gd152 Ig resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 64
 #   A: 152
 #   nuclide: Gd152
 # reaction:
 #   type: Ig
-# observables:
+# parameters:
 #   selected value [eV]:  5.840000E+02
 #   selected value uncertainty [eV]:  9.400000E+01
 #   selected value source: Kayzero
+#   number of values: 11
+#   average value [b]:  1.108057E+03
+#   relative standard deviation [%]:      73.301178
+# quantity:
+#   type: Compilation
+#   average value:  8.970000E+02
+#   relative standard deviation [%]:      72.606628
 # datablock:
-#   quantity: resonance data
 #   columns: 8
-#   entries: 6
+#   entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Steinnes                EXFOR                1972        3.000000E+03   3.000000E+02       20188021   5.136986E+00
-      Heft                    EXFOR                1978        2.020000E+03   8.000000E+01       12866153   3.458904E+00
-      JUKO                    Compilation          2000        2.020000E+03   1.600000E+02                  3.458904E+00
-      Sukhoruchkin            Compilation          2015        5.610000E+02   3.140000E+02                  9.606164E-01
-      Mughabghab_2016         Compilation          2016        4.230000E+02   2.800000E+01                  7.243150E-01
-      Kayzero                 Compilation          2018        5.840000E+02   9.400000E+01                  1.000000E+00
+      JUKO                    Compilation          2000        2.020000E+03   1.600000E+02                      3.458904
+      Sukhoruchkin            Compilation          2015        5.610000E+02   3.140000E+02                      0.960616
+      Mughabghab_2016         Compilation          2016        4.230000E+02   2.800000E+01                      0.724315
+      Kayzero                 Compilation          2018        5.840000E+02   9.400000E+01                      1.000000
+# quantity:
+#   type: EXFOR
+#   average value:  2.510000E+03
+#   relative standard deviation [%]:      19.521912
+# datablock:
+#   columns: 8
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      Steinnes                EXFOR                1972        3.000000E+03   3.000000E+02       20188021       5.136986
+      Heft                    EXFOR                1978        2.020000E+03   8.000000E+01       12866153       3.458904
+# quantity:
+#   type: Nuclear data library
+#   average value:  7.161266E+02
+#   relative standard deviation [%]:      28.116867
+# datablock:
+#   columns: 8
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        9.889910E+02   0.000000E+00                      1.693478
+      jendl5.0                NDL                  2021        9.345510E+02   0.000000E+00                      1.600259
+      tendl.2023              NDL                  2023        5.476980E+02   0.000000E+00                      0.937839
+      endfb8.1                NDL                  2024        5.602700E+02   0.000000E+00                      0.959367
+      jeff4.0                 NDL                  2025        5.491230E+02   0.000000E+00                      0.940279

@@ -1,25 +1,49 @@
 # header:
 #   title: Dy164 gamgam resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 66
 #   A: 164
 #   nuclide: Dy164
 # reaction:
 #   type: gamgam
-# observables:
+# parameters:
 #   selected value [eV]:  1.140000E-01
 #   selected value uncertainty [eV]:  1.400000E-02
 #   selected value source: RIPL-3
+#   number of values: 5
+#   average value [b]:  9.920000E-02
+#   relative standard deviation [%]:      23.035105
+# quantity:
+#   type: Compilation
+#   average value:  1.090000E-01
+#   relative standard deviation [%]:       6.487221
 # datablock:
-#   quantity: resonance data
 #   columns: 8
-#   entries: 5
+#   entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Mughabghab              EXFOR                1970        5.500000E-02   3.000000E-03       10052031   4.824561E-01
-      RIPL-2                  Compilation          2000        1.140000E-01   1.400000E-02            96I   1.000000E+00
-      RIPL-3                  Compilation          2009        1.140000E-01   1.400000E-02            96I   1.000000E+00
-      Mughabghab_2016         Compilation          2016        9.900000E-02   3.000000E-03                  8.684210E-01
-      TARES                   NDL                  2025        1.140000E-01   0.000000E+00                  9.999999E-01
+      RIPL-2                  Compilation          2000        1.140000E-01   1.400000E-02            96I       1.000000
+      RIPL-3                  Compilation          2009        1.140000E-01   1.400000E-02            96I       1.000000
+      Mughabghab_2016         Compilation          2016        9.900000E-02   3.000000E-03                      0.868421
+# quantity:
+#   type: EXFOR
+#   average value:  5.500000E-02
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      Mughabghab              EXFOR                1970        5.500000E-02   3.000000E-03       10052031       0.482456
+# quantity:
+#   type: Nuclear data library
+#   average value:  1.140000E-01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      TARES                   NDL                  2025        1.140000E-01   0.000000E+00                      1.000000

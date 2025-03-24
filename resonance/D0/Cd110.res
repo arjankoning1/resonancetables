@@ -1,25 +1,50 @@
 # header:
 #   title: Cd110 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 48
 #   A: 110
 #   nuclide: Cd110
 # reaction:
 #   type: D0
-# observables:
+# parameters:
 #   selected value [eV]:  1.550000E+02
 #   selected value uncertainty [eV]:  2.000000E+01
 #   selected value source: RIPL-3
+#   number of values: 6
+#   average value [b]:  1.749610E+02
+#   relative standard deviation [%]:      13.616662
+# quantity:
+#   type: Compilation
+#   average value:  1.673333E+02
+#   relative standard deviation [%]:      10.423487
 # datablock:
-#   quantity: resonance data
 #   columns: 8
-#   entries: 5
+#   entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Liou                    EXFOR                1974        1.740000E+02   1.800000E+01       10527011   1.122581E+00
-      RIPL-2                  Compilation          2000        1.550000E+02   2.000000E+01            78M   1.000000E+00
-      RIPL-3                  Compilation          2009        1.550000E+02   2.000000E+01            04I   1.000000E+00
-      Mughabghab_2016         Compilation          2016        1.920000E+02   1.500000E+01                  1.238710E+00
-      TARES                   NDL                  2025        2.187660E+02   0.000000E+00                  1.411394E+00
+      RIPL-2                  Compilation          2000        1.550000E+02   2.000000E+01            78M       1.000000
+      RIPL-3                  Compilation          2009        1.550000E+02   2.000000E+01            04I       1.000000
+      Mughabghab_2016         Compilation          2016        1.920000E+02   1.500000E+01                      1.238710
+# quantity:
+#   type: EXFOR
+#   average value:  1.645000E+02
+#   relative standard deviation [%]:       5.775076
+# datablock:
+#   columns: 8
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      H.I.Liou                EXFOR                1974        1.740000E+02   1.800000E+01      10527-011       1.122581
+      A.R.De L.Musgrove       EXFOR                1978        1.550000E+02   2.000000E+01      30453-011       1.000000
+# quantity:
+#   type: Nuclear data library
+#   average value:  2.187660E+02
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      TARES                   NDL                  2025        2.187660E+02   0.000000E+00                      1.411394

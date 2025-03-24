@@ -1,21 +1,37 @@
 # header:
 #   title: Si030 gamgam1 resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 14
 #   A: 30
 #   nuclide: Si030
 # reaction:
 #   type: gamgam1
-# observables:
+# parameters:
 #   selected value [eV]:  4.800000E-01
 #   selected value uncertainty [eV]:  2.000000E-02
 #   selected value source: RIPL-2
+#   number of values: 2
+#   average value [b]:  4.896875E-01
+#   relative standard deviation [%]:       1.978299
+# quantity:
+#   type: Compilation
+#   average value:  4.800000E-01
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: resonance data
 #   columns: 8
 #   entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-2                  Compilation          2000        4.800000E-01   2.000000E-02            97I   1.000000E+00
+      RIPL-2                  Compilation          2000        4.800000E-01   2.000000E-02            97I       1.000000
+# quantity:
+#   type: Nuclear data library
+#   average value:  4.993750E-01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      TARES                   NDL                  2025        4.993750E-01   0.000000E+00                      1.040365

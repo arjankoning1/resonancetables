@@ -1,13 +1,14 @@
 # header:
 #   title: Ig resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # reaction:
 #   type: Ig
+# quantity:
+#   type: resonance data
 # datablock:
-#   quantity: resonance data
 #   columns: 8
-#   entries: 465
+#   entries: 468
 ##       Z              A            Liso           Value         dValue        Reference    #Experiments      Nuclide
 ##      []             []             []            [eV]           [eV]            []             []             []
          1              1              0        1.490000E-01   1.000000E-03  JUKO                  0           H001  
@@ -288,6 +289,9 @@
         60            147              0        5.250000E+02   5.500000E+01  Sukhoruchkin          0           Nd147 
         60            148              0        1.253000E+01   4.200000E-01  Kayzero              10           Nd148 
         60            150              0        1.520000E+01   8.000000E-01  Mughabghab_2016       7           Nd150 
+        61            147              0        2.205000E+03   1.030000E+02  Sukhoruchkin          7           Pm147 
+        61            148              0        2.600000E+03   2.400000E+03  JUKO                  1           Pm148 
+        61            148              1        3.600000E+03   2.400000E+03  Mughabghab_2016       2           Pm148m
         62            144              0        2.380000E+00   1.700000E-01  Mughabghab_2016       1           Sm144 
         62            145              0        6.000000E+02   9.000000E+01  Mughabghab_2016       1           Sm145 
         62            146              0        6.000000E+02   9.000000E+01  Mughabghab_2016       0           Sm146 

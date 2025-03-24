@@ -1,30 +1,59 @@
 # header:
 #   title: Au197 Ig resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 79
 #   A: 197
 #   nuclide: Au197
 # reaction:
 #   type: Ig
-# observables:
+# parameters:
 #   selected value [eV]:  1.549800E+03
 #   selected value uncertainty [eV]:  2.790000E+01
 #   selected value source: Kayzero
+#   number of values: 15
+#   average value [b]:  1.447834E+03
+#   relative standard deviation [%]:      26.586300
+# quantity:
+#   type: Compilation
+#   average value:  1.557700E+03
+#   relative standard deviation [%]:       0.559547
 # datablock:
-#   quantity: resonance data
 #   columns: 8
-#   entries: 10
+#   entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Macklin                 EXFOR                1955        1.558000E+03   6.232000E+01       14388059   1.005291E+00
-      Jirlow                  EXFOR                1960        1.490000E+03   4.000000E+01       20048002   9.614143E-01
-      Furr                    EXFOR                1962        1.546000E+03   5.000000E+01       14102009   9.975480E-01
-      Konks                   EXFOR                1964        9.600000E+00   9.000000E-01       40799008   6.194348E-03
-      Wall                    EXFOR                1968        1.592000E+03   8.000000E+01       31734004   1.027229E+00
-      JUKO                    Compilation          2000        1.560000E+03   2.800000E+01                  1.006581E+00
-      Nyarko                  EXFOR                2010        1.549000E+03   1.740000E+02       31698005   9.994838E-01
-      Sukhoruchkin            Compilation          2015        1.571000E+03   2.800000E+01                  1.013679E+00
-      Mughabghab_2016         Compilation          2016        1.550000E+03   2.800000E+01                  1.000129E+00
-      Kayzero                 Compilation          2018        1.549800E+03   2.790000E+01                  1.000000E+00
+      JUKO                    Compilation          2000        1.560000E+03   2.800000E+01                      1.006581
+      Sukhoruchkin            Compilation          2015        1.571000E+03   2.800000E+01                      1.013679
+      Mughabghab_2016         Compilation          2016        1.550000E+03   2.800000E+01                      1.000129
+      Kayzero                 Compilation          2018        1.549800E+03   2.790000E+01                      1.000000
+# quantity:
+#   type: EXFOR
+#   average value:  1.290767E+03
+#   relative standard deviation [%]:      44.449551
+# datablock:
+#   columns: 8
+#   entries: 6
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      Macklin                 EXFOR                1955        1.558000E+03   6.232000E+01       14388059       1.005291
+      Jirlow                  EXFOR                1960        1.490000E+03   4.000000E+01       20048002       0.961414
+      Furr                    EXFOR                1962        1.546000E+03   5.000000E+01       14102009       0.997548
+      Konks                   EXFOR                1964        9.600000E+00   9.000000E-01       40799008       0.006194
+      Wall                    EXFOR                1968        1.592000E+03   8.000000E+01       31734004       1.027229
+      Nyarko                  EXFOR                2010        1.549000E+03   1.740000E+02       31698005       0.999484
+# quantity:
+#   type: Nuclear data library
+#   average value:  1.548422E+03
+#   relative standard deviation [%]:       0.458741
+# datablock:
+#   columns: 8
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        1.562620E+03   0.000000E+00                      1.008272
+      jendl5.0                NDL                  2021        1.544980E+03   0.000000E+00                      0.996890
+      tendl.2023              NDL                  2023        1.544410E+03   0.000000E+00                      0.996522
+      endfb8.1                NDL                  2024        1.544970E+03   0.000000E+00                      0.996883
+      jeff4.0                 NDL                  2025        1.545130E+03   0.000000E+00                      0.996987

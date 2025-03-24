@@ -1,22 +1,48 @@
 # header:
 #   title: Cr050 D1 resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 24
 #   A: 50
 #   nuclide: Cr050
 # reaction:
 #   type: D1
-# observables:
+# parameters:
 #   selected value [eV]:  3.700000E+03
 #   selected value uncertainty [eV]:  3.000000E+02
 #   selected value source: RIPL-3
+#   number of values: 4
+#   average value [b]:  3.981155E+03
+#   relative standard deviation [%]:       4.381757
+# quantity:
+#   type: Compilation
+#   average value:  3.900000E+03
+#   relative standard deviation [%]:       5.128205
 # datablock:
-#   quantity: resonance data
 #   columns: 8
 #   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-2                  Compilation          2000        4.100000E+03   7.000000E+02            89R   1.108108E+00
-      RIPL-3                  Compilation          2009        3.700000E+03   3.000000E+02            06M   1.000000E+00
+      RIPL-2                  Compilation          2000        4.100000E+03   7.000000E+02            89R       1.108108
+      RIPL-3                  Compilation          2009        3.700000E+03   3.000000E+02            06M       1.000000
+# quantity:
+#   type: EXFOR
+#   average value:  4.150000E+03
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      M.J.Kenny               EXFOR                1977        4.150000E+03   0.000000E+00      30393-005       1.121622
+# quantity:
+#   type: Nuclear data library
+#   average value:  3.974620E+03
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      TARES                   NDL                  2025        3.974620E+03   0.000000E+00                      1.074222

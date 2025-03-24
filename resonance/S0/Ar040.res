@@ -1,24 +1,39 @@
 # header:
 #   title: Ar040 S0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 18
 #   A: 40
 #   nuclide: Ar040
 # reaction:
 #   type: S0
-# observables:
-#   selected value [eV]:  1.900000E+00
-#   selected value uncertainty [eV]:  5.000000E-01
+# parameters:
+#   selected value [*e-4]:  1.900000E+00
+#   selected value uncertainty [*e-4]:  5.000000E-01
 #   selected value source: RIPL-3
+#   number of values: 4
+#   average value [b]:  9.829360E-01
+#   relative standard deviation [%]:      56.605988
+# quantity:
+#   type: Compilation
+#   average value:  1.073333E+00
+#   relative standard deviation [%]:      57.439148
 # datablock:
-#   quantity: resonance data
 #   columns: 8
-#   entries: 4
+#   entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []           [*e-4]         [*e-4]           []             []
-      RIPL-2                  Compilation          2000        9.000000E-01   4.500000E-01            88V   4.736842E-01
-      RIPL-3                  Compilation          2009        1.900000E+00   5.000000E-01            06M   1.000000E+00
-      Mughabghab_2016         Compilation          2016        4.200000E-01   1.200000E-01                  2.210526E-01
-      TARES                   NDL                  2025        7.117440E-01   0.000000E+00                  3.746021E-01
+      RIPL-2                  Compilation          2000        9.000000E-01   4.500000E-01            88V       0.473684
+      RIPL-3                  Compilation          2009        1.900000E+00   5.000000E-01            06M       1.000000
+      Mughabghab_2016         Compilation          2016        4.200000E-01   1.200000E-01                      0.221053
+# quantity:
+#   type: Nuclear data library
+#   average value:  7.117440E-01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []           [*e-4]         [*e-4]           []             []
+      TARES                   NDL                  2025        7.117440E-01   0.000000E+00                      0.374602

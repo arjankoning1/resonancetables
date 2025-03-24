@@ -1,21 +1,39 @@
 # header:
 #   title: Bi210 Ig resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 83
 #   A: 210
 #   nuclide: Bi210
 # reaction:
 #   type: Ig
-# observables:
+# parameters:
 #   selected value [eV]:  2.000000E-01
 #   selected value uncertainty [eV]:  3.000000E-02
 #   selected value source: JUKO
+#   number of values: 4
+#   average value [b]:  8.689977E-01
+#   relative standard deviation [%]:      97.933678
+# quantity:
+#   type: Compilation
+#   average value:  2.000000E-01
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: resonance data
 #   columns: 8
 #   entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      JUKO                    Compilation          2000        2.000000E-01   3.000000E-02                  1.000000E+00
+      JUKO                    Compilation          2000        2.000000E-01   3.000000E-02                      1.000000
+# quantity:
+#   type: Nuclear data library
+#   average value:  1.091997E+00
+#   relative standard deviation [%]:      80.188873
+# datablock:
+#   columns: 8
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        1.578320E-01   0.000000E+00                      0.789160
+      tendl.2023              NDL                  2023        2.263120E+00   0.000000E+00                     11.315599
+      jeff4.0                 NDL                  2025        8.550390E-01   0.000000E+00                      4.275195

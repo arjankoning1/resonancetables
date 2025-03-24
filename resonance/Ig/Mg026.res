@@ -1,34 +1,62 @@
 # header:
 #   title: Mg026 Ig resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 12
 #   A: 26
 #   nuclide: Mg026
 # reaction:
 #   type: Ig
-# observables:
+# parameters:
 #   selected value [eV]:  2.400000E-02
 #   selected value uncertainty [eV]:  1.000000E-03
 #   selected value source: Kayzero
+#   number of values: 18
+#   average value [b]:  3.821942E-02
+#   relative standard deviation [%]:     142.176071
+# quantity:
+#   type: Compilation
+#   average value:  2.272500E-02
+#   relative standard deviation [%]:       9.717778
 # datablock:
-#   quantity: resonance data
 #   columns: 8
-#   entries: 14
+#   entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      VichaiHayodomm          EXFOR                1969        2.800000E-02   1.960000E-03       30368008   1.166667E+00
-      Ryves                   EXFOR                1970        8.000000E-03   3.217100E-04       20789004   3.333333E-01
-      Vanderlinden            EXFOR                1972        3.300000E-02   2.000000E-03      206430041   1.375000E+00
-      Gleason                 EXFOR                1975        2.600000E-02   1.000000E-03       10644005   1.083333E+00
-      Gleason                 EXFOR                1975        2.600000E-02   1.000000E-03       10644005   1.083333E+00
-      Gryntakis               EXFOR                1976        2.700000E-02   2.000000E-03       20625003   1.125000E+00
-      Sage                    EXFOR                1976        4.140000E-02   4.140000E-02       10637003   1.725000E+00
-      Sage                    EXFOR                1976        4.140000E-02   4.140000E-02       10637003   1.725000E+00
-      Heft                    EXFOR                1978        2.400000E-02   1.000000E-03       12866005   1.000000E+00
-      JUKO                    Compilation          2000        2.400000E-02   2.000000E-03                  1.000000E+00
-      Nyarko                  EXFOR                2010        2.600000E-01   4.000000E-03       31698009   1.083333E+01
-      Sukhoruchkin            Compilation          2015        1.890000E-02   9.000000E-03                  7.875000E-01
-      Mughabghab_2016         Compilation          2016        2.400000E-02   2.000000E-03                  1.000000E+00
-      Kayzero                 Compilation          2018        2.400000E-02   1.000000E-03                  1.000000E+00
+      JUKO                    Compilation          2000        2.400000E-02   2.000000E-03                      1.000000
+      Sukhoruchkin            Compilation          2015        1.890000E-02   9.000000E-03                      0.787500
+      Mughabghab_2016         Compilation          2016        2.400000E-02   2.000000E-03                      1.000000
+      Kayzero                 Compilation          2018        2.400000E-02   1.000000E-03                      1.000000
+# quantity:
+#   type: EXFOR
+#   average value:  5.148000E-02
+#   relative standard deviation [%]:     136.141556
+# datablock:
+#   columns: 8
+#   entries: 10
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      VichaiHayodomm          EXFOR                1969        2.800000E-02   1.960000E-03       30368008       1.166667
+      Ryves                   EXFOR                1970        8.000000E-03   3.217100E-04       20789004       0.333333
+      Vanderlinden            EXFOR                1972        3.300000E-02   2.000000E-03      206430041       1.375000
+      Gleason                 EXFOR                1975        2.600000E-02   1.000000E-03       10644005       1.083333
+      Gleason                 EXFOR                1975        2.600000E-02   1.000000E-03       10644005       1.083333
+      Gryntakis               EXFOR                1976        2.700000E-02   2.000000E-03       20625003       1.125000
+      Sage                    EXFOR                1976        4.140000E-02   4.140000E-02       10637003       1.725000
+      Sage                    EXFOR                1976        4.140000E-02   4.140000E-02       10637003       1.725000
+      Heft                    EXFOR                1978        2.400000E-02   1.000000E-03       12866005       1.000000
+      Nyarko                  EXFOR                2010        2.600000E-01   4.000000E-03       31698009      10.833333
+# quantity:
+#   type: Nuclear data library
+#   average value:  2.056243E-02
+#   relative standard deviation [%]:      16.038181
+# datablock:
+#   columns: 8
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        1.868090E-02   0.000000E+00                      0.778371
+      jendl5.0                NDL                  2021        1.864720E-02   0.000000E+00                      0.776967
+      tendl.2023              NDL                  2023        2.627440E-02   0.000000E+00                      1.094767
+      endfb8.1                NDL                  2024        1.864720E-02   0.000000E+00                      0.776967

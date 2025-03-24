@@ -1,23 +1,38 @@
 # header:
 #   title: Mg026 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 12
 #   A: 26
 #   nuclide: Mg026
 # reaction:
 #   type: D0
-# observables:
+# parameters:
 #   selected value [eV]:  2.100000E+05
 #   selected value uncertainty [eV]:  8.000000E+04
 #   selected value source: RIPL-3
+#   number of values: 3
+#   average value [b]:  2.086033E+05
+#   relative standard deviation [%]:      20.396057
+# quantity:
+#   type: Compilation
+#   average value:  2.350000E+05
+#   relative standard deviation [%]:      10.638298
 # datablock:
-#   quantity: resonance data
 #   columns: 8
-#   entries: 3
+#   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-2                  Compilation          2000        2.600000E+05   5.000000E+04            79R   1.238095E+00
-      RIPL-3                  Compilation          2009        2.100000E+05   8.000000E+04           *07I   1.000000E+00
-      TARES                   NDL                  2025        1.558100E+05   0.000000E+00                  7.419524E-01
+      RIPL-2                  Compilation          2000        2.600000E+05   5.000000E+04            79R       1.238095
+      RIPL-3                  Compilation          2009        2.100000E+05   8.000000E+04           *07I       1.000000
+# quantity:
+#   type: Nuclear data library
+#   average value:  1.558100E+05
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      TARES                   NDL                  2025        1.558100E+05   0.000000E+00                      0.741952

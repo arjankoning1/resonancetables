@@ -1,23 +1,51 @@
 # header:
 #   title: Tm170 Ig resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 69
 #   A: 170
 #   nuclide: Tm170
 # reaction:
 #   type: Ig
-# observables:
+# parameters:
 #   selected value [eV]:  5.095000E+02
 #   selected value uncertainty [eV]:  0.000000E+00
 #   selected value source: Sukhoruchkin
+#   number of values: 7
+#   average value [b]:  6.876701E+02
+#   relative standard deviation [%]:      52.366798
+# quantity:
+#   type: Compilation
+#   average value:  4.847500E+02
+#   relative standard deviation [%]:       5.105725
 # datablock:
-#   quantity: resonance data
 #   columns: 8
-#   entries: 3
+#   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Gillette                EXFOR                1967        1.560000E+03   6.000000E+01       10259009   3.061825E+00
-      JUKO                    Compilation          2000        4.600000E+02   5.000000E+01                  9.028459E-01
-      Sukhoruchkin            Compilation          2015        5.095000E+02   0.000000E+00                  1.000000E+00
+      JUKO                    Compilation          2000        4.600000E+02   5.000000E+01                      0.902846
+      Sukhoruchkin            Compilation          2015        5.095000E+02   0.000000E+00                      1.000000
+# quantity:
+#   type: EXFOR
+#   average value:  1.560000E+03
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      Gillette                EXFOR                1967        1.560000E+03   6.000000E+01       10259009       3.061825
+# quantity:
+#   type: Nuclear data library
+#   average value:  5.710477E+02
+#   relative standard deviation [%]:       8.222021
+# datablock:
+#   columns: 8
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        5.287790E+02   0.000000E+00                      1.037839
+      tendl.2023              NDL                  2023        6.178880E+02   0.000000E+00                      1.212734
+      endfb8.1                NDL                  2024        5.196360E+02   0.000000E+00                      1.019894
+      jeff4.0                 NDL                  2025        6.178880E+02   0.000000E+00                      1.212734

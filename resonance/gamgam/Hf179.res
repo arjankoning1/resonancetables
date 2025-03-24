@@ -1,24 +1,39 @@
 # header:
 #   title: Hf179 gamgam resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 72
 #   A: 179
 #   nuclide: Hf179
 # reaction:
 #   type: gamgam
-# observables:
+# parameters:
 #   selected value [eV]:  6.600000E-02
 #   selected value uncertainty [eV]:  6.000000E-03
 #   selected value source: RIPL-3
+#   number of values: 4
+#   average value [b]:  5.935597E-02
+#   relative standard deviation [%]:      11.204278
+# quantity:
+#   type: Compilation
+#   average value:  6.143333E-02
+#   relative standard deviation [%]:      10.512603
 # datablock:
-#   quantity: resonance data
 #   columns: 8
-#   entries: 4
+#   entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-2                  Compilation          2000        6.600000E-02   5.000000E-03            97I   1.000000E+00
-      RIPL-3                  Compilation          2009        6.600000E-02   6.000000E-03            97I   1.000000E+00
-      Mughabghab_2016         Compilation          2016        5.230000E-02   1.300000E-03                  7.924242E-01
-      TARES                   NDL                  2025        5.312390E-02   0.000000E+00                  8.049076E-01
+      RIPL-2                  Compilation          2000        6.600000E-02   5.000000E-03            97I       1.000000
+      RIPL-3                  Compilation          2009        6.600000E-02   6.000000E-03            97I       1.000000
+      Mughabghab_2016         Compilation          2016        5.230000E-02   1.300000E-03                      0.792424
+# quantity:
+#   type: Nuclear data library
+#   average value:  5.312390E-02
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      TARES                   NDL                  2025        5.312390E-02   0.000000E+00                      0.804908

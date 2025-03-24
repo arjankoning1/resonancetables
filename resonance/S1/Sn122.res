@@ -1,22 +1,38 @@
 # header:
 #   title: Sn122 S1 resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 50
 #   A: 122
 #   nuclide: Sn122
 # reaction:
 #   type: S1
-# observables:
-#   selected value [eV]:  1.880000E+00
-#   selected value uncertainty [eV]:  1.500000E-01
+# parameters:
+#   selected value [*e-4]:  1.880000E+00
+#   selected value uncertainty [*e-4]:  1.500000E-01
 #   selected value source: RIPL-3
+#   number of values: 3
+#   average value [b]:  2.124197E+00
+#   relative standard deviation [%]:       8.145918
+# quantity:
+#   type: Compilation
+#   average value:  2.070000E+00
+#   relative standard deviation [%]:       9.178744
 # datablock:
-#   quantity: resonance data
 #   columns: 8
 #   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []           [*e-4]         [*e-4]           []             []
-      RIPL-3                  Compilation          2009        1.880000E+00   1.500000E-01            06M   1.000000E+00
-      Mughabghab_2016         Compilation          2016        2.260000E+00   1.500000E-01                  1.202128E+00
+      RIPL-3                  Compilation          2009        1.880000E+00   1.500000E-01            06M       1.000000
+      Mughabghab_2016         Compilation          2016        2.260000E+00   1.500000E-01                      1.202128
+# quantity:
+#   type: Nuclear data library
+#   average value:  2.232590E+00
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []           [*e-4]         [*e-4]           []             []
+      TARES                   NDL                  2025        2.232590E+00   0.000000E+00                      1.187548

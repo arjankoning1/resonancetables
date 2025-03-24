@@ -1,13 +1,14 @@
 # header:
 #   title: S0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # reaction:
 #   type: S0
+# quantity:
+#   type: resonance data
 # datablock:
-#   quantity: resonance data
 #   columns: 8
-#   entries: 291
+#   entries: 292
 ##       Z              A            Liso           Value         dValue        Reference    #Experiments      Nuclide
 ##      []             []             []            [eV]           [eV]            []             []             []
         11             23              0        2.500000E-01   1.500000E-01  RIPL-3                0           Na023 
@@ -175,6 +176,7 @@
         60            146              0        3.800000E+00   6.000000E-01  RIPL-3                0           Nd146 
         60            148              0        3.700000E+00   5.000000E-01  RIPL-3                0           Nd148 
         60            150              0        2.900000E+00   5.000000E-01  RIPL-3                0           Nd150 
+        61            147              0        3.100000E+00   4.000000E-01  RIPL-3                0           Pm147 
         62            144              0        3.500000E+00   9.000000E-01  RIPL-3                0           Sm144 
         62            147              0        4.800000E+00   5.000000E-01  RIPL-3                0           Sm147 
         62            148              0        3.800000E+00   8.000000E-01  RIPL-3                0           Sm148 

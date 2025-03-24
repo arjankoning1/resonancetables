@@ -1,25 +1,49 @@
 # header:
 #   title: Cs133 gamgam resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 55
 #   A: 133
 #   nuclide: Cs133
 # reaction:
 #   type: gamgam
-# observables:
+# parameters:
 #   selected value [eV]:  1.200000E-01
 #   selected value uncertainty [eV]:  1.000000E-02
 #   selected value source: RIPL-3
+#   number of values: 5
+#   average value [b]:  1.193132E-01
+#   relative standard deviation [%]:       0.630539
+# quantity:
+#   type: Compilation
+#   average value:  1.200000E-01
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: resonance data
 #   columns: 8
-#   entries: 5
+#   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      ZoInOkkk                EXFOR                1982        1.180000E-01   7.000000E-03       41287007   9.833333E-01
-      Nakajima                EXFOR                1990        1.190000E-01   3.000000E-03       22172006   9.916667E-01
-      RIPL-2                  Compilation          2000        1.200000E-01   1.000000E-02            96I   1.000000E+00
-      RIPL-3                  Compilation          2009        1.200000E-01   1.000000E-02            96I   1.000000E+00
-      TARES                   NDL                  2025        1.195660E-01   0.000000E+00                  9.963833E-01
+      RIPL-2                  Compilation          2000        1.200000E-01   1.000000E-02            96I       1.000000
+      RIPL-3                  Compilation          2009        1.200000E-01   1.000000E-02            96I       1.000000
+# quantity:
+#   type: EXFOR
+#   average value:  1.185000E-01
+#   relative standard deviation [%]:       0.421942
+# datablock:
+#   columns: 8
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      ZoInOkkk                EXFOR                1982        1.180000E-01   7.000000E-03       41287007       0.983333
+      Nakajima                EXFOR                1990        1.190000E-01   3.000000E-03       22172006       0.991667
+# quantity:
+#   type: Nuclear data library
+#   average value:  1.195660E-01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      TARES                   NDL                  2025        1.195660E-01   0.000000E+00                      0.996383

@@ -1,23 +1,49 @@
 # header:
 #   title: Cu065 D1 resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 29
 #   A: 65
 #   nuclide: Cu065
 # reaction:
 #   type: D1
-# observables:
+# parameters:
 #   selected value [eV]:  6.850000E+02
 #   selected value uncertainty [eV]:  6.000000E+01
 #   selected value source: RIPL-3
+#   number of values: 5
+#   average value [b]:  6.098608E+02
+#   relative standard deviation [%]:      20.293682
+# quantity:
+#   type: Compilation
+#   average value:  6.660000E+02
+#   relative standard deviation [%]:       4.034544
 # datablock:
-#   quantity: resonance data
 #   columns: 8
 #   entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-2                  Compilation          2000        6.850000E+02   6.000000E+01            77P   1.000000E+00
-      RIPL-3                  Compilation          2009        6.850000E+02   6.000000E+01            96I   1.000000E+00
-      Mughabghab_2016         Compilation          2016        6.280000E+02   3.900000E+01                  9.167883E-01
+      RIPL-2                  Compilation          2000        6.850000E+02   6.000000E+01            77P       1.000000
+      RIPL-3                  Compilation          2009        6.850000E+02   6.000000E+01            96I       1.000000
+      Mughabghab_2016         Compilation          2016        6.280000E+02   3.900000E+01                      0.916788
+# quantity:
+#   type: EXFOR
+#   average value:  6.850000E+02
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      M.S.Pandey              EXFOR                1977        6.850000E+02   6.000000E+01      10726-005       1.000000
+# quantity:
+#   type: Nuclear data library
+#   average value:  3.663040E+02
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      TARES                   NDL                  2025        3.663040E+02   0.000000E+00                      0.534750

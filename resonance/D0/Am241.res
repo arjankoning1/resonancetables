@@ -1,29 +1,55 @@
 # header:
 #   title: Am241 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 95
 #   A: 241
 #   nuclide: Am241
 # reaction:
 #   type: D0
-# observables:
+# parameters:
 #   selected value [eV]:  5.800000E-01
 #   selected value uncertainty [eV]:  4.000000E-02
 #   selected value source: RIPL-3
+#   number of values: 11
+#   average value [b]:  1.545512E+04
+#   relative standard deviation [%]:     316.214783
+# quantity:
+#   type: Compilation
+#   average value:  5.700000E-01
+#   relative standard deviation [%]:       2.481074
 # datablock:
-#   quantity: resonance data
 #   columns: 8
-#   entries: 9
+#   entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Slaughter               EXFOR                1961        8.700000E-01   1.300000E-01      124780082   1.500000E+00
-      Derrien                 EXFOR                1975        6.500000E-01   0.000000E+00       20415009   1.120690E+00
-      Belanova                EXFOR                1976        6.700000E-01   1.000000E-01       40305009   1.155172E+00
-      Vorotnikov              EXFOR                1986        1.700000E+05   5.000000E+04       40948005   2.931035E+05
-      RIPL-2                  Compilation          2000        5.800000E-01   4.000000E-02            97I   1.000000E+00
-      RIPL-3                  Compilation          2009        5.800000E-01   4.000000E-02            97I   1.000000E+00
-      Mughabghab_2016         Compilation          2016        5.500000E-01   4.000000E-02                  9.482759E-01
-      Mendoza                 EXFOR                2018        5.600000E-01   4.000000E-02      233690062   9.655173E-01
-      TARES                   NDL                  2025        7.936510E-01   0.000000E+00                  1.368364E+00
+      RIPL-2                  Compilation          2000        5.800000E-01   4.000000E-02            97I       1.000000
+      RIPL-3                  Compilation          2009        5.800000E-01   4.000000E-02            97I       1.000000
+      Mughabghab_2016         Compilation          2016        5.500000E-01   4.000000E-02                      0.948276
+# quantity:
+#   type: EXFOR
+#   average value:  2.428626E+04
+#   relative standard deviation [%]:     244.942520
+# datablock:
+#   columns: 8
+#   entries: 7
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      G.G.Slaughter           EXFOR                1961        8.700000E-01   1.300000E-01      12478-008       1.500000
+      H.Derrien               EXFOR                1975        6.500000E-01   0.000000E+00      20415-009       1.120690
+      T.S.Belanova            EXFOR                1976        6.700000E-01   1.000000E-01      40305-009       1.155172
+      P.E.Vorotnikov          EXFOR                1986        1.700000E+05   5.000000E+04      40948-005  293103.468750
+      K.Fraval                EXFOR                2014        5.740000E-01   0.000000E+00      23237-006       0.989655
+      K.Fraval                EXFOR                2014        5.200000E-01   3.000000E-02      23237-006       0.896552
+      E.Mendoza               EXFOR                2018        5.600000E-01   4.000000E-02      23369-006       0.965517
+# quantity:
+#   type: Nuclear data library
+#   average value:  7.936510E-01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      TARES                   NDL                  2025        7.936510E-01   0.000000E+00                      1.368364

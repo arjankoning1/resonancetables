@@ -1,23 +1,38 @@
 # header:
 #   title: U234 If resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 92
 #   A: 234
 #   nuclide: U234
 # reaction:
 #   type: If
-# observables:
+# parameters:
 #   selected value [eV]:  6.400000E+00
 #   selected value uncertainty [eV]:  1.000000E+00
 #   selected value source: Sukhoruchkin
+#   number of values: 3
+#   average value [b]:  2.606000E+00
+#   relative standard deviation [%]:     103.051422
+# quantity:
+#   type: Compilation
+#   average value:  3.480000E+00
+#   relative standard deviation [%]:      83.908043
 # datablock:
-#   quantity: resonance data
 #   columns: 8
-#   entries: 3
+#   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      JUKO                    Compilation          2000        5.600000E-01   0.000000E+00                  8.750000E-02
-      Heyse                   EXFOR                2007        8.580000E-01   6.000000E-02       23082004   1.340625E-01
-      Sukhoruchkin            Compilation          2015        6.400000E+00   1.000000E+00                  1.000000E+00
+      JUKO                    Compilation          2000        5.600000E-01   0.000000E+00                      0.087500
+      Sukhoruchkin            Compilation          2015        6.400000E+00   1.000000E+00                      1.000000
+# quantity:
+#   type: EXFOR
+#   average value:  8.580000E-01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      Heyse                   EXFOR                2007        8.580000E-01   6.000000E-02       23082004       0.134062

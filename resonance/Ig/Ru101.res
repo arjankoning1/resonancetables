@@ -1,25 +1,54 @@
 # header:
 #   title: Ru101 Ig resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 44
 #   A: 101
 #   nuclide: Ru101
 # reaction:
 #   type: Ig
-# observables:
+# parameters:
 #   selected value [eV]:  1.110000E+02
 #   selected value uncertainty [eV]:  1.000000E+01
 #   selected value source: Mughabghab_2016
+#   number of values: 10
+#   average value [b]:  1.062175E+02
+#   relative standard deviation [%]:       9.311885
+# quantity:
+#   type: Compilation
+#   average value:  1.083333E+02
+#   relative standard deviation [%]:       4.150996
 # datablock:
-#   quantity: resonance data
+#   columns: 8
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      JUKO                    Compilation          2000        1.020000E+02   1.000000E+01                      0.918919
+      Sukhoruchkin            Compilation          2015        1.120000E+02   1.000000E+01                      1.009009
+      Mughabghab_2016         Compilation          2016        1.110000E+02   1.000000E+01                      1.000000
+# quantity:
+#   type: EXFOR
+#   average value:  9.355000E+01
+#   relative standard deviation [%]:      15.446286
+# datablock:
+#   columns: 8
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      Halperin                EXFOR                1965        7.910000E+01   7.910000E+00       11846008       0.712613
+      Anufriev                EXFOR                1985        1.080000E+02   1.500000E+01       40866005       0.972973
+# quantity:
+#   type: Nuclear data library
+#   average value:  1.100150E+02
+#   relative standard deviation [%]:       3.931770
+# datablock:
 #   columns: 8
 #   entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Halperin                EXFOR                1965        7.910000E+01   7.910000E+00       11846008   7.126126E-01
-      Anufriev                EXFOR                1985        1.080000E+02   1.500000E+01       40866005   9.729730E-01
-      JUKO                    Compilation          2000        1.020000E+02   1.000000E+01                  9.189189E-01
-      Sukhoruchkin            Compilation          2015        1.120000E+02   1.000000E+01                  1.009009E+00
-      Mughabghab_2016         Compilation          2016        1.110000E+02   1.000000E+01                  1.000000E+00
+      cendl3.2                NDL                  2019        1.116320E+02   0.000000E+00                      1.005694
+      jendl5.0                NDL                  2021        1.013890E+02   0.000000E+00                      0.913414
+      tendl.2023              NDL                  2023        1.120980E+02   0.000000E+00                      1.009892
+      endfb8.1                NDL                  2024        1.123090E+02   0.000000E+00                      1.011793
+      jeff4.0                 NDL                  2025        1.126470E+02   0.000000E+00                      1.014838

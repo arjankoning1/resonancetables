@@ -1,33 +1,61 @@
 # header:
 #   title: Yb174 Ig resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 70
 #   A: 174
 #   nuclide: Yb174
 # reaction:
 #   type: Ig
-# observables:
+# parameters:
 #   selected value [eV]:  2.860000E+01
 #   selected value uncertainty [eV]:  7.000000E-01
 #   selected value source: Kayzero
+#   number of values: 17
+#   average value [b]:  3.440557E+01
+#   relative standard deviation [%]:      47.233479
+# quantity:
+#   type: Compilation
+#   average value:  2.740000E+01
+#   relative standard deviation [%]:       2.528542
 # datablock:
-#   quantity: resonance data
 #   columns: 8
-#   entries: 13
+#   entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Sims                    EXFOR                1970        6.860000E+01   7.200000E+00       10608017   2.398601E+00
-      Sims                    EXFOR                1970        1.460000E+01   1.500000E+00       10608016   5.104895E-01
-      Sims                    EXFOR                1970        6.860000E+01   7.200000E+00       10608017   2.398601E+00
-      Sims                    EXFOR                1970        1.460000E+01   1.500000E+00       10608016   5.104895E-01
-      Steinnes                EXFOR                1972        3.000000E+01   3.000000E+00       20188027   1.048951E+00
-      Alstad                  EXFOR                1972        3.100000E+01   2.000000E+00       20094007   1.083916E+00
-      Vanderlinden            EXFOR                1974        3.770000E+01   1.300000E+00       20645034   1.318182E+00
-      Heft                    EXFOR                1978        4.800000E+01   2.000000E+00       12866169   1.678322E+00
-      JUKO                    Compilation          2000        2.700000E+01   1.000000E+01                  9.440559E-01
-      Karadag                 EXFOR                2008        5.960000E+01   8.522800E+00       23025003   2.083916E+00
-      Sukhoruchkin            Compilation          2015        2.700000E+01   3.000000E+00                  9.440559E-01
-      Mughabghab_2016         Compilation          2016        2.700000E+01   3.000000E+00                  9.440559E-01
-      Kayzero                 Compilation          2018        2.860000E+01   7.000000E-01                  1.000000E+00
+      JUKO                    Compilation          2000        2.700000E+01   1.000000E+01                      0.944056
+      Sukhoruchkin            Compilation          2015        2.700000E+01   3.000000E+00                      0.944056
+      Mughabghab_2016         Compilation          2016        2.700000E+01   3.000000E+00                      0.944056
+      Kayzero                 Compilation          2018        2.860000E+01   7.000000E-01                      1.000000
+# quantity:
+#   type: EXFOR
+#   average value:  4.141111E+01
+#   relative standard deviation [%]:      47.910778
+# datablock:
+#   columns: 8
+#   entries: 9
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      Sims                    EXFOR                1970        6.860000E+01   7.200000E+00       10608017       2.398601
+      Sims                    EXFOR                1970        1.460000E+01   1.500000E+00       10608016       0.510490
+      Sims                    EXFOR                1970        6.860000E+01   7.200000E+00       10608017       2.398601
+      Sims                    EXFOR                1970        1.460000E+01   1.500000E+00       10608016       0.510490
+      Steinnes                EXFOR                1972        3.000000E+01   3.000000E+00       20188027       1.048951
+      Alstad                  EXFOR                1972        3.100000E+01   2.000000E+00       20094007       1.083916
+      Vanderlinden            EXFOR                1974        3.770000E+01   1.300000E+00       20645034       1.318182
+      Heft                    EXFOR                1978        4.800000E+01   2.000000E+00       12866169       1.678322
+      Karadag                 EXFOR                2008        5.960000E+01   8.522800E+00       23025003       2.083916
+# quantity:
+#   type: Nuclear data library
+#   average value:  2.564865E+01
+#   relative standard deviation [%]:       0.758908
+# datablock:
+#   columns: 8
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        2.545400E+01   0.000000E+00                      0.890000
+      tendl.2023              NDL                  2023        2.584330E+01   0.000000E+00                      0.903612
+      endfb8.1                NDL                  2024        2.545400E+01   0.000000E+00                      0.890000
+      jeff4.0                 NDL                  2025        2.584330E+01   0.000000E+00                      0.903612

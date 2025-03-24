@@ -1,35 +1,64 @@
 # header:
 #   title: Sb121 Ig resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 51
 #   A: 121
 #   nuclide: Sb121
 # reaction:
 #   type: Ig
-# observables:
+# parameters:
 #   selected value [eV]:  2.083700E+02
 #   selected value uncertainty [eV]:  8.050000E+00
 #   selected value source: Kayzero
+#   number of values: 20
+#   average value [b]:  1.794382E+02
+#   relative standard deviation [%]:      27.538256
+# quantity:
+#   type: Compilation
+#   average value:  2.045925E+02
+#   relative standard deviation [%]:       1.331695
 # datablock:
-#   quantity: resonance data
 #   columns: 8
-#   entries: 15
+#   entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Harris                  EXFOR                1950        1.470000E+02   0.000000E+00       11343021   7.054759E-01
-      Macklin                 EXFOR                1955        1.620000E+02   6.480000E+00       14388041   7.774632E-01
-      Orvini                  EXFOR                1968        2.000000E+02   1.726270E+01       20633005   9.598311E-01
-      VichaiHayodomm          EXFOR                1969        1.340000E+02   0.000000E+00       30368017   6.430869E-01
-      Ricabarra               EXFOR                1970        1.780000E+02   2.600000E+01      301900032   8.542497E-01
-      Ryves                   EXFOR                1970        2.060000E+02   8.168000E+00       20789028   9.886260E-01
-      Vanderlinden            EXFOR                1972        1.270000E+02   5.000000E+00      206430601   6.094927E-01
-      Steinnes                EXFOR                1972        1.690000E+02   9.000000E+00       20188012   8.110573E-01
-      Vanderlinden            EXFOR                1974        1.960000E+00   9.000000E-02       21697010   9.406345E-03
-      Gleason                 EXFOR                1975        2.300000E+02   1.000000E+01       10644034   1.103806E+00
-      Heft                    EXFOR                1978        1.670000E+02   5.000000E+00       12866109   8.014590E-01
-      JUKO                    Compilation          2000        2.020000E+02   2.000000E+01                  9.694294E-01
-      Sukhoruchkin            Compilation          2015        2.060000E+02   2.000000E+01                  9.886260E-01
-      Mughabghab_2016         Compilation          2016        2.020000E+02   2.000000E+01                  9.694294E-01
-      Kayzero                 Compilation          2018        2.083700E+02   8.050000E+00                  1.000000E+00
+      JUKO                    Compilation          2000        2.020000E+02   2.000000E+01                      0.969429
+      Sukhoruchkin            Compilation          2015        2.060000E+02   2.000000E+01                      0.988626
+      Mughabghab_2016         Compilation          2016        2.020000E+02   2.000000E+01                      0.969429
+      Kayzero                 Compilation          2018        2.083700E+02   8.050000E+00                      1.000000
+# quantity:
+#   type: EXFOR
+#   average value:  1.565418E+02
+#   relative standard deviation [%]:      36.470070
+# datablock:
+#   columns: 8
+#   entries: 11
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      Harris                  EXFOR                1950        1.470000E+02   0.000000E+00       11343021       0.705476
+      Macklin                 EXFOR                1955        1.620000E+02   6.480000E+00       14388041       0.777463
+      Orvini                  EXFOR                1968        2.000000E+02   1.726270E+01       20633005       0.959831
+      VichaiHayodomm          EXFOR                1969        1.340000E+02   0.000000E+00       30368017       0.643087
+      Ricabarra               EXFOR                1970        1.780000E+02   2.600000E+01      301900032       0.854250
+      Ryves                   EXFOR                1970        2.060000E+02   8.168000E+00       20789028       0.988626
+      Vanderlinden            EXFOR                1972        1.270000E+02   5.000000E+00      206430601       0.609493
+      Steinnes                EXFOR                1972        1.690000E+02   9.000000E+00       20188012       0.811057
+      Vanderlinden            EXFOR                1974        1.960000E+00   9.000000E-02       21697010       0.009406
+      Gleason                 EXFOR                1975        2.300000E+02   1.000000E+01       10644034       1.103806
+      Heft                    EXFOR                1978        1.670000E+02   5.000000E+00       12866109       0.801459
+# quantity:
+#   type: Nuclear data library
+#   average value:  2.096868E+02
+#   relative standard deviation [%]:       1.905867
+# datablock:
+#   columns: 8
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        2.140870E+02   0.000000E+00                      1.027437
+      jendl5.0                NDL                  2021        2.150280E+02   0.000000E+00                      1.031953
+      tendl.2023              NDL                  2023        2.066750E+02   0.000000E+00                      0.991865
+      endfb8.1                NDL                  2024        2.059690E+02   0.000000E+00                      0.988477
+      jeff4.0                 NDL                  2025        2.066750E+02   0.000000E+00                      0.991865

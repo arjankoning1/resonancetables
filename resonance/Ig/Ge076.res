@@ -1,30 +1,58 @@
 # header:
 #   title: Ge076 Ig resonance data
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 32
 #   A: 76
 #   nuclide: Ge076
 # reaction:
 #   type: Ig
-# observables:
+# parameters:
 #   selected value [eV]:  1.860000E+00
 #   selected value uncertainty [eV]:  2.400000E-01
 #   selected value source: Mughabghab_2016
+#   number of values: 14
+#   average value [b]:  1.456819E+00
+#   relative standard deviation [%]:      44.728775
+# quantity:
+#   type: Compilation
+#   average value:  1.690000E+00
+#   relative standard deviation [%]:      14.225816
 # datablock:
-#   quantity: resonance data
 #   columns: 8
-#   entries: 10
+#   entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Ricabarra               EXFOR                1970        1.200000E+00   0.000000E+00      301900092   6.451613E-01
-      Ricabarra               EXFOR                1970        8.000000E-01   0.000000E+00      301900082   4.301075E-01
-      Ricabarra               EXFOR                1972        1.992000E+00   3.590000E-01      301890032   1.070968E+00
-      Vanderlinden            EXFOR                1972        1.800000E+00   1.000000E-01      206430251   9.677419E-01
-      Vanderlinden            EXFOR                1974        8.400000E-01   5.000000E-02       21697008   4.516129E-01
-      Heft                    EXFOR                1978        4.600000E-01   2.000000E-02       12866045   2.473118E-01
-      Heft                    EXFOR                1978        6.600000E-01   4.000000E-02       12866043   3.548387E-01
-      JUKO                    Compilation          2000        1.860000E+00   2.400000E-01                  1.000000E+00
-      Sukhoruchkin            Compilation          2015        1.350000E+00   2.300000E-01                  7.258065E-01
-      Mughabghab_2016         Compilation          2016        1.860000E+00   2.400000E-01                  1.000000E+00
+      JUKO                    Compilation          2000        1.860000E+00   2.400000E-01                      1.000000
+      Sukhoruchkin            Compilation          2015        1.350000E+00   2.300000E-01                      0.725806
+      Mughabghab_2016         Compilation          2016        1.860000E+00   2.400000E-01                      1.000000
+# quantity:
+#   type: EXFOR
+#   average value:  1.107429E+00
+#   relative standard deviation [%]:      48.938988
+# datablock:
+#   columns: 8
+#   entries: 7
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      Ricabarra               EXFOR                1970        1.200000E+00   0.000000E+00      301900092       0.645161
+      Ricabarra               EXFOR                1970        8.000000E-01   0.000000E+00      301900082       0.430108
+      Ricabarra               EXFOR                1972        1.992000E+00   3.590000E-01      301890032       1.070968
+      Vanderlinden            EXFOR                1972        1.800000E+00   1.000000E-01      206430251       0.967742
+      Vanderlinden            EXFOR                1974        8.400000E-01   5.000000E-02       21697008       0.451613
+      Heft                    EXFOR                1978        4.600000E-01   2.000000E-02       12866045       0.247312
+      Heft                    EXFOR                1978        6.600000E-01   4.000000E-02       12866043       0.354839
+# quantity:
+#   type: Nuclear data library
+#   average value:  1.893365E+00
+#   relative standard deviation [%]:      36.735279
+# datablock:
+#   columns: 8
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        3.048300E+00   0.000000E+00                      1.638871
+      jendl5.0                NDL                  2021        1.346850E+00   0.000000E+00                      0.724113
+      tendl.2023              NDL                  2023        1.831460E+00   0.000000E+00                      0.984656
+      endfb8.1                NDL                  2024        1.346850E+00   0.000000E+00                      0.724113

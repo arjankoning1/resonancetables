@@ -1,0 +1,44 @@
+# header:
+#   title: Xe124(n,g) MACS
+#   source: Resonancetables
+#   date: 2025-03-23
+# target:
+#   Z: 54
+#   A: 124
+#   nuclide: Xe124
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  5.760386E-01
+#   selected value uncertainty [b]:  7.078362E-02
+#   selected value source: Astral
+#   number of values: 9
+#   average value [b]:  8.062699E-01
+#   relative standard deviation [%]:      30.805302
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  7.910097E-01
+#   relative standard deviation [%]:      37.315922
+# datablock:
+#   columns: 9
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Kadonis                 Compilation          2000        6.440001E-01   8.300000E-02                      1.117981   MXW         
+      Sukhoruchkin            Compilation          2015        1.300000E+00   3.000000E-01                      2.256793   MXW         
+      Mughabghab_2016         Compilation          2016        6.440000E-01   8.300000E-02                      1.117981   MXW         
+      Astral                  Compilation          2020        5.760386E-01   7.078362E-02                      1.000000   MXW         
+# quantity:
+#   type: Nuclear data library
+#   average value:  8.184780E-01
+#   relative standard deviation [%]:      24.740494
+# datablock:
+#   columns: 9
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      cendl3.2                NDL                  2019        1.153000E+00   0.000000E+00                      2.001602      MXW      
+      jendl5.0                NDL                  2021        9.260400E-01   0.000000E+00                      1.607601      MXW      
+      tendl.2023              NDL                  2023        6.379600E-01   0.000000E+00                      1.107495      MXW      
+      endfb8.1                NDL                  2024        7.735800E-01   0.000000E+00                      1.342931      MXW      
+      jeff4.0                 NDL                  2025        6.018100E-01   0.000000E+00                      1.044739      MXW      

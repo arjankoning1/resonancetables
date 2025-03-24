@@ -1,0 +1,55 @@
+# header:
+#   title: Gd152(n,g) MACS
+#   source: Resonancetables
+#   date: 2025-03-23
+# target:
+#   Z: 64
+#   A: 152
+#   nuclide: Gd152
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  1.103166E+00
+#   selected value uncertainty [b]:  2.009830E-02
+#   selected value source: Astral
+#   number of values: 11
+#   average value [b]:  1.028562E+00
+#   relative standard deviation [%]:       5.825743
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  1.033792E+00
+#   relative standard deviation [%]:       4.559158
+# datablock:
+#   columns: 9
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Kadonis                 Compilation          2000        1.049000E+00   1.700000E-02                      0.950899   MXW         
+      Sukhoruchkin            Compilation          2015        9.800000E-01   1.200000E-01                      0.888352   MXW         
+      Mughabghab_2016         Compilation          2016        1.003000E+00   3.000000E-02                      0.909201   MXW         
+      Astral                  Compilation          2020        1.103166E+00   2.009830E-02                      1.000000   MXW         
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  1.102655E+00
+#   relative standard deviation [%]:       1.497750
+# datablock:
+#   columns: 9
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Beer                    EXFOR                1984        1.086140E+00   6.506810E-02   226030092          0.984566   MXW         
+      Beer                    EXFOR                1984        1.119170E+00   7.107431E-02   226030041          1.014507   MXW         
+# quantity:
+#   type: Nuclear data library
+#   average value:  9.947420E-01
+#   relative standard deviation [%]:       5.176418
+# datablock:
+#   columns: 9
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      cendl3.2                NDL                  2019        1.008600E+00   0.000000E+00                      0.914278      MXW      
+      jendl5.0                NDL                  2021        1.021400E+00   0.000000E+00                      0.925880      MXW      
+      tendl.2023              NDL                  2023        9.016600E-01   0.000000E+00                      0.817338      MXW      
+      endfb8.1                NDL                  2024        9.870500E-01   0.000000E+00                      0.894743      MXW      
+      jeff4.0                 NDL                  2025        1.055000E+00   0.000000E+00                      0.956338      MXW      

@@ -1,7 +1,7 @@
 # header:
 #   title: Pb207(n,g) MACS
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 82
 #   A: 207
@@ -9,13 +9,45 @@
 # reaction:
 #   type: (n,g)
 # observables:
-#   selected value [b]:  1.058000E-03
-#   selected value uncertainty [b]:  3.000000E-04
-#   selected value source: Wasson
+#   selected value [b]:  9.900000E-03
+#   selected value uncertainty [b]:  5.000000E-04
+#   selected value source: Kadonis
+#   number of values: 9
+#   average value [b]:  8.866577E-03
+#   relative standard deviation [%]:      32.728947
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  9.366666E-03
+#   relative standard deviation [%]:       8.052463
 # datablock:
-#   quantity: MACS
-#   columns: 8
+#   columns: 9
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Kadonis                 Compilation          2000        9.900000E-03   5.000000E-04                      1.000000   MXW         
+      Sukhoruchkin            Compilation          2015        8.300000E-03   1.500000E-03                      0.838384   MXW         
+      Mughabghab_2016         Compilation          2016        9.900000E-03   6.000000E-04                      1.000000   MXW         
+# quantity:
+#   type: EXFOR
+#   average value:  1.058000E-03
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 9
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      Wasson                  EXFOR                1973        1.058000E-03   3.000000E-04   10972002       1.000000E+00
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Wasson                  EXFOR                1973        1.058000E-03   3.000000E-04   10972002           0.106869               
+# quantity:
+#   type: Nuclear data library
+#   average value:  1.012824E-02
+#   relative standard deviation [%]:       9.263515
+# datablock:
+#   columns: 9
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      cendl3.2                NDL                  2019        8.276200E-03   0.000000E+00                      0.835980      MXW      
+      jendl5.0                NDL                  2021        1.059500E-02   0.000000E+00                      1.070202      MXW      
+      tendl.2023              NDL                  2023        1.059500E-02   0.000000E+00                      1.070202      MXW      
+      endfb8.1                NDL                  2024        1.082600E-02   0.000000E+00                      1.093535      MXW      
+      jeff4.0                 NDL                  2025        1.034900E-02   0.000000E+00                      1.045354      MXW      

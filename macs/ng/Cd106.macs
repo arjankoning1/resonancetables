@@ -1,0 +1,42 @@
+# header:
+#   title: Cd106(n,g) MACS
+#   source: Resonancetables
+#   date: 2025-03-23
+# target:
+#   Z: 48
+#   A: 106
+#   nuclide: Cd106
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  3.020000E-01
+#   selected value uncertainty [b]:  2.400000E-02
+#   selected value source: Kadonis
+#   number of values: 7
+#   average value [b]:  4.683957E-01
+#   relative standard deviation [%]:      14.776647
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  4.273334E-01
+#   relative standard deviation [%]:      20.826683
+# datablock:
+#   columns: 9
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Kadonis                 Compilation          2000        3.020000E-01   2.400000E-02                      1.000000   MXW         
+      Sukhoruchkin            Compilation          2015        5.000000E-01   9.000000E-02                      1.655629   MXW         
+      Mughabghab_2016         Compilation          2016        4.800000E-01   5.000000E-02                      1.589404   MXW         
+# quantity:
+#   type: Nuclear data library
+#   average value:  4.991925E-01
+#   relative standard deviation [%]:       3.035522
+# datablock:
+#   columns: 9
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      jendl5.0                NDL                  2021        4.962100E-01   0.000000E+00                      1.643079      MXW      
+      tendl.2023              NDL                  2023        5.218600E-01   0.000000E+00                      1.728013      MXW      
+      endfb8.1                NDL                  2024        4.994000E-01   0.000000E+00                      1.653642      MXW      
+      jeff4.0                 NDL                  2025        4.793000E-01   0.000000E+00                      1.587086      MXW      

@@ -1,7 +1,7 @@
 # header:
 #   title: Ir193(n,g) MACS
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 77
 #   A: 193
@@ -9,13 +9,55 @@
 # reaction:
 #   type: (n,g)
 # observables:
-#   selected value [b]:  6.300001E-01
-#   selected value uncertainty [b]:  5.000000E-02
-#   selected value source: Chaubey
+#   selected value [b]:  8.992944E-01
+#   selected value uncertainty [b]:  6.205131E-02
+#   selected value source: Astral
+#   number of values: 10
+#   average value [b]:  9.809685E-01
+#   relative standard deviation [%]:      13.755630
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  9.968236E-01
+#   relative standard deviation [%]:       7.124259
 # datablock:
-#   quantity: MACS
-#   columns: 8
+#   columns: 9
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Kadonis                 Compilation          2000        9.940000E-01   7.000000E-02                      1.105311   MXW         
+      Sukhoruchkin            Compilation          2015        1.100000E+00   3.000000E-01                      1.223181   MXW         
+      Mughabghab_2016         Compilation          2016        9.940000E-01   7.000000E-01                      1.105311   MXW         
+      Astral                  Compilation          2020        8.992944E-01   6.205131E-02                      1.000000   MXW         
+# quantity:
+#   type: EXFOR
+#   average value:  6.300001E-01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 9
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      Chaubey                 EXFOR                1966        6.300001E-01   5.000000E-02   30079038       1.000000E+00
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Chaubey                 EXFOR                1966        6.300001E-01   5.000000E-02   30079038           0.700549               
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  9.940000E-01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Jaag                    EXFOR                1997        9.940000E-01   7.000000E-02   22449003           1.105311   MXW         
+# quantity:
+#   type: Nuclear data library
+#   average value:  1.049598E+00
+#   relative standard deviation [%]:       6.517175
+# datablock:
+#   columns: 9
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      jendl5.0                NDL                  2021        9.877700E-01   0.000000E+00                      1.098383      MXW      
+      tendl.2023              NDL                  2023        1.114000E+00   0.000000E+00                      1.238749      MXW      
+      endfb8.1                NDL                  2024        1.121600E+00   0.000000E+00                      1.247200      MXW      
+      jeff4.0                 NDL                  2025        9.750200E-01   0.000000E+00                      1.084206      MXW      

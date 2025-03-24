@@ -1,0 +1,54 @@
+# header:
+#   title: Ce138(n,g) MACS
+#   source: Resonancetables
+#   date: 2025-03-23
+# target:
+#   Z: 58
+#   A: 138
+#   nuclide: Ce138
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  1.658064E-01
+#   selected value uncertainty [b]:  2.875167E-03
+#   selected value source: Astral
+#   number of values: 10
+#   average value [b]:  1.774069E-01
+#   relative standard deviation [%]:      27.896242
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  1.746021E-01
+#   relative standard deviation [%]:       3.562114
+# datablock:
+#   columns: 9
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Kadonis                 Compilation          2000        1.790000E-01   5.000000E-03                      1.079572   MXW         
+      Mughabghab_2016         Compilation          2016        1.790000E-01   5.000000E-03                      1.079572   MXW         
+      Astral                  Compilation          2020        1.658064E-01   2.875167E-03                      1.000000   MXW         
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  1.980425E-01
+#   relative standard deviation [%]:       2.546175
+# datablock:
+#   columns: 9
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Kappeler                EXFOR                1996        2.030850E-01   5.002100E-03   234200191          1.224832   MXW         
+      Kappeler                EXFOR                1996        1.930000E-01   5.000000E-03   234200091          1.164008   MXW         
+# quantity:
+#   type: Nuclear data library
+#   average value:  1.708356E-01
+#   relative standard deviation [%]:      39.902714
+# datablock:
+#   columns: 9
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      cendl3.2                NDL                  2019        4.710800E-02   0.000000E+00                      0.284114      MXW      
+      jendl5.0                NDL                  2021        1.476000E-01   0.000000E+00                      0.890195      MXW      
+      tendl.2023              NDL                  2023        2.254000E-01   0.000000E+00                      1.359417      MXW      
+      endfb8.1                NDL                  2024        2.086700E-01   0.000000E+00                      1.258516      MXW      
+      jeff4.0                 NDL                  2025        2.254000E-01   0.000000E+00                      1.359417      MXW      

@@ -1,7 +1,7 @@
 # header:
 #   title: W186(n,g) MACS
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 74
 #   A: 186
@@ -9,17 +9,60 @@
 # reaction:
 #   type: (n,g)
 # observables:
-#   selected value [b]:  2.524930E-01
-#   selected value uncertainty [b]:  1.301160E-02
-#   selected value source: Bradley
+#   selected value [b]:  1.768613E-01
+#   selected value uncertainty [b]:  2.622492E-03
+#   selected value source: Astral
+#   number of values: 15
+#   average value [b]:  2.200232E-01
+#   relative standard deviation [%]:      18.193129
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  2.079653E-01
+#   relative standard deviation [%]:      11.666457
 # datablock:
-#   quantity: MACS
-#   columns: 8
+#   columns: 9
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Kadonis                 Compilation          2000        2.350000E-01   9.000001E-03                      1.328725   MXW         
+      Sukhoruchkin            Compilation          2015        1.920000E-01   2.200000E-02                      1.085596   MXW         
+      Mughabghab_2016         Compilation          2016        2.280000E-01   1.000000E-02                      1.289146   MXW         
+      Astral                  Compilation          2020        1.768613E-01   2.622492E-03                      1.000000   MXW         
+# quantity:
+#   type: EXFOR
+#   average value:  2.426528E-01
+#   relative standard deviation [%]:      18.474508
+# datablock:
+#   columns: 9
 #   entries: 5
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      Macklin                 EXFOR                1957        2.567710E-01   3.816870E-02   11399045       1.016943E+00
-      Kononov                 EXFOR                1958        2.790000E-01   5.800000E-02   40421023       1.104981E+00
-      Booth                   EXFOR                1958        2.700000E-01   7.000000E-02   11429028       1.069337E+00
-      Chaubey                 EXFOR                1966        1.550000E-01   2.000000E-02   30079035       6.138784E-01
-      Bradley                 EXFOR                1979        2.524930E-01   1.301160E-02   10938006       1.000000E+00
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Macklin                 EXFOR                1957        2.567710E-01   3.816870E-02   11399045           1.451821               
+      Kononov                 EXFOR                1958        2.790000E-01   5.800000E-02   40421023           1.577507               
+      Booth                   EXFOR                1958        2.700000E-01   7.000000E-02   11429028           1.526620               
+      Chaubey                 EXFOR                1966        1.550000E-01   2.000000E-02   30079035           0.876393               
+      Bradley                 EXFOR                1979        2.524930E-01   1.301160E-02   10938006           1.427633               
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  1.990830E-01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Marganiec               EXFOR                2009        1.990830E-01   5.802400E-03   14248003           1.125645   MXW         
+# quantity:
+#   type: Nuclear data library
+#   average value:  2.112280E-01
+#   relative standard deviation [%]:      18.535954
+# datablock:
+#   columns: 9
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      cendl3.2                NDL                  2019        1.946400E-01   0.000000E+00                      1.100523      MXW      
+      jendl5.0                NDL                  2021        1.933600E-01   0.000000E+00                      1.093286      MXW      
+      tendl.2023              NDL                  2023        2.894200E-01   0.000000E+00                      1.636424      MXW      
+      endfb8.1                NDL                  2024        1.893600E-01   0.000000E+00                      1.070669      MXW      
+      jeff4.0                 NDL                  2025        1.893600E-01   0.000000E+00                      1.070669      MXW      

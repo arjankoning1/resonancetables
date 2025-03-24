@@ -1,7 +1,7 @@
 # header:
 #   title: Mn055(n,g) MACS
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 25
 #   A: 55
@@ -9,18 +9,59 @@
 # reaction:
 #   type: (n,g)
 # observables:
-#   selected value [b]:  4.081740E-02
-#   selected value uncertainty [b]:  7.320201E-04
-#   selected value source: Chaturvedi
+#   selected value [b]:  3.960000E-02
+#   selected value uncertainty [b]:  3.000000E-03
+#   selected value source: Kadonis
+#   number of values: 14
+#   average value [b]:  4.334103E-02
+#   relative standard deviation [%]:      30.911018
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  3.630000E-02
+#   relative standard deviation [%]:       9.090909
 # datablock:
-#   quantity: MACS
-#   columns: 8
+#   columns: 9
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Kadonis                 Compilation          2000        3.960000E-02   3.000000E-03                      1.000000   MXW         
+      Sukhoruchkin            Compilation          2015        3.300000E-02   3.000000E-03                      0.833333   MXW         
+# quantity:
+#   type: EXFOR
+#   average value:  5.486957E-02
+#   relative standard deviation [%]:      23.932049
+# datablock:
+#   columns: 9
 #   entries: 6
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      Hummel                  EXFOR                1951        7.800000E-02   9.360000E-03   11010004       1.910950E+00
-      Macklin                 EXFOR                1957        5.500000E-02   6.000000E-03   11399009       1.347465E+00
-      Kononov                 EXFOR                1958        6.340001E-02   2.300000E-03   40421011       1.553259E+00
-      Booth                   EXFOR                1958        5.200000E-02   1.600000E-02   11429006       1.273966E+00
-      Chaubey                 EXFOR                1965        4.000000E-02   3.000000E-03   30063002       9.799743E-01
-      Chaturvedi              EXFOR                1970        4.081740E-02   7.320201E-04   30493002       1.000000E+00
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Hummel                  EXFOR                1951        7.800000E-02   9.360000E-03   11010004           1.969697               
+      Macklin                 EXFOR                1957        5.500000E-02   6.000000E-03   11399009           1.388889               
+      Kononov                 EXFOR                1958        6.340001E-02   2.300000E-03   40421011           1.601010               
+      Booth                   EXFOR                1958        5.200000E-02   1.600000E-02   11429006           1.313131               
+      Chaubey                 EXFOR                1965        4.000000E-02   3.000000E-03   30063002           1.010101               
+      Chaturvedi              EXFOR                1970        4.081740E-02   7.320201E-04   30493002           1.030743               
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  4.070000E-02
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Stavisskii              EXFOR                1965        4.070000E-02   8.000000E-03   41635010           1.027778   MXW         
+# quantity:
+#   type: Nuclear data library
+#   average value:  3.285140E-02
+#   relative standard deviation [%]:       2.218420
+# datablock:
+#   columns: 9
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      cendl3.2                NDL                  2019        3.140900E-02   0.000000E+00                      0.793157      MXW      
+      jendl5.0                NDL                  2021        3.301000E-02   0.000000E+00                      0.833586      MXW      
+      tendl.2023              NDL                  2023        3.326000E-02   0.000000E+00                      0.839899      MXW      
+      endfb8.1                NDL                  2024        3.328900E-02   0.000000E+00                      0.840631      MXW      
+      jeff4.0                 NDL                  2025        3.328900E-02   0.000000E+00                      0.840631      MXW      

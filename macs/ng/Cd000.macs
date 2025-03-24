@@ -1,7 +1,7 @@
 # header:
 #   title: Cd000(n,g) MACS
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 48
 #   A: 0
@@ -12,17 +12,23 @@
 #   selected value [b]:  3.840000E-01
 #   selected value uncertainty [b]:  2.000000E-02
 #   selected value source: Belanova
+#   number of values: 8
+#   average value [b]:  4.197500E-01
+#   relative standard deviation [%]:      11.275279
+# quantity:
+#   type: EXFOR
+#   average value:  4.197500E-01
+#   relative standard deviation [%]:      11.275279
 # datablock:
-#   quantity: MACS
-#   columns: 8
+#   columns: 9
 #   entries: 8
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      Schmitt                 EXFOR                1960        5.150000E-01   7.000000E-02   11778006       1.341146E+00
-      Macklin                 EXFOR                1963        3.430000E-01   7.203000E-02   11380008       8.932292E-01
-      Belanova                EXFOR                1965        4.110000E-01   2.000000E-02   400720275      1.070312E+00
-      Belanova                EXFOR                1965        3.980000E-01   2.800000E-02   400720274      1.036458E+00
-      Belanova                EXFOR                1965        4.230000E-01   2.000000E-02   400720273      1.101562E+00
-      Belanova                EXFOR                1965        4.340000E-01   1.800000E-02   400720272      1.130208E+00
-      Belanova                EXFOR                1965        4.500000E-01   2.000000E-02   400720271      1.171875E+00
-      Belanova                EXFOR                1965        3.840000E-01   2.000000E-02   40072009       1.000000E+00
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Schmitt                 EXFOR                1960        5.150000E-01   7.000000E-02   11778006           1.341146               
+      Macklin                 EXFOR                1963        3.430000E-01   7.203000E-02   11380008           0.893229               
+      Belanova                EXFOR                1965        4.110000E-01   2.000000E-02   400720275          1.070312               
+      Belanova                EXFOR                1965        3.980000E-01   2.800000E-02   400720274          1.036458               
+      Belanova                EXFOR                1965        4.230000E-01   2.000000E-02   400720273          1.101562               
+      Belanova                EXFOR                1965        4.340000E-01   1.800000E-02   400720272          1.130208               
+      Belanova                EXFOR                1965        4.500000E-01   2.000000E-02   400720271          1.171875               
+      Belanova                EXFOR                1965        3.840000E-01   2.000000E-02   40072009           1.000000               

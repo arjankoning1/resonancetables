@@ -1,0 +1,53 @@
+# header:
+#   title: Pt190(n,g) MACS
+#   source: Resonancetables
+#   date: 2025-03-23
+# target:
+#   Z: 78
+#   A: 190
+#   nuclide: Pt190
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  5.407292E-01
+#   selected value uncertainty [b]:  2.202373E-02
+#   selected value source: Astral
+#   number of values: 9
+#   average value [b]:  5.826911E-01
+#   relative standard deviation [%]:      22.400793
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  5.199097E-01
+#   relative standard deviation [%]:       2.841345
+# datablock:
+#   columns: 9
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Kadonis                 Compilation          2000        5.080000E-01   4.400000E-02                      0.939472   MXW         
+      Mughabghab_2016         Compilation          2016        5.110000E-01   5.200000E-02                      0.945020   MXW         
+      Astral                  Compilation          2020        5.407292E-01   2.202373E-02                      1.000000   MXW         
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  5.115000E-01
+#   relative standard deviation [%]:       3.030302
+# datablock:
+#   columns: 9
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Marganiec               EXFOR                2010        5.270000E-01   4.700000E-02   23094029           0.974610   MXW         
+      Marganiec               EXFOR                2010        4.960000E-01   4.500000E-02   23094011           0.917280   MXW         
+# quantity:
+#   type: Nuclear data library
+#   average value:  6.653725E-01
+#   relative standard deviation [%]:      24.104824
+# datablock:
+#   columns: 9
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      jendl5.0                NDL                  2021        5.115200E-01   0.000000E+00                      0.945982      MXW      
+      tendl.2023              NDL                  2023        9.299700E-01   0.000000E+00                      1.719844      MXW      
+      endfb8.1                NDL                  2024        6.492500E-01   0.000000E+00                      1.200693      MXW      
+      jeff4.0                 NDL                  2025        5.707500E-01   0.000000E+00                      1.055519      MXW      

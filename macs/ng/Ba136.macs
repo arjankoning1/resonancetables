@@ -1,7 +1,7 @@
 # header:
 #   title: Ba136(n,g) MACS
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 56
 #   A: 136
@@ -9,13 +9,56 @@
 # reaction:
 #   type: (n,g)
 # observables:
-#   selected value [b]:  9.000000E-02
-#   selected value uncertainty [b]:  2.000000E-02
-#   selected value source: Stroud
+#   selected value [b]:  6.739025E-02
+#   selected value uncertainty [b]:  2.259080E-03
+#   selected value source: Astral
+#   number of values: 11
+#   average value [b]:  6.783003E-02
+#   relative standard deviation [%]:      11.182116
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  6.577256E-02
+#   relative standard deviation [%]:       4.985853
 # datablock:
-#   quantity: MACS
-#   columns: 8
+#   columns: 9
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Kadonis                 Compilation          2000        6.120000E-02   2.000000E-03                      0.908143   MXW         
+      Sukhoruchkin            Compilation          2015        7.000000E-02   1.100000E-02                      1.038726   MXW         
+      Mughabghab_2016         Compilation          2016        6.450000E-02   2.100000E-03                      0.957112   MXW         
+      Astral                  Compilation          2020        6.739025E-02   2.259080E-03                      1.000000   MXW         
+# quantity:
+#   type: EXFOR
+#   average value:  9.000000E-02
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 9
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      Stroud                  EXFOR                1972        9.000000E-02   2.000000E-02   30506012       1.000000E+00
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Stroud                  EXFOR                1972        9.000000E-02   2.000000E-02   30506012           1.335505               
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  6.200000E-02
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Wisshak                 EXFOR                1994        6.200000E-02   2.100000E-03   22337004           0.920014   MXW         
+# quantity:
+#   type: Nuclear data library
+#   average value:  6.620800E-02
+#   relative standard deviation [%]:       3.951697
+# datablock:
+#   columns: 9
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      cendl3.2                NDL                  2019        6.776800E-02   0.000000E+00                      1.005605      MXW      
+      jendl5.0                NDL                  2021        6.621700E-02   0.000000E+00                      0.982590      MXW      
+      tendl.2023              NDL                  2023        6.341300E-02   0.000000E+00                      0.940982      MXW      
+      endfb8.1                NDL                  2024        7.022900E-02   0.000000E+00                      1.042124      MXW      
+      jeff4.0                 NDL                  2025        6.341300E-02   0.000000E+00                      0.940982      MXW      

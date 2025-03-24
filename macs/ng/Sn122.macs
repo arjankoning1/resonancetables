@@ -1,0 +1,53 @@
+# header:
+#   title: Sn122(n,g) MACS
+#   source: Resonancetables
+#   date: 2025-03-23
+# target:
+#   Z: 50
+#   A: 122
+#   nuclide: Sn122
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  2.190000E-02
+#   selected value uncertainty [b]:  1.500000E-03
+#   selected value source: Kadonis
+#   number of values: 9
+#   average value [b]:  2.123744E-02
+#   relative standard deviation [%]:      21.920410
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  1.956667E-02
+#   relative standard deviation [%]:      16.864555
+# datablock:
+#   columns: 9
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Kadonis                 Compilation          2000        2.190000E-02   1.500000E-03                      1.000000   MXW         
+      Sukhoruchkin            Compilation          2015        1.490000E-02   2.900000E-02                      0.680365   MXW         
+      Mughabghab_2016         Compilation          2016        2.190000E-02   1.500000E-03                      1.000000   MXW         
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  2.300000E-02
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Macklin                 EXFOR                1962        2.300000E-02   5.000000E-03   11958008           1.050228   MXW         
+# quantity:
+#   type: Nuclear data library
+#   average value:  2.188740E-02
+#   relative standard deviation [%]:      24.923363
+# datablock:
+#   columns: 9
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      cendl3.2                NDL                  2019        2.398900E-02   0.000000E+00                      1.095388      MXW      
+      jendl5.0                NDL                  2021        3.057600E-02   0.000000E+00                      1.396164      MXW      
+      tendl.2023              NDL                  2023        2.263600E-02   0.000000E+00                      1.033607      MXW      
+      endfb8.1                NDL                  2024        1.518300E-02   0.000000E+00                      0.693288      MXW      
+      jeff4.0                 NDL                  2025        1.705300E-02   0.000000E+00                      0.778676      MXW      

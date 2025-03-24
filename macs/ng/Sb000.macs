@@ -1,7 +1,7 @@
 # header:
 #   title: Sb000(n,g) MACS
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 51
 #   A: 0
@@ -12,12 +12,18 @@
 #   selected value [b]:  5.800000E-01
 #   selected value uncertainty [b]:  7.300001E-02
 #   selected value source: Belanova
+#   number of values: 3
+#   average value [b]:  5.893334E-01
+#   relative standard deviation [%]:       2.483540
+# quantity:
+#   type: EXFOR
+#   average value:  5.893334E-01
+#   relative standard deviation [%]:       2.483540
 # datablock:
-#   quantity: MACS
-#   columns: 8
+#   columns: 9
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      Schmitt                 EXFOR                1960        5.780000E-01   4.500000E-02   11778010       9.965517E-01
-      Belanova                EXFOR                1965        6.100000E-01   7.200000E-02   40072030       1.051724E+00
-      Belanova                EXFOR                1965        5.800000E-01   7.300001E-02   40072012       1.000000E+00
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Schmitt                 EXFOR                1960        5.780000E-01   4.500000E-02   11778010           0.996552               
+      Belanova                EXFOR                1965        6.100000E-01   7.200000E-02   40072030           1.051724               
+      Belanova                EXFOR                1965        5.800000E-01   7.300001E-02   40072012           1.000000               

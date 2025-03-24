@@ -1,7 +1,7 @@
 # header:
 #   title: Ce142(n,g) MACS
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 58
 #   A: 142
@@ -9,15 +9,61 @@
 # reaction:
 #   type: (n,g)
 # observables:
-#   selected value [b]:  1.900000E-02
-#   selected value uncertainty [b]:  4.000000E-03
-#   selected value source: Anand
+#   selected value [b]:  2.544909E-02
+#   selected value uncertainty [b]:  3.542219E-04
+#   selected value source: Astral
+#   number of values: 16
+#   average value [b]:  8.134223E-02
+#   relative standard deviation [%]:     184.313919
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  2.581227E-02
+#   relative standard deviation [%]:      14.313644
 # datablock:
-#   quantity: MACS
-#   columns: 8
+#   columns: 9
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Kadonis                 Compilation          2000        2.800000E-02   1.000000E-03                      1.100236   MXW         
+      Sukhoruchkin            Compilation          2015        2.000000E-02   4.000000E-03                      0.785883   MXW         
+      Mughabghab_2016         Compilation          2016        2.980000E-02   1.100000E-03                      1.170965   MXW         
+      Astral                  Compilation          2020        2.544909E-02   3.542219E-04                      1.000000   MXW         
+# quantity:
+#   type: EXFOR
+#   average value:  3.230000E-01
+#   relative standard deviation [%]:      67.740814
+# datablock:
+#   columns: 9
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      Macklin                 EXFOR                1957        4.250000E-01   4.300000E-02   11399037       2.236842E+01
-      Chaubey                 EXFOR                1966        5.250000E-01   5.000000E-02   30079029       2.763158E+01
-      Anand                   EXFOR                1979        1.900000E-02   4.000000E-03   30390014       1.000000E+00
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Macklin                 EXFOR                1957        4.250000E-01   4.300000E-02   11399037          16.700008               
+      Chaubey                 EXFOR                1966        5.250000E-01   5.000000E-02   30079029          20.629423               
+      Anand                   EXFOR                1979        1.900000E-02   4.000000E-03   30390014           0.746589               
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  3.193390E-02
+#   relative standard deviation [%]:       8.123831
+# datablock:
+#   columns: 9
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Beer                    EXFOR                1980        2.871200E-02   1.200500E-03   216470152          1.128213   MXW         
+      XiaYijunn               EXFOR                1990        3.581000E-02   2.000000E-03   32536003           1.407123   MXW         
+      Kappeler                EXFOR                1996        3.241360E-02   1.000400E-03   234200211          1.273664   MXW         
+      Kappeler                EXFOR                1996        3.080000E-02   1.000000E-03   234200111          1.210259   MXW         
+# quantity:
+#   type: Nuclear data library
+#   average value:  2.029820E-02
+#   relative standard deviation [%]:       6.404854
+# datablock:
+#   columns: 9
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      cendl3.2                NDL                  2019        1.988100E-02   0.000000E+00                      0.781207      MXW      
+      jendl5.0                NDL                  2021        1.988100E-02   0.000000E+00                      0.781207      MXW      
+      tendl.2023              NDL                  2023        1.943100E-02   0.000000E+00                      0.763524      MXW      
+      endfb8.1                NDL                  2024        2.286700E-02   0.000000E+00                      0.898539      MXW      
+      jeff4.0                 NDL                  2025        1.943100E-02   0.000000E+00                      0.763524      MXW      

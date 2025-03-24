@@ -1,0 +1,54 @@
+# header:
+#   title: Yb176(n,g) MACS
+#   source: Resonancetables
+#   date: 2025-03-23
+# target:
+#   Z: 70
+#   A: 176
+#   nuclide: Yb176
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  1.231817E-01
+#   selected value uncertainty [b]:  2.477174E-03
+#   selected value source: Astral
+#   number of values: 10
+#   average value [b]:  1.209933E-01
+#   relative standard deviation [%]:       8.810451
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  1.172954E-01
+#   relative standard deviation [%]:       2.979787
+# datablock:
+#   columns: 9
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Kadonis                 Compilation          2000        1.160000E-01   2.000000E-03                      0.941698   MXW         
+      Sukhoruchkin            Compilation          2015        1.160000E-01   2.000000E-03                      0.941698   MXW         
+      Mughabghab_2016         Compilation          2016        1.140000E-01   8.000000E-03                      0.925462   MXW         
+      Astral                  Compilation          2020        1.231817E-01   2.477174E-03                      1.000000   MXW         
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  1.331305E-01
+#   relative standard deviation [%]:       9.862879
+# datablock:
+#   columns: 9
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Marganiec               EXFOR                2014        1.462610E-01   1.053080E-02   232670322          1.187360   MXW         
+      Marganiec               EXFOR                2014        1.200000E-01   8.760001E-03   23267021           0.974171   MXW         
+# quantity:
+#   type: Nuclear data library
+#   average value:  1.186225E-01
+#   relative standard deviation [%]:       8.117446
+# datablock:
+#   columns: 9
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      jendl5.0                NDL                  2021        1.213300E-01   0.000000E+00                      0.984968      MXW      
+      tendl.2023              NDL                  2023        1.039100E-01   0.000000E+00                      0.843551      MXW      
+      endfb8.1                NDL                  2024        1.307500E-01   0.000000E+00                      1.061440      MXW      
+      jeff4.0                 NDL                  2025        1.185000E-01   0.000000E+00                      0.961994      MXW      

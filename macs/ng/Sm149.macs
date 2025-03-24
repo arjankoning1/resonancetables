@@ -1,7 +1,7 @@
 # header:
 #   title: Sm149(n,g) MACS
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 62
 #   A: 149
@@ -9,13 +9,56 @@
 # reaction:
 #   type: (n,g)
 # observables:
-#   selected value [b]:  1.622000E+00
-#   selected value uncertainty [b]:  2.790000E-01
-#   selected value source: Macklin
+#   selected value [b]:  1.932460E+00
+#   selected value uncertainty [b]:  2.933776E-02
+#   selected value source: Astral
+#   number of values: 11
+#   average value [b]:  1.812996E+00
+#   relative standard deviation [%]:       6.022068
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  1.843115E+00
+#   relative standard deviation [%]:       2.833550
 # datablock:
-#   quantity: MACS
-#   columns: 8
+#   columns: 9
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Kadonis                 Compilation          2000        1.820000E+00   1.700000E-02                      0.941805   MXW         
+      Sukhoruchkin            Compilation          2015        1.800000E+00   4.000000E-01                      0.931455   MXW         
+      Mughabghab_2016         Compilation          2016        1.820000E+00   2.000000E-02                      0.941805   MXW         
+      Astral                  Compilation          2020        1.932460E+00   2.933776E-02                      1.000000   MXW         
+# quantity:
+#   type: EXFOR
+#   average value:  1.622000E+00
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 9
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      Macklin                 EXFOR                1963        1.622000E+00   2.790000E-01   12095005       1.000000E+00
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Macklin                 EXFOR                1963        1.622000E+00   2.790000E-01   12095005           0.839345               
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  1.620000E+00
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Macklin                 EXFOR                1967        1.620000E+00   2.800000E-01   14322010           0.838310   MXW         
+# quantity:
+#   type: Nuclear data library
+#   average value:  1.865700E+00
+#   relative standard deviation [%]:       4.079779
+# datablock:
+#   columns: 9
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      cendl3.2                NDL                  2019        1.830300E+00   0.000000E+00                      0.947135      MXW      
+      jendl5.0                NDL                  2021        1.823600E+00   0.000000E+00                      0.943668      MXW      
+      tendl.2023              NDL                  2023        2.005700E+00   0.000000E+00                      1.037900      MXW      
+      endfb8.1                NDL                  2024        1.787600E+00   0.000000E+00                      0.925039      MXW      
+      jeff4.0                 NDL                  2025        1.881300E+00   0.000000E+00                      0.973526      MXW      

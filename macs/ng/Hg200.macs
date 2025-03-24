@@ -1,0 +1,42 @@
+# header:
+#   title: Hg200(n,g) MACS
+#   source: Resonancetables
+#   date: 2025-03-23
+# target:
+#   Z: 80
+#   A: 200
+#   nuclide: Hg200
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  1.150000E-01
+#   selected value uncertainty [b]:  1.200000E-02
+#   selected value source: Kadonis
+#   number of values: 7
+#   average value [b]:  1.233814E-01
+#   relative standard deviation [%]:       5.730532
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  1.193333E-01
+#   relative standard deviation [%]:       5.135414
+# datablock:
+#   columns: 9
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Kadonis                 Compilation          2000        1.150000E-01   1.200000E-02                      1.000000   MXW         
+      Sukhoruchkin            Compilation          2015        1.280000E-01   2.400000E-02                      1.113044   MXW         
+      Mughabghab_2016         Compilation          2016        1.150000E-01   1.200000E-02                      1.000000   MXW         
+# quantity:
+#   type: Nuclear data library
+#   average value:  1.264175E-01
+#   relative standard deviation [%]:       4.863968
+# datablock:
+#   columns: 9
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      jendl5.0                NDL                  2021        1.241300E-01   0.000000E+00                      1.079391      MXW      
+      tendl.2023              NDL                  2023        1.352900E-01   0.000000E+00                      1.176435      MXW      
+      endfb8.1                NDL                  2024        1.279000E-01   0.000000E+00                      1.112174      MXW      
+      jeff4.0                 NDL                  2025        1.183500E-01   0.000000E+00                      1.029130      MXW      

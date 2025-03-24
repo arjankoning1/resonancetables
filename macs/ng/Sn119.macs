@@ -1,0 +1,54 @@
+# header:
+#   title: Sn119(n,g) MACS
+#   source: Resonancetables
+#   date: 2025-03-23
+# target:
+#   Z: 50
+#   A: 119
+#   nuclide: Sn119
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  1.800000E-01
+#   selected value uncertainty [b]:  1.000000E-02
+#   selected value source: Kadonis
+#   number of values: 10
+#   average value [b]:  2.196190E-01
+#   relative standard deviation [%]:      10.088873
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  1.980000E-01
+#   relative standard deviation [%]:       8.370236
+# datablock:
+#   columns: 9
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Kadonis                 Compilation          2000        1.800000E-01   1.000000E-02                      1.000000   MXW         
+      Sukhoruchkin            Compilation          2015        2.200000E-01   6.000000E-02                      1.222222   MXW         
+      Mughabghab_2016         Compilation          2016        1.940000E-01   1.000000E-02                      1.077778   MXW         
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  2.500000E-01
+#   relative standard deviation [%]:       2.799997
+# datablock:
+#   columns: 9
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Macklin                 EXFOR                1962        2.430000E-01   5.100000E-02   11958006           1.350000   MXW         
+      Macklin                 EXFOR                1967        2.570000E-01   5.400000E-02   14322005           1.427778   MXW         
+# quantity:
+#   type: Nuclear data library
+#   average value:  2.204380E-01
+#   relative standard deviation [%]:       5.503319
+# datablock:
+#   columns: 9
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      cendl3.2                NDL                  2019        2.246800E-01   0.000000E+00                      1.248222      MXW      
+      jendl5.0                NDL                  2021        2.262200E-01   0.000000E+00                      1.256778      MXW      
+      tendl.2023              NDL                  2023        2.352300E-01   0.000000E+00                      1.306833      MXW      
+      endfb8.1                NDL                  2024        1.991500E-01   0.000000E+00                      1.106389      MXW      
+      jeff4.0                 NDL                  2025        2.169100E-01   0.000000E+00                      1.205055      MXW      

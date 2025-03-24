@@ -1,0 +1,53 @@
+# header:
+#   title: Te126(n,g) MACS
+#   source: Resonancetables
+#   date: 2025-03-23
+# target:
+#   Z: 52
+#   A: 126
+#   nuclide: Te126
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  8.638100E-02
+#   selected value uncertainty [b]:  1.594460E-03
+#   selected value source: Astral
+#   number of values: 9
+#   average value [b]:  8.293634E-02
+#   relative standard deviation [%]:       3.868153
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  8.224525E-02
+#   relative standard deviation [%]:       2.974087
+# datablock:
+#   columns: 9
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Kadonis                 Compilation          2000        8.130001E-02   1.400000E-03                      0.941179   MXW         
+      Sukhoruchkin            Compilation          2015        8.000000E-02   1.500000E-02                      0.926130   MXW         
+      Mughabghab_2016         Compilation          2016        8.130000E-02   1.400000E-03                      0.941179   MXW         
+      Astral                  Compilation          2020        8.638100E-02   1.594460E-03                      1.000000   MXW         
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  8.900000E-02
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Macklin                 EXFOR                1967        8.900000E-02   1.500000E-02   14322026           1.030319   MXW         
+# quantity:
+#   type: Nuclear data library
+#   average value:  8.211151E-02
+#   relative standard deviation [%]:       3.181323
+# datablock:
+#   columns: 9
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      jendl5.0                NDL                  2021        8.656000E-02   0.000000E+00                      1.002072      MXW      
+      tendl.2023              NDL                  2023        8.101800E-02   0.000000E+00                      0.937915      MXW      
+      endfb8.1                NDL                  2024        7.985000E-02   0.000000E+00                      0.924393      MXW      
+      jeff4.0                 NDL                  2025        8.101800E-02   0.000000E+00                      0.937915      MXW      

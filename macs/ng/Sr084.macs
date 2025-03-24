@@ -1,0 +1,55 @@
+# header:
+#   title: Sr084(n,g) MACS
+#   source: Resonancetables
+#   date: 2025-03-23
+# target:
+#   Z: 38
+#   A: 84
+#   nuclide: Sr084
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  2.828592E-01
+#   selected value uncertainty [b]:  3.714104E-03
+#   selected value source: Astral
+#   number of values: 11
+#   average value [b]:  3.168038E-01
+#   relative standard deviation [%]:       6.176010
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  3.039648E-01
+#   relative standard deviation [%]:       4.652347
+# datablock:
+#   columns: 9
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Kadonis                 Compilation          2000        3.000000E-01   1.700000E-02                      1.060598   MXW         
+      Sukhoruchkin            Compilation          2015        3.200000E-01   7.000000E-02                      1.131305   MXW         
+      Mughabghab_2016         Compilation          2016        3.130000E-01   1.700000E-02                      1.106558   MXW         
+      Astral                  Compilation          2020        2.828592E-01   3.714104E-03                      1.000000   MXW         
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  3.291377E-01
+#   relative standard deviation [%]:       8.294373
+# datablock:
+#   columns: 9
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Dillmann                EXFOR                2006        3.201340E-01   1.900790E-02   228920212          1.131779   MXW         
+      Dillmann                EXFOR                2006        3.011260E-01   1.800750E-02   22892009           1.064579   MXW         
+      Dillmann                EXFOR                2006        3.661530E-01   1.700710E-02   22892005           1.294471   MXW         
+# quantity:
+#   type: Nuclear data library
+#   average value:  3.203925E-01
+#   relative standard deviation [%]:       0.441677
+# datablock:
+#   columns: 9
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      jendl5.0                NDL                  2021        3.226500E-01   0.000000E+00                      1.140673      MXW      
+      tendl.2023              NDL                  2023        3.191900E-01   0.000000E+00                      1.128441      MXW      
+      endfb8.1                NDL                  2024        3.205400E-01   0.000000E+00                      1.133214      MXW      
+      jeff4.0                 NDL                  2025        3.191900E-01   0.000000E+00                      1.128441      MXW      

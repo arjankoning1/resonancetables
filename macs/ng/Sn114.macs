@@ -1,0 +1,44 @@
+# header:
+#   title: Sn114(n,g) MACS
+#   source: Resonancetables
+#   date: 2025-03-23
+# target:
+#   Z: 50
+#   A: 114
+#   nuclide: Sn114
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  1.431375E-01
+#   selected value uncertainty [b]:  2.211415E-03
+#   selected value source: Astral
+#   number of values: 9
+#   average value [b]:  1.488886E-01
+#   relative standard deviation [%]:      12.263168
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  1.422594E-01
+#   relative standard deviation [%]:       3.898553
+# datablock:
+#   columns: 9
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Kadonis                 Compilation          2000        1.344000E-01   1.800000E-03                      0.938957   MXW         
+      Sukhoruchkin            Compilation          2015        1.500000E-01   3.000000E-02                      1.047943   MXW         
+      Mughabghab_2016         Compilation          2016        1.415000E-01   1.900000E-03                      0.988560   MXW         
+      Astral                  Compilation          2020        1.431375E-01   2.211415E-03                      1.000000   MXW         
+# quantity:
+#   type: Nuclear data library
+#   average value:  1.541920E-01
+#   relative standard deviation [%]:      14.677388
+# datablock:
+#   columns: 9
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      cendl3.2                NDL                  2019        1.520200E-01   0.000000E+00                      1.062056      MXW      
+      jendl5.0                NDL                  2021        1.233100E-01   0.000000E+00                      0.861479      MXW      
+      tendl.2023              NDL                  2023        1.937400E-01   0.000000E+00                      1.353524      MXW      
+      endfb8.1                NDL                  2024        1.538900E-01   0.000000E+00                      1.075120      MXW      
+      jeff4.0                 NDL                  2025        1.480000E-01   0.000000E+00                      1.033971      MXW      

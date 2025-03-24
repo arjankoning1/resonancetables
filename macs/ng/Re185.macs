@@ -1,7 +1,7 @@
 # header:
 #   title: Re185(n,g) MACS
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 75
 #   A: 185
@@ -9,13 +9,44 @@
 # reaction:
 #   type: (n,g)
 # observables:
-#   selected value [b]:  1.765000E+00
-#   selected value uncertainty [b]:  2.650000E-01
-#   selected value source: Chaubey
+#   selected value [b]:  1.535000E+00
+#   selected value uncertainty [b]:  6.200000E-02
+#   selected value source: Kadonis
+#   number of values: 8
+#   average value [b]:  1.487975E+00
+#   relative standard deviation [%]:      15.746021
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  1.412333E+00
+#   relative standard deviation [%]:      12.133110
 # datablock:
-#   quantity: MACS
-#   columns: 8
+#   columns: 9
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Kadonis                 Compilation          2000        1.535000E+00   6.200000E-02                      1.000000   MXW         
+      Sukhoruchkin            Compilation          2015        1.170000E+00   2.400000E-01                      0.762215   MXW         
+      Mughabghab_2016         Compilation          2016        1.532000E+00   6.200000E-01                      0.998046   MXW         
+# quantity:
+#   type: EXFOR
+#   average value:  1.765000E+00
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 9
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      Chaubey                 EXFOR                1966        1.765000E+00   2.650000E-01   30079036       1.000000E+00
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Chaubey                 EXFOR                1966        1.765000E+00   2.650000E-01   30079036           1.149837               
+# quantity:
+#   type: Nuclear data library
+#   average value:  1.475450E+00
+#   relative standard deviation [%]:      17.163914
+# datablock:
+#   columns: 9
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      jendl5.0                NDL                  2021        1.309500E+00   0.000000E+00                      0.853094      MXW      
+      tendl.2023              NDL                  2023        1.799500E+00   0.000000E+00                      1.172313      MXW      
+      endfb8.1                NDL                  2024        1.160300E+00   0.000000E+00                      0.755896      MXW      
+      jeff4.0                 NDL                  2025        1.632500E+00   0.000000E+00                      1.063518      MXW      

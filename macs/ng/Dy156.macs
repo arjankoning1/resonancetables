@@ -1,0 +1,54 @@
+# header:
+#   title: Dy156(n,g) MACS
+#   source: Resonancetables
+#   date: 2025-03-23
+# target:
+#   Z: 66
+#   A: 156
+#   nuclide: Dy156
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  1.544686E+00
+#   selected value uncertainty [b]:  6.305468E-02
+#   selected value source: Astral
+#   number of values: 10
+#   average value [b]:  1.694331E+00
+#   relative standard deviation [%]:      12.797491
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  1.584172E+00
+#   relative standard deviation [%]:       4.304685
+# datablock:
+#   columns: 9
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Kadonis                 Compilation          2000        1.612000E+00   9.200001E-02                      1.043578   MXW         
+      Sukhoruchkin            Compilation          2015        1.500000E+00   3.000000E-01                      0.971071   MXW         
+      Mughabghab_2016         Compilation          2016        1.680000E+00   1.170000E-01                      1.087600   MXW         
+      Astral                  Compilation          2020        1.544686E+00   6.305468E-02                      1.000000   MXW         
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  1.692710E+00
+#   relative standard deviation [%]:       3.014103
+# datablock:
+#   columns: 9
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Dillmann                EXFOR                2010        1.743730E+00   1.230510E-01   229390362          1.128857   MXW         
+      Dillmann                EXFOR                2010        1.641690E+00   1.170490E-01   22939018           1.062799   MXW         
+# quantity:
+#   type: Nuclear data library
+#   average value:  1.805300E+00
+#   relative standard deviation [%]:      16.351347
+# datablock:
+#   columns: 9
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      jendl5.0                NDL                  2021        1.484300E+00   0.000000E+00                      0.960907      MXW      
+      tendl.2023              NDL                  2023        2.099900E+00   0.000000E+00                      1.359435      MXW      
+      endfb8.1                NDL                  2024        1.537100E+00   0.000000E+00                      0.995089      MXW      
+      jeff4.0                 NDL                  2025        2.099900E+00   0.000000E+00                      1.359435      MXW      

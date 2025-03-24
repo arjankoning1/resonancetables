@@ -1,0 +1,51 @@
+# header:
+#   title: Te130(n,g) MACS
+#   source: Resonancetables
+#   date: 2025-03-23
+# target:
+#   Z: 52
+#   A: 130
+#   nuclide: Te130
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  1.470000E-02
+#   selected value uncertainty [b]:  2.800000E-03
+#   selected value source: Kadonis
+#   number of values: 7
+#   average value [b]:  1.618571E-02
+#   relative standard deviation [%]:      16.926308
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  1.470000E-02
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Kadonis                 Compilation          2000        1.470000E-02   2.800000E-03                      1.000000   MXW         
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  1.400000E-02
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Macklin                 EXFOR                1967        1.400000E-02   5.000000E-03   14322028           0.952381   MXW         
+# quantity:
+#   type: Nuclear data library
+#   average value:  1.692000E-02
+#   relative standard deviation [%]:      17.303560
+# datablock:
+#   columns: 9
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      cendl3.2                NDL                  2019        1.432900E-02   0.000000E+00                      0.974762      MXW      
+      jendl5.0                NDL                  2021        1.497000E-02   0.000000E+00                      1.018367      MXW      
+      tendl.2023              NDL                  2023        2.080000E-02   0.000000E+00                      1.414966      MXW      
+      endfb8.1                NDL                  2024        1.432900E-02   0.000000E+00                      0.974762      MXW      
+      jeff4.0                 NDL                  2025        2.017200E-02   0.000000E+00                      1.372245      MXW      

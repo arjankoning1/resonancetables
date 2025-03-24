@@ -1,7 +1,7 @@
 # header:
 #   title: U238(n,g) MACS
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 92
 #   A: 238
@@ -9,27 +9,54 @@
 # reaction:
 #   type: (n,g)
 # observables:
-#   selected value [b]:  5.000000E-01
-#   selected value uncertainty [b]:  3.800000E-02
-#   selected value source: Rimawi
+#   selected value [b]:  3.910000E-01
+#   selected value uncertainty [b]:  1.700000E-02
+#   selected value source: Wallner
+#   number of values: 18
+#   average value [b]:  4.413904E-01
+#   relative standard deviation [%]:      17.775419
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  4.014000E-01
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: MACS
-#   columns: 8
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Sukhoruchkin            Compilation          2015        4.014000E-01   0.000000E+00                      1.026598   MXW         
+# quantity:
+#   type: EXFOR
+#   average value:  4.348418E-01
+#   relative standard deviation [%]:      15.760196
+# datablock:
+#   columns: 9
 #   entries: 15
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      Macklin                 EXFOR                1957        6.100000E-01   6.100000E-02   11399052       1.220000E+00
-      Koroleva                EXFOR                1965        3.800000E-01   2.000000E-02   40074006       7.600001E-01
-      Belanova                EXFOR                1965        3.950000E-01   1.700000E-02   400720378      7.900000E-01
-      Belanova                EXFOR                1965        3.600000E-01   2.700000E-02   400720377      7.200000E-01
-      Belanova                EXFOR                1965        3.830000E-01   1.500000E-02   400720376      7.660000E-01
-      Belanova                EXFOR                1965        3.650000E-01   1.600000E-02   400720375      7.300000E-01
-      Belanova                EXFOR                1965        4.270000E-01   2.000000E-02   400720374      8.540000E-01
-      Belanova                EXFOR                1965        4.300000E-01   1.800000E-02   400720373      8.600000E-01
-      Belanova                EXFOR                1965        3.720000E-01   1.500000E-02   400720372      7.440000E-01
-      Belanova                EXFOR                1965        3.900000E-01   1.600000E-02   400720371      7.800000E-01
-      Block                   EXFOR                1972        4.453140E-01   1.880000E-02   105940032      8.906280E-01
-      Block                   EXFOR                1972        4.453140E-01   1.880000E-02   105940032      8.906280E-01
-      Yamamuro                EXFOR                1975        5.200000E-01   4.000000E-02   20432007       1.040000E+00
-      Rimawi                  EXFOR                1975        5.000000E-01   3.800000E-02   10434003       1.000000E+00
-      Rimawi                  EXFOR                1975        5.000000E-01   3.800000E-02   10434003       1.000000E+00
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Macklin                 EXFOR                1957        6.100000E-01   6.100000E-02   11399052           1.560102               
+      Koroleva                EXFOR                1965        3.800000E-01   2.000000E-02   40074006           0.971867               
+      Belanova                EXFOR                1965        3.950000E-01   1.700000E-02   400720378          1.010230               
+      Belanova                EXFOR                1965        3.600000E-01   2.700000E-02   400720377          0.920716               
+      Belanova                EXFOR                1965        3.830000E-01   1.500000E-02   400720376          0.979540               
+      Belanova                EXFOR                1965        3.650000E-01   1.600000E-02   400720375          0.933504               
+      Belanova                EXFOR                1965        4.270000E-01   2.000000E-02   400720374          1.092072               
+      Belanova                EXFOR                1965        4.300000E-01   1.800000E-02   400720373          1.099744               
+      Belanova                EXFOR                1965        3.720000E-01   1.500000E-02   400720372          0.951407               
+      Belanova                EXFOR                1965        3.900000E-01   1.600000E-02   400720371          0.997442               
+      Block                   EXFOR                1972        4.453140E-01   1.880000E-02   105940032          1.138910               
+      Block                   EXFOR                1972        4.453140E-01   1.880000E-02   105940032          1.138910               
+      Yamamuro                EXFOR                1975        5.200000E-01   4.000000E-02   20432007           1.329923               
+      Rimawi                  EXFOR                1975        5.000000E-01   3.800000E-02   10434003           1.278772               
+      Rimawi                  EXFOR                1975        5.000000E-01   3.800000E-02   10434003           1.278772               
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  5.105001E-01
+#   relative standard deviation [%]:      23.408421
+# datablock:
+#   columns: 9
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Vertebnyy               EXFOR                1980        6.300001E-01   6.012290E-02   40839022           1.611253   MXW         
+      Wallner                 EXFOR                2014        3.910000E-01   1.700000E-02   23170009           1.000000   MXW         

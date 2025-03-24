@@ -1,0 +1,43 @@
+# header:
+#   title: Lu175(n,g) MACS
+#   source: Resonancetables
+#   date: 2025-03-23
+# target:
+#   Z: 71
+#   A: 175
+#   nuclide: Lu175
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  1.295258E+00
+#   selected value uncertainty [b]:  1.788865E-02
+#   selected value source: Astral
+#   number of values: 8
+#   average value [b]:  1.279507E+00
+#   relative standard deviation [%]:       3.331401
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  1.255064E+00
+#   relative standard deviation [%]:       3.413750
+# datablock:
+#   columns: 9
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Kadonis                 Compilation          2000        1.219000E+00   1.000000E-02                      0.941125   MXW         
+      Sukhoruchkin            Compilation          2015        1.300000E+00   3.000000E-01                      1.003661   MXW         
+      Mughabghab_2016         Compilation          2016        1.206000E+00   5.400000E-01                      0.931089   MXW         
+      Astral                  Compilation          2020        1.295258E+00   1.788865E-02                      1.000000   MXW         
+# quantity:
+#   type: Nuclear data library
+#   average value:  1.303950E+00
+#   relative standard deviation [%]:       1.883677
+# datablock:
+#   columns: 9
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      jendl5.0                NDL                  2021        1.304200E+00   0.000000E+00                      1.006904      MXW      
+      tendl.2023              NDL                  2023        1.322300E+00   0.000000E+00                      1.020877      MXW      
+      endfb8.1                NDL                  2024        1.263800E+00   0.000000E+00                      0.975713      MXW      
+      jeff4.0                 NDL                  2025        1.325500E+00   0.000000E+00                      1.023348      MXW      

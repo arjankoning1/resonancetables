@@ -1,7 +1,7 @@
 # header:
 #   title: Sm144(n,g) MACS
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 62
 #   A: 144
@@ -9,13 +9,55 @@
 # reaction:
 #   type: (n,g)
 # observables:
-#   selected value [b]:  1.190000E-01
-#   selected value uncertainty [b]:  5.500000E-02
-#   selected value source: Macklin
+#   selected value [b]:  9.200001E-02
+#   selected value uncertainty [b]:  6.000000E-03
+#   selected value source: Kadonis
+#   number of values: 10
+#   average value [b]:  9.904470E-02
+#   relative standard deviation [%]:      19.318367
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  9.066667E-02
+#   relative standard deviation [%]:       2.079728
 # datablock:
-#   quantity: MACS
-#   columns: 8
+#   columns: 9
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Kadonis                 Compilation          2000        9.200001E-02   6.000000E-03                      1.000000   MXW         
+      Sukhoruchkin            Compilation          2015        8.800000E-02   1.500000E-02                      0.956522   MXW         
+      Mughabghab_2016         Compilation          2016        9.200000E-02   6.000000E-03                      1.000000   MXW         
+# quantity:
+#   type: EXFOR
+#   average value:  1.190000E-01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 9
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      Macklin                 EXFOR                1963        1.190000E-01   5.500000E-02   12095002       1.000000E+00
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Macklin                 EXFOR                1963        1.190000E-01   5.500000E-02   12095002           1.293478               
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  1.500000E-01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Macklin                 EXFOR                1967        1.500000E-01   7.000000E-02   14322007           1.630435   MXW         
+# quantity:
+#   type: Nuclear data library
+#   average value:  8.988940E-02
+#   relative standard deviation [%]:       2.538522
+# datablock:
+#   columns: 9
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      cendl3.2                NDL                  2019        8.831700E-02   0.000000E+00                      0.959967      MXW      
+      jendl5.0                NDL                  2021        8.847300E-02   0.000000E+00                      0.961663      MXW      
+      tendl.2023              NDL                  2023        9.080500E-02   0.000000E+00                      0.987011      MXW      
+      endfb8.1                NDL                  2024        8.787900E-02   0.000000E+00                      0.955206      MXW      
+      jeff4.0                 NDL                  2025        9.397300E-02   0.000000E+00                      1.021446      MXW      

@@ -1,0 +1,41 @@
+# header:
+#   title: Ar038(n,g) MACS
+#   source: Resonancetables
+#   date: 2025-03-23
+# target:
+#   Z: 18
+#   A: 38
+#   nuclide: Ar038
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  9.335961E-04
+#   selected value uncertainty [b]:  1.026956E-04
+#   selected value source: Astral
+#   number of values: 6
+#   average value [b]:  1.594094E-03
+#   relative standard deviation [%]:      61.266052
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  1.766798E-03
+#   relative standard deviation [%]:      47.158871
+# datablock:
+#   columns: 9
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Mughabghab_2016         Compilation          2016        2.600000E-03   2.000000E-04                      2.784930   MXW         
+      Astral                  Compilation          2020        9.335961E-04   1.026956E-04                      1.000000   MXW         
+# quantity:
+#   type: Nuclear data library
+#   average value:  1.507742E-03
+#   relative standard deviation [%]:      68.325401
+# datablock:
+#   columns: 9
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      jendl5.0                NDL                  2021        8.972900E-04   0.000000E+00                      0.961112      MXW      
+      tendl.2023              NDL                  2023        2.501600E-03   0.000000E+00                      2.679531      MXW      
+      endfb8.1                NDL                  2024        1.304800E-04   0.000000E+00                      0.139761      MXW      
+      jeff4.0                 NDL                  2025        2.501600E-03   0.000000E+00                      2.679531      MXW      

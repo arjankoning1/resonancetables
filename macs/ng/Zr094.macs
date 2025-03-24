@@ -1,7 +1,7 @@
 # header:
 #   title: Zr094(n,g) MACS
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 40
 #   A: 94
@@ -9,15 +9,59 @@
 # reaction:
 #   type: (n,g)
 # observables:
-#   selected value [b]:  2.582780E-02
-#   selected value uncertainty [b]:  3.600000E-03
-#   selected value source: Wyrick
+#   selected value [b]:  2.600000E-02
+#   selected value uncertainty [b]:  1.000000E-03
+#   selected value source: Kadonis
+#   number of values: 14
+#   average value [b]:  2.582221E-02
+#   relative standard deviation [%]:      11.692351
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  2.713333E-02
+#   relative standard deviation [%]:       4.901703
 # datablock:
-#   quantity: MACS
-#   columns: 8
+#   columns: 9
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      Macklin                 EXFOR                1957        2.400000E-02   4.000000E-03   11399020       9.292312E-01
-      Macklin                 EXFOR                1963        1.900000E-02   4.000000E-03   11845005       7.356414E-01
-      Wyrick                  EXFOR                1982        2.582780E-02   3.600000E-03   12831006       1.000000E+00
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Kadonis                 Compilation          2000        2.600000E-02   1.000000E-03                      1.000000   MXW         
+      Sukhoruchkin            Compilation          2015        2.900000E-02   5.000000E-03                      1.115385   MXW         
+      Mughabghab_2016         Compilation          2016        2.640000E-02   1.000000E-03                      1.015385   MXW         
+# quantity:
+#   type: EXFOR
+#   average value:  2.294260E-02
+#   relative standard deviation [%]:      12.579114
+# datablock:
+#   columns: 9
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Macklin                 EXFOR                1957        2.400000E-02   4.000000E-03   11399020           0.923077               
+      Macklin                 EXFOR                1963        1.900000E-02   4.000000E-03   11845005           0.730769               
+      Wyrick                  EXFOR                1982        2.582780E-02   3.600000E-03   12831006           0.993377               
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  2.539303E-02
+#   relative standard deviation [%]:      14.797932
+# datablock:
+#   columns: 9
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Macklin                 EXFOR                1967        2.100000E-02   4.000000E-03   14322020           0.807692   MXW         
+      Toukan                  EXFOR                1990        3.017910E-02   1.002600E-03   221820062          1.160735   MXW         
+      Tessler                 EXFOR                2015        2.500000E-02   7.000000E-04   31765002           0.961538   MXW         
+# quantity:
+#   type: Nuclear data library
+#   average value:  2.702080E-02
+#   relative standard deviation [%]:       6.863621
+# datablock:
+#   columns: 9
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      cendl3.2                NDL                  2019        2.992100E-02   0.000000E+00                      1.150808      MXW      
+      jendl5.0                NDL                  2021        2.727700E-02   0.000000E+00                      1.049115      MXW      
+      tendl.2023              NDL                  2023        2.500900E-02   0.000000E+00                      0.961885      MXW      
+      endfb8.1                NDL                  2024        2.786600E-02   0.000000E+00                      1.071769      MXW      
+      jeff4.0                 NDL                  2025        2.503100E-02   0.000000E+00                      0.962731      MXW      

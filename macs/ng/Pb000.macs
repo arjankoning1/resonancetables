@@ -1,7 +1,7 @@
 # header:
 #   title: Pb000(n,g) MACS
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 82
 #   A: 0
@@ -12,15 +12,21 @@
 #   selected value [b]:  4.300000E-02
 #   selected value uncertainty [b]:  7.000000E-03
 #   selected value source: Belanova
+#   number of values: 6
+#   average value [b]:  3.983333E-02
+#   relative standard deviation [%]:      42.217968
+# quantity:
+#   type: EXFOR
+#   average value:  3.983333E-02
+#   relative standard deviation [%]:      42.217968
 # datablock:
-#   quantity: MACS
-#   columns: 8
+#   columns: 9
 #   entries: 6
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      Schmitt                 EXFOR                1960        3.000000E-03   9.000001E-03   11778016       6.976744E-02
-      Belanova                EXFOR                1965        5.300000E-02   5.000000E-03   400720344      1.232558E+00
-      Belanova                EXFOR                1965        4.500000E-02   8.000000E-03   400720343      1.046512E+00
-      Belanova                EXFOR                1965        4.500000E-02   6.000000E-03   400720342      1.046512E+00
-      Belanova                EXFOR                1965        5.000000E-02   9.000001E-03   400720341      1.162791E+00
-      Belanova                EXFOR                1965        4.300000E-02   7.000000E-03   40072016       1.000000E+00
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Schmitt                 EXFOR                1960        3.000000E-03   9.000001E-03   11778016           0.069767               
+      Belanova                EXFOR                1965        5.300000E-02   5.000000E-03   400720344          1.232558               
+      Belanova                EXFOR                1965        4.500000E-02   8.000000E-03   400720343          1.046512               
+      Belanova                EXFOR                1965        4.500000E-02   6.000000E-03   400720342          1.046512               
+      Belanova                EXFOR                1965        5.000000E-02   9.000001E-03   400720341          1.162791               
+      Belanova                EXFOR                1965        4.300000E-02   7.000000E-03   40072016           1.000000               

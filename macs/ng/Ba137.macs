@@ -1,0 +1,53 @@
+# header:
+#   title: Ba137(n,g) MACS
+#   source: Resonancetables
+#   date: 2025-03-23
+# target:
+#   Z: 56
+#   A: 137
+#   nuclide: Ba137
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  9.014302E-02
+#   selected value uncertainty [b]:  3.364851E-03
+#   selected value source: Astral
+#   number of values: 9
+#   average value [b]:  7.549734E-02
+#   relative standard deviation [%]:      11.237714
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  7.603576E-02
+#   relative standard deviation [%]:      14.651023
+# datablock:
+#   columns: 9
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Kadonis                 Compilation          2000        7.630001E-02   2.400000E-03                      0.846433   MXW         
+      Sukhoruchkin            Compilation          2015        5.900000E-02   1.000000E-02                      0.654516   MXW         
+      Mughabghab_2016         Compilation          2016        7.870000E-02   3.000000E-03                      0.873057   MXW         
+      Astral                  Compilation          2020        9.014302E-02   3.364851E-03                      1.000000   MXW         
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  7.690001E-02
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Wisshak                 EXFOR                1994        7.690001E-02   2.900000E-03   22337005           0.853089   MXW         
+# quantity:
+#   type: Nuclear data library
+#   average value:  7.460825E-02
+#   relative standard deviation [%]:       8.073839
+# datablock:
+#   columns: 9
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      cendl3.2                NDL                  2019        6.420800E-02   0.000000E+00                      0.712290      MXW      
+      tendl.2023              NDL                  2023        7.768300E-02   0.000000E+00                      0.861775      MXW      
+      endfb8.1                NDL                  2024        7.885900E-02   0.000000E+00                      0.874821      MXW      
+      jeff4.0                 NDL                  2025        7.768300E-02   0.000000E+00                      0.861775      MXW      

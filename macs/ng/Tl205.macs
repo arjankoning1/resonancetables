@@ -1,7 +1,7 @@
 # header:
 #   title: Tl205(n,g) MACS
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 81
 #   A: 205
@@ -9,14 +9,45 @@
 # reaction:
 #   type: (n,g)
 # observables:
-#   selected value [b]:  3.000000E-02
-#   selected value uncertainty [b]:  8.000000E-03
-#   selected value source: Hasan
+#   selected value [b]:  5.400000E-02
+#   selected value uncertainty [b]:  4.000000E-03
+#   selected value source: Kadonis
+#   number of values: 9
+#   average value [b]:  5.065534E-02
+#   relative standard deviation [%]:      14.674545
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  5.352001E-02
+#   relative standard deviation [%]:       1.268353
 # datablock:
-#   quantity: MACS
-#   columns: 8
+#   columns: 9
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Kadonis                 Compilation          2000        5.400000E-02   4.000000E-03                      1.000000   MXW         
+      Sukhoruchkin            Compilation          2015        5.256000E-02   0.000000E+00                      0.973333   MXW         
+      Mughabghab_2016         Compilation          2016        5.400000E-02   4.000000E-03                      1.000000   MXW         
+# quantity:
+#   type: EXFOR
+#   average value:  4.000000E-02
+#   relative standard deviation [%]:      25.000000
+# datablock:
+#   columns: 9
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      Kononov                 EXFOR                1958        5.000000E-02   2.000000E-03   40421022       1.666667E+00
-      Hasan                   EXFOR                1968        3.000000E-02   8.000000E-03   30077020       1.000000E+00
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Kononov                 EXFOR                1958        5.000000E-02   2.000000E-03   40421022           0.925926               
+      Hasan                   EXFOR                1968        3.000000E-02   8.000000E-03   30077020           0.555556               
+# quantity:
+#   type: Nuclear data library
+#   average value:  5.383451E-02
+#   relative standard deviation [%]:       1.811095
+# datablock:
+#   columns: 9
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      jendl5.0                NDL                  2021        5.362100E-02   0.000000E+00                      0.992981      MXW      
+      tendl.2023              NDL                  2023        5.537300E-02   0.000000E+00                      1.025426      MXW      
+      endfb8.1                NDL                  2024        5.266600E-02   0.000000E+00                      0.975296      MXW      
+      jeff4.0                 NDL                  2025        5.367800E-02   0.000000E+00                      0.994037      MXW      

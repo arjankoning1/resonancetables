@@ -1,0 +1,53 @@
+# header:
+#   title: Li007(n,g) MACS
+#   source: Resonancetables
+#   date: 2025-03-23
+# target:
+#   Z: 3
+#   A: 7
+#   nuclide: Li007
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  4.200000E-05
+#   selected value uncertainty [b]:  3.000000E-06
+#   selected value source: Kadonis
+#   number of values: 9
+#   average value [b]:  4.138289E-05
+#   relative standard deviation [%]:      26.671795
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  4.422500E-05
+#   relative standard deviation [%]:       5.031092
+# datablock:
+#   columns: 9
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Kadonis                 Compilation          2000        4.200000E-05   3.000000E-06                      1.000000   MXW         
+      Sukhoruchkin            Compilation          2015        4.645000E-05   0.000000E+00                      1.105952   MXW         
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  2.155000E-05
+#   relative standard deviation [%]:       2.552207
+# datablock:
+#   columns: 9
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Wiescher                EXFOR                1989        2.210000E-05   2.000000E-06   221710082          0.526191   MXW         
+      Wiescher                EXFOR                1989        2.100000E-05   1.900000E-06   22171003           0.500000   MXW         
+# quantity:
+#   type: Nuclear data library
+#   average value:  4.817920E-05
+#   relative standard deviation [%]:       6.703315
+# datablock:
+#   columns: 9
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      cendl3.2                NDL                  2019        4.978500E-05   0.000000E+00                      1.185357      MXW      
+      jendl5.0                NDL                  2021        4.172000E-05   0.000000E+00                      0.993333      MXW      
+      tendl.2023              NDL                  2023        4.979700E-05   0.000000E+00                      1.185643      MXW      
+      endfb8.1                NDL                  2024        4.979700E-05   0.000000E+00                      1.185643      MXW      
+      jeff4.0                 NDL                  2025        4.979700E-05   0.000000E+00                      1.185643      MXW      

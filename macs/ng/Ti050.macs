@@ -1,7 +1,7 @@
 # header:
 #   title: Ti050(n,g) MACS
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 22
 #   A: 50
@@ -9,14 +9,56 @@
 # reaction:
 #   type: (n,g)
 # observables:
-#   selected value [b]:  2.300000E-03
-#   selected value uncertainty [b]:  6.000000E-04
-#   selected value source: Vervier
+#   selected value [b]:  3.600000E-03
+#   selected value uncertainty [b]:  4.000000E-04
+#   selected value source: Kadonis
+#   number of values: 11
+#   average value [b]:  3.393600E-03
+#   relative standard deviation [%]:      19.950348
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  3.293333E-03
+#   relative standard deviation [%]:       7.443231
 # datablock:
-#   quantity: MACS
-#   columns: 8
+#   columns: 9
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Kadonis                 Compilation          2000        3.600000E-03   4.000000E-04                      1.000000   MXW         
+      Sukhoruchkin            Compilation          2015        3.000000E-03   4.000000E-04                      0.833333   MXW         
+      Mughabghab_2016         Compilation          2016        3.280000E-03   9.000000E-05                      0.911111   MXW         
+# quantity:
+#   type: EXFOR
+#   average value:  3.701000E-03
+#   relative standard deviation [%]:      37.854637
+# datablock:
+#   columns: 9
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      Macklin                 EXFOR                1957        5.102001E-03   3.061200E-03   11399007       2.218261E+00
-      Vervier                 EXFOR                1959        2.300000E-03   6.000000E-04   20205003       1.000000E+00
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Macklin                 EXFOR                1957        5.102001E-03   3.061200E-03   11399007           1.417222               
+      Vervier                 EXFOR                1959        2.300000E-03   6.000000E-04   20205003           0.638889               
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  4.000000E-03
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Allen                   EXFOR                1977        4.000000E-03   5.000000E-04   30359023           1.111111   MXW         
+# quantity:
+#   type: Nuclear data library
+#   average value:  3.209520E-03
+#   relative standard deviation [%]:       5.911216
+# datablock:
+#   columns: 9
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      cendl3.2                NDL                  2019        3.096000E-03   0.000000E+00                      0.860000      MXW      
+      jendl5.0                NDL                  2021        3.035500E-03   0.000000E+00                      0.843194      MXW      
+      tendl.2023              NDL                  2023        3.440300E-03   0.000000E+00                      0.955639      MXW      
+      endfb8.1                NDL                  2024        3.035500E-03   0.000000E+00                      0.843194      MXW      
+      jeff4.0                 NDL                  2025        3.440300E-03   0.000000E+00                      0.955639      MXW      

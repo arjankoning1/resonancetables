@@ -1,7 +1,7 @@
 # header:
 #   title: Rh103(n,g) MACS
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 45
 #   A: 103
@@ -9,15 +9,47 @@
 # reaction:
 #   type: (n,g)
 # observables:
-#   selected value [b]:  1.117230E+00
-#   selected value uncertainty [b]:  2.277600E-02
-#   selected value source: Macklin
+#   selected value [b]:  8.648860E-01
+#   selected value uncertainty [b]:  1.176538E-02
+#   selected value source: Astral
+#   number of values: 11
+#   average value [b]:  8.716387E-01
+#   relative standard deviation [%]:      13.941892
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  8.217215E-01
+#   relative standard deviation [%]:       3.081631
 # datablock:
-#   quantity: MACS
-#   columns: 8
+#   columns: 9
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Kadonis                 Compilation          2000        8.110000E-01   1.400000E-02                      0.937696   MXW         
+      Sukhoruchkin            Compilation          2015        8.000000E-01   6.000000E-02                      0.924977   MXW         
+      Mughabghab_2016         Compilation          2016        8.110000E-01   1.400000E-02                      0.937696   MXW         
+      Astral                  Compilation          2020        8.648860E-01   1.176538E-02                      1.000000   MXW         
+# quantity:
+#   type: EXFOR
+#   average value:  1.028153E+00
+#   relative standard deviation [%]:      12.252398
+# datablock:
+#   columns: 9
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      Macklin                 EXFOR                1963        8.500000E-01   7.650001E-02   11331021       7.608102E-01
-      Macklin                 EXFOR                1980        1.117230E+00   2.277600E-02   10875021       1.000000E+00
-      Macklin                 EXFOR                1980        1.117230E+00   2.277600E-02   10875021       1.000000E+00
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Macklin                 EXFOR                1963        8.500000E-01   7.650001E-02   11331021           0.982788               
+      Macklin                 EXFOR                1980        1.117230E+00   2.277600E-02   10875021           1.291766               
+      Macklin                 EXFOR                1980        1.117230E+00   2.277600E-02   10875021           1.291766               
+# quantity:
+#   type: Nuclear data library
+#   average value:  8.041700E-01
+#   relative standard deviation [%]:       6.403712
+# datablock:
+#   columns: 9
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      cendl3.2                NDL                  2019        8.804500E-01   0.000000E+00                      1.017995      MXW      
+      tendl.2023              NDL                  2023        7.429400E-01   0.000000E+00                      0.859003      MXW      
+      endfb8.1                NDL                  2024        8.181700E-01   0.000000E+00                      0.945986      MXW      
+      jeff4.0                 NDL                  2025        7.751200E-01   0.000000E+00                      0.896211      MXW      

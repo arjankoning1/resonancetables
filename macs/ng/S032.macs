@@ -1,0 +1,43 @@
+# header:
+#   title: S032(n,g) MACS
+#   source: Resonancetables
+#   date: 2025-03-23
+# target:
+#   Z: 16
+#   A: 32
+#   nuclide: S032
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  4.100000E-03
+#   selected value uncertainty [b]:  2.000000E-04
+#   selected value source: Kadonis
+#   number of values: 8
+#   average value [b]:  5.351925E-03
+#   relative standard deviation [%]:      11.060732
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  4.786666E-03
+#   relative standard deviation [%]:      13.587775
+# datablock:
+#   columns: 9
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Kadonis                 Compilation          2000        4.100000E-03   2.000000E-04                      1.000000   MXW         
+      Sukhoruchkin            Compilation          2015        5.660000E-03   2.400000E-04                      1.380488   MXW         
+      Mughabghab_2016         Compilation          2016        4.600000E-03   2.000000E-04                      1.121951   MXW         
+# quantity:
+#   type: Nuclear data library
+#   average value:  5.691080E-03
+#   relative standard deviation [%]:       0.193261
+# datablock:
+#   columns: 9
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      cendl3.2                NDL                  2019        5.682100E-03   0.000000E+00                      1.385878      MXW      
+      jendl5.0                NDL                  2021        5.682100E-03   0.000000E+00                      1.385878      MXW      
+      tendl.2023              NDL                  2023        5.704700E-03   0.000000E+00                      1.391390      MXW      
+      endfb8.1                NDL                  2024        5.682100E-03   0.000000E+00                      1.385878      MXW      
+      jeff4.0                 NDL                  2025        5.704400E-03   0.000000E+00                      1.391317      MXW      

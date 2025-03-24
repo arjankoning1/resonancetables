@@ -1,7 +1,7 @@
 # header:
 #   title: Zn068(n,g) MACS
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 30
 #   A: 68
@@ -9,13 +9,55 @@
 # reaction:
 #   type: (n,g)
 # observables:
-#   selected value [b]:  2.350000E-02
-#   selected value uncertainty [b]:  2.800000E-03
-#   selected value source: Kononov
+#   selected value [b]:  1.920000E-02
+#   selected value uncertainty [b]:  2.400000E-03
+#   selected value source: Kadonis
+#   number of values: 10
+#   average value [b]:  2.093780E-02
+#   relative standard deviation [%]:       5.560274
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  2.033333E-02
+#   relative standard deviation [%]:       3.961652
 # datablock:
-#   quantity: MACS
-#   columns: 8
+#   columns: 9
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Kadonis                 Compilation          2000        1.920000E-02   2.400000E-03                      1.000000   MXW         
+      Sukhoruchkin            Compilation          2015        2.080000E-02   1.500000E-03                      1.083333   MXW         
+      Mughabghab_2016         Compilation          2016        2.100000E-02   2.500000E-03                      1.093750   MXW         
+# quantity:
+#   type: EXFOR
+#   average value:  2.350000E-02
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 9
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      Kononov                 EXFOR                1958        2.350000E-02   2.800000E-03   40421008       1.000000E+00
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Kononov                 EXFOR                1958        2.350000E-02   2.800000E-03   40421008           1.223958               
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  1.920000E-02
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Garg                    EXFOR                1982        1.920000E-02   0.000000E+00   10982006           1.000000   MXW         
+# quantity:
+#   type: Nuclear data library
+#   average value:  2.113560E-02
+#   relative standard deviation [%]:       1.808276
+# datablock:
+#   columns: 9
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      cendl3.2                NDL                  2019        2.069000E-02   0.000000E+00                      1.077604      MXW      
+      jendl5.0                NDL                  2021        2.091600E-02   0.000000E+00                      1.089375      MXW      
+      tendl.2023              NDL                  2023        2.159400E-02   0.000000E+00                      1.124687      MXW      
+      endfb8.1                NDL                  2024        2.088400E-02   0.000000E+00                      1.087708      MXW      
+      jeff4.0                 NDL                  2025        2.159400E-02   0.000000E+00                      1.124687      MXW      

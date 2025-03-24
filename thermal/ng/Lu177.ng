@@ -1,7 +1,7 @@
 # header:
 #   title: Lu177(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 71
 #   A: 177
@@ -12,15 +12,30 @@
 #   selected value [b]:  8.800000E+02
 #   selected value uncertainty [b]:  7.500000E+01
 #   selected value source: Mughabghab_2016
+#   number of values: 6
+#   average value [b]:  9.051880E+02
+#   relative standard deviation [%]:      26.406717
+# quantity:
+#   type: Compilation
+#   average value:  1.026667E+03
+#   relative standard deviation [%]:      12.856488
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
-#   entries: 6
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      RIPL-3                  Compilation          2004        1.000000E+03   3.000000E+02                  1.136364E+00
-      Mughabghab_2006         Compilation          2006        1.200000E+03   3.000000E+02                  1.363636E+00
-      Mughabghab_2016         Compilation          2016        8.800000E+02   7.500000E+01                  1.000000E+00
-      jeff3.3                 NDL                  2020        1.197630E+03   0.000000E+00                  1.360943E+00
-      jendl5.0                NDL                  2021        4.167360E+02   0.000000E+00                  4.735636E-01
-      tendl.2023              NDL                  2023        9.671960E+02   0.000000E+00                  1.099086E+00
+#   columns: 9
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      RIPL-3                  Compilation          2004        1.000000E+03   3.000000E+02                      1.136364               
+      Mughabghab_2006         Compilation          2006        1.200000E+03   3.000000E+02                      1.363636               
+      Mughabghab_2016         Compilation          2016        8.800000E+02   7.500000E+01                      1.000000               
+# quantity:
+#   type: Nuclear data library
+#   average value:  7.837093E+02
+#   relative standard deviation [%]:      33.110409
+# datablock:
+#   columns: 9
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      jendl5.0                NDL                  2021        4.167360E+02   0.000000E+00                      0.473564               
+      tendl.2023              NDL                  2023        9.671960E+02   0.000000E+00                      1.099086               
+      jeff4.0                 NDL                  2025        9.671960E+02   0.000000E+00                      1.099086               

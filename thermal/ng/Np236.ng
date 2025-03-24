@@ -1,7 +1,7 @@
 # header:
 #   title: Np236(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 93
 #   A: 236
@@ -9,18 +9,44 @@
 # reaction:
 #   type: (n,g)
 # observables:
-#   selected value [b]:  1.420000E+02
-#   selected value uncertainty [b]:  0.000000E+00
-#   selected value source: S.F.Mughabghab
+#   selected value [b]:  1.210000E+02
+#   selected value uncertainty [b]:  7.000000E+00
+#   selected value source: Sukhoruchkin
+#   number of values: 8
+#   average value [b]:  1.363769E+02
+#   relative standard deviation [%]:      13.992920
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  1.315000E+02
+#   relative standard deviation [%]:       7.984791
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
-#   entries: 6
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      S.F.Mughabghab          EXFOR                2006        1.420000E+02   0.000000E+00   V1002-600-1    1.000000E+00
-      cendl3.2                NDL                  2019        1.798060E+02   0.000000E+00                  1.266239E+00
-      jeff3.3                 NDL                  2020        1.212180E+02   0.000000E+00                  8.536479E-01
-      jendl5.0                NDL                  2021        1.212180E+02   0.000000E+00                  8.536479E-01
-      tendl.2023              NDL                  2023        1.425550E+02   0.000000E+00                  1.003908E+00
-      endfb8.1                NDL                  2024        1.212180E+02   0.000000E+00                  8.536479E-01
+#   columns: 9
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Mughabghab_2006         Compilation          2006        1.420000E+02   0.000000E+00                      1.173554   MXW         
+      Sukhoruchkin            Compilation          2015        1.210000E+02   7.000000E+00                      1.000000   MXW         
+# quantity:
+#   type: EXFOR
+#   average value:  1.420000E+02
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      S.F.Mughabghab          EXFOR                2006        1.420000E+02   0.000000E+00   V1002-600-1        1.173554               
+# quantity:
+#   type: Nuclear data library
+#   average value:  1.372030E+02
+#   relative standard deviation [%]:      16.652903
+# datablock:
+#   columns: 9
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      cendl3.2                NDL                  2019        1.798060E+02   0.000000E+00                      1.486000               
+      jendl5.0                NDL                  2021        1.212180E+02   0.000000E+00                      1.001802               
+      tendl.2023              NDL                  2023        1.425550E+02   0.000000E+00                      1.178140               
+      endfb8.1                NDL                  2024        1.212180E+02   0.000000E+00                      1.001802               
+      jeff4.0                 NDL                  2025        1.212180E+02   0.000000E+00                      1.001802               

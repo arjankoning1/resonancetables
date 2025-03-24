@@ -1,7 +1,7 @@
 # header:
 #   title: Lu176(n,g)_m thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 71
 #   A: 176
@@ -12,13 +12,37 @@
 #   selected value [b]:  2.000000E+00
 #   selected value uncertainty [b]:  7.000000E-01
 #   selected value source: RIPL-3
+#   number of values: 4
+#   average value [b]:  3.025000E+00
+#   relative standard deviation [%]:      77.187599
+# quantity:
+#   type: Compilation
+#   average value:  2.000000E+00
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
-#   entries: 4
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      M.Jorgensen             EXFOR                1962        1.000000E+00   0.000000E+00   20096-002-0    5.000000E-01
-      D.R.Nethaway            EXFOR                1967        7.000000E+00   2.100000E+00   12088-002-2    3.500000E+00
-      E.M.Gryntakis           EXFOR                1976        2.100000E+00   7.000000E-01   20625-026-0    1.050000E+00
-      RIPL-3                  Compilation          2004        2.000000E+00   7.000000E-01                  1.000000E+00
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      RIPL-3                  Compilation          2004        2.000000E+00   7.000000E-01                      1.000000               
+# quantity:
+#   type: EXFOR
+#   average value:  1.000000E+00
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      M.Jorgensen             EXFOR                1962        1.000000E+00   0.000000E+00   20096-002-0        0.500000               
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  4.550000E+00
+#   relative standard deviation [%]:      53.846153
+# datablock:
+#   columns: 9
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      D.R.Nethaway            EXFOR                1967        7.000000E+00   2.100000E+00   12088-002-2        3.500000   MXW         
+      E.M.Gryntakis           EXFOR                1976        2.100000E+00   7.000000E-01   20625-026-0        1.050000   MXW         

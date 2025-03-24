@@ -1,7 +1,7 @@
 # header:
 #   title: Ir000(n,tot) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 77
 #   A: 0
@@ -12,12 +12,18 @@
 #   selected value [b]:  4.350000E+02
 #   selected value uncertainty [b]:  0.000000E+00
 #   selected value source: V.P.Vertebnyj
+#   number of values: 3
+#   average value [b]:  4.363333E+02
+#   relative standard deviation [%]:       0.779071
+# quantity:
+#   type: EXFOR
+#   average value:  4.363333E+02
+#   relative standard deviation [%]:       0.779071
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
+#   columns: 9
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      V.P.Vertebnyj           EXFOR                1980        4.330000E+02   0.000000E+00   40536-011-0    9.954023E-01
-      V.P.Vertebnyj           EXFOR                1980        4.410000E+02   0.000000E+00   40536-011-0    1.013793E+00
-      V.P.Vertebnyj           EXFOR                1980        4.350000E+02   0.000000E+00   40536-011-0    1.000000E+00
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      V.P.Vertebnyj           EXFOR                1980        4.330000E+02   0.000000E+00   40536-011-0        0.995402               
+      V.P.Vertebnyj           EXFOR                1980        4.410000E+02   0.000000E+00   40536-011-0        1.013793               
+      V.P.Vertebnyj           EXFOR                1980        4.350000E+02   0.000000E+00   40536-011-0        1.000000               

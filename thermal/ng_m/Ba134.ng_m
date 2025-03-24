@@ -1,7 +1,7 @@
 # header:
 #   title: Ba134(n,g)_m thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 56
 #   A: 134
@@ -12,18 +12,42 @@
 #   selected value [b]:  1.000000E-01
 #   selected value uncertainty [b]:  2.400000E-02
 #   selected value source: RIPL-3
+#   number of values: 9
+#   average value [b]:  7.526667E-02
+#   relative standard deviation [%]:      49.490414
+# quantity:
+#   type: Compilation
+#   average value:  1.000000E-01
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
-#   entries: 9
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      H.S.Hans                EXFOR                1960        5.000000E-02   0.000000E+00   31246-009-0    5.000000E-01
-      S.K.Mangal              EXFOR                1963        1.580000E-01   2.370000E-02   31249-005-0    1.580000E+00
-      V.A.Bondarenko          EXFOR                1993        1.100000E-01   2.000000E-02   41159-003-0    1.100000E+00
-      RIPL-3                  Compilation          2004        1.000000E-01   2.400000E-02                  1.000000E+00
-      A.Y.Dauenhauer          EXFOR                2012        3.340000E-02   2.400000E-03   14340-006-0    3.340000E-01
-      F.Farina Arbocco        EXFOR                2013        5.900000E-02   1.000000E-03   23266-118-0    5.900000E-01
-      F.Farina Arbocco        EXFOR                2013        5.900000E-02   0.000000E+00   23266-119-0    5.900000E-01
-      F.Farina Arbocco        EXFOR                2014        5.400000E-02   0.000000E+00   23260-112-0    5.400000E-01
-      F.Farina Arbocco        EXFOR                2014        5.400000E-02   1.000000E-03   23260-111-0    5.400000E-01
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      RIPL-3                  Compilation          2004        1.000000E-01   2.400000E-02                      1.000000               
+# quantity:
+#   type: EXFOR
+#   average value:  6.925000E-02
+#   relative standard deviation [%]:      34.101669
+# datablock:
+#   columns: 9
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      V.A.Bondarenko          EXFOR                1993        1.100000E-01   2.000000E-02   41159-003-0        1.100000               
+      F.Farina Arbocco        EXFOR                2013        5.900000E-02   0.000000E+00   23266-119-0        0.590000               
+      F.Farina Arbocco        EXFOR                2014        5.400000E-02   0.000000E+00   23260-112-0        0.540000               
+      F.Farina Arbocco        EXFOR                2014        5.400000E-02   1.000000E-03   23260-111-0        0.540000               
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  7.510000E-02
+#   relative standard deviation [%]:      64.893883
+# datablock:
+#   columns: 9
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      H.S.Hans                EXFOR                1960        5.000000E-02   0.000000E+00   31246-009-0        0.500000   MXW         
+      S.K.Mangal              EXFOR                1963        1.580000E-01   2.370000E-02   31249-005-0        1.580000   SPA         
+      A.Y.Dauenhauer          EXFOR                2012        3.340000E-02   2.400000E-03   14340-006-0        0.334000   MXW         
+      F.Farina Arbocco        EXFOR                2013        5.900000E-02   1.000000E-03   23266-118-0        0.590000   AV          

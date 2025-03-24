@@ -1,7 +1,7 @@
 # header:
 #   title: Os190(n,g)_m thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 76
 #   A: 190
@@ -12,15 +12,39 @@
 #   selected value [b]:  9.030000E+00
 #   selected value uncertainty [b]:  4.900000E-01
 #   selected value source: Mughabghab_2016
+#   number of values: 6
+#   average value [b]:  8.801666E+00
+#   relative standard deviation [%]:       4.657476
+# quantity:
+#   type: Compilation
+#   average value:  9.014999E+00
+#   relative standard deviation [%]:       0.166388
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
-#   entries: 6
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      S.K.Mangal              EXFOR                1963        8.550000E+00   1.539000E+00   31249-014-0    9.468439E-01
-      T.A.Butler              EXFOR                1983        8.000000E+00   2.000000E+00   12932-002-M    8.859358E-01
-      F.De Corte              EXFOR                1988        9.200000E+00   0.000000E+00   23488-088-1    1.018826E+00
-      RIPL-3                  Compilation          2004        9.000000E+00   7.000000E-01                  9.966778E-01
-      K.S.Krane               EXFOR                2012        9.030000E+00   4.900000E-01   14332-005-0    1.000000E+00
-      Mughabghab_2016         Compilation          2016        9.030000E+00   4.900000E-01                  1.000000E+00
+#   columns: 9
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      RIPL-3                  Compilation          2004        9.000000E+00   7.000000E-01                      0.996678               
+      Mughabghab_2016         Compilation          2016        9.030000E+00   4.900000E-01                      1.000000               
+# quantity:
+#   type: EXFOR
+#   average value:  9.200000E+00
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      F.De Corte              EXFOR                1988        9.200000E+00   0.000000E+00   23488-088-1        1.018826               
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  8.526666E+00
+#   relative standard deviation [%]:       4.935331
+# datablock:
+#   columns: 9
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      S.K.Mangal              EXFOR                1963        8.550000E+00   1.539000E+00   31249-014-0        0.946844   SPA         
+      T.A.Butler              EXFOR                1983        8.000000E+00   2.000000E+00   12932-002-M        0.885936   SPA         
+      K.S.Krane               EXFOR                2012        9.030000E+00   4.900000E-01   14332-005-0        1.000000   MXW         

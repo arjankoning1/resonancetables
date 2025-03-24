@@ -1,7 +1,7 @@
 # header:
 #   title: Na023(n,tot) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 11
 #   A: 23
@@ -12,10 +12,16 @@
 #   selected value [b]:  3.904000E+00
 #   selected value uncertainty [b]:  0.000000E+00
 #   selected value source: E.G.Joki
+#   number of values: 1
+#   average value [b]:  3.904000E+00
+#   relative standard deviation [%]:       0.000000
+# quantity:
+#   type: EXFOR
+#   average value:  3.904000E+00
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
+#   columns: 9
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      E.G.Joki                EXFOR                1955        3.904000E+00   0.000000E+00   11443-002-0    1.000000E+00
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      E.G.Joki                EXFOR                1955        3.904000E+00   0.000000E+00   11443-002-0        1.000000               

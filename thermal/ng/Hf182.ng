@@ -1,7 +1,7 @@
 # header:
 #   title: Hf182(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 72
 #   A: 182
@@ -12,14 +12,29 @@
 #   selected value [b]:  1.330000E+02
 #   selected value uncertainty [b]:  1.000000E+01
 #   selected value source: Mughabghab_2016
+#   number of values: 5
+#   average value [b]:  1.332386E+02
+#   relative standard deviation [%]:       0.216876
+# quantity:
+#   type: Compilation
+#   average value:  1.330000E+02
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
-#   entries: 5
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      Mughabghab_2016         Compilation          2016        1.330000E+02   1.000000E+01                  1.000000E+00
-      jeff3.3                 NDL                  2020        1.848000E+01   0.000000E+00                  1.389474E-01
-      jendl5.0                NDL                  2021        1.330040E+02   0.000000E+00                  1.000030E+00
-      tendl.2023              NDL                  2023        1.335930E+02   0.000000E+00                  1.004459E+00
-      endfb8.1                NDL                  2024        1.330040E+02   0.000000E+00                  1.000030E+00
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Mughabghab_2016         Compilation          2016        1.330000E+02   1.000000E+01                      1.000000               
+# quantity:
+#   type: Nuclear data library
+#   average value:  1.332982E+02
+#   relative standard deviation [%]:       0.220746
+# datablock:
+#   columns: 9
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      jendl5.0                NDL                  2021        1.330040E+02   0.000000E+00                      1.000030               
+      tendl.2023              NDL                  2023        1.335930E+02   0.000000E+00                      1.004459               
+      endfb8.1                NDL                  2024        1.330040E+02   0.000000E+00                      1.000030               
+      jeff4.0                 NDL                  2025        1.335920E+02   0.000000E+00                      1.004451               

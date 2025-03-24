@@ -1,7 +1,7 @@
 # header:
 #   title: Sn120(n,g)_g thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 50
 #   A: 120
@@ -12,13 +12,28 @@
 #   selected value [b]:  1.400000E-01
 #   selected value uncertainty [b]:  3.000000E-02
 #   selected value source: Mughabghab_2016
+#   number of values: 4
+#   average value [b]:  9.299999E-02
+#   relative standard deviation [%]:      48.051407
+# quantity:
+#   type: Compilation
+#   average value:  1.350000E-01
+#   relative standard deviation [%]:       3.703706
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
-#   entries: 4
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      L.Seren                 EXFOR                1947        7.200000E-02   1.440000E-02   11447-079-0    5.142857E-01
-      C.Nelson                EXFOR                1950        3.000000E-02   6.000000E-03   11961-007-0    2.142857E-01
-      RIPL-3                  Compilation          2004        1.300000E-01   3.000000E-02                  9.285714E-01
-      Mughabghab_2016         Compilation          2016        1.400000E-01   3.000000E-02                  1.000000E+00
+#   columns: 9
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      RIPL-3                  Compilation          2004        1.300000E-01   3.000000E-02                      0.928571               
+      Mughabghab_2016         Compilation          2016        1.400000E-01   3.000000E-02                      1.000000               
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  5.100000E-02
+#   relative standard deviation [%]:      41.176468
+# datablock:
+#   columns: 9
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      L.Seren                 EXFOR                1947        7.200000E-02   1.440000E-02   11447-079-0        0.514286   SPA         
+      C.Nelson                EXFOR                1950        3.000000E-02   6.000000E-03   11961-007-0        0.214286   SPA         

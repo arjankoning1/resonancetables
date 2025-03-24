@@ -1,7 +1,7 @@
 # header:
 #   title: In115(n,g)_g thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 49
 #   A: 115
@@ -12,20 +12,35 @@
 #   selected value [b]:  4.000000E+01
 #   selected value uncertainty [b]:  2.000000E+00
 #   selected value source: Mughabghab_2016
+#   number of values: 11
+#   average value [b]:  1.135455E+02
+#   relative standard deviation [%]:      56.894840
+# quantity:
+#   type: Compilation
+#   average value:  4.200000E+01
+#   relative standard deviation [%]:       4.761905
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
-#   entries: 11
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      L.Seren                 EXFOR                1947        1.446000E+02   1.446000E+01   11447-075-0    3.615000E+00
-      L.Seren                 EXFOR                1947        5.180000E+01   5.180000E+00   11447-074-0    1.295000E+00
-      H.Meister               EXFOR                1958        1.576000E+02   4.400000E+00   21351-005-0    3.940000E+00
-      P.Fettweis              EXFOR                1962        2.070000E+02   1.200000E+01   20237-002-0    5.175000E+00
-      P.Fettweis              EXFOR                1962        1.510000E+02   1.000000E+01   20237-003-2    3.775000E+00
-      P.Fettweis              EXFOR                1962        5.200000E+01   6.000000E+00   20237-005-2    1.300000E+00
-      K.H.Beckurts            EXFOR                1963        2.040000E+02   3.000000E+00   20649-004-0    5.100000E+00
-      K.H.Beckurts            EXFOR                1963        4.200000E+01   1.000000E+00   20649-003-0    1.050000E+00
-      Yu.Ya.Stavisskii        EXFOR                1965        1.550000E+02   1.500000E+01   41635-003-0    3.875000E+00
-      RIPL-3                  Compilation          2004        4.400000E+01   2.000000E+00                  1.100000E+00
-      Mughabghab_2016         Compilation          2016        4.000000E+01   2.000000E+00                  1.000000E+00
+#   columns: 9
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      RIPL-3                  Compilation          2004        4.400000E+01   2.000000E+00                      1.100000               
+      Mughabghab_2016         Compilation          2016        4.000000E+01   2.000000E+00                      1.000000               
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  1.294444E+02
+#   relative standard deviation [%]:      47.052208
+# datablock:
+#   columns: 9
+#   entries: 9
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      L.Seren                 EXFOR                1947        1.446000E+02   1.446000E+01   11447-075-0        3.615000   MXW         
+      L.Seren                 EXFOR                1947        5.180000E+01   5.180000E+00   11447-074-0        1.295000   MXW         
+      H.Meister               EXFOR                1958        1.576000E+02   4.400000E+00   21351-005-0        3.940000   MXW         
+      P.Fettweis              EXFOR                1962        2.070000E+02   1.200000E+01   20237-002-0        5.175000   SPA         
+      P.Fettweis              EXFOR                1962        1.510000E+02   1.000000E+01   20237-003-2        3.775000   SPA         
+      P.Fettweis              EXFOR                1962        5.200000E+01   6.000000E+00   20237-005-2        1.300000   SPA         
+      K.H.Beckurts            EXFOR                1963        2.040000E+02   3.000000E+00   20649-004-0        5.100000   MXW         
+      K.H.Beckurts            EXFOR                1963        4.200000E+01   1.000000E+00   20649-003-0        1.050000   MXW         
+      Yu.Ya.Stavisskii        EXFOR                1965        1.550000E+02   1.500000E+01   41635-003-0        3.875000   MXW         

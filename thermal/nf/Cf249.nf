@@ -1,7 +1,7 @@
 # header:
 #   title: Cf249(n,f) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 98
 #   A: 249
@@ -12,17 +12,41 @@
 #   selected value [b]:  1.642000E+03
 #   selected value uncertainty [b]:  3.300000E+01
 #   selected value source: Mughabghab_2016
+#   number of values: 8
+#   average value [b]:  1.543375E+03
+#   relative standard deviation [%]:      22.510994
+# quantity:
+#   type: Compilation
+#   average value:  1.664250E+03
+#   relative standard deviation [%]:       1.454788
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
-#   entries: 8
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      B.G.Harvey              EXFOR                1954        6.300000E+02   0.000000E+00   12567-006-0    3.836784E-01
-      D.Metta                 EXFOR                1965        1.735000E+03   7.000000E+01   12562-002-0    1.056638E+00
-      K.D.Zhuravlev           EXFOR                1975        1.715000E+03   8.000000E+01   40436-010-0    1.044458E+00
-      V.D.Gavrilov            EXFOR                1976        1.610000E+03   1.100000E+02   40467-004-0    9.805115E-01
-      RIPL-3                  Compilation          2004        1.700000E+03   1.000000E+02                  1.035323E+00
-      Mughabghab_2006         Compilation          2006        1.642000E+03   3.300000E+01                  1.000000E+00
-      Sukhoruchkin            Compilation          2015        1.673000E+03   3.400000E+01                  1.018879E+00
-      Mughabghab_2016         Compilation          2016        1.642000E+03   3.300000E+01                  1.000000E+00
+#   columns: 9
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      RIPL-3                  Compilation          2004        1.700000E+03   1.000000E+02                      1.035323               
+      Mughabghab_2006         Compilation          2006        1.642000E+03   3.300000E+01                      1.000000               
+      Sukhoruchkin            Compilation          2015        1.673000E+03   3.400000E+01                      1.018879               
+      Mughabghab_2016         Compilation          2016        1.642000E+03   3.300000E+01                      1.000000               
+# quantity:
+#   type: EXFOR
+#   average value:  1.610000E+03
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      V.D.Gavrilov            EXFOR                1976        1.610000E+03   1.100000E+02   40467-004-0        0.980512               
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  1.360000E+03
+#   relative standard deviation [%]:      37.959743
+# datablock:
+#   columns: 9
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      B.G.Harvey              EXFOR                1954        6.300000E+02   0.000000E+00   12567-006-0        0.383678   SPA         
+      D.Metta                 EXFOR                1965        1.735000E+03   7.000000E+01   12562-002-0        1.056638   MXW         
+      K.D.Zhuravlev           EXFOR                1975        1.715000E+03   8.000000E+01   40436-010-0        1.044458   MXW         

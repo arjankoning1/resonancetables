@@ -1,7 +1,7 @@
 # header:
 #   title: Ir193(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 77
 #   A: 193
@@ -12,18 +12,33 @@
 #   selected value [b]:  1.186000E+02
 #   selected value uncertainty [b]:  1.200000E+00
 #   selected value source: Kayzero
+#   number of values: 9
+#   average value [b]:  1.004144E+02
+#   relative standard deviation [%]:      34.407146
+# quantity:
+#   type: Compilation
+#   average value:  1.135200E+02
+#   relative standard deviation [%]:       2.813596
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
-#   entries: 9
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      RIPL-3                  Compilation          2004        1.160000E+02   5.000000E+00                  9.780776E-01
-      Mughabghab_2006         Compilation          2006        1.110000E+02   5.000000E+00                  9.359190E-01
-      Sukhoruchkin            Compilation          2015        1.110000E+02   5.000000E+00                  9.359190E-01
-      Mughabghab_2016         Compilation          2016        1.110000E+02   5.000000E+00                  9.359190E-01
-      Kayzero                 Compilation          2018        1.186000E+02   1.200000E+00                  1.000000E+00
-      jeff3.3                 NDL                  2020        1.111440E+02   0.000000E+00                  9.371332E-01
-      jendl5.0                NDL                  2021        2.977740E+00   0.000000E+00                  2.510742E-02
-      tendl.2023              NDL                  2023        1.108340E+02   0.000000E+00                  9.345194E-01
-      endfb8.1                NDL                  2024        1.111440E+02   0.000000E+00                  9.371332E-01
+#   columns: 9
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      RIPL-3                  Compilation          2004        1.160000E+02   5.000000E+00                      0.978078               
+      Mughabghab_2006         Compilation          2006        1.110000E+02   5.000000E+00                      0.935919               
+      Sukhoruchkin            Compilation          2015        1.110000E+02   5.000000E+00                      0.935919               
+      Mughabghab_2016         Compilation          2016        1.110000E+02   5.000000E+00                      0.935919               
+      Kayzero                 Compilation          2018        1.186000E+02   1.200000E+00                      1.000000               
+# quantity:
+#   type: Nuclear data library
+#   average value:  8.403243E+01
+#   relative standard deviation [%]:      55.689384
+# datablock:
+#   columns: 9
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      jendl5.0                NDL                  2021        2.977740E+00   0.000000E+00                      0.025107               
+      tendl.2023              NDL                  2023        1.108340E+02   0.000000E+00                      0.934519               
+      endfb8.1                NDL                  2024        1.111440E+02   0.000000E+00                      0.937133               
+      jeff4.0                 NDL                  2025        1.111740E+02   0.000000E+00                      0.937386               

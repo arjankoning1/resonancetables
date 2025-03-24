@@ -1,7 +1,7 @@
 # header:
 #   title: Er166(n,g)_m thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 68
 #   A: 166
@@ -12,13 +12,28 @@
 #   selected value [b]:  1.500000E+01
 #   selected value uncertainty [b]:  2.000000E+00
 #   selected value source: Mughabghab_2016
+#   number of values: 4
+#   average value [b]:  1.207500E+01
+#   relative standard deviation [%]:      41.956509
+# quantity:
+#   type: Compilation
+#   average value:  1.500000E+01
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
-#   entries: 4
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      K.F.Alexander           EXFOR                1963        1.500000E+01   2.000000E+00   31003-007-0    1.000000E+00
-      H.Arino                 EXFOR                1964        3.300000E+00   7.000000E-01   11817-012-0    2.200000E-01
-      RIPL-3                  Compilation          2004        1.500000E+01   2.000000E+00                  1.000000E+00
-      Mughabghab_2016         Compilation          2016        1.500000E+01   2.000000E+00                  1.000000E+00
+#   columns: 9
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      RIPL-3                  Compilation          2004        1.500000E+01   2.000000E+00                      1.000000               
+      Mughabghab_2016         Compilation          2016        1.500000E+01   2.000000E+00                      1.000000               
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  9.150000E+00
+#   relative standard deviation [%]:      63.934422
+# datablock:
+#   columns: 9
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      K.F.Alexander           EXFOR                1963        1.500000E+01   2.000000E+00   31003-007-0        1.000000   MXW         
+      H.Arino                 EXFOR                1964        3.300000E+00   7.000000E-01   11817-012-0        0.220000   MXW         

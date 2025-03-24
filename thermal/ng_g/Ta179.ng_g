@@ -1,7 +1,7 @@
 # header:
 #   title: Ta179(n,g)_g thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 73
 #   A: 179
@@ -12,13 +12,28 @@
 #   selected value [b]:  9.650000E+02
 #   selected value uncertainty [b]:  6.300000E+01
 #   selected value source: R.Garg
+#   number of values: 4
+#   average value [b]:  9.470000E+02
+#   relative standard deviation [%]:       1.333615
+# quantity:
+#   type: EXFOR
+#   average value:  9.520000E+02
+#   relative standard deviation [%]:       1.365546
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
-#   entries: 4
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      M.Schumann              EXFOR                1999        9.320000E+02   6.200000E+01   22490-002-0    9.658031E-01
-      R.Garg                  EXFOR                2023        9.520000E+02   5.700000E+01   23791-006-0    9.865285E-01
-      R.Garg                  EXFOR                2023        9.390000E+02   5.700000E+01   23791-004-0    9.730570E-01
-      R.Garg                  EXFOR                2023        9.650000E+02   6.300000E+01   23791-002-0    1.000000E+00
+#   columns: 9
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      R.Garg                  EXFOR                2023        9.390000E+02   5.700000E+01   23791-004-0        0.973057               
+      R.Garg                  EXFOR                2023        9.650000E+02   6.300000E+01   23791-002-0        1.000000               
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  9.420000E+02
+#   relative standard deviation [%]:       1.061571
+# datablock:
+#   columns: 9
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      M.Schumann              EXFOR                1999        9.320000E+02   6.200000E+01   22490-002-0        0.965803   MXW         
+      R.Garg                  EXFOR                2023        9.520000E+02   5.700000E+01   23791-006-0        0.986529   AV          

@@ -1,7 +1,7 @@
 # header:
 #   title: Zr000(n,tot) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 40
 #   A: 0
@@ -12,15 +12,21 @@
 #   selected value [b]:  1.040600E+01
 #   selected value uncertainty [b]:  1.700800E-01
 #   selected value source: J.A.Harvey
+#   number of values: 6
+#   average value [b]:  9.282184E+00
+#   relative standard deviation [%]:      15.135947
+# quantity:
+#   type: EXFOR
+#   average value:  9.282184E+00
+#   relative standard deviation [%]:      15.135947
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
+#   columns: 9
 #   entries: 6
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      E.G.Joki                EXFOR                1961        6.202000E+00   0.000000E+00   11635-006-0    5.960023E-01
-      J.A.Harvey              EXFOR                1998        9.485100E+00   1.627500E-01   14225-003-0    9.115030E-01
-      J.A.Harvey              EXFOR                1998        9.741800E+00   1.624800E-01   14225-003-0    9.361715E-01
-      J.A.Harvey              EXFOR                1998        9.888300E+00   1.666300E-01   14225-003-0    9.502499E-01
-      J.A.Harvey              EXFOR                1998        9.969900E+00   1.675300E-01   14225-003-0    9.580915E-01
-      J.A.Harvey              EXFOR                1998        1.040600E+01   1.700800E-01   14225-003-0    1.000000E+00
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      E.G.Joki                EXFOR                1961        6.202000E+00   0.000000E+00   11635-006-0        0.596002               
+      J.A.Harvey              EXFOR                1998        9.485100E+00   1.627500E-01   14225-003-0        0.911503               
+      J.A.Harvey              EXFOR                1998        9.741800E+00   1.624800E-01   14225-003-0        0.936171               
+      J.A.Harvey              EXFOR                1998        9.888300E+00   1.666300E-01   14225-003-0        0.950250               
+      J.A.Harvey              EXFOR                1998        9.969900E+00   1.675300E-01   14225-003-0        0.958091               
+      J.A.Harvey              EXFOR                1998        1.040600E+01   1.700800E-01   14225-003-0        1.000000               

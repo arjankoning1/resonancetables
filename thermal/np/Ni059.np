@@ -1,7 +1,7 @@
 # header:
 #   title: Ni059(n,p) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 28
 #   A: 59
@@ -12,13 +12,28 @@
 #   selected value [b]:  2.000000E+00
 #   selected value uncertainty [b]:  5.000000E-01
 #   selected value source: Mughabghab_2016
+#   number of values: 4
+#   average value [b]:  2.357500E+00
+#   relative standard deviation [%]:      41.418095
+# quantity:
+#   type: Compilation
+#   average value:  2.000000E+00
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
-#   entries: 4
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      J.Mcdonald              EXFOR                1976        4.000000E+00   1.000000E+00   20433-002-0    2.000000E+00
-      J.A.Harvey              EXFOR                1976        1.430000E+00   1.300000E-01   10680-003-0    7.150000E-01
-      Sukhoruchkin            Compilation          2015        2.000000E+00   5.000000E-01                  1.000000E+00
-      Mughabghab_2016         Compilation          2016        2.000000E+00   5.000000E-01                  1.000000E+00
+#   columns: 9
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Sukhoruchkin            Compilation          2015        2.000000E+00   5.000000E-01                      1.000000               
+      Mughabghab_2016         Compilation          2016        2.000000E+00   5.000000E-01                      1.000000               
+# quantity:
+#   type: EXFOR
+#   average value:  2.715000E+00
+#   relative standard deviation [%]:      47.329659
+# datablock:
+#   columns: 9
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      J.Mcdonald              EXFOR                1976        4.000000E+00   1.000000E+00   20433-002-0        2.000000               
+      J.A.Harvey              EXFOR                1976        1.430000E+00   1.300000E-01   10680-003-0        0.715000               

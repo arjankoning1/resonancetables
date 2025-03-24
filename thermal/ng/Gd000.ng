@@ -1,7 +1,7 @@
 # header:
 #   title: Gd000(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 64
 #   A: 0
@@ -9,20 +9,45 @@
 # reaction:
 #   type: (n,g)
 # observables:
-#   selected value [b]:  4.936000E+04
-#   selected value uncertainty [b]:  7.900000E+02
-#   selected value source: P.Leconte
+#   selected value [b]:  7.150000E+04
+#   selected value uncertainty [b]:  1.600000E+03
+#   selected value source: Firestone
+#   number of values: 9
+#   average value [b]:  4.456078E+04
+#   relative standard deviation [%]:      28.331434
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  7.150000E+04
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
-#   entries: 8
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      G.A.Fink                EXFOR                1936        2.200000E+04   1.000000E+03   13845-010-0    4.457050E-01
-      S.P.Harris              EXFOR                1950        3.650000E+04   1.825000E+03   11528-039-0    7.394652E-01
-      H.Pomerance             EXFOR                1951        3.500000E+04   0.000000E+00   11047-050-0    7.090762E-01
-      R.B.Tattersall          EXFOR                1960        4.570000E+04   5.000000E+02   20638-078-0    9.258509E-01
-      J.W.Meadows             EXFOR                1961        4.661700E+04   1.000000E+02   11028-021-0    9.444287E-01
-      E.Sokolowski            EXFOR                1964        4.790000E+04   7.000000E+02   20077-011-0    9.704214E-01
-      E.Sokolowski            EXFOR                1964        4.647000E+04   5.500000E+02   20077-010-0    9.414506E-01
-      P.Leconte               EXFOR                2012        4.936000E+04   7.900000E+02   23190-002-0    1.000000E+00
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Firestone               Compilation          2022        7.150000E+04   1.600000E+03                      1.000000   MXW         
+# quantity:
+#   type: EXFOR
+#   average value:  4.300783E+04
+#   relative standard deviation [%]:      22.014894
+# datablock:
+#   columns: 9
+#   entries: 6
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      G.A.Fink                EXFOR                1936        2.200000E+04   1.000000E+03   13845-010-0        0.307692               
+      R.B.Tattersall          EXFOR                1960        4.570000E+04   5.000000E+02   20638-078-0        0.639161               
+      J.W.Meadows             EXFOR                1961        4.661700E+04   1.000000E+02   11028-021-0        0.651986               
+      E.Sokolowski            EXFOR                1964        4.790000E+04   7.000000E+02   20077-011-0        0.669930               
+      E.Sokolowski            EXFOR                1964        4.647000E+04   5.500000E+02   20077-010-0        0.649930               
+      P.Leconte               EXFOR                2012        4.936000E+04   7.900000E+02   23190-002-0        0.690350               
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  3.575000E+04
+#   relative standard deviation [%]:       2.097902
+# datablock:
+#   columns: 9
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      S.P.Harris              EXFOR                1950        3.650000E+04   1.825000E+03   11528-039-0        0.510490   SPA         
+      H.Pomerance             EXFOR                1951        3.500000E+04   0.000000E+00   11047-050-0        0.489510   MXW         

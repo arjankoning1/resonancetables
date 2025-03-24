@@ -1,7 +1,7 @@
 # header:
 #   title: Si031(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 14
 #   A: 31
@@ -12,13 +12,38 @@
 #   selected value [b]:  7.300000E-02
 #   selected value uncertainty [b]:  6.000000E-03
 #   selected value source: Mughabghab_2016
+#   number of values: 5
+#   average value [b]:  1.524000E-01
+#   relative standard deviation [%]:     104.199478
+# quantity:
+#   type: Compilation
+#   average value:  7.300000E-02
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
-#   entries: 4
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      L.P.Roy                 EXFOR                1957        4.700000E-01   0.000000E+00   12591-003-0    6.438356E+00
-      M.S.Thomsen             EXFOR                1991        7.300000E-02   6.000000E-03   22227-002-0    1.000000E+00
-      RIPL-3                  Compilation          2004        7.300000E-02   6.000000E-03                  1.000000E+00
-      Mughabghab_2016         Compilation          2016        7.300000E-02   6.000000E-03                  1.000000E+00
+#   columns: 9
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      RIPL-3                  Compilation          2004        7.300000E-02   6.000000E-03                      1.000000               
+      Mughabghab_2016         Compilation          2016        7.300000E-02   6.000000E-03                      1.000000               
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  7.300000E-02
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Mughabghab_2006         Compilation          2006        7.300000E-02   6.000000E-03                      1.000000   MXW         
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  2.715000E-01
+#   relative standard deviation [%]:      73.112343
+# datablock:
+#   columns: 9
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      L.P.Roy                 EXFOR                1957        4.700000E-01   0.000000E+00   12591-003-0        6.438356   SPA         
+      M.S.Thomsen             EXFOR                1991        7.300000E-02   6.000000E-03   22227-002-0        1.000000   SPA         

@@ -1,7 +1,7 @@
 # header:
 #   title: U233(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 92
 #   A: 233
@@ -12,23 +12,56 @@
 #   selected value [b]:  4.570000E+01
 #   selected value uncertainty [b]:  7.000000E-01
 #   selected value source: Mughabghab_2016
+#   number of values: 14
+#   average value [b]:  4.792117E+01
+#   relative standard deviation [%]:      11.270020
+# quantity:
+#   type: Compilation
+#   average value:  4.560000E+01
+#   relative standard deviation [%]:       0.179057
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
-#   entries: 14
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      W.H.Zinn                EXFOR                1946        5.800000E+01   0.000000E+00   12319-006-0    1.269147E+00
-      M.G.Inghram             EXFOR                1950        4.440000E+01   1.000000E+00   12351-002-0    9.715536E-01
-      G.M.Kukavadse           EXFOR                1955        5.000000E+01   2.000000E+00   41220-004-0    1.094092E+00
-      J.Halperin              EXFOR                1963        6.130000E+01   0.000000E+00   12335-003-0    1.341357E+00
-      J.Halperin              EXFOR                1963        5.170000E+01   2.585000E+00   12335-002-0    1.131291E+00
-      M.J.Cabell              EXFOR                1971        4.835000E+01   1.620000E+00   20459-002-0    1.057987E+00
-      Mughabghab_2006         Compilation          2006        4.550000E+01   7.000000E-01                  9.956236E-01
-      Sukhoruchkin            Compilation          2015        4.560000E+01   7.000000E-01                  9.978118E-01
-      Mughabghab_2016         Compilation          2016        4.570000E+01   7.000000E-01                  1.000000E+00
-      cendl3.2                NDL                  2019        4.524890E+01   0.000000E+00                  9.901291E-01
-      jeff3.3                 NDL                  2020        4.524890E+01   0.000000E+00                  9.901291E-01
-      jendl5.0                NDL                  2021        4.345710E+01   0.000000E+00                  9.509212E-01
-      tendl.2023              NDL                  2023        4.231780E+01   0.000000E+00                  9.259912E-01
-      endfb8.1                NDL                  2024        4.407570E+01   0.000000E+00                  9.644573E-01
+#   columns: 9
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Mughabghab_2006         Compilation          2006        4.550000E+01   7.000000E-01                      0.995624               
+      Sukhoruchkin            Compilation          2015        4.560000E+01   7.000000E-01                      0.997812               
+      Mughabghab_2016         Compilation          2016        4.570000E+01   7.000000E-01                      1.000000               
+# quantity:
+#   type: EXFOR
+#   average value:  5.002500E+01
+#   relative standard deviation [%]:       3.348328
+# datablock:
+#   columns: 9
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      J.Halperin              EXFOR                1963        5.170000E+01   2.585000E+00   12335-002-0        1.131291               
+      M.J.Cabell              EXFOR                1971        4.835000E+01   1.620000E+00   20459-002-0        1.057987               
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  5.342500E+01
+#   relative standard deviation [%]:      12.420499
+# datablock:
+#   columns: 9
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      W.H.Zinn                EXFOR                1946        5.800000E+01   0.000000E+00   12319-006-0        1.269147   MXW         
+      M.G.Inghram             EXFOR                1950        4.440000E+01   1.000000E+00   12351-002-0        0.971554   SPA         
+      G.M.Kukavadse           EXFOR                1955        5.000000E+01   2.000000E+00   41220-004-0        1.094092   SPA         
+      J.Halperin              EXFOR                1963        6.130000E+01   0.000000E+00   12335-003-0        1.341357   SPA         
+# quantity:
+#   type: Nuclear data library
+#   average value:  4.406926E+01
+#   relative standard deviation [%]:       2.531009
+# datablock:
+#   columns: 9
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      cendl3.2                NDL                  2019        4.524890E+01   0.000000E+00                      0.990129               
+      jendl5.0                NDL                  2021        4.345710E+01   0.000000E+00                      0.950921               
+      tendl.2023              NDL                  2023        4.231780E+01   0.000000E+00                      0.925991               
+      endfb8.1                NDL                  2024        4.407570E+01   0.000000E+00                      0.964457               
+      jeff4.0                 NDL                  2025        4.524680E+01   0.000000E+00                      0.990083               

@@ -1,7 +1,7 @@
 # header:
 #   title: Si032(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 14
 #   A: 32
@@ -12,15 +12,49 @@
 #   selected value [b]:  5.000000E-01
 #   selected value uncertainty [b]:  0.000000E+00
 #   selected value source: Mughabghab_2016
+#   number of values: 7
+#   average value [b]:  3.878317E-01
+#   relative standard deviation [%]:      52.024712
+# quantity:
+#   type: Compilation
+#   average value:  5.000000E-01
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
-#   entries: 6
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      K.S.Krane               EXFOR                1999        5.000000E-01   0.000000E+00   13783-002-0    1.000000E+00
-      Mughabghab_2016         Compilation          2016        5.000000E-01   0.000000E+00                  1.000000E+00
-      jeff3.3                 NDL                  2020        5.701550E-01   0.000000E+00                  1.140310E+00
-      jendl5.0                NDL                  2021        5.000040E-02   0.000000E+00                  1.000008E-01
-      tendl.2023              NDL                  2023        9.303400E-02   0.000000E+00                  1.860680E-01
-      endfb8.1                NDL                  2024        5.701550E-01   0.000000E+00                  1.140310E+00
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Mughabghab_2016         Compilation          2016        5.000000E-01   0.000000E+00                      1.000000               
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  5.000000E-01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Mughabghab_2006         Compilation          2006        5.000000E-01   0.000000E+00                      1.000000   MXW         
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  5.000000E-01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      K.S.Krane               EXFOR                1999        5.000000E-01   0.000000E+00   13783-002-0        1.000000   MXW         
+# quantity:
+#   type: Nuclear data library
+#   average value:  3.037053E-01
+#   relative standard deviation [%]:      77.029892
+# datablock:
+#   columns: 9
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      jendl5.0                NDL                  2021        5.000040E-02   0.000000E+00                      0.100001               
+      tendl.2023              NDL                  2023        9.303400E-02   0.000000E+00                      0.186068               
+      endfb8.1                NDL                  2024        5.701550E-01   0.000000E+00                      1.140310               
+      jeff4.0                 NDL                  2025        5.016320E-01   0.000000E+00                      1.003264               

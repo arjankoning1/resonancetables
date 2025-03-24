@@ -1,7 +1,7 @@
 # header:
 #   title: Pb205(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 82
 #   A: 205
@@ -12,15 +12,39 @@
 #   selected value [b]:  5.000000E+00
 #   selected value uncertainty [b]:  0.000000E+00
 #   selected value source: RIPL-3
+#   number of values: 6
+#   average value [b]:  4.829453E+00
+#   relative standard deviation [%]:       4.824671
+# quantity:
+#   type: Compilation
+#   average value:  5.000000E+00
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
-#   entries: 6
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      S.Raman                 EXFOR                1996        4.500000E+00   2.000000E-01   13628-002-0    9.000000E-01
-      RIPL-3                  Compilation          2004        5.000000E+00   0.000000E+00                  1.000000E+00
-      jeff3.3                 NDL                  2020        4.500550E+00   0.000000E+00                  9.001099E-01
-      jendl5.0                NDL                  2021        4.500150E+00   0.000000E+00                  9.000300E-01
-      tendl.2023              NDL                  2023        4.998780E+00   0.000000E+00                  9.997560E-01
-      endfb8.1                NDL                  2024        4.979740E+00   0.000000E+00                  9.959480E-01
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      RIPL-3                  Compilation          2004        5.000000E+00   0.000000E+00                      1.000000               
+# quantity:
+#   type: EXFOR
+#   average value:  4.500000E+00
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      S.Raman                 EXFOR                1996        4.500000E+00   2.000000E-01   13628-002-0        0.900000               
+# quantity:
+#   type: Nuclear data library
+#   average value:  4.869180E+00
+#   relative standard deviation [%]:       4.378479
+# datablock:
+#   columns: 9
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      jendl5.0                NDL                  2021        4.500150E+00   0.000000E+00                      0.900030               
+      tendl.2023              NDL                  2023        4.998780E+00   0.000000E+00                      0.999756               
+      endfb8.1                NDL                  2024        4.979740E+00   0.000000E+00                      0.995948               
+      jeff4.0                 NDL                  2025        4.998050E+00   0.000000E+00                      0.999610               

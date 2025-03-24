@@ -1,7 +1,7 @@
 # header:
 #   title: Cd114(n,g)_m thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 48
 #   A: 114
@@ -12,13 +12,37 @@
 #   selected value [b]:  4.000000E-02
 #   selected value uncertainty [b]:  7.000000E-03
 #   selected value source: RIPL-3
+#   number of values: 4
+#   average value [b]:  6.290000E-02
+#   relative standard deviation [%]:      70.891411
+# quantity:
+#   type: Compilation
+#   average value:  4.000000E-02
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
-#   entries: 4
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      L.Seren                 EXFOR                1947        1.400000E-01   2.800000E-02   11447-070-0    3.500000E+00
-      RIPL-3                  Compilation          2004        4.000000E-02   7.000000E-03                  1.000000E+00
-      T.Hayakawa              EXFOR                2009        3.300000E-02   1.000000E-02   23113-004-0    8.250000E-01
-      S.Nakamura              EXFOR                2009        3.860000E-02   1.360000E-02   23090-003-1    9.650000E-01
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      RIPL-3                  Compilation          2004        4.000000E-02   7.000000E-03                      1.000000               
+# quantity:
+#   type: EXFOR
+#   average value:  3.580000E-02
+#   relative standard deviation [%]:       7.821231
+# datablock:
+#   columns: 9
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      T.Hayakawa              EXFOR                2009        3.300000E-02   1.000000E-02   23113-004-0        0.825000               
+      S.Nakamura              EXFOR                2009        3.860000E-02   1.360000E-02   23090-003-1        0.965000               
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  1.400000E-01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      L.Seren                 EXFOR                1947        1.400000E-01   2.800000E-02   11447-070-0        3.500000   SPA         

@@ -1,7 +1,7 @@
 # header:
 #   title: Sn116(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 50
 #   A: 116
@@ -12,16 +12,42 @@
 #   selected value [b]:  1.290000E-01
 #   selected value uncertainty [b]:  4.000000E-02
 #   selected value source: Mughabghab_2016
+#   number of values: 9
+#   average value [b]:  1.303536E-01
+#   relative standard deviation [%]:       4.377152
+# quantity:
+#   type: Compilation
+#   average value:  1.375000E-01
+#   relative standard deviation [%]:       6.181820
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
-#   entries: 7
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      RIPL-3                  Compilation          2004        1.460000E-01   3.000000E-02                  1.131783E+00
-      Mughabghab_2016         Compilation          2016        1.290000E-01   4.000000E-02                  1.000000E+00
-      cendl3.2                NDL                  2019        1.277180E-01   0.000000E+00                  9.900621E-01
-      jeff3.3                 NDL                  2020        1.251210E-01   0.000000E+00                  9.699303E-01
-      jendl5.0                NDL                  2021        1.251210E-01   0.000000E+00                  9.699303E-01
-      tendl.2023              NDL                  2023        1.288330E-01   0.000000E+00                  9.987054E-01
-      endfb8.1                NDL                  2024        1.276790E-01   0.000000E+00                  9.897598E-01
+#   columns: 9
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      RIPL-3                  Compilation          2004        1.460000E-01   3.000000E-02                      1.131783               
+      Mughabghab_2016         Compilation          2016        1.290000E-01   4.000000E-02                      1.000000               
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  1.300000E-01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 9
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Mughabghab_2006         Compilation          2006        1.300000E-01   4.000000E-02                      1.007752   MXW         
+      Sukhoruchkin            Compilation          2015        1.300000E-01   4.000000E-02                      1.007752   MXW         
+# quantity:
+#   type: Nuclear data library
+#   average value:  1.276364E-01
+#   relative standard deviation [%]:       1.062448
+# datablock:
+#   columns: 9
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      cendl3.2                NDL                  2019        1.277180E-01   0.000000E+00                      0.990062               
+      jendl5.0                NDL                  2021        1.251210E-01   0.000000E+00                      0.969930               
+      tendl.2023              NDL                  2023        1.288330E-01   0.000000E+00                      0.998705               
+      endfb8.1                NDL                  2024        1.276790E-01   0.000000E+00                      0.989760               
+      jeff4.0                 NDL                  2025        1.288310E-01   0.000000E+00                      0.998690               

@@ -1,7 +1,7 @@
 # header:
 #   title: Nb093(n,el) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 41
 #   A: 93
@@ -12,12 +12,27 @@
 #   selected value [b]:  6.370000E+00
 #   selected value uncertainty [b]:  7.000000E-02
 #   selected value source: Mughabghab_2016
+#   number of values: 3
+#   average value [b]:  5.913333E+00
+#   relative standard deviation [%]:      10.921490
+# quantity:
+#   type: Compilation
+#   average value:  6.370000E+00
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
-#   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      M.Goldhaber             EXFOR                1937        5.000000E+00   0.000000E+00   22518-045-0    7.849294E-01
-      Mughabghab_2006         Compilation          2006        6.370000E+00   7.000000E-02                  1.000000E+00
-      Mughabghab_2016         Compilation          2016        6.370000E+00   7.000000E-02                  1.000000E+00
+#   columns: 9
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Mughabghab_2006         Compilation          2006        6.370000E+00   7.000000E-02                      1.000000               
+      Mughabghab_2016         Compilation          2016        6.370000E+00   7.000000E-02                      1.000000               
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  5.000000E+00
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      M.Goldhaber             EXFOR                1937        5.000000E+00   0.000000E+00   22518-045-0        0.784929   MXW         

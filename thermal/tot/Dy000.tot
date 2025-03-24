@@ -1,7 +1,7 @@
 # header:
 #   title: Dy000(n,tot) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 66
 #   A: 0
@@ -12,11 +12,26 @@
 #   selected value [b]:  1.041000E+03
 #   selected value uncertainty [b]:  2.100000E+01
 #   selected value source: K.Higurashi
+#   number of values: 2
+#   average value [b]:  1.029000E+03
+#   relative standard deviation [%]:       1.166181
+# quantity:
+#   type: EXFOR
+#   average value:  1.017000E+03
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
-#   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      A.Abdel-Kawi            EXFOR                1972        1.017000E+03   5.085000E+01   30467-006-0    9.769452E-01
-      K.Higurashi             EXFOR                1988        1.041000E+03   2.100000E+01   22088-004-0    1.000000E+00
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      A.Abdel-Kawi            EXFOR                1972        1.017000E+03   5.085000E+01   30467-006-0        0.976945               
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  1.041000E+03
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      K.Higurashi             EXFOR                1988        1.041000E+03   2.100000E+01   22088-004-0        1.000000   SPA         

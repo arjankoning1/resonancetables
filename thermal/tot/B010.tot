@@ -1,7 +1,7 @@
 # header:
 #   title: B010(n,tot) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 5
 #   A: 10
@@ -12,10 +12,16 @@
 #   selected value [b]:  3.780000E+03
 #   selected value uncertainty [b]:  0.000000E+00
 #   selected value source: H.W.Schmitt
+#   number of values: 1
+#   average value [b]:  3.780000E+03
+#   relative standard deviation [%]:       0.000000
+# quantity:
+#   type: EXFOR
+#   average value:  3.780000E+03
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
+#   columns: 9
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      H.W.Schmitt             EXFOR                1960        3.780000E+03   0.000000E+00   11245-003-0    1.000000E+00
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      H.W.Schmitt             EXFOR                1960        3.780000E+03   0.000000E+00   11245-003-0        1.000000               

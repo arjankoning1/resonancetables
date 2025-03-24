@@ -1,7 +1,7 @@
 # header:
 #   title: Dy164(n,tot) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 66
 #   A: 164
@@ -12,12 +12,18 @@
 #   selected value [b]:  3.000000E+03
 #   selected value uncertainty [b]:  0.000000E+00
 #   selected value source: V.P.Vertebny
+#   number of values: 3
+#   average value [b]:  2.926667E+03
+#   relative standard deviation [%]:       3.543587
+# quantity:
+#   type: EXFOR
+#   average value:  2.926667E+03
+#   relative standard deviation [%]:       3.543587
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
+#   columns: 9
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      Y.Ohno                  EXFOR                1968        2.780000E+03   6.000000E+01   20328-006-0    9.266667E-01
-      V.P.Vertebnyj           EXFOR                1970        3.000000E+03   0.000000E+00   41280-044-0    1.000000E+00
-      V.P.Vertebny            EXFOR                1972        3.000000E+03   0.000000E+00   40090-011-0    1.000000E+00
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Y.Ohno                  EXFOR                1968        2.780000E+03   6.000000E+01   20328-006-0        0.926667               
+      V.P.Vertebnyj           EXFOR                1970        3.000000E+03   0.000000E+00   41280-044-0        1.000000               
+      V.P.Vertebny            EXFOR                1972        3.000000E+03   0.000000E+00   40090-011-0        1.000000               

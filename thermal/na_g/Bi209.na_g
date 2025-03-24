@@ -1,7 +1,7 @@
 # header:
 #   title: Bi209(n,a)_g thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 83
 #   A: 209
@@ -12,10 +12,16 @@
 #   selected value [b]:  3.000000E-07
 #   selected value uncertainty [b]:  0.000000E+00
 #   selected value source: A.Emsallem
+#   number of values: 1
+#   average value [b]:  3.000000E-07
+#   relative standard deviation [%]:       0.000000
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  3.000000E-07
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
+#   columns: 9
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      A.Emsallem              EXFOR                1978        3.000000E-07   0.000000E+00   21537-004-0    1.000000E+00
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      A.Emsallem              EXFOR                1978        3.000000E-07   0.000000E+00   21537-004-0        1.000000   MXW         

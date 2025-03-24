@@ -1,7 +1,7 @@
 # header:
 #   title: Nd143(n,tot) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 60
 #   A: 143
@@ -12,11 +12,17 @@
 #   selected value [b]:  4.180000E+02
 #   selected value uncertainty [b]:  7.000000E+00
 #   selected value source: V.P.Vertebnyj
+#   number of values: 2
+#   average value [b]:  4.140000E+02
+#   relative standard deviation [%]:       0.966184
+# quantity:
+#   type: EXFOR
+#   average value:  4.140000E+02
+#   relative standard deviation [%]:       0.966184
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
+#   columns: 9
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      H.J.Hay                 EXFOR                1958        4.100000E+02   2.000000E+01   21204-003-0    9.808612E-01
-      V.P.Vertebnyj           EXFOR                1973        4.180000E+02   7.000000E+00   40290-010-0    1.000000E+00
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      H.J.Hay                 EXFOR                1958        4.100000E+02   2.000000E+01   21204-003-0        0.980861               
+      V.P.Vertebnyj           EXFOR                1973        4.180000E+02   7.000000E+00   40290-010-0        1.000000               

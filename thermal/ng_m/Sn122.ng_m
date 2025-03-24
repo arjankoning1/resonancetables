@@ -1,7 +1,7 @@
 # header:
 #   title: Sn122(n,g)_m thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 50
 #   A: 122
@@ -12,17 +12,41 @@
 #   selected value [b]:  1.500000E-01
 #   selected value uncertainty [b]:  2.000000E-02
 #   selected value source: RIPL-3
+#   number of values: 8
+#   average value [b]:  1.311500E-01
+#   relative standard deviation [%]:      39.454548
+# quantity:
+#   type: Compilation
+#   average value:  1.500000E-01
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
-#   entries: 8
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      L.Seren                 EXFOR                1947        1.420000E-02   2.840000E-03   11447-078-0    9.466666E-02
-      C.Nelson                EXFOR                1950        1.000000E-01   2.000000E-02   11961-008-0    6.666666E-01
-      S.K.Mangal              EXFOR                1963        2.060000E-01   3.090000E-02   31249-003-0    1.373333E+00
-      R.S.Tilbury             EXFOR                1968        1.500000E-01   2.000000E-02   11927-005-0    1.000000E+00
-      W.Maenhaut              EXFOR                1973        1.450000E-01   0.000000E+00   20731-007-0    9.666666E-01
-      F.De Corte              EXFOR                1988        1.460000E-01   3.650000E-03   23488-051-0    9.733333E-01
-      RIPL-3                  Compilation          2004        1.500000E-01   2.000000E-02                  1.000000E+00
-      K.S.Krane               EXFOR                2006        1.380000E-01   1.000000E-02   14107-007-0    9.200000E-01
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      RIPL-3                  Compilation          2004        1.500000E-01   2.000000E-02                      1.000000               
+# quantity:
+#   type: EXFOR
+#   average value:  1.420000E-01
+#   relative standard deviation [%]:       2.816902
+# datablock:
+#   columns: 9
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      F.De Corte              EXFOR                1988        1.460000E-01   3.650000E-03   23488-051-0        0.973333               
+      K.S.Krane               EXFOR                2006        1.380000E-01   1.000000E-02   14107-007-0        0.920000               
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  1.230400E-01
+#   relative standard deviation [%]:      52.000912
+# datablock:
+#   columns: 9
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      L.Seren                 EXFOR                1947        1.420000E-02   2.840000E-03   11447-078-0        0.094667   SPA         
+      C.Nelson                EXFOR                1950        1.000000E-01   2.000000E-02   11961-008-0        0.666667   SPA         
+      S.K.Mangal              EXFOR                1963        2.060000E-01   3.090000E-02   31249-003-0        1.373333   SPA         
+      R.S.Tilbury             EXFOR                1968        1.500000E-01   2.000000E-02   11927-005-0        1.000000   SPA         
+      W.Maenhaut              EXFOR                1973        1.450000E-01   0.000000E+00   20731-007-0        0.966667   MXW         

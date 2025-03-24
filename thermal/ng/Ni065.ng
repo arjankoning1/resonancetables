@@ -1,7 +1,7 @@
 # header:
 #   title: Ni065(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 28
 #   A: 65
@@ -12,14 +12,39 @@
 #   selected value [b]:  2.240000E+01
 #   selected value uncertainty [b]:  2.000000E+00
 #   selected value source: Mughabghab_2016
+#   number of values: 6
+#   average value [b]:  2.908333E+01
+#   relative standard deviation [%]:      55.444748
+# quantity:
+#   type: Compilation
+#   average value:  2.240000E+01
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
-#   entries: 5
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      R.P.Schuman             EXFOR                1958        2.000000E+01   2.000000E+00   11772-002-0    8.928571E-01
-      J.J.Pinajian            EXFOR                1969        6.500000E+01   0.000000E+00   11758-002-0    2.901786E+00
-      V.Serment               EXFOR                1970        2.430000E+01   0.000000E+00   12601-003-0    1.084821E+00
-      T.Sekine                EXFOR                1978        2.040000E+01   2.400000E+00   20992-002-0    9.107143E-01
-      Mughabghab_2016         Compilation          2016        2.240000E+01   2.000000E+00                  1.000000E+00
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Mughabghab_2016         Compilation          2016        2.240000E+01   2.000000E+00                      1.000000               
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  2.240000E+01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Mughabghab_2006         Compilation          2006        2.240000E+01   2.000000E+00                      1.000000   MXW         
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  3.242500E+01
+#   relative standard deviation [%]:      58.233006
+# datablock:
+#   columns: 9
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      R.P.Schuman             EXFOR                1958        2.000000E+01   2.000000E+00   11772-002-0        0.892857   SPA         
+      J.J.Pinajian            EXFOR                1969        6.500000E+01   0.000000E+00   11758-002-0        2.901786   MXW         
+      V.Serment               EXFOR                1970        2.430000E+01   0.000000E+00   12601-003-0        1.084821   MXW         
+      T.Sekine                EXFOR                1978        2.040000E+01   2.400000E+00   20992-002-0        0.910714   MXW         

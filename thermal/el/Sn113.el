@@ -1,7 +1,7 @@
 # header:
 #   title: Sn113(n,el) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 50
 #   A: 113
@@ -12,10 +12,16 @@
 #   selected value [b]:  8.800000E+00
 #   selected value uncertainty [b]:  1.200000E+00
 #   selected value source: S.F.Mughabghab
+#   number of values: 1
+#   average value [b]:  8.800000E+00
+#   relative standard deviation [%]:       0.000000
+# quantity:
+#   type: EXFOR
+#   average value:  8.800000E+00
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
+#   columns: 9
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      S.F.Mughabghab          EXFOR                2006        8.800000E+00   1.200000E+00   V1001-511-0    1.000000E+00
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      S.F.Mughabghab          EXFOR                2006        8.800000E+00   1.200000E+00   V1001-511-0        1.000000               

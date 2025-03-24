@@ -1,7 +1,7 @@
 # header:
 #   title: Rh105(n,g)_m thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 45
 #   A: 105
@@ -12,11 +12,26 @@
 #   selected value [b]:  5.000000E+03
 #   selected value uncertainty [b]:  1.000000E+03
 #   selected value source: RIPL-3
+#   number of values: 2
+#   average value [b]:  5.350000E+03
+#   relative standard deviation [%]:       6.542056
+# quantity:
+#   type: Compilation
+#   average value:  5.000000E+03
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
-#   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      L.Glendenin             EXFOR                1967        5.700000E+03   1.200000E+03   11937-002-0    1.140000E+00
-      RIPL-3                  Compilation          2004        5.000000E+03   1.000000E+03                  1.000000E+00
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      RIPL-3                  Compilation          2004        5.000000E+03   1.000000E+03                      1.000000               
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  5.700000E+03
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      L.Glendenin             EXFOR                1967        5.700000E+03   1.200000E+03   11937-002-0        1.140000   SPA         

@@ -1,7 +1,7 @@
 # header:
 #   title: I125(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 53
 #   A: 125
@@ -12,15 +12,39 @@
 #   selected value [b]:  9.000000E+02
 #   selected value uncertainty [b]:  1.000000E+02
 #   selected value source: RIPL-3
+#   number of values: 6
+#   average value [b]:  9.180229E+02
+#   relative standard deviation [%]:       5.468719
+# quantity:
+#   type: Compilation
+#   average value:  9.000000E+02
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
-#   entries: 6
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      P.V.Harper              EXFOR                1961        8.900000E+02   0.000000E+00   12046-002-0    9.888889E-01
-      M.Bresesti              EXFOR                1964        8.940000E+02   9.000000E+01   20629-002-0    9.933333E-01
-      D.C.Santry              EXFOR                1977        1.030000E+03   3.000000E+02   14803-002-0    1.144444E+00
-      RIPL-3                  Compilation          2004        9.000000E+02   1.000000E+02                  1.000000E+00
-      jendl5.0                NDL                  2021        8.940310E+02   0.000000E+00                  9.933678E-01
-      tendl.2023              NDL                  2023        9.001060E+02   0.000000E+00                  1.000118E+00
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      RIPL-3                  Compilation          2004        9.000000E+02   1.000000E+02                      1.000000               
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  9.380000E+02
+#   relative standard deviation [%]:       6.937561
+# datablock:
+#   columns: 9
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      P.V.Harper              EXFOR                1961        8.900000E+02   0.000000E+00   12046-002-0        0.988889   MXW         
+      M.Bresesti              EXFOR                1964        8.940000E+02   9.000000E+01   20629-002-0        0.993333   MXW         
+      D.C.Santry              EXFOR                1977        1.030000E+03   3.000000E+02   14803-002-0        1.144444   MXW         
+# quantity:
+#   type: Nuclear data library
+#   average value:  8.970685E+02
+#   relative standard deviation [%]:       0.338604
+# datablock:
+#   columns: 9
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      jendl5.0                NDL                  2021        8.940310E+02   0.000000E+00                      0.993368               
+      tendl.2023              NDL                  2023        9.001060E+02   0.000000E+00                      1.000118               

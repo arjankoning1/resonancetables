@@ -1,7 +1,7 @@
 # header:
 #   title: Ba132(n,g)_m thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 56
 #   A: 132
@@ -12,16 +12,40 @@
 #   selected value [b]:  8.400000E-01
 #   selected value uncertainty [b]:  0.000000E+00
 #   selected value source: RIPL-3
+#   number of values: 7
+#   average value [b]:  1.144571E+00
+#   relative standard deviation [%]:     107.193626
+# quantity:
+#   type: Compilation
+#   average value:  8.400000E-01
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
-#   entries: 7
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      H.S.Hans                EXFOR                1960        4.100000E+00   1.500000E+00   31246-008-0    4.880952E+00
-      S.K.Mangal              EXFOR                1963        1.500000E-01   0.000000E+00   31249-004-0    1.785714E-01
-      F.De Corte              EXFOR                1988        8.400000E-01   0.000000E+00   23488-058-0    1.000000E+00
-      RIPL-3                  Compilation          2004        8.400000E-01   0.000000E+00                  1.000000E+00
-      A.Y.Dauenhauer          EXFOR                2012        5.820000E-01   2.900000E-02   14340-004-0    6.928572E-01
-      F.Farina Arbocco        EXFOR                2013        7.500000E-01   1.000000E-02   23266-114-0    8.928572E-01
-      F.Farina Arbocco        EXFOR                2013        7.500000E-01   0.000000E+00   23266-115-0    8.928572E-01
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      RIPL-3                  Compilation          2004        8.400000E-01   0.000000E+00                      1.000000               
+# quantity:
+#   type: EXFOR
+#   average value:  7.950000E-01
+#   relative standard deviation [%]:       5.660376
+# datablock:
+#   columns: 9
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      F.De Corte              EXFOR                1988        8.400000E-01   0.000000E+00   23488-058-0        1.000000               
+      F.Farina Arbocco        EXFOR                2013        7.500000E-01   0.000000E+00   23266-115-0        0.892857               
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  1.395500E+00
+#   relative standard deviation [%]:     112.985229
+# datablock:
+#   columns: 9
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      H.S.Hans                EXFOR                1960        4.100000E+00   1.500000E+00   31246-008-0        4.880952   MXW         
+      S.K.Mangal              EXFOR                1963        1.500000E-01   0.000000E+00   31249-004-0        0.178571   SPA         
+      A.Y.Dauenhauer          EXFOR                2012        5.820000E-01   2.900000E-02   14340-004-0        0.692857   MXW         
+      F.Farina Arbocco        EXFOR                2013        7.500000E-01   1.000000E-02   23266-114-0        0.892857   AV          

@@ -1,7 +1,7 @@
 # header:
 #   title: Eu000(n,tot) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 63
 #   A: 0
@@ -12,12 +12,18 @@
 #   selected value [b]:  4.690000E+03
 #   selected value uncertainty [b]:  1.400000E+02
 #   selected value source: V.P.Vertebny
+#   number of values: 3
+#   average value [b]:  4.393333E+03
+#   relative standard deviation [%]:       7.699473
+# quantity:
+#   type: EXFOR
+#   average value:  4.393333E+03
+#   relative standard deviation [%]:       7.699473
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
+#   columns: 9
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      N.J.Pattenden           EXFOR                1958        3.920000E+03   4.500000E+01   21325-017-0    8.358209E-01
-      F.Poortmans             EXFOR                1971        4.570000E+03   1.142500E+02   20221-002-0    9.744136E-01
-      V.P.Vertebny            EXFOR                1972        4.690000E+03   1.400000E+02   40109-004-0    1.000000E+00
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      N.J.Pattenden           EXFOR                1958        3.920000E+03   4.500000E+01   21325-017-0        0.835821               
+      F.Poortmans             EXFOR                1971        4.570000E+03   1.142500E+02   20221-002-0        0.974414               
+      V.P.Vertebny            EXFOR                1972        4.690000E+03   1.400000E+02   40109-004-0        1.000000               

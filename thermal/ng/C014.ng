@@ -1,7 +1,7 @@
 # header:
 #   title: C014(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 6
 #   A: 14
@@ -12,13 +12,40 @@
 #   selected value [b]:  1.000000E-06
 #   selected value uncertainty [b]:  0.000000E+00
 #   selected value source: Mughabghab_2016
+#   number of values: 7
+#   average value [b]:  4.642099E-04
+#   relative standard deviation [%]:     244.482071
+# quantity:
+#   type: Compilation
+#   average value:  1.000000E-06
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
-#   entries: 4
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      RIPL-3                  Compilation          2004        1.000000E-06   0.000000E+00                  1.000000E+00
-      Mughabghab_2016         Compilation          2016        1.000000E-06   0.000000E+00                  1.000000E+00
-      jendl5.0                NDL                  2021        3.083290E-07   0.000000E+00                  3.083290E-01
-      tendl.2023              NDL                  2023        3.244160E-03   0.000000E+00                  3.244160E+03
+#   columns: 9
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      RIPL-3                  Compilation          2004        1.000000E-06   0.000000E+00                      1.000000               
+      Mughabghab_2016         Compilation          2016        1.000000E-06   0.000000E+00                      1.000000               
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  1.000000E-06
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 9
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Mughabghab_2006         Compilation          2006        1.000000E-06   0.000000E+00                      1.000000   MXW         
+      Sukhoruchkin            Compilation          2015        1.000000E-06   0.000000E+00                      1.000000   MXW         
+# quantity:
+#   type: Nuclear data library
+#   average value:  1.081823E-03
+#   relative standard deviation [%]:     141.335785
+# datablock:
+#   columns: 9
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      jendl5.0                NDL                  2021        3.083290E-07   0.000000E+00                      0.308329               
+      tendl.2023              NDL                  2023        3.244160E-03   0.000000E+00                   3244.159912               
+      jeff4.0                 NDL                  2025        1.000870E-06   0.000000E+00                      1.000870               

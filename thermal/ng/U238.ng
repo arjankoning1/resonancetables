@@ -1,7 +1,7 @@
 # header:
 #   title: U238(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 92
 #   A: 238
@@ -12,38 +12,71 @@
 #   selected value [b]:  2.670000E+00
 #   selected value uncertainty [b]:  1.000000E-02
 #   selected value source: Kayzero
+#   number of values: 29
+#   average value [b]:  3.379014E+00
+#   relative standard deviation [%]:     110.798485
+# quantity:
+#   type: Compilation
+#   average value:  2.678000E+00
+#   relative standard deviation [%]:       0.175145
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
-#   entries: 29
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      H.L.Anderson            EXFOR                1939        1.200000E+00   0.000000E+00   14704-003-0    4.494382E-01
-      H.L.Anderson            EXFOR                1939        1.000000E+00   0.000000E+00   14704-002-0    3.745318E-01
-      H.L.Anderson            EXFOR                1944        4.158000E+00   1.247400E-01   12445-003-0    1.557303E+00
-      W.E.Grumitt             EXFOR                1944        2.940000E+00   2.300000E-01   12040-004-0    1.101124E+00
-      H.L.Anderson            EXFOR                1944        2.580000E+00   7.740000E-02   12445-002-0    9.662921E-01
-      H.Pomerance             EXFOR                1951        2.810000E+00   8.430000E-02   12353-004-0    1.052434E+00
-      S.Harris                EXFOR                1953        3.150000E+00   5.000000E-02   12470-002-0    1.179775E+00
-      S.Harris                EXFOR                1953        2.710000E+00   5.000000E-02   12470-003-0    1.014981E+00
-      V.G.Small               EXFOR                1955        2.760000E+00   6.000000E-02   21182-003-0    1.033708E+00
-      V.S.Crocker             EXFOR                1955        2.750000E+00   1.000000E-01   21181-003-0    1.029963E+00
-      H.Palevsky              EXFOR                1955        2.730000E+00   7.000000E-02   12446-002-0    1.022472E+00
-      J.Halperin              EXFOR                1958        2.300000E+01   3.000000E+00   12453-003-0    8.614232E+00
-      Yu.Ya.Stavisskii        EXFOR                1965        2.740000E+00   6.000000E-02   41635-006-0    1.026217E+00
-      C.B.Bigham              EXFOR                1969        2.721000E+00   1.600000E-02   12444-003-0    1.019101E+00
-      J.B.Hunt                EXFOR                1969        2.690000E+00   3.000000E-02   23515-002-0    1.007491E+00
-      W.P.Poenitz             EXFOR                1981        2.680000E+00   1.900000E-02   11000-002-0    1.003745E+00
-      F.De Corte              EXFOR                1988        2.750000E+00   5.500000E-02   23488-095-0    1.029963E+00
-      M.U.Rajput              EXFOR                1995        2.580000E+00   4.000000E-01   23388-007-0    9.662921E-01
-      Mughabghab_2006         Compilation          2006        2.680000E+00   1.900000E-02                  1.003745E+00
-      B.J.B.Nyarko            EXFOR                2010        3.120000E+00   5.100000E-01   31698-019-0    1.168539E+00
-      S.E.Agbemava            EXFOR                2011        2.790000E+00   9.000000E-02   31717-005-0    1.044944E+00
-      Sukhoruchkin            Compilation          2015        2.680000E+00   2.000000E-02                  1.003745E+00
-      Mughabghab_2016         Compilation          2016        2.682000E+00   1.900000E-02                  1.004494E+00
-      Kayzero                 Compilation          2018        2.670000E+00   1.000000E-02                  1.000000E+00
-      cendl3.2                NDL                  2019        2.683020E+00   0.000000E+00                  1.004876E+00
-      jeff3.3                 NDL                  2020        2.682880E+00   0.000000E+00                  1.004824E+00
-      jendl5.0                NDL                  2021        2.682820E+00   0.000000E+00                  1.004802E+00
-      tendl.2023              NDL                  2023        2.682880E+00   0.000000E+00                  1.004824E+00
-      endfb8.1                NDL                  2024        2.682820E+00   0.000000E+00                  1.004802E+00
+#   columns: 9
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Mughabghab_2006         Compilation          2006        2.680000E+00   1.900000E-02                      1.003745               
+      Sukhoruchkin            Compilation          2015        2.680000E+00   2.000000E-02                      1.003745               
+      Mughabghab_2016         Compilation          2016        2.682000E+00   1.900000E-02                      1.004494               
+      Kayzero                 Compilation          2018        2.670000E+00   1.000000E-02                      1.000000               
+# quantity:
+#   type: EXFOR
+#   average value:  2.429000E+00
+#   relative standard deviation [%]:      27.955343
+# datablock:
+#   columns: 9
+#   entries: 10
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      H.L.Anderson            EXFOR                1939        1.200000E+00   0.000000E+00   14704-003-0        0.449438               
+      H.L.Anderson            EXFOR                1939        1.000000E+00   0.000000E+00   14704-002-0        0.374532               
+      H.L.Anderson            EXFOR                1944        2.580000E+00   7.740000E-02   12445-002-0        0.966292               
+      V.S.Crocker             EXFOR                1955        2.750000E+00   1.000000E-01   21181-003-0        1.029963               
+      H.Palevsky              EXFOR                1955        2.730000E+00   7.000000E-02   12446-002-0        1.022472               
+      J.B.Hunt                EXFOR                1969        2.690000E+00   3.000000E-02   23515-002-0        1.007491               
+      W.P.Poenitz             EXFOR                1981        2.680000E+00   1.900000E-02   11000-002-0        1.003745               
+      F.De Corte              EXFOR                1988        2.750000E+00   5.500000E-02   23488-095-0        1.029963               
+      B.J.B.Nyarko            EXFOR                2010        3.120000E+00   5.100000E-01   31698-019-0        1.168539               
+      S.E.Agbemava            EXFOR                2011        2.790000E+00   9.000000E-02   31717-005-0        1.044944               
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  4.956900E+00
+#   relative standard deviation [%]:     121.642448
+# datablock:
+#   columns: 9
+#   entries: 10
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      H.L.Anderson            EXFOR                1944        4.158000E+00   1.247400E-01   12445-003-0        1.557303   MXW         
+      W.E.Grumitt             EXFOR                1944        2.940000E+00   2.300000E-01   12040-004-0        1.101124   MXW         
+      H.Pomerance             EXFOR                1951        2.810000E+00   8.430000E-02   12353-004-0        1.052434   MXW         
+      S.Harris                EXFOR                1953        3.150000E+00   5.000000E-02   12470-002-0        1.179775   SPA         
+      S.Harris                EXFOR                1953        2.710000E+00   5.000000E-02   12470-003-0        1.014981   MXW         
+      V.G.Small               EXFOR                1955        2.760000E+00   6.000000E-02   21182-003-0        1.033708   MXW         
+      J.Halperin              EXFOR                1958        2.300000E+01   3.000000E+00   12453-003-0        8.614232   SPA         
+      Yu.Ya.Stavisskii        EXFOR                1965        2.740000E+00   6.000000E-02   41635-006-0        1.026217   MXW         
+      C.B.Bigham              EXFOR                1969        2.721000E+00   1.600000E-02   12444-003-0        1.019101   MXW         
+      M.U.Rajput              EXFOR                1995        2.580000E+00   4.000000E-01   23388-007-0        0.966292   MXW         
+# quantity:
+#   type: Nuclear data library
+#   average value:  2.684076E+00
+#   relative standard deviation [%]:       0.088785
+# datablock:
+#   columns: 9
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      cendl3.2                NDL                  2019        2.683020E+00   0.000000E+00                      1.004876               
+      jendl5.0                NDL                  2021        2.682820E+00   0.000000E+00                      1.004802               
+      tendl.2023              NDL                  2023        2.682880E+00   0.000000E+00                      1.004824               
+      endfb8.1                NDL                  2024        2.682820E+00   0.000000E+00                      1.004802               
+      jeff4.0                 NDL                  2025        2.688840E+00   0.000000E+00                      1.007056               

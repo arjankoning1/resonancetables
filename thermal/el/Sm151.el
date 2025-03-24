@@ -1,7 +1,7 @@
 # header:
 #   title: Sm151(n,el) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 62
 #   A: 151
@@ -12,11 +12,17 @@
 #   selected value [b]:  6.100000E+01
 #   selected value uncertainty [b]:  0.000000E+00
 #   selected value source: Mughabghab_2016
+#   number of values: 2
+#   average value [b]:  6.150000E+01
+#   relative standard deviation [%]:       0.813008
+# quantity:
+#   type: Compilation
+#   average value:  6.150000E+01
+#   relative standard deviation [%]:       0.813008
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
+#   columns: 9
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      Mughabghab_2006         Compilation          2006        6.200000E+01   0.000000E+00                  1.016393E+00
-      Mughabghab_2016         Compilation          2016        6.100000E+01   0.000000E+00                  1.000000E+00
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Mughabghab_2006         Compilation          2006        6.200000E+01   0.000000E+00                      1.016393               
+      Mughabghab_2016         Compilation          2016        6.100000E+01   0.000000E+00                      1.000000               

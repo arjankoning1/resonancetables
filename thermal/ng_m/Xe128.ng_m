@@ -1,7 +1,7 @@
 # header:
 #   title: Xe128(n,g)_m thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 54
 #   A: 128
@@ -12,14 +12,29 @@
 #   selected value [b]:  4.800000E-01
 #   selected value uncertainty [b]:  1.000000E-01
 #   selected value source: RIPL-3
+#   number of values: 5
+#   average value [b]:  2.840000E+00
+#   relative standard deviation [%]:     110.421318
+# quantity:
+#   type: Compilation
+#   average value:  4.800000E-01
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
-#   entries: 5
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      J.Macnamara             EXFOR                1950        5.000000E+00   0.000000E+00   11858-005-0    1.041667E+01
-      T.Eastwood              EXFOR                1963        8.000000E+00   0.000000E+00   11849-007-0    1.666667E+01
-      R.S.Tilbury             EXFOR                1968        4.300000E-01   1.000000E-01   11927-007-0    8.958334E-01
-      E.Kondaiah              EXFOR                1968        2.900000E-01   1.200000E-01   11883-011-0    6.041667E-01
-      RIPL-3                  Compilation          2004        4.800000E-01   1.000000E-01                  1.000000E+00
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      RIPL-3                  Compilation          2004        4.800000E-01   1.000000E-01                      1.000000               
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  3.430000E+00
+#   relative standard deviation [%]:      94.706642
+# datablock:
+#   columns: 9
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      J.Macnamara             EXFOR                1950        5.000000E+00   0.000000E+00   11858-005-0       10.416667   SPA         
+      T.Eastwood              EXFOR                1963        8.000000E+00   0.000000E+00   11849-007-0       16.666668   SPA         
+      R.S.Tilbury             EXFOR                1968        4.300000E-01   1.000000E-01   11927-007-0        0.895833   SPA         
+      E.Kondaiah              EXFOR                1968        2.900000E-01   1.200000E-01   11883-011-0        0.604167   MXW         

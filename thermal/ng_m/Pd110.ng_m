@@ -1,7 +1,7 @@
 # header:
 #   title: Pd110(n,g)_m thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 46
 #   A: 110
@@ -12,19 +12,43 @@
 #   selected value [b]:  3.300000E-02
 #   selected value uncertainty [b]:  6.000000E-03
 #   selected value source: RIPL-3
+#   number of values: 10
+#   average value [b]:  1.043400E-01
+#   relative standard deviation [%]:     118.056519
+# quantity:
+#   type: Compilation
+#   average value:  3.300000E-02
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
-#   entries: 10
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      M.Sehgal                EXFOR                1959        5.000000E-02   0.000000E+00   31244-007-0    1.515152E+00
-      S.K.Mangal              EXFOR                1963        3.700000E-02   5.550000E-03   31249-002-0    1.121212E+00
-      F.De Corte              EXFOR                1988        1.200000E-02   0.000000E+00   23488-043-0    3.636364E-01
-      RIPL-3                  Compilation          2004        3.300000E-02   6.000000E-03                  1.000000E+00
-      F.Farina Arbocco        EXFOR                2014        3.075000E-01   0.000000E+00   23260-091-0    9.318182E+00
-      F.Farina Arbocco        EXFOR                2014        2.753000E-01   0.000000E+00   23260-091-0    8.342424E+00
-      F.Farina Arbocco        EXFOR                2014        2.910000E-01   4.000000E-03   23260-090-0    8.818182E+00
-      F.Farina Arbocco        EXFOR                2014        1.300000E-02   0.000000E+00   23260-089-0    3.939394E-01
-      F.Farina Arbocco        EXFOR                2014        1.300000E-02   2.000000E-04   23260-088-0    3.939394E-01
-      K.S.Krane               EXFOR                2019        1.160000E-02   6.000000E-04   14558-008-0    3.515151E-01
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      RIPL-3                  Compilation          2004        3.300000E-02   6.000000E-03                      1.000000               
+# quantity:
+#   type: EXFOR
+#   average value:  1.519667E-01
+#   relative standard deviation [%]:      91.868996
+# datablock:
+#   columns: 9
+#   entries: 6
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      F.De Corte              EXFOR                1988        1.200000E-02   0.000000E+00   23488-043-0        0.363636               
+      F.Farina Arbocco        EXFOR                2014        3.075000E-01   0.000000E+00   23260-091-0        9.318182               
+      F.Farina Arbocco        EXFOR                2014        2.753000E-01   0.000000E+00   23260-091-0        8.342424               
+      F.Farina Arbocco        EXFOR                2014        2.910000E-01   4.000000E-03   23260-090-0        8.818182               
+      F.Farina Arbocco        EXFOR                2014        1.300000E-02   0.000000E+00   23260-089-0        0.393939               
+      F.Farina Arbocco        EXFOR                2014        1.300000E-02   2.000000E-04   23260-088-0        0.393939               
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  3.286667E-02
+#   relative standard deviation [%]:      48.519852
+# datablock:
+#   columns: 9
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      M.Sehgal                EXFOR                1959        5.000000E-02   0.000000E+00   31244-007-0        1.515152   MXW         
+      S.K.Mangal              EXFOR                1963        3.700000E-02   5.550000E-03   31249-002-0        1.121212   SPA         
+      K.S.Krane               EXFOR                2019        1.160000E-02   6.000000E-04   14558-008-0        0.351515   MXW         

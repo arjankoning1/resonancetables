@@ -1,7 +1,7 @@
 # header:
 #   title: Sr086(n,g)_m thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 38
 #   A: 86
@@ -12,23 +12,47 @@
 #   selected value [b]:  8.100000E-01
 #   selected value uncertainty [b]:  6.000000E-02
 #   selected value source: RIPL-3
+#   number of values: 14
+#   average value [b]:  9.152142E-01
+#   relative standard deviation [%]:      28.966839
+# quantity:
+#   type: Compilation
+#   average value:  8.100000E-01
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
-#   entries: 14
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      L.Seren                 EXFOR                1947        1.290000E+00   2.580000E-01   11447-049-0    1.592593E+00
-      W.S.Lyon                EXFOR                1960        1.730000E+00   1.730000E-01   11625-014-0    2.135803E+00
-      H.S.Hans                EXFOR                1960        8.000000E-01   2.500000E-01   31246-007-0    9.876543E-01
-      I.Gulyas                EXFOR                1964        7.690000E-01   4.800000E-02   30341-003-0    9.493827E-01
-      H.H.Kramer              EXFOR                1965        1.000000E+00   1.000000E-01   11832-005-0    1.234568E+00
-      A.Foglio Para           EXFOR                1967        9.400000E-01   5.000000E-02   21403-007-0    1.160494E+00
-      W.Mannhart              EXFOR                1968        8.100000E-01   4.000000E-02   22521-013-0    1.000000E+00
-      F.De Corte              EXFOR                1988        7.700000E-01   6.930000E-03   23488-031-0    9.506173E-01
-      RIPL-3                  Compilation          2004        8.100000E-01   6.000000E-02                  1.000000E+00
-      F.Farina Arbocco        EXFOR                2014        7.910000E-01   0.000000E+00   23260-075-0    9.765432E-01
-      F.Farina Arbocco        EXFOR                2014        7.910000E-01   9.000000E-03   23260-074-0    9.765432E-01
-      K.S.Krane               EXFOR                2021        7.700000E-01   2.000000E-02   14714-010-3    9.506173E-01
-      K.S.Krane               EXFOR                2021        7.570000E-01   2.000000E-02   14714-010-2    9.345679E-01
-      K.S.Krane               EXFOR                2021        7.850000E-01   2.200000E-02   14714-010-1    9.691358E-01
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      RIPL-3                  Compilation          2004        8.100000E-01   6.000000E-02                      1.000000               
+# quantity:
+#   type: EXFOR
+#   average value:  7.840000E-01
+#   relative standard deviation [%]:       1.262692
+# datablock:
+#   columns: 9
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      F.De Corte              EXFOR                1988        7.700000E-01   6.930000E-03   23488-031-0        0.950617               
+      F.Farina Arbocco        EXFOR                2014        7.910000E-01   0.000000E+00   23260-075-0        0.976543               
+      F.Farina Arbocco        EXFOR                2014        7.910000E-01   9.000000E-03   23260-074-0        0.976543               
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  9.650999E-01
+#   relative standard deviation [%]:      31.016661
+# datablock:
+#   columns: 9
+#   entries: 10
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      L.Seren                 EXFOR                1947        1.290000E+00   2.580000E-01   11447-049-0        1.592593   MXW         
+      W.S.Lyon                EXFOR                1960        1.730000E+00   1.730000E-01   11625-014-0        2.135803   SPA         
+      H.S.Hans                EXFOR                1960        8.000000E-01   2.500000E-01   31246-007-0        0.987654   MXW         
+      I.Gulyas                EXFOR                1964        7.690000E-01   4.800000E-02   30341-003-0        0.949383   MXW         
+      H.H.Kramer              EXFOR                1965        1.000000E+00   1.000000E-01   11832-005-0        1.234568   MXW         
+      A.Foglio Para           EXFOR                1967        9.400000E-01   5.000000E-02   21403-007-0        1.160494   MXW         
+      W.Mannhart              EXFOR                1968        8.100000E-01   4.000000E-02   22521-013-0        1.000000   MXW         
+      K.S.Krane               EXFOR                2021        7.700000E-01   2.000000E-02   14714-010-3        0.950617   SPA         
+      K.S.Krane               EXFOR                2021        7.570000E-01   2.000000E-02   14714-010-2        0.934568   SPA         
+      K.S.Krane               EXFOR                2021        7.850000E-01   2.200000E-02   14714-010-1        0.969136   SPA         

@@ -1,7 +1,7 @@
 # header:
 #   title: Xe127(n,a) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 54
 #   A: 127
@@ -12,13 +12,28 @@
 #   selected value [b]:  1.000000E-02
 #   selected value uncertainty [b]:  0.000000E+00
 #   selected value source: Mughabghab_2016
+#   number of values: 4
+#   average value [b]:  7.500000E-03
+#   relative standard deviation [%]:      57.735023
+# quantity:
+#   type: Compilation
+#   average value:  6.666666E-03
+#   relative standard deviation [%]:      70.710678
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
-#   entries: 4
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      E.Hagberg               EXFOR                1976        1.000000E-02   0.000000E+00   21215-004-0    1.000000E+00
-      RIPL-3                  Compilation          2004        0.000000E+00   0.000000E+00                  0.000000E+00
-      Mughabghab_2006         Compilation          2006        1.000000E-02   0.000000E+00                  1.000000E+00
-      Mughabghab_2016         Compilation          2016        1.000000E-02   0.000000E+00                  1.000000E+00
+#   columns: 9
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      RIPL-3                  Compilation          2004        0.000000E+00   0.000000E+00                      0.000000               
+      Mughabghab_2006         Compilation          2006        1.000000E-02   0.000000E+00                      1.000000               
+      Mughabghab_2016         Compilation          2016        1.000000E-02   0.000000E+00                      1.000000               
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  1.000000E-02
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      E.Hagberg               EXFOR                1976        1.000000E-02   0.000000E+00   21215-004-0        1.000000   MXW         

@@ -1,7 +1,7 @@
 # header:
 #   title: Si000(n,tot) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 14
 #   A: 0
@@ -12,11 +12,17 @@
 #   selected value [b]:  4.391800E-01
 #   selected value uncertainty [b]:  5.415100E-03
 #   selected value source: J.A.Harvey
+#   number of values: 2
+#   average value [b]:  4.338200E-01
+#   relative standard deviation [%]:       1.235534
+# quantity:
+#   type: EXFOR
+#   average value:  4.338200E-01
+#   relative standard deviation [%]:       1.235534
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
+#   columns: 9
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      J.A.Harvey              EXFOR                1982        4.284600E-01   5.429900E-03   13733-004-0    9.755909E-01
-      J.A.Harvey              EXFOR                1982        4.391800E-01   5.415100E-03   13733-004-0    1.000000E+00
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      J.A.Harvey              EXFOR                1982        4.284600E-01   5.429900E-03   13733-004-0        0.975591               
+      J.A.Harvey              EXFOR                1982        4.391800E-01   5.415100E-03   13733-004-0        1.000000               

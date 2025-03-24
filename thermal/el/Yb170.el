@@ -1,7 +1,7 @@
 # header:
 #   title: Yb170(n,el) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 70
 #   A: 170
@@ -12,11 +12,17 @@
 #   selected value [b]:  5.810000E+00
 #   selected value uncertainty [b]:  1.700000E-01
 #   selected value source: Mughabghab_2016
+#   number of values: 2
+#   average value [b]:  5.830000E+00
+#   relative standard deviation [%]:       0.343053
+# quantity:
+#   type: Compilation
+#   average value:  5.830000E+00
+#   relative standard deviation [%]:       0.343053
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
+#   columns: 9
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      Mughabghab_2006         Compilation          2006        5.850000E+00   1.700000E-01                  1.006885E+00
-      Mughabghab_2016         Compilation          2016        5.810000E+00   1.700000E-01                  1.000000E+00
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Mughabghab_2006         Compilation          2006        5.850000E+00   1.700000E-01                      1.006885               
+      Mughabghab_2016         Compilation          2016        5.810000E+00   1.700000E-01                      1.000000               

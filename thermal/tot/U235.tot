@@ -1,7 +1,7 @@
 # header:
 #   title: U235(n,tot) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 92
 #   A: 235
@@ -12,19 +12,25 @@
 #   selected value [b]:  6.950000E+02
 #   selected value uncertainty [b]:  1.700000E+01
 #   selected value source: A.V.Antonov
+#   number of values: 10
+#   average value [b]:  6.384950E+02
+#   relative standard deviation [%]:      27.755993
+# quantity:
+#   type: EXFOR
+#   average value:  6.384950E+02
+#   relative standard deviation [%]:      27.755993
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
+#   columns: 9
 #   entries: 10
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      E.E.Anderson            EXFOR                1944        6.500000E+02   0.000000E+00   14728-004-0    9.352518E-01
-      E.Melkonian             EXFOR                1953        6.910000E+02   5.000000E+00   12426-002-0    9.942446E-01
-      H.Palevsky              EXFOR                1953        6.900000E+02   0.000000E+00   12389-003-0    9.928058E-01
-      P.A.Egelstaff           EXFOR                1954        7.240000E+02   1.500000E+01   21179-009-0    1.041727E+00
-      P.A.Egelstaff           EXFOR                1954        7.290000E+02   1.500000E+01   21179-006-0    1.048921E+00
-      B.R.Leonard Jr          EXFOR                1954        7.020000E+02   0.000000E+00   12430-003-0    1.010072E+00
-      G.J.Safford             EXFOR                1959        6.986800E+02   4.810000E+00   12404-003-0    1.005295E+00
-      G.J.Safford             EXFOR                1959        6.949700E+02   1.810000E+00   12404-002-0    9.999568E-01
-      O.D.Simpson             EXFOR                1960        1.103000E+02   0.000000E+00   12329-002-0    1.587050E-01
-      A.V.Antonov             EXFOR                1986        6.950000E+02   1.700000E+01   40974-004-0    1.000000E+00
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      E.E.Anderson            EXFOR                1944        6.500000E+02   0.000000E+00   14728-004-0        0.935252               
+      E.Melkonian             EXFOR                1953        6.910000E+02   5.000000E+00   12426-002-0        0.994245               
+      H.Palevsky              EXFOR                1953        6.900000E+02   0.000000E+00   12389-003-0        0.992806               
+      P.A.Egelstaff           EXFOR                1954        7.240000E+02   1.500000E+01   21179-009-0        1.041727               
+      P.A.Egelstaff           EXFOR                1954        7.290000E+02   1.500000E+01   21179-006-0        1.048921               
+      B.R.Leonard Jr          EXFOR                1954        7.020000E+02   0.000000E+00   12430-003-0        1.010072               
+      G.J.Safford             EXFOR                1959        6.986800E+02   4.810000E+00   12404-003-0        1.005295               
+      G.J.Safford             EXFOR                1959        6.949700E+02   1.810000E+00   12404-002-0        0.999957               
+      O.D.Simpson             EXFOR                1960        1.103000E+02   0.000000E+00   12329-002-0        0.158705               
+      A.V.Antonov             EXFOR                1986        6.950000E+02   1.700000E+01   40974-004-0        1.000000               

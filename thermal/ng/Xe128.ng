@@ -1,7 +1,7 @@
 # header:
 #   title: Xe128(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 54
 #   A: 128
@@ -12,17 +12,32 @@
 #   selected value [b]:  3.500000E+00
 #   selected value uncertainty [b]:  7.000000E-01
 #   selected value source: Mughabghab_2016
+#   number of values: 8
+#   average value [b]:  4.912715E+00
+#   relative standard deviation [%]:      28.630981
+# quantity:
+#   type: Compilation
+#   average value:  5.475000E+00
+#   relative standard deviation [%]:      29.490082
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
-#   entries: 8
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      RIPL-3                  Compilation          2004        8.000000E+00   0.000000E+00                  2.285714E+00
-      Mughabghab_2006         Compilation          2006        5.200000E+00   1.300000E+00                  1.485714E+00
-      Sukhoruchkin            Compilation          2015        5.200000E+00   1.300000E+00                  1.485714E+00
-      Mughabghab_2016         Compilation          2016        3.500000E+00   7.000000E-01                  1.000000E+00
-      jeff3.3                 NDL                  2020        5.203590E+00   0.000000E+00                  1.486740E+00
-      jendl5.0                NDL                  2021        5.203590E+00   0.000000E+00                  1.486740E+00
-      tendl.2023              NDL                  2023        3.508400E+00   0.000000E+00                  1.002400E+00
-      endfb8.1                NDL                  2024        5.191470E+00   0.000000E+00                  1.483277E+00
+#   columns: 9
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      RIPL-3                  Compilation          2004        8.000000E+00   0.000000E+00                      2.285714               
+      Mughabghab_2006         Compilation          2006        5.200000E+00   1.300000E+00                      1.485714               
+      Sukhoruchkin            Compilation          2015        5.200000E+00   1.300000E+00                      1.485714               
+      Mughabghab_2016         Compilation          2016        3.500000E+00   7.000000E-01                      1.000000               
+# quantity:
+#   type: Nuclear data library
+#   average value:  4.350430E+00
+#   relative standard deviation [%]:      19.472063
+# datablock:
+#   columns: 9
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      jendl5.0                NDL                  2021        5.203590E+00   0.000000E+00                      1.486740               
+      tendl.2023              NDL                  2023        3.508400E+00   0.000000E+00                      1.002400               
+      endfb8.1                NDL                  2024        5.191470E+00   0.000000E+00                      1.483277               
+      jeff4.0                 NDL                  2025        3.498260E+00   0.000000E+00                      0.999503               

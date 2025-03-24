@@ -1,7 +1,7 @@
 # header:
 #   title: Sm154(n,tot) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 62
 #   A: 154
@@ -12,12 +12,18 @@
 #   selected value [b]:  2.910000E+01
 #   selected value uncertainty [b]:  0.000000E+00
 #   selected value source: V.P.Vertebnyj
+#   number of values: 3
+#   average value [b]:  2.933333E+01
+#   relative standard deviation [%]:       0.579433
+# quantity:
+#   type: EXFOR
+#   average value:  2.933333E+01
+#   relative standard deviation [%]:       0.579433
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
+#   columns: 9
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      V.P.Vertebnyj           EXFOR                1980        2.950000E+01   0.000000E+00   40536-003-0    1.013746E+00
-      V.P.Vertebnyj           EXFOR                1980        2.940000E+01   0.000000E+00   40536-003-0    1.010309E+00
-      V.P.Vertebnyj           EXFOR                1980        2.910000E+01   0.000000E+00   40536-003-0    1.000000E+00
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      V.P.Vertebnyj           EXFOR                1980        2.950000E+01   0.000000E+00   40536-003-0        1.013746               
+      V.P.Vertebnyj           EXFOR                1980        2.940000E+01   0.000000E+00   40536-003-0        1.010309               
+      V.P.Vertebnyj           EXFOR                1980        2.910000E+01   0.000000E+00   40536-003-0        1.000000               

@@ -1,7 +1,7 @@
 # header:
 #   title: Mn052(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 25
 #   A: 52
@@ -12,13 +12,28 @@
 #   selected value [b]:  6.000000E+01
 #   selected value uncertainty [b]:  7.000000E+00
 #   selected value source: RIPL-3
+#   number of values: 4
+#   average value [b]:  4.515172E+01
+#   relative standard deviation [%]:      56.938061
+# quantity:
+#   type: Compilation
+#   average value:  6.000000E+01
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
-#   entries: 4
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      RIPL-3                  Compilation          2004        6.000000E+01   7.000000E+00                  1.000000E+00
-      jeff3.3                 NDL                  2020        5.973370E+01   0.000000E+00                  9.955617E-01
-      jendl5.0                NDL                  2021        6.232630E-01   0.000000E+00                  1.038772E-02
-      tendl.2023              NDL                  2023        5.999180E+01   0.000000E+00                  9.998633E-01
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      RIPL-3                  Compilation          2004        6.000000E+01   7.000000E+00                      1.000000               
+# quantity:
+#   type: Nuclear data library
+#   average value:  4.020229E+01
+#   relative standard deviation [%]:      69.614433
+# datablock:
+#   columns: 9
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      jendl5.0                NDL                  2021        6.232630E-01   0.000000E+00                      0.010388               
+      tendl.2023              NDL                  2023        5.999180E+01   0.000000E+00                      0.999863               
+      jeff4.0                 NDL                  2025        5.999180E+01   0.000000E+00                      0.999863               

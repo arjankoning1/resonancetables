@@ -1,7 +1,7 @@
 # header:
 #   title: U000(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 92
 #   A: 0
@@ -9,15 +9,40 @@
 # reaction:
 #   type: (n,g)
 # observables:
-#   selected value [b]:  7.830000E+00
-#   selected value uncertainty [b]:  4.200000E-01
-#   selected value source: Al.Stefanescu
+#   selected value [b]:  7.673000E+00
+#   selected value uncertainty [b]:  2.100000E-02
+#   selected value source: Firestone
+#   number of values: 4
+#   average value [b]:  6.643250E+00
+#   relative standard deviation [%]:      23.365490
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  7.673000E+00
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
-#   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      K.Hanatani              EXFOR                1945        4.000000E+00   2.100000E+00   23397-003-0    5.108557E-01
-      V.G.Small               EXFOR                1955        7.070000E+00   1.200000E-01   21182-002-0    9.029375E-01
-      Al.Stefanescu           EXFOR                1961        7.830000E+00   4.200000E-01   30073-009-0    1.000000E+00
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Firestone               Compilation          2022        7.673000E+00   2.100000E-02                      1.000000   MXW         
+# quantity:
+#   type: EXFOR
+#   average value:  7.830000E+00
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Al.Stefanescu           EXFOR                1961        7.830000E+00   4.200000E-01   30073-009-0        1.020461               
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  5.535000E+00
+#   relative standard deviation [%]:      27.732615
+# datablock:
+#   columns: 9
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      K.Hanatani              EXFOR                1945        4.000000E+00   2.100000E+00   23397-003-0        0.521308   SPA         
+      V.G.Small               EXFOR                1955        7.070000E+00   1.200000E-01   21182-002-0        0.921413   MXW         

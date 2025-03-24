@@ -1,7 +1,7 @@
 # header:
 #   title: Gd152(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 64
 #   A: 152
@@ -12,22 +12,57 @@
 #   selected value [b]:  7.593000E+02
 #   selected value uncertainty [b]:  4.590000E+01
 #   selected value source: Kayzero
+#   number of values: 15
+#   average value [b]:  7.832409E+02
+#   relative standard deviation [%]:      15.558660
+# quantity:
+#   type: Compilation
+#   average value:  7.381000E+02
+#   relative standard deviation [%]:       3.657756
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
-#   entries: 13
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      E.Steinnes              EXFOR                1972        1.100000E+03   1.000000E+02   20188-020-0    1.448703E+00
-      RIPL-3                  Compilation          2004        7.000000E+02   2.000000E+02                  9.219018E-01
-      J.Y.Lee                 EXFOR                2011        6.147000E+02   5.780000E+01   30829-002-0    8.095615E-01
-      F.Farina Arbocco        EXFOR                2014        7.730000E+02   0.000000E+00   23260-118-0    1.018043E+00
-      F.Farina Arbocco        EXFOR                2014        7.710000E+02   0.000000E+00   23260-118-0    1.015409E+00
-      F.Farina Arbocco        EXFOR                2014        7.720000E+02   2.000000E+00   23260-117-0    1.016726E+00
-      Mughabghab_2016         Compilation          2016        7.550000E+02   2.000000E+01                  9.943369E-01
-      Kayzero                 Compilation          2018        7.593000E+02   4.590000E+01                  1.000000E+00
-      cendl3.2                NDL                  2019        1.055810E+03   0.000000E+00                  1.390504E+00
-      jeff3.3                 NDL                  2020        7.349730E+02   0.000000E+00                  9.679613E-01
-      jendl5.0                NDL                  2021        7.348450E+02   0.000000E+00                  9.677927E-01
-      tendl.2023              NDL                  2023        7.539950E+02   0.000000E+00                  9.930133E-01
-      endfb8.1                NDL                  2024        7.349730E+02   0.000000E+00                  9.679613E-01
+#   columns: 9
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      RIPL-3                  Compilation          2004        7.000000E+02   2.000000E+02                      0.921902               
+      Mughabghab_2016         Compilation          2016        7.550000E+02   2.000000E+01                      0.994337               
+      Kayzero                 Compilation          2018        7.593000E+02   4.590000E+01                      1.000000               
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  7.350000E+02
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 9
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Mughabghab_2006         Compilation          2006        7.350000E+02   2.000000E+01                      0.967997   MXW         
+      Sukhoruchkin            Compilation          2015        7.350000E+02   2.000000E+01                      0.967997   MXW         
+# quantity:
+#   type: EXFOR
+#   average value:  8.061400E+02
+#   relative standard deviation [%]:      19.731155
+# datablock:
+#   columns: 9
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      E.Steinnes              EXFOR                1972        1.100000E+03   1.000000E+02   20188-020-0        1.448703               
+      J.Y.Lee                 EXFOR                2011        6.147000E+02   5.780000E+01   30829-002-0        0.809561               
+      F.Farina Arbocco        EXFOR                2014        7.730000E+02   0.000000E+00   23260-118-0        1.018043               
+      F.Farina Arbocco        EXFOR                2014        7.710000E+02   0.000000E+00   23260-118-0        1.015409               
+      F.Farina Arbocco        EXFOR                2014        7.720000E+02   2.000000E+00   23260-117-0        1.016726               
+# quantity:
+#   type: Nuclear data library
+#   average value:  8.067226E+02
+#   relative standard deviation [%]:      15.474440
+# datablock:
+#   columns: 9
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      cendl3.2                NDL                  2019        1.055810E+03   0.000000E+00                      1.390504               
+      jendl5.0                NDL                  2021        7.348450E+02   0.000000E+00                      0.967793               
+      tendl.2023              NDL                  2023        7.539950E+02   0.000000E+00                      0.993013               
+      endfb8.1                NDL                  2024        7.349730E+02   0.000000E+00                      0.967961               
+      jeff4.0                 NDL                  2025        7.539900E+02   0.000000E+00                      0.993007               

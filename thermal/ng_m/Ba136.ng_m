@@ -1,7 +1,7 @@
 # header:
 #   title: Ba136(n,g)_m thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 56
 #   A: 136
@@ -12,14 +12,29 @@
 #   selected value [b]:  1.000000E-02
 #   selected value uncertainty [b]:  1.000000E-03
 #   selected value source: RIPL-3
+#   number of values: 5
+#   average value [b]:  1.504000E-02
+#   relative standard deviation [%]:      47.939892
+# quantity:
+#   type: Compilation
+#   average value:  1.000000E-02
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
-#   entries: 5
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      H.S.Hans                EXFOR                1960        1.600000E-02   5.000000E-03   31246-010-0    1.600000E+00
-      H.H.Kramer              EXFOR                1965        1.100000E-02   1.100000E-03   11832-007-0    1.100000E+00
-      A.Foglio Para           EXFOR                1967        9.500000E-03   1.000000E-03   21403-008-0    9.500000E-01
-      RIPL-3                  Compilation          2004        1.000000E-02   1.000000E-03                  1.000000E+00
-      A.Y.Dauenhauer          EXFOR                2012        2.870000E-02   5.700000E-03   14340-007-0    2.870000E+00
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      RIPL-3                  Compilation          2004        1.000000E-02   1.000000E-03                      1.000000               
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  1.630000E-02
+#   relative standard deviation [%]:      46.336285
+# datablock:
+#   columns: 9
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      H.S.Hans                EXFOR                1960        1.600000E-02   5.000000E-03   31246-010-0        1.600000   MXW         
+      H.H.Kramer              EXFOR                1965        1.100000E-02   1.100000E-03   11832-007-0        1.100000   MXW         
+      A.Foglio Para           EXFOR                1967        9.500000E-03   1.000000E-03   21403-008-0        0.950000   MXW         
+      A.Y.Dauenhauer          EXFOR                2012        2.870000E-02   5.700000E-03   14340-007-0        2.870000   MXW         

@@ -1,7 +1,7 @@
 # header:
 #   title: Ag107(n,g)_m thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 47
 #   A: 107
@@ -12,14 +12,38 @@
 #   selected value [b]:  4.100000E-01
 #   selected value uncertainty [b]:  8.000000E-02
 #   selected value source: Mughabghab_2016
+#   number of values: 5
+#   average value [b]:  3.906000E-01
+#   relative standard deviation [%]:      12.822919
+# quantity:
+#   type: Compilation
+#   average value:  3.900000E-01
+#   relative standard deviation [%]:       5.128204
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
-#   entries: 5
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      D.V.Rao                 EXFOR                1978        3.300000E-01   0.000000E+00   12959-002-0    8.048781E-01
-      T.B.Ryves               EXFOR                1979        3.660000E-01   6.500000E-02   21625-002-0    8.926829E-01
-      M.Gavrilas              EXFOR                1987        4.770000E-01   3.300000E-02   13129-002-0    1.163415E+00
-      RIPL-3                  Compilation          2004        3.700000E-01   8.000000E-02                  9.024391E-01
-      Mughabghab_2016         Compilation          2016        4.100000E-01   8.000000E-02                  1.000000E+00
+#   columns: 9
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      RIPL-3                  Compilation          2004        3.700000E-01   8.000000E-02                      0.902439               
+      Mughabghab_2016         Compilation          2016        4.100000E-01   8.000000E-02                      1.000000               
+# quantity:
+#   type: EXFOR
+#   average value:  4.215000E-01
+#   relative standard deviation [%]:      13.167260
+# datablock:
+#   columns: 9
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      T.B.Ryves               EXFOR                1979        3.660000E-01   6.500000E-02   21625-002-0        0.892683               
+      M.Gavrilas              EXFOR                1987        4.770000E-01   3.300000E-02   13129-002-0        1.163415               
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  3.300000E-01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      D.V.Rao                 EXFOR                1978        3.300000E-01   0.000000E+00   12959-002-0        0.804878   MXW         

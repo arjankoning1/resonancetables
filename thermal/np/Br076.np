@@ -1,7 +1,7 @@
 # header:
 #   title: Br076(n,p) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 35
 #   A: 76
@@ -12,12 +12,27 @@
 #   selected value [b]:  2.240000E+02
 #   selected value uncertainty [b]:  4.200000E+01
 #   selected value source: Mughabghab_2016
+#   number of values: 3
+#   average value [b]:  1.493334E+02
+#   relative standard deviation [%]:      70.710564
+# quantity:
+#   type: Compilation
+#   average value:  1.120001E+02
+#   relative standard deviation [%]:      99.999802
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
-#   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      G.Andersson             EXFOR                1978        2.240000E+02   4.200000E+01   21388-003-0    1.000000E+00
-      RIPL-3                  Compilation          2004        2.240000E-04   4.200000E-05                  1.000000E-06
-      Mughabghab_2016         Compilation          2016        2.240000E+02   4.200000E+01                  1.000000E+00
+#   columns: 9
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      RIPL-3                  Compilation          2004        2.240000E-04   4.200000E-05                      0.000001               
+      Mughabghab_2016         Compilation          2016        2.240000E+02   4.200000E+01                      1.000000               
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  2.240000E+02
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      G.Andersson             EXFOR                1978        2.240000E+02   4.200000E+01   21388-003-0        1.000000   MXW         

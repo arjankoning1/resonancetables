@@ -1,7 +1,7 @@
 # header:
 #   title: Rb086(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 37
 #   A: 86
@@ -12,14 +12,29 @@
 #   selected value [b]:  2.000000E+01
 #   selected value uncertainty [b]:  0.000000E+00
 #   selected value source: RIPL-3
+#   number of values: 5
+#   average value [b]:  1.261866E+01
+#   relative standard deviation [%]:      71.540443
+# quantity:
+#   type: Compilation
+#   average value:  2.000000E+01
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
-#   entries: 5
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      RIPL-3                  Compilation          2004        2.000000E+01   0.000000E+00                  1.000000E+00
-      jeff3.3                 NDL                  2020        1.989200E+01   0.000000E+00                  9.946000E-01
-      jendl5.0                NDL                  2021        1.562250E+00   0.000000E+00                  7.811250E-02
-      tendl.2023              NDL                  2023        1.998430E+01   0.000000E+00                  9.992150E-01
-      endfb8.1                NDL                  2024        1.562440E+00   0.000000E+00                  7.812200E-02
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      RIPL-3                  Compilation          2004        2.000000E+01   0.000000E+00                      1.000000               
+# quantity:
+#   type: Nuclear data library
+#   average value:  1.077332E+01
+#   relative standard deviation [%]:      85.498016
+# datablock:
+#   columns: 9
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      jendl5.0                NDL                  2021        1.562250E+00   0.000000E+00                      0.078112               
+      tendl.2023              NDL                  2023        1.998430E+01   0.000000E+00                      0.999215               
+      endfb8.1                NDL                  2024        1.562440E+00   0.000000E+00                      0.078122               
+      jeff4.0                 NDL                  2025        1.998430E+01   0.000000E+00                      0.999215               

@@ -1,7 +1,7 @@
 # header:
 #   title: Ag109(n,g)_g thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 47
 #   A: 109
@@ -12,14 +12,29 @@
 #   selected value [b]:  8.630000E+01
 #   selected value uncertainty [b]:  1.000000E+00
 #   selected value source: Mughabghab_2016
+#   number of values: 5
+#   average value [b]:  9.456000E+01
+#   relative standard deviation [%]:      10.794803
+# quantity:
+#   type: Compilation
+#   average value:  8.665000E+01
+#   relative standard deviation [%]:       0.403922
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
-#   entries: 5
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      L.Seren                 EXFOR                1947        9.700000E+01   1.940000E+01   11447-067-0    1.123986E+00
-      M.L.Sehgal              EXFOR                1957        1.135000E+02   1.300000E+01   31237-002-0    1.315180E+00
-      B.Keisch                EXFOR                1963        8.900000E+01   4.000000E+00   11748-011-0    1.031286E+00
-      RIPL-3                  Compilation          2004        8.700000E+01   3.000000E+00                  1.008111E+00
-      Mughabghab_2016         Compilation          2016        8.630000E+01   1.000000E+00                  1.000000E+00
+#   columns: 9
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      RIPL-3                  Compilation          2004        8.700000E+01   3.000000E+00                      1.008111               
+      Mughabghab_2016         Compilation          2016        8.630000E+01   1.000000E+00                      1.000000               
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  9.983334E+01
+#   relative standard deviation [%]:      10.217792
+# datablock:
+#   columns: 9
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      L.Seren                 EXFOR                1947        9.700000E+01   1.940000E+01   11447-067-0        1.123986   MXW         
+      M.L.Sehgal              EXFOR                1957        1.135000E+02   1.300000E+01   31237-002-0        1.315180   SPA         
+      B.Keisch                EXFOR                1963        8.900000E+01   4.000000E+00   11748-011-0        1.031286   MXW         

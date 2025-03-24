@@ -1,7 +1,7 @@
 # header:
 #   title: Yb000(n,tot) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 70
 #   A: 0
@@ -12,11 +12,17 @@
 #   selected value [b]:  6.760000E+01
 #   selected value uncertainty [b]:  2.000000E+00
 #   selected value source: S.F.Mughabghab
+#   number of values: 2
+#   average value [b]:  6.580000E+01
+#   relative standard deviation [%]:       2.735561
+# quantity:
+#   type: EXFOR
+#   average value:  6.580000E+01
+#   relative standard deviation [%]:       2.735561
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
+#   columns: 9
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      R.L.Zimmerman           EXFOR                1967        6.400000E+01   2.000000E+00   30224-018-0    9.467456E-01
-      S.F.Mughabghab          EXFOR                1968        6.760000E+01   2.000000E+00   12130-002-0    1.000000E+00
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      R.L.Zimmerman           EXFOR                1967        6.400000E+01   2.000000E+00   30224-018-0        0.946746               
+      S.F.Mughabghab          EXFOR                1968        6.760000E+01   2.000000E+00   12130-002-0        1.000000               

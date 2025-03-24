@@ -1,7 +1,7 @@
 # header:
 #   title: Lu175(n,g)_g thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 71
 #   A: 175
@@ -12,11 +12,17 @@
 #   selected value [b]:  6.600000E+00
 #   selected value uncertainty [b]:  1.300000E+00
 #   selected value source: Mughabghab_2016
+#   number of values: 2
+#   average value [b]:  7.300000E+00
+#   relative standard deviation [%]:       9.589042
+# quantity:
+#   type: Compilation
+#   average value:  7.300000E+00
+#   relative standard deviation [%]:       9.589042
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
+#   columns: 9
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      RIPL-3                  Compilation          2004        8.000000E+00   1.300000E+00                  1.212121E+00
-      Mughabghab_2016         Compilation          2016        6.600000E+00   1.300000E+00                  1.000000E+00
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      RIPL-3                  Compilation          2004        8.000000E+00   1.300000E+00                      1.212121               
+      Mughabghab_2016         Compilation          2016        6.600000E+00   1.300000E+00                      1.000000               

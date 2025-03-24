@@ -1,7 +1,7 @@
 # header:
 #   title: Co059m(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 27
 #   A: 59
@@ -12,10 +12,16 @@
 #   selected value [b]:  5.800000E+01
 #   selected value uncertainty [b]:  8.000000E+00
 #   selected value source: RIPL-3
+#   number of values: 1
+#   average value [b]:  5.800000E+01
+#   relative standard deviation [%]:       0.000000
+# quantity:
+#   type: Compilation
+#   average value:  5.800000E+01
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
+#   columns: 9
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      RIPL-3                  Compilation          2004        5.800000E+01   8.000000E+00                  1.000000E+00
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      RIPL-3                  Compilation          2004        5.800000E+01   8.000000E+00                      1.000000               

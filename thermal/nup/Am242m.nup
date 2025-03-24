@@ -1,7 +1,7 @@
 # header:
 #   title: Am242m(n,nuprompt) thermal neutron multiplicity
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 95
 #   A: 242
@@ -12,12 +12,27 @@
 #   selected value]:  3.260000E+00
 #   selected value uncertainty]:  0.000000E+00
 #   selected value source: Mughabghab_2016
+#   number of values: 3
+#   average value:  3.268000E+00
+#   relative standard deviation [%]:       0.264412
+# quantity:
+#   type: Compilation
+#   average value:  3.260000E+00
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: thermal neutron multiplicity
-#   columns: 8
-#   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []             []             []             []             []
-      Kroshkin                EXFOR                1970        3.280000E+00   1.000000E-01   40064002       1.006135E+00
-      Jaffey                  EXFOR                1970        3.264000E+00   2.400000E-02   101250055      1.001227E+00
-      Mughabghab_2016         Compilation          2016        3.260000E+00   0.000000E+00                  1.000000E+00
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             []             []             []             []             []
+      Mughabghab_2016         Compilation          2016        3.260000E+00   0.000000E+00                      1.000000               
+# quantity:
+#   type: EXFOR
+#   average value:  3.272000E+00
+#   relative standard deviation [%]:       0.244499
+# datablock:
+#   columns: 9
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             []             []             []             []             []
+      Kroshkin                EXFOR                1970        3.280000E+00   1.000000E-01   40064002           1.006135               
+      Jaffey                  EXFOR                1970        3.264000E+00   2.400000E-02   101250055          1.001227               

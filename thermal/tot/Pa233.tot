@@ -1,7 +1,7 @@
 # header:
 #   title: Pa233(n,tot) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 91
 #   A: 233
@@ -12,10 +12,16 @@
 #   selected value [b]:  5.500000E+01
 #   selected value uncertainty [b]:  3.000000E+00
 #   selected value source: F.B.Simpson
+#   number of values: 1
+#   average value [b]:  5.500000E+01
+#   relative standard deviation [%]:       0.000000
+# quantity:
+#   type: EXFOR
+#   average value:  5.500000E+01
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
+#   columns: 9
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      F.B.Simpson             EXFOR                1967        5.500000E+01   3.000000E+00   12263-003-0    1.000000E+00
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      F.B.Simpson             EXFOR                1967        5.500000E+01   3.000000E+00   12263-003-0        1.000000               

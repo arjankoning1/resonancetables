@@ -1,7 +1,7 @@
 # header:
 #   title: He000(n,el) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 2
 #   A: 0
@@ -12,10 +12,16 @@
 #   selected value [b]:  7.800000E-01
 #   selected value uncertainty [b]:  8.000000E-02
 #   selected value source: S.P.Harris
+#   number of values: 1
+#   average value [b]:  7.800000E-01
+#   relative standard deviation [%]:       0.000000
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  7.800000E-01
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
+#   columns: 9
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      S.P.Harris              EXFOR                1950        7.800000E-01   8.000000E-02   11181-007-0    1.000000E+00
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      S.P.Harris              EXFOR                1950        7.800000E-01   8.000000E-02   11181-007-0        1.000000   MXW         

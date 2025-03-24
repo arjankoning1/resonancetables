@@ -1,7 +1,7 @@
 # header:
 #   title: U238(n,a) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 92
 #   A: 238
@@ -12,14 +12,29 @@
 #   selected value [b]:  1.300000E-06
 #   selected value uncertainty [b]:  6.000000E-07
 #   selected value source: Mughabghab_2016
+#   number of values: 5
+#   average value [b]:  2.920000E-06
+#   relative standard deviation [%]:     107.566978
+# quantity:
+#   type: Compilation
+#   average value:  1.300000E-06
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
-#   entries: 5
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      M.Asghar                EXFOR                1976        9.200000E-06   6.000000E-08   20588-002-0    7.076923E+00
-      C.Wagemans              EXFOR                1981        1.500000E-06   0.000000E+00   21724-005-0    1.153846E+00
-      Mughabghab_2006         Compilation          2006        1.300000E-06   6.000000E-07                  1.000000E+00
-      Sukhoruchkin            Compilation          2015        1.300000E-06   6.000000E-07                  1.000000E+00
-      Mughabghab_2016         Compilation          2016        1.300000E-06   6.000000E-07                  1.000000E+00
+#   columns: 9
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Mughabghab_2006         Compilation          2006        1.300000E-06   6.000000E-07                      1.000000               
+      Sukhoruchkin            Compilation          2015        1.300000E-06   6.000000E-07                      1.000000               
+      Mughabghab_2016         Compilation          2016        1.300000E-06   6.000000E-07                      1.000000               
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  5.350000E-06
+#   relative standard deviation [%]:      71.962616
+# datablock:
+#   columns: 9
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      M.Asghar                EXFOR                1976        9.200000E-06   6.000000E-08   20588-002-0        7.076923   MXW         
+      C.Wagemans              EXFOR                1981        1.500000E-06   0.000000E+00   21724-005-0        1.153846   MXW         

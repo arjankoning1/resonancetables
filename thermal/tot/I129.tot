@@ -1,7 +1,7 @@
 # header:
 #   title: I129(n,tot) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 53
 #   A: 129
@@ -12,10 +12,16 @@
 #   selected value [b]:  3.500000E+01
 #   selected value uncertainty [b]:  0.000000E+00
 #   selected value source: R.C.Block
+#   number of values: 1
+#   average value [b]:  3.500000E+01
+#   relative standard deviation [%]:       0.000000
+# quantity:
+#   type: EXFOR
+#   average value:  3.500000E+01
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
+#   columns: 9
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      R.C.Block               EXFOR                1960        3.500000E+01   0.000000E+00   12024-003-0    1.000000E+00
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      R.C.Block               EXFOR                1960        3.500000E+01   0.000000E+00   12024-003-0        1.000000               

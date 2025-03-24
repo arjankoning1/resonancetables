@@ -1,7 +1,7 @@
 # header:
 #   title: V000(n,el) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 23
 #   A: 0
@@ -12,10 +12,16 @@
 #   selected value [b]:  4.870000E+00
 #   selected value uncertainty [b]:  5.000000E-02
 #   selected value source: H.Ceulemans
+#   number of values: 1
+#   average value [b]:  4.870000E+00
+#   relative standard deviation [%]:       0.000000
+# quantity:
+#   type: EXFOR
+#   average value:  4.870000E+00
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
+#   columns: 9
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      H.Ceulemans             EXFOR                1970        4.870000E+00   5.000000E-02   20369-003-0    1.000000E+00
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      H.Ceulemans             EXFOR                1970        4.870000E+00   5.000000E-02   20369-003-0        1.000000               

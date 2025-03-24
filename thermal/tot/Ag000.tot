@@ -1,7 +1,7 @@
 # header:
 #   title: Ag000(n,tot) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 47
 #   A: 0
@@ -12,11 +12,26 @@
 #   selected value [b]:  6.903200E+01
 #   selected value uncertainty [b]:  0.000000E+00
 #   selected value source: S.G.Shin
+#   number of values: 2
+#   average value [b]:  6.601600E+01
+#   relative standard deviation [%]:       4.568588
+# quantity:
+#   type: EXFOR
+#   average value:  6.903200E+01
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
-#   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      M.Goldhaber             EXFOR                1937        6.300000E+01   0.000000E+00   22518-009-0    9.126202E-01
-      S.G.Shin                EXFOR                2018        6.903200E+01   0.000000E+00   30852-002-0    1.000000E+00
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      S.G.Shin                EXFOR                2018        6.903200E+01   0.000000E+00   30852-002-0        1.000000               
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  6.300000E+01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      M.Goldhaber             EXFOR                1937        6.300000E+01   0.000000E+00   22518-009-0        0.912620   MXW         

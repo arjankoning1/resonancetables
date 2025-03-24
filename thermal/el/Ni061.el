@@ -1,7 +1,7 @@
 # header:
 #   title: Ni061(n,el) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 28
 #   A: 61
@@ -12,11 +12,17 @@
 #   selected value [b]:  8.200000E+00
 #   selected value uncertainty [b]:  1.000000E+00
 #   selected value source: Mughabghab_2016
+#   number of values: 2
+#   average value [b]:  8.600000E+00
+#   relative standard deviation [%]:       4.651164
+# quantity:
+#   type: Compilation
+#   average value:  8.600000E+00
+#   relative standard deviation [%]:       4.651164
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
+#   columns: 9
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      Mughabghab_2006         Compilation          2006        9.000000E+00   1.000000E+00                  1.097561E+00
-      Mughabghab_2016         Compilation          2016        8.200000E+00   1.000000E+00                  1.000000E+00
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Mughabghab_2006         Compilation          2006        9.000000E+00   1.000000E+00                      1.097561               
+      Mughabghab_2016         Compilation          2016        8.200000E+00   1.000000E+00                      1.000000               

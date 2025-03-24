@@ -1,7 +1,7 @@
 # header:
 #   title: Cm247(n,nuprompt) thermal neutron multiplicity
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 96
 #   A: 247
@@ -12,11 +12,26 @@
 #   selected value]:  3.790000E+00
 #   selected value uncertainty]:  0.000000E+00
 #   selected value source: Mughabghab_2016
+#   number of values: 2
+#   average value:  3.790000E+00
+#   relative standard deviation [%]:       0.000000
+# quantity:
+#   type: Compilation
+#   average value:  3.790000E+00
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: thermal neutron multiplicity
-#   columns: 8
-#   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []             []             []             []             []
-      Zhuravlev               EXFOR                1973        3.790000E+00   1.500000E-01   40297013       1.000000E+00
-      Mughabghab_2016         Compilation          2016        3.790000E+00   0.000000E+00                  1.000000E+00
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             []             []             []             []             []
+      Mughabghab_2016         Compilation          2016        3.790000E+00   0.000000E+00                      1.000000               
+# quantity:
+#   type: EXFOR
+#   average value:  3.790000E+00
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             []             []             []             []             []
+      Zhuravlev               EXFOR                1973        3.790000E+00   1.500000E-01   40297013           1.000000               

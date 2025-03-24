@@ -1,7 +1,7 @@
 # header:
 #   title: Cl035(n,p) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 17
 #   A: 35
@@ -12,25 +12,49 @@
 #   selected value [b]:  4.890000E-01
 #   selected value uncertainty [b]:  1.400000E-02
 #   selected value source: Mughabghab_2016
+#   number of values: 16
+#   average value [b]:  3.886481E-01
+#   relative standard deviation [%]:      40.485882
+# quantity:
+#   type: Compilation
+#   average value:  4.890000E-01
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
-#   entries: 16
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      A.Gibert                EXFOR                1944        4.600000E-01   1.000000E-01   21232-002-0    9.406953E-01
-      A.Langsdorf             EXFOR                1945        3.200000E-01   0.000000E+00   11545-002-0    6.543967E-01
-      D.J.Hughes              EXFOR                1945        4.600000E-01   6.000000E-02   11546-002-0    9.406953E-01
-      L.Seren                 EXFOR                1947        1.690000E-01   3.380000E-02   11447-010-0    3.456033E-01
-      W.Maurer                EXFOR                1949        2.900000E-01   7.250000E-02   21349-002-0    5.930470E-01
-      H.Berthet               EXFOR                1955        3.000000E-01   1.000000E-02   21240-002-0    6.134970E-01
-      R.W.Durham              EXFOR                1961        5.900000E-01   9.000000E-02   11549-003-0    1.206544E+00
-      D.W.Kappe               EXFOR                1966        1.890000E-01   7.560000E-03   11277-009-2    3.865031E-01
-      W.Koehler               EXFOR                1966        3.700000E-04   2.000000E-05   21354-002-0    7.566462E-04
-      I.G.Schroeder           EXFOR                1968        4.660000E-01   4.000000E-02   11592-002-0    9.529653E-01
-      G.H.E.Sims              EXFOR                1969        4.920000E-01   1.400000E-02   10042-003-0    1.006135E+00
-      G.H.E.Sims              EXFOR                1969        4.890000E-01   1.400000E-02   10042-002-0    1.000000E+00
-      S.Druyts                EXFOR                1994        4.400000E-01   1.000000E-02   22294-002-0    8.997955E-01
-      Yu.M.Gledenov           EXFOR                1999        5.750000E-01   1.300000E-02   41352-002-0    1.175869E+00
-      Sukhoruchkin            Compilation          2015        4.890000E-01   1.400000E-02                  1.000000E+00
-      Mughabghab_2016         Compilation          2016        4.890000E-01   1.400000E-02                  1.000000E+00
+#   columns: 9
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Sukhoruchkin            Compilation          2015        4.890000E-01   1.400000E-02                      1.000000               
+      Mughabghab_2016         Compilation          2016        4.890000E-01   1.400000E-02                      1.000000               
+# quantity:
+#   type: EXFOR
+#   average value:  2.446850E-01
+#   relative standard deviation [%]:      99.848785
+# datablock:
+#   columns: 9
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      W.Koehler               EXFOR                1966        3.700000E-04   2.000000E-05   21354-002-0        0.000757               
+      G.H.E.Sims              EXFOR                1969        4.890000E-01   1.400000E-02   10042-002-0        1.000000               
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  3.959167E-01
+#   relative standard deviation [%]:      33.771198
+# datablock:
+#   columns: 9
+#   entries: 12
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      A.Gibert                EXFOR                1944        4.600000E-01   1.000000E-01   21232-002-0        0.940695   MXW         
+      A.Langsdorf             EXFOR                1945        3.200000E-01   0.000000E+00   11545-002-0        0.654397   SPA         
+      D.J.Hughes              EXFOR                1945        4.600000E-01   6.000000E-02   11546-002-0        0.940695   MXW         
+      L.Seren                 EXFOR                1947        1.690000E-01   3.380000E-02   11447-010-0        0.345603   MXW         
+      W.Maurer                EXFOR                1949        2.900000E-01   7.250000E-02   21349-002-0        0.593047   MXW         
+      H.Berthet               EXFOR                1955        3.000000E-01   1.000000E-02   21240-002-0        0.613497   MXW         
+      R.W.Durham              EXFOR                1961        5.900000E-01   9.000000E-02   11549-003-0        1.206544   SPA         
+      D.W.Kappe               EXFOR                1966        1.890000E-01   7.560000E-03   11277-009-2        0.386503   MXW         
+      I.G.Schroeder           EXFOR                1968        4.660000E-01   4.000000E-02   11592-002-0        0.952965   MXW         
+      G.H.E.Sims              EXFOR                1969        4.920000E-01   1.400000E-02   10042-003-0        1.006135   MXW         
+      S.Druyts                EXFOR                1994        4.400000E-01   1.000000E-02   22294-002-0        0.899796   MXW         
+      Yu.M.Gledenov           EXFOR                1999        5.750000E-01   1.300000E-02   41352-002-0        1.175869   MXW         

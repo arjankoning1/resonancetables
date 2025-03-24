@@ -1,7 +1,7 @@
 # header:
 #   title: Sn112(n,g)_g thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 50
 #   A: 112
@@ -12,15 +12,39 @@
 #   selected value [b]:  3.860000E-01
 #   selected value uncertainty [b]:  3.800000E-02
 #   selected value source: Mughabghab_2016
+#   number of values: 6
+#   average value [b]:  5.503333E-01
+#   relative standard deviation [%]:      35.210384
+# quantity:
+#   type: Compilation
+#   average value:  3.930000E-01
+#   relative standard deviation [%]:       1.781170
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
-#   entries: 6
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      M.Schmorak              EXFOR                1961        9.000000E-01   3.000000E-01   11972-002-0    2.331606E+00
-      R.S.Tilbury             EXFOR                1968        7.100000E-01   1.000000E-01   11927-004-0    1.839378E+00
-      W.Maenhaut              EXFOR                1973        5.200000E-01   0.000000E+00   20731-002-0    1.347150E+00
-      RIPL-3                  Compilation          2004        4.000000E-01   1.000000E-01                  1.036269E+00
-      K.S.Krane               EXFOR                2006        3.860000E-01   3.800000E-02   14107-003-0    1.000000E+00
-      Mughabghab_2016         Compilation          2016        3.860000E-01   3.800000E-02                  1.000000E+00
+#   columns: 9
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      RIPL-3                  Compilation          2004        4.000000E-01   1.000000E-01                      1.036269               
+      Mughabghab_2016         Compilation          2016        3.860000E-01   3.800000E-02                      1.000000               
+# quantity:
+#   type: EXFOR
+#   average value:  3.860000E-01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      K.S.Krane               EXFOR                2006        3.860000E-01   3.800000E-02   14107-003-0        1.000000               
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  7.100000E-01
+#   relative standard deviation [%]:      21.849909
+# datablock:
+#   columns: 9
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      M.Schmorak              EXFOR                1961        9.000000E-01   3.000000E-01   11972-002-0        2.331606   SPA         
+      R.S.Tilbury             EXFOR                1968        7.100000E-01   1.000000E-01   11927-004-0        1.839378   SPA         
+      W.Maenhaut              EXFOR                1973        5.200000E-01   0.000000E+00   20731-002-0        1.347150   MXW         

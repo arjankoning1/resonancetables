@@ -1,7 +1,7 @@
 # header:
 #   title: Dy000(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 66
 #   A: 0
@@ -9,16 +9,41 @@
 # reaction:
 #   type: (n,g)
 # observables:
-#   selected value [b]:  9.203300E+02
-#   selected value uncertainty [b]:  2.114000E+01
-#   selected value source: F.Widder
+#   selected value [b]:  9.940000E+02
+#   selected value uncertainty [b]:  1.300000E+01
+#   selected value source: Firestone
+#   number of values: 5
+#   average value [b]:  9.380660E+02
+#   relative standard deviation [%]:       3.661974
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  9.940000E+02
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
-#   entries: 4
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      H.Pomerance             EXFOR                1951        8.900000E+02   0.000000E+00   11047-051-0    9.670444E-01
-      J.W.Meadows             EXFOR                1961        9.360000E+02   2.000000E+01   11028-022-0    1.017026E+00
-      J.J.Scoville            EXFOR                1966        9.500000E+02   5.000000E+01   12101-002-0    1.032238E+00
-      F.Widder                EXFOR                1975        9.203300E+02   2.114000E+01   20437-008-0    1.000000E+00
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Firestone               Compilation          2022        9.940000E+02   1.300000E+01                      1.000000   MXW         
+# quantity:
+#   type: EXFOR
+#   average value:  9.281650E+02
+#   relative standard deviation [%]:       0.844138
+# datablock:
+#   columns: 9
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      J.W.Meadows             EXFOR                1961        9.360000E+02   2.000000E+01   11028-022-0        0.941650               
+      F.Widder                EXFOR                1975        9.203300E+02   2.114000E+01   20437-008-0        0.925885               
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  9.200000E+02
+#   relative standard deviation [%]:       3.260870
+# datablock:
+#   columns: 9
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      H.Pomerance             EXFOR                1951        8.900000E+02   0.000000E+00   11047-051-0        0.895372   MXW         
+      J.J.Scoville            EXFOR                1966        9.500000E+02   5.000000E+01   12101-002-0        0.955734   MXW         

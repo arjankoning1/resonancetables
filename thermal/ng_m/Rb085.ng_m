@@ -1,7 +1,7 @@
 # header:
 #   title: Rb085(n,g)_m thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 37
 #   A: 85
@@ -12,17 +12,32 @@
 #   selected value [b]:  6.000000E-02
 #   selected value uncertainty [b]:  1.000000E-02
 #   selected value source: RIPL-3
+#   number of values: 8
+#   average value [b]:  5.850000E-02
+#   relative standard deviation [%]:      47.300961
+# quantity:
+#   type: Compilation
+#   average value:  6.000000E-02
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
-#   entries: 8
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      H.S.Hans                EXFOR                1960        7.000000E-03   2.000000E-03   31246-004-0    1.166667E-01
-      B.Keisch                EXFOR                1963        6.100000E-02   3.000000E-03   11748-007-0    1.016667E+00
-      A.Foglio Para           EXFOR                1967        4.500000E-02   5.000000E-03   21403-002-0    7.500001E-01
-      RIPL-3                  Compilation          2004        6.000000E-02   1.000000E-02                  1.000000E+00
-      K.S.Krane               EXFOR                2021        9.800000E-02   7.000000E-03   14714-004-2    1.633333E+00
-      K.S.Krane               EXFOR                2021        9.800000E-02   7.000000E-03   14714-004-1    1.633333E+00
-      K.S.Krane               EXFOR                2021        4.950000E-02   1.900000E-03   14714-003-2    8.250000E-01
-      K.S.Krane               EXFOR                2021        4.950000E-02   1.900000E-03   14714-003-1    8.250000E-01
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      RIPL-3                  Compilation          2004        6.000000E-02   1.000000E-02                      1.000000               
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  5.828571E-02
+#   relative standard deviation [%]:      50.742104
+# datablock:
+#   columns: 9
+#   entries: 7
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      H.S.Hans                EXFOR                1960        7.000000E-03   2.000000E-03   31246-004-0        0.116667   MXW         
+      B.Keisch                EXFOR                1963        6.100000E-02   3.000000E-03   11748-007-0        1.016667   MXW         
+      A.Foglio Para           EXFOR                1967        4.500000E-02   5.000000E-03   21403-002-0        0.750000   MXW         
+      K.S.Krane               EXFOR                2021        9.800000E-02   7.000000E-03   14714-004-2        1.633333   SPA         
+      K.S.Krane               EXFOR                2021        9.800000E-02   7.000000E-03   14714-004-1        1.633333   SPA         
+      K.S.Krane               EXFOR                2021        4.950000E-02   1.900000E-03   14714-003-2        0.825000   SPA         
+      K.S.Krane               EXFOR                2021        4.950000E-02   1.900000E-03   14714-003-1        0.825000   SPA         

@@ -1,7 +1,7 @@
 # header:
 #   title: Ir193(n,tot) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 77
 #   A: 193
@@ -12,13 +12,19 @@
 #   selected value [b]:  1.230000E+02
 #   selected value uncertainty [b]:  0.000000E+00
 #   selected value source: V.P.Vertebnyj
+#   number of values: 4
+#   average value [b]:  1.213750E+02
+#   relative standard deviation [%]:       4.314389
+# quantity:
+#   type: EXFOR
+#   average value:  1.213750E+02
+#   relative standard deviation [%]:       4.314389
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
+#   columns: 9
 #   entries: 4
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      H.Bolotin               EXFOR                1959        1.125000E+02   7.500000E+00   12155-003-0    9.146342E-01
-      V.P.Vertebnyj           EXFOR                1980        1.260000E+02   0.000000E+00   40536-007-0    1.024390E+00
-      V.P.Vertebnyj           EXFOR                1980        1.240000E+02   0.000000E+00   40536-007-0    1.008130E+00
-      V.P.Vertebnyj           EXFOR                1980        1.230000E+02   0.000000E+00   40536-007-0    1.000000E+00
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      H.Bolotin               EXFOR                1959        1.125000E+02   7.500000E+00   12155-003-0        0.914634               
+      V.P.Vertebnyj           EXFOR                1980        1.260000E+02   0.000000E+00   40536-007-0        1.024390               
+      V.P.Vertebnyj           EXFOR                1980        1.240000E+02   0.000000E+00   40536-007-0        1.008130               
+      V.P.Vertebnyj           EXFOR                1980        1.230000E+02   0.000000E+00   40536-007-0        1.000000               

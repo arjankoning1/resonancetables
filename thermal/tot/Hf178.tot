@@ -1,7 +1,7 @@
 # header:
 #   title: Hf178(n,tot) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 72
 #   A: 178
@@ -12,12 +12,27 @@
 #   selected value [b]:  9.900000E+01
 #   selected value uncertainty [b]:  0.000000E+00
 #   selected value source: V.P.Vertebny
+#   number of values: 3
+#   average value [b]:  9.573334E+01
+#   relative standard deviation [%]:       3.455332
+# quantity:
+#   type: EXFOR
+#   average value:  9.510000E+01
+#   relative standard deviation [%]:       4.100948
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
-#   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      C.A.Conrad              EXFOR                1969        9.120000E+01   6.200000E+00   12085-004-0    9.212121E-01
-      K.Okamoto               EXFOR                1971        9.700000E+01   8.000000E+00   20318-005-0    9.797980E-01
-      V.P.Vertebny            EXFOR                1975        9.900000E+01   0.000000E+00   40279-015-0    1.000000E+00
+#   columns: 9
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      C.A.Conrad              EXFOR                1969        9.120000E+01   6.200000E+00   12085-004-0        0.921212               
+      V.P.Vertebny            EXFOR                1975        9.900000E+01   0.000000E+00   40279-015-0        1.000000               
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  9.700000E+01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      K.Okamoto               EXFOR                1971        9.700000E+01   8.000000E+00   20318-005-0        0.979798   MXW         

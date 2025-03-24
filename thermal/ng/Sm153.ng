@@ -1,7 +1,7 @@
 # header:
 #   title: Sm153(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 62
 #   A: 153
@@ -12,15 +12,39 @@
 #   selected value [b]:  4.200000E+02
 #   selected value uncertainty [b]:  1.800000E+02
 #   selected value source: RIPL-3
+#   number of values: 6
+#   average value [b]:  5.367144E+03
+#   relative standard deviation [%]:     205.252823
+# quantity:
+#   type: Compilation
+#   average value:  4.200000E+02
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
-#   entries: 6
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      W.H.Walker              EXFOR                1956        3.000000E+04   1.200000E+04   12127-009-0    7.142857E+01
-      RIPL-3                  Compilation          2004        4.200000E+02   1.800000E+02                  1.000000E+00
-      jeff3.3                 NDL                  2020        4.200250E+02   0.000000E+00                  1.000059E+00
-      jendl5.0                NDL                  2021        4.200140E+02   0.000000E+00                  1.000033E+00
-      tendl.2023              NDL                  2023        5.232340E+02   0.000000E+00                  1.245795E+00
-      endfb8.1                NDL                  2024        4.200250E+02   0.000000E+00                  1.000059E+00
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      RIPL-3                  Compilation          2004        4.200000E+02   1.800000E+02                      1.000000               
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  3.000000E+04
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      W.H.Walker              EXFOR                1956        3.000000E+04   1.200000E+04   12127-009-0       71.428574   SPA         
+# quantity:
+#   type: Nuclear data library
+#   average value:  4.457153E+02
+#   relative standard deviation [%]:      10.041348
+# datablock:
+#   columns: 9
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      jendl5.0                NDL                  2021        4.200140E+02   0.000000E+00                      1.000033               
+      tendl.2023              NDL                  2023        5.232340E+02   0.000000E+00                      1.245795               
+      endfb8.1                NDL                  2024        4.200250E+02   0.000000E+00                      1.000059               
+      jeff4.0                 NDL                  2025        4.195880E+02   0.000000E+00                      0.999019               

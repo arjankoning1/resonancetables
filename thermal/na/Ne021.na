@@ -1,7 +1,7 @@
 # header:
 #   title: Ne021(n,a) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 10
 #   A: 21
@@ -12,16 +12,40 @@
 #   selected value [b]:  1.800000E-04
 #   selected value uncertainty [b]:  7.000000E-05
 #   selected value source: Mughabghab_2016
+#   number of values: 7
+#   average value [b]:  1.414296E+01
+#   relative standard deviation [%]:     236.332428
+# quantity:
+#   type: Compilation
+#   average value:  5.001200E-01
+#   relative standard deviation [%]:     141.370453
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
-#   entries: 7
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      A.I.Abramov             EXFOR                1962        9.600000E+01   3.300000E+01   40794-002-0    5.333333E+05
-      E.F.Bennett             EXFOR                1968        1.500000E+00   0.000000E+00   11366-002-0    8.333333E+03
-      Yu.M.Gledenov           EXFOR                1997        1.800000E-04   7.000000E-05   41337-004-0    1.000000E+00
-      Yu.M.Gledenov           EXFOR                1997        1.800000E-04   9.000000E-05   41309-004-0    1.000000E+00
-      Mughabghab_2006         Compilation          2006        1.800000E-04   7.000000E-05                  1.000000E+00
-      Sukhoruchkin            Compilation          2015        1.500000E+00   0.000000E+00                  8.333333E+03
-      Mughabghab_2016         Compilation          2016        1.800000E-04   7.000000E-05                  1.000000E+00
+#   columns: 9
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Mughabghab_2006         Compilation          2006        1.800000E-04   7.000000E-05                      1.000000               
+      Sukhoruchkin            Compilation          2015        1.500000E+00   0.000000E+00                   8333.333008               
+      Mughabghab_2016         Compilation          2016        1.800000E-04   7.000000E-05                      1.000000               
+# quantity:
+#   type: EXFOR
+#   average value:  9.600000E+01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      A.I.Abramov             EXFOR                1962        9.600000E+01   3.300000E+01   40794-002-0   533333.312500               
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  5.001200E-01
+#   relative standard deviation [%]:     141.370453
+# datablock:
+#   columns: 9
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      E.F.Bennett             EXFOR                1968        1.500000E+00   0.000000E+00   11366-002-0     8333.333008   MXW         
+      Yu.M.Gledenov           EXFOR                1997        1.800000E-04   7.000000E-05   41337-004-0        1.000000   MXW         
+      Yu.M.Gledenov           EXFOR                1997        1.800000E-04   9.000000E-05   41309-004-0        1.000000   MXW         

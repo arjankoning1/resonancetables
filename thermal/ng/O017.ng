@@ -1,7 +1,7 @@
 # header:
 #   title: O017(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 8
 #   A: 17
@@ -12,47 +12,91 @@
 #   selected value [b]:  5.400000E-04
 #   selected value uncertainty [b]:  6.500000E-05
 #   selected value source: Mughabghab_2016
+#   number of values: 40
+#   average value [b]:  9.201964E-04
+#   relative standard deviation [%]:      92.260696
+# quantity:
+#   type: Compilation
+#   average value:  5.400000E-04
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
-#   entries: 38
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      M.A.Lone                EXFOR                1979        5.380000E-04   6.500000E-05   13963-002-0    9.962963E-01
-      RIPL-3                  Compilation          2004        5.400000E-04   7.000000E-04                  1.000000E+00
-      R.B.Firestone           EXFOR                2016        6.700000E-04   7.000000E-05   23296-015-3    1.240741E+00
-      R.B.Firestone           EXFOR                2016        7.600000E-04   1.300000E-04   23296-015-2    1.407408E+00
-      R.B.Firestone           EXFOR                2016        6.400000E-04   8.000000E-05   23296-015-1    1.185185E+00
-      R.B.Firestone           EXFOR                2016        7.100000E-04   5.000000E-05   23296-014-2    1.314815E+00
-      R.B.Firestone           EXFOR                2016        7.800000E-04   7.000000E-05   23296-014-2    1.444445E+00
-      R.B.Firestone           EXFOR                2016        8.100000E-04   4.000000E-05   23296-014-2    1.500000E+00
-      R.B.Firestone           EXFOR                2016        7.800000E-04   1.200000E-04   23296-014-2    1.444445E+00
-      R.B.Firestone           EXFOR                2016        7.600000E-04   1.000000E-04   23296-014-2    1.407408E+00
-      R.B.Firestone           EXFOR                2016        7.800000E-04   4.000000E-05   23296-014-2    1.444445E+00
-      R.B.Firestone           EXFOR                2016        7.800000E-04   8.000000E-05   23296-014-2    1.444445E+00
-      R.B.Firestone           EXFOR                2016        6.800000E-04   3.000000E-05   23296-014-2    1.259259E+00
-      R.B.Firestone           EXFOR                2016        7.800000E-04   2.000000E-05   23296-014-2    1.444445E+00
-      R.B.Firestone           EXFOR                2016        7.900000E-04   8.000000E-05   23296-014-2    1.462963E+00
-      R.B.Firestone           EXFOR                2016        7.100000E-04   5.000000E-05   23296-014-2    1.314815E+00
-      R.B.Firestone           EXFOR                2016        7.400000E-04   6.000000E-05   23296-014-2    1.370370E+00
-      R.B.Firestone           EXFOR                2016        7.800000E-04   2.000000E-05   23296-014-2    1.444445E+00
-      R.B.Firestone           EXFOR                2016        8.500000E-04   7.000000E-05   23296-014-2    1.574074E+00
-      R.B.Firestone           EXFOR                2016        5.900000E-04   5.000000E-05   23296-014-1    1.092593E+00
-      R.B.Firestone           EXFOR                2016        6.800000E-04   8.000000E-05   23296-014-1    1.259259E+00
-      R.B.Firestone           EXFOR                2016        6.800000E-04   4.000000E-05   23296-014-1    1.259259E+00
-      R.B.Firestone           EXFOR                2016        5.800000E-04   1.100000E-04   23296-014-1    1.074074E+00
-      R.B.Firestone           EXFOR                2016        6.500000E-04   9.000000E-05   23296-014-1    1.203704E+00
-      R.B.Firestone           EXFOR                2016        6.400000E-04   4.000000E-05   23296-014-1    1.185185E+00
-      R.B.Firestone           EXFOR                2016        6.400000E-04   7.000000E-05   23296-014-1    1.185185E+00
-      R.B.Firestone           EXFOR                2016        5.600000E-04   3.000000E-05   23296-014-1    1.037037E+00
-      R.B.Firestone           EXFOR                2016        6.600000E-04   2.000000E-05   23296-014-1    1.222222E+00
-      R.B.Firestone           EXFOR                2016        7.200000E-04   8.000000E-05   23296-014-1    1.333333E+00
-      R.B.Firestone           EXFOR                2016        5.900000E-04   5.000000E-05   23296-014-1    1.092593E+00
-      R.B.Firestone           EXFOR                2016        6.400000E-04   5.000000E-05   23296-014-1    1.185185E+00
-      R.B.Firestone           EXFOR                2016        6.500000E-04   2.000000E-05   23296-014-1    1.203704E+00
-      R.B.Firestone           EXFOR                2016        7.100000E-04   7.000000E-05   23296-014-1    1.314815E+00
-      Mughabghab_2016         Compilation          2016        5.400000E-04   6.500000E-05                  1.000000E+00
-      jeff3.3                 NDL                  2020        5.550970E-04   0.000000E+00                  1.027957E+00
-      jendl5.0                NDL                  2021        6.700050E-04   0.000000E+00                  1.240750E+00
-      tendl.2023              NDL                  2023        3.828600E-03   0.000000E+00                  7.090000E+00
-      endfb8.1                NDL                  2024        3.828600E-03   0.000000E+00                  7.090000E+00
+#   columns: 9
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      RIPL-3                  Compilation          2004        5.400000E-04   7.000000E-04                      1.000000               
+      Mughabghab_2016         Compilation          2016        5.400000E-04   6.500000E-05                      1.000000               
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  2.269000E-03
+#   relative standard deviation [%]:      76.289116
+# datablock:
+#   columns: 9
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Mughabghab_2006         Compilation          2006        5.380000E-04   6.500000E-05                      0.996296   MXW         
+      Sukhoruchkin            Compilation          2015        4.000000E-03   3.000000E-03                      7.407408   MXW         
+# quantity:
+#   type: EXFOR
+#   average value:  7.029032E-04
+#   relative standard deviation [%]:      10.585986
+# datablock:
+#   columns: 9
+#   entries: 31
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      R.B.Firestone           EXFOR                2016        6.700000E-04   7.000000E-05   23296-015-3        1.240741               
+      R.B.Firestone           EXFOR                2016        7.600000E-04   1.300000E-04   23296-015-2        1.407408               
+      R.B.Firestone           EXFOR                2016        6.400000E-04   8.000000E-05   23296-015-1        1.185185               
+      R.B.Firestone           EXFOR                2016        7.100000E-04   5.000000E-05   23296-014-2        1.314815               
+      R.B.Firestone           EXFOR                2016        7.800000E-04   7.000000E-05   23296-014-2        1.444445               
+      R.B.Firestone           EXFOR                2016        8.100000E-04   4.000000E-05   23296-014-2        1.500000               
+      R.B.Firestone           EXFOR                2016        7.800000E-04   1.200000E-04   23296-014-2        1.444445               
+      R.B.Firestone           EXFOR                2016        7.600000E-04   1.000000E-04   23296-014-2        1.407408               
+      R.B.Firestone           EXFOR                2016        7.800000E-04   4.000000E-05   23296-014-2        1.444445               
+      R.B.Firestone           EXFOR                2016        7.800000E-04   8.000000E-05   23296-014-2        1.444445               
+      R.B.Firestone           EXFOR                2016        6.800000E-04   3.000000E-05   23296-014-2        1.259259               
+      R.B.Firestone           EXFOR                2016        7.800000E-04   2.000000E-05   23296-014-2        1.444445               
+      R.B.Firestone           EXFOR                2016        7.900000E-04   8.000000E-05   23296-014-2        1.462963               
+      R.B.Firestone           EXFOR                2016        7.100000E-04   5.000000E-05   23296-014-2        1.314815               
+      R.B.Firestone           EXFOR                2016        7.400000E-04   6.000000E-05   23296-014-2        1.370370               
+      R.B.Firestone           EXFOR                2016        7.800000E-04   2.000000E-05   23296-014-2        1.444445               
+      R.B.Firestone           EXFOR                2016        8.500000E-04   7.000000E-05   23296-014-2        1.574074               
+      R.B.Firestone           EXFOR                2016        5.900000E-04   5.000000E-05   23296-014-1        1.092593               
+      R.B.Firestone           EXFOR                2016        6.800000E-04   8.000000E-05   23296-014-1        1.259259               
+      R.B.Firestone           EXFOR                2016        6.800000E-04   4.000000E-05   23296-014-1        1.259259               
+      R.B.Firestone           EXFOR                2016        5.800000E-04   1.100000E-04   23296-014-1        1.074074               
+      R.B.Firestone           EXFOR                2016        6.500000E-04   9.000000E-05   23296-014-1        1.203704               
+      R.B.Firestone           EXFOR                2016        6.400000E-04   4.000000E-05   23296-014-1        1.185185               
+      R.B.Firestone           EXFOR                2016        6.400000E-04   7.000000E-05   23296-014-1        1.185185               
+      R.B.Firestone           EXFOR                2016        5.600000E-04   3.000000E-05   23296-014-1        1.037037               
+      R.B.Firestone           EXFOR                2016        6.600000E-04   2.000000E-05   23296-014-1        1.222222               
+      R.B.Firestone           EXFOR                2016        7.200000E-04   8.000000E-05   23296-014-1        1.333333               
+      R.B.Firestone           EXFOR                2016        5.900000E-04   5.000000E-05   23296-014-1        1.092593               
+      R.B.Firestone           EXFOR                2016        6.400000E-04   5.000000E-05   23296-014-1        1.185185               
+      R.B.Firestone           EXFOR                2016        6.500000E-04   2.000000E-05   23296-014-1        1.203704               
+      R.B.Firestone           EXFOR                2016        7.100000E-04   7.000000E-05   23296-014-1        1.314815               
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  5.380000E-04
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      M.A.Lone                EXFOR                1979        5.380000E-04   6.500000E-05   13963-002-0        0.996296   MXW         
+# quantity:
+#   type: Nuclear data library
+#   average value:  2.215464E-03
+#   relative standard deviation [%]:      72.844597
+# datablock:
+#   columns: 9
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      jendl5.0                NDL                  2021        6.700050E-04   0.000000E+00                      1.240750               
+      tendl.2023              NDL                  2023        3.828600E-03   0.000000E+00                      7.090000               
+      endfb8.1                NDL                  2024        3.828600E-03   0.000000E+00                      7.090000               
+      jeff4.0                 NDL                  2025        5.346510E-04   0.000000E+00                      0.990094               

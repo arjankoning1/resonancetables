@@ -1,7 +1,7 @@
 # header:
 #   title: S033(n,p) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 16
 #   A: 33
@@ -12,13 +12,28 @@
 #   selected value [b]:  2.000000E-03
 #   selected value uncertainty [b]:  1.000000E-03
 #   selected value source: Mughabghab_2016
+#   number of values: 4
+#   average value [b]:  1.407500E-02
+#   relative standard deviation [%]:     147.365341
+# quantity:
+#   type: Compilation
+#   average value:  2.000000E-03
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
-#   entries: 4
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      T.Westermark            EXFOR                1952        2.300000E-03   0.000000E+00   20099-002-0    1.150000E+00
-      E.J.Seppi               EXFOR                1956        5.000000E-02   0.000000E+00   11422-005-0    2.500000E+01
-      Sukhoruchkin            Compilation          2015        2.000000E-03   1.000000E-03                  1.000000E+00
-      Mughabghab_2016         Compilation          2016        2.000000E-03   1.000000E-03                  1.000000E+00
+#   columns: 9
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Sukhoruchkin            Compilation          2015        2.000000E-03   1.000000E-03                      1.000000               
+      Mughabghab_2016         Compilation          2016        2.000000E-03   1.000000E-03                      1.000000               
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  2.615000E-02
+#   relative standard deviation [%]:      91.204582
+# datablock:
+#   columns: 9
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      T.Westermark            EXFOR                1952        2.300000E-03   0.000000E+00   20099-002-0        1.150000   SPA         
+      E.J.Seppi               EXFOR                1956        5.000000E-02   0.000000E+00   11422-005-0       25.000000   MXW         

@@ -1,7 +1,7 @@
 # header:
 #   title: Cl037(n,g)_g thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 17
 #   A: 37
@@ -12,10 +12,16 @@
 #   selected value [b]:  3.700000E-01
 #   selected value uncertainty [b]:  0.000000E+00
 #   selected value source: RIPL-3
+#   number of values: 1
+#   average value [b]:  3.700000E-01
+#   relative standard deviation [%]:       0.000000
+# quantity:
+#   type: Compilation
+#   average value:  3.700000E-01
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
+#   columns: 9
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      RIPL-3                  Compilation          2004        3.700000E-01   0.000000E+00                  1.000000E+00
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      RIPL-3                  Compilation          2004        3.700000E-01   0.000000E+00                      1.000000               

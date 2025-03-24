@@ -1,7 +1,7 @@
 # header:
 #   title: Am243(n,tot) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 95
 #   A: 243
@@ -12,11 +12,17 @@
 #   selected value [b]:  8.500000E+01
 #   selected value uncertainty [b]:  4.000000E+00
 #   selected value source: J.R.Berreth
+#   number of values: 2
+#   average value [b]:  1.375000E+02
+#   relative standard deviation [%]:      38.181820
+# quantity:
+#   type: EXFOR
+#   average value:  1.375000E+02
+#   relative standard deviation [%]:      38.181820
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
+#   columns: 9
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      R.E.Cote                EXFOR                1959        1.900000E+02   0.000000E+00   12539-011-0    2.235294E+00
-      J.R.Berreth             EXFOR                1970        8.500000E+01   4.000000E+00   10272-004-0    1.000000E+00
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      R.E.Cote                EXFOR                1959        1.900000E+02   0.000000E+00   12539-011-0        2.235294               
+      J.R.Berreth             EXFOR                1970        8.500000E+01   4.000000E+00   10272-004-0        1.000000               

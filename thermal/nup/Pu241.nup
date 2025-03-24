@@ -1,7 +1,7 @@
 # header:
 #   title: Pu241(n,nuprompt) thermal neutron multiplicity
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 94
 #   A: 241
@@ -12,15 +12,21 @@
 #   selected value]:  2.923700E+00
 #   selected value uncertainty]:  0.000000E+00
 #   selected value source: Boldeman
+#   number of values: 6
+#   average value:  2.954617E+00
+#   relative standard deviation [%]:       2.730088
+# quantity:
+#   type: EXFOR
+#   average value:  2.954617E+00
+#   relative standard deviation [%]:       2.730088
 # datablock:
-#   quantity: thermal neutron multiplicity
-#   columns: 8
+#   columns: 9
 #   entries: 6
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []             []             []             []             []
-      Kalashnikova            EXFOR                1955        3.100000E+00   0.000000E+00   40757003       1.060300E+00
-      Sanders                 EXFOR                1956        3.020000E+00   2.100000E-01   21456008       1.032938E+00
-      Smith                   EXFOR                1961        2.880000E+00   1.800000E-01   12542002       9.850532E-01
-      Jaffey                  EXFOR                1970        2.874000E+00   1.500000E-02   101250025      9.830010E-01
-      Caitucoli               EXFOR                1981        2.930000E+00   0.000000E+00   21758004       1.002155E+00
-      Boldeman                EXFOR                1985        2.923700E+00   0.000000E+00   307720052      1.000000E+00
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             []             []             []             []             []
+      Kalashnikova            EXFOR                1955        3.100000E+00   0.000000E+00   40757003           1.060300               
+      Sanders                 EXFOR                1956        3.020000E+00   2.100000E-01   21456008           1.032938               
+      Smith                   EXFOR                1961        2.880000E+00   1.800000E-01   12542002           0.985053               
+      Jaffey                  EXFOR                1970        2.874000E+00   1.500000E-02   101250025          0.983001               
+      Caitucoli               EXFOR                1981        2.930000E+00   0.000000E+00   21758004           1.002155               
+      Boldeman                EXFOR                1985        2.923700E+00   0.000000E+00   307720052          1.000000               

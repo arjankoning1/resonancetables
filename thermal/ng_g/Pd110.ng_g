@@ -1,7 +1,7 @@
 # header:
 #   title: Pd110(n,g)_g thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 46
 #   A: 110
@@ -12,13 +12,28 @@
 #   selected value [b]:  2.900000E-01
 #   selected value uncertainty [b]:  1.000000E-02
 #   selected value source: Mughabghab_2016
+#   number of values: 4
+#   average value [b]:  2.897500E-01
+#   relative standard deviation [%]:      24.404486
+# quantity:
+#   type: Compilation
+#   average value:  2.400000E-01
+#   relative standard deviation [%]:      20.833332
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
-#   entries: 4
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      L.Seren                 EXFOR                1947        3.900000E-01   7.800000E-02   11447-065-0    1.344828E+00
-      RIPL-3                  Compilation          2004        1.900000E-01   3.000000E-02                  6.551724E-01
-      Mughabghab_2016         Compilation          2016        2.900000E-01   1.000000E-02                  1.000000E+00
-      K.S.Krane               EXFOR                2019        2.890000E-01   2.100000E-02   14558-006-0    9.965518E-01
+#   columns: 9
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      RIPL-3                  Compilation          2004        1.900000E-01   3.000000E-02                      0.655172               
+      Mughabghab_2016         Compilation          2016        2.900000E-01   1.000000E-02                      1.000000               
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  3.395000E-01
+#   relative standard deviation [%]:      14.874813
+# datablock:
+#   columns: 9
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      L.Seren                 EXFOR                1947        3.900000E-01   7.800000E-02   11447-065-0        1.344828   MXW         
+      K.S.Krane               EXFOR                2019        2.890000E-01   2.100000E-02   14558-006-0        0.996552   MXW         

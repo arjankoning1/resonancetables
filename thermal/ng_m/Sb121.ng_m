@@ -1,7 +1,7 @@
 # header:
 #   title: Sb121(n,g)_m thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 51
 #   A: 121
@@ -12,13 +12,28 @@
 #   selected value [b]:  6.000000E-02
 #   selected value uncertainty [b]:  1.000000E-02
 #   selected value source: Mughabghab_2016
+#   number of values: 4
+#   average value [b]:  1.767500E-01
+#   relative standard deviation [%]:      78.998886
+# quantity:
+#   type: Compilation
+#   average value:  2.300000E-01
+#   relative standard deviation [%]:      73.913040
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
-#   entries: 4
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      M.Sehgal                EXFOR                1959        1.900000E-01   3.000000E-02   31244-009-0    3.166667E+00
-      E.Der Mateosian         EXFOR                1962        5.700000E-02   1.000000E-02   11993-003-0    9.500000E-01
-      RIPL-3                  Compilation          2004        4.000000E-01   0.000000E+00                  6.666667E+00
-      Mughabghab_2016         Compilation          2016        6.000000E-02   1.000000E-02                  1.000000E+00
+#   columns: 9
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      RIPL-3                  Compilation          2004        4.000000E-01   0.000000E+00                      6.666667               
+      Mughabghab_2016         Compilation          2016        6.000000E-02   1.000000E-02                      1.000000               
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  1.235000E-01
+#   relative standard deviation [%]:      53.846157
+# datablock:
+#   columns: 9
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      M.Sehgal                EXFOR                1959        1.900000E-01   3.000000E-02   31244-009-0        3.166667   MXW         
+      E.Der Mateosian         EXFOR                1962        5.700000E-02   1.000000E-02   11993-003-0        0.950000   MXW         

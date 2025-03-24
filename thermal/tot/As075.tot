@@ -1,7 +1,7 @@
 # header:
 #   title: As075(n,tot) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 33
 #   A: 75
@@ -12,10 +12,16 @@
 #   selected value [b]:  9.542000E+00
 #   selected value uncertainty [b]:  1.186100E-01
 #   selected value source: D.Dragomirescu
+#   number of values: 1
+#   average value [b]:  9.542000E+00
+#   relative standard deviation [%]:       0.000000
+# quantity:
+#   type: EXFOR
+#   average value:  9.542000E+00
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
+#   columns: 9
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      D.Dragomirescu          EXFOR                1960        9.542000E+00   1.186100E-01   30204-002-0    1.000000E+00
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      D.Dragomirescu          EXFOR                1960        9.542000E+00   1.186100E-01   30204-002-0        1.000000               

@@ -1,7 +1,7 @@
 # header:
 #   title: Pu240(n,tot) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 94
 #   A: 240
@@ -12,11 +12,17 @@
 #   selected value [b]:  2.840000E+02
 #   selected value uncertainty [b]:  2.000000E+00
 #   selected value source: R.R.Spencer
+#   number of values: 2
+#   average value [b]:  2.785000E+02
+#   relative standard deviation [%]:       1.974865
+# quantity:
+#   type: EXFOR
+#   average value:  2.785000E+02
+#   relative standard deviation [%]:       1.974865
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
+#   columns: 9
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      N.J.Pattenden           EXFOR                1959        2.730000E+02   8.000000E+00   21068-003-0    9.612676E-01
-      R.R.Spencer             EXFOR                1987        2.840000E+02   2.000000E+00   12941-002-0    1.000000E+00
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      N.J.Pattenden           EXFOR                1959        2.730000E+02   8.000000E+00   21068-003-0        0.961268               
+      R.R.Spencer             EXFOR                1987        2.840000E+02   2.000000E+00   12941-002-0        1.000000               

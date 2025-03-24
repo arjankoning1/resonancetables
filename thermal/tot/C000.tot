@@ -1,7 +1,7 @@
 # header:
 #   title: C000(n,tot) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 6
 #   A: 0
@@ -12,17 +12,23 @@
 #   selected value [b]:  5.497200E+00
 #   selected value uncertainty [b]:  2.779200E-02
 #   selected value source: J.A.Harvey
+#   number of values: 8
+#   average value [b]:  2.549900E+00
+#   relative standard deviation [%]:      69.470695
+# quantity:
+#   type: EXFOR
+#   average value:  2.549900E+00
+#   relative standard deviation [%]:      69.470695
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
+#   columns: 9
 #   entries: 8
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      J.A.Harvey              EXFOR                1977        1.274100E+00   5.580600E-02   13761-003-0    2.317725E-01
-      J.A.Harvey              EXFOR                1977        1.179400E+00   5.616300E-02   13761-003-0    2.145456E-01
-      J.A.Harvey              EXFOR                1977        1.229700E+00   5.567300E-02   13761-003-0    2.236957E-01
-      J.A.Harvey              EXFOR                1977        1.210600E+00   5.649900E-02   13761-003-0    2.202212E-01
-      J.A.Harvey              EXFOR                1977        2.233300E+00   6.199700E-02   13761-002-0    4.062614E-01
-      J.A.Harvey              EXFOR                1977        2.199800E+00   6.212500E-02   13761-002-0    4.001673E-01
-      J.A.Harvey              EXFOR                1982        5.575100E+00   2.830800E-02   13733-003-0    1.014171E+00
-      J.A.Harvey              EXFOR                1982        5.497200E+00   2.779200E-02   13733-003-0    1.000000E+00
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      J.A.Harvey              EXFOR                1977        1.274100E+00   5.580600E-02   13761-003-0        0.231773               
+      J.A.Harvey              EXFOR                1977        1.179400E+00   5.616300E-02   13761-003-0        0.214546               
+      J.A.Harvey              EXFOR                1977        1.229700E+00   5.567300E-02   13761-003-0        0.223696               
+      J.A.Harvey              EXFOR                1977        1.210600E+00   5.649900E-02   13761-003-0        0.220221               
+      J.A.Harvey              EXFOR                1977        2.233300E+00   6.199700E-02   13761-002-0        0.406261               
+      J.A.Harvey              EXFOR                1977        2.199800E+00   6.212500E-02   13761-002-0        0.400167               
+      J.A.Harvey              EXFOR                1982        5.575100E+00   2.830800E-02   13733-003-0        1.014171               
+      J.A.Harvey              EXFOR                1982        5.497200E+00   2.779200E-02   13733-003-0        1.000000               

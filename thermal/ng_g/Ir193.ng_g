@@ -1,7 +1,7 @@
 # header:
 #   title: Ir193(n,g)_g thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 77
 #   A: 193
@@ -12,13 +12,28 @@
 #   selected value [b]:  9.600000E+01
 #   selected value uncertainty [b]:  0.000000E+00
 #   selected value source: S.A.Karamian
+#   number of values: 4
+#   average value [b]:  1.195000E+02
+#   relative standard deviation [%]:      25.205515
+# quantity:
+#   type: EXFOR
+#   average value:  1.055000E+02
+#   relative standard deviation [%]:       9.004740
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
-#   entries: 4
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      B.Keisch                EXFOR                1963        9.700000E+01   1.000000E+01   11748-024-0    1.010417E+00
-      H.Arino                 EXFOR                1964        1.700000E+02   5.000000E+01   11817-022-0    1.770833E+00
-      F.De Corte              EXFOR                1988        1.150000E+02   1.495000E+01   23488-090-0    1.197917E+00
-      S.A.Karamian            EXFOR                2014        9.600000E+01   0.000000E+00   41599-004-0    1.000000E+00
+#   columns: 9
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      F.De Corte              EXFOR                1988        1.150000E+02   1.495000E+01   23488-090-0        1.197917               
+      S.A.Karamian            EXFOR                2014        9.600000E+01   0.000000E+00   41599-004-0        1.000000               
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  1.335000E+02
+#   relative standard deviation [%]:      27.340824
+# datablock:
+#   columns: 9
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      B.Keisch                EXFOR                1963        9.700000E+01   1.000000E+01   11748-024-0        1.010417   MXW         
+      H.Arino                 EXFOR                1964        1.700000E+02   5.000000E+01   11817-022-0        1.770833   MXW         

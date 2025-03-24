@@ -1,7 +1,7 @@
 # header:
 #   title: Es253(n,g)_m thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 99
 #   A: 253
@@ -12,14 +12,29 @@
 #   selected value [b]:  1.780000E+02
 #   selected value uncertainty [b]:  1.500000E+01
 #   selected value source: RIPL-3
+#   number of values: 5
+#   average value [b]:  4.122000E+02
+#   relative standard deviation [%]:      69.173859
+# quantity:
+#   type: Compilation
+#   average value:  1.780000E+02
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
-#   entries: 5
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      M.Jones                 EXFOR                1956        4.500000E+02   0.000000E+00   12586-002-0    2.528090E+00
-      P.R.Fields              EXFOR                1967        3.380000E+02   0.000000E+00   12574-002-0    1.898876E+00
-      R.M.Harbour             EXFOR                1973        1.550000E+02   2.000000E+01   10363-002-0    8.707865E-01
-      V.A.Anufriev            EXFOR                1974        9.400000E+02   0.000000E+00   41600-006-1    5.280899E+00
-      RIPL-3                  Compilation          2004        1.780000E+02   1.500000E+01                  1.000000E+00
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      RIPL-3                  Compilation          2004        1.780000E+02   1.500000E+01                      1.000000               
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  4.707500E+02
+#   relative standard deviation [%]:      61.745281
+# datablock:
+#   columns: 9
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      M.Jones                 EXFOR                1956        4.500000E+02   0.000000E+00   12586-002-0        2.528090   SPA         
+      P.R.Fields              EXFOR                1967        3.380000E+02   0.000000E+00   12574-002-0        1.898876   SPA         
+      R.M.Harbour             EXFOR                1973        1.550000E+02   2.000000E+01   10363-002-0        0.870786   MXW         
+      V.A.Anufriev            EXFOR                1974        9.400000E+02   0.000000E+00   41600-006-1        5.280899   SPA         

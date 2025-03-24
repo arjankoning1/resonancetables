@@ -1,7 +1,7 @@
 # header:
 #   title: Pu238(n,nubar) thermal neutron multiplicity
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 94
 #   A: 238
@@ -12,10 +12,16 @@
 #   selected value]:  2.500000E+00
 #   selected value uncertainty]:  2.000000E-01
 #   selected value source: Haddad
+#   number of values: 1
+#   average value:  2.500000E+00
+#   relative standard deviation [%]:       0.000000
+# quantity:
+#   type: EXFOR
+#   average value:  2.500000E+00
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: thermal neutron multiplicity
-#   columns: 8
+#   columns: 9
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []             []             []             []             []
-      Haddad                  EXFOR                1988        2.500000E+00   2.000000E-01   22087005       1.000000E+00
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             []             []             []             []             []
+      Haddad                  EXFOR                1988        2.500000E+00   2.000000E-01   22087005           1.000000               

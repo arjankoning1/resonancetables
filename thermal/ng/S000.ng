@@ -1,7 +1,7 @@
 # header:
 #   title: S000(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 16
 #   A: 0
@@ -9,14 +9,39 @@
 # reaction:
 #   type: (n,g)
 # observables:
-#   selected value [b]:  5.300000E-01
-#   selected value uncertainty [b]:  1.000000E-02
-#   selected value source: L.Koester
+#   selected value [b]:  5.060000E-01
+#   selected value uncertainty [b]:  8.000000E-03
+#   selected value source: Firestone
+#   number of values: 3
+#   average value [b]:  4.620000E-01
+#   relative standard deviation [%]:      17.272673
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  5.060000E-01
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
-#   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      J.Coltman               EXFOR                1946        3.500000E-01   3.000000E-02   12616-005-0    6.603774E-01
-      L.Koester               EXFOR                1979        5.300000E-01   1.000000E-02   20857-017-0    1.000000E+00
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Firestone               Compilation          2022        5.060000E-01   8.000000E-03                      1.000000   MXW         
+# quantity:
+#   type: EXFOR
+#   average value:  5.300000E-01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      L.Koester               EXFOR                1979        5.300000E-01   1.000000E-02   20857-017-0        1.047431               
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  3.500000E-01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      J.Coltman               EXFOR                1946        3.500000E-01   3.000000E-02   12616-005-0        0.691700   MXW         

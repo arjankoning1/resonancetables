@@ -1,0 +1,61 @@
+# header:
+#   title: Pm146(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-03-23
+# target:
+#   Z: 61
+#   A: 146
+#   nuclide: Pm146
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  8.400000E+03
+#   selected value uncertainty [b]:  1.680000E+03
+#   selected value source: Mughabghab_2016
+#   number of values: 8
+#   average value [b]:  7.657756E+04
+#   relative standard deviation [%]:     234.670700
+# quantity:
+#   type: Compilation
+#   average value:  8.400000E+03
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 9
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      RIPL-3                  Compilation          2004        8.400000E+03   1.700000E+03                      1.000000               
+      Mughabghab_2016         Compilation          2016        8.400000E+03   1.680000E+03                      1.000000               
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  8.900000E+03
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Mughabghab_2006         Compilation          2006        8.900000E+03   1.680000E+03                      1.059524   MXW         
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  8.400000E+03
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      J.J.Pinajian            EXFOR                1967        8.400000E+03   1.680000E+03   12089-002-0        1.000000   SPA         
+# quantity:
+#   type: Nuclear data library
+#   average value:  1.446301E+05
+#   relative standard deviation [%]:     162.631226
+# datablock:
+#   columns: 9
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      jendl5.0                NDL                  2021        8.400290E+03   0.000000E+00                      1.000035               
+      tendl.2023              NDL                  2023        9.044110E+03   0.000000E+00                      1.076680               
+      endfb8.1                NDL                  2024        5.520320E+05   0.000000E+00                     65.718094               
+      jeff4.0                 NDL                  2025        9.044110E+03   0.000000E+00                      1.076680               

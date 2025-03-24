@@ -1,7 +1,7 @@
 # header:
 #   title: Mo092(n,g)_m thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 42
 #   A: 92
@@ -12,11 +12,26 @@
 #   selected value [b]:  2.000000E-07
 #   selected value uncertainty [b]:  7.000000E-08
 #   selected value source: A.D.Gedeonov
+#   number of values: 2
+#   average value [b]:  5.001000E-04
+#   relative standard deviation [%]:      99.960007
+# quantity:
+#   type: EXFOR
+#   average value:  2.000000E-07
+#   relative standard deviation [%]:       0.000000
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
-#   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      L.Seren                 EXFOR                1947        1.000000E-03   4.000000E-04   11447-058-0    5.000000E+03
-      A.D.Gedeonov            EXFOR                1989        2.000000E-07   7.000000E-08   41059-003-0    1.000000E+00
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      A.D.Gedeonov            EXFOR                1989        2.000000E-07   7.000000E-08   41059-003-0        1.000000               
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  1.000000E-03
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      L.Seren                 EXFOR                1947        1.000000E-03   4.000000E-04   11447-058-0     5000.000000   SPA         

@@ -1,7 +1,7 @@
 # header:
 #   title: Np237(n,nudel) thermal neutron multiplicity
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 93
 #   A: 237
@@ -12,14 +12,20 @@
 #   selected value]:  1.100000E-02
 #   selected value uncertainty]:  9.000000E-04
 #   selected value source: Gundorin
+#   number of values: 5
+#   average value:  1.164000E-02
+#   relative standard deviation [%]:       8.197156
+# quantity:
+#   type: EXFOR
+#   average value:  1.164000E-02
+#   relative standard deviation [%]:       8.197156
 # datablock:
-#   quantity: thermal neutron multiplicity
-#   columns: 8
+#   columns: 9
 #   entries: 5
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []             []             []             []             []
-      Saleh                   EXFOR                1997        1.290000E-02   4.000000E-04   13668007       1.172727E+00
-      Borzakov                EXFOR                2000        1.250000E-02   1.100000E-03   413660092      1.136364E+00
-      Borzakov                EXFOR                2000        1.030000E-02   1.500000E-03   413660052      9.363636E-01
-      Gundorin                EXFOR                2005        1.150000E-02   1.000000E-03   41476002       1.045455E+00
-      Gundorin                EXFOR                2007        1.100000E-02   9.000000E-04   41501002       1.000000E+00
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             []             []             []             []             []
+      Saleh                   EXFOR                1997        1.290000E-02   4.000000E-04   13668007           1.172727               
+      Borzakov                EXFOR                2000        1.250000E-02   1.100000E-03   413660092          1.136364               
+      Borzakov                EXFOR                2000        1.030000E-02   1.500000E-03   413660052          0.936364               
+      Gundorin                EXFOR                2005        1.150000E-02   1.000000E-03   41476002           1.045455               
+      Gundorin                EXFOR                2007        1.100000E-02   9.000000E-04   41501002           1.000000               

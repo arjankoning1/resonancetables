@@ -1,7 +1,7 @@
 # header:
 #   title: Dy162(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 66
 #   A: 162
@@ -12,24 +12,57 @@
 #   selected value [b]:  1.940000E+02
 #   selected value uncertainty [b]:  1.000000E+01
 #   selected value source: Mughabghab_2016
+#   number of values: 15
+#   average value [b]:  1.901425E+02
+#   relative standard deviation [%]:      14.745405
+# quantity:
+#   type: Compilation
+#   average value:  1.880000E+02
+#   relative standard deviation [%]:       5.527822
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
-#   entries: 15
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      W.H.Walker              EXFOR                1956        2.400000E+02   2.000000E+01   12127-018-0    1.237113E+00
-      L.House                 EXFOR                1958        1.400000E+02   4.000000E+01   12082-004-0    7.216495E-01
-      L.S.Danelyan            EXFOR                1964        2.150000E+02   1.600000E+01   40681-003-0    1.108247E+00
-      J.J.Scoville            EXFOR                1966        1.520000E+02   2.700000E+01   12101-008-0    7.835051E-01
-      V.P.Vertebnyj           EXFOR                1970        1.700000E+02   0.000000E+00   41280-041-0    8.762887E-01
-      R.Dobrozemsky           EXFOR                1971        1.620000E+02   1.000000E+01   20637-014-0    8.350515E-01
-      M.Lucas                 EXFOR                1977        2.450000E+02   0.000000E+00   21563-020-0    1.262887E+00
-      RIPL-3                  Compilation          2004        1.700000E+02   2.000000E+01                  8.762887E-01
-      Mughabghab_2006         Compilation          2006        1.940000E+02   1.000000E+01                  1.000000E+00
-      Sukhoruchkin            Compilation          2015        1.940000E+02   1.000000E+01                  1.000000E+00
-      Mughabghab_2016         Compilation          2016        1.940000E+02   1.000000E+01                  1.000000E+00
-      jeff3.3                 NDL                  2020        1.939350E+02   0.000000E+00                  9.996650E-01
-      jendl5.0                NDL                  2021        1.938090E+02   0.000000E+00                  9.990155E-01
-      tendl.2023              NDL                  2023        1.938290E+02   0.000000E+00                  9.991185E-01
-      endfb8.1                NDL                  2024        1.946700E+02   0.000000E+00                  1.003454E+00
+#   columns: 9
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      RIPL-3                  Compilation          2004        1.700000E+02   2.000000E+01                      0.876289               
+      Mughabghab_2006         Compilation          2006        1.940000E+02   1.000000E+01                      1.000000               
+      Sukhoruchkin            Compilation          2015        1.940000E+02   1.000000E+01                      1.000000               
+      Mughabghab_2016         Compilation          2016        1.940000E+02   1.000000E+01                      1.000000               
+# quantity:
+#   type: EXFOR
+#   average value:  1.864000E+02
+#   relative standard deviation [%]:      20.455608
+# datablock:
+#   columns: 9
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      L.House                 EXFOR                1958        1.400000E+02   4.000000E+01   12082-004-0        0.721649               
+      L.S.Danelyan            EXFOR                1964        2.150000E+02   1.600000E+01   40681-003-0        1.108247               
+      V.P.Vertebnyj           EXFOR                1970        1.700000E+02   0.000000E+00   41280-041-0        0.876289               
+      R.Dobrozemsky           EXFOR                1971        1.620000E+02   1.000000E+01   20637-014-0        0.835052               
+      M.Lucas                 EXFOR                1977        2.450000E+02   0.000000E+00   21563-020-0        1.262887               
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  1.960000E+02
+#   relative standard deviation [%]:      22.448980
+# datablock:
+#   columns: 9
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      W.H.Walker              EXFOR                1956        2.400000E+02   2.000000E+01   12127-018-0        1.237113   SPA         
+      J.J.Scoville            EXFOR                1966        1.520000E+02   2.700000E+01   12101-008-0        0.783505   MXW         
+# quantity:
+#   type: Nuclear data library
+#   average value:  1.940342E+02
+#   relative standard deviation [%]:       0.189215
+# datablock:
+#   columns: 9
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      jendl5.0                NDL                  2021        1.938090E+02   0.000000E+00                      0.999016               
+      tendl.2023              NDL                  2023        1.938290E+02   0.000000E+00                      0.999119               
+      endfb8.1                NDL                  2024        1.946700E+02   0.000000E+00                      1.003454               
+      jeff4.0                 NDL                  2025        1.938290E+02   0.000000E+00                      0.999119               

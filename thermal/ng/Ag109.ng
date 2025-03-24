@@ -1,7 +1,7 @@
 # header:
 #   title: Ag109(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 47
 #   A: 109
@@ -12,24 +12,57 @@
 #   selected value [b]:  7.690000E+01
 #   selected value uncertainty [b]:  3.900000E+00
 #   selected value source: Kayzero
+#   number of values: 15
+#   average value [b]:  7.005605E+01
+#   relative standard deviation [%]:      48.576572
+# quantity:
+#   type: Compilation
+#   average value:  8.870000E+01
+#   relative standard deviation [%]:       6.729712
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
-#   entries: 15
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      G.A.Linenberger         EXFOR                1946        5.130000E+01   0.000000E+00   11945-005-0    6.671001E-01
-      H.Pomerance             EXFOR                1952        8.400000E+01   6.720000E+00   11507-057-0    1.092328E+00
-      B.Grimeland             EXFOR                1956        5.600000E+00   1.400000E+00   20041-004-0    7.282184E-02
-      B.Grimeland             EXFOR                1956        4.100000E+00   1.000000E+00   20041-005-0    5.331599E-02
-      R.B.Tattersall          EXFOR                1960        9.200000E+01   2.000000E+00   20638-030-0    1.196359E+00
-      G.H.E.Sims              EXFOR                1968        5.750000E+00   5.400000E-01   11658-008-0    7.477243E-02
-      RIPL-3                  Compilation          2004        9.120000E+01   1.000000E+00                  1.185956E+00
-      Mughabghab_2006         Compilation          2006        9.100000E+01   1.000000E+00                  1.183355E+00
-      Sukhoruchkin            Compilation          2015        9.100000E+01   1.000000E+00                  1.183355E+00
-      Mughabghab_2016         Compilation          2016        9.340000E+01   6.000000E-01                  1.214564E+00
-      Kayzero                 Compilation          2018        7.690000E+01   3.900000E+00                  1.000000E+00
-      cendl3.2                NDL                  2019        9.054800E+01   0.000000E+00                  1.177477E+00
-      jeff3.3                 NDL                  2020        9.072250E+01   0.000000E+00                  1.179746E+00
-      tendl.2023              NDL                  2023        9.020230E+01   0.000000E+00                  1.172982E+00
-      endfb8.1                NDL                  2024        9.024230E+01   0.000000E+00                  1.173502E+00
+#   columns: 9
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      RIPL-3                  Compilation          2004        9.120000E+01   1.000000E+00                      1.185956               
+      Mughabghab_2006         Compilation          2006        9.100000E+01   1.000000E+00                      1.183355               
+      Sukhoruchkin            Compilation          2015        9.100000E+01   1.000000E+00                      1.183355               
+      Mughabghab_2016         Compilation          2016        9.340000E+01   6.000000E-01                      1.214564               
+      Kayzero                 Compilation          2018        7.690000E+01   3.900000E+00                      1.000000               
+# quantity:
+#   type: EXFOR
+#   average value:  9.200000E+01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 9
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      R.B.Tattersall          EXFOR                1960        9.200000E+01   2.000000E+00   20638-030-0        1.196359               
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  3.015000E+01
+#   relative standard deviation [%]:     107.206543
+# datablock:
+#   columns: 9
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      G.A.Linenberger         EXFOR                1946        5.130000E+01   0.000000E+00   11945-005-0        0.667100   MXW         
+      H.Pomerance             EXFOR                1952        8.400000E+01   6.720000E+00   11507-057-0        1.092328   MXW         
+      B.Grimeland             EXFOR                1956        5.600000E+00   1.400000E+00   20041-004-0        0.072822   SPA         
+      B.Grimeland             EXFOR                1956        4.100000E+00   1.000000E+00   20041-005-0        0.053316   MXW         
+      G.H.E.Sims              EXFOR                1968        5.750000E+00   5.400000E-01   11658-008-0        0.074772   SPA         
+# quantity:
+#   type: Nuclear data library
+#   average value:  9.114767E+01
+#   relative standard deviation [%]:       1.559072
+# datablock:
+#   columns: 9
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      cendl3.2                NDL                  2019        9.054800E+01   0.000000E+00                      1.177477               
+      tendl.2023              NDL                  2023        9.020230E+01   0.000000E+00                      1.172982               
+      endfb8.1                NDL                  2024        9.024230E+01   0.000000E+00                      1.173502               
+      jeff4.0                 NDL                  2025        9.359810E+01   0.000000E+00                      1.217140               

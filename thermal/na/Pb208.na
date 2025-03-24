@@ -1,7 +1,7 @@
 # header:
 #   title: Pb208(n,a) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-02
+#   date: 2025-03-23
 # target:
 #   Z: 82
 #   A: 208
@@ -12,11 +12,17 @@
 #   selected value [b]:  5.000000E-06
 #   selected value uncertainty [b]:  0.000000E+00
 #   selected value source: Mughabghab_2016
+#   number of values: 2
+#   average value [b]:  6.500000E-06
+#   relative standard deviation [%]:      23.076925
+# quantity:
+#   type: Compilation
+#   average value:  6.500000E-06
+#   relative standard deviation [%]:      23.076925
 # datablock:
-#   quantity: thermal cross section
-#   columns: 8
+#   columns: 9
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             [b]            [b]            []             []             []
-      Sukhoruchkin            Compilation          2015        8.000000E-06   0.000000E+00                  1.600000E+00
-      Mughabghab_2016         Compilation          2016        5.000000E-06   0.000000E+00                  1.000000E+00
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
+##      []             []             []             []             [b]            [b]            []             []             []
+      Sukhoruchkin            Compilation          2015        8.000000E-06   0.000000E+00                      1.600000               
+      Mughabghab_2016         Compilation          2016        5.000000E-06   0.000000E+00                      1.000000               

@@ -22,7 +22,6 @@ subroutine thermal
   integer            :: Liso       ! target isomer
   integer            :: Riso       ! residual isomer
   integer            :: type       ! reaction type
-  integer            :: iav
 !
 ! type = 1: (n,tot)
 ! type = 2: (n,el)
@@ -50,7 +49,7 @@ subroutine thermal
               if (Liso == 1) targetnuclide = trim(targetnuclide)//'m'
               if (Liso == 2) targetnuclide = trim(targetnuclide)//'n'
               call readthermal(Z, A, Liso, Riso, type)
-              if (res_exist) call procthermal(Z, A, Liso, Riso, type)
+              if (res_exist) call procthermal(Z, A, Liso)
               if (res_exist) call writethermal(Z, A, Liso, Riso, type)
             enddo
           endif

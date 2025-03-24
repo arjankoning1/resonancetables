@@ -17,10 +17,14 @@ subroutine readresonance(Z, A, Liso, type)
 !
   implicit none
   character(len=2)   :: cdum       !
+  character(len=2)   :: Unuc
+  character(len=3)   :: Zstring
+  character(len=3)   :: Astring
+  character(len=10)   :: nucstring
   character(len=9)   :: ref        ! reference
   character(len=9)   :: sub        ! subentry
   character(len=24)  :: author     ! author
-  character(len=132) :: resfile    ! thermfile
+  character(len=132) :: resfile    ! resfile
   character(len=2000):: line       ! input line
   logical            :: lexist
   integer            :: year       ! year
@@ -29,6 +33,7 @@ subroutine readresonance(Z, A, Liso, type)
   integer            :: A          ! mass number
   integer            :: k
   integer            :: ix
+  integer            :: lib
   integer            :: iripl
   integer            :: isoR
   integer            :: ia         ! mass number
@@ -38,6 +43,10 @@ subroutine readresonance(Z, A, Liso, type)
   integer            :: istat      ! error code
   real(sgl)          :: xs        
   real(sgl)          :: dxs        
+  real(sgl)          :: CE        
+  real(sgl)          :: dEinc      
+  real(sgl)          :: rJ
+  real(sgl)          :: chi2        
   real(sgl)          :: rochread
   real(sgl)          :: Einc       ! incident energy
 !
@@ -303,6 +312,37 @@ subroutine readresonance(Z, A, Liso, type)
     close (2)
   endif
 !
+! Nuclear data libraries
+!
+  xs = 0.
+  dxs = 0.
+  if (type == 7) then
+    do lib = 1, numndlib
+      resfile = trim(libspath)//trim(ndlib(lib))//'.RI'
+      open (unit = 2, status = 'old', file = resfile)
+      do
+        read(2, '(a)', iostat = istat) line
+        if (istat == -1) exit
+        if (istat > 0) call read_error(resfile, istat)
+        if (line(1:1) == '#') cycle
+        read(line, * ) iz, ia, isoT, CE, chi2, xs
+        if (iz == Z .and. ia == A .and. Liso == isoT) then
+          k = k + 1
+          res_author(k) = ndlib(lib)
+          res_type(k) = 'NDL'
+          res_year(k) = ndyear(lib)
+          res_ref(k) = ref
+          res_xs(k) = xs
+          res_dxs(k) = dxs
+          res_av(k) = ''
+          res_exist = .true.
+          exit
+        endif
+      enddo
+      close (2)
+    enddo
+  endif
+!
 ! Number of cases
 !
   Nres = k
@@ -312,32 +352,84 @@ subroutine readresonance(Z, A, Liso, type)
   if (type /= 2) then
     xs = 0.
     dxs = 0.
-    resfile = trim(exforpath)//'exfor_'//trim(restype(type))//'.txt'
-    inquire (file = resfile, exist = lexist)
-    if (lexist) then
-      open (unit = 2, status = 'old', file = resfile)
-      do
-        read(2, '(a)', iostat = istat) line
-        if (istat == -1) exit
-        if (istat > 0) call read_error(resfile, istat)
-        read(line, * ) iz, ia, isoT, isoR, xs ,dxs, Einc, author, year, sub
-        if (iz == Z .and. ia == A .and. Liso == isoT) then
-          Nres_exp = Nres_exp + 1
+    if (type == 1 .or. type == 4) then
+      nucstring='          '
+      Zstring='   '
+      write(Zstring,'(i3)') Z
+      Astring='   '
+      write(Astring,'(i3)') A        
+      Unuc=nuc(Z)      
+      if (Unuc(2:2) /= ' ') Unuc(2:2) = achar(iachar(Unuc(2:2)) - 32)
+      write(nucstring,'(a,"-",a,"-",a)') trim(adjustl(Zstring)),trim(Unuc),trim(adjustl(Astring))
+      if (Liso == 1) nucstring=trim(nucstring)//'-M'
+      resfile = trim(filespath)//'exforfiles/n-0/'//trim(nucstring)//'.txt'
+      inquire (file = resfile, exist = lexist)
+      if (lexist .and. Liso <= 1) then
+        open (unit = 2, status = 'old', file = resfile)
+        do
+          read(2, '(a)', iostat = istat) line
+          if (istat == -1) exit
+          if (istat > 0) call read_error(resfile, istat)
+          if (line(1:1) == '#') cycle
+          if (line(1:1) == ' ') cycle
+          if (line(1:4) == 'RIPL') exit
+          sub=line(1:12)
+          author=line(21:44)
+          read(line(45:120), *, iostat=istat ) year, Einc, dEinc, xs, dxs, rJ
+          if (isnan(xs)) xs = 0.
+          if (isnan(dxs)) dxs = 0.
+          if (isnan(rJ)) rJ = 0.
+          if (type == 1 .and. rj /= 0.) cycle
+          if (type == 4 .and. rj /= 1.) cycle
+          if (istat > 0) then
+            write(*,*) "EXFOR problem: ",trim(line)
+            cycle
+          endif
+          Nres_exp = Nres_exp + 1 
           if (Nres_exp  > numex) then
             Nres_exp = numex
-            exit         
+            exit
           endif
-          k = k + 1      
-          res_author(k) = author       
-          res_type(k) = 'EXFOR'        
+          k = k + 1
+          res_author(k) = author
+          res_type(k) = 'EXFOR'
           res_year(k) = year
           res_ref(k) = sub
-          res_xs(k) = xs 
+          res_xs(k) = xs
           res_dxs(k) = dxs
+          res_av(k) = ''
           res_exist = .true.
-        endif            
-      enddo
-      close (2)          
+        enddo
+        close (2)
+      endif
+    else
+      resfile = trim(exforpath)//'exfor_'//trim(restype(type))//'.txt'
+      inquire (file = resfile, exist = lexist)
+      if (lexist) then
+        open (unit = 2, status = 'old', file = resfile)
+        do
+          read(2, '(a)', iostat = istat) line
+          if (istat == -1) exit
+          if (istat > 0) call read_error(resfile, istat)
+          read(line, * ) iz, ia, isoT, isoR, xs ,dxs, Einc, author, year, sub
+          if (iz == Z .and. ia == A .and. Liso == isoT) then
+            Nres_exp = Nres_exp + 1
+            if (Nres_exp  > numex) then
+              Nres_exp = numex
+              exit         
+            endif
+            k = k + 1      
+            res_author(k) = author       
+            res_type(k) = 'EXFOR'        
+            res_year(k) = year
+            res_ref(k) = sub
+            res_xs(k) = xs 
+            res_dxs(k) = dxs
+            res_exist = .true.
+          endif            
+        enddo
+        close (2)          
+      endif
     endif
   endif
 !
@@ -347,7 +439,7 @@ subroutine readresonance(Z, A, Liso, type)
   dxs = 0.
   resfile = trim(resbasepath)//trim(targetnuclide)//'/files/n-'//trim(targetnuclide)//'.txt'
   inquire (file = resfile, exist = lexist)
-  if (lexist .and. type <= 3 .and. Nres > 0) then
+  if (lexist .and. type <= 6 .and. Nres > 0) then
     open (unit = 2, status = 'old', file = resfile)
     ix = 0
     do

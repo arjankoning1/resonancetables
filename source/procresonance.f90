@@ -30,9 +30,36 @@ subroutine procresonance(Z, A, Liso, type)
   integer            :: type          ! reaction type
   real(sgl)          :: xstmp         ! cross section
   real(sgl)          :: dxstmp        ! cross section uncertainty
+  real(sgl)          :: sumxs
+  real(sgl)          :: sumxs_comp
+  real(sgl)          :: sumxs_av_comp
+  real(sgl)          :: sumxs_exfor
+  real(sgl)          :: sumxs_av_exfor
+  real(sgl)          :: sumxs_NDL
+  real(sgl)          :: varsumxs
+  real(sgl)          :: varsumxs_comp
+  real(sgl)          :: varsumxs_av_comp
+  real(sgl)          :: varsumxs_exfor
+  real(sgl)          :: varsumxs_av_exfor
+  real(sgl)          :: varsumxs_NDL
 !
 ! **************** Process databases for resonance data *****
 !
+  Nexp = 0
+  Ncomp = 0
+  Nlib = 0
+  av_xs = 0.
+  av_xs_comp = 0.
+  av_xs_av_comp = 0.
+  av_xs_exfor = 0.
+  av_xs_av_exfor = 0.
+  av_xs_NDL = 0.
+  var_xs = 0.
+  var_xs_comp = 0.
+  var_xs_av_comp = 0.
+  var_xs_exfor = 0.
+  var_xs_av_exfor = 0.
+  var_xs_NDL = 0.
   N = Nres
   if (N > 0) then
     do i = 1, N
@@ -58,6 +85,84 @@ subroutine procresonance(Z, A, Liso, type)
         res_ref(j) = rtmp
       enddo
     enddo
+!
+! Determine number of each type, average and coefficient of variation
+!
+    sumxs = 0.
+    sumxs_comp = 0.
+    sumxs_av_comp = 0.
+    sumxs_exfor = 0.
+    sumxs_av_exfor = 0.
+    sumxs_NDL = 0.
+    varsumxs = 0.
+    varsumxs_comp = 0.
+    varsumxs_av_comp = 0.
+    varsumxs_exfor = 0.
+    varsumxs_av_exfor = 0.
+    varsumxs_NDL = 0.
+    do i = 1, N
+      if (res_type(i) == 'Compilation') then
+        if (res_av(i) == '') then
+          Ncomp = Ncomp + 1
+          sumxs_comp = sumxs_comp + res_xs(i)
+        else
+          Ncomp_av = Ncomp_av + 1
+          sumxs_av_comp = sumxs_av_comp + res_xs(i)
+        endif
+      endif
+      if (res_type(i) == 'EXFOR') then
+        if (res_av(i) == '') then
+          Nexp = Nexp + 1
+          sumxs_exfor = sumxs_exfor + res_xs(i)
+        else
+          Nexp_av = Nexp_av + 1
+          sumxs_av_exfor = sumxs_av_exfor + res_xs(i)
+        endif
+      endif
+      if (res_type(i) == 'NDL') then
+        Nlib = Nlib + 1
+        sumxs_NDL = sumxs_NDL + res_xs(i)
+      endif
+      sumxs = sumxs + res_xs(i)
+    enddo
+    if (Ncomp > 0) av_xs_comp = sumxs_comp/Ncomp
+    if (Ncomp_av > 0) av_xs_av_comp = sumxs_av_comp/Ncomp_av
+    if (Nexp > 0) av_xs_exfor = sumxs_exfor/Nexp
+    if (Nexp_av > 0) av_xs_av_exfor = sumxs_av_exfor/Nexp_av
+    if (Nlib > 0) av_xs_NDL = sumxs_NDL/Nlib
+    av_xs = sumxs/N
+    do i = 1, N
+      if (res_type(i) == 'Compilation') then
+        if (res_av(i) == '') then
+          varsumxs_comp = varsumxs_comp + (res_xs(i)-av_xs_comp)**2
+        else
+          varsumxs_av_comp = varsumxs_av_comp + (res_xs(i)-av_xs_av_comp)**2
+        endif
+      endif
+      if (res_type(i) == 'EXFOR') then
+        if (res_av(i) == '') then
+          varsumxs_exfor = varsumxs_exfor + (res_xs(i)-av_xs_exfor)**2
+        else
+          varsumxs_av_exfor = varsumxs_av_exfor + (res_xs(i)-av_xs_av_exfor)**2
+        endif
+      endif
+      if (res_type(i) == 'NDL') then
+        varsumxs_NDL = varsumxs_NDL + (res_xs(i)-av_xs_NDL)**2
+      endif
+      varsumxs = varsumxs + (res_xs(i)-av_xs)**2
+    enddo
+    if (Ncomp > 0) var_xs_comp = 100. * sqrt(varsumxs_comp/Ncomp)/av_xs_comp
+    if (Ncomp_av > 0) var_xs_av_comp = 100. * sqrt(varsumxs_av_comp/Ncomp_av)/av_xs_av_comp
+    if (Nexp > 0) var_xs_exfor = 100. * sqrt(varsumxs_exfor/Nexp)/av_xs_exfor
+    if (Nexp_av > 0) var_xs_av_exfor = 100. * sqrt(varsumxs_av_exfor/Nexp_av)/av_xs_av_exfor
+    if (Nlib > 0) var_xs_NDL = 100. * sqrt(varsumxs_NDL/Nlib)/av_xs_NDL
+    if (Nres > 0) var_xs = 100. * sqrt(varsumxs/Nres)/av_xs
+    if (var_xs_comp < 1.e-10) var_xs_comp = 0.
+    if (var_xs_av_comp < 1.e-10) var_xs_av_comp = 0.
+    if (var_xs_exfor < 1.e-10) var_xs_exfor = 0.
+    if (var_xs_av_exfor < 1.e-10) var_xs_av_exfor = 0.
+    if (var_xs_NDL < 1.e-10) var_xs_NDL = 0.
+    if (var_xs < 1.e-10) var_xs = 0.
   endif
 !           
 ! Final dataset
@@ -121,23 +226,23 @@ Loop2:  do
     enddo Loop2
   endif
   if (Nsel > 0) then
-     res_xs_sel = res_xs(Nsel)
-     res_dxs_sel = res_dxs(Nsel)
-     res_author_sel = res_author(Nsel)
+    res_xs_sel = res_xs(Nsel)
+    res_dxs_sel = res_dxs(Nsel)
+    res_author_sel = res_author(Nsel)
+    Nsave = Nsave +1
+    N = Nsave
+    Zsave(N) = Z
+    Asave(N) = A
+    Lisosave(N) = Liso
+    xssave(N) = res_xs_sel
+    dxssave(N) = res_dxs_sel
+    refsave(N) = res_author_sel
+    Nexpsave(N) = Nres_exp
   else
-     res_xs_sel = 0.
-     res_dxs_sel = 0.
-     res_author_sel = ''
+    res_xs_sel = 0.
+    res_dxs_sel = 0.
+    res_author_sel = ''
   endif
-  Nsave = Nsave +1
-  N = Nsave
-  Zsave(N) = Z
-  Asave(N) = A
-  Lisosave(N) = Liso
-  xssave(N) = res_xs_sel
-  dxssave(N) = res_dxs_sel
-  refsave(N) = res_author_sel
-  Nexpsave(N) = Nres_exp
   return
 end subroutine procresonance
 ! Copyright A.J. Koning 2025

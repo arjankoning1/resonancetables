@@ -5,7 +5,7 @@ module A0_resonancetables_mod
 !                                                                                                                                   
 ! Revision    Date      Author           Description                                                                                
 ! ====================================================                                                                              
-!    1     2025-03-05   A.J. Koning      Original code                                                                              
+!    1     2025-03-23   A.J. Koning      Original code                                                                              
 !-----------------------------------------------------------------------------------------------------------------------------------
 !                                                                                                                                   
 ! *** Use data from other modules                                                                                                   
@@ -90,6 +90,18 @@ module A0_resonancetables_mod
   integer                              :: Nlib
   integer                              :: Ncomp
   integer                              :: Ncomp_av
+  real                                 :: av_xs
+  real                                 :: av_xs_comp
+  real                                 :: av_xs_av_comp
+  real                                 :: av_xs_exfor
+  real                                 :: av_xs_av_exfor
+  real                                 :: av_xs_NDL
+  real                                 :: var_xs
+  real                                 :: var_xs_comp
+  real                                 :: var_xs_av_comp
+  real                                 :: var_xs_exfor
+  real                                 :: var_xs_av_exfor
+  real                                 :: var_xs_NDL
 !                                                                                                                                   
 ! writethermal                                                                                                                       
   integer                             :: Ztarget

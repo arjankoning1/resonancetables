@@ -25,7 +25,6 @@ subroutine summacs
   character(len=15)  :: un(9)      ! units
   character(len=80)  :: quantity   ! quantity
   character(len=132) :: topline    ! topline
-  logical            :: flagav
   integer            :: k          ! counter
   integer            :: N          ! counter
   integer            :: Ncol       ! number of columns
@@ -49,7 +48,7 @@ subroutine summacs
   col(6) = 'Reference'
   col(7) = '#Experiments'
   col(8) = 'Nuclide'
-  col(9) = 'Average'
+  col(9) = 'Spectrum'
   Ncol = 9
   un = ''
   un(4) = 'b'

@@ -65,6 +65,13 @@ subroutine writethermal(Z, A, Liso, Riso, type)
     call write_real(2,'selected value uncertainty]',res_dxs_sel)
   endif
   call write_char(2,'selected value source',res_author_sel)
+  call write_integer(2,'number of values',Nres)
+  if (type <= 6) then
+    call write_real(2,'average value [b]',av_xs)
+  else
+    call write_real(2,'average value',av_xs)
+  endif
+  write(1,'("#   relative standard deviation [%]:",f15.6)') var_xs
   col(1) = 'Author'
   col(2) = ''
   col(3) = 'Type'
@@ -73,7 +80,7 @@ subroutine writethermal(Z, A, Liso, Riso, type)
   col(6) = 'dValue'
   col(7) = 'Reference'
   col(8) = 'Ratio'
-  col(9) = 'Average'
+  col(9) = 'Spectrum'
   Ncol = 9
   un = ''
   if (type <= 6) then
@@ -83,11 +90,13 @@ subroutine writethermal(Z, A, Liso, Riso, type)
   if (Ncomp > 0) then
     quantity='Compilation'
     call write_quantity(quantity)
+    call write_real(2,'average value',av_xs_comp)
+    write(1,'("#   relative standard deviation [%]:",f15.6)') var_xs_comp
     call write_datablock(Ncol,Ncomp,col,un)
     do k = 1, Nres
       if (res_type(k) == 'Compilation' .and. res_av(k) == '') then
         F = res_xs(k) / res_xs_sel
-        write(1, '(a30,a15,6x,i4,5x,2es15.6,3x,a12,es15.6,3x,a12)') res_author(k), res_type(k), res_year(k), res_xs(k), & 
+        write(1, '(a30,a15,6x,i4,5x,2es15.6,3x,a12,f15.6,3x,a12)') res_author(k), res_type(k), res_year(k), res_xs(k), & 
  &        res_dxs(k), res_ref(k), F, res_av(k)
       endif
     enddo
@@ -95,11 +104,13 @@ subroutine writethermal(Z, A, Liso, Riso, type)
   if (Ncomp_av > 0) then
     quantity='Compilation spectrum-averaged'
     call write_quantity(quantity)
+    call write_real(2,'average value',av_xs_av_comp)
+    write(1,'("#   relative standard deviation [%]:",f15.6)') var_xs_av_comp
     call write_datablock(Ncol,Ncomp_av,col,un)
     do k = 1, Nres
       if (res_type(k) == 'Compilation' .and. res_av(k) /= '') then
         F = res_xs(k) / res_xs_sel
-        write(1, '(a30,a15,6x,i4,5x,2es15.6,3x,a12,es15.6,3x,a12)') res_author(k), res_type(k), res_year(k), res_xs(k), & 
+        write(1, '(a30,a15,6x,i4,5x,2es15.6,3x,a12,f15.6,3x,a12)') res_author(k), res_type(k), res_year(k), res_xs(k), & 
  &        res_dxs(k), res_ref(k), F, res_av(k)
       endif
     enddo
@@ -107,11 +118,13 @@ subroutine writethermal(Z, A, Liso, Riso, type)
   if (Nexp > 0) then
     quantity='EXFOR'
     call write_quantity(quantity)
+    call write_real(2,'average value',av_xs_exfor)
+    write(1,'("#   relative standard deviation [%]:",f15.6)') var_xs_exfor
     call write_datablock(Ncol,Nexp,col,un)
     do k = 1, Nres
       if (res_type(k) == 'EXFOR' .and. res_av(k) == '') then
         F = res_xs(k) / res_xs_sel
-        write(1, '(a30,a15,6x,i4,5x,2es15.6,3x,a12,es15.6,3x,a12)') res_author(k), res_type(k), res_year(k), res_xs(k), & 
+        write(1, '(a30,a15,6x,i4,5x,2es15.6,3x,a12,f15.6,3x,a12)') res_author(k), res_type(k), res_year(k), res_xs(k), & 
  &        res_dxs(k), res_ref(k), F, res_av(k)
       endif
     enddo
@@ -119,11 +132,13 @@ subroutine writethermal(Z, A, Liso, Riso, type)
   if (Nexp_av > 0) then
     quantity='EXFOR spectrum-averaged'
     call write_quantity(quantity)
+    call write_real(2,'average value',av_xs_av_exfor)
+    write(1,'("#   relative standard deviation [%]:",f15.6)') var_xs_av_exfor
     call write_datablock(Ncol,Nexp_av,col,un)
     do k = 1, Nres
       if (res_type(k) == 'EXFOR' .and. res_av(k) /= '') then
         F = res_xs(k) / res_xs_sel
-        write(1, '(a30,a15,6x,i4,5x,2es15.6,3x,a12,es15.6,3x,a12)') res_author(k), res_type(k), res_year(k), res_xs(k), & 
+        write(1, '(a30,a15,6x,i4,5x,2es15.6,3x,a12,f15.6,3x,a12)') res_author(k), res_type(k), res_year(k), res_xs(k), & 
  &        res_dxs(k), res_ref(k), F, res_av(k)
       endif
     enddo
@@ -131,11 +146,13 @@ subroutine writethermal(Z, A, Liso, Riso, type)
   if (Nlib > 0) then
     quantity='Nuclear data library'
     call write_quantity(quantity)
+    call write_real(2,'average value',av_xs_NDL)
+    write(1,'("#   relative standard deviation [%]:",f15.6)') var_xs_NDL
     call write_datablock(Ncol,Nlib,col,un)
     do k = 1, Nres
       if (res_type(k) == 'NDL') then
         F = res_xs(k) / res_xs_sel
-        write(1, '(a30,a15,6x,i4,5x,2es15.6,3x,a12,es15.6,6x,a9)') res_author(k), res_type(k), res_year(k), res_xs(k), & 
+        write(1, '(a30,a15,6x,i4,5x,2es15.6,3x,a12,f15.6,6x,a9)') res_author(k), res_type(k), res_year(k), res_xs(k), & 
  &        res_dxs(k), res_ref(k), F, res_av(k)
       endif
     enddo

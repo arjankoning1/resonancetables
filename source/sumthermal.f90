@@ -59,7 +59,7 @@ subroutine sumthermal(Riso, type)
   col(6) = 'Reference'
   col(7) = '#Experiments'
   col(8) = 'Nuclide'
-  col(9) = 'Average'
+  col(9) = 'Spectrum'
   Ncol = 9
   un = ''
   if (type <= 6) then

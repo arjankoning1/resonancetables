@@ -21,7 +21,6 @@ subroutine macs
   integer            :: A          ! mass number
   integer            :: Liso       ! isomer
   integer            :: Riso       ! isomer
-  integer            :: iav
 !
 !
 !
@@ -39,7 +38,7 @@ subroutine macs
           if (Liso == 1) targetnuclide = trim(targetnuclide)//'m'
           if (Liso == 2) targetnuclide = trim(targetnuclide)//'n'
           call readmacs(Z,A,Liso,Riso)
-          if (res_exist) call procmacs(Z,A,Liso,Riso)
+          if (res_exist) call procmacs(Z,A,Liso)
           if (res_exist) call writemacs(Z,A,Liso,Riso)
         enddo
       endif

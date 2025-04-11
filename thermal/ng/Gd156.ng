@@ -1,7 +1,7 @@
 # header:
 #   title: Gd156(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 64
 #   A: 156
@@ -20,57 +20,57 @@
 #   average value:  1.650000E+00
 #   relative standard deviation [%]:       9.090908
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      RIPL-3                  Compilation          2004        1.500000E+00   1.200000E+00                      0.833333               
-      Mughabghab_2016         Compilation          2016        1.800000E+00   7.000000E-01                      1.000000               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      RIPL-3                  Compilation          2004        1.500000E+00   1.200000E+00                      0.833333                  2.530000E-08
+      Mughabghab_2016         Compilation          2016        1.800000E+00   7.000000E-01                      1.000000                  2.530000E-08
 # quantity:
 #   type: Compilation spectrum-averaged
 #   average value:  1.800000E+00
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      Mughabghab_2006         Compilation          2006        1.800000E+00   7.000000E-01                      1.000000   MXW         
-      Sukhoruchkin            Compilation          2015        1.800000E+00   7.000000E-01                      1.000000   MXW         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Mughabghab_2006         Compilation          2006        1.800000E+00   7.000000E-01                      1.000000   MXW            2.530000E-08
+      Sukhoruchkin            Compilation          2015        1.800000E+00   7.000000E-01                      1.000000   MXW            2.530000E-08
 # quantity:
 #   type: EXFOR
 #   average value:  1.500000E+00
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      R.Dobrozemsky           EXFOR                1971        1.500000E+00   1.200000E+00   20637-008-0        0.833333               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      R.Dobrozemsky           EXFOR                1971        1.500000E+00   1.200000E+00   20637-008-0        0.833333                  2.530000E-08
 # quantity:
 #   type: EXFOR spectrum-averaged
 #   average value:  1.097500E+01
 #   relative standard deviation [%]:      21.823938
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 4
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      W.H.Walker              EXFOR                1956        1.400000E+01   0.000000E+00   12127-012-0        7.777778   SPA         
-      P.M.Lantz               EXFOR                1965        7.300000E+00   0.000000E+00   11938-004-0        4.055556   MXW         
-      E.I.Grishanin           EXFOR                1967        1.110000E+01   2.300000E+00   41244-005-0        6.166667   SPA         
-      E.I.Grishanin           EXFOR                1967        1.150000E+01   2.000000E+00   41244-004-0        6.388889   SPA         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      W.H.Walker              EXFOR                1956        1.400000E+01   0.000000E+00   12127-012-0        7.777778   SPA            2.530000E-08
+      P.M.Lantz               EXFOR                1965        7.300000E+00   0.000000E+00   11938-004-0        4.055556   MXW            2.530000E-08
+      E.I.Grishanin           EXFOR                1967        1.110000E+01   2.300000E+00   41244-005-0        6.166667   SPA            2.530000E-08
+      E.I.Grishanin           EXFOR                1967        1.150000E+01   2.000000E+00   41244-004-0        6.388889   SPA            2.530000E-08
 # quantity:
 #   type: Nuclear data library
 #   average value:  1.795964E+00
 #   relative standard deviation [%]:       5.201793
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 5
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      cendl3.2                NDL                  2019        1.635320E+00   0.000000E+00                      0.908511               
-      jendl5.0                NDL                  2021        1.827030E+00   0.000000E+00                      1.015017               
-      tendl.2023              NDL                  2023        1.796780E+00   0.000000E+00                      0.998211               
-      endfb8.1                NDL                  2024        1.794860E+00   0.000000E+00                      0.997144               
-      jeff4.0                 NDL                  2025        1.925830E+00   0.000000E+00                      1.069906               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      cendl3.2                NDL                  2019        1.635320E+00   0.000000E+00                      0.908511                  2.530000E-08
+      jendl5.0                NDL                  2021        1.827030E+00   0.000000E+00                      1.015017                  2.530000E-08
+      tendl.2023              NDL                  2023        1.796780E+00   0.000000E+00                      0.998211                  2.530000E-08
+      endfb8.1                NDL                  2024        1.794860E+00   0.000000E+00                      0.997144                  2.530000E-08
+      jeff4.0                 NDL                  2025        1.925830E+00   0.000000E+00                      1.069906                  2.530000E-08

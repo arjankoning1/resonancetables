@@ -1,7 +1,7 @@
 # header:
 #   title: Cf250(n,f) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 98
 #   A: 250
@@ -20,20 +20,20 @@
 #   average value:  1.113333E+02
 #   relative standard deviation [%]:       0.846834
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      RIPL-3                  Compilation          2004        1.100000E+02   9.000000E+00                      0.982143               
-      Sukhoruchkin            Compilation          2015        1.120000E+02   0.000000E+00                      1.000000               
-      Mughabghab_2016         Compilation          2016        1.120000E+02   9.900000E+01                      1.000000               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      RIPL-3                  Compilation          2004        1.100000E+02   9.000000E+00                      0.982143                  2.530000E-08
+      Sukhoruchkin            Compilation          2015        1.120000E+02   0.000000E+00                      1.000000                  2.530000E-08
+      Mughabghab_2016         Compilation          2016        1.120000E+02   9.900000E+01                      1.000000                  2.530000E-08
 # quantity:
 #   type: EXFOR spectrum-averaged
 #   average value:  3.500000E+02
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      D.Metta                 EXFOR                1965        3.500000E+02   0.000000E+00   12562-003-0        3.125000   MXW         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      D.Metta                 EXFOR                1965        3.500000E+02   0.000000E+00   12562-003-0        3.125000   MXW            2.530000E-08

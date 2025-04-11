@@ -1,7 +1,7 @@
 # header:
 #   title: W188(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 74
 #   A: 188
@@ -20,30 +20,30 @@
 #   average value:  1.200000E+01
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      RIPL-3                  Compilation          2004        1.200000E+01   2.500000E+00                      1.000000               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      RIPL-3                  Compilation          2004        1.200000E+01   2.500000E+00                      1.000000                  2.530000E-08
 # quantity:
 #   type: EXFOR spectrum-averaged
 #   average value:  1.200000E+01
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      Saed Mirzadeh           EXFOR                1997        1.200000E+01   2.500000E+00   31499-002-0        1.000000   MXW         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Saed Mirzadeh           EXFOR                1997        1.200000E+01   2.500000E+00   31499-002-0        1.000000   MXW            2.530000E-08
 # quantity:
 #   type: Nuclear data library
 #   average value:  1.199610E+01
 #   relative standard deviation [%]:       0.025366
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      jendl5.0                NDL                  2021        1.200040E+01   0.000000E+00                      1.000033               
-      tendl.2023              NDL                  2023        1.199380E+01   0.000000E+00                      0.999483               
-      jeff4.0                 NDL                  2025        1.199410E+01   0.000000E+00                      0.999508               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      jendl5.0                NDL                  2021        1.200040E+01   0.000000E+00                      1.000033                  2.530000E-08
+      tendl.2023              NDL                  2023        1.199380E+01   0.000000E+00                      0.999483                  2.530000E-08
+      jeff4.0                 NDL                  2025        1.199410E+01   0.000000E+00                      0.999508                  2.530000E-08

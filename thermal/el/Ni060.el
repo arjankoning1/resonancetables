@@ -1,7 +1,7 @@
 # header:
 #   title: Ni060(n,el) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 28
 #   A: 60
@@ -20,19 +20,19 @@
 #   average value:  9.800000E-01
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      Mughabghab_2006         Compilation          2006        9.800000E-01   7.000000E-02                      1.000000               
-      Mughabghab_2016         Compilation          2016        9.800000E-01   7.000000E-02                      1.000000               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Mughabghab_2006         Compilation          2006        9.800000E-01   7.000000E-02                      1.000000                  2.530000E-08
+      Mughabghab_2016         Compilation          2016        9.800000E-01   7.000000E-02                      1.000000                  2.530000E-08
 # quantity:
 #   type: EXFOR
 #   average value:  5.000000E+00
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      S.Bernstein             EXFOR                1952        5.000000E+00   0.000000E+00   11745-007-0        5.102041               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      S.Bernstein             EXFOR                1952        5.000000E+00   0.000000E+00   11745-007-0        5.102041                  2.530000E-08

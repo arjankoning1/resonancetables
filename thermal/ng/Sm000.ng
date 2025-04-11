@@ -1,7 +1,7 @@
 # header:
 #   title: Sm000(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 62
 #   A: 0
@@ -20,34 +20,34 @@
 #   average value:  5.840000E+03
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      Firestone               Compilation          2022        5.840000E+03   3.000000E+01                      1.000000   MXW         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Firestone               Compilation          2022        5.840000E+03   3.000000E+01                      1.000000   MXW            2.530000E-08
 # quantity:
 #   type: EXFOR
 #   average value:  5.512000E+03
 #   relative standard deviation [%]:       9.595716
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 4
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      G.A.Fink                EXFOR                1936        4.600000E+03   1.000000E+02   13845-009-0        0.787671               
-      J.W.Meadows             EXFOR                1961        5.828000E+03   3.000000E+01   11028-019-0        0.997945               
-      E.Sokolowski            EXFOR                1964        5.740000E+03   1.500000E+02   20077-007-0        0.982877               
-      E.Sokolowski            EXFOR                1964        5.880000E+03   9.000000E+01   20077-006-0        1.006849               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      G.A.Fink                EXFOR                1936        4.600000E+03   1.000000E+02   13845-009-0        0.787671                  2.530000E-08
+      J.W.Meadows             EXFOR                1961        5.828000E+03   3.000000E+01   11028-019-0        0.997945                  2.530000E-08
+      E.Sokolowski            EXFOR                1964        5.740000E+03   1.500000E+02   20077-007-0        0.982877                  2.530000E-08
+      E.Sokolowski            EXFOR                1964        5.880000E+03   9.000000E+01   20077-006-0        1.006849                  2.530000E-08
 # quantity:
 #   type: EXFOR spectrum-averaged
 #   average value:  9.650000E+03
 #   relative standard deviation [%]:       9.818345
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 4
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      S.P.Harris              EXFOR                1950        8.200000E+03   0.000000E+00   11528-038-0        1.404110   SPA         
-      H.Pomerance             EXFOR                1951        1.060000E+04   0.000000E+00   11047-048-0        1.815068   MXW         
-      K.L.Aitken              EXFOR                1957        1.038000E+04   1.600000E+02   21184-002-2        1.777397   MXW         
-      R.B.Tattersall          EXFOR                1960        9.420000E+03   9.000000E+01   20638-076-0        1.613014   MXW         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      S.P.Harris              EXFOR                1950        8.200000E+03   0.000000E+00   11528-038-0        1.404110   SPA            2.530000E-08
+      H.Pomerance             EXFOR                1951        1.060000E+04   0.000000E+00   11047-048-0        1.815068   MXW            2.530000E-08
+      K.L.Aitken              EXFOR                1957        1.038000E+04   1.600000E+02   21184-002-2        1.777397   MXW            2.530000E-08
+      R.B.Tattersall          EXFOR                1960        9.420000E+03   9.000000E+01   20638-076-0        1.613014   MXW            2.530000E-08

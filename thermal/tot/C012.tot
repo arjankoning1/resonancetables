@@ -1,7 +1,7 @@
 # header:
 #   title: C012(n,tot) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 6
 #   A: 12
@@ -20,21 +20,21 @@
 #   average value:  5.410000E+00
 #   relative standard deviation [%]:      14.521051
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 4
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      H.L.Anderson            EXFOR                1946        4.050000E+00   0.000000E+00   14689-002-0        0.686441               
-      C.D.Bowman              EXFOR                2008        5.830000E+00   0.000000E+00   14232-003-0        0.988136               
-      C.D.Bowman              EXFOR                2008        5.860000E+00   0.000000E+00   14232-003-0        0.993220               
-      C.D.Bowman              EXFOR                2008        5.900000E+00   0.000000E+00   14232-003-0        1.000000               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      H.L.Anderson            EXFOR                1946        4.050000E+00   0.000000E+00   14689-002-0        0.686441                  2.530000E-08
+      C.D.Bowman              EXFOR                2008        5.830000E+00   0.000000E+00   14232-003-0        0.988136                  2.537000E-08
+      C.D.Bowman              EXFOR                2008        5.860000E+00   0.000000E+00   14232-003-0        0.993220                  2.525000E-08
+      C.D.Bowman              EXFOR                2008        5.900000E+00   0.000000E+00   14232-003-0        1.000000                  2.523000E-08
 # quantity:
 #   type: EXFOR spectrum-averaged
 #   average value:  4.800000E+00
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      M.Goldhaber             EXFOR                1937        4.800000E+00   0.000000E+00   22518-002-0        0.813559   MXW         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      M.Goldhaber             EXFOR                1937        4.800000E+00   0.000000E+00   22518-002-0        0.813559   MXW            2.530000E-08

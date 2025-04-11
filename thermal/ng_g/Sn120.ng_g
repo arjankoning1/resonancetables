@@ -1,7 +1,7 @@
 # header:
 #   title: Sn120(n,g)_g thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 50
 #   A: 120
@@ -20,20 +20,20 @@
 #   average value:  1.350000E-01
 #   relative standard deviation [%]:       3.703706
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      RIPL-3                  Compilation          2004        1.300000E-01   3.000000E-02                      0.928571               
-      Mughabghab_2016         Compilation          2016        1.400000E-01   3.000000E-02                      1.000000               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      RIPL-3                  Compilation          2004        1.300000E-01   3.000000E-02                      0.928571                  2.530000E-08
+      Mughabghab_2016         Compilation          2016        1.400000E-01   3.000000E-02                      1.000000                  2.530000E-08
 # quantity:
 #   type: EXFOR spectrum-averaged
 #   average value:  5.100000E-02
 #   relative standard deviation [%]:      41.176468
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      L.Seren                 EXFOR                1947        7.200000E-02   1.440000E-02   11447-079-0        0.514286   SPA         
-      C.Nelson                EXFOR                1950        3.000000E-02   6.000000E-03   11961-007-0        0.214286   SPA         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      L.Seren                 EXFOR                1947        7.200000E-02   1.440000E-02   11447-079-0        0.514286   SPA            2.530000E-08
+      C.Nelson                EXFOR                1950        3.000000E-02   6.000000E-03   11961-007-0        0.214286   SPA            2.530000E-08

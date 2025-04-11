@@ -1,7 +1,7 @@
 # header:
 #   title: Te126(n,g)_g thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 52
 #   A: 126
@@ -20,21 +20,21 @@
 #   average value:  5.625000E-01
 #   relative standard deviation [%]:      42.222225
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      RIPL-3                  Compilation          2004        8.000000E-01   1.500000E-01                      2.461539               
-      Mughabghab_2016         Compilation          2016        3.250000E-01   1.400000E-02                      1.000000               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      RIPL-3                  Compilation          2004        8.000000E-01   1.500000E-01                      2.461539                  2.530000E-08
+      Mughabghab_2016         Compilation          2016        3.250000E-01   1.400000E-02                      1.000000                  2.530000E-08
 # quantity:
 #   type: EXFOR spectrum-averaged
 #   average value:  7.130000E-01
 #   relative standard deviation [%]:      41.135990
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      L.Seren                 EXFOR                1947        7.800000E-01   1.560000E-01   11447-084-0        2.400000   SPA         
-      S.K.Mangal              EXFOR                1962        1.034000E+00   1.551000E-01   31248-009-0        3.181539   MXW         
-      M.C.Eastman             EXFOR                2008        3.250000E-01   1.400000E-02   14165-006-0        1.000000   MXW         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      L.Seren                 EXFOR                1947        7.800000E-01   1.560000E-01   11447-084-0        2.400000   SPA            2.530000E-08
+      S.K.Mangal              EXFOR                1962        1.034000E+00   1.551000E-01   31248-009-0        3.181539   MXW            2.530000E-08
+      M.C.Eastman             EXFOR                2008        3.250000E-01   1.400000E-02   14165-006-0        1.000000   MXW            2.530000E-08

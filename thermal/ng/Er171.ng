@@ -1,7 +1,7 @@
 # header:
 #   title: Er171(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 68
 #   A: 171
@@ -20,29 +20,29 @@
 #   average value:  3.250000E+02
 #   relative standard deviation [%]:      13.846154
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      RIPL-3                  Compilation          2004        3.700000E+02   4.000000E+01                      1.321429               
-      Mughabghab_2016         Compilation          2016        2.800000E+02   3.000000E+01                      1.000000               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      RIPL-3                  Compilation          2004        3.700000E+02   4.000000E+01                      1.321429                  2.530000E-08
+      Mughabghab_2016         Compilation          2016        2.800000E+02   3.000000E+01                      1.000000                  2.530000E-08
 # quantity:
 #   type: Compilation spectrum-averaged
 #   average value:  2.800000E+02
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      Mughabghab_2006         Compilation          2006        2.800000E+02   3.000000E+01                      1.000000   MXW         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Mughabghab_2006         Compilation          2006        2.800000E+02   3.000000E+01                      1.000000   MXW            2.530000E-08
 # quantity:
 #   type: EXFOR spectrum-averaged
 #   average value:  2.800000E+02
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      K.Miyano                EXFOR                1971        2.800000E+02   3.000000E+01   20345-002-0        1.000000   SPA         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      K.Miyano                EXFOR                1971        2.800000E+02   3.000000E+01   20345-002-0        1.000000   SPA            2.530000E-08

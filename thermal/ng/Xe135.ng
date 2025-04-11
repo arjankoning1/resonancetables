@@ -1,7 +1,7 @@
 # header:
 #   title: Xe135(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 54
 #   A: 135
@@ -20,24 +20,24 @@
 #   average value:  2.650000E+06
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 4
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      RIPL-3                  Compilation          2004        2.650000E+06   1.100000E+05                      1.000000               
-      Mughabghab_2006         Compilation          2006        2.650000E+06   1.100000E+05                      1.000000               
-      Sukhoruchkin            Compilation          2015        2.650000E+06   1.100000E+05                      1.000000               
-      Mughabghab_2016         Compilation          2016        2.650000E+06   1.100000E+05                      1.000000               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      RIPL-3                  Compilation          2004        2.650000E+06   1.100000E+05                      1.000000                  2.530000E-08
+      Mughabghab_2006         Compilation          2006        2.650000E+06   1.100000E+05                      1.000000                  2.530000E-08
+      Sukhoruchkin            Compilation          2015        2.650000E+06   1.100000E+05                      1.000000                  2.530000E-08
+      Mughabghab_2016         Compilation          2016        2.650000E+06   1.100000E+05                      1.000000                  2.530000E-08
 # quantity:
 #   type: EXFOR spectrum-averaged
 #   average value:  2.975000E+06
 #   relative standard deviation [%]:       8.882158
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 4
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      J.Petruska              EXFOR                1955        2.900000E+06   0.000000E+00   12007-002-2        1.094340   MXW         
-      M.Freedman              EXFOR                1956        2.580000E+06   2.000000E+05   12015-002-0        0.973585   MXW         
-      H.Fickel                EXFOR                1959        3.270000E+06   1.100000E+05   12009-002-0        1.233962   MXW         
-      H.Fickel                EXFOR                1959        3.150000E+06   6.000000E+04   12009-002-0        1.188679   MXW         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      J.Petruska              EXFOR                1955        2.900000E+06   0.000000E+00   12007-002-2        1.094340   MXW            2.530000E-08
+      M.Freedman              EXFOR                1956        2.580000E+06   2.000000E+05   12015-002-0        0.973585   MXW            2.530000E-08
+      H.Fickel                EXFOR                1959        3.270000E+06   1.100000E+05   12009-002-0        1.233962   MXW            2.530000E-08
+      H.Fickel                EXFOR                1959        3.150000E+06   6.000000E+04   12009-002-0        1.188679   MXW            2.530000E-08

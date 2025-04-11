@@ -1,7 +1,7 @@
 # header:
 #   title: Hg000(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 80
 #   A: 0
@@ -20,31 +20,31 @@
 #   average value:  3.740000E+02
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      Firestone               Compilation          2022        3.740000E+02   3.000000E+00                      1.000000   MXW         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Firestone               Compilation          2022        3.740000E+02   3.000000E+00                      1.000000   MXW            2.530000E-08
 # quantity:
 #   type: EXFOR
 #   average value:  4.095000E+02
 #   relative standard deviation [%]:       8.669108
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      G.A.Fink                EXFOR                1936        4.450000E+02   2.500000E+01   13845-011-0        1.189840               
-      J.W.Meadows             EXFOR                1961        3.740000E+02   5.000000E+00   11028-025-0        1.000000               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      G.A.Fink                EXFOR                1936        4.450000E+02   2.500000E+01   13845-011-0        1.189840                  2.530000E-08
+      J.W.Meadows             EXFOR                1961        3.740000E+02   5.000000E+00   11028-025-0        1.000000                  2.530000E-08
 # quantity:
 #   type: EXFOR spectrum-averaged
 #   average value:  3.583333E+02
 #   relative standard deviation [%]:       4.524795
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      S.P.Harris              EXFOR                1950        3.800000E+02   0.000000E+00   11528-047-0        1.016043   SPA         
-      H.Pomerance             EXFOR                1951        3.410000E+02   0.000000E+00   11047-060-0        0.911765   MXW         
-      J.Ailloud               EXFOR                1952        3.540000E+02   3.000000E+01   21415-006-0        0.946524   MXW         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      S.P.Harris              EXFOR                1950        3.800000E+02   0.000000E+00   11528-047-0        1.016043   SPA            2.530000E-08
+      H.Pomerance             EXFOR                1951        3.410000E+02   0.000000E+00   11047-060-0        0.911765   MXW            2.530000E-08
+      J.Ailloud               EXFOR                1952        3.540000E+02   3.000000E+01   21415-006-0        0.946524   MXW            2.530000E-08

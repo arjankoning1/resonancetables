@@ -1,7 +1,7 @@
 # header:
 #   title: Pm147(n,g)_m thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 61
 #   A: 147
@@ -20,23 +20,23 @@
 #   average value:  7.820000E+01
 #   relative standard deviation [%]:       7.416879
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      RIPL-3                  Compilation          2004        8.400000E+01   1.000000E+01                      1.160221               
-      Mughabghab_2016         Compilation          2016        7.240000E+01   3.000000E+00                      1.000000               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      RIPL-3                  Compilation          2004        8.400000E+01   1.000000E+01                      1.160221                  2.530000E-08
+      Mughabghab_2016         Compilation          2016        7.240000E+01   3.000000E+00                      1.000000                  2.530000E-08
 # quantity:
 #   type: EXFOR spectrum-averaged
 #   average value:  8.574000E+01
 #   relative standard deviation [%]:      29.647909
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 5
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      R.W.Stoughton           EXFOR                1960        1.200000E+02   0.000000E+00   12126-002-0        1.657459   SPA         
-      R.P.Schuman             EXFOR                1962        1.110000E+02   1.100000E+01   12100-002-0        1.533149   MXW         
-      N.C.Fenner              EXFOR                1967        7.200000E+01   7.000000E+00   20631-002-0        0.994475   MXW         
-      R.S.Mowatt              EXFOR                1971        7.240000E+01   3.000000E+00   10151-003-0        1.000000   MXW         
-      K.Broderick             EXFOR                2019        5.330000E+01   2.700000E+00   14680-005-0        0.736188   SPA         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      R.W.Stoughton           EXFOR                1960        1.200000E+02   0.000000E+00   12126-002-0        1.657459   SPA            2.530000E-08
+      R.P.Schuman             EXFOR                1962        1.110000E+02   1.100000E+01   12100-002-0        1.533149   MXW            2.530000E-08
+      N.C.Fenner              EXFOR                1967        7.200000E+01   7.000000E+00   20631-002-0        0.994475   MXW            2.530000E-08
+      R.S.Mowatt              EXFOR                1971        7.240000E+01   3.000000E+00   10151-003-0        1.000000   MXW            2.530000E-08
+      K.Broderick             EXFOR                2019        5.330000E+01   2.700000E+00   14680-005-0        0.736188   SPA            2.530000E-08

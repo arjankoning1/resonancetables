@@ -1,7 +1,7 @@
 # header:
 #   title: Ir191(n,el) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 77
 #   A: 191
@@ -20,19 +20,19 @@
 #   average value:  1.300000E+01
 #   relative standard deviation [%]:       7.692307
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      Mughabghab_2006         Compilation          2006        1.400000E+01   0.000000E+00                      1.166667               
-      Mughabghab_2016         Compilation          2016        1.200000E+01   1.000000E+00                      1.000000               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Mughabghab_2006         Compilation          2006        1.400000E+01   0.000000E+00                      1.166667                  2.530000E-08
+      Mughabghab_2016         Compilation          2016        1.200000E+01   1.000000E+00                      1.000000                  2.530000E-08
 # quantity:
 #   type: EXFOR
 #   average value:  1.400000E+01
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      S.F.Mughabghab          EXFOR                2006        1.400000E+01   0.000000E+00   V1002-459-5        1.166667               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      S.F.Mughabghab          EXFOR                2006        1.400000E+01   0.000000E+00   V1002-459-5        1.166667                  2.530000E-08

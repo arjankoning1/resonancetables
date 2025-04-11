@@ -1,7 +1,7 @@
 # header:
 #   title: Ba130(n,g)_m thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 56
 #   A: 130
@@ -20,21 +20,21 @@
 #   average value:  1.000000E+00
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      RIPL-3                  Compilation          2004        1.000000E+00   3.000000E-01                      1.000000               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      RIPL-3                  Compilation          2004        1.000000E+00   3.000000E-01                      1.000000                  2.530000E-08
 # quantity:
 #   type: EXFOR spectrum-averaged
 #   average value:  3.604000E+00
 #   relative standard deviation [%]:      86.015938
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 4
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      W.S.Lyon                EXFOR                1960        8.800000E+00   8.800000E-01   11625-022-0        8.800000   SPA         
-      H.Arino                 EXFOR                1964        2.520000E+00   0.000000E+00   11817-011-0        2.520000   MXW         
-      R.S.Tilbury             EXFOR                1968        2.500000E+00   3.000000E-01   11927-011-0        2.500000   SPA         
-      A.Y.Dauenhauer          EXFOR                2012        5.960000E-01   3.700000E-02   14340-002-0        0.596000   MXW         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      W.S.Lyon                EXFOR                1960        8.800000E+00   8.800000E-01   11625-022-0        8.800000   SPA            2.530000E-08
+      H.Arino                 EXFOR                1964        2.520000E+00   0.000000E+00   11817-011-0        2.520000   MXW            2.530000E-08
+      R.S.Tilbury             EXFOR                1968        2.500000E+00   3.000000E-01   11927-011-0        2.500000   SPA            2.530000E-08
+      A.Y.Dauenhauer          EXFOR                2012        5.960000E-01   3.700000E-02   14340-002-0        0.596000   MXW            2.530000E-08

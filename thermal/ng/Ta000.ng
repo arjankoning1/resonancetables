@@ -1,7 +1,7 @@
 # header:
 #   title: Ta000(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 73
 #   A: 0
@@ -20,31 +20,31 @@
 #   average value:  2.060000E+01
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      Firestone               Compilation          2022        2.060000E+01   5.000000E-01                      1.000000   MXW         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Firestone               Compilation          2022        2.060000E+01   5.000000E-01                      1.000000   MXW            2.530000E-08
 # quantity:
 #   type: EXFOR
 #   average value:  2.023567E+01
 #   relative standard deviation [%]:       5.523029
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      R.B.Tattersall          EXFOR                1960        1.900000E+01   2.000000E-01   20638-056-0        0.922330               
-      R.E.Schmunk             EXFOR                1960        2.000000E+01   9.000000E-01   11634-006-0        0.970874               
-      F.Widder                EXFOR                1975        2.170700E+01   6.636000E-01   20437-012-0        1.053738               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      R.B.Tattersall          EXFOR                1960        1.900000E+01   2.000000E-01   20638-056-0        0.922330                  2.530000E-08
+      R.E.Schmunk             EXFOR                1960        2.000000E+01   9.000000E-01   11634-006-0        0.970874                  2.530000E-08
+      F.Widder                EXFOR                1975        2.170700E+01   6.636000E-01   20437-012-0        1.053738                  2.523800E-08
 # quantity:
 #   type: EXFOR spectrum-averaged
 #   average value:  2.205000E+01
 #   relative standard deviation [%]:       3.401361
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      H.Pomerance             EXFOR                1951        2.130000E+01   1.000000E+00   11047-057-0        1.033980   MXW         
-      Yu.A.Prokhorov          EXFOR                1956        2.280000E+01   1.000000E+00   41648-011-0        1.106796   MXW         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      H.Pomerance             EXFOR                1951        2.130000E+01   1.000000E+00   11047-057-0        1.033980   MXW            2.530000E-08
+      Yu.A.Prokhorov          EXFOR                1956        2.280000E+01   1.000000E+00   41648-011-0        1.106796   MXW            2.530000E-08

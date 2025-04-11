@@ -1,7 +1,7 @@
 # header:
 #   title: Ni059(n,a) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 28
 #   A: 59
@@ -20,33 +20,33 @@
 #   average value:  1.230000E+01
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      Mughabghab_2006         Compilation          2006        1.230000E+01   6.000000E-01                      1.000000               
-      Sukhoruchkin            Compilation          2015        1.230000E+01   6.000000E-01                      1.000000               
-      Mughabghab_2016         Compilation          2016        1.230000E+01   6.000000E-01                      1.000000               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Mughabghab_2006         Compilation          2006        1.230000E+01   6.000000E-01                      1.000000                  2.530000E-08
+      Sukhoruchkin            Compilation          2015        1.230000E+01   6.000000E-01                      1.000000                  2.530000E-08
+      Mughabghab_2016         Compilation          2016        1.230000E+01   6.000000E-01                      1.000000                  2.530000E-08
 # quantity:
 #   type: EXFOR
 #   average value:  1.635000E+01
 #   relative standard deviation [%]:      25.521887
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 4
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      H.M.Eiland              EXFOR                1974        1.370000E+01   1.200000E+00   10387-002-0        1.113821               
-      R.D.Werner              EXFOR                1975        1.800000E+01   1.600000E+00   10472-003-0        1.463415               
-      J.Mcdonald              EXFOR                1976        2.230000E+01   1.600000E+00   20433-003-0        1.813008               
-      J.A.Harvey              EXFOR                1976        1.140000E+01   8.000000E-01   10680-002-0        0.926829               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      H.M.Eiland              EXFOR                1974        1.370000E+01   1.200000E+00   10387-002-0        1.113821                  2.530000E-08
+      R.D.Werner              EXFOR                1975        1.800000E+01   1.600000E+00   10472-003-0        1.463415                  2.530000E-08
+      J.Mcdonald              EXFOR                1976        2.230000E+01   1.600000E+00   20433-003-0        1.813008                  2.530000E-08
+      J.A.Harvey              EXFOR                1976        1.140000E+01   8.000000E-01   10680-002-0        0.926829                  2.530000E-08
 # quantity:
 #   type: EXFOR spectrum-averaged
 #   average value:  7.380000E+00
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      A.A.Bauer               EXFOR                1972        7.380000E+00   2.214000E-01   10257-002-0        0.600000   SPA         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      A.A.Bauer               EXFOR                1972        7.380000E+00   2.214000E-01   10257-002-0        0.600000   SPA            2.530000E-08

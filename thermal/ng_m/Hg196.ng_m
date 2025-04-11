@@ -1,7 +1,7 @@
 # header:
 #   title: Hg196(n,g)_m thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 80
 #   A: 196
@@ -20,32 +20,32 @@
 #   average value:  1.050000E+02
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      RIPL-3                  Compilation          2004        1.050000E+02   6.000000E+00                      1.000000               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      RIPL-3                  Compilation          2004        1.050000E+02   6.000000E+00                      1.000000                  2.530000E-08
 # quantity:
 #   type: EXFOR
 #   average value:  1.038500E+02
 #   relative standard deviation [%]:       2.744341
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      J.I.Kim                 EXFOR                1967        1.067000E+02   1.280000E+01   20254-003-0        1.016190               
-      F.De Corte              EXFOR                1988        1.010000E+02   7.171000E+01   23488-092-0        0.961905               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      J.I.Kim                 EXFOR                1967        1.067000E+02   1.280000E+01   20254-003-0        1.016190                  2.530000E-08
+      F.De Corte              EXFOR                1988        1.010000E+02   7.171000E+01   23488-092-0        0.961905                  2.530000E-08
 # quantity:
 #   type: EXFOR spectrum-averaged
 #   average value:  3.887500E+02
 #   relative standard deviation [%]:      79.161743
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 4
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      M.Sehgal                EXFOR                1959        8.800000E+02   1.750000E+02   31244-012-0        8.380953   MXW         
-      M.Sehgal                EXFOR                1959        4.200000E+02   8.000000E+01   31244-011-0        4.000000   MXW         
-      S.K.Mangal              EXFOR                1963        1.300000E+02   1.560000E+01   31249-011-0        1.238095   SPA         
-      R.S.Tilbury             EXFOR                1968        1.250000E+02   1.300000E+01   11927-012-0        1.190476   SPA         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      M.Sehgal                EXFOR                1959        8.800000E+02   1.750000E+02   31244-012-0        8.380953   MXW            2.530000E-08
+      M.Sehgal                EXFOR                1959        4.200000E+02   8.000000E+01   31244-011-0        4.000000   MXW            2.530000E-08
+      S.K.Mangal              EXFOR                1963        1.300000E+02   1.560000E+01   31249-011-0        1.238095   SPA            2.530000E-08
+      R.S.Tilbury             EXFOR                1968        1.250000E+02   1.300000E+01   11927-012-0        1.190476   SPA            2.530000E-08

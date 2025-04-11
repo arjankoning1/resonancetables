@@ -1,7 +1,7 @@
 # header:
 #   title: Pu240(n,nubar) thermal neutron multiplicity
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 94
 #   A: 240
@@ -20,8 +20,8 @@
 #   average value:  2.176000E+00
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             []             []             []             []             []
-      Diven                   EXFOR                1961        2.176000E+00   3.600000E-02   142970083          1.000000               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             []             []             []             []             []            [MeV]
+      Diven                   EXFOR                1961        2.176000E+00   3.600000E-02   142970083          1.000000                  2.530000E-08

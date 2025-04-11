@@ -1,7 +1,7 @@
 # header:
 #   title: S000(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 16
 #   A: 0
@@ -20,28 +20,28 @@
 #   average value:  5.060000E-01
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      Firestone               Compilation          2022        5.060000E-01   8.000000E-03                      1.000000   MXW         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Firestone               Compilation          2022        5.060000E-01   8.000000E-03                      1.000000   MXW            2.530000E-08
 # quantity:
 #   type: EXFOR
 #   average value:  5.300000E-01
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      L.Koester               EXFOR                1979        5.300000E-01   1.000000E-02   20857-017-0        1.047431               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      L.Koester               EXFOR                1979        5.300000E-01   1.000000E-02   20857-017-0        1.047431                  2.530000E-08
 # quantity:
 #   type: EXFOR spectrum-averaged
 #   average value:  3.500000E-01
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      J.Coltman               EXFOR                1946        3.500000E-01   3.000000E-02   12616-005-0        0.691700   MXW         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      J.Coltman               EXFOR                1946        3.500000E-01   3.000000E-02   12616-005-0        0.691700   MXW            2.530000E-08

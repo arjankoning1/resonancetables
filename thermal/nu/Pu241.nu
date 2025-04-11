@@ -1,7 +1,7 @@
 # header:
 #   title: Pu241(n,nubar) thermal neutron multiplicity
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 94
 #   A: 241
@@ -20,19 +20,19 @@
 #   average value:  2.924000E+00
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             []             []             []             []             []
-      Mughabghab_2016         Compilation          2016        2.924000E+00   7.000000E-03                      1.000000               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             []             []             []             []             []            [MeV]
+      Mughabghab_2016         Compilation          2016        2.924000E+00   7.000000E-03                      1.000000                  2.530000E-08
 # quantity:
 #   type: EXFOR
 #   average value:  3.085000E+00
 #   relative standard deviation [%]:       4.051864
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             []             []             []             []             []
-      Mcmillan                EXFOR                1955        3.210000E+00   1.100000E-01   12357006           1.097811               
-      Jaffey                  EXFOR                1959        2.960000E+00   2.000000E-02   12532002           1.012312               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             []             []             []             []             []            [MeV]
+      Mcmillan                EXFOR                1955        3.210000E+00   1.100000E-01   12357006           1.097811                  2.530000E-08
+      Jaffey                  EXFOR                1959        2.960000E+00   2.000000E-02   12532002           1.012312                  2.530000E-08

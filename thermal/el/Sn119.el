@@ -1,7 +1,7 @@
 # header:
 #   title: Sn119(n,el) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 50
 #   A: 119
@@ -20,9 +20,9 @@
 #   average value:  5.010000E+00
 #   relative standard deviation [%]:       0.199601
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      Mughabghab_2006         Compilation          2006        5.000000E+00   5.000000E-02                      0.996016               
-      Mughabghab_2016         Compilation          2016        5.020000E+00   5.000000E-02                      1.000000               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Mughabghab_2006         Compilation          2006        5.000000E+00   5.000000E-02                      0.996016                  2.530000E-08
+      Mughabghab_2016         Compilation          2016        5.020000E+00   5.000000E-02                      1.000000                  2.530000E-08

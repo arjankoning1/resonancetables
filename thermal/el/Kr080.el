@@ -1,7 +1,7 @@
 # header:
 #   title: Kr080(n,el) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 36
 #   A: 80
@@ -20,8 +20,8 @@
 #   average value:  1.010000E+01
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      Mughabghab_2016         Compilation          2016        1.010000E+01   9.000000E-01                      1.000000               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Mughabghab_2016         Compilation          2016        1.010000E+01   9.000000E-01                      1.000000                  2.530000E-08

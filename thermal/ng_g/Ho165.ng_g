@@ -1,7 +1,7 @@
 # header:
 #   title: Ho165(n,g)_g thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 67
 #   A: 165
@@ -20,41 +20,41 @@
 #   average value:  5.945000E+01
 #   relative standard deviation [%]:       2.439026
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      RIPL-3                  Compilation          2004        5.800000E+01   1.100000E+00                      0.952381               
-      Mughabghab_2016         Compilation          2016        6.090000E+01   1.000000E+00                      1.000000               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      RIPL-3                  Compilation          2004        5.800000E+01   1.100000E+00                      0.952381                  2.530000E-08
+      Mughabghab_2016         Compilation          2016        6.090000E+01   1.000000E+00                      1.000000                  2.530000E-08
 # quantity:
 #   type: EXFOR
 #   average value:  6.012500E+01
 #   relative standard deviation [%]:       2.012664
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 8
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      T.B.Ryves               EXFOR                1974        6.120000E+01   1.100000E+00   20561-012-0        1.004926               
-      F.De Corte              EXFOR                1988        5.810000E+01   2.324000E+00   23488-074-0        0.954023               
-      V.D.Nguyen              EXFOR                2011        5.970000E+01   2.500000E+00   30827-002-0        0.980296               
-      F.Farina Arbocco        EXFOR                2013        6.000000E+01   0.000000E+00   23266-143-0        0.985222               
-      F.Farina Arbocco        EXFOR                2013        6.130000E+01   0.000000E+00   23266-143-0        1.006568               
-      F.Farina Arbocco        EXFOR                2013        6.040000E+01   0.000000E+00   23266-143-0        0.991790               
-      F.Farina Arbocco        EXFOR                2013        6.170000E+01   0.000000E+00   23266-143-0        1.013136               
-      S.Zolghadri             EXFOR                2013        5.860000E+01   1.800000E+00   31725-002-0        0.962233               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      T.B.Ryves               EXFOR                1974        6.120000E+01   1.100000E+00   20561-012-0        1.004926                  2.530000E-08
+      F.De Corte              EXFOR                1988        5.810000E+01   2.324000E+00   23488-074-0        0.954023                  2.530000E-08
+      V.D.Nguyen              EXFOR                2011        5.970000E+01   2.500000E+00   30827-002-0        0.980296                  2.530000E-08
+      F.Farina Arbocco        EXFOR                2013        6.000000E+01   0.000000E+00   23266-143-0        0.985222                  2.530000E-08
+      F.Farina Arbocco        EXFOR                2013        6.130000E+01   0.000000E+00   23266-143-0        1.006568                  2.530000E-08
+      F.Farina Arbocco        EXFOR                2013        6.040000E+01   0.000000E+00   23266-143-0        0.991790                  2.530000E-08
+      F.Farina Arbocco        EXFOR                2013        6.170000E+01   0.000000E+00   23266-143-0        1.013136                  2.530000E-08
+      S.Zolghadri             EXFOR                2013        5.860000E+01   1.800000E+00   31725-002-0        0.962233                  2.530000E-08
 # quantity:
 #   type: EXFOR spectrum-averaged
 #   average value:  6.111333E+01
 #   relative standard deviation [%]:       3.484812
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 6
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      L.Seren                 EXFOR                1947        5.960000E+01   1.192000E+01   11447-107-0        0.978653   MXW         
-      H.Pomerance             EXFOR                1951        6.400000E+01   3.000000E+00   11047-052-0        1.050903   MXW         
-      B.Keisch                EXFOR                1962        6.400000E+01   6.000000E+00   12094-002-0        1.050903   SPA         
-      H.Yuecel                EXFOR                2005        5.920000E+01   2.500000E+00   22871-002-0        0.972085   MXW         
-      M.U.Rajput              EXFOR                2009        5.898000E+01   2.100000E+00   31660-002-0        0.968473   MXW         
-      F.Farina Arbocco        EXFOR                2013        6.090000E+01   8.000000E-01   23266-142-0        1.000000   AV          
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      L.Seren                 EXFOR                1947        5.960000E+01   1.192000E+01   11447-107-0        0.978653   MXW            2.530000E-08
+      H.Pomerance             EXFOR                1951        6.400000E+01   3.000000E+00   11047-052-0        1.050903   MXW            2.530000E-08
+      B.Keisch                EXFOR                1962        6.400000E+01   6.000000E+00   12094-002-0        1.050903   SPA            2.530000E-08
+      H.Yuecel                EXFOR                2005        5.920000E+01   2.500000E+00   22871-002-0        0.972085   MXW            2.530000E-08
+      M.U.Rajput              EXFOR                2009        5.898000E+01   2.100000E+00   31660-002-0        0.968473   MXW            2.530000E-08
+      F.Farina Arbocco        EXFOR                2013        6.090000E+01   8.000000E-01   23266-142-0        1.000000   AV             2.530000E-08

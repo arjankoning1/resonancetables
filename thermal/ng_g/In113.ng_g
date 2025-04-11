@@ -1,7 +1,7 @@
 # header:
 #   title: In113(n,g)_g thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 49
 #   A: 113
@@ -20,21 +20,21 @@
 #   average value:  3.900000E+00
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      RIPL-3                  Compilation          2004        3.900000E+00   4.000000E-01                      1.000000               
-      Mughabghab_2016         Compilation          2016        3.900000E+00   4.000000E-01                      1.000000               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      RIPL-3                  Compilation          2004        3.900000E+00   4.000000E-01                      1.000000                  2.530000E-08
+      Mughabghab_2016         Compilation          2016        3.900000E+00   4.000000E-01                      1.000000                  2.530000E-08
 # quantity:
 #   type: EXFOR spectrum-averaged
 #   average value:  2.133333E+00
 #   relative standard deviation [%]:      65.214493
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      M.Goldhaber             EXFOR                1948        2.000000E+00   3.000000E-01   11978-002-0        0.512820   MXW         
-      B.Keisch                EXFOR                1963        3.900000E+00   4.000000E-01   11748-015-0        1.000000   MXW         
-      D.Clark                 EXFOR                1967        5.000000E-01   0.000000E+00   12609-002-0        0.128205   MXW         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      M.Goldhaber             EXFOR                1948        2.000000E+00   3.000000E-01   11978-002-0        0.512820   MXW            2.530000E-08
+      B.Keisch                EXFOR                1963        3.900000E+00   4.000000E-01   11748-015-0        1.000000   MXW            2.530000E-08
+      D.Clark                 EXFOR                1967        5.000000E-01   0.000000E+00   12609-002-0        0.128205   MXW            2.530000E-08

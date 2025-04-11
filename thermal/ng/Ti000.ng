@@ -1,7 +1,7 @@
 # header:
 #   title: Ti000(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 22
 #   A: 0
@@ -20,30 +20,30 @@
 #   average value:  6.350000E+00
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      Firestone               Compilation          2022        6.350000E+00   1.100000E-01                      1.000000   MXW         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Firestone               Compilation          2022        6.350000E+00   1.100000E-01                      1.000000   MXW            2.530000E-08
 # quantity:
 #   type: EXFOR
 #   average value:  6.090000E+00
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      E.G.Joki                EXFOR                1961        6.090000E+00   1.300000E-01   11635-003-0        0.959055               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      E.G.Joki                EXFOR                1961        6.090000E+00   1.300000E-01   11635-003-0        0.959055                  2.530000E-08
 # quantity:
 #   type: EXFOR spectrum-averaged
 #   average value:  5.626667E+00
 #   relative standard deviation [%]:       5.393275
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      J.Coltman               EXFOR                1946        5.200000E+00   3.000000E-01   12616-008-0        0.818898   MXW         
-      S.P.Harris              EXFOR                1950        5.880000E+00   2.940000E-01   11528-009-0        0.925984   SPA         
-      H.Pomerance             EXFOR                1951        5.800000E+00   2.900000E-01   11047-016-0        0.913386   MXW         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      J.Coltman               EXFOR                1946        5.200000E+00   3.000000E-01   12616-008-0        0.818898   MXW            2.530000E-08
+      S.P.Harris              EXFOR                1950        5.880000E+00   2.940000E-01   11528-009-0        0.925984   SPA            2.530000E-08
+      H.Pomerance             EXFOR                1951        5.800000E+00   2.900000E-01   11047-016-0        0.913386   MXW            2.530000E-08

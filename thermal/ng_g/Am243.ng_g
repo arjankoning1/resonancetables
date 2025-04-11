@@ -1,7 +1,7 @@
 # header:
 #   title: Am243(n,g)_g thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 95
 #   A: 243
@@ -20,31 +20,31 @@
 #   average value:  4.400000E+00
 #   relative standard deviation [%]:      13.636364
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      RIPL-3                  Compilation          2004        5.000000E+00   4.000000E-01                      1.315789               
-      Mughabghab_2016         Compilation          2016        3.800000E+00   4.000000E-01                      1.000000               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      RIPL-3                  Compilation          2004        5.000000E+00   4.000000E-01                      1.315789                  2.530000E-08
+      Mughabghab_2016         Compilation          2016        3.800000E+00   4.000000E-01                      1.000000                  2.530000E-08
 # quantity:
 #   type: EXFOR
 #   average value:  4.730000E+00
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      S.Nakamura              EXFOR                2021        4.730000E+00   2.700000E-01   23744-002-0        1.244737               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      S.Nakamura              EXFOR                2021        4.730000E+00   2.700000E-01   23744-002-0        1.244737                  2.530000E-08
 # quantity:
 #   type: EXFOR spectrum-averaged
 #   average value:  4.706667E+00
 #   relative standard deviation [%]:      18.228531
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      C.H.Ice                 EXFOR                1966        4.300000E+00   0.000000E+00   12550-006-0        1.131579   SPA         
-      R.P.Schuman             EXFOR                1967        5.900000E+00   0.000000E+00   12577-002-0        1.552632   MXW         
-      Y.Hatsukawa             EXFOR                1998        3.920000E+00   0.000000E+00   22429-002-0        1.031579   MXW         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      C.H.Ice                 EXFOR                1966        4.300000E+00   0.000000E+00   12550-006-0        1.131579   SPA            2.530000E-08
+      R.P.Schuman             EXFOR                1967        5.900000E+00   0.000000E+00   12577-002-0        1.552632   MXW            2.530000E-08
+      Y.Hatsukawa             EXFOR                1998        3.920000E+00   0.000000E+00   22429-002-0        1.031579   MXW            2.530000E-08

@@ -1,7 +1,7 @@
 # header:
 #   title: I129(n,g)_m thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 53
 #   A: 129
@@ -20,31 +20,31 @@
 #   average value:  1.780000E+01
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      RIPL-3                  Compilation          2004        1.780000E+01   7.000000E-01                      1.000000               
-      Mughabghab_2016         Compilation          2016        1.780000E+01   7.000000E-01                      1.000000               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      RIPL-3                  Compilation          2004        1.780000E+01   7.000000E-01                      1.000000                  2.530000E-08
+      Mughabghab_2016         Compilation          2016        1.780000E+01   7.000000E-01                      1.000000                  2.530000E-08
 # quantity:
 #   type: EXFOR
 #   average value:  2.040000E+01
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      L.Friedmann             EXFOR                1983        2.040000E+01   1.600000E+00   23485-010-2        1.146068               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      L.Friedmann             EXFOR                1983        2.040000E+01   1.600000E+00   23485-010-2        1.146068                  2.530000E-08
 # quantity:
 #   type: EXFOR spectrum-averaged
 #   average value:  1.810000E+01
 #   relative standard deviation [%]:      10.217260
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      D.D.Wilkey              EXFOR                1966        1.600000E+01   0.000000E+00   12014-002-0        0.898876   SPA         
-      L.Friedmann             EXFOR                1983        2.050000E+01   1.600000E+00   23485-011-2        1.151685   SPA         
-      S.Nakamura              EXFOR                2000        1.780000E+01   7.000000E-01   22819-004-0        1.000000   MXW         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      D.D.Wilkey              EXFOR                1966        1.600000E+01   0.000000E+00   12014-002-0        0.898876   SPA            2.530000E-08
+      L.Friedmann             EXFOR                1983        2.050000E+01   1.600000E+00   23485-011-2        1.151685   SPA            2.530000E-08
+      S.Nakamura              EXFOR                2000        1.780000E+01   7.000000E-01   22819-004-0        1.000000   MXW            2.530000E-08

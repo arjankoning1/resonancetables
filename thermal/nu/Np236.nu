@@ -1,7 +1,7 @@
 # header:
 #   title: Np236(n,nubar) thermal neutron multiplicity
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 93
 #   A: 236
@@ -20,18 +20,18 @@
 #   average value:  3.120000E+00
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             []             []             []             []             []
-      Mughabghab_2016         Compilation          2016        3.120000E+00   1.400000E-01                      1.000000               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             []             []             []             []             []            [MeV]
+      Mughabghab_2016         Compilation          2016        3.120000E+00   1.400000E-01                      1.000000                  2.530000E-08
 # quantity:
 #   type: EXFOR
 #   average value:  2.300000E+00
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             []             []             []             []             []
-      Lindner                 EXFOR                1990        2.300000E+00   8.000000E-01   12919002           0.737180               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             []             []             []             []             []            [MeV]
+      Lindner                 EXFOR                1990        2.300000E+00   8.000000E-01   12919002           0.737180                  2.530000E-08

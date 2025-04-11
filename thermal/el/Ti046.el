@@ -1,7 +1,7 @@
 # header:
 #   title: Ti046(n,el) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 22
 #   A: 46
@@ -20,18 +20,18 @@
 #   average value:  2.720000E+00
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      Mughabghab_2006         Compilation          2006        2.720000E+00   6.000000E-02                      1.000000               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Mughabghab_2006         Compilation          2006        2.720000E+00   6.000000E-02                      1.000000                  2.530000E-08
 # quantity:
 #   type: EXFOR
 #   average value:  2.100000E+00
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      C.Shull                 EXFOR                1960        2.100000E+00   0.000000E+00   11642-007-0        0.772059               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      C.Shull                 EXFOR                1960        2.100000E+00   0.000000E+00   11642-007-0        0.772059                  2.530000E-08

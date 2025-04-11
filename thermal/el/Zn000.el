@@ -1,7 +1,7 @@
 # header:
 #   title: Zn000(n,el) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 30
 #   A: 0
@@ -20,18 +20,18 @@
 #   average value:  3.700000E+00
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      A.C.G.Mitchell          EXFOR                1936        3.700000E+00   0.000000E+00   14700-011-0        0.711538               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      A.C.G.Mitchell          EXFOR                1936        3.700000E+00   0.000000E+00   14700-011-0        0.711538                  2.530000E-08
 # quantity:
 #   type: EXFOR spectrum-averaged
 #   average value:  5.200000E+00
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      M.Goldhaber             EXFOR                1937        5.200000E+00   0.000000E+00   22518-037-0        1.000000   MXW         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      M.Goldhaber             EXFOR                1937        5.200000E+00   0.000000E+00   22518-037-0        1.000000   MXW            2.530000E-08

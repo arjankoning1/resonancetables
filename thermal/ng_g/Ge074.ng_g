@@ -1,7 +1,7 @@
 # header:
 #   title: Ge074(n,g)_g thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 32
 #   A: 74
@@ -20,20 +20,20 @@
 #   average value:  3.200000E-01
 #   relative standard deviation [%]:      12.500002
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      RIPL-3                  Compilation          2004        2.800000E-01   8.000000E-02                      0.777778               
-      Mughabghab_2016         Compilation          2016        3.600000E-01   4.000000E-02                      1.000000               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      RIPL-3                  Compilation          2004        2.800000E-01   8.000000E-02                      0.777778                  2.530000E-08
+      Mughabghab_2016         Compilation          2016        3.600000E-01   4.000000E-02                      1.000000                  2.530000E-08
 # quantity:
 #   type: EXFOR spectrum-averaged
 #   average value:  2.725000E-01
 #   relative standard deviation [%]:      33.944954
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      E.Der Mateosian         EXFOR                1957        1.800000E-01   4.000000E-02   11823-003-0        0.500000   MXW         
-      G.Meierhofer            EXFOR                2010        3.650000E-01   5.100000E-02   23107-007-0        1.013889   AV          
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      E.Der Mateosian         EXFOR                1957        1.800000E-01   4.000000E-02   11823-003-0        0.500000   MXW            2.530000E-08
+      G.Meierhofer            EXFOR                2010        3.650000E-01   5.100000E-02   23107-007-0        1.013889   AV             2.530000E-08

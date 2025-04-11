@@ -1,7 +1,7 @@
 # header:
 #   title: Ni000(n,el) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 28
 #   A: 0
@@ -20,20 +20,20 @@
 #   average value:  1.790000E+01
 #   relative standard deviation [%]:       0.558661
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      A.C.G.Mitchell          EXFOR                1936        1.800000E+01   0.000000E+00   14700-009-0        1.011236               
-      S.F.Mughabghab          EXFOR                2006        1.780000E+01   4.000000E-01   V1001-222-2        1.000000               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      A.C.G.Mitchell          EXFOR                1936        1.800000E+01   0.000000E+00   14700-009-0        1.011236                  2.530000E-08
+      S.F.Mughabghab          EXFOR                2006        1.780000E+01   4.000000E-01   V1001-222-2        1.000000                  2.530000E-08
 # quantity:
 #   type: EXFOR spectrum-averaged
 #   average value:  1.415000E+01
 #   relative standard deviation [%]:      12.367492
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      M.Goldhaber             EXFOR                1937        1.240000E+01   0.000000E+00   22518-035-0        0.696629   MXW         
-      E.Bragdon               EXFOR                1944        1.590000E+01   3.000000E-01   14706-004-0        0.893258   SPA         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      M.Goldhaber             EXFOR                1937        1.240000E+01   0.000000E+00   22518-035-0        0.696629   MXW            2.530000E-08
+      E.Bragdon               EXFOR                1944        1.590000E+01   3.000000E-01   14706-004-0        0.893258   SPA            2.530000E-08

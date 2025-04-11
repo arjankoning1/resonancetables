@@ -1,7 +1,7 @@
 # header:
 #   title: U230(n,f) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 92
 #   A: 230
@@ -20,10 +20,10 @@
 #   average value:  2.500000E+01
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      RIPL-3                  Compilation          2004        2.500000E+01   0.000000E+00                      1.000000               
-      Mughabghab_2006         Compilation          2006        2.500000E+01   1.000000E+01                      1.000000               
-      Mughabghab_2016         Compilation          2016        2.500000E+01   1.000000E+01                      1.000000               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      RIPL-3                  Compilation          2004        2.500000E+01   0.000000E+00                      1.000000                  2.530000E-08
+      Mughabghab_2006         Compilation          2006        2.500000E+01   1.000000E+01                      1.000000                  2.530000E-08
+      Mughabghab_2016         Compilation          2016        2.500000E+01   1.000000E+01                      1.000000                  2.530000E-08

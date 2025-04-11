@@ -1,7 +1,7 @@
 # header:
 #   title: Ac228(n,f) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 89
 #   A: 228
@@ -20,8 +20,8 @@
 #   average value:  5.200000E+02
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      E.F.Fomushkin           EXFOR                1997        5.200000E+02   1.000000E+02   41341-009-0        1.000000   MXW         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      E.F.Fomushkin           EXFOR                1997        5.200000E+02   1.000000E+02   41341-009-0        1.000000   MXW            2.530000E-08

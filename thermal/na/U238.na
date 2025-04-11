@@ -1,7 +1,7 @@
 # header:
 #   title: U238(n,a) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 92
 #   A: 238
@@ -20,21 +20,21 @@
 #   average value:  1.300000E-06
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      Mughabghab_2006         Compilation          2006        1.300000E-06   6.000000E-07                      1.000000               
-      Sukhoruchkin            Compilation          2015        1.300000E-06   6.000000E-07                      1.000000               
-      Mughabghab_2016         Compilation          2016        1.300000E-06   6.000000E-07                      1.000000               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Mughabghab_2006         Compilation          2006        1.300000E-06   6.000000E-07                      1.000000                  2.530000E-08
+      Sukhoruchkin            Compilation          2015        1.300000E-06   6.000000E-07                      1.000000                  2.530000E-08
+      Mughabghab_2016         Compilation          2016        1.300000E-06   6.000000E-07                      1.000000                  2.530000E-08
 # quantity:
 #   type: EXFOR spectrum-averaged
 #   average value:  5.350000E-06
 #   relative standard deviation [%]:      71.962616
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      M.Asghar                EXFOR                1976        9.200000E-06   6.000000E-08   20588-002-0        7.076923   MXW         
-      C.Wagemans              EXFOR                1981        1.500000E-06   0.000000E+00   21724-005-0        1.153846   MXW         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      M.Asghar                EXFOR                1976        9.200000E-06   6.000000E-08   20588-002-0        7.076923   MXW            2.530000E-08
+      C.Wagemans              EXFOR                1981        1.500000E-06   0.000000E+00   21724-005-0        1.153846   MXW            2.530000E-08

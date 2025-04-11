@@ -1,7 +1,7 @@
 # header:
 #   title: Cd000(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 48
 #   A: 0
@@ -20,32 +20,32 @@
 #   average value:  2.520000E+03
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      Firestone               Compilation          2022        2.520000E+03   4.000000E+01                      1.000000   MXW         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Firestone               Compilation          2022        2.520000E+03   4.000000E+01                      1.000000   MXW            2.530000E-08
 # quantity:
 #   type: EXFOR
 #   average value:  2.530200E+03
 #   relative standard deviation [%]:       7.400010
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 5
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      G.A.Fink                EXFOR                1936        2.900000E+03   1.000000E+02   13845-007-0        1.150794               
-      R.B.Tattersall          EXFOR                1960        2.430000E+03   4.000000E+01   20638-074-0        0.964286               
-      J.W.Meadows             EXFOR                1961        2.484000E+03   0.000000E+00   11028-016-0        0.985714               
-      E.Sokolowski            EXFOR                1964        2.445000E+03   2.500000E+01   20077-003-0        0.970238               
-      E.Sokolowski            EXFOR                1964        2.392000E+03   4.500000E+01   20077-002-0        0.949206               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      G.A.Fink                EXFOR                1936        2.900000E+03   1.000000E+02   13845-007-0        1.150794                  2.530000E-08
+      R.B.Tattersall          EXFOR                1960        2.430000E+03   4.000000E+01   20638-074-0        0.964286                  2.530000E-08
+      J.W.Meadows             EXFOR                1961        2.484000E+03   0.000000E+00   11028-016-0        0.985714                  2.530000E-08
+      E.Sokolowski            EXFOR                1964        2.445000E+03   2.500000E+01   20077-003-0        0.970238                  2.530000E-08
+      E.Sokolowski            EXFOR                1964        2.392000E+03   4.500000E+01   20077-002-0        0.949206                  2.530000E-08
 # quantity:
 #   type: EXFOR spectrum-averaged
 #   average value:  3.500000E+03
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      H.Pomerance             EXFOR                1951        3.500000E+03   1.750000E+02   11047-040-0        1.388889   MXW         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      H.Pomerance             EXFOR                1951        3.500000E+03   1.750000E+02   11047-040-0        1.388889   MXW            2.530000E-08

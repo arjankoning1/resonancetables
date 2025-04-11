@@ -1,7 +1,7 @@
 # header:
 #   title: Cm248(n,f) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 96
 #   A: 248
@@ -20,21 +20,21 @@
 #   average value:  3.600000E-01
 #   relative standard deviation [%]:       3.402069
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 4
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      RIPL-3                  Compilation          2004        3.600000E-01   7.000000E-02                      0.972973               
-      Mughabghab_2006         Compilation          2006        3.700000E-01   5.000000E-02                      1.000000               
-      Sukhoruchkin            Compilation          2015        3.400000E-01   2.100000E-01                      0.918919               
-      Mughabghab_2016         Compilation          2016        3.700000E-01   5.000000E-02                      1.000000               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      RIPL-3                  Compilation          2004        3.600000E-01   7.000000E-02                      0.972973                  2.530000E-08
+      Mughabghab_2006         Compilation          2006        3.700000E-01   5.000000E-02                      1.000000                  2.530000E-08
+      Sukhoruchkin            Compilation          2015        3.400000E-01   2.100000E-01                      0.918919                  2.530000E-08
+      Mughabghab_2016         Compilation          2016        3.700000E-01   5.000000E-02                      1.000000                  2.530000E-08
 # quantity:
 #   type: EXFOR spectrum-averaged
 #   average value:  3.900000E-01
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      K.D.Zhuravlev           EXFOR                1975        3.900000E-01   7.000000E-02   40436-009-0        1.054054   MXW         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      K.D.Zhuravlev           EXFOR                1975        3.900000E-01   7.000000E-02   40436-009-0        1.054054   MXW            2.530000E-08

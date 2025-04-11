@@ -1,7 +1,7 @@
 # header:
 #   title: Ar039(n,a) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 18
 #   A: 39
@@ -20,19 +20,19 @@
 #   average value:  2.900000E-01
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      Mughabghab_2016         Compilation          2016        2.900000E-01   0.000000E+00                      1.000000               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Mughabghab_2016         Compilation          2016        2.900000E-01   0.000000E+00                      1.000000                  2.530000E-08
 # quantity:
 #   type: EXFOR spectrum-averaged
 #   average value:  1.950000E-01
 #   relative standard deviation [%]:      48.717949
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      G.Goeminne              EXFOR                2002        2.900000E-01   0.000000E+00   22673-003-0        1.000000   MXW         
-      G.Goeminne              EXFOR                2002        1.000000E-01   0.000000E+00   22673-002-0        0.344828   MXW         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      G.Goeminne              EXFOR                2002        2.900000E-01   0.000000E+00   22673-003-0        1.000000   MXW            2.530000E-08
+      G.Goeminne              EXFOR                2002        1.000000E-01   0.000000E+00   22673-002-0        0.344828   MXW            2.530000E-08

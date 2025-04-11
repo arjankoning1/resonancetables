@@ -1,7 +1,7 @@
 # header:
 #   title: Os189(n,g)_m thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 76
 #   A: 189
@@ -20,21 +20,21 @@
 #   average value:  2.600000E-04
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      RIPL-3                  Compilation          2004        2.600000E-04   3.000000E-05                      1.000000               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      RIPL-3                  Compilation          2004        2.600000E-04   3.000000E-05                      1.000000                  2.530000E-08
 # quantity:
 #   type: EXFOR spectrum-averaged
 #   average value:  7.129250E-03
 #   relative standard deviation [%]:     113.267143
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 4
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      H.S.Hans                EXFOR                1960        2.000000E-02   0.000000E+00   31246-012-0       76.923073   MXW         
-      S.K.Mangal              EXFOR                1962        8.000000E-03   2.000000E-03   31248-014-0       30.769232   MXW         
-      H.Arino                 EXFOR                1964        2.600000E-04   3.000000E-05   11817-017-0        1.000000   MXW         
-      K.S.Krane               EXFOR                2012        2.570000E-04   1.800000E-05   14332-003-0        0.988462   MXW         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      H.S.Hans                EXFOR                1960        2.000000E-02   0.000000E+00   31246-012-0       76.923073   MXW            2.530000E-08
+      S.K.Mangal              EXFOR                1962        8.000000E-03   2.000000E-03   31248-014-0       30.769232   MXW            2.530000E-08
+      H.Arino                 EXFOR                1964        2.600000E-04   3.000000E-05   11817-017-0        1.000000   MXW            2.530000E-08
+      K.S.Krane               EXFOR                2012        2.570000E-04   1.800000E-05   14332-003-0        0.988462   MXW            2.530000E-08

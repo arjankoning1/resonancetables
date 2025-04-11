@@ -1,7 +1,7 @@
 # header:
 #   title: U233(n,nubar) thermal neutron multiplicity
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 92
 #   A: 233
@@ -20,21 +20,21 @@
 #   average value:  2.296000E+00
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             []             []             []             []             []
-      Mughabghab_2016         Compilation          2016        2.296000E+00   4.000000E-03                      1.000000               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             []             []             []             []             []            [MeV]
+      Mughabghab_2016         Compilation          2016        2.296000E+00   4.000000E-03                      1.000000                  2.530000E-08
 # quantity:
 #   type: EXFOR
 #   average value:  2.524750E+00
 #   relative standard deviation [%]:       2.348477
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 4
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             []             []             []             []             []
-      Zinn                    EXFOR                1946        2.610000E+00   0.000000E+00   12319004           1.136760               
-      Mcmillan                EXFOR                1955        2.502000E+00   6.300000E-02   12357002           1.089721               
-      Diven                   EXFOR                1961        2.447000E+00   4.100000E-02   142970043          1.065767               
-      Fultz                   EXFOR                1966        2.540000E+00   4.000000E-02   12345002           1.106272               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             []             []             []             []             []            [MeV]
+      Zinn                    EXFOR                1946        2.610000E+00   0.000000E+00   12319004           1.136760                  2.530000E-08
+      Mcmillan                EXFOR                1955        2.502000E+00   6.300000E-02   12357002           1.089721                  2.530000E-08
+      Diven                   EXFOR                1961        2.447000E+00   4.100000E-02   142970043          1.065767                  2.530000E-08
+      Fultz                   EXFOR                1966        2.540000E+00   4.000000E-02   12345002           1.106272                  2.530000E-08

@@ -1,7 +1,7 @@
 # header:
 #   title: Ag000(n,el) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 47
 #   A: 0
@@ -20,9 +20,9 @@
 #   average value:  5.900000E+00
 #   relative standard deviation [%]:       6.779662
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      A.C.G.Mitchell          EXFOR                1936        6.300000E+00   0.000000E+00   14700-012-0        1.145455               
-      V.P.Vertebny            EXFOR                1965        5.500000E+00   1.000000E-01   41274-002-0        1.000000               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      A.C.G.Mitchell          EXFOR                1936        6.300000E+00   0.000000E+00   14700-012-0        1.145455                  2.530000E-08
+      V.P.Vertebny            EXFOR                1965        5.500000E+00   1.000000E-01   41274-002-0        1.000000                  2.530000E-08

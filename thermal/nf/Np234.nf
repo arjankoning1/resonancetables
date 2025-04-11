@@ -1,7 +1,7 @@
 # header:
 #   title: Np234(n,f) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 93
 #   A: 234
@@ -20,10 +20,10 @@
 #   average value:  9.000000E+02
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      RIPL-3                  Compilation          2004        9.000000E+02   3.000000E+02                      1.000000               
-      Mughabghab_2006         Compilation          2006        9.000000E+02   3.000000E+02                      1.000000               
-      Mughabghab_2016         Compilation          2016        9.000000E+02   3.000000E+02                      1.000000               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      RIPL-3                  Compilation          2004        9.000000E+02   3.000000E+02                      1.000000                  2.530000E-08
+      Mughabghab_2006         Compilation          2006        9.000000E+02   3.000000E+02                      1.000000                  2.530000E-08
+      Mughabghab_2016         Compilation          2016        9.000000E+02   3.000000E+02                      1.000000                  2.530000E-08

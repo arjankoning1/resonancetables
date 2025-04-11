@@ -1,7 +1,7 @@
 # header:
 #   title: U232(n,nubar) thermal neutron multiplicity
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 92
 #   A: 232
@@ -20,18 +20,18 @@
 #   average value:  3.150000E+00
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             []             []             []             []             []
-      Mughabghab_2016         Compilation          2016        3.150000E+00   4.000000E-02                      1.000000               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             []             []             []             []             []            [MeV]
+      Mughabghab_2016         Compilation          2016        3.150000E+00   4.000000E-02                      1.000000                  2.530000E-08
 # quantity:
 #   type: EXFOR
 #   average value:  2.800000E+00
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             []             []             []             []             []
-      Haddad                  EXFOR                1989        2.800000E+00   3.000000E-01   22119004           0.888889               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             []             []             []             []             []            [MeV]
+      Haddad                  EXFOR                1989        2.800000E+00   3.000000E-01   22119004           0.888889                  2.530000E-08

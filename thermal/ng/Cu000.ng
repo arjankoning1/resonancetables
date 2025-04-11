@@ -1,7 +1,7 @@
 # header:
 #   title: Cu000(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 29
 #   A: 0
@@ -20,38 +20,38 @@
 #   average value:  3.782000E+00
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      Firestone               Compilation          2022        3.782000E+00   1.500000E-02                      1.000000   MXW         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Firestone               Compilation          2022        3.782000E+00   1.500000E-02                      1.000000   MXW            2.530000E-08
 # quantity:
 #   type: EXFOR
 #   average value:  3.922500E+00
 #   relative standard deviation [%]:       4.016307
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 4
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      R.B.Tattersall          EXFOR                1960        4.000000E+00   1.000000E-01   20638-015-0        1.057641               
-      Al.Stefanescu           EXFOR                1961        4.140000E+00   1.000000E-01   30073-005-0        1.094659               
-      J.C.Carre               EXFOR                1966        3.740000E+00   4.000000E-02   20658-012-0        0.988895               
-      F.Kropff Moreno         EXFOR                1977        3.810000E+00   6.000000E-02   30362-003-0        1.007403               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      R.B.Tattersall          EXFOR                1960        4.000000E+00   1.000000E-01   20638-015-0        1.057641                  2.530000E-08
+      Al.Stefanescu           EXFOR                1961        4.140000E+00   1.000000E-01   30073-005-0        1.094659                  2.530000E-08
+      J.C.Carre               EXFOR                1966        3.740000E+00   4.000000E-02   20658-012-0        0.988895                  2.530000E-08
+      F.Kropff Moreno         EXFOR                1977        3.810000E+00   6.000000E-02   30362-003-0        1.007403                  2.530000E-08
 # quantity:
 #   type: EXFOR spectrum-averaged
 #   average value:  3.691250E+00
 #   relative standard deviation [%]:       3.849026
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 8
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      J.Coltman               EXFOR                1946        3.400000E+00   3.000000E-01   12616-013-0        0.898995   MXW         
-      S.P.Harris              EXFOR                1950        3.710000E+00   0.000000E+00   11528-015-0        0.980962   SPA         
-      H.Pomerance             EXFOR                1951        3.570000E+00   1.785000E-01   11047-023-0        0.943945   MXW         
-      Yu.A.Prokhorov          EXFOR                1956        3.800000E+00   1.000000E-01   41648-009-0        1.004759   MXW         
-      J.W.Wade                EXFOR                1957        3.790000E+00   1.200000E-01   11777-002-0        1.002115   MXW         
-      D.J.Donahue             EXFOR                1960        3.790000E+00   4.000000E-02   11779-002-0        1.002115   MXW         
-      J.Bouzyk                EXFOR                1963        3.620000E+00   1.200000E-01   31100-004-0        0.957165   MXW         
-      V.Markovic              EXFOR                1971        3.850000E+00   5.000000E-02   30289-002-0        1.017980   MXW         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      J.Coltman               EXFOR                1946        3.400000E+00   3.000000E-01   12616-013-0        0.898995   MXW            2.530000E-08
+      S.P.Harris              EXFOR                1950        3.710000E+00   0.000000E+00   11528-015-0        0.980962   SPA            2.530000E-08
+      H.Pomerance             EXFOR                1951        3.570000E+00   1.785000E-01   11047-023-0        0.943945   MXW            2.530000E-08
+      Yu.A.Prokhorov          EXFOR                1956        3.800000E+00   1.000000E-01   41648-009-0        1.004759   MXW            2.530000E-08
+      J.W.Wade                EXFOR                1957        3.790000E+00   1.200000E-01   11777-002-0        1.002115   MXW            2.530000E-08
+      D.J.Donahue             EXFOR                1960        3.790000E+00   4.000000E-02   11779-002-0        1.002115   MXW            2.530000E-08
+      J.Bouzyk                EXFOR                1963        3.620000E+00   1.200000E-01   31100-004-0        0.957165   MXW            2.530000E-08
+      V.Markovic              EXFOR                1971        3.850000E+00   5.000000E-02   30289-002-0        1.017980   MXW            2.530000E-08

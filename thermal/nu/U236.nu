@@ -1,7 +1,7 @@
 # header:
 #   title: U236(n,nubar) thermal neutron multiplicity
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 92
 #   A: 236
@@ -20,8 +20,8 @@
 #   average value:  2.338000E+00
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             []             []             []             []             []
-      Mughabghab_2016         Compilation          2016        2.338000E+00   2.200000E-02                      1.000000               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             []             []             []             []             []            [MeV]
+      Mughabghab_2016         Compilation          2016        2.338000E+00   2.200000E-02                      1.000000                  2.530000E-08

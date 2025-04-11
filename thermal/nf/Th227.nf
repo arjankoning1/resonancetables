@@ -1,7 +1,7 @@
 # header:
 #   title: Th227(n,f) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 90
 #   A: 227
@@ -20,31 +20,31 @@
 #   average value:  2.013333E+02
 #   relative standard deviation [%]:       0.468283
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      RIPL-3                  Compilation          2004        2.000000E+02   2.000000E+01                      0.990099               
-      Mughabghab_2006         Compilation          2006        2.020000E+02   1.300000E+01                      1.000000               
-      Mughabghab_2016         Compilation          2016        2.020000E+02   1.300000E+01                      1.000000               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      RIPL-3                  Compilation          2004        2.000000E+02   2.000000E+01                      0.990099                  2.530000E-08
+      Mughabghab_2006         Compilation          2006        2.020000E+02   1.300000E+01                      1.000000                  2.530000E-08
+      Mughabghab_2016         Compilation          2016        2.020000E+02   1.300000E+01                      1.000000                  2.530000E-08
 # quantity:
 #   type: EXFOR
 #   average value:  2.000000E+02
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      H.R.Von Gunten          EXFOR                1970        2.000000E+02   2.000000E+01   20438-002-0        0.990099               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      H.R.Von Gunten          EXFOR                1970        2.000000E+02   2.000000E+01   20438-002-0        0.990099                  2.530000E-08
 # quantity:
 #   type: EXFOR spectrum-averaged
 #   average value:  2.079000E+02
 #   relative standard deviation [%]:       3.703706
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      P.Del Marmol            EXFOR                1973        2.002000E+02   4.500000E+00   20351-005-0        0.991089   MXW         
-      P.Del Marmol            EXFOR                1973        2.156000E+02   9.700000E+00   20351-004-0        1.067327   MXW         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      P.Del Marmol            EXFOR                1973        2.002000E+02   4.500000E+00   20351-005-0        0.991089   MXW            2.530000E-08
+      P.Del Marmol            EXFOR                1973        2.156000E+02   9.700000E+00   20351-004-0        1.067327   MXW            2.530000E-08

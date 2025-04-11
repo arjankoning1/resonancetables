@@ -1,7 +1,7 @@
 # header:
 #   title: Nd000(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 60
 #   A: 0
@@ -20,30 +20,30 @@
 #   average value:  5.010000E+01
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      Firestone               Compilation          2022        5.010000E+01   1.200000E+00                      1.000000   MXW         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Firestone               Compilation          2022        5.010000E+01   1.200000E+00                      1.000000   MXW            2.530000E-08
 # quantity:
 #   type: EXFOR
 #   average value:  4.990000E+01
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      J.W.Meadows             EXFOR                1961        4.990000E+01   0.000000E+00   11028-018-0        0.996008               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      J.W.Meadows             EXFOR                1961        4.990000E+01   0.000000E+00   11028-018-0        0.996008                  2.530000E-08
 # quantity:
 #   type: EXFOR spectrum-averaged
 #   average value:  4.640000E+01
 #   relative standard deviation [%]:       8.563025
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      S.P.Harris              EXFOR                1950        5.200000E+01   2.600000E+00   11528-037-0        1.037924   SPA         
-      H.Pomerance             EXFOR                1951        4.400000E+01   2.000000E+00   11047-047-0        0.878244   MXW         
-      J.Ailloud               EXFOR                1952        4.320000E+01   1.000000E+00   21415-005-0        0.862275   MXW         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      S.P.Harris              EXFOR                1950        5.200000E+01   2.600000E+00   11528-037-0        1.037924   SPA            2.530000E-08
+      H.Pomerance             EXFOR                1951        4.400000E+01   2.000000E+00   11047-047-0        0.878244   MXW            2.530000E-08
+      J.Ailloud               EXFOR                1952        4.320000E+01   1.000000E+00   21415-005-0        0.862275   MXW            2.530000E-08

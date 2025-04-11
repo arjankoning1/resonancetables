@@ -1,7 +1,7 @@
 # header:
 #   title: Eu153(n,el) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 63
 #   A: 153
@@ -20,19 +20,19 @@
 #   average value:  9.700000E+00
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      Mughabghab_2006         Compilation          2006        9.700000E+00   7.000000E-01                      1.000000               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Mughabghab_2006         Compilation          2006        9.700000E+00   7.000000E-01                      1.000000                  2.530000E-08
 # quantity:
 #   type: EXFOR
 #   average value:  8.850000E+00
 #   relative standard deviation [%]:       9.604519
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      V.P.Vertebnyj           EXFOR                1970        8.000000E+00   2.000000E-01   41280-015-0        0.824742               
-      S.F.Mughabghab          EXFOR                2006        9.700000E+00   7.000000E-01   V1002-221-2        1.000000               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      V.P.Vertebnyj           EXFOR                1970        8.000000E+00   2.000000E-01   41280-015-0        0.824742                  2.530000E-08
+      S.F.Mughabghab          EXFOR                2006        9.700000E+00   7.000000E-01   V1002-221-2        1.000000                  2.530000E-08

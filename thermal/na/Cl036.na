@@ -1,7 +1,7 @@
 # header:
 #   title: Cl036(n,a) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 17
 #   A: 36
@@ -20,30 +20,30 @@
 #   average value:  3.933334E-04
 #   relative standard deviation [%]:      70.710678
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      Mughabghab_2006         Compilation          2006        5.900000E-04   7.000000E-05                      1.000000               
-      Sukhoruchkin            Compilation          2015        0.000000E+00   0.000000E+00                      0.000000               
-      Mughabghab_2016         Compilation          2016        5.900000E-04   7.000000E-05                      1.000000               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Mughabghab_2006         Compilation          2006        5.900000E-04   7.000000E-05                      1.000000                  2.530000E-08
+      Sukhoruchkin            Compilation          2015        0.000000E+00   0.000000E+00                      0.000000                  2.530000E-08
+      Mughabghab_2016         Compilation          2016        5.900000E-04   7.000000E-05                      1.000000                  2.530000E-08
 # quantity:
 #   type: EXFOR
 #   average value:  5.900000E-04
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      C.Wagemans              EXFOR                1996        5.900000E-04   7.000000E-05   22368-003-0        1.000000               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      C.Wagemans              EXFOR                1996        5.900000E-04   7.000000E-05   22368-003-0        1.000000                  2.530000E-08
 # quantity:
 #   type: EXFOR spectrum-averaged
 #   average value:  5.900000E-04
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      C.Wagemans              EXFOR                1997        5.900000E-04   7.000000E-05   22399-005-0        1.000000   MXW         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      C.Wagemans              EXFOR                1997        5.900000E-04   7.000000E-05   22399-005-0        1.000000   MXW            2.530000E-08

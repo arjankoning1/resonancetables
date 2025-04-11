@@ -1,7 +1,7 @@
 # header:
 #   title: Am241(n,nubar) thermal neutron multiplicity
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 95
 #   A: 241
@@ -20,8 +20,8 @@
 #   average value:  3.140000E+00
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             []             []             []             []             []
-      Lebedev                 EXFOR                1958        3.140000E+00   5.000000E-02   404000021          1.000000               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             []             []             []             []             []            [MeV]
+      Lebedev                 EXFOR                1958        3.140000E+00   5.000000E-02   404000021          1.000000                  2.530000E-08

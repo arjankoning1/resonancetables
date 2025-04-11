@@ -1,7 +1,7 @@
 # header:
 #   title: Sn116(n,g)_m thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 50
 #   A: 116
@@ -20,36 +20,36 @@
 #   average value:  6.000000E-03
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      RIPL-3                  Compilation          2004        6.000000E-03   2.000000E-03                      1.000000               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      RIPL-3                  Compilation          2004        6.000000E-03   2.000000E-03                      1.000000                  2.530000E-08
 # quantity:
 #   type: EXFOR
 #   average value:  5.588000E-03
 #   relative standard deviation [%]:      18.734587
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 5
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      F.De Corte              EXFOR                1988        5.960000E-03   1.192000E-04   23488-050-0        0.993333               
-      K.S.Krane               EXFOR                2006        3.500000E-03   5.000000E-04   14107-005-0        0.583333               
-      F.Farina Arbocco        EXFOR                2014        6.150000E-03   0.000000E+00   23260-104-0        1.025000               
-      F.Farina Arbocco        EXFOR                2014        6.170000E-03   0.000000E+00   23260-104-0        1.028333               
-      F.Farina Arbocco        EXFOR                2014        6.160000E-03   2.000000E-05   23260-103-0        1.026667               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      F.De Corte              EXFOR                1988        5.960000E-03   1.192000E-04   23488-050-0        0.993333                  2.530000E-08
+      K.S.Krane               EXFOR                2006        3.500000E-03   5.000000E-04   14107-005-0        0.583333                  2.530000E-08
+      F.Farina Arbocco        EXFOR                2014        6.150000E-03   0.000000E+00   23260-104-0        1.025000                  2.530000E-08
+      F.Farina Arbocco        EXFOR                2014        6.170000E-03   0.000000E+00   23260-104-0        1.028333                  2.530000E-08
+      F.Farina Arbocco        EXFOR                2014        6.160000E-03   2.000000E-05   23260-103-0        1.026667                  2.530000E-08
 # quantity:
 #   type: EXFOR spectrum-averaged
 #   average value:  4.084000E-02
 #   relative standard deviation [%]:     153.915314
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 5
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      C.Nelson                EXFOR                1950        6.000000E-03   1.200000E-03   11961-005-0        1.000000   SPA         
-      L.F.Mausner             EXFOR                1985        1.660000E-01   2.490000E-02   12943-004-0       27.666666   SPA         
-      L.F.Mausner             EXFOR                1985        2.100000E-02   3.150000E-03   12943-003-0        3.500000   SPA         
-      L.F.Mausner             EXFOR                1985        5.400000E-03   8.100000E-04   12943-002-0        0.900000   SPA         
-      S.Mirzadeh              EXFOR                1997        5.800000E-03   1.200000E-03   14328-002-0        0.966667   MXW         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      C.Nelson                EXFOR                1950        6.000000E-03   1.200000E-03   11961-005-0        1.000000   SPA            2.530000E-08
+      L.F.Mausner             EXFOR                1985        1.660000E-01   2.490000E-02   12943-004-0       27.666666   SPA            2.530000E-08
+      L.F.Mausner             EXFOR                1985        2.100000E-02   3.150000E-03   12943-003-0        3.500000   SPA            2.530000E-08
+      L.F.Mausner             EXFOR                1985        5.400000E-03   8.100000E-04   12943-002-0        0.900000   SPA            2.530000E-08
+      S.Mirzadeh              EXFOR                1997        5.800000E-03   1.200000E-03   14328-002-0        0.966667   MXW            2.530000E-08

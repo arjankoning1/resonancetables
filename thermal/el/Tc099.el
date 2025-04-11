@@ -1,7 +1,7 @@
 # header:
 #   title: Tc099(n,el) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 43
 #   A: 99
@@ -20,9 +20,9 @@
 #   average value:  5.795000E+00
 #   relative standard deviation [%]:       0.086283
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      Mughabghab_2006         Compilation          2006        5.790000E+00   5.100000E-01                      0.998276               
-      Mughabghab_2016         Compilation          2016        5.800000E+00   5.000000E-01                      1.000000               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Mughabghab_2006         Compilation          2006        5.790000E+00   5.100000E-01                      0.998276                  2.530000E-08
+      Mughabghab_2016         Compilation          2016        5.800000E+00   5.000000E-01                      1.000000                  2.530000E-08

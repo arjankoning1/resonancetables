@@ -1,7 +1,7 @@
 # header:
 #   title: O017(n,a) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 8
 #   A: 17
@@ -20,36 +20,36 @@
 #   average value:  2.350000E-01
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      Mughabghab_2006         Compilation          2006        2.350000E-01   1.000000E-02                      1.000000               
-      Sukhoruchkin            Compilation          2015        2.350000E-01   1.000000E-02                      1.000000               
-      Mughabghab_2016         Compilation          2016        2.350000E-01   1.000000E-02                      1.000000               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Mughabghab_2006         Compilation          2006        2.350000E-01   1.000000E-02                      1.000000                  2.530000E-08
+      Sukhoruchkin            Compilation          2015        2.350000E-01   1.000000E-02                      1.000000                  2.530000E-08
+      Mughabghab_2016         Compilation          2016        2.350000E-01   1.000000E-02                      1.000000                  2.530000E-08
 # quantity:
 #   type: EXFOR
 #   average value:  2.456667E-01
 #   relative standard deviation [%]:       3.522593
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      C.Wagemans              EXFOR                1997        2.360000E-01   5.000000E-03   22399-003-0        1.004255               
-      J.Wagemans              EXFOR                1998        2.440000E-01   7.000000E-03   22420-002-0        1.038298               
-      J.Wagemans              EXFOR                2000        2.570000E-01   1.000000E-02   22496-004-0        1.093617               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      C.Wagemans              EXFOR                1997        2.360000E-01   5.000000E-03   22399-003-0        1.004255                  2.530000E-08
+      J.Wagemans              EXFOR                1998        2.440000E-01   7.000000E-03   22420-002-0        1.038298                  2.530000E-08
+      J.Wagemans              EXFOR                2000        2.570000E-01   1.000000E-02   22496-004-0        1.093617                  2.530000E-08
 # quantity:
 #   type: EXFOR spectrum-averaged
 #   average value:  2.822000E-01
 #   relative standard deviation [%]:      31.583191
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 5
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      A.N.May                 EXFOR                1947        4.600000E-01   1.100000E-01   11437-002-0        1.957447   MXW         
-      E.J.Seppi               EXFOR                1956        2.500000E-01   1.500000E-01   11422-002-0        1.063830   SPA         
-      G.C.Hanna               EXFOR                1961        2.350000E-01   5.000000E-03   11275-003-0        1.000000   MXW         
-      Yu.M.Gledenov           EXFOR                1997        2.330000E-01   1.200000E-02   41337-002-0        0.991489   MXW         
-      Yu.M.Gledenov           EXFOR                1997        2.330000E-01   1.200000E-02   41309-002-0        0.991489   MXW         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      A.N.May                 EXFOR                1947        4.600000E-01   1.100000E-01   11437-002-0        1.957447   MXW            2.530000E-08
+      E.J.Seppi               EXFOR                1956        2.500000E-01   1.500000E-01   11422-002-0        1.063830   SPA            2.530000E-08
+      G.C.Hanna               EXFOR                1961        2.350000E-01   5.000000E-03   11275-003-0        1.000000   MXW            2.530000E-08
+      Yu.M.Gledenov           EXFOR                1997        2.330000E-01   1.200000E-02   41337-002-0        0.991489   MXW            2.530000E-08
+      Yu.M.Gledenov           EXFOR                1997        2.330000E-01   1.200000E-02   41309-002-0        0.991489   MXW            2.530000E-08

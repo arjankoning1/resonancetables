@@ -1,7 +1,7 @@
 # header:
 #   title: U233(n,el) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 92
 #   A: 233
@@ -20,19 +20,19 @@
 #   average value:  1.255000E+01
 #   relative standard deviation [%]:       1.195220
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      Mughabghab_2006         Compilation          2006        1.270000E+01   3.000000E-01                      1.024194               
-      Mughabghab_2016         Compilation          2016        1.240000E+01   3.000000E-01                      1.000000               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Mughabghab_2006         Compilation          2006        1.270000E+01   3.000000E-01                      1.024194                  2.530000E-08
+      Mughabghab_2016         Compilation          2016        1.240000E+01   3.000000E-01                      1.000000                  2.530000E-08
 # quantity:
 #   type: EXFOR spectrum-averaged
 #   average value:  1.230000E+01
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      L.Green                 EXFOR                1974        1.230000E+01   7.000000E-01   10388-003-0        0.991936   MXW         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      L.Green                 EXFOR                1974        1.230000E+01   7.000000E-01   10388-003-0        0.991936   MXW            2.530000E-08

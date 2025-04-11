@@ -1,7 +1,7 @@
 # header:
 #   title: Cf249(n,f) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 98
 #   A: 249
@@ -20,33 +20,33 @@
 #   average value:  1.664250E+03
 #   relative standard deviation [%]:       1.454788
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 4
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      RIPL-3                  Compilation          2004        1.700000E+03   1.000000E+02                      1.035323               
-      Mughabghab_2006         Compilation          2006        1.642000E+03   3.300000E+01                      1.000000               
-      Sukhoruchkin            Compilation          2015        1.673000E+03   3.400000E+01                      1.018879               
-      Mughabghab_2016         Compilation          2016        1.642000E+03   3.300000E+01                      1.000000               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      RIPL-3                  Compilation          2004        1.700000E+03   1.000000E+02                      1.035323                  2.530000E-08
+      Mughabghab_2006         Compilation          2006        1.642000E+03   3.300000E+01                      1.000000                  2.530000E-08
+      Sukhoruchkin            Compilation          2015        1.673000E+03   3.400000E+01                      1.018879                  2.530000E-08
+      Mughabghab_2016         Compilation          2016        1.642000E+03   3.300000E+01                      1.000000                  2.530000E-08
 # quantity:
 #   type: EXFOR
 #   average value:  1.610000E+03
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      V.D.Gavrilov            EXFOR                1976        1.610000E+03   1.100000E+02   40467-004-0        0.980512               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      V.D.Gavrilov            EXFOR                1976        1.610000E+03   1.100000E+02   40467-004-0        0.980512                  2.530000E-08
 # quantity:
 #   type: EXFOR spectrum-averaged
 #   average value:  1.360000E+03
 #   relative standard deviation [%]:      37.959743
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      B.G.Harvey              EXFOR                1954        6.300000E+02   0.000000E+00   12567-006-0        0.383678   SPA         
-      D.Metta                 EXFOR                1965        1.735000E+03   7.000000E+01   12562-002-0        1.056638   MXW         
-      K.D.Zhuravlev           EXFOR                1975        1.715000E+03   8.000000E+01   40436-010-0        1.044458   MXW         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      B.G.Harvey              EXFOR                1954        6.300000E+02   0.000000E+00   12567-006-0        0.383678   SPA            2.530000E-08
+      D.Metta                 EXFOR                1965        1.735000E+03   7.000000E+01   12562-002-0        1.056638   MXW            2.530000E-08
+      K.D.Zhuravlev           EXFOR                1975        1.715000E+03   8.000000E+01   40436-010-0        1.044458   MXW            2.530000E-08

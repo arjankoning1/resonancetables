@@ -1,7 +1,7 @@
 # header:
 #   title: Pu238(n,nuprompt) thermal neutron multiplicity
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 94
 #   A: 238
@@ -20,19 +20,19 @@
 #   average value:  2.900000E+00
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             []             []             []             []             []
-      Mughabghab_2016         Compilation          2016        2.900000E+00   0.000000E+00                      1.000000               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             []             []             []             []             []            [MeV]
+      Mughabghab_2016         Compilation          2016        2.900000E+00   0.000000E+00                      1.000000                  2.530000E-08
 # quantity:
 #   type: EXFOR
 #   average value:  2.907500E+00
 #   relative standard deviation [%]:       0.429924
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             []             []             []             []             []
-      Kroshkin                EXFOR                1970        2.920000E+00   1.200000E-01   40064007           1.006896               
-      Jaffey                  EXFOR                1970        2.895000E+00   2.700000E-02   101250035          0.998276               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             []             []             []             []             []            [MeV]
+      Kroshkin                EXFOR                1970        2.920000E+00   1.200000E-01   40064007           1.006896                  2.530000E-08
+      Jaffey                  EXFOR                1970        2.895000E+00   2.700000E-02   101250035          0.998276                  2.530000E-08

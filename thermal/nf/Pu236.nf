@@ -1,7 +1,7 @@
 # header:
 #   title: Pu236(n,f) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 94
 #   A: 236
@@ -20,22 +20,22 @@
 #   average value:  1.600000E+02
 #   relative standard deviation [%]:       7.654655
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 4
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      RIPL-3                  Compilation          2004        1.600000E+02   3.000000E+01                      0.941176               
-      Mughabghab_2006         Compilation          2006        1.700000E+02   0.000000E+00                      1.000000               
-      Sukhoruchkin            Compilation          2015        1.400000E+02   2.900000E+01                      0.823529               
-      Mughabghab_2016         Compilation          2016        1.700000E+02   3.500000E+01                      1.000000               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      RIPL-3                  Compilation          2004        1.600000E+02   3.000000E+01                      0.941176                  2.530000E-08
+      Mughabghab_2006         Compilation          2006        1.700000E+02   0.000000E+00                      1.000000                  2.530000E-08
+      Sukhoruchkin            Compilation          2015        1.400000E+02   2.900000E+01                      0.823529                  2.530000E-08
+      Mughabghab_2016         Compilation          2016        1.700000E+02   3.500000E+01                      1.000000                  2.530000E-08
 # quantity:
 #   type: EXFOR spectrum-averaged
 #   average value:  1.525000E+02
 #   relative standard deviation [%]:      11.475410
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      J.E.Gindler             EXFOR                1959        1.700000E+02   3.500000E+01   13572-002-0        1.000000   MXW         
-      B.N.Belyaev             EXFOR                1990        1.350000E+02   1.600000E+01   41093-002-0        0.794118   MXW         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      J.E.Gindler             EXFOR                1959        1.700000E+02   3.500000E+01   13572-002-0        1.000000   MXW            2.530000E-08
+      B.N.Belyaev             EXFOR                1990        1.350000E+02   1.600000E+01   41093-002-0        0.794118   MXW            2.530000E-08

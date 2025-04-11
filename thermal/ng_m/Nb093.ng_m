@@ -1,7 +1,7 @@
 # header:
 #   title: Nb093(n,g)_m thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 41
 #   A: 93
@@ -20,20 +20,20 @@
 #   average value:  8.580000E-01
 #   relative standard deviation [%]:       0.582750
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      F.De Corte              EXFOR                1988        8.630000E-01   1.035600E-01   23488-035-0        1.106410               
-      F.Farina Arbocco        EXFOR                2013        8.530000E-01   0.000000E+00   23266-099-0        1.093590               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      F.De Corte              EXFOR                1988        8.630000E-01   1.035600E-01   23488-035-0        1.106410                  2.530000E-08
+      F.Farina Arbocco        EXFOR                2013        8.530000E-01   0.000000E+00   23266-099-0        1.093590                  2.530000E-08
 # quantity:
 #   type: EXFOR spectrum-averaged
 #   average value:  8.164999E-01
 #   relative standard deviation [%]:       4.470301
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      F.Farina Arbocco        EXFOR                2013        8.530000E-01   8.000000E-03   23266-098-0        1.093590   AV          
-      K.S.Krane               EXFOR                2019        7.800000E-01   9.000000E-02   14602-003-0        1.000000   MXW         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      F.Farina Arbocco        EXFOR                2013        8.530000E-01   8.000000E-03   23266-098-0        1.093590   AV             2.530000E-08
+      K.S.Krane               EXFOR                2019        7.800000E-01   9.000000E-02   14602-003-0        1.000000   MXW            2.530000E-08

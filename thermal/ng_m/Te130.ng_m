@@ -1,7 +1,7 @@
 # header:
 #   title: Te130(n,g)_m thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 52
 #   A: 130
@@ -20,20 +20,20 @@
 #   average value:  3.000000E-02
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      RIPL-3                  Compilation          2004        3.000000E-02   1.000000E-02                      1.000000               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      RIPL-3                  Compilation          2004        3.000000E-02   1.000000E-02                      1.000000                  2.530000E-08
 # quantity:
 #   type: EXFOR spectrum-averaged
 #   average value:  1.953333E-02
 #   relative standard deviation [%]:      74.288345
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      L.Seren                 EXFOR                1947        8.000000E-03   3.200000E-03   11447-089-0        0.266667   SPA         
-      M.Sehgal                EXFOR                1962        4.000000E-02   1.000000E-02   11994-006-0        1.333333   MXW         
-      M.C.Eastman             EXFOR                2008        1.060000E-02   4.000000E-04   14165-011-0        0.353333   MXW         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      L.Seren                 EXFOR                1947        8.000000E-03   3.200000E-03   11447-089-0        0.266667   SPA            2.530000E-08
+      M.Sehgal                EXFOR                1962        4.000000E-02   1.000000E-02   11994-006-0        1.333333   MXW            2.530000E-08
+      M.C.Eastman             EXFOR                2008        1.060000E-02   4.000000E-04   14165-011-0        0.353333   MXW            2.530000E-08

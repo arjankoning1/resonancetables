@@ -1,7 +1,7 @@
 # header:
 #   title: I129(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 53
 #   A: 129
@@ -20,58 +20,58 @@
 #   average value:  3.030000E+01
 #   relative standard deviation [%]:       0.000006
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      RIPL-3                  Compilation          2004        3.030000E+01   1.200000E+00                      1.000000               
-      Mughabghab_2006         Compilation          2006        3.030000E+01   1.200000E+00                      1.000000               
-      Mughabghab_2016         Compilation          2016        3.030000E+01   1.200000E+00                      1.000000               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      RIPL-3                  Compilation          2004        3.030000E+01   1.200000E+00                      1.000000                  2.530000E-08
+      Mughabghab_2006         Compilation          2006        3.030000E+01   1.200000E+00                      1.000000                  2.530000E-08
+      Mughabghab_2016         Compilation          2016        3.030000E+01   1.200000E+00                      1.000000                  2.530000E-08
 # quantity:
 #   type: Compilation spectrum-averaged
 #   average value:  3.040000E+01
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      Sukhoruchkin            Compilation          2015        3.040000E+01   1.200000E+00                      1.003300   MXW         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Sukhoruchkin            Compilation          2015        3.040000E+01   1.200000E+00                      1.003300   MXW            2.530000E-08
 # quantity:
 #   type: EXFOR
 #   average value:  3.225000E+01
 #   relative standard deviation [%]:       5.116281
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      L.Friedmann             EXFOR                1983        3.390000E+01   1.900000E+00   23485-010-1        1.118812               
-      T.Belgya                EXFOR                2007        3.060000E+01   1.100000E+00   31667-003-0        1.009901               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      L.Friedmann             EXFOR                1983        3.390000E+01   1.900000E+00   23485-010-1        1.118812                  2.530000E-08
+      T.Belgya                EXFOR                2007        3.060000E+01   1.100000E+00   31667-003-0        1.009901                  2.530000E-08
 # quantity:
 #   type: EXFOR spectrum-averaged
 #   average value:  2.527500E+01
 #   relative standard deviation [%]:      36.395706
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 4
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      J.Roy                   EXFOR                1958        2.670000E+01   2.000000E+00   12005-003-0        0.881188   MXW         
-      L.Friedmann             EXFOR                1983        3.410000E+01   1.900000E+00   23485-011-1        1.125412   SPA         
-      M.I.Krivopustov         EXFOR                1997        1.000000E+01   2.000000E+00   41545-002-0        0.330033   SPA         
-      S.Nakamura              EXFOR                2000        3.030000E+01   1.200000E+00   22819-006-0        1.000000   MXW         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      J.Roy                   EXFOR                1958        2.670000E+01   2.000000E+00   12005-003-0        0.881188   MXW            2.530000E-08
+      L.Friedmann             EXFOR                1983        3.410000E+01   1.900000E+00   23485-011-1        1.125412   SPA            2.530000E-08
+      M.I.Krivopustov         EXFOR                1997        1.000000E+01   2.000000E+00   41545-002-0        0.330033   SPA            2.530000E-08
+      S.Nakamura              EXFOR                2000        3.030000E+01   1.200000E+00   22819-006-0        1.000000   MXW            2.530000E-08
 # quantity:
 #   type: Nuclear data library
 #   average value:  2.965536E+01
 #   relative standard deviation [%]:       4.480340
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 5
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      cendl3.2                NDL                  2019        2.699950E+01   0.000000E+00                      0.891073               
-      jendl5.0                NDL                  2021        3.030870E+01   0.000000E+00                      1.000287               
-      tendl.2023              NDL                  2023        3.028310E+01   0.000000E+00                      0.999442               
-      endfb8.1                NDL                  2024        3.040270E+01   0.000000E+00                      1.003389               
-      jeff4.0                 NDL                  2025        3.028280E+01   0.000000E+00                      0.999432               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      cendl3.2                NDL                  2019        2.699950E+01   0.000000E+00                      0.891073                  2.530000E-08
+      jendl5.0                NDL                  2021        3.030870E+01   0.000000E+00                      1.000287                  2.530000E-08
+      tendl.2023              NDL                  2023        3.028310E+01   0.000000E+00                      0.999442                  2.530000E-08
+      endfb8.1                NDL                  2024        3.040270E+01   0.000000E+00                      1.003389                  2.530000E-08
+      jeff4.0                 NDL                  2025        3.028280E+01   0.000000E+00                      0.999432                  2.530000E-08

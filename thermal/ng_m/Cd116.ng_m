@@ -1,7 +1,7 @@
 # header:
 #   title: Cd116(n,g)_m thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 48
 #   A: 116
@@ -20,19 +20,19 @@
 #   average value:  2.600000E-02
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      RIPL-3                  Compilation          2004        2.600000E-02   1.000000E-02                      1.000000               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      RIPL-3                  Compilation          2004        2.600000E-02   1.000000E-02                      1.000000                  2.530000E-08
 # quantity:
 #   type: EXFOR spectrum-averaged
 #   average value:  7.135000E-01
 #   relative standard deviation [%]:      96.215843
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      L.Seren                 EXFOR                1947        1.400000E+00   2.800000E-01   11447-071-0       53.846153   SPA         
-      D.Decat                 EXFOR                1966        2.700000E-02   5.000000E-03   20252-002-0        1.038462   SPA         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      L.Seren                 EXFOR                1947        1.400000E+00   2.800000E-01   11447-071-0       53.846153   SPA            2.530000E-08
+      D.Decat                 EXFOR                1966        2.700000E-02   5.000000E-03   20252-002-0        1.038462   SPA            2.530000E-08

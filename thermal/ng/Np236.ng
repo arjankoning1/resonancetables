@@ -1,7 +1,7 @@
 # header:
 #   title: Np236(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 93
 #   A: 236
@@ -20,33 +20,33 @@
 #   average value:  1.315000E+02
 #   relative standard deviation [%]:       7.984791
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      Mughabghab_2006         Compilation          2006        1.420000E+02   0.000000E+00                      1.173554   MXW         
-      Sukhoruchkin            Compilation          2015        1.210000E+02   7.000000E+00                      1.000000   MXW         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Mughabghab_2006         Compilation          2006        1.420000E+02   0.000000E+00                      1.173554   MXW            2.530000E-08
+      Sukhoruchkin            Compilation          2015        1.210000E+02   7.000000E+00                      1.000000   MXW            2.530000E-08
 # quantity:
 #   type: EXFOR
 #   average value:  1.420000E+02
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      S.F.Mughabghab          EXFOR                2006        1.420000E+02   0.000000E+00   V1002-600-1        1.173554               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      S.F.Mughabghab          EXFOR                2006        1.420000E+02   0.000000E+00   V1002-600-1        1.173554                  2.530000E-08
 # quantity:
 #   type: Nuclear data library
 #   average value:  1.372030E+02
 #   relative standard deviation [%]:      16.652903
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 5
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      cendl3.2                NDL                  2019        1.798060E+02   0.000000E+00                      1.486000               
-      jendl5.0                NDL                  2021        1.212180E+02   0.000000E+00                      1.001802               
-      tendl.2023              NDL                  2023        1.425550E+02   0.000000E+00                      1.178140               
-      endfb8.1                NDL                  2024        1.212180E+02   0.000000E+00                      1.001802               
-      jeff4.0                 NDL                  2025        1.212180E+02   0.000000E+00                      1.001802               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      cendl3.2                NDL                  2019        1.798060E+02   0.000000E+00                      1.486000                  2.530000E-08
+      jendl5.0                NDL                  2021        1.212180E+02   0.000000E+00                      1.001802                  2.530000E-08
+      tendl.2023              NDL                  2023        1.425550E+02   0.000000E+00                      1.178140                  2.530000E-08
+      endfb8.1                NDL                  2024        1.212180E+02   0.000000E+00                      1.001802                  2.530000E-08
+      jeff4.0                 NDL                  2025        1.212180E+02   0.000000E+00                      1.001802                  2.530000E-08

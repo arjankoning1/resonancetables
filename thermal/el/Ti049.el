@@ -1,7 +1,7 @@
 # header:
 #   title: Ti049(n,el) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 22
 #   A: 49
@@ -20,19 +20,19 @@
 #   average value:  7.000000E-01
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      Mughabghab_2006         Compilation          2006        7.000000E-01   3.000000E-01                      1.000000               
-      Mughabghab_2016         Compilation          2016        7.000000E-01   3.000000E-01                      1.000000               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Mughabghab_2006         Compilation          2006        7.000000E-01   3.000000E-01                      1.000000                  2.530000E-08
+      Mughabghab_2016         Compilation          2016        7.000000E-01   3.000000E-01                      1.000000                  2.530000E-08
 # quantity:
 #   type: EXFOR
 #   average value:  1.000000E+00
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      C.Shull                 EXFOR                1960        1.000000E+00   0.000000E+00   11642-016-0        1.428571               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      C.Shull                 EXFOR                1960        1.000000E+00   0.000000E+00   11642-016-0        1.428571                  2.530000E-08

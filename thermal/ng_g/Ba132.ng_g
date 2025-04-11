@@ -1,7 +1,7 @@
 # header:
 #   title: Ba132(n,g)_g thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 56
 #   A: 132
@@ -20,21 +20,21 @@
 #   average value:  8.600000E+00
 #   relative standard deviation [%]:      12.790696
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      RIPL-3                  Compilation          2004        9.700000E+00   8.000000E-01                      1.293333               
-      Mughabghab_2016         Compilation          2016        7.500000E+00   3.000000E-01                      1.000000               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      RIPL-3                  Compilation          2004        9.700000E+00   8.000000E-01                      1.293333                  2.530000E-08
+      Mughabghab_2016         Compilation          2016        7.500000E+00   3.000000E-01                      1.000000                  2.530000E-08
 # quantity:
 #   type: EXFOR spectrum-averaged
 #   average value:  6.670000E+00
 #   relative standard deviation [%]:       9.416280
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      S.Katcoff               EXFOR                1947        6.000000E+00   0.000000E+00   12037-002-0        0.800000   SPA         
-      W.S.Lyon                EXFOR                1963        6.500000E+00   0.000000E+00   12019-003-0        0.866667   SPA         
-      A.Y.Dauenhauer          EXFOR                2012        7.510000E+00   3.200000E-01   14340-005-0        1.001333   MXW         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      S.Katcoff               EXFOR                1947        6.000000E+00   0.000000E+00   12037-002-0        0.800000   SPA            2.530000E-08
+      W.S.Lyon                EXFOR                1963        6.500000E+00   0.000000E+00   12019-003-0        0.866667   SPA            2.530000E-08
+      A.Y.Dauenhauer          EXFOR                2012        7.510000E+00   3.200000E-01   14340-005-0        1.001333   MXW            2.530000E-08

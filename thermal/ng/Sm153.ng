@@ -1,7 +1,7 @@
 # header:
 #   title: Sm153(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 62
 #   A: 153
@@ -20,31 +20,31 @@
 #   average value:  4.200000E+02
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      RIPL-3                  Compilation          2004        4.200000E+02   1.800000E+02                      1.000000               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      RIPL-3                  Compilation          2004        4.200000E+02   1.800000E+02                      1.000000                  2.530000E-08
 # quantity:
 #   type: EXFOR spectrum-averaged
 #   average value:  3.000000E+04
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      W.H.Walker              EXFOR                1956        3.000000E+04   1.200000E+04   12127-009-0       71.428574   SPA         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      W.H.Walker              EXFOR                1956        3.000000E+04   1.200000E+04   12127-009-0       71.428574   SPA            2.530000E-08
 # quantity:
 #   type: Nuclear data library
 #   average value:  4.457153E+02
 #   relative standard deviation [%]:      10.041348
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 4
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      jendl5.0                NDL                  2021        4.200140E+02   0.000000E+00                      1.000033               
-      tendl.2023              NDL                  2023        5.232340E+02   0.000000E+00                      1.245795               
-      endfb8.1                NDL                  2024        4.200250E+02   0.000000E+00                      1.000059               
-      jeff4.0                 NDL                  2025        4.195880E+02   0.000000E+00                      0.999019               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      jendl5.0                NDL                  2021        4.200140E+02   0.000000E+00                      1.000033                  2.530000E-08
+      tendl.2023              NDL                  2023        5.232340E+02   0.000000E+00                      1.245795                  2.530000E-08
+      endfb8.1                NDL                  2024        4.200250E+02   0.000000E+00                      1.000059                  2.530000E-08
+      jeff4.0                 NDL                  2025        4.195880E+02   0.000000E+00                      0.999019                  2.530000E-08

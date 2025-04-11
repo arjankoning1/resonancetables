@@ -1,7 +1,7 @@
 # header:
 #   title: H001(n,el) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 1
 #   A: 1
@@ -20,19 +20,19 @@
 #   average value:  2.049100E+01
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      Mughabghab_2006         Compilation          2006        2.049100E+01   1.400000E-02                      1.000000               
-      Mughabghab_2016         Compilation          2016        2.049100E+01   1.400000E-02                      1.000000               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Mughabghab_2006         Compilation          2006        2.049100E+01   1.400000E-02                      1.000000                  2.530000E-08
+      Mughabghab_2016         Compilation          2016        2.049100E+01   1.400000E-02                      1.000000                  2.530000E-08
 # quantity:
 #   type: EXFOR spectrum-averaged
 #   average value:  1.600000E+01
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      D.M.Yost                EXFOR                1936        1.600000E+01   0.000000E+00   12649-002-0        0.780831   MXW         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      D.M.Yost                EXFOR                1936        1.600000E+01   0.000000E+00   12649-002-0        0.780831   MXW            2.530000E-08

@@ -1,7 +1,7 @@
 # header:
 #   title: Zn068(n,g)_m thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 30
 #   A: 68
@@ -20,41 +20,41 @@
 #   average value:  7.200000E-02
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      RIPL-3                  Compilation          2004        7.200000E-02   4.000000E-03                      1.000000               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      RIPL-3                  Compilation          2004        7.200000E-02   4.000000E-03                      1.000000                  2.530000E-08
 # quantity:
 #   type: EXFOR
 #   average value:  7.130000E-02
 #   relative standard deviation [%]:       1.799755
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      C.H.Hogg                EXFOR                1970        7.300000E-02   4.000000E-03   12602-003-0        1.013889               
-      F.De Corte              EXFOR                1988        6.990000E-02   1.607700E-03   23488-021-0        0.970833               
-      F.Farina Arbocco        EXFOR                2013        7.100000E-02   0.000000E+00   23266-067-0        0.986111               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      C.H.Hogg                EXFOR                1970        7.300000E-02   4.000000E-03   12602-003-0        1.013889                  2.530000E-08
+      F.De Corte              EXFOR                1988        6.990000E-02   1.607700E-03   23488-021-0        0.970833                  2.530000E-08
+      F.Farina Arbocco        EXFOR                2013        7.100000E-02   0.000000E+00   23266-067-0        0.986111                  2.530000E-08
 # quantity:
 #   type: EXFOR spectrum-averaged
 #   average value:  9.583333E-02
 #   relative standard deviation [%]:      68.160820
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 12
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      L.Seren                 EXFOR                1947        3.100000E-01   6.200000E-02   11447-032-0        4.305556   SPA         
-      W.S.Lyon                EXFOR                1960        1.000000E-01   1.000000E-02   11625-007-0        1.388889   SPA         
-      S.K.Mangal              EXFOR                1962        8.300000E-02   1.245000E-02   31248-002-0        1.152778   MXW         
-      H.Arino                 EXFOR                1964        9.300000E-02   0.000000E+00   11817-004-0        1.291667   MXW         
-      W.Mannhart              EXFOR                1968        7.200000E-02   4.000000E-03   22521-002-0        1.000000   MXW         
-      J.I.Kim                 EXFOR                1968        7.200000E-02   2.000000E-03   20656-006-0        1.000000   MXW         
-      G.Gleason               EXFOR                1975        7.000000E-02   4.000000E-03   10644-025-0        0.972222   MXW         
-      F.Farina Arbocco        EXFOR                2013        7.100000E-02   1.000000E-03   23266-066-0        0.986111   AV          
-      K.S.Krane               EXFOR                2017        7.100000E-02   2.000000E-03   14468-004-0        0.986111   MXW         
-      K.S.Krane               EXFOR                2017        7.000000E-02   3.000000E-03   14468-004-0        0.972222   MXW         
-      K.S.Krane               EXFOR                2017        6.900000E-02   3.000000E-03   14468-004-0        0.958333   MXW         
-      K.S.Krane               EXFOR                2017        6.900000E-02   3.000000E-03   14468-004-0        0.958333   MXW         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      L.Seren                 EXFOR                1947        3.100000E-01   6.200000E-02   11447-032-0        4.305556   SPA            2.530000E-08
+      W.S.Lyon                EXFOR                1960        1.000000E-01   1.000000E-02   11625-007-0        1.388889   SPA            2.530000E-08
+      S.K.Mangal              EXFOR                1962        8.300000E-02   1.245000E-02   31248-002-0        1.152778   MXW            2.530000E-08
+      H.Arino                 EXFOR                1964        9.300000E-02   0.000000E+00   11817-004-0        1.291667   MXW            2.530000E-08
+      W.Mannhart              EXFOR                1968        7.200000E-02   4.000000E-03   22521-002-0        1.000000   MXW            2.530000E-08
+      J.I.Kim                 EXFOR                1968        7.200000E-02   2.000000E-03   20656-006-0        1.000000   MXW            2.530000E-08
+      G.Gleason               EXFOR                1975        7.000000E-02   4.000000E-03   10644-025-0        0.972222   MXW            2.530000E-08
+      F.Farina Arbocco        EXFOR                2013        7.100000E-02   1.000000E-03   23266-066-0        0.986111   AV             2.530000E-08
+      K.S.Krane               EXFOR                2017        7.100000E-02   2.000000E-03   14468-004-0        0.986111   MXW            2.530000E-08
+      K.S.Krane               EXFOR                2017        7.000000E-02   3.000000E-03   14468-004-0        0.972222   MXW            2.530000E-08
+      K.S.Krane               EXFOR                2017        6.900000E-02   3.000000E-03   14468-004-0        0.958333   MXW            2.530000E-08
+      K.S.Krane               EXFOR                2017        6.900000E-02   3.000000E-03   14468-004-0        0.958333   MXW            2.530000E-08

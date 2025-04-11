@@ -1,7 +1,7 @@
 # header:
 #   title: W184(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 74
 #   A: 184
@@ -20,61 +20,61 @@
 #   average value:  1.783000E+00
 #   relative standard deviation [%]:       7.124594
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 4
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      RIPL-3                  Compilation          2004        2.002000E+00   2.000000E-01                      1.157225               
-      Mughabghab_2006         Compilation          2006        1.700000E+00   1.000000E-01                      0.982659               
-      Sukhoruchkin            Compilation          2015        1.700000E+00   1.000000E-01                      0.982659               
-      Mughabghab_2016         Compilation          2016        1.730000E+00   9.000000E-02                      1.000000               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      RIPL-3                  Compilation          2004        2.002000E+00   2.000000E-01                      1.157225                  2.530000E-08
+      Mughabghab_2006         Compilation          2006        1.700000E+00   1.000000E-01                      0.982659                  2.530000E-08
+      Sukhoruchkin            Compilation          2015        1.700000E+00   1.000000E-01                      0.982659                  2.530000E-08
+      Mughabghab_2016         Compilation          2016        1.730000E+00   9.000000E-02                      1.000000                  2.530000E-08
 # quantity:
 #   type: EXFOR
 #   average value:  1.698571E+00
 #   relative standard deviation [%]:      15.188221
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 14
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      S.J.Friesenhahn         EXFOR                1966        1.700000E+00   1.000000E-01   12167-007-0        0.982659               
-      S.J.Friesenhahn         EXFOR                1966        1.700000E+00   0.000000E+00   12167-006-0        0.982659               
-      V.Bondarenko            EXFOR                2005        1.760000E+00   9.000000E-02   31572-004-0        1.017341               
-      V.Bondarenko            EXFOR                2005        1.610000E+00   2.600000E-01   31572-003-0        0.930636               
-      V.Bondarenko            EXFOR                2005        2.100000E+00   4.000000E-01   31572-003-0        1.213873               
-      V.Bondarenko            EXFOR                2005        1.290000E+00   5.500000E-01   31572-003-0        0.745665               
-      V.Bondarenko            EXFOR                2005        1.740000E+00   2.400000E-01   31572-003-0        1.005780               
-      V.Bondarenko            EXFOR                2005        1.700000E+00   5.000000E-01   31572-003-0        0.982659               
-      V.Bondarenko            EXFOR                2005        2.170000E+00   2.400000E-01   31572-003-0        1.254335               
-      V.Bondarenko            EXFOR                2005        1.950000E+00   4.000000E-02   31572-003-0        1.127168               
-      V.Bondarenko            EXFOR                2005        1.400000E+00   3.700000E-01   31572-003-0        0.809249               
-      V.Bondarenko            EXFOR                2005        1.620000E+00   2.900000E-01   31572-003-0        0.936416               
-      V.Bondarenko            EXFOR                2005        1.790000E+00   1.900000E-01   31572-003-0        1.034682               
-      V.Bondarenko            EXFOR                2005        1.250000E+00   4.200000E-01   31572-003-0        0.722543               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      S.J.Friesenhahn         EXFOR                1966        1.700000E+00   1.000000E-01   12167-007-0        0.982659                  2.530000E-08
+      S.J.Friesenhahn         EXFOR                1966        1.700000E+00   0.000000E+00   12167-006-0        0.982659                  2.520000E-08
+      V.Bondarenko            EXFOR                2005        1.760000E+00   9.000000E-02   31572-004-0        1.017341                  2.530000E-08
+      V.Bondarenko            EXFOR                2005        1.610000E+00   2.600000E-01   31572-003-0        0.930636                  2.530000E-08
+      V.Bondarenko            EXFOR                2005        2.100000E+00   4.000000E-01   31572-003-0        1.213873                  2.530000E-08
+      V.Bondarenko            EXFOR                2005        1.290000E+00   5.500000E-01   31572-003-0        0.745665                  2.530000E-08
+      V.Bondarenko            EXFOR                2005        1.740000E+00   2.400000E-01   31572-003-0        1.005780                  2.530000E-08
+      V.Bondarenko            EXFOR                2005        1.700000E+00   5.000000E-01   31572-003-0        0.982659                  2.530000E-08
+      V.Bondarenko            EXFOR                2005        2.170000E+00   2.400000E-01   31572-003-0        1.254335                  2.530000E-08
+      V.Bondarenko            EXFOR                2005        1.950000E+00   4.000000E-02   31572-003-0        1.127168                  2.530000E-08
+      V.Bondarenko            EXFOR                2005        1.400000E+00   3.700000E-01   31572-003-0        0.809249                  2.530000E-08
+      V.Bondarenko            EXFOR                2005        1.620000E+00   2.900000E-01   31572-003-0        0.936416                  2.530000E-08
+      V.Bondarenko            EXFOR                2005        1.790000E+00   1.900000E-01   31572-003-0        1.034682                  2.530000E-08
+      V.Bondarenko            EXFOR                2005        1.250000E+00   4.200000E-01   31572-003-0        0.722543                  2.530000E-08
 # quantity:
 #   type: EXFOR spectrum-averaged
 #   average value:  1.997500E+00
 #   relative standard deviation [%]:      12.213499
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 4
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      L.Seren                 EXFOR                1947        2.120000E+00   4.240000E-01   11447-114-0        1.225433   SPA         
-      H.Pomerance             EXFOR                1952        1.970000E+00   2.955000E-01   11507-093-0        1.138728   MXW         
-      W.S.Lyon                EXFOR                1960        2.280000E+00   2.280000E-01   11625-030-0        1.317919   SPA         
-      K.S.Krane               EXFOR                2019        1.620000E+00   1.100000E-01   14679-004-0        0.936416   MXW         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      L.Seren                 EXFOR                1947        2.120000E+00   4.240000E-01   11447-114-0        1.225433   SPA            2.530000E-08
+      H.Pomerance             EXFOR                1952        1.970000E+00   2.955000E-01   11507-093-0        1.138728   MXW            2.530000E-08
+      W.S.Lyon                EXFOR                1960        2.280000E+00   2.280000E-01   11625-030-0        1.317919   SPA            2.530000E-08
+      K.S.Krane               EXFOR                2019        1.620000E+00   1.100000E-01   14679-004-0        0.936416   MXW            2.530000E-08
 # quantity:
 #   type: Nuclear data library
 #   average value:  1.673740E+00
 #   relative standard deviation [%]:       1.906549
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 5
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      cendl3.2                NDL                  2019        1.697740E+00   0.000000E+00                      0.981353               
-      jendl5.0                NDL                  2021        1.697500E+00   0.000000E+00                      0.981214               
-      tendl.2023              NDL                  2023        1.703940E+00   0.000000E+00                      0.984936               
-      endfb8.1                NDL                  2024        1.634760E+00   0.000000E+00                      0.944948               
-      jeff4.0                 NDL                  2025        1.634760E+00   0.000000E+00                      0.944948               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      cendl3.2                NDL                  2019        1.697740E+00   0.000000E+00                      0.981353                  2.530000E-08
+      jendl5.0                NDL                  2021        1.697500E+00   0.000000E+00                      0.981214                  2.530000E-08
+      tendl.2023              NDL                  2023        1.703940E+00   0.000000E+00                      0.984936                  2.530000E-08
+      endfb8.1                NDL                  2024        1.634760E+00   0.000000E+00                      0.944948                  2.530000E-08
+      jeff4.0                 NDL                  2025        1.634760E+00   0.000000E+00                      0.944948                  2.530000E-08

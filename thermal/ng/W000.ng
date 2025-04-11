@@ -1,7 +1,7 @@
 # header:
 #   title: W000(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 74
 #   A: 0
@@ -20,32 +20,32 @@
 #   average value:  1.826000E+01
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      Firestone               Compilation          2022        1.826000E+01   1.700000E-01                      1.000000   MXW         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Firestone               Compilation          2022        1.826000E+01   1.700000E-01                      1.000000   MXW            2.530000E-08
 # quantity:
 #   type: EXFOR
 #   average value:  1.855000E+01
 #   relative standard deviation [%]:       1.962293
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 4
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      R.B.Tattersall          EXFOR                1960        1.900000E+01   5.000000E-01   20638-058-0        1.040526               
-      R.E.Schmunk             EXFOR                1960        1.880000E+01   8.000000E-01   11634-008-0        1.029573               
-      S.J.Friesenhahn         EXFOR                1966        1.810000E+01   0.000000E+00   12167-010-0        0.991238               
-      S.J.Friesenhahn         EXFOR                1966        1.830000E+01   5.000000E-01   12167-002-0        1.002190               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      R.B.Tattersall          EXFOR                1960        1.900000E+01   5.000000E-01   20638-058-0        1.040526                  2.530000E-08
+      R.E.Schmunk             EXFOR                1960        1.880000E+01   8.000000E-01   11634-008-0        1.029573                  2.530000E-08
+      S.J.Friesenhahn         EXFOR                1966        1.810000E+01   0.000000E+00   12167-010-0        0.991238                  2.520000E-08
+      S.J.Friesenhahn         EXFOR                1966        1.830000E+01   5.000000E-01   12167-002-0        1.002190                  2.530000E-08
 # quantity:
 #   type: EXFOR spectrum-averaged
 #   average value:  1.855000E+01
 #   relative standard deviation [%]:       4.582207
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      H.Pomerance             EXFOR                1951        1.770000E+01   8.000000E-01   11047-058-0        0.969332   MXW         
-      Yu.A.Prokhorov          EXFOR                1956        1.940000E+01   7.000000E-01   41648-012-0        1.062431   MXW         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      H.Pomerance             EXFOR                1951        1.770000E+01   8.000000E-01   11047-058-0        0.969332   MXW            2.530000E-08
+      Yu.A.Prokhorov          EXFOR                1956        1.940000E+01   7.000000E-01   41648-012-0        1.062431   MXW            2.530000E-08

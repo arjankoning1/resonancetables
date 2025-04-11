@@ -1,7 +1,7 @@
 # header:
 #   title: In115(n,g)_m thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 49
 #   A: 115
@@ -20,20 +20,20 @@
 #   average value:  1.176500E+02
 #   relative standard deviation [%]:      37.951550
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      RIPL-3                  Compilation          2004        7.300000E+01   8.000000E+00                      0.449784               
-      Mughabghab_2016         Compilation          2016        1.623000E+02   7.000000E-01                      1.000000               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      RIPL-3                  Compilation          2004        7.300000E+01   8.000000E+00                      0.449784                  2.530000E-08
+      Mughabghab_2016         Compilation          2016        1.623000E+02   7.000000E-01                      1.000000                  2.530000E-08
 # quantity:
 #   type: EXFOR spectrum-averaged
 #   average value:  1.540000E+02
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      E.T.Jozefowicz          EXFOR                1963        1.540000E+02   6.000000E+00   31472-004-2        0.948860   MXW         
-      E.Jozefowicz            EXFOR                1963        1.540000E+02   6.000000E+00   31099-005-2        0.948860   MXW         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      E.T.Jozefowicz          EXFOR                1963        1.540000E+02   6.000000E+00   31472-004-2        0.948860   MXW            2.530000E-08
+      E.Jozefowicz            EXFOR                1963        1.540000E+02   6.000000E+00   31099-005-2        0.948860   MXW            2.530000E-08

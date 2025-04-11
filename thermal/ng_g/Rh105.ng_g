@@ -1,7 +1,7 @@
 # header:
 #   title: Rh105(n,g)_g thermal cross section
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 45
 #   A: 105
@@ -20,19 +20,19 @@
 #   average value:  8.500000E+03
 #   relative standard deviation [%]:      29.411764
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      RIPL-3                  Compilation          2004        6.000000E+03   3.000000E+03                      0.545455               
-      Mughabghab_2016         Compilation          2016        1.100000E+04   3.000000E+03                      1.000000               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      RIPL-3                  Compilation          2004        6.000000E+03   3.000000E+03                      0.545455                  2.530000E-08
+      Mughabghab_2016         Compilation          2016        1.100000E+04   3.000000E+03                      1.000000                  2.530000E-08
 # quantity:
 #   type: EXFOR spectrum-averaged
 #   average value:  1.330000E+04
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      L.Glendenin             EXFOR                1964        1.330000E+04   1.500000E+03   11924-002-0        1.209091   SPA         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      L.Glendenin             EXFOR                1964        1.330000E+04   1.500000E+03   11924-002-0        1.209091   SPA            2.530000E-08

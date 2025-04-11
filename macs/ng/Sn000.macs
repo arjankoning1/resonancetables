@@ -1,7 +1,7 @@
 # header:
 #   title: Sn000(n,g) MACS
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 50
 #   A: 0
@@ -9,9 +9,9 @@
 # reaction:
 #   type: (n,g)
 # observables:
-#   selected value [b]:  1.280000E-01
-#   selected value uncertainty [b]:  9.000001E-03
-#   selected value source: Belanova
+#   selected value [b]:  0.000000E+00
+#   selected value uncertainty [b]:  0.000000E+00
+#   selected value source: 
 #   number of values: 7
 #   average value [b]:  1.290000E-01
 #   relative standard deviation [%]:      15.592219
@@ -20,23 +20,23 @@
 #   average value:  1.350000E-01
 #   relative standard deviation [%]:      10.986961
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 6
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      Macklin                 EXFOR                1963        1.240000E-01   2.976000E-02   11380009           0.968750               
-      Belanova                EXFOR                1965        1.270000E-01   8.000000E-03   400720294          0.992188               
-      Belanova                EXFOR                1965        1.400000E-01   1.100000E-02   400720293          1.093750               
-      Belanova                EXFOR                1965        1.660000E-01   1.000000E-02   400720292          1.296875               
-      Belanova                EXFOR                1965        1.250000E-01   1.600000E-02   400720291          0.976562               
-      Belanova                EXFOR                1965        1.280000E-01   9.000001E-03   40072011           1.000000               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Macklin                 EXFOR                1963        1.240000E-01   2.976000E-02   11380009           1.000000                  3.000000E-02
+      Belanova                EXFOR                1965        1.270000E-01   8.000000E-03   400720294          1.000000                  2.400000E-02
+      Belanova                EXFOR                1965        1.400000E-01   1.100000E-02   400720293          1.000000                  2.400000E-02
+      Belanova                EXFOR                1965        1.660000E-01   1.000000E-02   400720292          1.000000                  2.400000E-02
+      Belanova                EXFOR                1965        1.250000E-01   1.600000E-02   400720291          1.000000                  2.400000E-02
+      Belanova                EXFOR                1965        1.280000E-01   9.000001E-03   40072011           1.000000                  2.400000E-02
 # quantity:
 #   type: EXFOR spectrum-averaged
 #   average value:  9.300000E-02
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      Macklin                 EXFOR                1962        9.300000E-02   2.000000E-02   11958002           0.726562   MXW         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Macklin                 EXFOR                1962        9.300000E-02   2.000000E-02   11958002           1.000000   MXW            3.040000E-02

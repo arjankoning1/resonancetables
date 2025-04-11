@@ -1,7 +1,7 @@
 # header:
 #   title: Hg198(n,g) MACS
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 80
 #   A: 198
@@ -12,31 +12,32 @@
 #   selected value [b]:  1.730000E-01
 #   selected value uncertainty [b]:  1.500000E-02
 #   selected value source: Kadonis
-#   number of values: 7
-#   average value [b]:  1.981486E-01
-#   relative standard deviation [%]:      29.521622
+#   number of values: 8
+#   average value [b]:  1.950050E-01
+#   relative standard deviation [%]:      28.382404
 # quantity:
 #   type: Compilation spectrum-averaged
-#   average value:  1.690000E-01
-#   relative standard deviation [%]:       3.347252
+#   average value:  1.700000E-01
+#   relative standard deviation [%]:       3.056561
 # datablock:
-#   columns: 9
-#   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      Kadonis                 Compilation          2000        1.730000E-01   1.500000E-02                      1.000000   MXW         
-      Sukhoruchkin            Compilation          2015        1.610000E-01   1.600000E-02                      0.930636   MXW         
-      Mughabghab_2016         Compilation          2016        1.730000E-01   1.500000E-02                      1.000000   MXW         
+#   columns: 10
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Bao                     Compilation          2000        1.730000E-01   1.500000E-02                      1.000000   MXW            3.000000E-02
+      Kadonis                 Compilation          2000        1.730000E-01   1.500000E-02                      1.000000   MXW            3.000000E-02
+      Sukhoruchkin            Compilation          2015        1.610000E-01   1.600000E-02                      0.930636   MXW            3.000000E-02
+      Mughabghab_2016         Compilation          2016        1.730000E-01   1.500000E-02                      1.000000   MXW            3.000000E-02
 # quantity:
 #   type: Nuclear data library
 #   average value:  2.200100E-01
 #   relative standard deviation [%]:      31.651066
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 4
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      jendl5.0                NDL                  2021        1.956500E-01   0.000000E+00                      1.130925      MXW      
-      tendl.2023              NDL                  2023        3.387400E-01   0.000000E+00                      1.958035      MXW      
-      endfb8.1                NDL                  2024        1.615700E-01   0.000000E+00                      0.933931      MXW      
-      jeff4.0                 NDL                  2025        1.840800E-01   0.000000E+00                      1.064046      MXW      
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      jendl5.0                NDL                  2021        1.956500E-01   0.000000E+00                      1.130925      MXW         3.000000E-02
+      tendl.2023              NDL                  2023        3.387400E-01   0.000000E+00                      1.958035      MXW         3.000000E-02
+      endfb8.1                NDL                  2024        1.615700E-01   0.000000E+00                      0.933931      MXW         3.000000E-02
+      jeff4.0                 NDL                  2025        1.840800E-01   0.000000E+00                      1.064046      MXW         3.000000E-02

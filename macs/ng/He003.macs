@@ -1,7 +1,7 @@
 # header:
 #   title: He003(n,g) MACS
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 2
 #   A: 3
@@ -20,34 +20,34 @@
 #   average value:  1.430000E-05
 #   relative standard deviation [%]:      46.853146
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      Kadonis                 Compilation          2000        7.600001E-06   6.000001E-07                      1.000000   MXW         
-      Sukhoruchkin            Compilation          2015        2.100000E-05   1.000000E-06                      2.763158   MXW         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Kadonis                 Compilation          2000        7.600001E-06   6.000001E-07                      1.000000   MXW            3.000000E-02
+      Sukhoruchkin            Compilation          2015        2.100000E-05   1.000000E-06                      2.763158   MXW            3.000000E-02
 # quantity:
 #   type: EXFOR
 #   average value:  9.224850E-06
 #   relative standard deviation [%]:       0.269377
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      Wervelman               EXFOR                1989        9.200001E-06   2.000000E-06   22139002           1.210526               
-      Wervelman               EXFOR                1991        9.249700E-06   8.189200E-07   22230003           1.217066               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Wervelman               EXFOR                1989        9.200001E-06   2.000000E-06   22139002           1.210526                  2.450000E-02
+      Wervelman               EXFOR                1991        9.249700E-06   8.189200E-07   22230003           1.217066                  2.450000E-02
 # quantity:
 #   type: Nuclear data library
 #   average value:  1.682740E-05
 #   relative standard deviation [%]:      11.229896
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 5
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      cendl3.2                NDL                  2019        1.451300E-05   0.000000E+00                      1.909605      MXW      
-      jendl5.0                NDL                  2021        1.451300E-05   0.000000E+00                      1.909605      MXW      
-      tendl.2023              NDL                  2023        1.837000E-05   0.000000E+00                      2.417105      MXW      
-      endfb8.1                NDL                  2024        1.837100E-05   0.000000E+00                      2.417237      MXW      
-      jeff4.0                 NDL                  2025        1.837000E-05   0.000000E+00                      2.417105      MXW      
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      cendl3.2                NDL                  2019        1.451300E-05   0.000000E+00                      1.909605      MXW         3.000000E-02
+      jendl5.0                NDL                  2021        1.451300E-05   0.000000E+00                      1.909605      MXW         3.000000E-02
+      tendl.2023              NDL                  2023        1.837000E-05   0.000000E+00                      2.417105      MXW         3.000000E-02
+      endfb8.1                NDL                  2024        1.837100E-05   0.000000E+00                      2.417237      MXW         3.000000E-02
+      jeff4.0                 NDL                  2025        1.837000E-05   0.000000E+00                      2.417105      MXW         3.000000E-02

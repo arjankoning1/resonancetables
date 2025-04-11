@@ -1,7 +1,7 @@
 # header:
 #   title: Eu154(n,g) MACS
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 63
 #   A: 154
@@ -9,20 +9,21 @@
 # reaction:
 #   type: (n,g)
 # observables:
-#   selected value [b]:  0.000000E+00
-#   selected value uncertainty [b]:  0.000000E+00
-#   selected value source: 
-#   number of values: 2
-#   average value [b]:  3.471500E+00
-#   relative standard deviation [%]:       0.820970
+#   selected value [b]:  4.420000E+00
+#   selected value uncertainty [b]:  6.700000E-01
+#   selected value source: Bao
+#   number of values: 3
+#   average value [b]:  3.787667E+00
+#   relative standard deviation [%]:      11.820795
 # quantity:
 #   type: Compilation spectrum-averaged
-#   average value:  3.471500E+00
-#   relative standard deviation [%]:       0.820970
+#   average value:  3.787667E+00
+#   relative standard deviation [%]:      11.820795
 # datablock:
-#   columns: 9
-#   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      Sukhoruchkin            Compilation          2015        3.500000E+00   8.000000E-01                      Infinity   MXW         
-      Mughabghab_2016         Compilation          2016        3.443000E+00   7.500000E-01                      Infinity   MXW         
+#   columns: 10
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Bao                     Compilation          2000        4.420000E+00   6.700000E-01                      1.000000   MXW            3.000000E-02
+      Sukhoruchkin            Compilation          2015        3.500000E+00   8.000000E-01                      0.791855   MXW            3.000000E-02
+      Mughabghab_2016         Compilation          2016        3.443000E+00   7.500000E-01                      0.778959   MXW            3.000000E-02

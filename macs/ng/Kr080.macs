@@ -1,7 +1,7 @@
 # header:
 #   title: Kr080(n,g) MACS
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 36
 #   A: 80
@@ -12,41 +12,42 @@
 #   selected value [b]:  2.670000E-01
 #   selected value uncertainty [b]:  1.400000E-02
 #   selected value source: Kadonis
-#   number of values: 8
-#   average value [b]:  2.801000E-01
-#   relative standard deviation [%]:       4.783308
+#   number of values: 9
+#   average value [b]:  2.786444E-01
+#   relative standard deviation [%]:       4.767997
 # quantity:
 #   type: Compilation spectrum-averaged
-#   average value:  2.746667E-01
-#   relative standard deviation [%]:       3.947439
+#   average value:  2.727500E-01
+#   relative standard deviation [%]:       3.651433
 # datablock:
-#   columns: 9
-#   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      Kadonis                 Compilation          2000        2.670000E-01   1.400000E-02                      1.000000   MXW         
-      Sukhoruchkin            Compilation          2015        2.900000E-01   5.000000E-02                      1.086142   MXW         
-      Mughabghab_2016         Compilation          2016        2.670000E-01   1.400000E-02                      1.000000   MXW         
+#   columns: 10
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Bao                     Compilation          2000        2.670000E-01   1.400000E-02                      1.000000   MXW            3.000000E-02
+      Kadonis                 Compilation          2000        2.670000E-01   1.400000E-02                      1.000000   MXW            3.000000E-02
+      Sukhoruchkin            Compilation          2015        2.900000E-01   5.000000E-02                      1.086142   MXW            3.000000E-02
+      Mughabghab_2016         Compilation          2016        2.670000E-01   1.400000E-02                      1.000000   MXW            3.000000E-02
 # quantity:
 #   type: EXFOR spectrum-averaged
 #   average value:  2.570000E-01
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      Tessler                 EXFOR                2021        2.570000E-01   1.600000E-02   31837010           0.962547   MXW         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Tessler                 EXFOR                2021        2.570000E-01   1.600000E-02   31837010           0.962547   MXW            3.000000E-02
 # quantity:
 #   type: Nuclear data library
 #   average value:  2.899500E-01
 #   relative standard deviation [%]:       1.474682
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 4
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      jendl5.0                NDL                  2021        2.842400E-01   0.000000E+00                      1.064569      MXW      
-      tendl.2023              NDL                  2023        2.896300E-01   0.000000E+00                      1.084756      MXW      
-      endfb8.1                NDL                  2024        2.963000E-01   0.000000E+00                      1.109738      MXW      
-      jeff4.0                 NDL                  2025        2.896300E-01   0.000000E+00                      1.084756      MXW      
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      jendl5.0                NDL                  2021        2.842400E-01   0.000000E+00                      1.064569      MXW         3.000000E-02
+      tendl.2023              NDL                  2023        2.896300E-01   0.000000E+00                      1.084756      MXW         3.000000E-02
+      endfb8.1                NDL                  2024        2.963000E-01   0.000000E+00                      1.109738      MXW         3.000000E-02
+      jeff4.0                 NDL                  2025        2.896300E-01   0.000000E+00                      1.084756      MXW         3.000000E-02

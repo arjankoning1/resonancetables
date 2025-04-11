@@ -1,7 +1,7 @@
 # header:
 #   title: Yb168(n,g) MACS
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 70
 #   A: 168
@@ -20,45 +20,45 @@
 #   average value:  1.177125E+00
 #   relative standard deviation [%]:       3.349764
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 4
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      Kadonis                 Compilation          2000        1.214000E+00   4.900000E-02                      1.083445   MXW         
-      Sukhoruchkin            Compilation          2015        1.160000E+00   4.400000E-01                      1.035252   MXW         
-      Mughabghab_2016         Compilation          2016        1.214000E+00   6.100000E-01                      1.083445   MXW         
-      Astral                  Compilation          2020        1.120500E+00   1.084343E-02                      1.000000   MXW         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Kadonis                 Compilation          2000        1.214000E+00   4.900000E-02                      1.083445   MXW            3.000000E-02
+      Sukhoruchkin            Compilation          2015        1.160000E+00   4.400000E-01                      1.035252   MXW            3.000000E-02
+      Mughabghab_2016         Compilation          2016        1.214000E+00   6.100000E-01                      1.083445   MXW            3.000000E-02
+      Astral                  Compilation          2020        1.120500E+00   1.084343E-02                      1.000000   MXW            3.000000E-02
 # quantity:
 #   type: EXFOR
 #   average value:  4.897000E+01
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      Siddappa                EXFOR                1970        4.897000E+01   4.910000E+00   30248007          43.703701               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Siddappa                EXFOR                1970        4.897000E+01   4.910000E+00   30248007          43.703701                  2.500000E-02
 # quantity:
 #   type: EXFOR spectrum-averaged
 #   average value:  1.273500E+00
 #   relative standard deviation [%]:       3.023165
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      Marganiec               EXFOR                2010        1.312000E+00   6.300000E-02   23094026           1.170906   MXW         
-      Marganiec               EXFOR                2010        1.235000E+00   6.100000E-02   23094008           1.102186   MXW         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Marganiec               EXFOR                2010        1.312000E+00   6.300000E-02   23094026           1.170906   MXW            2.500000E-02
+      Marganiec               EXFOR                2010        1.235000E+00   6.100000E-02   23094008           1.102186   MXW            2.500000E-02
 # quantity:
 #   type: Nuclear data library
 #   average value:  1.218750E+00
 #   relative standard deviation [%]:       3.751913
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 4
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      jendl5.0                NDL                  2021        1.217900E+00   0.000000E+00                      1.086925      MXW      
-      tendl.2023              NDL                  2023        1.181700E+00   0.000000E+00                      1.054618      MXW      
-      endfb8.1                NDL                  2024        1.293700E+00   0.000000E+00                      1.154574      MXW      
-      jeff4.0                 NDL                  2025        1.181700E+00   0.000000E+00                      1.054618      MXW      
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      jendl5.0                NDL                  2021        1.217900E+00   0.000000E+00                      1.086925      MXW         3.000000E-02
+      tendl.2023              NDL                  2023        1.181700E+00   0.000000E+00                      1.054618      MXW         3.000000E-02
+      endfb8.1                NDL                  2024        1.293700E+00   0.000000E+00                      1.154574      MXW         3.000000E-02
+      jeff4.0                 NDL                  2025        1.181700E+00   0.000000E+00                      1.054618      MXW         3.000000E-02

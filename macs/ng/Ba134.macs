@@ -1,7 +1,7 @@
 # header:
 #   title: Ba134(n,g) MACS
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 56
 #   A: 134
@@ -12,43 +12,44 @@
 #   selected value [b]:  1.856433E-01
 #   selected value uncertainty [b]:  6.041224E-03
 #   selected value source: Astral
-#   number of values: 10
-#   average value [b]:  1.929143E-01
-#   relative standard deviation [%]:      11.038394
+#   number of values: 11
+#   average value [b]:  1.913767E-01
+#   relative standard deviation [%]:      10.909267
 # quantity:
 #   type: Compilation spectrum-averaged
-#   average value:  1.943108E-01
-#   relative standard deviation [%]:      10.795191
+#   average value:  1.906487E-01
+#   relative standard deviation [%]:      10.564296
 # datablock:
-#   columns: 9
-#   entries: 4
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      Kadonis                 Compilation          2000        1.760000E-01   5.600000E-03                      0.948055   MXW         
-      Sukhoruchkin            Compilation          2015        2.300000E-01   4.000000E-02                      1.238935   MXW         
-      Mughabghab_2016         Compilation          2016        1.856000E-01   5.900000E-03                      0.999767   MXW         
-      Astral                  Compilation          2020        1.856433E-01   6.041224E-03                      1.000000   MXW         
+#   columns: 10
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Bao                     Compilation          2000        1.760000E-01   5.600000E-03                      0.948055   MXW            3.000000E-02
+      Kadonis                 Compilation          2000        1.760000E-01   5.600000E-03                      0.948055   MXW            3.000000E-02
+      Sukhoruchkin            Compilation          2015        2.300000E-01   4.000000E-02                      1.238935   MXW            3.000000E-02
+      Mughabghab_2016         Compilation          2016        1.856000E-01   5.900000E-03                      0.999767   MXW            3.000000E-02
+      Astral                  Compilation          2020        1.856433E-01   6.041224E-03                      1.000000   MXW            3.000000E-02
 # quantity:
 #   type: EXFOR spectrum-averaged
 #   average value:  1.763000E-01
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      Wisshak                 EXFOR                1994        1.763000E-01   5.600000E-03   22337002           0.949671   MXW         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Wisshak                 EXFOR                1994        1.763000E-01   5.600000E-03   22337002           0.949671   MXW            3.000000E-02
 # quantity:
 #   type: Nuclear data library
 #   average value:  1.951200E-01
 #   relative standard deviation [%]:      11.382808
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 5
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      cendl3.2                NDL                  2019        2.373700E-01   0.000000E+00                      1.278635      MXW      
-      jendl5.0                NDL                  2021        1.779500E-01   0.000000E+00                      0.958559      MXW      
-      tendl.2023              NDL                  2023        1.921900E-01   0.000000E+00                      1.035265      MXW      
-      endfb8.1                NDL                  2024        1.759000E-01   0.000000E+00                      0.947516      MXW      
-      jeff4.0                 NDL                  2025        1.921900E-01   0.000000E+00                      1.035265      MXW      
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      cendl3.2                NDL                  2019        2.373700E-01   0.000000E+00                      1.278635      MXW         3.000000E-02
+      jendl5.0                NDL                  2021        1.779500E-01   0.000000E+00                      0.958559      MXW         3.000000E-02
+      tendl.2023              NDL                  2023        1.921900E-01   0.000000E+00                      1.035265      MXW         3.000000E-02
+      endfb8.1                NDL                  2024        1.759000E-01   0.000000E+00                      0.947516      MXW         3.000000E-02
+      jeff4.0                 NDL                  2025        1.921900E-01   0.000000E+00                      1.035265      MXW         3.000000E-02

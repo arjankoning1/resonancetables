@@ -1,7 +1,7 @@
 # header:
 #   title: In000(n,g) MACS
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 49
 #   A: 0
@@ -9,9 +9,9 @@
 # reaction:
 #   type: (n,g)
 # observables:
-#   selected value [b]:  8.337801E-01
-#   selected value uncertainty [b]:  3.520000E-02
-#   selected value source: Block
+#   selected value [b]:  0.000000E+00
+#   selected value uncertainty [b]:  0.000000E+00
+#   selected value source: 
 #   number of values: 6
 #   average value [b]:  8.166301E-01
 #   relative standard deviation [%]:       3.556715
@@ -20,13 +20,13 @@
 #   average value:  8.166301E-01
 #   relative standard deviation [%]:       3.556715
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 6
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      Schmitt                 EXFOR                1960        8.540000E-01   6.000000E-02   11778008           1.024251               
-      Koroleva                EXFOR                1965        7.780001E-01   7.900000E-02   40074005           0.933100               
-      Belanova                EXFOR                1965        8.360000E-01   9.000000E-02   400720282          1.002663               
-      Belanova                EXFOR                1965        8.200001E-01   7.700001E-02   400720281          0.983473               
-      Belanova                EXFOR                1965        7.780001E-01   6.600000E-02   40072010           0.933100               
-      Block                   EXFOR                1972        8.337801E-01   3.520000E-02   105940022          1.000000               
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Schmitt                 EXFOR                1960        8.540000E-01   6.000000E-02   11778008           1.000000                  2.400000E-02
+      Koroleva                EXFOR                1965        7.780001E-01   7.900000E-02   40074005           1.000000                  2.400000E-02
+      Belanova                EXFOR                1965        8.360000E-01   9.000000E-02   400720282          1.000000                  2.400000E-02
+      Belanova                EXFOR                1965        8.200001E-01   7.700001E-02   400720281          1.000000                  2.400000E-02
+      Belanova                EXFOR                1965        7.780001E-01   6.600000E-02   40072010           1.000000                  2.400000E-02
+      Block                   EXFOR                1972        8.337801E-01   3.520000E-02   105940022          1.000000                  2.430000E-02

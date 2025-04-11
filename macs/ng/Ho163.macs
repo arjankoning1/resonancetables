@@ -1,7 +1,7 @@
 # header:
 #   title: Ho163(n,g) MACS
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 67
 #   A: 163
@@ -12,28 +12,29 @@
 #   selected value [b]:  2.125000E+00
 #   selected value uncertainty [b]:  9.500001E-02
 #   selected value source: Kadonis
-#   number of values: 4
-#   average value [b]:  2.396050E+00
-#   relative standard deviation [%]:       7.255019
+#   number of values: 5
+#   average value [b]:  2.341840E+00
+#   relative standard deviation [%]:       8.094092
 # quantity:
 #   type: Compilation spectrum-averaged
 #   average value:  2.125000E+00
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 9
-#   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      Kadonis                 Compilation          2000        2.125000E+00   9.500001E-02                      1.000000   MXW         
+#   columns: 10
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Bao                     Compilation          2000        2.125000E+00   9.500001E-02                      1.000000   MXW            3.000000E-02
+      Kadonis                 Compilation          2000        2.125000E+00   9.500001E-02                      1.000000   MXW            3.000000E-02
 # quantity:
 #   type: Nuclear data library
 #   average value:  2.486400E+00
 #   relative standard deviation [%]:       3.515058
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      jendl5.0                NDL                  2021        2.610000E+00   0.000000E+00                      1.228235      MXW      
-      tendl.2023              NDL                  2023        2.424600E+00   0.000000E+00                      1.140988      MXW      
-      jeff4.0                 NDL                  2025        2.424600E+00   0.000000E+00                      1.140988      MXW      
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      jendl5.0                NDL                  2021        2.610000E+00   0.000000E+00                      1.228235      MXW         3.000000E-02
+      tendl.2023              NDL                  2023        2.424600E+00   0.000000E+00                      1.140988      MXW         3.000000E-02
+      jeff4.0                 NDL                  2025        2.424600E+00   0.000000E+00                      1.140988      MXW         3.000000E-02

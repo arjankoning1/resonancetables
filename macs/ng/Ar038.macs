@@ -1,7 +1,7 @@
 # header:
 #   title: Ar038(n,g) MACS
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 18
 #   A: 38
@@ -20,22 +20,22 @@
 #   average value:  1.766798E-03
 #   relative standard deviation [%]:      47.158871
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      Mughabghab_2016         Compilation          2016        2.600000E-03   2.000000E-04                      2.784930   MXW         
-      Astral                  Compilation          2020        9.335961E-04   1.026956E-04                      1.000000   MXW         
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Mughabghab_2016         Compilation          2016        2.600000E-03   2.000000E-04                      2.784930   MXW            3.000000E-02
+      Astral                  Compilation          2020        9.335961E-04   1.026956E-04                      1.000000   MXW            3.000000E-02
 # quantity:
 #   type: Nuclear data library
 #   average value:  1.507742E-03
 #   relative standard deviation [%]:      68.325401
 # datablock:
-#   columns: 9
+#   columns: 10
 #   entries: 4
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum
-##      []             []             []             []             [b]            [b]            []             []             []
-      jendl5.0                NDL                  2021        8.972900E-04   0.000000E+00                      0.961112      MXW      
-      tendl.2023              NDL                  2023        2.501600E-03   0.000000E+00                      2.679531      MXW      
-      endfb8.1                NDL                  2024        1.304800E-04   0.000000E+00                      0.139761      MXW      
-      jeff4.0                 NDL                  2025        2.501600E-03   0.000000E+00                      2.679531      MXW      
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      jendl5.0                NDL                  2021        8.972900E-04   0.000000E+00                      0.961112      MXW         3.000000E-02
+      tendl.2023              NDL                  2023        2.501600E-03   0.000000E+00                      2.679531      MXW         3.000000E-02
+      endfb8.1                NDL                  2024        1.304800E-04   0.000000E+00                      0.139761      MXW         3.000000E-02
+      jeff4.0                 NDL                  2025        2.501600E-03   0.000000E+00                      2.679531      MXW         3.000000E-02

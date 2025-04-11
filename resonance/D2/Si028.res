@@ -1,0 +1,27 @@
+# header:
+#   title: Si028 D2 resonance data
+#   source: Resonancetables
+#   date: 2025-04-10
+# target:
+#   Z: 14
+#   A: 28
+#   nuclide: Si028
+# reaction:
+#   type: D2
+# parameters:
+#   selected value [eV]:  6.480000E+04
+#   selected value uncertainty [eV]:  5.100000E+03
+#   selected value source: Mughabghab_2016
+#   number of values: 1
+#   average value [b]:  6.480000E+04
+#   relative standard deviation [%]:       0.000000
+# quantity:
+#   type: Compilation
+#   average value:  6.480000E+04
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      Mughabghab_2016         Compilation          2016        6.480000E+04   5.100000E+03                      1.000000

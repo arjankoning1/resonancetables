@@ -1,7 +1,7 @@
 # header:
 #   title: Ar040 D1 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 18
 #   A: 40
@@ -30,13 +30,13 @@
 #   average value:  3.366667E+04
 #   relative standard deviation [%]:      36.486187
 # datablock:
-#   columns: 8
+#   columns: 13
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      H.I.Liou                EXFOR                1975        2.400000E+04   0.000000E+00      10410-004       2.105263
-      R.R.Winters             EXFOR                1991        2.600000E+04   2.000000E+03      13501-006       2.280702
-      R.R.Winters             EXFOR                1991        5.100000E+04   5.000000E+03      13501-006       4.473684
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      H.I.Liou                EXFOR                1975        2.400000E+04   0.000000E+00      10410-004       2.105263   1.117000E-02   5.693000E-01       1.0                                   
+      R.R.Winters             EXFOR                1991        2.600000E+04   2.000000E+03      13501-006       2.280702   7.000000E-03   1.520000E+00       1.0            1.5                    
+      R.R.Winters             EXFOR                1991        5.100000E+04   5.000000E+03      13501-006       4.473684   7.000000E-03   1.520000E+00       1.0            0.5                    
 # quantity:
 #   type: Nuclear data library
 #   average value:  1.084340E+04

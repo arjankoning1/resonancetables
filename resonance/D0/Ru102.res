@@ -1,7 +1,7 @@
 # header:
 #   title: Ru102 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 44
 #   A: 102
@@ -20,24 +20,24 @@
 #   average value:  4.150000E+02
 #   relative standard deviation [%]:      32.530121
 # datablock:
-#   columns: 8
+#   columns: 9
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-2                  Compilation          2000        5.500000E+02   1.500000E+02            79F       1.964286
-      RIPL-3                  Compilation          2009        2.800000E+02   5.000000E+01            04I       1.000000
+##    Author                         Type           Year           Value         dValue        Reference        Ratio       #Resonances
+##      []             []             []             []            [eV]           [eV]            []             []             []
+      RIPL-2                  Compilation          2000        5.500000E+02   1.500000E+02            79F       1.964286        4      
+      RIPL-3                  Compilation          2009        2.800000E+02   5.000000E+01            04I       1.000000               
 # quantity:
 #   type: EXFOR
 #   average value:  2.540000E+02
 #   relative standard deviation [%]:      79.619766
 # datablock:
-#   columns: 8
+#   columns: 13
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      H.G.Priesmeyer          EXFOR                1972        5.400000E+02   3.600000E+02      20507-023       1.928571
-      R.W.Hockenbury          EXFOR                1975        1.100000E+02   0.000000E+00      10552-014       0.392857
-      V.A.Anufriev            EXFOR                1985        1.120000E+02   2.000000E+01      40866-006       0.400000
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      H.G.Priesmeyer          EXFOR                1972        5.400000E+02   3.600000E+02      20507-023       1.928571   1.000000E-06   1.500000E-03       0.0                                   
+      R.W.Hockenbury          EXFOR                1975        1.100000E+02   0.000000E+00      10552-014       0.392857   1.650000E-02   7.120000E-02       0.0                                   
+      V.A.Anufriev            EXFOR                1985        1.120000E+02   2.000000E+01      40866-006       0.400000   4.000000E-06   1.700000E-03       0.0                                   
 # quantity:
 #   type: Nuclear data library
 #   average value:  7.025260E+02

@@ -1,7 +1,7 @@
 # header:
 #   title: Pr141 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 59
 #   A: 141
@@ -20,29 +20,29 @@
 #   average value:  1.100000E+02
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 8
+#   columns: 9
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-2                  Compilation          2000        1.100000E+02   2.000000E+01            96I       1.000000
-      RIPL-3                  Compilation          2009        1.100000E+02   2.000000E+01            96I       1.000000
-      Mughabghab_2016         Compilation          2016        1.100000E+02   6.000000E+00                      1.000000
+##    Author                         Type           Year           Value         dValue        Reference        Ratio       #Resonances
+##      []             []             []             []            [eV]           [eV]            []             []             []
+      RIPL-2                  Compilation          2000        1.100000E+02   2.000000E+01            96I       1.000000               
+      RIPL-3                  Compilation          2009        1.100000E+02   2.000000E+01            96I       1.000000               
+      Mughabghab_2016         Compilation          2016        1.100000E+02   6.000000E+00                      1.000000               
 # quantity:
 #   type: EXFOR
 #   average value:  3.872868E+02
 #   relative standard deviation [%]:     191.349304
 # datablock:
-#   columns: 8
+#   columns: 13
 #   entries: 7
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      J.H.Gibbons             EXFOR                1961        1.200000E+02   0.000000E+00      11329-093       1.090909
-      Wang-Nai-Yen            EXFOR                1964        6.400000E+01   1.300000E+01      41210-004       0.581818
-      S.P.Kapchigashev        EXFOR                1966        2.200000E+03   4.000000E+02      40778-060      20.000000
-      S.Wynchank              EXFOR                1968        7.520000E-03   4.000000E-04      11913-021       0.000068
-      R.B.Taylor              EXFOR                1979        1.020000E+02   2.000000E+01      30490-003       0.927273
-      R.B.Taylor              EXFOR                1979        1.090000E+02   0.000000E+00      30490-003       0.990909
-      R.B.Taylor              EXFOR                1979        1.160000E+02   1.000000E+01      30490-003       1.054545
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      J.H.Gibbons             EXFOR                1961        1.200000E+02   0.000000E+00      11329-093       1.090909   1.000000E-02   2.000000E-01       0.0                                   
+      Wang-Nai-Yen            EXFOR                1964        6.400000E+01   1.300000E+01      41210-004       0.581818   1.000000E-06   1.000000E-03       0.0                                   
+      S.P.Kapchigashev        EXFOR                1966        2.200000E+03   4.000000E+02      40778-060      20.000000                  5.000000E-02       0.0                                   
+      S.Wynchank              EXFOR                1968        7.520000E-03   4.000000E-04      11913-021       0.000068                  1.000000E-04       0.0                                   
+      R.B.Taylor              EXFOR                1979        1.020000E+02   2.000000E+01      30490-003       0.927273   3.000000E-03   2.000000E-01       0.0                                   
+      R.B.Taylor              EXFOR                1979        1.090000E+02   0.000000E+00      30490-003       0.990909   2.600000E-03   1.000000E-02       0.0                                   
+      R.B.Taylor              EXFOR                1979        1.160000E+02   1.000000E+01      30490-003       1.054545                  1.000000E-02       0.0                                   
 # quantity:
 #   type: Nuclear data library
 #   average value:  1.207590E+02

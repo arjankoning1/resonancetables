@@ -1,7 +1,7 @@
 # header:
 #   title: Sn120 D1 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 50
 #   A: 120
@@ -31,11 +31,11 @@
 #   average value:  3.700000E+02
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 8
+#   columns: 13
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      R.F.Carlton             EXFOR                1976        3.700000E+02   2.500000E+01      10639-004       0.902439
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      R.F.Carlton             EXFOR                1976        3.700000E+02   2.500000E+01      10639-004       0.902439                                     1.0                                   
 # quantity:
 #   type: Nuclear data library
 #   average value:  3.901150E+02

@@ -1,7 +1,7 @@
 # header:
 #   title: Hf178n Ig resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 72
 #   A: 178
@@ -24,5 +24,5 @@
 #   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      tendl.2023              NDL                  2023        1.217780E+04   0.000000E+00                      Infinity
-      jeff4.0                 NDL                  2025        1.217780E+04   0.000000E+00                      Infinity
+      tendl.2023              NDL                  2023        1.217780E+04   0.000000E+00                      1.000000
+      jeff4.0                 NDL                  2025        1.217780E+04   0.000000E+00                      1.000000

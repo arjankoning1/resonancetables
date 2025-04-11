@@ -1,7 +1,7 @@
 # header:
 #   title: Hf176 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 72
 #   A: 176
@@ -20,25 +20,25 @@
 #   average value:  2.800000E+01
 #   relative standard deviation [%]:      10.101525
 # datablock:
-#   columns: 8
+#   columns: 9
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-2                  Compilation          2000        3.000000E+01   7.000000E+00            97I       1.000000
-      RIPL-3                  Compilation          2009        3.000000E+01   7.000000E+00            97I       1.000000
-      Mughabghab_2016         Compilation          2016        2.400000E+01   3.000000E+00                      0.800000
+##    Author                         Type           Year           Value         dValue        Reference        Ratio       #Resonances
+##      []             []             []             []            [eV]           [eV]            []             []             []
+      RIPL-2                  Compilation          2000        3.000000E+01   7.000000E+00            97I       1.000000               
+      RIPL-3                  Compilation          2009        3.000000E+01   7.000000E+00            97I       1.000000               
+      Mughabghab_2016         Compilation          2016        2.400000E+01   3.000000E+00                      0.800000               
 # quantity:
 #   type: EXFOR
 #   average value:  3.493333E+01
 #   relative standard deviation [%]:       4.183263
 # datablock:
-#   columns: 8
+#   columns: 13
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      G.P.Georgiev            EXFOR                1995        3.700000E+01   7.000000E+00      41570-006       1.233333
-      G.Noguere               EXFOR                2009        3.390000E+01   2.400000E+00      22956-045       1.130000
-      G.Noguere               EXFOR                2009        3.390000E+01   2.400000E+00      22956-039       1.130000
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      G.P.Georgiev            EXFOR                1995        3.700000E+01   7.000000E+00      41570-006       1.233333                                     0.0                                   
+      G.Noguere               EXFOR                2009        3.390000E+01   2.400000E+00      22956-045       1.130000   7.890000E-06   1.068500E-03       0.0                                   
+      G.Noguere               EXFOR                2009        3.390000E+01   2.400000E+00      22956-039       1.130000   7.890000E-06   1.068500E-03       0.0                                   
 # quantity:
 #   type: Nuclear data library
 #   average value:  4.300000E+01

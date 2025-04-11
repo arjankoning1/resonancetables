@@ -1,7 +1,7 @@
 # header:
 #   title: Ga000 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 31
 #   A: 0
@@ -20,8 +20,8 @@
 #   average value:  2.900000E+03
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 8
+#   columns: 13
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      S.P.Kapchigashev        EXFOR                1966        2.900000E+03   8.000000E+02      40778-004       1.000000
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      S.P.Kapchigashev        EXFOR                1966        2.900000E+03   8.000000E+02      40778-004       1.000000                  5.000000E-02       0.0                                   

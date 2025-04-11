@@ -1,7 +1,7 @@
 # header:
 #   title: P031 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 15
 #   A: 31
@@ -20,23 +20,23 @@
 #   average value:  5.996667E+04
 #   relative standard deviation [%]:      18.037949
 # datablock:
-#   columns: 8
+#   columns: 9
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-2                  Compilation          2000        7.500000E+04   2.000000E+04            79R       1.500000
-      RIPL-3                  Compilation          2009        5.000000E+04   1.200000E+04            08M       1.000000
-      Mughabghab_2016         Compilation          2016        5.490000E+04   1.040000E+04                      1.098000
+##    Author                         Type           Year           Value         dValue        Reference        Ratio       #Resonances
+##      []             []             []             []            [eV]           [eV]            []             []             []
+      RIPL-2                  Compilation          2000        7.500000E+04   2.000000E+04            79R       1.500000               
+      RIPL-3                  Compilation          2009        5.000000E+04   1.200000E+04            08M       1.000000               
+      Mughabghab_2016         Compilation          2016        5.490000E+04   1.040000E+04                      1.098000               
 # quantity:
 #   type: EXFOR
 #   average value:  1.300000E+02
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 8
+#   columns: 13
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      K.Tsukada               EXFOR                1963        1.300000E+02   0.000000E+00      20292-007       0.002600
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      K.Tsukada               EXFOR                1963        1.300000E+02   0.000000E+00      20292-007       0.002600   3.000000E+00   4.000000E+00       0.0                                   
 # quantity:
 #   type: Nuclear data library
 #   average value:  4.950110E+05

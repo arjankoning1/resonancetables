@@ -1,7 +1,7 @@
 # header:
 #   title: Pu244 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 94
 #   A: 244
@@ -20,13 +20,13 @@
 #   average value:  1.866667E+01
 #   relative standard deviation [%]:       2.525381
 # datablock:
-#   columns: 8
+#   columns: 9
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-2                  Compilation          2000        1.900000E+01   3.000000E+00            97I       1.000000
-      RIPL-3                  Compilation          2009        1.900000E+01   3.000000E+00            97I       1.000000
-      Mughabghab_2016         Compilation          2016        1.800000E+01   3.500000E+00                      0.947368
+##    Author                         Type           Year           Value         dValue        Reference        Ratio       #Resonances
+##      []             []             []             []            [eV]           [eV]            []             []             []
+      RIPL-2                  Compilation          2000        1.900000E+01   3.000000E+00            97I       1.000000               
+      RIPL-3                  Compilation          2009        1.900000E+01   3.000000E+00            97I       1.000000               
+      Mughabghab_2016         Compilation          2016        1.800000E+01   3.500000E+00                      0.947368               
 # quantity:
 #   type: Nuclear data library
 #   average value:  2.230770E+01

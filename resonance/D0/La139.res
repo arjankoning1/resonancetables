@@ -1,7 +1,7 @@
 # header:
 #   title: La139 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 57
 #   A: 139
@@ -20,26 +20,26 @@
 #   average value:  2.166667E+02
 #   relative standard deviation [%]:       2.175713
 # datablock:
-#   columns: 8
+#   columns: 9
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-2                  Compilation          2000        2.200000E+02   4.000000E+01            96I       1.000000
-      RIPL-3                  Compilation          2009        2.200000E+02   2.000000E+01            96I       1.000000
-      Mughabghab_2016         Compilation          2016        2.100000E+02   1.000000E+01                      0.954545
+##    Author                         Type           Year           Value         dValue        Reference        Ratio       #Resonances
+##      []             []             []             []            [eV]           [eV]            []             []             []
+      RIPL-2                  Compilation          2000        2.200000E+02   4.000000E+01            96I       1.000000        1      
+      RIPL-3                  Compilation          2009        2.200000E+02   2.000000E+01            96I       1.000000               
+      Mughabghab_2016         Compilation          2016        2.100000E+02   1.000000E+01                      0.954545               
 # quantity:
 #   type: EXFOR
 #   average value:  1.417000E+03
 #   relative standard deviation [%]:     145.993225
 # datablock:
-#   columns: 8
+#   columns: 13
 #   entries: 4
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      S.P.Kapchigashev        EXFOR                1966        5.000000E+03   1.000000E+03      40778-058      22.727272
-      G.Hacken                EXFOR                1976        2.080000E+02   1.000000E+01      10579-004       0.945455
-      A.R.De L.Musgrove       EXFOR                1977        2.080000E+02   1.000000E+01      30384-003       0.945455
-      R.Terlizzi              EXFOR                2007        2.520000E+02   2.200000E+01      22930-003       1.145455
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      S.P.Kapchigashev        EXFOR                1966        5.000000E+03   1.000000E+03      40778-058      22.727272                  5.000000E-02       0.0                                   
+      G.Hacken                EXFOR                1976        2.080000E+02   1.000000E+01      10579-004       0.945455   6.000000E-03   2.600000E-02       0.0                                   
+      A.R.De L.Musgrove       EXFOR                1977        2.080000E+02   1.000000E+01      30384-003       0.945455   3.000000E-03   2.000000E-01       0.0                                   
+      R.Terlizzi              EXFOR                2007        2.520000E+02   2.200000E+01      22930-003       1.145455   6.000000E-07   9.000000E-03       0.0                                   
 # quantity:
 #   type: Nuclear data library
 #   average value:  2.436030E+02

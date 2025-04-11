@@ -1,7 +1,7 @@
 # header:
 #   title: La139 D1 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 57
 #   A: 139
@@ -30,11 +30,11 @@
 #   average value:  2.500000E+02
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 8
+#   columns: 13
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      R.Terlizzi              EXFOR                2007        2.500000E+02   0.000000E+00      22930-003       1.552795
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      R.Terlizzi              EXFOR                2007        2.500000E+02   0.000000E+00      22930-003       1.552795   6.000000E-07   9.000000E-03       1.0                                   
 # quantity:
 #   type: Nuclear data library
 #   average value:  2.753770E+02

@@ -1,7 +1,7 @@
 # header:
 #   title: Sm154 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 62
 #   A: 154
@@ -20,24 +20,24 @@
 #   average value:  1.133333E+02
 #   relative standard deviation [%]:       0.831890
 # datablock:
-#   columns: 8
+#   columns: 9
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-2                  Compilation          2000        1.140000E+02   1.500000E+01            97I       1.000000
-      RIPL-3                  Compilation          2009        1.140000E+02   1.500000E+01            04I       1.000000
-      Mughabghab_2016         Compilation          2016        1.120000E+02   1.500000E+01                      0.982456
+##    Author                         Type           Year           Value         dValue        Reference        Ratio       #Resonances
+##      []             []             []             []            [eV]           [eV]            []             []             []
+      RIPL-2                  Compilation          2000        1.140000E+02   1.500000E+01            97I       1.000000               
+      RIPL-3                  Compilation          2009        1.140000E+02   1.500000E+01            04I       1.000000               
+      Mughabghab_2016         Compilation          2016        1.120000E+02   1.500000E+01                      0.982456               
 # quantity:
 #   type: EXFOR
 #   average value:  1.025000E+02
 #   relative standard deviation [%]:      12.195122
 # datablock:
-#   columns: 8
+#   columns: 13
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      E.M.Karzhavina          EXFOR                1969        9.000000E+01   1.000000E+01      40165-005       0.789474
-      F.Rahn                  EXFOR                1972        1.150000E+02   8.000000E+00      10046-028       1.008772
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      E.M.Karzhavina          EXFOR                1969        9.000000E+01   1.000000E+01      40165-005       0.789474   9.300000E-05   1.300000E-03       0.0                                   
+      F.Rahn                  EXFOR                1972        1.150000E+02   8.000000E+00      10046-028       1.008772                  3.100000E-03       0.0                                   
 # quantity:
 #   type: Nuclear data library
 #   average value:  1.492650E+02

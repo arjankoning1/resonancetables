@@ -1,7 +1,7 @@
 # header:
 #   title: Ta181 D1 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 73
 #   A: 181
@@ -20,8 +20,8 @@
 #   average value:  2.150000E+00
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 8
+#   columns: 13
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      T.Y.Byoun               EXFOR                1973        2.150000E+00   0.000000E+00      10577-040       1.000000
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      T.Y.Byoun               EXFOR                1973        2.150000E+00   0.000000E+00      10577-040       1.000000   1.000000E-02   1.000000E-01       1.0                                   

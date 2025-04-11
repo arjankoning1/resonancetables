@@ -1,7 +1,7 @@
 # header:
 #   title: Yb170 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 70
 #   A: 170
@@ -20,23 +20,23 @@
 #   average value:  3.050000E+01
 #   relative standard deviation [%]:      16.447996
 # datablock:
-#   columns: 8
+#   columns: 9
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-2                  Compilation          2000        3.300000E+01   6.000000E+00            97I       0.942857
-      RIPL-3                  Compilation          2009        3.500000E+01   6.000000E+00            97I       1.000000
-      Mughabghab_2016         Compilation          2016        2.350000E+01   5.100000E+00                      0.671429
+##    Author                         Type           Year           Value         dValue        Reference        Ratio       #Resonances
+##      []             []             []             []            [eV]           [eV]            []             []             []
+      RIPL-2                  Compilation          2000        3.300000E+01   6.000000E+00            97I       0.942857        2      
+      RIPL-3                  Compilation          2009        3.500000E+01   6.000000E+00            97I       1.000000               
+      Mughabghab_2016         Compilation          2016        2.350000E+01   5.100000E+00                      0.671429               
 # quantity:
 #   type: EXFOR
 #   average value:  2.260000E+01
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 8
+#   columns: 13
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      H.Beer                  EXFOR                1981        2.260000E+01   0.000000E+00      21737-006       0.645714
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      H.Beer                  EXFOR                1981        2.260000E+01   0.000000E+00      21737-006       0.645714   5.170000E-03   1.714600E-01       0.0                                   
 # quantity:
 #   type: Nuclear data library
 #   average value:  4.460800E+01

@@ -1,7 +1,7 @@
 # header:
 #   title: Cf249 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 98
 #   A: 249
@@ -20,25 +20,25 @@
 #   average value:  7.400000E-01
 #   relative standard deviation [%]:       3.822201
 # datablock:
-#   columns: 8
+#   columns: 9
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-2                  Compilation          2000        7.000000E-01   9.999999E-02            97I       0.921053
-      RIPL-3                  Compilation          2009        7.600001E-01   9.999999E-02            97I       1.000000
-      Mughabghab_2016         Compilation          2016        7.600000E-01   3.000000E-02                      1.000000
+##    Author                         Type           Year           Value         dValue        Reference        Ratio       #Resonances
+##      []             []             []             []            [eV]           [eV]            []             []             []
+      RIPL-2                  Compilation          2000        7.000000E-01   9.999999E-02            97I       0.921053               
+      RIPL-3                  Compilation          2009        7.600001E-01   9.999999E-02            97I       1.000000               
+      Mughabghab_2016         Compilation          2016        7.600000E-01   3.000000E-02                      1.000000               
 # quantity:
 #   type: EXFOR
 #   average value:  1.130000E+00
 #   relative standard deviation [%]:       5.735168
 # datablock:
-#   columns: 8
+#   columns: 13
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      M.G.Silbert             EXFOR                1973        1.070000E+00   1.200000E-01      10292-004       1.407895
-      V.A.Anufriev            EXFOR                1983        1.100000E+00   6.000000E-02      40735-004       1.447368
-      R.W.Benjamin            EXFOR                1983        1.220000E+00   1.200000E-01      10724-004       1.605263
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      M.G.Silbert             EXFOR                1973        1.070000E+00   1.200000E-01      10292-004       1.407895                                     0.0                                   
+      V.A.Anufriev            EXFOR                1983        1.100000E+00   6.000000E-02      40735-004       1.447368   4.500000E-07   6.600000E-05       0.0                                   
+      R.W.Benjamin            EXFOR                1983        1.220000E+00   1.200000E-01      10724-004       1.605263   7.000000E-07   8.980000E-05       0.0                                   
 # quantity:
 #   type: Nuclear data library
 #   average value:  1.477050E+00

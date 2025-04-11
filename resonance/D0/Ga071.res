@@ -1,7 +1,7 @@
 # header:
 #   title: Ga071 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 31
 #   A: 71
@@ -20,23 +20,23 @@
 #   average value:  3.200000E+02
 #   relative standard deviation [%]:      26.516504
 # datablock:
-#   columns: 8
+#   columns: 9
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-2                  Compilation          2000        3.800000E+02   6.000000E+01            96I       1.000000
-      RIPL-3                  Compilation          2009        3.800000E+02   6.000000E+01            96I       1.000000
-      Mughabghab_2016         Compilation          2016        2.000000E+02   2.000000E+01                      0.526316
+##    Author                         Type           Year           Value         dValue        Reference        Ratio       #Resonances
+##      []             []             []             []            [eV]           [eV]            []             []             []
+      RIPL-2                  Compilation          2000        3.800000E+02   6.000000E+01            96I       1.000000               
+      RIPL-3                  Compilation          2009        3.800000E+02   6.000000E+01            96I       1.000000               
+      Mughabghab_2016         Compilation          2016        2.000000E+02   2.000000E+01                      0.526316               
 # quantity:
 #   type: EXFOR
 #   average value:  3.300000E+02
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 8
+#   columns: 13
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      Kh.Maletski             EXFOR                1968        3.300000E+02   7.000000E+01      40026-017       0.868421
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      Kh.Maletski             EXFOR                1968        3.300000E+02   7.000000E+01      40026-017       0.868421   9.580000E-05   5.054000E-03       0.0                                   
 # quantity:
 #   type: Nuclear data library
 #   average value:  3.458710E+02

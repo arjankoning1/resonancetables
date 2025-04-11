@@ -1,7 +1,7 @@
 # header:
 #   title: Bk249 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 97
 #   A: 249
@@ -20,23 +20,23 @@
 #   average value:  1.140000E+00
 #   relative standard deviation [%]:       4.962153
 # datablock:
-#   columns: 8
+#   columns: 9
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-2                  Compilation          2000        1.100000E+00   9.999999E-02            97I       1.000000
-      RIPL-3                  Compilation          2009        1.100000E+00   9.999999E-02            97I       1.000000
-      Mughabghab_2016         Compilation          2016        1.220000E+00   9.000000E-02                      1.109091
+##    Author                         Type           Year           Value         dValue        Reference        Ratio       #Resonances
+##      []             []             []             []            [eV]           [eV]            []             []             []
+      RIPL-2                  Compilation          2000        1.100000E+00   9.999999E-02            97I       1.000000               
+      RIPL-3                  Compilation          2009        1.100000E+00   9.999999E-02            97I       1.000000               
+      Mughabghab_2016         Compilation          2016        1.220000E+00   9.000000E-02                      1.109091               
 # quantity:
 #   type: EXFOR
 #   average value:  1.400000E+00
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 8
+#   columns: 13
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      V.A.Anufriev            EXFOR                1983        1.400000E+00   2.000000E-01      40734-004       1.272727
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      V.A.Anufriev            EXFOR                1983        1.400000E+00   2.000000E-01      40734-004       1.272727   2.000000E-08   4.600000E-05       0.0                                   
 # quantity:
 #   type: Nuclear data library
 #   average value:  2.605260E+00

@@ -1,7 +1,7 @@
 # header:
 #   title: Si029 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 14
 #   A: 29
@@ -20,12 +20,12 @@
 #   average value:  2.715000E+05
 #   relative standard deviation [%]:      28.913445
 # datablock:
-#   columns: 8
+#   columns: 9
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-2                  Compilation          2000        3.500000E+05   1.600000E+05            83H       1.813472
-      RIPL-3                  Compilation          2009        1.930000E+05   2.200000E+04           *07I       1.000000
+##    Author                         Type           Year           Value         dValue        Reference        Ratio       #Resonances
+##      []             []             []             []            [eV]           [eV]            []             []             []
+      RIPL-2                  Compilation          2000        3.500000E+05   1.600000E+05            83H       1.813472        0      
+      RIPL-3                  Compilation          2009        1.930000E+05   2.200000E+04           *07I       1.000000               
 # quantity:
 #   type: Nuclear data library
 #   average value:  4.333340E+05

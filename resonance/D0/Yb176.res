@@ -1,7 +1,7 @@
 # header:
 #   title: Yb176 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 70
 #   A: 176
@@ -20,23 +20,23 @@
 #   average value:  2.156667E+02
 #   relative standard deviation [%]:      10.616337
 # datablock:
-#   columns: 8
+#   columns: 9
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-2                  Compilation          2000        1.850000E+02   2.000000E+01            84M       0.770833
-      RIPL-3                  Compilation          2009        2.400000E+02   2.000000E+01            06M       1.000000
-      Mughabghab_2016         Compilation          2016        2.220000E+02   1.800000E+01                      0.925000
+##    Author                         Type           Year           Value         dValue        Reference        Ratio       #Resonances
+##      []             []             []             []            [eV]           [eV]            []             []             []
+      RIPL-2                  Compilation          2000        1.850000E+02   2.000000E+01            84M       0.770833               
+      RIPL-3                  Compilation          2009        2.400000E+02   2.000000E+01            06M       1.000000               
+      Mughabghab_2016         Compilation          2016        2.220000E+02   1.800000E+01                      0.925000               
 # quantity:
 #   type: EXFOR
 #   average value:  1.850000E+02
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 8
+#   columns: 13
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      H.I.Liou                EXFOR                1973        1.850000E+02   1.900000E+01      10081-049       0.770833
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      H.I.Liou                EXFOR                1973        1.850000E+02   1.900000E+01      10081-049       0.770833   9.790000E-05   1.965000E-02       0.0                                   
 # quantity:
 #   type: Nuclear data library
 #   average value:  1.250000E+02

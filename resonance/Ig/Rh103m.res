@@ -1,7 +1,7 @@
 # header:
 #   title: Rh103m Ig resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 45
 #   A: 103
@@ -24,4 +24,4 @@
 #   entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      jendl5.0                NDL                  2021        9.659510E+02   0.000000E+00                      Infinity
+      jendl5.0                NDL                  2021        9.659510E+02   0.000000E+00                      1.000000

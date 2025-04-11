@@ -1,7 +1,7 @@
 # header:
 #   title: Ir192 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 77
 #   A: 192
@@ -20,13 +20,13 @@
 #   average value:  6.133333E-01
 #   relative standard deviation [%]:      13.662830
 # datablock:
-#   columns: 8
+#   columns: 9
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-2                  Compilation          2000        7.000000E-01   2.000000E-01            97I       1.400000
-      RIPL-3                  Compilation          2009        5.000000E-01   2.000000E-01            0I7       1.000000
-      Mughabghab_2016         Compilation          2016        6.400000E-01   1.000000E-01                      1.280000
+##    Author                         Type           Year           Value         dValue        Reference        Ratio       #Resonances
+##      []             []             []             []            [eV]           [eV]            []             []             []
+      RIPL-2                  Compilation          2000        7.000000E-01   2.000000E-01            97I       1.400000        4      
+      RIPL-3                  Compilation          2009        5.000000E-01   2.000000E-01            0I7       1.000000               
+      Mughabghab_2016         Compilation          2016        6.400000E-01   1.000000E-01                      1.280000               
 # quantity:
 #   type: Nuclear data library
 #   average value:  1.033270E+00

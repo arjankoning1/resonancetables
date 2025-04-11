@@ -1,7 +1,7 @@
 # header:
 #   title: Sn112 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 50
 #   A: 112
@@ -20,24 +20,24 @@
 #   average value:  1.623333E+02
 #   relative standard deviation [%]:       4.218201
 # datablock:
-#   columns: 8
+#   columns: 9
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-2                  Compilation          2000        1.570000E+02   5.200000E+01            79B       0.993671
-      RIPL-3                  Compilation          2009        1.580000E+02   4.700000E+01            06M       1.000000
-      Mughabghab_2016         Compilation          2016        1.720000E+02   1.000000E+01                      1.088608
+##    Author                         Type           Year           Value         dValue        Reference        Ratio       #Resonances
+##      []             []             []             []            [eV]           [eV]            []             []             []
+      RIPL-2                  Compilation          2000        1.570000E+02   5.200000E+01            79B       0.993671               
+      RIPL-3                  Compilation          2009        1.580000E+02   4.700000E+01            06M       1.000000               
+      Mughabghab_2016         Compilation          2016        1.720000E+02   1.000000E+01                      1.088608               
 # quantity:
 #   type: EXFOR
 #   average value:  1.790000E+02
 #   relative standard deviation [%]:      16.201117
 # datablock:
-#   columns: 8
+#   columns: 13
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      J.A.Harvey              EXFOR                1955        1.500000E+02   8.000000E+01      11912-014       0.949367
-      V.M.Timokhov            EXFOR                1988        2.080000E+02   6.500000E+01      40960-053       1.316456
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      J.A.Harvey              EXFOR                1955        1.500000E+02   8.000000E+01      11912-014       0.949367                  2.800000E-04       0.0                                   
+      V.M.Timokhov            EXFOR                1988        2.080000E+02   6.500000E+01      40960-053       1.316456   2.000000E-02   1.400000E+00       0.0                                   
 # quantity:
 #   type: Nuclear data library
 #   average value:  1.661920E+02

@@ -1,7 +1,7 @@
 # header:
 #   title: Ag109m Ig resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 47
 #   A: 109
@@ -24,4 +24,4 @@
 #   entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      jendl5.0                NDL                  2021        1.464620E+03   0.000000E+00                      Infinity
+      jendl5.0                NDL                  2021        1.464620E+03   0.000000E+00                      1.000000

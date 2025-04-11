@@ -1,7 +1,7 @@
 # header:
 #   title: Pu238 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 94
 #   A: 238
@@ -20,24 +20,24 @@
 #   average value:  8.766666E+00
 #   relative standard deviation [%]:       3.764066
 # datablock:
-#   columns: 8
+#   columns: 9
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-2                  Compilation          2000        9.000000E+00   1.000000E+00            97I       1.084337
-      RIPL-3                  Compilation          2009        8.300000E+00   5.000000E-01            04I       1.000000
-      Mughabghab_2016         Compilation          2016        9.000000E+00   7.000000E-01                      1.084337
+##    Author                         Type           Year           Value         dValue        Reference        Ratio       #Resonances
+##      []             []             []             []            [eV]           [eV]            []             []             []
+      RIPL-2                  Compilation          2000        9.000000E+00   1.000000E+00            97I       1.084337               
+      RIPL-3                  Compilation          2009        8.300000E+00   5.000000E-01            04I       1.000000               
+      Mughabghab_2016         Compilation          2016        9.000000E+00   7.000000E-01                      1.084337               
 # quantity:
 #   type: EXFOR
 #   average value:  1.355000E+01
 #   relative standard deviation [%]:      25.461252
 # datablock:
-#   columns: 8
+#   columns: 13
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      W.F.Stubbins            EXFOR                1967        1.700000E+01   5.000000E+00      12489-003       2.048193
-      M.G.Silbert             EXFOR                1973        1.010000E+01   0.000000E+00      10032-004       1.216867
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      W.F.Stubbins            EXFOR                1967        1.700000E+01   5.000000E+00      12489-003       2.048193   2.910000E-06   2.800000E-04       0.0                                   
+      M.G.Silbert             EXFOR                1973        1.010000E+01   0.000000E+00      10032-004       1.216867   1.860000E-05   4.960000E-04       0.0                                   
 # quantity:
 #   type: Nuclear data library
 #   average value:  1.002000E+01

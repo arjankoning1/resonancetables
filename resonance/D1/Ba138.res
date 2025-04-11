@@ -1,7 +1,7 @@
 # header:
 #   title: Ba138 D1 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 56
 #   A: 138
@@ -31,11 +31,11 @@
 #   average value:  6.760000E+03
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 8
+#   columns: 13
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      A.Brusegan              EXFOR                1994        6.760000E+03   6.700000E+02      22313-003       1.000000
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      A.Brusegan              EXFOR                1994        6.760000E+03   6.700000E+02      22313-003       1.000000   6.470000E-04   2.000000E-01       1.0                                   
 # quantity:
 #   type: Nuclear data library
 #   average value:  2.861950E+03

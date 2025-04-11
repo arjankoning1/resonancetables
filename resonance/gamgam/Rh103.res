@@ -1,7 +1,7 @@
 # header:
 #   title: Rh103 gamgam resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 45
 #   A: 103

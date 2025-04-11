@@ -1,7 +1,7 @@
 # header:
 #   title: Nb095m Ig resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 41
 #   A: 95
@@ -24,5 +24,5 @@
 #   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      jendl5.0                NDL                  2021        3.344950E+01   0.000000E+00                      Infinity
-      tendl.2023              NDL                  2023        2.164100E+02   0.000000E+00                      Infinity
+      jendl5.0                NDL                  2021        3.344950E+01   0.000000E+00                      1.000000
+      tendl.2023              NDL                  2023        2.164100E+02   0.000000E+00                      1.000000

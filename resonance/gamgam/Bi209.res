@@ -1,7 +1,7 @@
 # header:
 #   title: Bi209 gamgam resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 83
 #   A: 209

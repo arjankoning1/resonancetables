@@ -1,7 +1,7 @@
 # header:
 #   title: Y089 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 39
 #   A: 89
@@ -20,28 +20,28 @@
 #   average value:  3.733333E+03
 #   relative standard deviation [%]:       1.262691
 # datablock:
-#   columns: 8
+#   columns: 9
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-2                  Compilation          2000        3.700000E+03   4.000000E+02            96I       1.000000
-      RIPL-3                  Compilation          2009        3.700000E+03   4.000000E+02            96I       1.000000
-      Mughabghab_2016         Compilation          2016        3.800000E+03   2.200000E+02                      1.027027
+##    Author                         Type           Year           Value         dValue        Reference        Ratio       #Resonances
+##      []             []             []             []            [eV]           [eV]            []             []             []
+      RIPL-2                  Compilation          2000        3.700000E+03   4.000000E+02            96I       1.000000               
+      RIPL-3                  Compilation          2009        3.700000E+03   4.000000E+02            96I       1.000000               
+      Mughabghab_2016         Compilation          2016        3.800000E+03   2.200000E+02                      1.027027               
 # quantity:
 #   type: EXFOR
 #   average value:  7.233333E+03
 #   relative standard deviation [%]:     147.258621
 # datablock:
-#   columns: 8
+#   columns: 13
 #   entries: 6
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      H.W.Newson              EXFOR                1961        2.000000E+03   5.000000E+02      11888-006       0.540541
-      E.G.Bilpuch             EXFOR                1961        2.000000E+03   5.000000E+02      11599-030       0.540541
-      S.P.Kapchigashev        EXFOR                1966        3.100000E+04   9.000000E+03      40778-014       8.378378
-      J.W.Boldeman            EXFOR                1977        2.200000E+03   7.000000E+02      30391-003       0.594595
-      H.S.Camarda             EXFOR                1977        4.000000E+03   0.000000E+00      10667-004       1.081081
-      J.D.Kellie              EXFOR                1978        2.200000E+03   1.000000E+03      21728-003       0.594595
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      H.W.Newson              EXFOR                1961        2.000000E+03   5.000000E+02      11888-006       0.540541                  1.100000E-02       0.0                                   
+      E.G.Bilpuch             EXFOR                1961        2.000000E+03   5.000000E+02      11599-030       0.540541                                     0.0                                   
+      S.P.Kapchigashev        EXFOR                1966        3.100000E+04   9.000000E+03      40778-014       8.378378                  5.000000E-02       0.0                                   
+      J.W.Boldeman            EXFOR                1977        2.200000E+03   7.000000E+02      30391-003       0.594595   3.000000E-03   1.000000E-01       0.0                                   
+      H.S.Camarda             EXFOR                1977        4.000000E+03   0.000000E+00      10667-004       1.081081                  2.403000E-01       0.0            0.0                    
+      J.D.Kellie              EXFOR                1978        2.200000E+03   1.000000E+03      21728-003       0.594595                                     0.0                                   
 # quantity:
 #   type: Nuclear data library
 #   average value:  3.703700E+03

@@ -1,7 +1,7 @@
 # header:
 #   title: Pd108 D1 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 46
 #   A: 108
@@ -32,11 +32,11 @@
 #   average value:  9.500000E+01
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 8
+#   columns: 13
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      B.E.Crawford            EXFOR                1998        9.500000E+01   2.400000E+01      13713-007       1.000000
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      B.E.Crawford            EXFOR                1998        9.500000E+01   2.400000E+01      13713-007       1.000000   2.000000E-05   2.000000E-03       1.0                                   
 # quantity:
 #   type: Nuclear data library
 #   average value:  1.469060E+02

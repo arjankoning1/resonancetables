@@ -1,7 +1,7 @@
 # header:
 #   title: Hg200 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 80
 #   A: 200
@@ -20,13 +20,13 @@
 #   average value:  8.400000E+02
 #   relative standard deviation [%]:      36.278610
 # datablock:
-#   columns: 8
+#   columns: 9
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-2                  Compilation          2000        6.500000E+02   1.500000E+02            00I       1.083333
-      RIPL-3                  Compilation          2009        6.000000E+02   1.500000E+02            0I7       1.000000
-      Mughabghab_2016         Compilation          2016        1.270000E+03   1.700000E+02                      2.116667
+##    Author                         Type           Year           Value         dValue        Reference        Ratio       #Resonances
+##      []             []             []             []            [eV]           [eV]            []             []             []
+      RIPL-2                  Compilation          2000        6.500000E+02   1.500000E+02            00I       1.083333        0      
+      RIPL-3                  Compilation          2009        6.000000E+02   1.500000E+02            0I7       1.000000               
+      Mughabghab_2016         Compilation          2016        1.270000E+03   1.700000E+02                      2.116667               
 # quantity:
 #   type: Nuclear data library
 #   average value:  1.834170E+03

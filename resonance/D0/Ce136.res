@@ -1,7 +1,7 @@
 # header:
 #   title: Ce136 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 58
 #   A: 136
@@ -20,23 +20,23 @@
 #   average value:  6.400000E+01
 #   relative standard deviation [%]:      20.885351
 # datablock:
-#   columns: 8
+#   columns: 9
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-2                  Compilation          2000        5.000000E+01   2.000000E+01            96I       0.833333
-      RIPL-3                  Compilation          2009        6.000000E+01   2.000000E+01            96I       1.000000
-      Mughabghab_2016         Compilation          2016        8.200000E+01   1.500000E+01                      1.366667
+##    Author                         Type           Year           Value         dValue        Reference        Ratio       #Resonances
+##      []             []             []             []            [eV]           [eV]            []             []             []
+      RIPL-2                  Compilation          2000        5.000000E+01   2.000000E+01            96I       0.833333               
+      RIPL-3                  Compilation          2009        6.000000E+01   2.000000E+01            96I       1.000000               
+      Mughabghab_2016         Compilation          2016        8.200000E+01   1.500000E+01                      1.366667               
 # quantity:
 #   type: EXFOR
 #   average value:  5.800000E+01
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 8
+#   columns: 13
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      V.P.Vertebny            EXFOR                1970        5.800000E+01   1.200000E+01      40052-009       0.966667
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      V.P.Vertebny            EXFOR                1970        5.800000E+01   1.200000E+01      40052-009       0.966667   6.600000E-05   2.800000E-04       0.0                                   
 # quantity:
 #   type: Nuclear data library
 #   average value:  3.981820E+01

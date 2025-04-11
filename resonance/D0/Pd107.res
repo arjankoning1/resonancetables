@@ -1,7 +1,7 @@
 # header:
 #   title: Pd107 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 46
 #   A: 107
@@ -20,23 +20,23 @@
 #   average value:  1.086667E+01
 #   relative standard deviation [%]:       1.735230
 # datablock:
-#   columns: 8
+#   columns: 9
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-2                  Compilation          2000        1.100000E+01   9.000000E-01            96I       1.000000
-      RIPL-3                  Compilation          2009        1.100000E+01   8.000000E-01            04I       1.000000
-      Mughabghab_2016         Compilation          2016        1.060000E+01   9.000000E-01                      0.963636
+##    Author                         Type           Year           Value         dValue        Reference        Ratio       #Resonances
+##      []             []             []             []            [eV]           [eV]            []             []             []
+      RIPL-2                  Compilation          2000        1.100000E+01   9.000000E-01            96I       1.000000        2      
+      RIPL-3                  Compilation          2009        1.100000E+01   8.000000E-01            04I       1.000000               
+      Mughabghab_2016         Compilation          2016        1.060000E+01   9.000000E-01                      0.963636               
 # quantity:
 #   type: EXFOR
 #   average value:  1.070000E+01
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 8
+#   columns: 13
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      U.N.Singh               EXFOR                1978        1.070000E+01   1.500000E+00      10666-003       0.972727
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      U.N.Singh               EXFOR                1978        1.070000E+01   1.500000E+00      10666-003       0.972727   3.900000E-06   6.550000E-04       0.0                                   
 # quantity:
 #   type: Nuclear data library
 #   average value:  1.785890E+01

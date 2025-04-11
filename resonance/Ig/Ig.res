@@ -1,14 +1,14 @@
 # header:
 #   title: Ig resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # reaction:
 #   type: Ig
 # quantity:
 #   type: resonance data
 # datablock:
 #   columns: 8
-#   entries: 468
+#   entries: 464
 ##       Z              A            Liso           Value         dValue        Reference    #Experiments      Nuclide
 ##      []             []             []            [eV]           [eV]            []             []             []
          1              1              0        1.490000E-01   1.000000E-03  JUKO                  0           H001  
@@ -239,7 +239,6 @@
         53            128              0        1.000000E+01   0.000000E+00  JUKO                  0           I128  
         53            129              0        3.380000E+01   1.400000E+00  Mughabghab_2016      10           I129  
         53            130              0        8.000000E+00   0.000000E+00  JUKO                  0           I130  
-        53            131              0        8.000000E+00   4.000000E+00  JUKO                  0           I131  
         54            124              0        3.600000E+03   7.000000E+02  Mughabghab_2016       2           Xe124 
         54            126              0        6.100000E+01   6.000000E+00  Mughabghab_2016       1           Xe126 
         54            128              0        1.270000E+01   7.000000E-01  Sukhoruchkin          0           Xe128 
@@ -254,7 +253,6 @@
         55            133              0        3.640000E+02   1.100000E+01  Kayzero              23           Cs133 
         55            134              0        1.050000E+02   1.600000E+01  Sukhoruchkin          0           Cs134 
         55            135              0        3.810000E+01   2.600000E+00  Mughabghab_2016       4           Cs135 
-        55            137              0        3.600000E-01   7.000000E-02  JUKO                  1           Cs137 
         56              0              0        7.500000E+00   3.000000E-01  Macklin               1           Ba000 
         56            130              0        1.689000E+02   2.200000E+00  Kayzero               7           Ba130 
         56            132              0        5.400000E+01   1.100000E+01  Sukhoruchkin          3           Ba132 
@@ -308,7 +306,6 @@
         63            153              0        1.755000E+03   6.800000E+01  Kayzero               8           Eu153 
         63            154              0        1.300000E+03   3.040000E+02  Sukhoruchkin          0           Eu154 
         63            155              0        1.552000E+04   3.062000E+03  Sukhoruchkin          0           Eu155 
-        64            148              0        2.820000E+04   2.300000E+03  Mughabghab_2016       1           Gd148 
         64            152              0        5.840000E+02   9.400000E+01  Kayzero               2           Gd152 
         64            153              0        2.980000E+02   4.000000E+00  Sukhoruchkin          0           Gd153 
         64            154              0        1.070000E+02   3.000000E+01  Mughabghab_2016       1           Gd154 
@@ -411,7 +408,6 @@
         80            201              0        3.300000E+01   3.000000E+00  Sukhoruchkin          0           Hg201 
         80            202              0        3.820000E+00   0.000000E+00  Kayzero               6           Hg202 
         80            204              0        8.700000E-01   0.000000E+00  Kayzero               1           Hg204 
-        80            208              0        8.500000E-01   2.000000E-01  Mughabghab_2016       0           Hg208 
         81            203              0        3.980000E+01   2.000000E+00  Mughabghab_2016       6           Tl203 
         81            204              0        9.400000E+01   1.900000E+01  Sukhoruchkin          0           Tl204 
         81            205              0        7.350000E-01   0.000000E+00  Sukhoruchkin          2           Tl205 

@@ -1,7 +1,7 @@
 # header:
 #   title: Sr084 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 38
 #   A: 84
@@ -20,23 +20,23 @@
 #   average value:  3.410000E+02
 #   relative standard deviation [%]:       8.709233
 # datablock:
-#   columns: 8
+#   columns: 9
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-2                  Compilation          2000        3.200000E+02   1.200000E+02            96I       1.000000
-      RIPL-3                  Compilation          2009        3.200000E+02   1.200000E+02            96I       1.000000
-      Mughabghab_2016         Compilation          2016        3.830000E+02   1.300000E+02                      1.196875
+##    Author                         Type           Year           Value         dValue        Reference        Ratio       #Resonances
+##      []             []             []             []            [eV]           [eV]            []             []             []
+      RIPL-2                  Compilation          2000        3.200000E+02   1.200000E+02            96I       1.000000               
+      RIPL-3                  Compilation          2009        3.200000E+02   1.200000E+02            96I       1.000000               
+      Mughabghab_2016         Compilation          2016        3.830000E+02   1.300000E+02                      1.196875               
 # quantity:
 #   type: EXFOR
 #   average value:  3.700000E+02
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 8
+#   columns: 13
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      Yu.V.Adamchuk           EXFOR                1965        3.700000E+02   9.000000E+01      41232-013       1.156250
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      Yu.V.Adamchuk           EXFOR                1965        3.700000E+02   9.000000E+01      41232-013       1.156250                                     0.0                                   
 # quantity:
 #   type: Nuclear data library
 #   average value:  1.621950E+02

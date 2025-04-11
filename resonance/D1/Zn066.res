@@ -1,7 +1,7 @@
 # header:
 #   title: Zn066 D1 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 30
 #   A: 66
@@ -32,11 +32,11 @@
 #   average value:  1.170000E+03
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 8
+#   columns: 13
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      J.B.Garg                EXFOR                1981        1.170000E+03   1.400000E+02      12719-006       1.000000
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      J.B.Garg                EXFOR                1981        1.170000E+03   1.400000E+02      12719-006       1.000000                  3.000000E-01       1.0                                   
 # quantity:
 #   type: Nuclear data library
 #   average value:  1.068700E+03

@@ -1,7 +1,7 @@
 # header:
 #   title: Hf180 D1 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 72
 #   A: 180
@@ -20,8 +20,8 @@
 #   average value:  4.760000E+01
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 8
+#   columns: 13
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      G.Noguere               EXFOR                2009        4.760000E+01   2.490000E+00      22956-049       1.000000
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      G.Noguere               EXFOR                2009        4.760000E+01   2.490000E+00      22956-049       1.000000   7.243000E-05   1.169800E-03       1.0                                   

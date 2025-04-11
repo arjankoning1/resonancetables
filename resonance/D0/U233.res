@@ -1,7 +1,7 @@
 # header:
 #   title: U233 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 92
 #   A: 233
@@ -20,27 +20,27 @@
 #   average value:  5.366666E-01
 #   relative standard deviation [%]:       2.324014
 # datablock:
-#   columns: 8
+#   columns: 9
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-2                  Compilation          2000        5.500000E-01   5.000000E-02            97I       1.057692
-      RIPL-3                  Compilation          2009        5.200000E-01   2.000000E-02            03M       1.000000
-      Mughabghab_2016         Compilation          2016        5.400000E-01   5.000000E-02                      1.038462
+##    Author                         Type           Year           Value         dValue        Reference        Ratio       #Resonances
+##      []             []             []             []            [eV]           [eV]            []             []             []
+      RIPL-2                  Compilation          2000        5.500000E-01   5.000000E-02            97I       1.057692        1      
+      RIPL-3                  Compilation          2009        5.200000E-01   2.000000E-02            03M       1.000000               
+      Mughabghab_2016         Compilation          2016        5.400000E-01   5.000000E-02                      1.038462               
 # quantity:
 #   type: EXFOR
 #   average value:  2.118000E+00
 #   relative standard deviation [%]:     129.482849
 # datablock:
-#   columns: 8
+#   columns: 13
 #   entries: 5
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      G.D.James               EXFOR                1964        7.600000E+00   1.500000E+00      20916-005      14.615385
-      H.Nifenecker            EXFOR                1965        7.900000E-01   0.000000E+00      20814-007       1.519231
-      W.Kolar                 EXFOR                1970        6.100000E-01   7.000000E-02      20114-013       1.173077
-      J.Blons                 EXFOR                1971        7.100000E-01   0.000000E+00      20446-005       1.365385
-      J.Blons                 EXFOR                1971        8.800000E-01   0.000000E+00      20446-005       1.692308
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      G.D.James               EXFOR                1964        7.600000E+00   1.500000E+00      20916-005      14.615385                                     0.0                                   
+      H.Nifenecker            EXFOR                1965        7.900000E-01   0.000000E+00      20814-007       1.519231   1.823000E-06   2.954000E-05       0.0                                   
+      W.Kolar                 EXFOR                1970        6.100000E-01   7.000000E-02      20114-013       1.173077   2.500000E-06   3.000000E-05       0.0                                   
+      J.Blons                 EXFOR                1971        7.100000E-01   0.000000E+00      20446-005       1.365385   5.900000E-06   1.240000E-04       0.0                                   
+      J.Blons                 EXFOR                1971        8.800000E-01   0.000000E+00      20446-005       1.692308   5.900000E-06   1.240000E-04       0.0                                   
 # quantity:
 #   type: Nuclear data library
 #   average value:  8.141110E-01

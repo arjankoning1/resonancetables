@@ -1,7 +1,7 @@
 # header:
 #   title: Ce141 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 58
 #   A: 141
@@ -20,13 +20,13 @@
 #   average value:  5.866667E+01
 #   relative standard deviation [%]:      15.267077
 # datablock:
-#   columns: 8
+#   columns: 9
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-2                  Compilation          2000        6.500000E+01   2.000000E+01            00I       1.000000
-      RIPL-3                  Compilation          2009        6.500000E+01   2.000000E+01            00I       1.000000
-      Mughabghab_2016         Compilation          2016        4.600000E+01   1.500000E+01                      0.707692
+##    Author                         Type           Year           Value         dValue        Reference        Ratio       #Resonances
+##      []             []             []             []            [eV]           [eV]            []             []             []
+      RIPL-2                  Compilation          2000        6.500000E+01   2.000000E+01            00I       1.000000        4      
+      RIPL-3                  Compilation          2009        6.500000E+01   2.000000E+01            00I       1.000000               
+      Mughabghab_2016         Compilation          2016        4.600000E+01   1.500000E+01                      0.707692               
 # quantity:
 #   type: Nuclear data library
 #   average value:  5.150090E+01

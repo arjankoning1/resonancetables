@@ -1,7 +1,7 @@
 # header:
 #   title: Ce140 D1 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 58
 #   A: 140
@@ -32,11 +32,11 @@
 #   average value:  1.640000E+03
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 8
+#   columns: 13
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      H.S.Camarda             EXFOR                1978        1.640000E+03   0.000000E+00      10760-004       1.640000
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      H.S.Camarda             EXFOR                1978        1.640000E+03   0.000000E+00      10760-004       1.640000   2.000000E-02   2.400000E-01       1.0                                   
 # quantity:
 #   type: Nuclear data library
 #   average value:  9.647830E+02

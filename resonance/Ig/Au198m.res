@@ -1,7 +1,7 @@
 # header:
 #   title: Au198m Ig resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 79
 #   A: 198
@@ -24,4 +24,4 @@
 #   entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      tendl.2023              NDL                  2023        2.509630E+04   0.000000E+00                      Infinity
+      tendl.2023              NDL                  2023        2.509630E+04   0.000000E+00                      1.000000

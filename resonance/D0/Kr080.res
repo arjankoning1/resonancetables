@@ -1,7 +1,7 @@
 # header:
 #   title: Kr080 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 36
 #   A: 80
@@ -20,13 +20,13 @@
 #   average value:  2.866667E+02
 #   relative standard deviation [%]:       3.288869
 # datablock:
-#   columns: 8
+#   columns: 9
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-2                  Compilation          2000        2.800000E+02   6.000000E+01            96I       1.000000
-      RIPL-3                  Compilation          2009        2.800000E+02   8.000000E+01            96I       1.000000
-      Mughabghab_2016         Compilation          2016        3.000000E+02   6.000000E+01                      1.071429
+##    Author                         Type           Year           Value         dValue        Reference        Ratio       #Resonances
+##      []             []             []             []            [eV]           [eV]            []             []             []
+      RIPL-2                  Compilation          2000        2.800000E+02   6.000000E+01            96I       1.000000               
+      RIPL-3                  Compilation          2009        2.800000E+02   8.000000E+01            96I       1.000000               
+      Mughabghab_2016         Compilation          2016        3.000000E+02   6.000000E+01                      1.071429               
 # quantity:
 #   type: Nuclear data library
 #   average value:  2.342440E+02

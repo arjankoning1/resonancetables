@@ -1,7 +1,7 @@
 # header:
 #   title: Cm247 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 96
 #   A: 247
@@ -20,24 +20,24 @@
 #   average value:  1.200000E+00
 #   relative standard deviation [%]:      13.608277
 # datablock:
-#   columns: 8
+#   columns: 9
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-2                  Compilation          2000        1.400000E+00   3.000000E-01            84M       1.166667
-      RIPL-3                  Compilation          2009        1.200000E+00   3.000000E-01            04I       1.000000
-      Mughabghab_2016         Compilation          2016        1.000000E+00   1.500000E-01                      0.833333
+##    Author                         Type           Year           Value         dValue        Reference        Ratio       #Resonances
+##      []             []             []             []            [eV]           [eV]            []             []             []
+      RIPL-2                  Compilation          2000        1.400000E+00   3.000000E-01            84M       1.166667        0      
+      RIPL-3                  Compilation          2009        1.200000E+00   3.000000E-01            04I       1.000000               
+      Mughabghab_2016         Compilation          2016        1.000000E+00   1.500000E-01                      0.833333               
 # quantity:
 #   type: EXFOR
 #   average value:  2.785000E+00
 #   relative standard deviation [%]:      47.217239
 # datablock:
-#   columns: 8
+#   columns: 13
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      M.S.Moore               EXFOR                1971        4.100000E+00   0.000000E+00      10121-022       3.416667
-      Y.Danon                 EXFOR                1994        1.470000E+00   3.000000E-02      13646-006       1.225000
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      M.S.Moore               EXFOR                1971        4.100000E+00   0.000000E+00      10121-022       3.416667   2.130000E-05   5.966000E-05       0.0                                   
+      Y.Danon                 EXFOR                1994        1.470000E+00   3.000000E-02      13646-006       1.225000   1.200000E-06   2.200000E-05       0.0                                   
 # quantity:
 #   type: Nuclear data library
 #   average value:  1.421430E+00

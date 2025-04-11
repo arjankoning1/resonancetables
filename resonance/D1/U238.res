@@ -1,7 +1,7 @@
 # header:
 #   title: U238 D1 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 92
 #   A: 238
@@ -32,15 +32,15 @@
 #   average value:  9.559999E+00
 #   relative standard deviation [%]:      22.293837
 # datablock:
-#   columns: 8
+#   columns: 13
 #   entries: 5
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      N.W.Glass               EXFOR                1968        7.000000E+00   5.000000E-01      12471-005       0.909091
-      T.Y.Byoun               EXFOR                1973        1.130000E+01   0.000000E+00      10577-038       1.467533
-      T.Y.Byoun               EXFOR                1973        1.130000E+01   0.000000E+00      10577-038       1.467533
-      T.Y.Byoun               EXFOR                1973        1.130000E+01   0.000000E+00      10577-038       1.467533
-      Yu.V.Grigor'Ev          EXFOR                1991        6.900000E+00   0.000000E+00      40876-008       0.896104
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      N.W.Glass               EXFOR                1968        7.000000E+00   5.000000E-01      12471-005       0.909091   3.000000E-05   2.050000E-03       1.0                                   
+      T.Y.Byoun               EXFOR                1973        1.130000E+01   0.000000E+00      10577-038       1.467533   1.000000E-02   1.000000E-01       1.0                                   
+      T.Y.Byoun               EXFOR                1973        1.130000E+01   0.000000E+00      10577-038       1.467533   1.000000E-02   1.000000E-01       1.0                                   
+      T.Y.Byoun               EXFOR                1973        1.130000E+01   0.000000E+00      10577-038       1.467533   1.000000E-02   1.000000E-01       1.0                                   
+      Yu.V.Grigor'Ev          EXFOR                1991        6.900000E+00   0.000000E+00      40876-008       0.896104   4.650000E-04   2.000000E-01       1.0                                   
 # quantity:
 #   type: Nuclear data library
 #   average value:  8.278150E+00

@@ -1,7 +1,7 @@
 # header:
 #   title: Zn068 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 30
 #   A: 68
@@ -20,23 +20,23 @@
 #   average value:  4.968333E+03
 #   relative standard deviation [%]:      16.841522
 # datablock:
-#   columns: 8
+#   columns: 9
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-2                  Compilation          2000        5.560000E+03   4.300000E+02            81G       1.000000
-      RIPL-3                  Compilation          2009        5.560000E+03   4.300000E+02            82G       1.000000
-      Mughabghab_2016         Compilation          2016        3.785000E+03   1.900000E+02                      0.680755
+##    Author                         Type           Year           Value         dValue        Reference        Ratio       #Resonances
+##      []             []             []             []            [eV]           [eV]            []             []             []
+      RIPL-2                  Compilation          2000        5.560000E+03   4.300000E+02            81G       1.000000       34      
+      RIPL-3                  Compilation          2009        5.560000E+03   4.300000E+02            82G       1.000000               
+      Mughabghab_2016         Compilation          2016        3.785000E+03   1.900000E+02                      0.680755               
 # quantity:
 #   type: EXFOR
 #   average value:  5.560000E+03
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 8
+#   columns: 13
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      J.B.Garg                EXFOR                1982        5.560000E+03   4.300000E+02      10982-007       1.000000
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      J.B.Garg                EXFOR                1982        5.560000E+03   4.300000E+02      10982-007       1.000000                                     0.0                                   
 # quantity:
 #   type: Nuclear data library
 #   average value:  6.111110E+03

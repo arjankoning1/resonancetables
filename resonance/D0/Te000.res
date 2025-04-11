@@ -1,7 +1,7 @@
 # header:
 #   title: Te000 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 52
 #   A: 0
@@ -20,9 +20,9 @@
 #   average value:  2.900000E+01
 #   relative standard deviation [%]:      44.827587
 # datablock:
-#   columns: 8
+#   columns: 13
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      S.Wynchank              EXFOR                1968        4.200000E+01   0.000000E+00      11913-017       2.625000
-      S.Wynchank              EXFOR                1968        1.600000E+01   0.000000E+00      11913-017       1.000000
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      S.Wynchank              EXFOR                1968        4.200000E+01   0.000000E+00      11913-017       2.625000   1.800000E-03   4.600000E-03       0.0                                   
+      S.Wynchank              EXFOR                1968        1.600000E+01   0.000000E+00      11913-017       1.000000                  1.100000E-03       0.0                                   

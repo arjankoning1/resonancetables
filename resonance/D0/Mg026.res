@@ -1,7 +1,7 @@
 # header:
 #   title: Mg026 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 12
 #   A: 26
@@ -20,12 +20,12 @@
 #   average value:  2.350000E+05
 #   relative standard deviation [%]:      10.638298
 # datablock:
-#   columns: 8
+#   columns: 9
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-2                  Compilation          2000        2.600000E+05   5.000000E+04            79R       1.238095
-      RIPL-3                  Compilation          2009        2.100000E+05   8.000000E+04           *07I       1.000000
+##    Author                         Type           Year           Value         dValue        Reference        Ratio       #Resonances
+##      []             []             []             []            [eV]           [eV]            []             []             []
+      RIPL-2                  Compilation          2000        2.600000E+05   5.000000E+04            79R       1.238095               
+      RIPL-3                  Compilation          2009        2.100000E+05   8.000000E+04           *07I       1.000000               
 # quantity:
 #   type: Nuclear data library
 #   average value:  1.558100E+05

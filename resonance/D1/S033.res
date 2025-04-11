@@ -1,7 +1,7 @@
 # header:
 #   title: S033 D1 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 16
 #   A: 33
@@ -31,11 +31,11 @@
 #   average value:  1.220000E+04
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 8
+#   columns: 13
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      C.Wagemans              EXFOR                1987        1.220000E+04   1.300000E+03      22026-004       1.304813
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      C.Wagemans              EXFOR                1987        1.220000E+04   1.300000E+03      22026-004       1.304813                                     1.0                                   
 # quantity:
 #   type: Nuclear data library
 #   average value:  1.307710E+04

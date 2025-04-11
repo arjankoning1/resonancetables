@@ -1,7 +1,7 @@
 # header:
 #   title: Ag109 D1 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 47
 #   A: 109
@@ -30,11 +30,11 @@
 #   average value:  2.800000E+01
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 8
+#   columns: 13
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      L.Y.Lowie               EXFOR                1999        2.800000E+01   0.000000E+00      13687-007       2.352941
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      L.Y.Lowie               EXFOR                1999        2.800000E+01   0.000000E+00      13687-007       2.352941                                     1.0                                   
 # quantity:
 #   type: Nuclear data library
 #   average value:  3.483330E+01

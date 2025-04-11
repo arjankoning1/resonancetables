@@ -1,7 +1,7 @@
 # header:
 #   title: Xe134 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 54
 #   A: 134
@@ -20,13 +20,13 @@
 #   average value:  1.623333E+03
 #   relative standard deviation [%]:      42.010731
 # datablock:
-#   columns: 8
+#   columns: 9
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-2                  Compilation          2000        1.600000E+03   6.000000E+02            96I       2.000000
-      RIPL-3                  Compilation          2009        8.000000E+02   4.000000E+02            00I       1.000000
-      Mughabghab_2016         Compilation          2016        2.470000E+03   2.500000E+02                      3.087500
+##    Author                         Type           Year           Value         dValue        Reference        Ratio       #Resonances
+##      []             []             []             []            [eV]           [eV]            []             []             []
+      RIPL-2                  Compilation          2000        1.600000E+03   6.000000E+02            96I       2.000000               
+      RIPL-3                  Compilation          2009        8.000000E+02   4.000000E+02            00I       1.000000               
+      Mughabghab_2016         Compilation          2016        2.470000E+03   2.500000E+02                      3.087500               
 # quantity:
 #   type: Nuclear data library
 #   average value:  1.092400E+03

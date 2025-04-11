@@ -1,7 +1,7 @@
 # header:
 #   title: Ba136 D1 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 56
 #   A: 136

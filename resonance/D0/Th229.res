@@ -1,7 +1,7 @@
 # header:
 #   title: Th229 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 90
 #   A: 229
@@ -20,13 +20,13 @@
 #   average value:  5.900000E-01
 #   relative standard deviation [%]:       7.190920
 # datablock:
-#   columns: 8
+#   columns: 9
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-2                  Compilation          2000        6.200000E-01   1.200000E-01            97I       1.000000
-      RIPL-3                  Compilation          2009        6.200000E-01   1.200000E-01            97I       1.000000
-      Mughabghab_2016         Compilation          2016        5.300000E-01   1.500000E-01                      0.854839
+##    Author                         Type           Year           Value         dValue        Reference        Ratio       #Resonances
+##      []             []             []             []            [eV]           [eV]            []             []             []
+      RIPL-2                  Compilation          2000        6.200000E-01   1.200000E-01            97I       1.000000        0      
+      RIPL-3                  Compilation          2009        6.200000E-01   1.200000E-01            97I       1.000000               
+      Mughabghab_2016         Compilation          2016        5.300000E-01   1.500000E-01                      0.854839               
 # quantity:
 #   type: Nuclear data library
 #   average value:  1.100710E+00

@@ -1,7 +1,7 @@
 # header:
 #   title: Ar040 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 18
 #   A: 40
@@ -20,24 +20,24 @@
 #   average value:  5.803333E+04
 #   relative standard deviation [%]:      14.824635
 # datablock:
-#   columns: 8
+#   columns: 9
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-2                  Compilation          2000        7.020000E+04   1.700000E+04            88V       1.350000
-      RIPL-3                  Compilation          2009        5.200000E+04   4.700000E+03            06M       1.000000
-      Mughabghab_2016         Compilation          2016        5.190000E+04   2.300000E+03                      0.998077
+##    Author                         Type           Year           Value         dValue        Reference        Ratio       #Resonances
+##      []             []             []             []            [eV]           [eV]            []             []             []
+      RIPL-2                  Compilation          2000        7.020000E+04   1.700000E+04            88V       1.350000               
+      RIPL-3                  Compilation          2009        5.200000E+04   4.700000E+03            06M       1.000000               
+      Mughabghab_2016         Compilation          2016        5.190000E+04   2.300000E+03                      0.998077               
 # quantity:
 #   type: EXFOR
 #   average value:  6.800000E+04
 #   relative standard deviation [%]:      27.941177
 # datablock:
-#   columns: 8
+#   columns: 13
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      H.I.Liou                EXFOR                1975        8.700000E+04   0.000000E+00      10410-004       1.673077
-      R.R.Winters             EXFOR                1991        4.900000E+04   5.000000E+03      13501-005       0.942308
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      H.I.Liou                EXFOR                1975        8.700000E+04   0.000000E+00      10410-004       1.673077   7.620000E-02   5.960000E-01       0.0                                   
+      R.R.Winters             EXFOR                1991        4.900000E+04   5.000000E+03      13501-005       0.942308   7.000000E-03   1.520000E+00       0.0                                   
 # quantity:
 #   type: Nuclear data library
 #   average value:  6.428580E+04

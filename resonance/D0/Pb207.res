@@ -1,7 +1,7 @@
 # header:
 #   title: Pb207 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 82
 #   A: 207
@@ -20,22 +20,22 @@
 #   average value:  3.400000E+04
 #   relative standard deviation [%]:      11.764706
 # datablock:
-#   columns: 8
+#   columns: 9
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-2                  Compilation          2000        3.800000E+04   8.000000E+03            97I       1.266667
-      RIPL-3                  Compilation          2009        3.000000E+04   8.000000E+03            05I       1.000000
+##    Author                         Type           Year           Value         dValue        Reference        Ratio       #Resonances
+##      []             []             []             []            [eV]           [eV]            []             []             []
+      RIPL-2                  Compilation          2000        3.800000E+04   8.000000E+03            97I       1.266667        2      
+      RIPL-3                  Compilation          2009        3.000000E+04   8.000000E+03            05I       1.000000               
 # quantity:
 #   type: EXFOR
 #   average value:  4.800000E+03
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 8
+#   columns: 13
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      B.J.Allen               EXFOR                1973        4.800000E+03   6.000000E+02      10155-015       0.160000
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      B.J.Allen               EXFOR                1973        4.800000E+03   6.000000E+02      10155-015       0.160000   3.071000E-03   1.819000E-01       0.0                                   
 # quantity:
 #   type: Nuclear data library
 #   average value:  3.090910E+04

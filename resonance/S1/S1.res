@@ -1,7 +1,7 @@
 # header:
 #   title: S1 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # reaction:
 #   type: S1
 # quantity:

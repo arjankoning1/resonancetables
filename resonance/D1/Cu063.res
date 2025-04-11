@@ -1,7 +1,7 @@
 # header:
 #   title: Cu063 D1 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 29
 #   A: 63
@@ -32,11 +32,11 @@
 #   average value:  4.950000E+02
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 8
+#   columns: 13
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      M.S.Pandey              EXFOR                1977        4.950000E+02   2.600000E+01      10726-004       1.622951
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      M.S.Pandey              EXFOR                1977        4.950000E+02   2.600000E+01      10726-004       1.622951   3.000000E-03   5.000000E-02       1.0                                   
 # quantity:
 #   type: Nuclear data library
 #   average value:  2.793320E+02

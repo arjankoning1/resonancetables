@@ -1,7 +1,7 @@
 # header:
 #   title: S000 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 16
 #   A: 0
@@ -20,10 +20,10 @@
 #   average value:  1.702333E+04
 #   relative standard deviation [%]:     136.976929
 # datablock:
-#   columns: 8
+#   columns: 13
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      K.Tsukada               EXFOR                1963        5.000000E+02   0.000000E+00      20292-010       0.010000
-      K.Tsukada               EXFOR                1963        5.700000E+02   0.000000E+00      20292-010       0.011400
-      J.B.Garg                EXFOR                1965        5.000000E+04   0.000000E+00      11517-017       1.000000
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      K.Tsukada               EXFOR                1963        5.000000E+02   0.000000E+00      20292-010       0.010000   4.000000E+00   5.000000E+00       0.0                                   
+      K.Tsukada               EXFOR                1963        5.700000E+02   0.000000E+00      20292-010       0.011400   3.000000E+00   4.000000E+00       0.0                                   
+      J.B.Garg                EXFOR                1965        5.000000E+04   0.000000E+00      11517-017       1.000000                                     0.0                                   

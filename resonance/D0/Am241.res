@@ -1,7 +1,7 @@
 # header:
 #   title: Am241 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 95
 #   A: 241
@@ -20,29 +20,29 @@
 #   average value:  5.700000E-01
 #   relative standard deviation [%]:       2.481074
 # datablock:
-#   columns: 8
+#   columns: 9
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-2                  Compilation          2000        5.800000E-01   4.000000E-02            97I       1.000000
-      RIPL-3                  Compilation          2009        5.800000E-01   4.000000E-02            97I       1.000000
-      Mughabghab_2016         Compilation          2016        5.500000E-01   4.000000E-02                      0.948276
+##    Author                         Type           Year           Value         dValue        Reference        Ratio       #Resonances
+##      []             []             []             []            [eV]           [eV]            []             []             []
+      RIPL-2                  Compilation          2000        5.800000E-01   4.000000E-02            97I       1.000000               
+      RIPL-3                  Compilation          2009        5.800000E-01   4.000000E-02            97I       1.000000               
+      Mughabghab_2016         Compilation          2016        5.500000E-01   4.000000E-02                      0.948276               
 # quantity:
 #   type: EXFOR
 #   average value:  2.428626E+04
 #   relative standard deviation [%]:     244.942520
 # datablock:
-#   columns: 8
+#   columns: 13
 #   entries: 7
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      G.G.Slaughter           EXFOR                1961        8.700000E-01   1.300000E-01      12478-008       1.500000
-      H.Derrien               EXFOR                1975        6.500000E-01   0.000000E+00      20415-009       1.120690
-      T.S.Belanova            EXFOR                1976        6.700000E-01   1.000000E-01      40305-009       1.155172
-      P.E.Vorotnikov          EXFOR                1986        1.700000E+05   5.000000E+04      40948-005  293103.468750
-      K.Fraval                EXFOR                2014        5.740000E-01   0.000000E+00      23237-006       0.989655
-      K.Fraval                EXFOR                2014        5.200000E-01   3.000000E-02      23237-006       0.896552
-      E.Mendoza               EXFOR                2018        5.600000E-01   4.000000E-02      23369-006       0.965517
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      G.G.Slaughter           EXFOR                1961        8.700000E-01   1.300000E-01      12478-008       1.500000   5.400000E-06   4.325000E-05       0.0                                   
+      H.Derrien               EXFOR                1975        6.500000E-01   0.000000E+00      20415-009       1.120690                  5.000000E-05       0.0                                   
+      T.S.Belanova            EXFOR                1976        6.700000E-01   1.000000E-01      40305-009       1.155172   2.500000E-08   2.600000E-05       0.0                                   
+      P.E.Vorotnikov          EXFOR                1986        1.700000E+05   5.000000E+04      40948-005  293103.468750   8.000000E-02   1.300000E+00       0.0                                   
+      K.Fraval                EXFOR                2014        5.740000E-01   0.000000E+00      23237-006       0.989655                                     0.0                                   
+      K.Fraval                EXFOR                2014        5.200000E-01   3.000000E-02      23237-006       0.896552                                     0.0                                   
+      E.Mendoza               EXFOR                2018        5.600000E-01   4.000000E-02      23369-006       0.965517                  7.000000E-04       0.0                                   
 # quantity:
 #   type: Nuclear data library
 #   average value:  7.936510E-01

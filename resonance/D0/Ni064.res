@@ -1,7 +1,7 @@
 # header:
 #   title: Ni064 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 28
 #   A: 64
@@ -20,13 +20,13 @@
 #   average value:  2.143333E+04
 #   relative standard deviation [%]:       7.697896
 # datablock:
-#   columns: 8
+#   columns: 9
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-2                  Compilation          2000        1.960000E+04   3.000000E+03            96I       0.830508
-      RIPL-3                  Compilation          2009        2.360000E+04   3.000000E+03            07I       1.000000
-      Mughabghab_2016         Compilation          2016        2.110000E+04   2.000000E+03                      0.894068
+##    Author                         Type           Year           Value         dValue        Reference        Ratio       #Resonances
+##      []             []             []             []            [eV]           [eV]            []             []             []
+      RIPL-2                  Compilation          2000        1.960000E+04   3.000000E+03            96I       0.830508               
+      RIPL-3                  Compilation          2009        2.360000E+04   3.000000E+03            07I       1.000000               
+      Mughabghab_2016         Compilation          2016        2.110000E+04   2.000000E+03                      0.894068               
 # quantity:
 #   type: Nuclear data library
 #   average value:  2.513640E+04

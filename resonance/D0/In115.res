@@ -1,7 +1,7 @@
 # header:
 #   title: In115 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 49
 #   A: 115
@@ -20,28 +20,28 @@
 #   average value:  9.800000E+00
 #   relative standard deviation [%]:       4.329223
 # datablock:
-#   columns: 8
+#   columns: 9
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-2                  Compilation          2000        9.500000E+00   5.000000E-01            96I       1.000000
-      RIPL-3                  Compilation          2009        9.500000E+00   5.000000E-01            96I       1.000000
-      Mughabghab_2016         Compilation          2016        1.040000E+01   5.000000E-01                      1.094737
+##    Author                         Type           Year           Value         dValue        Reference        Ratio       #Resonances
+##      []             []             []             []            [eV]           [eV]            []             []             []
+      RIPL-2                  Compilation          2000        9.500000E+00   5.000000E-01            96I       1.000000               
+      RIPL-3                  Compilation          2009        9.500000E+00   5.000000E-01            96I       1.000000               
+      Mughabghab_2016         Compilation          2016        1.040000E+01   5.000000E-01                      1.094737               
 # quantity:
 #   type: EXFOR
 #   average value:  2.510000E+01
 #   relative standard deviation [%]:     122.948242
 # datablock:
-#   columns: 8
+#   columns: 13
 #   entries: 6
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      J.A.Harvey              EXFOR                1955        1.400000E+01   2.000000E+00      11912-009       1.473684
-      I.A.Radkevich           EXFOR                1956        1.300000E+01   0.000000E+00      40382-056       1.368421
-      S.P.Kapchigashev        EXFOR                1966        9.400000E+01   2.000000E+01      40778-040       9.894737
-      G.Hacken                EXFOR                1974        9.400000E+00   2.000000E-01      10457-007       0.989474
-      V.S.Shorin              EXFOR                1975        9.500000E+00   0.000000E+00      41330-008       1.000000
-      G.M.Novoselov           EXFOR                1994        1.070000E+01   5.200000E+00      41237-004       1.126316
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      J.A.Harvey              EXFOR                1955        1.400000E+01   2.000000E+00      11912-009       1.473684                  9.500000E-05       0.0                                   
+      I.A.Radkevich           EXFOR                1956        1.300000E+01   0.000000E+00      40382-056       1.368421   1.400000E-05   7.000000E-05       0.0                                   
+      S.P.Kapchigashev        EXFOR                1966        9.400000E+01   2.000000E+01      40778-040       9.894737                  5.000000E-02       0.0                                   
+      G.Hacken                EXFOR                1974        9.400000E+00   2.000000E-01      10457-007       0.989474   3.850000E-06   2.003700E-03       0.0                                   
+      V.S.Shorin              EXFOR                1975        9.500000E+00   0.000000E+00      41330-008       1.000000   5.000000E-03   8.000000E-02       0.0                                   
+      G.M.Novoselov           EXFOR                1994        1.070000E+01   5.200000E+00      41237-004       1.126316   2.000000E-03   6.140000E-01       0.0                                   
 # quantity:
 #   type: Nuclear data library
 #   average value:  1.592800E+01

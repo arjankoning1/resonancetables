@@ -1,7 +1,7 @@
 # header:
 #   title: Pd104 D1 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 46
 #   A: 104
@@ -31,11 +31,11 @@
 #   average value:  7.400000E+01
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 8
+#   columns: 13
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      D.A.Smith               EXFOR                2002        7.400000E+01   1.400000E+01      13784-010       0.913580
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      D.A.Smith               EXFOR                2002        7.400000E+01   1.400000E+01      13784-010       0.913580   1.090000E-04   2.031000E-03       1.0                                   
 # quantity:
 #   type: Nuclear data library
 #   average value:  9.376020E+01

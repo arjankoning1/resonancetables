@@ -1,7 +1,7 @@
 # header:
 #   title: Pr143 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 59
 #   A: 143
@@ -20,11 +20,11 @@
 #   average value:  7.900000E+01
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 8
+#   columns: 9
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      Mughabghab_2016         Compilation          2016        7.900000E+01   3.200000E+01                      1.000000
+##    Author                         Type           Year           Value         dValue        Reference        Ratio       #Resonances
+##      []             []             []             []            [eV]           [eV]            []             []             []
+      Mughabghab_2016         Compilation          2016        7.900000E+01   3.200000E+01                      1.000000               
 # quantity:
 #   type: Nuclear data library
 #   average value:  3.041670E+01

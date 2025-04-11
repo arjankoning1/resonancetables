@@ -1,7 +1,7 @@
 # header:
 #   title: Bi209 D1 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 83
 #   A: 209
@@ -32,11 +32,11 @@
 #   average value:  1.140000E+03
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 8
+#   columns: 13
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      R.Macklin               EXFOR                1976        1.140000E+03   0.000000E+00      10610-004       1.085714
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      R.Macklin               EXFOR                1976        1.140000E+03   0.000000E+00      10610-004       1.085714   2.600000E-03   3.000000E-02       1.0                                   
 # quantity:
 #   type: Nuclear data library
 #   average value:  1.775890E+03

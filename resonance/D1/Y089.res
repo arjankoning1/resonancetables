@@ -1,7 +1,7 @@
 # header:
 #   title: Y089 D1 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 39
 #   A: 89
@@ -32,12 +32,12 @@
 #   average value:  1.230000E+03
 #   relative standard deviation [%]:      18.699186
 # datablock:
-#   columns: 8
+#   columns: 13
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      H.S.Camarda             EXFOR                1977        1.460000E+03   0.000000E+00      10667-004       1.131783
-      J.D.Kellie              EXFOR                1978        1.000000E+03   5.000000E+02      21728-003       0.775194
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      H.S.Camarda             EXFOR                1977        1.460000E+03   0.000000E+00      10667-004       1.131783                  2.403000E-01       1.0                                   
+      J.D.Kellie              EXFOR                1978        1.000000E+03   5.000000E+02      21728-003       0.775194                                     1.0                                   
 # quantity:
 #   type: Nuclear data library
 #   average value:  1.250000E+03

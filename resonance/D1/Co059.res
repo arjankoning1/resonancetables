@@ -1,7 +1,7 @@
 # header:
 #   title: Co059 D1 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 27
 #   A: 59
@@ -30,11 +30,11 @@
 #   average value:  1.562500E+03
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 8
+#   columns: 13
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      G.De Saussure           EXFOR                1992        1.562500E+03   0.000000E+00      12988-008       1.736111
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      G.De Saussure           EXFOR                1992        1.562500E+03   0.000000E+00      12988-008       1.736111   2.000000E-04   1.000000E-01       1.0                                   
 # quantity:
 #   type: Nuclear data library
 #   average value:  1.372540E+03

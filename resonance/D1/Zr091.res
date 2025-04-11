@@ -1,7 +1,7 @@
 # header:
 #   title: Zr091 D1 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 40
 #   A: 91
@@ -32,13 +32,13 @@
 #   average value:  3.860000E+02
 #   relative standard deviation [%]:      39.065662
 # datablock:
-#   columns: 8
+#   columns: 13
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      Z.M.Bartolome           EXFOR                1969        5.980000E+02   0.000000E+00      10002-030       2.392000
-      A.R.De L.Musgrove       EXFOR                1977        3.000000E+02   5.000000E+01      30423-003       1.200000
-      G.Tagliente             EXFOR                2008        2.600000E+02   2.000000E+01      23044-003       1.040000
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      Z.M.Bartolome           EXFOR                1969        5.980000E+02   0.000000E+00      10002-030       2.392000   1.810000E-04   4.266000E-03       1.0                                   
+      A.R.De L.Musgrove       EXFOR                1977        3.000000E+02   5.000000E+01      30423-003       1.200000   3.000000E-03   2.000000E-01       1.0                                   
+      G.Tagliente             EXFOR                2008        2.600000E+02   2.000000E+01      23044-003       1.040000   1.594300E-04   2.612600E-02       1.0                                   
 # quantity:
 #   type: Nuclear data library
 #   average value:  2.750140E+02

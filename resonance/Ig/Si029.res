@@ -1,7 +1,7 @@
 # header:
 #   title: Si029 Ig resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 14
 #   A: 29

@@ -1,7 +1,7 @@
 # header:
 #   title: Pu240 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 94
 #   A: 240
@@ -20,26 +20,26 @@
 #   average value:  1.273333E+01
 #   relative standard deviation [%]:       1.958981
 # datablock:
-#   columns: 8
+#   columns: 9
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-2                  Compilation          2000        1.240000E+01   7.000000E-01            97I       0.953846
-      RIPL-3                  Compilation          2009        1.300000E+01   5.000000E-01            04I       1.000000
-      Mughabghab_2016         Compilation          2016        1.280000E+01   6.000000E-01                      0.984615
+##    Author                         Type           Year           Value         dValue        Reference        Ratio       #Resonances
+##      []             []             []             []            [eV]           [eV]            []             []             []
+      RIPL-2                  Compilation          2000        1.240000E+01   7.000000E-01            97I       0.953846       25      
+      RIPL-3                  Compilation          2009        1.300000E+01   5.000000E-01            04I       1.000000               
+      Mughabghab_2016         Compilation          2016        1.280000E+01   6.000000E-01                      0.984615               
 # quantity:
 #   type: EXFOR
 #   average value:  1.471750E+02
 #   relative standard deviation [%]:     158.025299
 # datablock:
-#   columns: 8
+#   columns: 13
 #   entries: 4
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      O.D.Simpson             EXFOR                1957        1.200000E+01   2.000000E+00      12526-004       0.923077
-      W.Kolar                 EXFOR                1968        1.470000E+01   8.000000E-01      20117-008       1.130769
-      C.Budtz-Jorgensen       EXFOR                1981        5.500000E+02   7.500000E+01      21764-005      42.307693
-      C.Guerrero              EXFOR                2012        1.200000E+01   0.000000E+00      23069-009       0.923077
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      O.D.Simpson             EXFOR                1957        1.200000E+01   2.000000E+00      12526-004       0.923077                                     0.0                                   
+      W.Kolar                 EXFOR                1968        1.470000E+01   8.000000E-01      20117-008       1.130769   2.000000E-05   1.500000E-03       0.0                                   
+      C.Budtz-Jorgensen       EXFOR                1981        5.500000E+02   7.500000E+01      21764-005      42.307693   1.000000E-02   2.000000E-02       0.0                                   
+      C.Guerrero              EXFOR                2012        1.200000E+01   0.000000E+00      23069-009       0.923077                                     0.0                                   
 # quantity:
 #   type: Nuclear data library
 #   average value:  1.334890E+01

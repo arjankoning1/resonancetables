@@ -1,7 +1,7 @@
 # header:
 #   title: I127 D1 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 53
 #   A: 127
@@ -20,8 +20,8 @@
 #   average value:  6.500000E+00
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 8
+#   columns: 13
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      G.Noguere               EXFOR                2006        6.500000E+00   1.000000E-01      22948-005       1.000000
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      G.Noguere               EXFOR                2006        6.500000E+00   1.000000E-01      22948-005       1.000000   7.550000E-06   1.003800E-03       1.0                                   

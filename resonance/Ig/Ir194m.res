@@ -1,7 +1,7 @@
 # header:
 #   title: Ir194m Ig resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 77
 #   A: 194
@@ -24,5 +24,5 @@
 #   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      tendl.2023              NDL                  2023        6.577860E+03   0.000000E+00                      Infinity
-      endfb8.1                NDL                  2024        3.053140E+02   0.000000E+00                      Infinity
+      tendl.2023              NDL                  2023        6.577860E+03   0.000000E+00                      1.000000
+      endfb8.1                NDL                  2024        3.053140E+02   0.000000E+00                      1.000000

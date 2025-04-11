@@ -1,7 +1,7 @@
 # header:
 #   title: S034 D1 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 16
 #   A: 34
@@ -31,13 +31,13 @@
 #   average value:  1.046667E+05
 #   relative standard deviation [%]:      26.981873
 # datablock:
-#   columns: 8
+#   columns: 13
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      R.F.Carlton             EXFOR                1984        6.700000E+04   8.000000E+03      12886-006       1.410526
-      R.F.Carlton             EXFOR                1984        1.120000E+05   1.900000E+04      12886-005       2.357895
-      R.F.Carlton             EXFOR                1984        1.350000E+05   3.000000E+04      12886-005       2.842105
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      R.F.Carlton             EXFOR                1984        6.700000E+04   8.000000E+03      12886-006       1.410526   3.000000E-02   1.500000E+00       1.0                                   
+      R.F.Carlton             EXFOR                1984        1.120000E+05   1.900000E+04      12886-005       2.357895   3.000000E-02   1.500000E+00       1.0            1.5                    
+      R.F.Carlton             EXFOR                1984        1.350000E+05   3.000000E+04      12886-005       2.842105   3.000000E-02   1.500000E+00       1.0            0.5                    
 # quantity:
 #   type: Nuclear data library
 #   average value:  8.000020E+04

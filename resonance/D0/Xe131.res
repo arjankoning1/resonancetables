@@ -1,7 +1,7 @@
 # header:
 #   title: Xe131 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 54
 #   A: 131
@@ -20,24 +20,24 @@
 #   average value:  4.756667E+01
 #   relative standard deviation [%]:       4.261470
 # datablock:
-#   columns: 8
+#   columns: 9
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-2                  Compilation          2000        4.900000E+01   1.500000E+01            96I       1.000000
-      RIPL-3                  Compilation          2009        4.900000E+01   8.000000E+00            00I       1.000000
-      Mughabghab_2016         Compilation          2016        4.470000E+01   5.000000E+00                      0.912245
+##    Author                         Type           Year           Value         dValue        Reference        Ratio       #Resonances
+##      []             []             []             []            [eV]           [eV]            []             []             []
+      RIPL-2                  Compilation          2000        4.900000E+01   1.500000E+01            96I       1.000000        1      
+      RIPL-3                  Compilation          2009        4.900000E+01   8.000000E+00            00I       1.000000               
+      Mughabghab_2016         Compilation          2016        4.470000E+01   5.000000E+00                      0.912245               
 # quantity:
 #   type: EXFOR
 #   average value:  2.752275E+01
 #   relative standard deviation [%]:      99.834671
 # datablock:
-#   columns: 8
+#   columns: 13
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      P.Ribon                 EXFOR                1969        5.500000E+01   7.000000E+00      20149-042       1.122449
-      G.Noguere               EXFOR                2011        4.550000E-02   3.400000E-03      23211-016       0.000929
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      P.Ribon                 EXFOR                1969        5.500000E+01   7.000000E+00      20149-042       1.122449   1.400000E-05   4.000000E-03       0.0                                   
+      G.Noguere               EXFOR                2011        4.550000E-02   3.400000E-03      23211-016       0.000929   1.450000E-05   1.070000E-03       0.0                                   
 # quantity:
 #   type: Nuclear data library
 #   average value:  6.844740E+01

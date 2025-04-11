@@ -1,7 +1,7 @@
 # header:
 #   title: U232 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 92
 #   A: 232
@@ -20,13 +20,13 @@
 #   average value:  4.600000E+00
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 8
+#   columns: 9
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-2                  Compilation          2000        4.600000E+00   7.000000E-01            97I       1.000000
-      RIPL-3                  Compilation          2009        4.600000E+00   5.000000E-01            04I       1.000000
-      Mughabghab_2016         Compilation          2016        4.600000E+00   7.000000E-01                      1.000000
+##    Author                         Type           Year           Value         dValue        Reference        Ratio       #Resonances
+##      []             []             []             []            [eV]           [eV]            []             []             []
+      RIPL-2                  Compilation          2000        4.600000E+00   7.000000E-01            97I       1.000000               
+      RIPL-3                  Compilation          2009        4.600000E+00   5.000000E-01            04I       1.000000               
+      Mughabghab_2016         Compilation          2016        4.600000E+00   7.000000E-01                      1.000000               
 # quantity:
 #   type: Nuclear data library
 #   average value:  5.408110E+00

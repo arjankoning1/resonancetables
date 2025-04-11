@@ -1,7 +1,7 @@
 # header:
 #   title: Zn070 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 30
 #   A: 70
@@ -20,13 +20,13 @@
 #   average value:  6.573333E+03
 #   relative standard deviation [%]:       7.474858
 # datablock:
-#   columns: 8
+#   columns: 9
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-2                  Compilation          2000        7.200000E+03   8.000000E+02            81G       1.104294
-      RIPL-3                  Compilation          2009        6.520000E+03   4.200000E+02            04I       1.000000
-      Mughabghab_2016         Compilation          2016        6.000000E+03   6.000000E+02                      0.920245
+##    Author                         Type           Year           Value         dValue        Reference        Ratio       #Resonances
+##      []             []             []             []            [eV]           [eV]            []             []             []
+      RIPL-2                  Compilation          2000        7.200000E+03   8.000000E+02            81G       1.104294               
+      RIPL-3                  Compilation          2009        6.520000E+03   4.200000E+02            04I       1.000000               
+      Mughabghab_2016         Compilation          2016        6.000000E+03   6.000000E+02                      0.920245               
 # quantity:
 #   type: Nuclear data library
 #   average value:  6.000000E+03

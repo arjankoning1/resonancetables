@@ -1,7 +1,7 @@
 # header:
 #   title: Cl035 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 17
 #   A: 35
@@ -20,13 +20,13 @@
 #   average value:  2.276667E+04
 #   relative standard deviation [%]:       1.449414
 # datablock:
-#   columns: 8
+#   columns: 9
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-2                  Compilation          2000        2.300000E+04   6.000000E+03            96I       1.000000
-      RIPL-3                  Compilation          2009        2.300000E+04   6.000000E+03            96I       1.000000
-      Mughabghab_2016         Compilation          2016        2.230000E+04   2.500000E+03                      0.969565
+##    Author                         Type           Year           Value         dValue        Reference        Ratio       #Resonances
+##      []             []             []             []            [eV]           [eV]            []             []             []
+      RIPL-2                  Compilation          2000        2.300000E+04   6.000000E+03            96I       1.000000               
+      RIPL-3                  Compilation          2009        2.300000E+04   6.000000E+03            96I       1.000000               
+      Mughabghab_2016         Compilation          2016        2.230000E+04   2.500000E+03                      0.969565               
 # quantity:
 #   type: Nuclear data library
 #   average value:  2.941240E+04

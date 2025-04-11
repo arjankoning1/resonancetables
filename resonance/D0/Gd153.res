@@ -1,7 +1,7 @@
 # header:
 #   title: Gd153 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 64
 #   A: 153
@@ -20,22 +20,22 @@
 #   average value:  3.000000E+00
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 8
+#   columns: 9
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-3                  Compilation          2009        3.000000E+00   6.000000E-01            06M       1.000000
-      Mughabghab_2016         Compilation          2016        3.000000E+00   6.000000E-01                      1.000000
+##    Author                         Type           Year           Value         dValue        Reference        Ratio       #Resonances
+##      []             []             []             []            [eV]           [eV]            []             []             []
+      RIPL-3                  Compilation          2009        3.000000E+00   6.000000E-01            06M       1.000000               
+      Mughabghab_2016         Compilation          2016        3.000000E+00   6.000000E-01                      1.000000               
 # quantity:
 #   type: EXFOR
 #   average value:  3.000000E+00
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 8
+#   columns: 13
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      V.P.Vertebnyy           EXFOR                1987        3.000000E+00   6.000000E-01      40986-005       1.000000
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      V.P.Vertebnyy           EXFOR                1987        3.000000E+00   6.000000E-01      40986-005       1.000000                                     0.0                                   
 # quantity:
 #   type: Nuclear data library
 #   average value:  2.566670E+01

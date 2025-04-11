@@ -1,7 +1,7 @@
 # header:
 #   title: U238 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 92
 #   A: 238
@@ -20,32 +20,32 @@
 #   average value:  2.045333E+01
 #   relative standard deviation [%]:       1.201139
 # datablock:
-#   columns: 8
+#   columns: 9
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-2                  Compilation          2000        2.080000E+01   3.000000E-01            97I       1.024630
-      RIPL-3                  Compilation          2009        2.030000E+01   6.000000E-01            04I       1.000000
-      Mughabghab_2016         Compilation          2016        2.026000E+01   7.200000E-01                      0.998030
+##    Author                         Type           Year           Value         dValue        Reference        Ratio       #Resonances
+##      []             []             []             []            [eV]           [eV]            []             []             []
+      RIPL-2                  Compilation          2000        2.080000E+01   3.000000E-01            97I       1.024630        2      
+      RIPL-3                  Compilation          2009        2.030000E+01   6.000000E-01            04I       1.000000               
+      Mughabghab_2016         Compilation          2016        2.026000E+01   7.200000E-01                      0.998030               
 # quantity:
 #   type: EXFOR
 #   average value:  1.961000E+01
 #   relative standard deviation [%]:      10.012189
 # datablock:
-#   columns: 8
+#   columns: 13
 #   entries: 10
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      I.A.Radkevich           EXFOR                1956        1.700000E+01   0.000000E+00      40382-039       0.837438
-      R.G.Fluharty            EXFOR                1956        1.800000E+01   2.000000E+00      11946-016       0.886699
-      L.M.Bollinger           EXFOR                1957        1.800000E+01   4.000000E+00      12457-011       0.886699
-      G.Carraro               EXFOR                1970        1.780000E+01   9.000000E-01      20115-011       0.876847
-      G.Carraro               EXFOR                1971        1.780000E+01   9.000000E-01      20505-008       0.876847
-      T.Y.Byoun               EXFOR                1973        2.070000E+01   0.000000E+00      10577-039       1.019704
-      F.Corvi                 EXFOR                1975        2.240000E+01   1.000000E+00      20430-006       1.103448
-      F.Poortmans             EXFOR                1978        2.170000E+01   9.000000E-01      20726-006       1.068965
-      Y.Nakajima              EXFOR                1980        2.190000E+01   1.500000E+00      21598-004       1.078818
-      Yu.V.Grigor'Ev          EXFOR                1991        2.080000E+01   0.000000E+00      40876-008       1.024630
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      I.A.Radkevich           EXFOR                1956        1.700000E+01   0.000000E+00      40382-039       0.837438   6.650000E-06   4.050000E-04       0.0                                   
+      R.G.Fluharty            EXFOR                1956        1.800000E+01   2.000000E+00      11946-016       0.886699   2.120000E-05   2.000000E-04       0.0                                   
+      L.M.Bollinger           EXFOR                1957        1.800000E+01   4.000000E+00      12457-011       0.886699   6.670000E-06   1.890000E-04       0.0                                   
+      G.Carraro               EXFOR                1970        1.780000E+01   9.000000E-01      20115-011       0.876847   6.000000E-05   2.000000E-03       0.0                                   
+      G.Carraro               EXFOR                1971        1.780000E+01   9.000000E-01      20505-008       0.876847   6.000000E-05   2.000000E-03       0.0                                   
+      T.Y.Byoun               EXFOR                1973        2.070000E+01   0.000000E+00      10577-039       1.019704   1.000000E-02   1.000000E-01       0.0                                   
+      F.Corvi                 EXFOR                1975        2.240000E+01   1.000000E+00      20430-006       1.103448                  1.600000E-03       0.0                                   
+      F.Poortmans             EXFOR                1978        2.170000E+01   9.000000E-01      20726-006       1.068965   4.410000E-06   4.260300E-03       0.0                                   
+      Y.Nakajima              EXFOR                1980        2.190000E+01   1.500000E+00      21598-004       1.078818   2.000000E-05   4.700000E-03       0.0                                   
+      Yu.V.Grigor'Ev          EXFOR                1991        2.080000E+01   0.000000E+00      40876-008       1.024630   4.650000E-04   2.000000E-01       0.0                                   
 # quantity:
 #   type: Nuclear data library
 #   average value:  2.237140E+01

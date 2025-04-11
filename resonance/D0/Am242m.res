@@ -1,7 +1,7 @@
 # header:
 #   title: Am242m D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 95
 #   A: 242
@@ -20,11 +20,11 @@
 #   average value:  4.200000E-01
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 8
+#   columns: 9
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      Mughabghab_2016         Compilation          2016        4.200000E-01   3.000000E-02                      1.000000
+##    Author                         Type           Year           Value         dValue        Reference        Ratio       #Resonances
+##      []             []             []             []            [eV]           [eV]            []             []             []
+      Mughabghab_2016         Compilation          2016        4.200000E-01   3.000000E-02                      1.000000               
 # quantity:
 #   type: Nuclear data library
 #   average value:  4.234040E-01

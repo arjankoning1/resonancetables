@@ -1,7 +1,7 @@
 # header:
 #   title: Er170 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 68
 #   A: 170
@@ -20,24 +20,24 @@
 #   average value:  1.505333E+02
 #   relative standard deviation [%]:       3.319458
 # datablock:
-#   columns: 8
+#   columns: 9
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-2                  Compilation          2000        1.470000E+02   2.000000E+01            97I       1.000000
-      RIPL-3                  Compilation          2009        1.470000E+02   2.000000E+01            97I       1.000000
-      Mughabghab_2016         Compilation          2016        1.576000E+02   1.040000E+01                      1.072109
+##    Author                         Type           Year           Value         dValue        Reference        Ratio       #Resonances
+##      []             []             []             []            [eV]           [eV]            []             []             []
+      RIPL-2                  Compilation          2000        1.470000E+02   2.000000E+01            97I       1.000000               
+      RIPL-3                  Compilation          2009        1.470000E+02   2.000000E+01            97I       1.000000               
+      Mughabghab_2016         Compilation          2016        1.576000E+02   1.040000E+01                      1.072109               
 # quantity:
 #   type: EXFOR
 #   average value:  1.625000E+02
 #   relative standard deviation [%]:       4.615385
 # datablock:
-#   columns: 8
+#   columns: 13
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      E.N.Karzhavina          EXFOR                1968        1.700000E+02   2.400000E+01      40147-032       1.156463
-      H.I.Liou                EXFOR                1972        1.550000E+02   0.000000E+00      10591-017       1.054422
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      E.N.Karzhavina          EXFOR                1968        1.700000E+02   2.400000E+01      40147-032       1.156463   7.400000E-06   2.840000E-03       0.0                                   
+      H.I.Liou                EXFOR                1972        1.550000E+02   0.000000E+00      10591-017       1.054422                                     0.0                                   
 # quantity:
 #   type: Nuclear data library
 #   average value:  1.816360E+02

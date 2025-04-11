@@ -1,7 +1,7 @@
 # header:
 #   title: Np238 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 93
 #   A: 238
@@ -20,12 +20,12 @@
 #   average value:  4.100000E-01
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 8
+#   columns: 9
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-2                  Compilation          2000        4.100000E-01   9.999999E-02            99M       1.000000
-      RIPL-3                  Compilation          2009        4.100000E-01   9.999999E-02            99M       1.000000
+##    Author                         Type           Year           Value         dValue        Reference        Ratio       #Resonances
+##      []             []             []             []            [eV]           [eV]            []             []             []
+      RIPL-2                  Compilation          2000        4.100000E-01   9.999999E-02            99M       1.000000       27      
+      RIPL-3                  Compilation          2009        4.100000E-01   9.999999E-02            99M       1.000000               
 # quantity:
 #   type: Nuclear data library
 #   average value:  4.237290E-01

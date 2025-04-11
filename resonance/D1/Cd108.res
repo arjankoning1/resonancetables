@@ -1,7 +1,7 @@
 # header:
 #   title: Cd108 D1 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 48
 #   A: 108
@@ -31,11 +31,11 @@
 #   average value:  1.270000E+02
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 8
+#   columns: 13
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      A.R.De L.Musgrove       EXFOR                1978        1.270000E+02   3.000000E+01      30453-007       1.380435
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      A.R.De L.Musgrove       EXFOR                1978        1.270000E+02   3.000000E+01      30453-007       1.380435   3.000000E-03   9.000000E-02       1.0                                   
 # quantity:
 #   type: Nuclear data library
 #   average value:  5.893350E+01

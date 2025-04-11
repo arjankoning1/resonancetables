@@ -1,7 +1,7 @@
 # header:
 #   title: S032 D1 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 16
 #   A: 32
@@ -31,12 +31,12 @@
 #   average value:  1.135000E+05
 #   relative standard deviation [%]:      11.894273
 # datablock:
-#   columns: 8
+#   columns: 13
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      J.Halperin              EXFOR                1980        1.000000E+05   2.000000E+04      10455-007       2.159827
-      J.Halperin              EXFOR                1980        1.270000E+05   2.700000E+04      10455-007       2.742980
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      J.Halperin              EXFOR                1980        1.000000E+05   2.000000E+04      10455-007       2.159827                                     1.0            1.5                    
+      J.Halperin              EXFOR                1980        1.270000E+05   2.700000E+04      10455-007       2.742980                                     1.0            0.5                    
 # quantity:
 #   type: Nuclear data library
 #   average value:  3.200340E+04

@@ -1,7 +1,7 @@
 # header:
 #   title: K039 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 19
 #   A: 39
@@ -20,13 +20,13 @@
 #   average value:  1.200000E+04
 #   relative standard deviation [%]:      24.532669
 # datablock:
-#   columns: 8
+#   columns: 9
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-2                  Compilation          2000        1.500000E+04   5.000000E+03            79R       1.153846
-      RIPL-3                  Compilation          2009        1.300000E+04   3.000000E+03            07I       1.000000
-      Mughabghab_2016         Compilation          2016        8.000000E+03   8.000000E+02                      0.615385
+##    Author                         Type           Year           Value         dValue        Reference        Ratio       #Resonances
+##      []             []             []             []            [eV]           [eV]            []             []             []
+      RIPL-2                  Compilation          2000        1.500000E+04   5.000000E+03            79R       1.153846               
+      RIPL-3                  Compilation          2009        1.300000E+04   3.000000E+03            07I       1.000000               
+      Mughabghab_2016         Compilation          2016        8.000000E+03   8.000000E+02                      0.615385               
 # quantity:
 #   type: Nuclear data library
 #   average value:  7.426920E+03

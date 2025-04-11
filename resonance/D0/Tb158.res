@@ -1,7 +1,7 @@
 # header:
 #   title: Tb158 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 65
 #   A: 158
@@ -20,11 +20,11 @@
 #   average value:  3.780000E+00
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 8
+#   columns: 9
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      Mughabghab_2016         Compilation          2016        3.780000E+00   1.600000E-01                      1.000000
+##    Author                         Type           Year           Value         dValue        Reference        Ratio       #Resonances
+##      []             []             []             []            [eV]           [eV]            []             []             []
+      Mughabghab_2016         Compilation          2016        3.780000E+00   1.600000E-01                      1.000000               
 # quantity:
 #   type: Nuclear data library
 #   average value:  3.274920E-01

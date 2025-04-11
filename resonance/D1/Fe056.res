@@ -1,7 +1,7 @@
 # header:
 #   title: Fe056 D1 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 26
 #   A: 56
@@ -32,11 +32,11 @@
 #   average value:  7.000000E+03
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 8
+#   columns: 13
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      B.J.Allen               EXFOR                1976        7.000000E+03   0.000000E+00      30355-005       0.909091
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      B.J.Allen               EXFOR                1976        7.000000E+03   0.000000E+00      30355-005       0.909091   2.500000E-03   8.000000E-02       1.0                                   
 # quantity:
 #   type: Nuclear data library
 #   average value:  6.071500E+03

@@ -1,7 +1,7 @@
 # header:
 #   title: Lu173 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 71
 #   A: 173
@@ -20,21 +20,21 @@
 #   average value:  1.160000E+00
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 8
+#   columns: 9
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      Mughabghab_2016         Compilation          2016        1.160000E+00   2.900000E-01                      1.000000
+##    Author                         Type           Year           Value         dValue        Reference        Ratio       #Resonances
+##      []             []             []             []            [eV]           [eV]            []             []             []
+      Mughabghab_2016         Compilation          2016        1.160000E+00   2.900000E-01                      1.000000               
 # quantity:
 #   type: EXFOR
 #   average value:  1.150000E+00
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 8
+#   columns: 13
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      A.Ebran                 EXFOR                2019        1.150000E+00   3.300000E-01      14410-003       0.991379
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      A.Ebran                 EXFOR                2019        1.150000E+00   3.300000E-01      14410-003       0.991379   1.000000E-07   2.000000E+01       0.0                                   
 # quantity:
 #   type: Nuclear data library
 #   average value:  2.133330E+00

@@ -1,0 +1,28 @@
+# header:
+#   title: Th232 D2 resonance data
+#   source: Resonancetables
+#   date: 2025-04-10
+# target:
+#   Z: 90
+#   A: 232
+#   nuclide: Th232
+# reaction:
+#   type: D2
+# parameters:
+#   selected value [eV]:  8.950000E+00
+#   selected value uncertainty [eV]:  0.000000E+00
+#   selected value source: N.Janeva
+#   number of values: 2
+#   average value [b]:  7.475000E+00
+#   relative standard deviation [%]:      19.732439
+# quantity:
+#   type: EXFOR
+#   average value:  7.475000E+00
+#   relative standard deviation [%]:      19.732439
+# datablock:
+#   columns: 13
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      N.Janeva                EXFOR                2004        6.000000E+00   0.000000E+00      23060-003       0.670391   4.000000E-03   4.000000E-02       2.0            2.0                    
+      N.Janeva                EXFOR                2004        8.950000E+00   0.000000E+00      23060-003       1.000000   4.000000E-03   4.000000E-02       2.0            2.0                    

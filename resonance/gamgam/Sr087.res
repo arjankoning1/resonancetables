@@ -1,7 +1,7 @@
 # header:
 #   title: Sr087 gamgam resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 38
 #   A: 87

@@ -1,7 +1,7 @@
 # header:
 #   title: Te127m Ig resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 52
 #   A: 127
@@ -24,7 +24,7 @@
 #   entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      jendl5.0                NDL                  2021        7.753390E+01   0.000000E+00                      Infinity
-      tendl.2023              NDL                  2023        5.290250E+02   0.000000E+00                      Infinity
-      endfb8.1                NDL                  2024        1.337700E+03   0.000000E+00                      Infinity
-      jeff4.0                 NDL                  2025        1.423410E+03   0.000000E+00                      Infinity
+      jendl5.0                NDL                  2021        7.753390E+01   0.000000E+00                      1.000000
+      tendl.2023              NDL                  2023        5.290250E+02   0.000000E+00                      1.000000
+      endfb8.1                NDL                  2024        1.337700E+03   0.000000E+00                      1.000000
+      jeff4.0                 NDL                  2025        1.423410E+03   0.000000E+00                      1.000000

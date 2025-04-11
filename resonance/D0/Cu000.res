@@ -1,7 +1,7 @@
 # header:
 #   title: Cu000 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 29
 #   A: 0
@@ -20,8 +20,8 @@
 #   average value:  3.000000E+04
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 8
+#   columns: 13
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      S.P.Kapchigashev        EXFOR                1966        3.000000E+04   1.800000E+04      40778-002       1.000000
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      S.P.Kapchigashev        EXFOR                1966        3.000000E+04   1.800000E+04      40778-002       1.000000                  5.000000E-02       0.0                                   

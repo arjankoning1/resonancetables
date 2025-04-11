@@ -1,7 +1,7 @@
 # header:
 #   title: Pa233 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 91
 #   A: 233
@@ -20,13 +20,13 @@
 #   average value:  6.566667E-01
 #   relative standard deviation [%]:      13.295231
 # datablock:
-#   columns: 8
+#   columns: 9
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-2                  Compilation          2000        6.000000E-01   9.999999E-02            97I       0.769231
-      RIPL-3                  Compilation          2009        7.800000E-01   9.999999E-02            04I       1.000000
-      Mughabghab_2016         Compilation          2016        5.900000E-01   9.000000E-02                      0.756410
+##    Author                         Type           Year           Value         dValue        Reference        Ratio       #Resonances
+##      []             []             []             []            [eV]           [eV]            []             []             []
+      RIPL-2                  Compilation          2000        6.000000E-01   9.999999E-02            97I       0.769231               
+      RIPL-3                  Compilation          2009        7.800000E-01   9.999999E-02            04I       1.000000               
+      Mughabghab_2016         Compilation          2016        5.900000E-01   9.000000E-02                      0.756410               
 # quantity:
 #   type: Nuclear data library
 #   average value:  8.999990E-01

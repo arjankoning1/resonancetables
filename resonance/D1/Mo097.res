@@ -1,7 +1,7 @@
 # header:
 #   title: Mo097 D1 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 42
 #   A: 97
@@ -32,11 +32,11 @@
 #   average value:  4.000000E+01
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 8
+#   columns: 13
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      H.Weigmann              EXFOR                1971        4.000000E+01   4.000000E+00      20398-030       1.818182
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      H.Weigmann              EXFOR                1971        4.000000E+01   4.000000E+00      20398-030       1.818182   7.000000E-05   1.900000E-03       1.0                                   
 # quantity:
 #   type: Nuclear data library
 #   average value:  5.263420E+01

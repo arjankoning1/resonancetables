@@ -1,7 +1,7 @@
 # header:
 #   title: Te128 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 52
 #   A: 128
@@ -20,23 +20,23 @@
 #   average value:  1.500000E+03
 #   relative standard deviation [%]:      41.099697
 # datablock:
-#   columns: 8
+#   columns: 9
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-2                  Compilation          2000        7.400000E+02   1.500000E+02            96I       0.490066
-      RIPL-3                  Compilation          2009        1.510000E+03   3.700000E+02            06M       1.000000
-      Mughabghab_2016         Compilation          2016        2.250000E+03   6.560000E+02                      1.490066
+##    Author                         Type           Year           Value         dValue        Reference        Ratio       #Resonances
+##      []             []             []             []            [eV]           [eV]            []             []             []
+      RIPL-2                  Compilation          2000        7.400000E+02   1.500000E+02            96I       0.490066               
+      RIPL-3                  Compilation          2009        1.510000E+03   3.700000E+02            06M       1.000000               
+      Mughabghab_2016         Compilation          2016        2.250000E+03   6.560000E+02                      1.490066               
 # quantity:
 #   type: EXFOR
 #   average value:  2.625000E+02
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 8
+#   columns: 13
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      H.Tellier               EXFOR                1970        2.625000E+02   0.000000E+00      20120-051       0.173841
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      H.Tellier               EXFOR                1970        2.625000E+02   0.000000E+00      20120-051       0.173841                  2.180000E-02       0.0                                   
 # quantity:
 #   type: Nuclear data library
 #   average value:  3.636830E+03

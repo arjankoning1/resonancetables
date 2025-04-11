@@ -1,7 +1,7 @@
 # header:
 #   title: Cr054 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 24
 #   A: 54
@@ -20,24 +20,24 @@
 #   average value:  5.020000E+04
 #   relative standard deviation [%]:      19.031986
 # datablock:
-#   columns: 8
+#   columns: 9
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-2                  Compilation          2000        6.200000E+04   8.000000E+03            89R       1.240000
-      RIPL-3                  Compilation          2009        5.000000E+04   8.000000E+03            07I       1.000000
-      Mughabghab_2016         Compilation          2016        3.860000E+04   2.400000E+03                      0.772000
+##    Author                         Type           Year           Value         dValue        Reference        Ratio       #Resonances
+##      []             []             []             []            [eV]           [eV]            []             []             []
+      RIPL-2                  Compilation          2000        6.200000E+04   8.000000E+03            89R       1.240000        3      
+      RIPL-3                  Compilation          2009        5.000000E+04   8.000000E+03            07I       1.000000               
+      Mughabghab_2016         Compilation          2016        3.860000E+04   2.400000E+03                      0.772000               
 # quantity:
 #   type: EXFOR
 #   average value:  5.790000E+04
 #   relative standard deviation [%]:       3.626943
 # datablock:
-#   columns: 8
+#   columns: 13
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      M.J.Kenny               EXFOR                1977        5.580000E+04   0.000000E+00      30393-023       1.116000
-      H.M.Agrawal             EXFOR                1984        6.000000E+04   9.000000E+03      12830-007       1.200000
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      M.J.Kenny               EXFOR                1977        5.580000E+04   0.000000E+00      30393-023       1.116000   5.000000E-03   2.700000E-01       0.0                                   
+      H.M.Agrawal             EXFOR                1984        6.000000E+04   9.000000E+03      12830-007       1.200000                                     0.0                                   
 # quantity:
 #   type: Nuclear data library
 #   average value:  5.560000E+04

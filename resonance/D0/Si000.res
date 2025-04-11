@@ -1,7 +1,7 @@
 # header:
 #   title: Si000 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 14
 #   A: 0
@@ -20,9 +20,9 @@
 #   average value:  1.275000E+03
 #   relative standard deviation [%]:      41.176472
 # datablock:
-#   columns: 8
+#   columns: 13
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      K.Tsukada               EXFOR                1963        7.500000E+02   0.000000E+00      20292-004       0.416667
-      K.Tsukada               EXFOR                1963        1.800000E+03   0.000000E+00      20292-004       1.000000
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      K.Tsukada               EXFOR                1963        7.500000E+02   0.000000E+00      20292-004       0.416667   4.000000E+00   5.000000E+00       0.0                                   
+      K.Tsukada               EXFOR                1963        1.800000E+03   0.000000E+00      20292-004       1.000000   3.000000E+00   4.000000E+00       0.0                                   

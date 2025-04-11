@@ -1,7 +1,7 @@
 # header:
 #   title: Ag109 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 47
 #   A: 109
@@ -20,27 +20,27 @@
 #   average value:  1.956667E+01
 #   relative standard deviation [%]:      22.627460
 # datablock:
-#   columns: 8
+#   columns: 9
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-2                  Compilation          2000        1.510000E+01   1.400000E+00            96I       0.838889
-      RIPL-3                  Compilation          2009        1.800000E+01   1.000000E+00            04I       1.000000
-      Mughabghab_2016         Compilation          2016        2.560000E+01   1.500000E+00                      1.422222
+##    Author                         Type           Year           Value         dValue        Reference        Ratio       #Resonances
+##      []             []             []             []            [eV]           [eV]            []             []             []
+      RIPL-2                  Compilation          2000        1.510000E+01   1.400000E+00            96I       0.838889               
+      RIPL-3                  Compilation          2009        1.800000E+01   1.000000E+00            04I       1.000000               
+      Mughabghab_2016         Compilation          2016        2.560000E+01   1.500000E+00                      1.422222               
 # quantity:
 #   type: EXFOR
 #   average value:  1.788000E+01
 #   relative standard deviation [%]:      17.637943
 # datablock:
-#   columns: 8
+#   columns: 13
 #   entries: 5
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      G.V.Muradyan            EXFOR                1968        1.280000E+01   0.000000E+00      40114-009       0.711111
-      V.A.Anufriev            EXFOR                1982        1.560000E+01   1.000000E+00      40622-003       0.866667
-      M.Mizumoto              EXFOR                1982        2.000000E+01   2.000000E+00      21814-010       1.111111
-      L.Zanini                EXFOR                1997        2.000000E+01   2.100000E+00      22437-008       1.111111
-      L.Y.Lowie               EXFOR                1999        2.100000E+01   2.000000E+00      13687-007       1.166667
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      G.V.Muradyan            EXFOR                1968        1.280000E+01   0.000000E+00      40114-009       0.711111                  6.500000E-04       0.0                                   
+      V.A.Anufriev            EXFOR                1982        1.560000E+01   1.000000E+00      40622-003       0.866667   5.000000E-06   2.080000E-04       0.0                                   
+      M.Mizumoto              EXFOR                1982        2.000000E+01   2.000000E+00      21814-010       1.111111   4.000000E-04   7.000000E-03       0.0                                   
+      L.Zanini                EXFOR                1997        2.000000E+01   2.100000E+00      22437-008       1.111111   3.000000E-05   1.380000E-03       0.0                                   
+      L.Y.Lowie               EXFOR                1999        2.100000E+01   2.000000E+00      13687-007       1.166667                                     0.0                                   
 # quantity:
 #   type: Nuclear data library
 #   average value:  2.519860E+01

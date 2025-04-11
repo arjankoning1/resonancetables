@@ -1,7 +1,7 @@
 # header:
 #   title: Tc099 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 43
 #   A: 99
@@ -20,26 +20,26 @@
 #   average value:  1.293333E+01
 #   relative standard deviation [%]:       6.355066
 # datablock:
-#   columns: 8
+#   columns: 9
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-2                  Compilation          2000        1.200000E+01   1.300000E+00            99G       0.857143
-      RIPL-3                  Compilation          2009        1.400000E+01   1.200000E+00            04I       1.000000
-      Mughabghab_2016         Compilation          2016        1.280000E+01   5.000000E-01                      0.914286
+##    Author                         Type           Year           Value         dValue        Reference        Ratio       #Resonances
+##      []             []             []             []            [eV]           [eV]            []             []             []
+      RIPL-2                  Compilation          2000        1.200000E+01   1.300000E+00            99G       0.857143               
+      RIPL-3                  Compilation          2009        1.400000E+01   1.200000E+00            04I       1.000000               
+      Mughabghab_2016         Compilation          2016        1.280000E+01   5.000000E-01                      0.914286               
 # quantity:
 #   type: EXFOR
 #   average value:  2.665000E+01
 #   relative standard deviation [%]:      83.867012
 # datablock:
-#   columns: 8
+#   columns: 13
 #   entries: 4
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      G.G.Slaughter           EXFOR                1958        6.500000E+01   0.000000E+00      12485-005       4.642857
-      Yu.V.Adamchuk           EXFOR                1975        1.880000E+01   5.000000E+00      40245-009       1.342857
-      Yu.V.Adamchuk           EXFOR                1975        1.080000E+01   1.300000E+00      40245-004       0.771429
-      F.Gunsing               EXFOR                2000        1.200000E+01   1.300000E+00      22486-005       0.857143
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      G.G.Slaughter           EXFOR                1958        6.500000E+01   0.000000E+00      12485-005       4.642857   7.000000E-07   4.540000E-04       0.0                                   
+      Yu.V.Adamchuk           EXFOR                1975        1.880000E+01   5.000000E+00      40245-009       1.342857   2.000000E-05   4.900000E-04       0.0                                   
+      Yu.V.Adamchuk           EXFOR                1975        1.080000E+01   1.300000E+00      40245-004       0.771429   2.000000E-05   4.900000E-04       0.0                                   
+      F.Gunsing               EXFOR                2000        1.200000E+01   1.300000E+00      22486-005       0.857143   1.000000E-02   1.500000E-01       0.0                                   
 # quantity:
 #   type: Nuclear data library
 #   average value:  1.694940E+01

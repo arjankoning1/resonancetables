@@ -1,14 +1,14 @@
 # header:
 #   title: D1 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # reaction:
 #   type: D1
 # quantity:
 #   type: resonance data
 # datablock:
 #   columns: 8
-#   entries: 150
+#   entries: 149
 ##       Z              A            Liso           Value         dValue        Reference    #Experiments      Nuclide
 ##      []             []             []            [eV]           [eV]            []             []             []
          8             16              0        4.500000E+05   6.300000E+04  Mughabghab_2016       0           O016  
@@ -151,7 +151,6 @@
         80            200              0        2.000000E+02   4.000000E+01  RIPL-3                0           Hg200 
         80            202              0        1.300000E+03   1.400000E+02  Mughabghab_2016       0           Hg202 
         80            204              0        4.120000E+03   6.200000E+02  Mughabghab_2016       0           Hg204 
-        80            208              0        4.120000E+03   6.200000E+02  Mughabghab_2016       0           Hg208 
         81            203              0        2.000000E+02   2.000000E+01  RIPL-3                0           Tl203 
         81            205              0        1.140000E+03   8.000000E+01  RIPL-3                0           Tl205 
         82            204              0        6.900000E+02   6.000000E+01  RIPL-3                0           Pb204 

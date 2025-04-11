@@ -1,7 +1,7 @@
 # header:
 #   title: Si028 S0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 14
 #   A: 28

@@ -1,7 +1,7 @@
 # header:
 #   title: S033 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 16
 #   A: 33
@@ -20,23 +20,23 @@
 #   average value:  2.400000E+04
 #   relative standard deviation [%]:      12.500000
 # datablock:
-#   columns: 8
+#   columns: 9
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-2                  Compilation          2000        2.700000E+04   1.000000E+04            79R       1.285714
-      RIPL-3                  Compilation          2009        2.100000E+04   1.000000E+04            06M       1.000000
+##    Author                         Type           Year           Value         dValue        Reference        Ratio       #Resonances
+##      []             []             []             []            [eV]           [eV]            []             []             []
+      RIPL-2                  Compilation          2000        2.700000E+04   1.000000E+04            79R       1.285714        4      
+      RIPL-3                  Compilation          2009        2.100000E+04   1.000000E+04            06M       1.000000               
 # quantity:
 #   type: EXFOR
 #   average value:  2.120000E+04
 #   relative standard deviation [%]:      57.075470
 # datablock:
-#   columns: 8
+#   columns: 13
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      G.F.Auchampaugh         EXFOR                1975        9.100000E+03   9.000000E+02      10534-004       0.433333
-      C.Wagemans              EXFOR                1987        3.330000E+04   3.600000E+03      22026-004       1.585714
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      G.F.Auchampaugh         EXFOR                1975        9.100000E+03   9.000000E+02      10534-004       0.433333   1.300000E-02   2.400000E-01       0.0                                   
+      C.Wagemans              EXFOR                1987        3.330000E+04   3.600000E+03      22026-004       1.585714                                     0.0                                   
 # quantity:
 #   type: Nuclear data library
 #   average value:  2.451960E+04

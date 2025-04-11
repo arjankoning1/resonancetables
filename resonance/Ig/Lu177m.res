@@ -1,7 +1,7 @@
 # header:
 #   title: Lu177m Ig resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 71
 #   A: 177
@@ -24,4 +24,4 @@
 #   entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      tendl.2023              NDL                  2023        1.098400E+03   0.000000E+00                      Infinity
+      tendl.2023              NDL                  2023        1.098400E+03   0.000000E+00                      1.000000

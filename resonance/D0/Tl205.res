@@ -1,7 +1,7 @@
 # header:
 #   title: Tl205 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 81
 #   A: 205
@@ -20,23 +20,23 @@
 #   average value:  3.900000E+03
 #   relative standard deviation [%]:      34.591633
 # datablock:
-#   columns: 8
+#   columns: 9
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      RIPL-2                  Compilation          2000        5.500000E+03   1.500000E+03            97I       1.375000
-      RIPL-3                  Compilation          2009        4.000000E+03   4.000000E+02            0I7       1.000000
-      Mughabghab_2016         Compilation          2016        2.200000E+03   3.000000E+02                      0.550000
+##    Author                         Type           Year           Value         dValue        Reference        Ratio       #Resonances
+##      []             []             []             []            [eV]           [eV]            []             []             []
+      RIPL-2                  Compilation          2000        5.500000E+03   1.500000E+03            97I       1.375000               
+      RIPL-3                  Compilation          2009        4.000000E+03   4.000000E+02            0I7       1.000000               
+      Mughabghab_2016         Compilation          2016        2.200000E+03   3.000000E+02                      0.550000               
 # quantity:
 #   type: EXFOR
 #   average value:  1.500000E+04
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 8
+#   columns: 13
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      S.P.Kapchigashev        EXFOR                1966        1.500000E+04   5.000000E+03      40778-091       3.750000
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      S.P.Kapchigashev        EXFOR                1966        1.500000E+04   5.000000E+03      40778-091       3.750000                  5.000000E-02       0.0                                   
 # quantity:
 #   type: Nuclear data library
 #   average value:  2.885000E+03

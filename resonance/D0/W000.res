@@ -1,7 +1,7 @@
 # header:
 #   title: W000 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-03-23
+#   date: 2025-04-10
 # target:
 #   Z: 74
 #   A: 0
@@ -20,8 +20,8 @@
 #   average value:  1.000000E+01
 #   relative standard deviation [%]:       0.000000
 # datablock:
-#   columns: 8
+#   columns: 13
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      C.Corge                 EXFOR                1959        1.000000E+01   0.000000E+00      20678-003       1.000000
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      C.Corge                 EXFOR                1959        1.000000E+01   0.000000E+00      20678-003       1.000000   6.500000E-05   5.900000E-03       0.0                                   

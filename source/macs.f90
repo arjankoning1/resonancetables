@@ -28,8 +28,8 @@ subroutine macs
   Riso = -1
   Nsave = 0
   do Z = 1, numZ
-    do A = 0, heavy(Z) + 5
-      if (A == 0 .or. A >= light(Z) - 5) then
+    do A = 0, heavy(Z) + 3
+      if (A == 0 .or. A >= light(Z) - 3) then
         do Liso = 0, numisom
           res_exist = .false.
           Astring='   '

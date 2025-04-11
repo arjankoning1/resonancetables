@@ -20,8 +20,8 @@ subroutine writethermal(Z, A, Liso, Riso, type)
   character(len=132) :: nucfile    ! nuclide file
   character(len=18)  :: rfile
   character(len=20)  :: react      ! reaction
-  character(len=15)  :: col(9)     ! header
-  character(len=15)  :: un(9)      ! units
+  character(len=15)  :: col(10)     ! header
+  character(len=15)  :: un(10)      ! units
   character(len=80)  :: quantity   ! quantity
   character(len=132) :: topline    ! topline
   integer            :: Z          ! charge number
@@ -32,6 +32,7 @@ subroutine writethermal(Z, A, Liso, Riso, type)
   integer            :: Riso       ! residual isomer
   integer            :: type       ! reaction type
   real               :: F
+  real               :: tolerance
 !
 ! **************** Write databases for thermal cross sections *****
 !
@@ -81,8 +82,10 @@ subroutine writethermal(Z, A, Liso, Riso, type)
   col(7) = 'Reference'
   col(8) = 'Ratio'
   col(9) = 'Spectrum'
-  Ncol = 9
+  col(10) = 'Energy'
+  Ncol = 10
   un = ''
+  un(10) = 'MeV'
   if (type <= 6) then
     un(5) = 'b'
     un(6) = 'b'
@@ -93,11 +96,12 @@ subroutine writethermal(Z, A, Liso, Riso, type)
     call write_real(2,'average value',av_xs_comp)
     write(1,'("#   relative standard deviation [%]:",f15.6)') var_xs_comp
     call write_datablock(Ncol,Ncomp,col,un)
+    F = 1.
     do k = 1, Nres
       if (res_type(k) == 'Compilation' .and. res_av(k) == '') then
-        F = res_xs(k) / res_xs_sel
-        write(1, '(a30,a15,6x,i4,5x,2es15.6,3x,a12,f15.6,3x,a12)') res_author(k), res_type(k), res_year(k), res_xs(k), & 
- &        res_dxs(k), res_ref(k), F, res_av(k)
+        if (res_xs_sel > 0.) F = res_xs(k) / res_xs_sel
+        write(1, '(a30,a15,6x,i4,5x,2es15.6,3x,a12,f15.6,3x,a12,es15.6)') res_author(k), res_type(k), res_year(k), res_xs(k), & 
+ &        res_dxs(k), res_ref(k), F, res_av(k), res_E(k)
       endif
     enddo
   endif
@@ -107,11 +111,12 @@ subroutine writethermal(Z, A, Liso, Riso, type)
     call write_real(2,'average value',av_xs_av_comp)
     write(1,'("#   relative standard deviation [%]:",f15.6)') var_xs_av_comp
     call write_datablock(Ncol,Ncomp_av,col,un)
+    F = 1.
     do k = 1, Nres
       if (res_type(k) == 'Compilation' .and. res_av(k) /= '') then
-        F = res_xs(k) / res_xs_sel
-        write(1, '(a30,a15,6x,i4,5x,2es15.6,3x,a12,f15.6,3x,a12)') res_author(k), res_type(k), res_year(k), res_xs(k), & 
- &        res_dxs(k), res_ref(k), F, res_av(k)
+        if (res_xs_sel > 0.) F = res_xs(k) / res_xs_sel
+        write(1, '(a30,a15,6x,i4,5x,2es15.6,3x,a12,f15.6,3x,a12,es15.6)') res_author(k), res_type(k), res_year(k), res_xs(k), & 
+ &        res_dxs(k), res_ref(k), F, res_av(k), res_E(k)
       endif
     enddo
   endif
@@ -121,11 +126,12 @@ subroutine writethermal(Z, A, Liso, Riso, type)
     call write_real(2,'average value',av_xs_exfor)
     write(1,'("#   relative standard deviation [%]:",f15.6)') var_xs_exfor
     call write_datablock(Ncol,Nexp,col,un)
+    F = 1.
     do k = 1, Nres
       if (res_type(k) == 'EXFOR' .and. res_av(k) == '') then
-        F = res_xs(k) / res_xs_sel
-        write(1, '(a30,a15,6x,i4,5x,2es15.6,3x,a12,f15.6,3x,a12)') res_author(k), res_type(k), res_year(k), res_xs(k), & 
- &        res_dxs(k), res_ref(k), F, res_av(k)
+        if (res_xs_sel > 0.) F = res_xs(k) / res_xs_sel
+        write(1, '(a30,a15,6x,i4,5x,2es15.6,3x,a12,f15.6,3x,a12,es15.6)') res_author(k), res_type(k), res_year(k), res_xs(k), & 
+ &        res_dxs(k), res_ref(k), F, res_av(k), res_E(k)
       endif
     enddo
   endif
@@ -135,11 +141,12 @@ subroutine writethermal(Z, A, Liso, Riso, type)
     call write_real(2,'average value',av_xs_av_exfor)
     write(1,'("#   relative standard deviation [%]:",f15.6)') var_xs_av_exfor
     call write_datablock(Ncol,Nexp_av,col,un)
+    F = 1.
     do k = 1, Nres
       if (res_type(k) == 'EXFOR' .and. res_av(k) /= '') then
-        F = res_xs(k) / res_xs_sel
-        write(1, '(a30,a15,6x,i4,5x,2es15.6,3x,a12,f15.6,3x,a12)') res_author(k), res_type(k), res_year(k), res_xs(k), & 
- &        res_dxs(k), res_ref(k), F, res_av(k)
+        if (res_xs_sel > 0.) F = res_xs(k) / res_xs_sel
+        write(1, '(a30,a15,6x,i4,5x,2es15.6,3x,a12,f15.6,3x,a12,es15.6)') res_author(k), res_type(k), res_year(k), res_xs(k), & 
+ &        res_dxs(k), res_ref(k), F, res_av(k), res_E(k)
       endif
     enddo
   endif
@@ -149,11 +156,12 @@ subroutine writethermal(Z, A, Liso, Riso, type)
     call write_real(2,'average value',av_xs_NDL)
     write(1,'("#   relative standard deviation [%]:",f15.6)') var_xs_NDL
     call write_datablock(Ncol,Nlib,col,un)
+    F = 1.
     do k = 1, Nres
       if (res_type(k) == 'NDL') then
-        F = res_xs(k) / res_xs_sel
-        write(1, '(a30,a15,6x,i4,5x,2es15.6,3x,a12,f15.6,6x,a9)') res_author(k), res_type(k), res_year(k), res_xs(k), & 
- &        res_dxs(k), res_ref(k), F, res_av(k)
+        if (res_xs_sel > 0.) F = res_xs(k) / res_xs_sel
+        write(1, '(a30,a15,6x,i4,5x,2es15.6,3x,a12,f15.6,6x,a9,es15.6)') res_author(k), res_type(k), res_year(k), res_xs(k), & 
+ &        res_dxs(k), res_ref(k), F, res_av(k), res_E(k)
       endif
     enddo
   endif

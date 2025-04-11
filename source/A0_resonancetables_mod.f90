@@ -5,7 +5,7 @@ module A0_resonancetables_mod
 !                                                                                                                                   
 ! Revision    Date      Author           Description                                                                                
 ! ====================================================                                                                              
-!    1     2025-03-23   A.J. Koning      Original code                                                                              
+!    1     2025-04-10   A.J. Koning      Original code                                                                              
 !-----------------------------------------------------------------------------------------------------------------------------------
 !                                                                                                                                   
 ! *** Use data from other modules                                                                                                   
@@ -66,6 +66,13 @@ module A0_resonancetables_mod
   integer                             :: Nres_exp ! number of EXFOR cases
   real, dimension(numex)              :: res_xs  ! res parameter
   real, dimension(numex)              :: res_dxs ! res parameter uncertainty
+  real, dimension(numex)              :: res_E
+  character(len=15), dimension(numex) :: res_Nrr
+  character(len=15), dimension(numex) :: res_Emin
+  character(len=15), dimension(numex) :: res_Emax
+  character(len=15), dimension(numex) :: res_L
+  character(len=15), dimension(numex) :: res_J
+  character(len=15), dimension(numex) :: res_P
 !                                                                                                                                   
 ! procres                                                                                                                       
 !                                                                                                                                   

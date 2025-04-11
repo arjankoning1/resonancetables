@@ -39,8 +39,8 @@ subroutine thermal
       if ((type <= 3 .or. (type >= 7 .and. type <= 9)) .and. Riso > -1) cycle
       Nsave = 0
       do Z = 1, numZ
-        do A = 0, heavy(Z) + 5
-          if (A == 0 .or. A >= light(Z) - 5) then
+        do A = 0, heavy(Z) + 3
+          if (A == 0 .or. A >= light(Z) - 3) then
             do Liso = 0, numisom
               res_exist = .false.
               Astring='   '

@@ -19,6 +19,12 @@ subroutine procresonance(Z, A, Liso, type)
   character(len=40)  :: ttmp          ! subentry
   character(len=24)  :: atmp          ! author
   character(len=40)  :: rtmp          ! reference
+  character(len=15)  :: Emitmp
+  character(len=15)  :: Ematmp
+  character(len=15)  :: ltmp
+  character(len=15)  :: jtmp
+  character(len=15)  :: Ntmp
+  character(len=15)  :: ptmp
   integer            :: Z             ! charge number
   integer            :: A             ! mass number
   integer            :: N             ! counter
@@ -42,6 +48,7 @@ subroutine procresonance(Z, A, Liso, type)
   real(sgl)          :: varsumxs_exfor
   real(sgl)          :: varsumxs_av_exfor
   real(sgl)          :: varsumxs_NDL
+  real(sgl)          :: F
 !
 ! **************** Process databases for resonance data *****
 !
@@ -71,18 +78,36 @@ subroutine procresonance(Z, A, Liso, type)
         atmp = res_author(i)
         ttmp = res_type(i)
         rtmp = res_ref(i)
+        Ntmp = res_Nrr(i)
+        Emitmp = res_Emin(i)
+        Ematmp = res_Emax(i)
+        ltmp = res_L(i)
+        jtmp = res_J(i)
+        ptmp = res_P(i)
         res_xs(i) = res_xs(j)
         res_dxs(i) = res_dxs(j)
         res_year(i) = res_year(j)
         res_author(i) = res_author(j)
         res_type(i) = res_type(j)
         res_ref(i) = res_ref(j)
+        res_Nrr(i) = res_Nrr(j)
+        res_Emin(i) = res_Emin(j)
+        res_Emax(i) = res_Emax(j)
+        res_L(i) = res_L(j)
+        res_J(i) = res_J(j)
+        res_P(i) = res_P(j)
         res_xs(j) = xstmp 
         res_dxs(j) = dxstmp 
         res_year(j) = ytmp 
         res_author(j) = atmp 
         res_type(j) = ttmp 
         res_ref(j) = rtmp
+        res_Nrr(j) = Ntmp
+        res_Emin(j) = Emitmp
+        res_Emax(j) = Ematmp
+        res_L(j) = ltmp
+        res_J(j) = jtmp
+        res_P(j) = ptmp
       enddo
     enddo
 !
@@ -238,6 +263,12 @@ Loop2:  do
     dxssave(N) = res_dxs_sel
     refsave(N) = res_author_sel
     Nexpsave(N) = Nres_exp
+    do i = 1, Nres
+      F = res_xs(i) / res_xs(Nsel)    
+      if (F < 0.2 .or. F > 5.) then
+        write(*,*) "Warning: Ratio= ", F, "for Z= ", Z , " A= ", A, "author ", res_author(i)
+      endif          
+    enddo
   else
     res_xs_sel = 0.
     res_dxs_sel = 0.

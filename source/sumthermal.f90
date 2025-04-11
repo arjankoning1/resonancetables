@@ -16,7 +16,12 @@ subroutine sumthermal(Riso, type)
 ! *** Declaration of local data
 !
   implicit none
+  integer, parameter :: Nsource=10
   character(len=2)   :: iso        ! extension
+  character(len=132) :: thermfile   ! nuclide file
+  character(len=20)  :: msource(Nsource)
+  character(len=132) :: line
+  character(len=132) :: sourcefile(Nsource)
   character(len=3)   :: Astring    ! mass string
   character(len=6)   :: nuclide
   character(len=132) :: nucfile    ! nuclide file
@@ -26,11 +31,19 @@ subroutine sumthermal(Riso, type)
   character(len=15)  :: un(9)      ! units
   character(len=80)  :: quantity   ! quantity
   character(len=132) :: topline    ! topline
+  logical            :: lexist
+  integer            :: istat
   integer            :: k          ! counter
   integer            :: N          ! counter
   integer            :: Ncol       ! number of columns
   integer            :: Riso       ! residual isomer
   integer            :: type       ! reaction type
+  integer            :: isource
+  integer            :: ifile
+  integer            :: ix
+  real               :: xs
+  real               :: dxs
+  real               :: ratio
 !
 ! **************** Write databases for thermal cross sections *****
 !
@@ -46,6 +59,23 @@ subroutine sumthermal(Riso, type)
   react=trim(reaction(type))//iso
   topline=trim(react)//' '//trim(quantity)
   rfile=trim(reac(type))//trim(iso)
+  msource(1) = 'RIPL-3'
+  msource(2) = 'Kayzero'
+  msource(3) = 'Sukhoruchkin'
+  msource(4) = 'Mughabghab_2006'
+  msource(5) = 'Mughabghab_2016'
+  msource(6) = 'cendl3.2'
+  msource(7) = 'jendl5.0'
+  msource(8) = 'tendl.2023'
+  msource(9) = 'endfb8.1'
+  msource(10) = 'jeff4.0'
+  do isource = 1, Nsource
+    sourcefile(isource)=trim(thermalpath)//trim(rfile)//'/'//trim(msource(isource))//'.'//trim(rfile)
+    ifile = 10 + isource
+    open (unit = ifile, status = 'unknown', file = trim(sourcefile(isource)))
+    write(ifile,'("##       Z              A            Liso           Value         dValue          Ratio")')
+    write(ifile,'("##      []             []             []             [b]            [b]            []")')
+  enddo
   nucfile=trim(thermalpath)//trim(rfile)//'/thermal.'//trim(rfile)
   write(*,*) " Writing to ", trim(nucfile)
   open (unit = 1, status = 'unknown', file = trim(nucfile))
@@ -75,10 +105,39 @@ subroutine sumthermal(Riso, type)
     nuclide=trim(nuc(Zsave(k)))//Astring
     if (Lisosave(k) == 1) nuclide = trim(nuclide)//'m'
     if (Lisosave(k) == 2) nuclide = trim(nuclide)//'n'
-    write(1, '(3(6x,i4,5x),2es15.6,2x,a15,4x,i4,11x,a6,6x,a9)') Zsave(k), Asave(k), Lisosave(k), xssave(k), dxssave(k), &
+    write(1, '(3(6x,i4,5x),2es15.6,2x,a15,4x,i4,11x,a6,10x,a9)') Zsave(k), Asave(k), Lisosave(k), xssave(k), dxssave(k), &
  &     refsave(k), Nexpsave(k), nuclide, avsave(k)
+    thermfile=trim(thermalpath)//trim(rfile)//'/'//trim(nuclide)//'.'//trim(rfile)
+    inquire (file = thermfile, exist = lexist)
+    if (lexist) then
+      do isource = 1, Nsource
+        ifile = 10 + isource
+        open (unit = 2, status = 'unknown', file = trim(thermfile))
+        do
+          read(2, '(a)', iostat = istat) line
+          if (istat == -1) exit
+          if (istat > 0) call read_error(thermfile, istat)
+          ix = index(line(1:25),trim(msource(isource)))
+          if (ix > 0) then
+            read(line(61:75), *) xs
+            read(line(76:90), *) dxs
+            if (xssave(k) > 0.) then
+              ratio = xs / xssave(k)
+            else
+              ratio = 0.
+            endif
+            write(ifile, '(3(6x,i4,5x),3es15.6)') Zsave(k), Asave(k), Lisosave(k), xs, dxs, ratio
+            exit
+          endif
+        enddo
+        close(2)
+      enddo
+    endif
   enddo
   close(1)
+  do isource = 1, Nsource
+    close (unit = 10 + isource)
+  enddo
   return
 end subroutine sumthermal
 ! Copyright A.J. Koning 2025

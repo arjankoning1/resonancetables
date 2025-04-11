@@ -17,6 +17,7 @@ subroutine readmacs(Z, A, Liso, Riso)
 !
   implicit none
   character(len=1)   :: isosym     ! isomeric symbol
+  character(len=2)   :: Unuc
   character(len=3)   :: exten
   character(len=9)   :: sub        ! subentry
   character(len=9)   :: ref        ! reference
@@ -31,6 +32,7 @@ subroutine readmacs(Z, A, Liso, Riso)
   integer            :: N          ! counter
   integer            :: ix
   integer            :: iav
+  integer            :: i
   integer            :: k
   integer            :: isoT       ! target isomer
   integer            :: Liso       ! target isomer
@@ -53,6 +55,7 @@ subroutine readmacs(Z, A, Liso, Riso)
   res_ref = ''
   res_xs = 0.
   res_dxs = 0.
+  res_E = 0.03
   res_av = ''
   ref = ''
   Nres_exp = 0
@@ -120,6 +123,46 @@ subroutine readmacs(Z, A, Liso, Riso)
         res_author(k) = 'Astral'
         res_type(k) = 'Compilation'
         res_year(k) = 2020
+        res_ref(k) = ref
+        res_av(k) = 'MXW'
+        res_xs(k) = 0.001 * xs
+        res_dxs(k) = 0.001 * dxs
+        res_exist = .true.
+      endif
+      exit
+    endif
+  enddo
+  close (2)
+!
+! Bao database: experimental values only
+!
+  xs = 0.
+  dxs = 0.
+  macsfile = trim(filespath)//'macs_bao.ng'
+  open (unit = 2, status = 'old', file = macsfile)
+  read(2,'(////////////////)')
+  do
+    read(2, '(a)', iostat = istat) line
+    if (istat == -1) exit
+    if (istat > 0) call read_error(macsfile, istat)
+    isoT = 0
+    read(line(1:4), * ) ia
+    read(line(5:6), '(a2)') Unuc
+    if (Unuc(2:2) /= ' ') Unuc(2:2)=achar(iachar(Unuc(2:2)) + 32)
+    do i=1,numZ
+      if (trim(Unuc) == trim(nuc(i))) then
+        iz = i
+        exit
+      endif
+    enddo
+    if (iz == Z .and. ia == A .and. Liso == isoT .and. Riso == -1) then
+      read(line(62:68), * ) xs
+      read(line(120:126), * ) dxs
+      if (xs > 0.) then
+        k = k + 1
+        res_author(k) = 'Bao'
+        res_type(k) = 'Compilation'
+        res_year(k) = 2000 
         res_ref(k) = ref
         res_av(k) = 'MXW'
         res_xs(k) = 0.001 * xs
@@ -256,6 +299,7 @@ subroutine readmacs(Z, A, Liso, Riso)
           res_type(k) = 'EXFOR'
           res_year(k) = year
           res_ref(k) = sub 
+          res_E(k) = Einc 
           res_xs(k) = 0.001 * xs
           res_dxs(k) = 0.001 * dxs
           if (iav == 1) then   

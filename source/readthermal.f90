@@ -81,6 +81,7 @@ subroutine readthermal(Z, A, Liso, Riso, type)
   res_xs = 0.
   res_dxs = 0.
   res_av = ''
+  res_E = 2.53e-8
   ref = ''
   Nres_exp = 0
   Nres = 0
@@ -369,7 +370,7 @@ subroutine readthermal(Z, A, Liso, Riso, type)
 !
 ! (n,g)
 !
-      if (iz == Z) then
+      if (iz == Z .and. (Z <= 83 .or. Z == 90 .or. Z == 92)) then
         xs = rochread(line(63:72))
         dxs = rochread(line(77:86))
         if (xs > 0.) then
@@ -557,6 +558,7 @@ subroutine readthermal(Z, A, Liso, Riso, type)
         res_ref(k) = sub
         res_xs(k) = xs
         res_dxs(k) = dxs
+        res_E(k) = Einc
         res_av(k) = ''
         if (mxw1 > 0) res_av(k) = 'MXW'
         if (mxw2 > 0) res_av(k) = 'AV'

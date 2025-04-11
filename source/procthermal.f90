@@ -28,6 +28,7 @@ subroutine procthermal(Z, A, Liso)
   integer            :: Nsel          ! counter
   integer            :: ytmp          ! year
   integer            :: Liso          ! target isomer
+  real(sgl)          :: Etmp
   real(sgl)          :: xstmp         ! cross section
   real(sgl)          :: dxstmp        ! cross section uncertainty
   real(sgl)          :: sumxs
@@ -42,6 +43,7 @@ subroutine procthermal(Z, A, Liso)
   real(sgl)          :: varsumxs_exfor
   real(sgl)          :: varsumxs_av_exfor
   real(sgl)          :: varsumxs_NDL
+  real(sgl)          :: F
 !
 ! **************** Process databases for thermal cross sections *****
 !
@@ -76,6 +78,7 @@ subroutine procthermal(Z, A, Liso)
         ttmp = res_type(i)
         rtmp = res_ref(i)
         avtmp = res_av(i)
+        Etmp = res_E(i)
         res_xs(i) = res_xs(j)
         res_dxs(i) = res_dxs(j)
         res_year(i) = res_year(j)
@@ -83,6 +86,7 @@ subroutine procthermal(Z, A, Liso)
         res_type(i) = res_type(j)
         res_ref(i) = res_ref(j)
         res_av(i) = res_av(j)
+        res_E(i) = res_E(j)
         res_xs(j) = xstmp 
         res_dxs(j) = dxstmp 
         res_year(j) = ytmp 
@@ -90,6 +94,7 @@ subroutine procthermal(Z, A, Liso)
         res_type(j) = ttmp 
         res_ref(j) = rtmp
         res_av(j) = avtmp
+        res_E(j) = Etmp
       enddo
     enddo
 !
@@ -236,6 +241,12 @@ subroutine procthermal(Z, A, Liso)
     refsave(N) = res_author_sel 
     avsave(N) = res_av_sel 
     Nexpsave(N) = Nres_exp 
+    do i = 1, Nres
+      F = res_xs(i) / res_xs(Nsel)
+      if (F < 0.2 .or. F > 5.) then
+        write(*,*) "Warning: Ratio= ", F, "for Z= ", Z , " A= ", A, "author ", res_author(i)
+      endif
+    enddo
   else
     res_xs_sel = 0.
     res_dxs_sel = 0.

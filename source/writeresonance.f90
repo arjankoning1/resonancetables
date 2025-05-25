@@ -5,7 +5,7 @@ subroutine writeresonance(Z, A, Liso, type)
 !
 ! Revision    Date      Author      Quality  Description
 ! ======================================================
-!    1     2025-02-08   A.J. Koning    A     Original code
+!    1     2025-05-25   A.J. Koning    A     Original code
 !-----------------------------------------------------------------------------------------------------------------------------------
 !
 ! *** Use data from other modules
@@ -38,7 +38,7 @@ subroutine writeresonance(Z, A, Liso, type)
   quantity='resonance data'
   react=restype(type)
   topline=trim(targetnuclide)//' '//trim(react)//' '//trim(quantity)
-  nucfile=trim(respath)//trim(react)//'/'//trim(targetnuclide)//'.res'
+  nucfile=trim(respath)//trim(react)//'/nuc/'//trim(targetnuclide)//'.res'
   write(*,*) Z, A, Liso, trim(nucfile), " ", Nres
   open (unit = 1, status = 'unknown', file = trim(nucfile))
   call write_header(topline,source,user,date,oformat)

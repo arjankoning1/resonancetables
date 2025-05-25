@@ -5,7 +5,7 @@ subroutine writemacs(Z, A, Liso, Riso)
 !
 ! Revision    Date      Author      Quality  Description
 ! ======================================================
-!    1     2025-02-08   A.J. Koning    A     Original code
+!    1     2025-05-25   A.J. Koning    A     Original code
 !-----------------------------------------------------------------------------------------------------------------------------------
 !
 ! *** Use data from other modules
@@ -17,7 +17,7 @@ subroutine writemacs(Z, A, Liso, Riso)
 !
   implicit none
   character(len=132) :: nucfile    ! nuclide file
-  character(len=6)   :: dir
+  character(len=10)  :: dir
   character(len=20)  :: react      ! reaction
   character(len=15)  :: col(10)     ! header
   character(len=15)  :: un(10)      ! units
@@ -34,7 +34,7 @@ subroutine writemacs(Z, A, Liso, Riso)
 ! **************** Write databases for MACS *****
 !
   if (.not.res_exist) return
-  dir='ng/'
+  dir='ng/nuc/'
   Ztarget = Z
   Atarget = A
   quantity='MACS'

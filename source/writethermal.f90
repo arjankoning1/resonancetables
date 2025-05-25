@@ -51,7 +51,7 @@ subroutine writethermal(Z, A, Liso, Riso, type)
   react=trim(reaction(type))//iso
   topline=trim(targetnuclide)//trim(react)//' '//trim(quantity)
   rfile=trim(reac(type))//trim(iso)
-  nucfile=trim(thermalpath)//trim(rfile)//'/'//trim(targetnuclide)//'.'//trim(rfile)
+  nucfile=trim(thermalpath)//trim(rfile)//'/nuc/'//trim(targetnuclide)//'.'//trim(rfile)
   write(*,*) Z, A, Liso, Riso, trim(nucfile), " ", Nres
   open (unit = 1, status = 'unknown', file = trim(nucfile))
   call write_header(topline,source,user,date,oformat)

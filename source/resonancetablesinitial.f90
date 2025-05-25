@@ -5,7 +5,7 @@ subroutine resonancetablesinitial
 !
 ! Revision    Date      Author      Quality  Description
 ! ======================================================
-!    1     2025-02-08   A.J. Koning    A     Original code
+!    1     2025-05-25   A.J. Koning    A     Original code
 !-----------------------------------------------------------------------------------------------------------------------------------
 !
 ! *** Use data from other modules
@@ -88,34 +88,40 @@ subroutine resonancetablesinitial
   write(*, *) "Removing directories from previous run....."
   cmd = 'rm -r '//trim(thermalpath)
   isys = system(cmd)
-  cmd = 'mkdir '//trim(thermalpath)
-  isys = system(cmd)
   cmd = 'rm -r '//trim(macspath)
-  isys = system(cmd)
-  cmd = 'mkdir '//trim(macspath)
   isys = system(cmd)
   cmd = 'rm -r '//trim(respath)
   isys = system(cmd)
-  cmd = 'mkdir '//trim(respath)
-  isys = system(cmd)
   do i = 1, numtype
-    cmd = 'mkdir '//trim(thermalpath)//reac(i)
+    cmd = 'mkdir -p '//trim(thermalpath)//trim(reac(i))//'/nuc'
+    isys = system(cmd)
+    cmd = 'mkdir -p '//trim(thermalpath)//trim(reac(i))//'/all'
     isys = system(cmd)
     if (i == 4 .or. i == 6) then
-      cmd = 'mkdir '//trim(thermalpath)//trim(reac(i))//'_g'
+      cmd = 'mkdir -p '//trim(thermalpath)//trim(reac(i))//'_g/nuc'
       isys = system(cmd)
-      cmd = 'mkdir '//trim(thermalpath)//trim(reac(i))//'_m'
+      cmd = 'mkdir -p '//trim(thermalpath)//trim(reac(i))//'_g/all'
+      isys = system(cmd)
+      cmd = 'mkdir -p '//trim(thermalpath)//trim(reac(i))//'_m/nuc'
+      isys = system(cmd)
+      cmd = 'mkdir -p '//trim(thermalpath)//trim(reac(i))//'_m/all'
       isys = system(cmd)
       if (i == 4) then
-        cmd = 'mkdir '//trim(thermalpath)//trim(reac(i))//'_n'
+        cmd = 'mkdir -p '//trim(thermalpath)//trim(reac(i))//'_n/nuc'
+        isys = system(cmd)
+        cmd = 'mkdir -p '//trim(thermalpath)//trim(reac(i))//'_n/all'
         isys = system(cmd)
       endif
     endif
     if (i == 4) then
-      cmd = 'mkdir '//trim(macspath)//reac(i)
+      cmd = 'mkdir -p '//trim(macspath)//trim(reac(i))//'/nuc'
+      isys = system(cmd)
+      cmd = 'mkdir -p '//trim(macspath)//trim(reac(i))//'/all'
       isys = system(cmd)
     endif
-    cmd = 'mkdir '//trim(respath)//restype(i)
+    cmd = 'mkdir -p '//trim(respath)//trim(restype(i))//'/nuc'
+    isys = system(cmd)
+    cmd = 'mkdir -p '//trim(respath)//trim(restype(i))//'/all'
     isys = system(cmd)
   enddo
   return

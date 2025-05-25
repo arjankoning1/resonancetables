@@ -16,11 +16,12 @@ subroutine sumthermal(Riso, type)
 ! *** Declaration of local data
 !
   implicit none
-  integer, parameter :: Nsource=10
+  integer, parameter :: Nsource=11
   character(len=2)   :: iso        ! extension
   character(len=132) :: thermfile   ! nuclide file
   character(len=20)  :: msource(Nsource)
-  character(len=132) :: line
+  character(len=200) :: line
+  character(len=200) :: fline(10000)
   character(len=132) :: sourcefile(Nsource)
   character(len=3)   :: Astring    ! mass string
   character(len=6)   :: nuclide
@@ -69,14 +70,13 @@ subroutine sumthermal(Riso, type)
   msource(8) = 'tendl.2023'
   msource(9) = 'endfb8.1'
   msource(10) = 'jeff4.0'
+  msource(11) = 'exfor'
   do isource = 1, Nsource
-    sourcefile(isource)=trim(thermalpath)//trim(rfile)//'/'//trim(msource(isource))//'.'//trim(rfile)
+    sourcefile(isource)=trim(thermalpath)//trim(rfile)//'/all/'//trim(msource(isource))//'.'//trim(rfile)
     ifile = 10 + isource
     open (unit = ifile, status = 'unknown', file = trim(sourcefile(isource)))
-    write(ifile,'("##       Z              A            Liso           Value         dValue          Ratio")')
-    write(ifile,'("##      []             []             []             [b]            [b]            []")')
   enddo
-  nucfile=trim(thermalpath)//trim(rfile)//'/thermal.'//trim(rfile)
+  nucfile=trim(thermalpath)//trim(rfile)//'/all/thermal.'//trim(rfile)
   write(*,*) " Writing to ", trim(nucfile)
   open (unit = 1, status = 'unknown', file = trim(nucfile))
   call write_header(topline,source,user,date,oformat)
@@ -107,7 +107,7 @@ subroutine sumthermal(Riso, type)
     if (Lisosave(k) == 2) nuclide = trim(nuclide)//'n'
     write(1, '(3(6x,i4,5x),2es15.6,2x,a15,4x,i4,11x,a6,10x,a9)') Zsave(k), Asave(k), Lisosave(k), xssave(k), dxssave(k), &
  &     refsave(k), Nexpsave(k), nuclide, avsave(k)
-    thermfile=trim(thermalpath)//trim(rfile)//'/'//trim(nuclide)//'.'//trim(rfile)
+    thermfile=trim(thermalpath)//trim(rfile)//'/nuc/'//trim(nuclide)//'.'//trim(rfile)
     inquire (file = thermfile, exist = lexist)
     if (lexist) then
       do isource = 1, Nsource
@@ -117,8 +117,8 @@ subroutine sumthermal(Riso, type)
           read(2, '(a)', iostat = istat) line
           if (istat == -1) exit
           if (istat > 0) call read_error(thermfile, istat)
-          ix = index(line(1:25),trim(msource(isource)))
-          if (ix > 0) then
+          ix = index(line(1:45),trim(msource(isource)))
+          if (ix > 0 .and. line(1:1) /= '#') then
             read(line(61:75), *) xs
             read(line(76:90), *) dxs
             if (xssave(k) > 0.) then
@@ -137,6 +137,28 @@ subroutine sumthermal(Riso, type)
   close(1)
   do isource = 1, Nsource
     close (unit = 10 + isource)
+  enddo
+  fline = ''
+  do isource = 1, Nsource
+    sourcefile(isource)=trim(thermalpath)//trim(rfile)//'/all/'//trim(msource(isource))//'.'//trim(rfile)
+    open (unit = 10, status = 'unknown', file = trim(sourcefile(isource)))
+    k = 1
+    do
+      read(10, '(a)', iostat = istat) fline(k)
+      if (istat == -1) exit
+      k = k + 1
+    enddo
+    N = k - 1
+    close(10)
+    open (unit = 1, status = 'unknown', file = trim(sourcefile(isource)))
+    call write_header(trim(topline)//' for '//trim(msource(isource)),source,user,date,oformat)
+    call write_reaction(react,0.D0,0.D0,0,0)
+    call write_quantity(quantity)
+    call write_datablock(Ncol,N,col,un)
+    do k = 1, N
+      write(1, '(a)') fline(k)
+    enddo
+    close(1)
   enddo
   return
 end subroutine sumthermal

@@ -38,7 +38,7 @@ subroutine writeresonance(Z, A, Liso, type)
   quantity='resonance data'
   react=restype(type)
   topline=trim(targetnuclide)//' '//trim(react)//' '//trim(quantity)
-  nucfile=trim(respath)//trim(react)//'/nuc/'//trim(targetnuclide)//'.res'
+  nucfile=trim(respath)//trim(react)//'/nuc/'//trim(targetnuclide)//'_'//trim(react)//'.txt'
   write(*,*) Z, A, Liso, trim(nucfile), " ", Nres
   open (unit = 1, status = 'unknown', file = trim(nucfile))
   call write_header(topline,source,user,date,oformat)

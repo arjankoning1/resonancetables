@@ -193,7 +193,7 @@ subroutine readmacs(Z, A, Liso, Riso)
       dxs = rochread(line(853:860))
       if (xs > 0.) then
         k = k + 1
-        res_author(k) = 'Mughabghab_2016'
+        res_author(k) = 'Mughabghab-2016'
         res_type(k) = 'Compilation'
         res_year(k) = 2016
         res_ref(k) = ref

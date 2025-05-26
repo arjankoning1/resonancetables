@@ -172,7 +172,7 @@ subroutine readthermal(Z, A, Liso, Riso, type)
           endif
           if (go == 1) then
             k = k + 1
-            res_author(k) = 'Mughabghab_2006'
+            res_author(k) = 'Mughabghab-2006'
             res_type(k) = 'Compilation'
             res_year(k) = 2006
             res_ref(k) = ref
@@ -303,7 +303,7 @@ subroutine readthermal(Z, A, Liso, Riso, type)
 !
       if (go == 1) then
         k = k + 1
-        res_author(k) = 'Mughabghab_2016'
+        res_author(k) = 'Mughabghab-2016'
         res_type(k) = 'Compilation'
         res_year(k) = 2016
         res_ref(k) = ref

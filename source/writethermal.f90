@@ -51,7 +51,7 @@ subroutine writethermal(Z, A, Liso, Riso, type)
   react=trim(reaction(type))//iso
   topline=trim(targetnuclide)//trim(react)//' '//trim(quantity)
   rfile=trim(reac(type))//trim(iso)
-  nucfile=trim(thermalpath)//trim(rfile)//'/nuc/'//trim(targetnuclide)//'.'//trim(rfile)
+  nucfile=trim(thermalpath)//trim(rfile)//'/nuc/'//trim(targetnuclide)//'_'//trim(rfile)//'txt'
   write(*,*) Z, A, Liso, Riso, trim(nucfile), " ", Nres
   open (unit = 1, status = 'unknown', file = trim(nucfile))
   call write_header(topline,source,user,date,oformat)
@@ -160,7 +160,7 @@ subroutine writethermal(Z, A, Liso, Riso, type)
     do k = 1, Nres
       if (res_type(k) == 'NDL') then
         if (res_xs_sel > 0.) F = res_xs(k) / res_xs_sel
-        write(1, '(a30,a15,6x,i4,5x,2es15.6,3x,a12,f15.6,6x,a9,es15.6)') res_author(k), res_type(k), res_year(k), res_xs(k), & 
+        write(1, '(a30,a15,6x,i4,5x,2es15.6,3x,a12,f15.6,3x,a12,es15.6)') res_author(k), res_type(k), res_year(k), res_xs(k), & 
  &        res_dxs(k), res_ref(k), F, res_av(k), res_E(k)
       endif
     enddo

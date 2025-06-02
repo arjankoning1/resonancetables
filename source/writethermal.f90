@@ -40,9 +40,9 @@ subroutine writethermal(Z, A, Liso, Riso, type)
   Ztarget = Z
   Atarget = A
   iso = ''
-  if (Riso == 0) iso='_g'
-  if (Riso == 1) iso='_m'
-  if (Riso == 2) iso='_n'
+  if (Riso == 0) iso='-g'
+  if (Riso == 1) iso='-m'
+  if (Riso == 2) iso='-n'
   if (type <= 6) then
     quantity='thermal cross section'
   else
@@ -51,7 +51,7 @@ subroutine writethermal(Z, A, Liso, Riso, type)
   react=trim(reaction(type))//iso
   topline=trim(targetnuclide)//trim(react)//' '//trim(quantity)
   rfile=trim(reac(type))//trim(iso)
-  nucfile=trim(thermalpath)//trim(rfile)//'/nuc/'//trim(targetnuclide)//'_'//trim(rfile)//'txt'
+  nucfile=trim(thermalpath)//trim(rfile)//'/nuc/'//trim(targetnuclide)//'_'//trim(rfile)//'.txt'
   write(*,*) Z, A, Liso, Riso, trim(nucfile), " ", Nres
   open (unit = 1, status = 'unknown', file = trim(nucfile))
   call write_header(topline,source,user,date,oformat)

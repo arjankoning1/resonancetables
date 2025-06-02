@@ -98,18 +98,18 @@ subroutine resonancetablesinitial
     cmd = 'mkdir -p '//trim(thermalpath)//trim(reac(i))//'/all'
     isys = system(cmd)
     if (i == 4 .or. i == 6) then
-      cmd = 'mkdir -p '//trim(thermalpath)//trim(reac(i))//'_g/nuc'
+      cmd = 'mkdir -p '//trim(thermalpath)//trim(reac(i))//'-g/nuc'
       isys = system(cmd)
-      cmd = 'mkdir -p '//trim(thermalpath)//trim(reac(i))//'_g/all'
+      cmd = 'mkdir -p '//trim(thermalpath)//trim(reac(i))//'-g/all'
       isys = system(cmd)
-      cmd = 'mkdir -p '//trim(thermalpath)//trim(reac(i))//'_m/nuc'
+      cmd = 'mkdir -p '//trim(thermalpath)//trim(reac(i))//'-m/nuc'
       isys = system(cmd)
-      cmd = 'mkdir -p '//trim(thermalpath)//trim(reac(i))//'_m/all'
+      cmd = 'mkdir -p '//trim(thermalpath)//trim(reac(i))//'-m/all'
       isys = system(cmd)
       if (i == 4) then
-        cmd = 'mkdir -p '//trim(thermalpath)//trim(reac(i))//'_n/nuc'
+        cmd = 'mkdir -p '//trim(thermalpath)//trim(reac(i))//'-n/nuc'
         isys = system(cmd)
-        cmd = 'mkdir -p '//trim(thermalpath)//trim(reac(i))//'_n/all'
+        cmd = 'mkdir -p '//trim(thermalpath)//trim(reac(i))//'-n/all'
         isys = system(cmd)
       endif
     endif

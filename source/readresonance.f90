@@ -203,7 +203,7 @@ subroutine readresonance(Z, A, Liso, type)
     close (2)
   endif
 !
-! Mughabghab 2016 database
+! Mughabghab 2018 database
 !
   xs = 0.
   dxs = 0.
@@ -256,9 +256,9 @@ subroutine readresonance(Z, A, Liso, type)
       endif
       if (xs > 0.) then
         k = k + 1
-        res_author(k) = 'Mughabghab-2016'
+        res_author(k) = 'Mughabghab-2018'
         res_type(k) = 'Compilation'
-        res_year(k) = 2016
+        res_year(k) = 2018
         res_ref(k) = ref
         res_xs(k) = xs
         res_dxs(k) = dxs

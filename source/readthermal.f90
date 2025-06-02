@@ -192,7 +192,7 @@ subroutine readthermal(Z, A, Liso, Riso, type)
     endif
   enddo
 !
-! Mughabghab 2016 thermal database
+! Mughabghab 2018 thermal database
 !
   xs = 0.
   dxs = 0.
@@ -303,16 +303,16 @@ subroutine readthermal(Z, A, Liso, Riso, type)
 !
       if (go == 1) then
         k = k + 1
-        res_author(k) = 'Mughabghab-2016'
+        res_author(k) = 'Mughabghab-2018'
         res_type(k) = 'Compilation'
-        res_year(k) = 2016
+        res_year(k) = 2018
         res_ref(k) = ref
         res_xs(k) = xs
         res_dxs(k) = dxs
         res_av(k) = ''
         res_exist = .true.
       endif
-      if (xs0 > 0. .and. xs1 > 0.) write(*,*) "Warning: perhaps double data in Mughabghab_2016 ", Z, A, " xs0 ",xs0," xs1 ",xs1
+      if (xs0 > 0. .and. xs1 > 0.) write(*,*) "Warning: perhaps double data in Mughabghab-2018 ", Z, A, " xs0 ",xs0," xs1 ",xs1
       exit
     endif
   enddo

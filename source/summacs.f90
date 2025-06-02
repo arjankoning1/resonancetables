@@ -51,7 +51,7 @@ subroutine summacs
   msource(2) = 'Kadonis'
   msource(3) = 'Bao'
   msource(4) = 'Sukhoruchkin'
-  msource(5) = 'Mughabghab-2016'
+  msource(5) = 'Mughabghab-2018'
   msource(6) = 'cendl3.2'
   msource(7) = 'jendl5.0'
   msource(8) = 'tendl.2023'

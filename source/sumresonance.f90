@@ -54,7 +54,7 @@ subroutine sumresonance(type)
   msource(2) = 'RIPL-3'
   msource(3) = 'JUKO'
   msource(4) = 'Mughabghab-2006'
-  msource(5) = 'Mughabghab-2016'
+  msource(5) = 'Mughabghab-2018'
   msource(6) = 'cendl3.2'
   msource(7) = 'jendl5.0'
   msource(8) = 'tendl.2023'

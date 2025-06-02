@@ -178,13 +178,13 @@ subroutine procthermal(Z, A, Liso)
   endif
 !
 ! Final dataset
-! Rule for MXW average: Mughabghab 2016 > Mughabghab 2006 > Firestone 2022 > EXFOR
+! Rule for MXW average: Mughabghab 2018 > Mughabghab 2006 > Firestone 2022 > EXFOR
 !
   Nsel = 0
   N = Nres
 !
 ! Final dataset
-! Rule for xs: Kayzero > Mughabghab 2016 > Sukhoruchkin 2015 > Mughabghab 2006 > RIPL-3 > Firestone > EXFOR
+! Rule for xs: Kayzero > Mughabghab 2018 > Sukhoruchkin 2015 > Mughabghab 2006 > RIPL-3 > Firestone > EXFOR
 !
   Loop1:  do
     do i = 1, N
@@ -194,7 +194,7 @@ subroutine procthermal(Z, A, Liso)
       endif
     enddo
     do i = 1, N
-      if (res_author(i) == 'Mughabghab_2016') then
+      if (res_author(i) == 'Mughabghab-2018') then
         Nsel = i
         exit Loop1
       endif
@@ -206,7 +206,7 @@ subroutine procthermal(Z, A, Liso)
       endif
     enddo
     do i = 1, N
-      if (res_author(i) == 'Mughabghab_2006') then
+      if (res_author(i) == 'Mughabghab-2006') then
         Nsel = i
         exit Loop1
       endif

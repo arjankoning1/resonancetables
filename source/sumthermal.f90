@@ -51,9 +51,9 @@ subroutine sumthermal(Riso, type)
 ! **************** Write databases for thermal cross sections *****
 !
   iso = ''
-  if (Riso == 0) iso='_g'
-  if (Riso == 1) iso='_m'
-  if (Riso == 2) iso='_n'
+  if (Riso == 0) iso='-g'
+  if (Riso == 1) iso='-m'
+  if (Riso == 2) iso='-n'
   if (type <= 6) then
     quantity='thermal cross section'
   else
@@ -66,7 +66,7 @@ subroutine sumthermal(Riso, type)
   msource(2) = 'Kayzero'
   msource(3) = 'Sukhoruchkin'
   msource(4) = 'Mughabghab-2006'
-  msource(5) = 'Mughabghab-2016'
+  msource(5) = 'Mughabghab-2018'
   msource(6) = 'cendl3.2'
   msource(7) = 'jendl5.0'
   msource(8) = 'tendl.2023'
@@ -78,7 +78,7 @@ subroutine sumthermal(Riso, type)
     ifile = 10 + isource
     open (unit = ifile, status = 'unknown', file = trim(sourcefile(isource)))
   enddo
-  nucfile=trim(thermalpath)//trim(rfile)//'/all/thermal_'//trim(rfile)//'.txt'
+  nucfile=trim(thermalpath)//trim(rfile)//'/all/selected_'//trim(rfile)//'.txt'
   write(*,*) " Writing to ", trim(nucfile)
   open (unit = 1, status = 'unknown', file = trim(nucfile))
   call write_header(topline,source,user,date,oformat)

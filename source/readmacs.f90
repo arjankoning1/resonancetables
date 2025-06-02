@@ -174,7 +174,7 @@ subroutine readmacs(Z, A, Liso, Riso)
   enddo
   close (2)
 !
-! Mughabghab 2016 MACS database
+! Mughabghab 2018 MACS database
 !
   xs = 0.
   dxs = 0.
@@ -193,9 +193,9 @@ subroutine readmacs(Z, A, Liso, Riso)
       dxs = rochread(line(853:860))
       if (xs > 0.) then
         k = k + 1
-        res_author(k) = 'Mughabghab-2016'
+        res_author(k) = 'Mughabghab-2018'
         res_type(k) = 'Compilation'
-        res_year(k) = 2016
+        res_year(k) = 2018
         res_ref(k) = ref
         res_xs(k) = xs
         res_dxs(k) = dxs

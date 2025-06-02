@@ -191,9 +191,9 @@ subroutine procresonance(Z, A, Liso, type)
   endif
 !           
 ! Final dataset
-! Rule D0: RIPL-3 > RIPL-2 > Mughabghab 2016 > EXFOR
-! Rule S0, gamgam: RIPL-3 > RIPL-2 > Mughabghab 2016 > > EXFOR
-! Rule Ig, If: Kayzero > Mughabghab 2016 > Sukhoruchkin 2015 >  JUKO > EXFOR
+! Rule D0: RIPL-3 > RIPL-2 > Mughabghab 2018 > EXFOR
+! Rule S0, gamgam: RIPL-3 > RIPL-2 > Mughabghab 2018 > > EXFOR
+! Rule Ig, If: Kayzero > Mughabghab 2018 > Sukhoruchkin 2015 >  JUKO > EXFOR
 !       
   Nsel = 0
   N = Nres
@@ -212,7 +212,7 @@ Loop1:  do
         endif
       enddo
       do i = 1, N
-        if (res_author(i) == 'Mughabghab_2016') then
+        if (res_author(i) == 'Mughabghab-2018') then
           Nsel = i
           exit Loop1
         endif
@@ -229,7 +229,7 @@ Loop2:  do
         endif
       enddo
       do i = 1, N
-        if (res_author(i) == 'Mughabghab_2016') then
+        if (res_author(i) == 'Mughabghab-2018') then
           Nsel = i
           exit Loop2
         endif

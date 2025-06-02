@@ -1,0 +1,54 @@
+# header:
+#   title: Te123(n,g) MACS
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 52
+#   A: 123
+#   nuclide: Te123
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  8.815978E-01
+#   selected value uncertainty [b]:  3.503634E-02
+#   selected value source: Astral
+#   number of values: 10
+#   average value [b]:  8.241948E-01
+#   relative standard deviation [%]:       3.252228
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  8.375195E-01
+#   relative standard deviation [%]:       2.821290
+# datablock:
+#   columns: 10
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Bao                     Compilation          2000        8.320000E-01   8.000000E-03                      0.943741   MXW            3.000000E-02
+      Kadonis                 Compilation          2000        8.320000E-01   8.000000E-03                      0.943741   MXW            3.000000E-02
+      Sukhoruchkin            Compilation          2015        8.100000E-01   1.100000E-01                      0.918786   MXW            3.000000E-02
+      Mughabghab-2018         Compilation          2018        8.320000E-01   8.000000E-03                      0.943741   MXW            3.000000E-02
+      Astral                  Compilation          2020        8.815978E-01   3.503634E-02                      1.000000   MXW            3.000000E-02
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  8.420001E-01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 10
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Macklin                 EXFOR                1967        8.420001E-01   8.000001E-02   14322023           0.955084   MXW            3.000000E-02
+# quantity:
+#   type: Nuclear data library
+#   average value:  8.030875E-01
+#   relative standard deviation [%]:       2.334907
+# datablock:
+#   columns: 10
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      jendl5.0                NDL                  2021        8.311800E-01   0.000000E+00                      0.942811   MXW            3.000000E-02
+      tendl.2023              NDL                  2023        7.860400E-01   0.000000E+00                      0.891608   MXW            3.000000E-02
+      endfb8.1                NDL                  2024        8.090900E-01   0.000000E+00                      0.917754   MXW            3.000000E-02
+      jeff4.0                 NDL                  2025        7.860400E-01   0.000000E+00                      0.891608   MXW            3.000000E-02

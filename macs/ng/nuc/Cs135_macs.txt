@@ -1,0 +1,56 @@
+# header:
+#   title: Cs135(n,g) MACS
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 55
+#   A: 135
+#   nuclide: Cs135
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  1.531030E-01
+#   selected value uncertainty [b]:  7.312502E-03
+#   selected value source: Astral
+#   number of values: 12
+#   average value [b]:  1.784118E-01
+#   relative standard deviation [%]:       9.734643
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  1.760206E-01
+#   relative standard deviation [%]:      11.043293
+# datablock:
+#   columns: 10
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Bao                     Compilation          2000        1.980000E-01   1.700000E-02                      1.293247   MXW            3.000000E-02
+      Kadonis                 Compilation          2000        1.600000E-01   1.000000E-02                      1.045048   MXW            3.000000E-02
+      Sukhoruchkin            Compilation          2015        2.000000E-01   4.000000E-02                      1.306310   MXW            3.000000E-02
+      Mughabghab-2018         Compilation          2018        1.690000E-01   1.100000E-02                      1.103832   MXW            3.000000E-02
+      Astral                  Compilation          2020        1.531030E-01   7.312502E-03                      1.000000   MXW            3.000000E-02
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  1.785745E-01
+#   relative standard deviation [%]:       3.641338
+# datablock:
+#   columns: 10
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Jaag                    EXFOR                1997        1.850770E-01   1.600670E-02   224480042          1.208840   MXW            3.000000E-02
+      Patronis                EXFOR                2004        1.720720E-01   1.000420E-02   228460112          1.123897   MXW            3.000000E-02
+# quantity:
+#   type: Nuclear data library
+#   average value:  1.807380E-01
+#   relative standard deviation [%]:       9.866938
+# datablock:
+#   columns: 10
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      cendl3.2                NDL                  2019        2.032400E-01   0.000000E+00                      1.327472   MXW            3.000000E-02
+      jendl5.0                NDL                  2021        1.636000E-01   0.000000E+00                      1.068562   MXW            3.000000E-02
+      tendl.2023              NDL                  2023        1.673900E-01   0.000000E+00                      1.093316   MXW            3.000000E-02
+      endfb8.1                NDL                  2024        2.017600E-01   0.000000E+00                      1.317806   MXW            3.000000E-02
+      jeff4.0                 NDL                  2025        1.677000E-01   0.000000E+00                      1.095341   MXW            3.000000E-02

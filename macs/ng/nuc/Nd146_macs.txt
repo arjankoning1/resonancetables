@@ -1,0 +1,66 @@
+# header:
+#   title: Nd146(n,g) MACS
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 60
+#   A: 146
+#   nuclide: Nd146
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  9.706615E-02
+#   selected value uncertainty [b]:  1.458656E-03
+#   selected value source: Astral
+#   number of values: 13
+#   average value [b]:  9.711215E-02
+#   relative standard deviation [%]:      15.009970
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  9.393322E-02
+#   relative standard deviation [%]:       3.622689
+# datablock:
+#   columns: 10
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Bao                     Compilation          2000        9.120000E-02   1.000000E-03                      0.939565   MXW            3.000000E-02
+      Kadonis                 Compilation          2000        9.120000E-02   1.000000E-03                      0.939565   MXW            3.000000E-02
+      Sukhoruchkin            Compilation          2015        9.900000E-02   9.000000E-03                      1.019923   MXW            3.000000E-02
+      Mughabghab-2018         Compilation          2018        9.120000E-02   2.000000E-03                      0.939565   MXW            3.000000E-02
+      Astral                  Compilation          2020        9.706615E-02   1.458656E-03                      1.000000   MXW            3.000000E-02
+# quantity:
+#   type: EXFOR
+#   average value:  7.414190E-02
+#   relative standard deviation [%]:       8.283980
+# datablock:
+#   columns: 10
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Thirumalarao            EXFOR                1972        6.800000E-02   2.300000E-02   30501006           0.700553                  2.500000E-02
+      Bradley                 EXFOR                1979        8.028381E-02   5.663200E-03   10938004           0.827104                  2.430000E-02
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  1.003420E-01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 10
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Toukan                  EXFOR                1995        1.003420E-01   4.702000E-03   223050083          1.033749   MXW            2.500000E-02
+# quantity:
+#   type: Nuclear data library
+#   average value:  1.088332E-01
+#   relative standard deviation [%]:      11.807572
+# datablock:
+#   columns: 10
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      cendl3.2                NDL                  2019        1.288600E-01   0.000000E+00                      1.327548   MXW            3.000000E-02
+      jendl5.0                NDL                  2021        9.157400E-02   0.000000E+00                      0.943419   MXW            3.000000E-02
+      tendl.2023              NDL                  2023        1.124600E-01   0.000000E+00                      1.158591   MXW            3.000000E-02
+      endfb8.1                NDL                  2024        9.881200E-02   0.000000E+00                      1.017986   MXW            3.000000E-02
+      jeff4.0                 NDL                  2025        1.124600E-01   0.000000E+00                      1.158591   MXW            3.000000E-02

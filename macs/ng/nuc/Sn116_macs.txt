@@ -1,0 +1,56 @@
+# header:
+#   title: Sn116(n,g) MACS
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 50
+#   A: 116
+#   nuclide: Sn116
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  9.709331E-02
+#   selected value uncertainty [b]:  1.304217E-03
+#   selected value source: Astral
+#   number of values: 12
+#   average value [b]:  9.765594E-02
+#   relative standard deviation [%]:       5.080689
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  9.537866E-02
+#   relative standard deviation [%]:       3.522082
+# datablock:
+#   columns: 10
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Bao                     Compilation          2000        9.140000E-02   9.000000E-04                      0.941363   MXW            3.000000E-02
+      Kadonis                 Compilation          2000        9.160000E-02   6.000000E-04                      0.943422   MXW            3.000000E-02
+      Sukhoruchkin            Compilation          2015        1.000000E-01   1.900000E-02                      1.029937   MXW            3.000000E-02
+      Mughabghab-2018         Compilation          2018        9.680000E-02   1.000000E-03                      0.996979   MXW            3.000000E-02
+      Astral                  Compilation          2020        9.709331E-02   1.304217E-03                      1.000000   MXW            3.000000E-02
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  9.800000E-02
+#   relative standard deviation [%]:       6.122446
+# datablock:
+#   columns: 10
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Macklin                 EXFOR                1962        9.200001E-02   1.900000E-02   11958003           0.947542   MXW            3.040000E-02
+      Macklin                 EXFOR                1967        1.040000E-01   2.100000E-02   14322002           1.071135   MXW            3.000000E-02
+# quantity:
+#   type: Nuclear data library
+#   average value:  9.979560E-02
+#   relative standard deviation [%]:       4.866422
+# datablock:
+#   columns: 10
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      cendl3.2                NDL                  2019        1.051900E-01   0.000000E+00                      1.083391   MXW            3.000000E-02
+      jendl5.0                NDL                  2021        9.156100E-02   0.000000E+00                      0.943021   MXW            3.000000E-02
+      tendl.2023              NDL                  2023        1.038100E-01   0.000000E+00                      1.069178   MXW            3.000000E-02
+      endfb8.1                NDL                  2024        1.006600E-01   0.000000E+00                      1.036735   MXW            3.000000E-02
+      jeff4.0                 NDL                  2025        9.775700E-02   0.000000E+00                      1.006836   MXW            3.000000E-02

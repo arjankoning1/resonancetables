@@ -1,0 +1,53 @@
+# header:
+#   title: Tb159(n,g) MACS
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 65
+#   A: 159
+#   nuclide: Tb159
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  1.580000E+00
+#   selected value uncertainty [b]:  1.500000E-01
+#   selected value source: Kadonis
+#   number of values: 9
+#   average value [b]:  1.602396E+00
+#   relative standard deviation [%]:      20.421055
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  1.677750E+00
+#   relative standard deviation [%]:      14.094109
+# datablock:
+#   columns: 10
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Bao                     Compilation          2000        1.580000E+00   1.500000E-01                      1.000000   MXW            3.000000E-02
+      Kadonis                 Compilation          2000        1.580000E+00   1.500000E-01                      1.000000   MXW            3.000000E-02
+      Sukhoruchkin            Compilation          2015        2.080000E+00   1.600000E-01                      1.316456   MXW            3.000000E-02
+      Mughabghab-2018         Compilation          2018        1.471000E+00   6.600000E-02                      0.931013   MXW            3.000000E-02
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  2.207960E+00
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 10
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Praena                  EXFOR                2014        2.207960E+00   1.845060E-01   23249002           1.397443   MXW            3.000000E-02
+# quantity:
+#   type: Nuclear data library
+#   average value:  1.375650E+00
+#   relative standard deviation [%]:      13.838200
+# datablock:
+#   columns: 10
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      jendl5.0                NDL                  2021        1.562600E+00   0.000000E+00                      0.988987   MXW            3.000000E-02
+      tendl.2023              NDL                  2023        1.185300E+00   0.000000E+00                      0.750190   MXW            3.000000E-02
+      endfb8.1                NDL                  2024        1.569400E+00   0.000000E+00                      0.993291   MXW            3.000000E-02
+      jeff4.0                 NDL                  2025        1.185300E+00   0.000000E+00                      0.750190   MXW            3.000000E-02

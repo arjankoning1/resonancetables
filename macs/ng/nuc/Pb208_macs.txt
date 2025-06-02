@@ -1,0 +1,70 @@
+# header:
+#   title: Pb208(n,g) MACS
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 82
+#   A: 208
+#   nuclide: Pb208
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  3.600000E-04
+#   selected value uncertainty [b]:  3.000000E-05
+#   selected value source: Kadonis
+#   number of values: 17
+#   average value [b]:  7.313365E-04
+#   relative standard deviation [%]:     197.816650
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  4.225000E-04
+#   relative standard deviation [%]:      32.812237
+# datablock:
+#   columns: 10
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Bao                     Compilation          2000        3.600000E-04   4.000000E-05                      1.000000   MXW            3.000000E-02
+      Kadonis                 Compilation          2000        3.600000E-04   3.000000E-05                      1.000000   MXW            3.000000E-02
+      Sukhoruchkin            Compilation          2015        6.600000E-04   1.600000E-04                      1.833333   MXW            3.000000E-02
+      Mughabghab-2018         Compilation          2018        3.100000E-04   2.000000E-05                      0.861111   MXW            3.000000E-02
+# quantity:
+#   type: EXFOR
+#   average value:  6.500000E-03
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 10
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Chaubey                 EXFOR                1966        6.500000E-03   1.000000E-03   30079042          18.055553                  2.400000E-02
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  3.082072E-04
+#   relative standard deviation [%]:       5.739437
+# datablock:
+#   columns: 10
+#   entries: 7
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Ratzel                  EXFOR                2004        3.300000E-04   2.000000E-05   228830182          0.916667   MXW            2.500000E-02
+      Ratzel                  EXFOR                2004        2.860000E-04   1.200000E-05   228830142          0.794444   MXW            2.500000E-02
+      Ratzel                  EXFOR                2004        3.101300E-04   1.500600E-05   228830132          0.861472   MXW            2.500000E-02
+      Ratzel                  EXFOR                2004        3.101300E-04   1.700700E-05   228830122          0.861472   MXW            2.500000E-02
+      Ratzel                  EXFOR                2004        2.811200E-04   1.600700E-05   228830112          0.780889   MXW            2.500000E-02
+      Ratzel                  EXFOR                2004        3.100000E-04   2.000000E-05   22883009           0.861111   MXW            2.500000E-02
+      Weissman                EXFOR                2017        3.300700E-04   2.000400E-05   31779003           0.916861   MXW            3.000000E-02
+# quantity:
+#   type: Nuclear data library
+#   average value:  4.170540E-04
+#   relative standard deviation [%]:      33.061184
+# datablock:
+#   columns: 10
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      cendl3.2                NDL                  2019        6.524200E-04   0.000000E+00                      1.812278   MXW            3.000000E-02
+      jendl5.0                NDL                  2021        3.739800E-04   0.000000E+00                      1.038833   MXW            3.000000E-02
+      tendl.2023              NDL                  2023        2.310500E-04   0.000000E+00                      0.641805   MXW            3.000000E-02
+      endfb8.1                NDL                  2024        4.538400E-04   0.000000E+00                      1.260667   MXW            3.000000E-02
+      jeff4.0                 NDL                  2025        3.739800E-04   0.000000E+00                      1.038833   MXW            3.000000E-02

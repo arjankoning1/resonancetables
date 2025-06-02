@@ -1,0 +1,45 @@
+# header:
+#   title: Hf178(n,g) MACS
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 72
+#   A: 178
+#   nuclide: Hf178
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  3.368545E-01
+#   selected value uncertainty [b]:  4.458161E-03
+#   selected value source: Astral
+#   number of values: 10
+#   average value [b]:  3.215005E-01
+#   relative standard deviation [%]:       9.707550
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  3.177709E-01
+#   relative standard deviation [%]:       3.716113
+# datablock:
+#   columns: 10
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Bao                     Compilation          2000        3.140000E-01   1.000000E-02                      0.932153   MXW            3.000000E-02
+      Kadonis                 Compilation          2000        3.190000E-01   3.000000E-03                      0.946996   MXW            3.000000E-02
+      Sukhoruchkin            Compilation          2015        3.000000E-01   3.000000E-02                      0.890592   MXW            3.000000E-02
+      Mughabghab-2018         Compilation          2018        3.190000E-01   3.000000E-03                      0.946996   MXW            3.000000E-02
+      Astral                  Compilation          2020        3.368545E-01   4.458161E-03                      1.000000   MXW            3.000000E-02
+# quantity:
+#   type: Nuclear data library
+#   average value:  3.252300E-01
+#   relative standard deviation [%]:      12.975433
+# datablock:
+#   columns: 10
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      cendl3.2                NDL                  2019        3.064000E-01   0.000000E+00                      0.909591   MXW            3.000000E-02
+      jendl5.0                NDL                  2021        3.633600E-01   0.000000E+00                      1.078685   MXW            3.000000E-02
+      tendl.2023              NDL                  2023        2.511800E-01   0.000000E+00                      0.745663   MXW            3.000000E-02
+      endfb8.1                NDL                  2024        3.601400E-01   0.000000E+00                      1.069126   MXW            3.000000E-02
+      jeff4.0                 NDL                  2025        3.450700E-01   0.000000E+00                      1.024389   MXW            3.000000E-02

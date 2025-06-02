@@ -1,0 +1,58 @@
+# header:
+#   title: Ne022(n,g) MACS
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 10
+#   A: 22
+#   nuclide: Ne022
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  5.800000E-05
+#   selected value uncertainty [b]:  4.000000E-06
+#   selected value source: Kadonis
+#   number of values: 14
+#   average value [b]:  5.373506E-05
+#   relative standard deviation [%]:      48.749187
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  5.825000E-05
+#   relative standard deviation [%]:       0.743370
+# datablock:
+#   columns: 10
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Bao                     Compilation          2000        5.900000E-05   6.000000E-06                      1.017241   MXW            3.000000E-02
+      Kadonis                 Compilation          2000        5.800000E-05   4.000000E-06                      1.000000   MXW            3.000000E-02
+      Sukhoruchkin            Compilation          2015        5.800000E-05   4.000000E-06                      1.000000   MXW            3.000000E-02
+      Mughabghab-2018         Compilation          2018        5.800000E-05   4.000000E-06                      1.000000   MXW            3.000000E-02
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  6.882817E-05
+#   relative standard deviation [%]:       3.143291
+# datablock:
+#   columns: 10
+#   entries: 6
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Beer                    EXFOR                1991        7.150001E-05   4.500000E-06   222550065          1.232759   MXW            2.500000E-02
+      Beer                    EXFOR                1991        7.180000E-05   4.700000E-06   222550064          1.237931   MXW            2.500000E-02
+      Beer                    EXFOR                1991        6.680000E-05   4.100000E-06   222550063          1.151724   MXW            2.500000E-02
+      Beer                    EXFOR                1991        6.850000E-05   6.500000E-06   222550062          1.181034   MXW            2.500000E-02
+      Beer                    EXFOR                1991        6.830000E-05   6.300000E-06   222550061          1.177586   MXW            2.500000E-02
+      Beer                    EXFOR                1991        6.606901E-05   5.005200E-06   22255002           1.139121   MXW            2.500000E-02
+# quantity:
+#   type: Nuclear data library
+#   average value:  2.658045E-05
+#   relative standard deviation [%]:     135.387115
+# datablock:
+#   columns: 10
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      jendl5.0                NDL                  2021        5.875700E-06   0.000000E+00                      0.101305   MXW            3.000000E-02
+      tendl.2023              NDL                  2023        3.989900E-06   0.000000E+00                      0.068791   MXW            3.000000E-02
+      endfb8.1                NDL                  2024        8.887200E-05   0.000000E+00                      1.532276   MXW            3.000000E-02
+      jeff4.0                 NDL                  2025        7.584200E-06   0.000000E+00                      0.130762   MXW            3.000000E-02

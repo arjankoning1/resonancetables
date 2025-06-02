@@ -1,0 +1,56 @@
+# header:
+#   title: Dy164(n,g) MACS
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 66
+#   A: 164
+#   nuclide: Dy164
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  2.255036E-01
+#   selected value uncertainty [b]:  3.993755E-03
+#   selected value source: Astral
+#   number of values: 12
+#   average value [b]:  2.249736E-01
+#   relative standard deviation [%]:      15.007198
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  2.157007E-01
+#   relative standard deviation [%]:       2.443254
+# datablock:
+#   columns: 10
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Bao                     Compilation          2000        2.120000E-01   3.000000E-03                      0.940118   MXW            3.000000E-02
+      Kadonis                 Compilation          2000        2.120000E-01   3.000000E-03                      0.940118   MXW            3.000000E-02
+      Sukhoruchkin            Compilation          2015        2.170000E-01   2.100000E-02                      0.962291   MXW            3.000000E-02
+      Mughabghab-2018         Compilation          2018        2.120000E-01   6.000000E-03                      0.940118   MXW            3.000000E-02
+      Astral                  Compilation          2020        2.255036E-01   3.993755E-03                      1.000000   MXW            3.000000E-02
+# quantity:
+#   type: EXFOR
+#   average value:  2.600000E-01
+#   relative standard deviation [%]:      26.923075
+# datablock:
+#   columns: 10
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Booth                   EXFOR                1958        3.300000E-01   1.300000E-01   11429025           1.463391                  2.400000E-02
+      Chaubey                 EXFOR                1965        1.900000E-01   2.000000E-02   30063008           0.842559                  2.400000E-02
+# quantity:
+#   type: Nuclear data library
+#   average value:  2.202360E-01
+#   relative standard deviation [%]:       5.538544
+# datablock:
+#   columns: 10
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      cendl3.2                NDL                  2019        2.044000E-01   0.000000E+00                      0.906416   MXW            3.000000E-02
+      jendl5.0                NDL                  2021        2.109300E-01   0.000000E+00                      0.935373   MXW            3.000000E-02
+      tendl.2023              NDL                  2023        2.343300E-01   0.000000E+00                      1.039141   MXW            3.000000E-02
+      endfb8.1                NDL                  2024        2.171900E-01   0.000000E+00                      0.963133   MXW            3.000000E-02
+      jeff4.0                 NDL                  2025        2.343300E-01   0.000000E+00                      1.039141   MXW            3.000000E-02

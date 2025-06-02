@@ -1,0 +1,44 @@
+# header:
+#   title: Ti046(n,g) MACS
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 22
+#   A: 46
+#   nuclide: Ti046
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  2.680000E-02
+#   selected value uncertainty [b]:  3.200000E-03
+#   selected value source: Kadonis
+#   number of values: 9
+#   average value [b]:  2.344134E-02
+#   relative standard deviation [%]:      15.926688
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  2.617500E-02
+#   relative standard deviation [%]:       2.812309
+# datablock:
+#   columns: 10
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Bao                     Compilation          2000        2.680000E-02   3.200000E-03                      1.000000   MXW            3.000000E-02
+      Kadonis                 Compilation          2000        2.680000E-02   3.200000E-03                      1.000000   MXW            3.000000E-02
+      Sukhoruchkin            Compilation          2015        2.500000E-02   3.000000E-03                      0.932836   MXW            3.000000E-02
+      Mughabghab-2018         Compilation          2018        2.610000E-02   3.000000E-03                      0.973881   MXW            3.000000E-02
+# quantity:
+#   type: Nuclear data library
+#   average value:  2.125440E-02
+#   relative standard deviation [%]:      17.537855
+# datablock:
+#   columns: 10
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      cendl3.2                NDL                  2019        2.048000E-02   0.000000E+00                      0.764179   MXW            3.000000E-02
+      jendl5.0                NDL                  2021        2.559300E-02   0.000000E+00                      0.954963   MXW            3.000000E-02
+      tendl.2023              NDL                  2023        1.730300E-02   0.000000E+00                      0.645634   MXW            3.000000E-02
+      endfb8.1                NDL                  2024        2.559300E-02   0.000000E+00                      0.954963   MXW            3.000000E-02
+      jeff4.0                 NDL                  2025        1.730300E-02   0.000000E+00                      0.645634   MXW            3.000000E-02

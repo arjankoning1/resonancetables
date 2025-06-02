@@ -1,0 +1,52 @@
+# header:
+#   title: Ir192(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 77
+#   A: 192
+#   nuclide: Ir192
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  1.578000E+03
+#   selected value uncertainty [b]:  2.000000E+02
+#   selected value source: Mughabghab-2018
+#   number of values: 8
+#   average value [b]:  1.483696E+03
+#   relative standard deviation [%]:      15.294293
+# quantity:
+#   type: Compilation
+#   average value:  1.538667E+03
+#   relative standard deviation [%]:       4.083378
+# datablock:
+#   columns: 10
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      RIPL-3                  Compilation          2004        1.450000E+03   2.500000E+02                      0.918885                  2.530000E-08
+      Mughabghab-2006         Compilation          2006        1.588000E+03   2.000000E+02                      1.006337                  2.530000E-08
+      Mughabghab-2018         Compilation          2018        1.578000E+03   2.000000E+02                      1.000000                  2.530000E-08
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  1.588000E+03
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 10
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Sukhoruchkin            Compilation          2015        1.588000E+03   2.000000E+02                      1.006337   MXW            2.530000E-08
+# quantity:
+#   type: Nuclear data library
+#   average value:  1.416392E+03
+#   relative standard deviation [%]:      21.240440
+# datablock:
+#   columns: 10
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      jendl5.0                NDL                  2021        1.607060E+03   0.000000E+00                      1.018416                  2.530000E-08
+      tendl.2023              NDL                  2023        8.956480E+02   0.000000E+00                      0.567584                  2.530000E-08
+      endfb8.1                NDL                  2024        1.585560E+03   0.000000E+00                      1.004791                  2.530000E-08
+      jeff4.0                 NDL                  2025        1.577300E+03   0.000000E+00                      0.999556                  2.530000E-08

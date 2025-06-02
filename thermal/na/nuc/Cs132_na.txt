@@ -1,0 +1,39 @@
+# header:
+#   title: Cs132(n,a) thermal cross section
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 55
+#   A: 132
+#   nuclide: Cs132
+# reaction:
+#   type: (n,a)
+# observables:
+#   selected value [b]:  1.500000E-01
+#   selected value uncertainty [b]:  0.000000E+00
+#   selected value source: Mughabghab-2018
+#   number of values: 4
+#   average value [b]:  1.500000E-01
+#   relative standard deviation [%]:       0.000000
+# quantity:
+#   type: Compilation
+#   average value:  1.500000E-01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 10
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      RIPL-3                  Compilation          2004        1.500000E-01   0.000000E+00                      1.000000                  2.530000E-08
+      Mughabghab-2006         Compilation          2006        1.500000E-01   0.000000E+00                      1.000000                  2.530000E-08
+      Mughabghab-2018         Compilation          2018        1.500000E-01   0.000000E+00                      1.000000                  2.530000E-08
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  1.500000E-01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 10
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      E.Hagberg               EXFOR                1976        1.500000E-01   0.000000E+00   21215-005-0        1.000000   MXW            2.530000E-08

@@ -1,0 +1,63 @@
+# header:
+#   title: Ce141(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 58
+#   A: 141
+#   nuclide: Ce141
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  2.900000E+01
+#   selected value uncertainty [b]:  3.000000E+00
+#   selected value source: Mughabghab-2018
+#   number of values: 10
+#   average value [b]:  2.902499E+01
+#   relative standard deviation [%]:       0.147049
+# quantity:
+#   type: Compilation
+#   average value:  2.900000E+01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 10
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      RIPL-3                  Compilation          2004        2.900000E+01   3.000000E+00                      1.000000                  2.530000E-08
+      Mughabghab-2018         Compilation          2018        2.900000E+01   3.000000E+00                      1.000000                  2.530000E-08
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  2.900000E+01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 10
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Mughabghab-2006         Compilation          2006        2.900000E+01   3.000000E+00                      1.000000   MXW            2.530000E-08
+      Sukhoruchkin            Compilation          2015        2.900000E+01   3.000000E+00                      1.000000   MXW            2.530000E-08
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  2.900000E+01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 10
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      P.M.Lantz               EXFOR                1964        2.900000E+01   3.000000E+00   12056-004-0        1.000000   SPA            2.530000E-08
+# quantity:
+#   type: Nuclear data library
+#   average value:  2.904998E+01
+#   relative standard deviation [%]:       0.168439
+# datablock:
+#   columns: 10
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      cendl3.2                NDL                  2019        2.901390E+01   0.000000E+00                      1.000479                  2.530000E-08
+      jendl5.0                NDL                  2021        2.901390E+01   0.000000E+00                      1.000479                  2.530000E-08
+      tendl.2023              NDL                  2023        2.910970E+01   0.000000E+00                      1.003783                  2.530000E-08
+      endfb8.1                NDL                  2024        2.900270E+01   0.000000E+00                      1.000093                  2.530000E-08
+      jeff4.0                 NDL                  2025        2.910970E+01   0.000000E+00                      1.003783                  2.530000E-08

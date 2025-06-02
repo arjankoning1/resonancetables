@@ -1,0 +1,50 @@
+# header:
+#   title: Os190(n,g)-m thermal cross section
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 76
+#   A: 190
+#   nuclide: Os190
+# reaction:
+#   type: (n,g)-m
+# observables:
+#   selected value [b]:  9.030000E+00
+#   selected value uncertainty [b]:  4.900000E-01
+#   selected value source: Mughabghab-2018
+#   number of values: 6
+#   average value [b]:  8.801666E+00
+#   relative standard deviation [%]:       4.657476
+# quantity:
+#   type: Compilation
+#   average value:  9.014999E+00
+#   relative standard deviation [%]:       0.166388
+# datablock:
+#   columns: 10
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      RIPL-3                  Compilation          2004        9.000000E+00   7.000000E-01                      0.996678                  2.530000E-08
+      Mughabghab-2018         Compilation          2018        9.030000E+00   4.900000E-01                      1.000000                  2.530000E-08
+# quantity:
+#   type: EXFOR
+#   average value:  9.200000E+00
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 10
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      F.De Corte              EXFOR                1988        9.200000E+00   0.000000E+00   23488-088-1        1.018826                  2.530000E-08
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  8.526666E+00
+#   relative standard deviation [%]:       4.935331
+# datablock:
+#   columns: 10
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      S.K.Mangal              EXFOR                1963        8.550000E+00   1.539000E+00   31249-014-0        0.946844   SPA            2.530000E-08
+      T.A.Butler              EXFOR                1983        8.000000E+00   2.000000E+00   12932-002-M        0.885936   SPA            2.530000E-08
+      K.S.Krane               EXFOR                2012        9.030000E+00   4.900000E-01   14332-005-0        1.000000   MXW            2.530000E-08

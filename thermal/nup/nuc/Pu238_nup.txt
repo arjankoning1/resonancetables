@@ -1,0 +1,38 @@
+# header:
+#   title: Pu238(n,nuprompt) thermal neutron multiplicity
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 94
+#   A: 238
+#   nuclide: Pu238
+# reaction:
+#   type: (n,nuprompt)
+# observables:
+#   selected value]:  2.900000E+00
+#   selected value uncertainty]:  0.000000E+00
+#   selected value source: Mughabghab-2018
+#   number of values: 3
+#   average value:  2.905000E+00
+#   relative standard deviation [%]:       0.371816
+# quantity:
+#   type: Compilation
+#   average value:  2.900000E+00
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 10
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             []             []             []             []             []            [MeV]
+      Mughabghab-2018         Compilation          2018        2.900000E+00   0.000000E+00                      1.000000                  2.530000E-08
+# quantity:
+#   type: EXFOR
+#   average value:  2.907500E+00
+#   relative standard deviation [%]:       0.429924
+# datablock:
+#   columns: 10
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             []             []             []             []             []            [MeV]
+      Kroshkin                EXFOR                1970        2.920000E+00   1.200000E-01   40064007           1.006896                  2.530000E-08
+      Jaffey                  EXFOR                1970        2.895000E+00   2.700000E-02   101250035          0.998276                  2.530000E-08

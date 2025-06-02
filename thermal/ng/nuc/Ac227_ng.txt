@@ -1,0 +1,78 @@
+# header:
+#   title: Ac227(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 89
+#   A: 227
+#   nuclide: Ac227
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  8.900000E+02
+#   selected value uncertainty [b]:  3.000000E+01
+#   selected value source: Mughabghab-2018
+#   number of values: 16
+#   average value [b]:  7.879388E+02
+#   relative standard deviation [%]:      25.012842
+# quantity:
+#   type: Compilation
+#   average value:  8.900000E+02
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 10
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Mughabghab-2018         Compilation          2018        8.900000E+02   3.000000E+01                      1.000000                  2.530000E-08
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  8.900000E+02
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 10
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Mughabghab-2006         Compilation          2006        8.900000E+02   3.000000E+01                      1.000000   MXW            2.530000E-08
+# quantity:
+#   type: EXFOR
+#   average value:  1.019750E+03
+#   relative standard deviation [%]:       2.765292
+# datablock:
+#   columns: 10
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      H.F.Aly                 EXFOR                1974        9.770000E+02   4.200000E+01   23378-005-0        1.097753                  2.530000E-08
+      H.F.Aly                 EXFOR                1974        1.056000E+03   3.600000E+01   23378-005-0        1.186517                  2.530000E-08
+      H.F.Aly                 EXFOR                1974        1.026000E+03   1.000000E+01   23378-005-0        1.152809                  2.530000E-08
+      H.F.Aly                 EXFOR                1974        1.020000E+03   3.900000E+01   23378-002-0        1.146067                  2.530000E-08
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  5.861667E+02
+#   relative standard deviation [%]:      24.905333
+# datablock:
+#   columns: 10
+#   entries: 6
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      H.Pomerance             EXFOR                1953        5.000000E+02   3.500000E+01   12307-002-0        0.561798   MXW            2.530000E-08
+      R.K.Sjoblom             EXFOR                1954        5.160000E+02   5.000000E+01   12250-002-0        0.579775   SPA            2.530000E-08
+      H.W.Kirby               EXFOR                1956        4.300000E+02   4.300000E+01   12275-003-0        0.483146   SPA            2.530000E-08
+      H.W.Kirby               EXFOR                1956        4.950000E+02   3.500000E+01   12275-002-0        0.556180   MXW            2.530000E-08
+      M.J.Cabell              EXFOR                1959        8.140000E+02   1.300000E+01   12254-003-0        0.914607   MXW            2.530000E-08
+      M.Monsecour             EXFOR                1975        7.620000E+02   2.900000E+01   20636-002-0        0.856180   MXW            2.530000E-08
+# quantity:
+#   type: Nuclear data library
+#   average value:  8.077556E+02
+#   relative standard deviation [%]:       5.810191
+# datablock:
+#   columns: 10
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      jendl5.0                NDL                  2021        8.000060E+02   0.000000E+00                      0.898883                  2.530000E-08
+      tendl.2023              NDL                  2023        7.500440E+02   0.000000E+00                      0.842746                  2.530000E-08
+      endfb8.1                NDL                  2024        8.000060E+02   0.000000E+00                      0.898883                  2.530000E-08
+      jeff4.0                 NDL                  2025        8.809660E+02   0.000000E+00                      0.989849                  2.530000E-08

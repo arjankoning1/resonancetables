@@ -1,0 +1,28 @@
+# header:
+#   title: Ca041(n,a) thermal cross section
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 20
+#   A: 41
+#   nuclide: Ca041
+# reaction:
+#   type: (n,a)
+# observables:
+#   selected value [b]:  1.900000E-01
+#   selected value uncertainty [b]:  0.000000E+00
+#   selected value source: Mughabghab-2018
+#   number of values: 2
+#   average value [b]:  1.900000E-01
+#   relative standard deviation [%]:       0.000000
+# quantity:
+#   type: Compilation
+#   average value:  1.900000E-01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 10
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Sukhoruchkin            Compilation          2015        1.900000E-01   0.000000E+00                      1.000000                  2.530000E-08
+      Mughabghab-2018         Compilation          2018        1.900000E-01   0.000000E+00                      1.000000                  2.530000E-08

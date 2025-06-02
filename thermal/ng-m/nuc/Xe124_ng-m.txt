@@ -1,0 +1,38 @@
+# header:
+#   title: Xe124(n,g)-m thermal cross section
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 54
+#   A: 124
+#   nuclide: Xe124
+# reaction:
+#   type: (n,g)-m
+# observables:
+#   selected value [b]:  2.800000E+01
+#   selected value uncertainty [b]:  5.000000E+00
+#   selected value source: Mughabghab-2018
+#   number of values: 3
+#   average value [b]:  2.653333E+01
+#   relative standard deviation [%]:       7.817260
+# quantity:
+#   type: Compilation
+#   average value:  2.800000E+01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 10
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      RIPL-3                  Compilation          2004        2.800000E+01   5.000000E+00                      1.000000                  2.530000E-08
+      Mughabghab-2018         Compilation          2018        2.800000E+01   5.000000E+00                      1.000000                  2.530000E-08
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  2.360000E+01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 10
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      E.Kondaiah              EXFOR                1968        2.360000E+01   2.500000E+00   11883-007-0        0.842857   MXW            2.530000E-08

@@ -1,0 +1,39 @@
+# header:
+#   title: Mg027(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 12
+#   A: 27
+#   nuclide: Mg027
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  7.000000E-02
+#   selected value uncertainty [b]:  2.000000E-02
+#   selected value source: Mughabghab-2006
+#   number of values: 4
+#   average value [b]:  5.250000E-02
+#   relative standard deviation [%]:      34.006802
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  7.000000E-02
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 10
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Mughabghab-2006         Compilation          2006        7.000000E-02   2.000000E-02                      1.000000   MXW            2.530000E-08
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  4.666667E-02
+#   relative standard deviation [%]:      36.421566
+# datablock:
+#   columns: 10
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      L.P.Roy                 EXFOR                1957        4.000000E-02   0.000000E+00   12591-002-0        0.571429   SPA            2.530000E-08
+      R.P.Schuman             EXFOR                1958        3.000000E-02   0.000000E+00   11772-003-0        0.428571   SPA            2.530000E-08
+      T.Sekine                EXFOR                1978        7.000000E-02   2.000000E-02   20991-002-0        1.000000   MXW            2.530000E-08

@@ -1,0 +1,57 @@
+# header:
+#   title: Ag000(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 47
+#   A: 0
+#   nuclide: Ag000
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  6.380000E+01
+#   selected value uncertainty [b]:  5.000000E-01
+#   selected value source: Firestone
+#   number of values: 13
+#   average value [b]:  6.438461E+01
+#   relative standard deviation [%]:      12.154433
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  6.380000E+01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 10
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Firestone               Compilation          2022        6.380000E+01   5.000000E-01                      1.000000   MXW            2.530000E-08
+# quantity:
+#   type: EXFOR
+#   average value:  6.278334E+01
+#   relative standard deviation [%]:       4.902741
+# datablock:
+#   columns: 10
+#   entries: 6
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      G.A.Fink                EXFOR                1936        5.600000E+01   2.000000E+00   13845-006-0        0.877743                  2.530000E-08
+      A.Green                 EXFOR                1954        6.370000E+01   4.000000E-01   21180-005-0        0.998433                  2.530000E-08
+      R.B.Tattersall          EXFOR                1960        6.340000E+01   1.200000E+00   20638-028-0        0.993730                  2.530000E-08
+      T.Fuketa                EXFOR                1960        6.400000E+01   3.000000E+00   20275-004-0        1.003135                  2.530000E-08
+      J.W.Meadows             EXFOR                1961        6.480000E+01   4.000000E-01   11028-013-0        1.015674                  2.530000E-08
+      J.C.Carre               EXFOR                1966        6.480000E+01   2.000000E-01   20658-018-0        1.015674                  2.530000E-08
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  6.608334E+01
+#   relative standard deviation [%]:      16.417421
+# datablock:
+#   columns: 10
+#   entries: 6
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      S.P.Harris              EXFOR                1950        9.000000E+01   4.500000E+00   11528-028-0        1.410658   SPA            2.530000E-08
+      H.Pomerance             EXFOR                1951        6.000000E+01   3.000000E+00   11047-039-0        0.940439   MXW            2.530000E-08
+      F.Scott                 EXFOR                1954        5.800000E+01   2.000000E+00   11077-004-0        0.909091   MXW            2.530000E-08
+      J.D.Cummins             EXFOR                1957        6.310000E+01   9.000000E-01   21469-003-0        0.989028   MXW            2.530000E-08
+      J.Bouzyk                EXFOR                1961        6.250000E+01   0.000000E+00   30412-008-0        0.979624   MXW            2.530000E-08
+      G.Huttel                EXFOR                1963        6.290000E+01   4.000000E-01   31311-005-0        0.985893   MXW            2.530000E-08

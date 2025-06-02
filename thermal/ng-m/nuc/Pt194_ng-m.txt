@@ -1,0 +1,40 @@
+# header:
+#   title: Pt194(n,g)-m thermal cross section
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 78
+#   A: 194
+#   nuclide: Pt194
+# reaction:
+#   type: (n,g)-m
+# observables:
+#   selected value [b]:  1.000000E-01
+#   selected value uncertainty [b]:  1.100000E-02
+#   selected value source: RIPL-3
+#   number of values: 5
+#   average value [b]:  1.092000E-01
+#   relative standard deviation [%]:      47.405128
+# quantity:
+#   type: Compilation
+#   average value:  1.000000E-01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 10
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      RIPL-3                  Compilation          2004        1.000000E-01   1.100000E-02                      1.000000                  2.530000E-08
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  1.115000E-01
+#   relative standard deviation [%]:      51.701923
+# datablock:
+#   columns: 10
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      M.Sehgal                EXFOR                1962        8.700000E-02   1.300000E-02   11994-011-0        0.870000   MXW            2.530000E-08
+      S.K.Mangal              EXFOR                1963        2.000000E-01   0.000000E+00   31249-010-0        2.000000   SPA            2.530000E-08
+      J.P.Rambaek             EXFOR                1977        1.170000E-01   9.000000E-03   23383-008-0        1.170000   SPA            2.530000E-08
+      S.Mirzadeh              EXFOR                1997        4.200000E-02   8.000000E-03   14328-006-0        0.420000   MXW            2.530000E-08

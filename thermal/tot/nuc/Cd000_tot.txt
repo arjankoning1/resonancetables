@@ -1,0 +1,29 @@
+# header:
+#   title: Cd000(n,tot) thermal cross section
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 48
+#   A: 0
+#   nuclide: Cd000
+# reaction:
+#   type: (n,tot)
+# observables:
+#   selected value [b]:  2.450000E+03
+#   selected value uncertainty [b]:  4.000000E+01
+#   selected value source: K.Volev
+#   number of values: 3
+#   average value [b]:  2.444000E+03
+#   relative standard deviation [%]:       0.498891
+# quantity:
+#   type: EXFOR
+#   average value:  2.444000E+03
+#   relative standard deviation [%]:       0.498891
+# datablock:
+#   columns: 10
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      F.Widder                EXFOR                1968        2.455000E+03   1.000000E+01   21034-004-0        1.002041                  2.530000E-08
+      F.Widder                EXFOR                1968        2.427000E+03   2.743000E+01   21034-002-0        0.990612                  2.524000E-08
+      K.Volev                 EXFOR                2013        2.450000E+03   4.000000E+01   23196-034-0        1.000000                  2.530000E-08

@@ -1,0 +1,28 @@
+# header:
+#   title: Tc098(n,g)-m thermal cross section
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 43
+#   A: 98
+#   nuclide: Tc098
+# reaction:
+#   type: (n,g)-m
+# observables:
+#   selected value [b]:  2.600000E+00
+#   selected value uncertainty [b]:  1.300000E+00
+#   selected value source: E.Anders
+#   number of values: 2
+#   average value [b]:  2.900000E+00
+#   relative standard deviation [%]:      10.344830
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  2.900000E+00
+#   relative standard deviation [%]:      10.344830
+# datablock:
+#   columns: 10
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      E.Anders                EXFOR                1958        3.200000E+00   1.600000E+00   12614-003-0        1.230769   MXW            2.530000E-08
+      E.Anders                EXFOR                1958        2.600000E+00   1.300000E+00   12614-002-0        1.000000   MXW            2.530000E-08

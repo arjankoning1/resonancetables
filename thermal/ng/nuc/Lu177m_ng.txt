@@ -1,0 +1,47 @@
+# header:
+#   title: Lu177m(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 71
+#   A: 177
+#   nuclide: Lu177m
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  4.170000E+02
+#   selected value uncertainty [b]:  2.600000E+01
+#   selected value source: Mughabghab-2018
+#   number of values: 3
+#   average value [b]:  2.762373E+02
+#   relative standard deviation [%]:      69.907867
+# quantity:
+#   type: Compilation
+#   average value:  4.170000E+02
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 10
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Mughabghab-2018         Compilation          2018        4.170000E+02   2.600000E+01                      1.000000                  2.530000E-08
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  3.180000E+00
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 10
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Mughabghab-2006         Compilation          2006        3.180000E+00   3.000000E-01                      0.007626   MXW            2.530000E-08
+# quantity:
+#   type: Nuclear data library
+#   average value:  4.085320E+02
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 10
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      tendl.2023              NDL                  2023        4.085320E+02   0.000000E+00                      0.979693                  2.530000E-08

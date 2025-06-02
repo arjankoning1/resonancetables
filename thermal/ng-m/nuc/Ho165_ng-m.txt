@@ -1,0 +1,39 @@
+# header:
+#   title: Ho165(n,g)-m thermal cross section
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 67
+#   A: 165
+#   nuclide: Ho165
+# reaction:
+#   type: (n,g)-m
+# observables:
+#   selected value [b]:  3.500000E+00
+#   selected value uncertainty [b]:  4.000000E-01
+#   selected value source: Mughabghab-2018
+#   number of values: 4
+#   average value [b]:  2.750000E+00
+#   relative standard deviation [%]:      37.128323
+# quantity:
+#   type: Compilation
+#   average value:  3.300000E+00
+#   relative standard deviation [%]:       6.060607
+# datablock:
+#   columns: 10
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      RIPL-3                  Compilation          2004        3.100000E+00   4.000000E-01                      0.885714                  2.530000E-08
+      Mughabghab-2018         Compilation          2018        3.500000E+00   4.000000E-01                      1.000000                  2.530000E-08
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  2.200000E+00
+#   relative standard deviation [%]:      54.545456
+# datablock:
+#   columns: 10
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      B.Keisch                EXFOR                1962        1.000000E+00   0.000000E+00   12094-003-0        0.285714   SPA            2.530000E-08
+      D.R.Nethaway            EXFOR                1968        3.400000E+00   5.000000E-01   12091-002-0        0.971429   MXW            2.530000E-08

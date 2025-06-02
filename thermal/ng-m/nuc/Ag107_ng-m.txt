@@ -1,0 +1,49 @@
+# header:
+#   title: Ag107(n,g)-m thermal cross section
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 47
+#   A: 107
+#   nuclide: Ag107
+# reaction:
+#   type: (n,g)-m
+# observables:
+#   selected value [b]:  4.100000E-01
+#   selected value uncertainty [b]:  8.000000E-02
+#   selected value source: Mughabghab-2018
+#   number of values: 5
+#   average value [b]:  3.906000E-01
+#   relative standard deviation [%]:      12.822919
+# quantity:
+#   type: Compilation
+#   average value:  3.900000E-01
+#   relative standard deviation [%]:       5.128204
+# datablock:
+#   columns: 10
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      RIPL-3                  Compilation          2004        3.700000E-01   8.000000E-02                      0.902439                  2.530000E-08
+      Mughabghab-2018         Compilation          2018        4.100000E-01   8.000000E-02                      1.000000                  2.530000E-08
+# quantity:
+#   type: EXFOR
+#   average value:  4.215000E-01
+#   relative standard deviation [%]:      13.167260
+# datablock:
+#   columns: 10
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      T.B.Ryves               EXFOR                1979        3.660000E-01   6.500000E-02   21625-002-0        0.892683                  2.530000E-08
+      M.Gavrilas              EXFOR                1987        4.770000E-01   3.300000E-02   13129-002-0        1.163415                  2.530000E-08
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  3.300000E-01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 10
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      D.V.Rao                 EXFOR                1978        3.300000E-01   0.000000E+00   12959-002-0        0.804878   MXW            2.530000E-08

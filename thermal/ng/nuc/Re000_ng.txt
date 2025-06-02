@@ -1,0 +1,47 @@
+# header:
+#   title: Re000(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 75
+#   A: 0
+#   nuclide: Re000
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  8.900000E+01
+#   selected value uncertainty [b]:  1.600000E+00
+#   selected value source: Firestone
+#   number of values: 3
+#   average value [b]:  8.733334E+01
+#   relative standard deviation [%]:       2.698881
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  8.900000E+01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 10
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Firestone               Compilation          2022        8.900000E+01   1.600000E+00                      1.000000   MXW            2.530000E-08
+# quantity:
+#   type: EXFOR
+#   average value:  8.900000E+01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 10
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      S.J.Friesenhahn         EXFOR                1968        8.900000E+01   5.000000E+00   12163-002-0        1.000000                  2.530000E-08
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  8.400000E+01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 10
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      H.Pomerance             EXFOR                1951        8.400000E+01   4.200000E+00   11047-067-0        0.943820   MXW            2.530000E-08

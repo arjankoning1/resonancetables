@@ -1,0 +1,29 @@
+# header:
+#   title: Ta181(n,a) thermal cross section
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 73
+#   A: 181
+#   nuclide: Ta181
+# reaction:
+#   type: (n,a)
+# observables:
+#   selected value [b]:  1.000000E-06
+#   selected value uncertainty [b]:  0.000000E+00
+#   selected value source: Mughabghab-2018
+#   number of values: 3
+#   average value [b]:  1.000000E-06
+#   relative standard deviation [%]:       0.000000
+# quantity:
+#   type: Compilation
+#   average value:  1.000000E-06
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 10
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Mughabghab-2006         Compilation          2006        1.000000E-06   0.000000E+00                      1.000000                  2.530000E-08
+      Sukhoruchkin            Compilation          2015        1.000000E-06   0.000000E+00                      1.000000                  2.530000E-08
+      Mughabghab-2018         Compilation          2018        1.000000E-06   0.000000E+00                      1.000000                  2.530000E-08

@@ -1,0 +1,28 @@
+# header:
+#   title: Cl037(n,el) thermal cross section
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 17
+#   A: 37
+#   nuclide: Cl037
+# reaction:
+#   type: (n,el)
+# observables:
+#   selected value [b]:  1.150000E+00
+#   selected value uncertainty [b]:  5.000000E-02
+#   selected value source: Mughabghab-2018
+#   number of values: 2
+#   average value [b]:  1.150000E+00
+#   relative standard deviation [%]:       0.000000
+# quantity:
+#   type: Compilation
+#   average value:  1.150000E+00
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 10
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Mughabghab-2006         Compilation          2006        1.150000E+00   5.000000E-02                      1.000000                  2.530000E-08
+      Mughabghab-2018         Compilation          2018        1.150000E+00   5.000000E-02                      1.000000                  2.530000E-08

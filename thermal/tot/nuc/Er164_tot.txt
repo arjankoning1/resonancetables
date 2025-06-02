@@ -1,0 +1,28 @@
+# header:
+#   title: Er164(n,tot) thermal cross section
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 68
+#   A: 164
+#   nuclide: Er164
+# reaction:
+#   type: (n,tot)
+# observables:
+#   selected value [b]:  5.000000E+01
+#   selected value uncertainty [b]:  8.000000E+00
+#   selected value source: S.F.Mughabghab
+#   number of values: 2
+#   average value [b]:  5.000000E+01
+#   relative standard deviation [%]:       0.000000
+# quantity:
+#   type: EXFOR
+#   average value:  5.000000E+01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 10
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      V.P.Vertebny            EXFOR                1965        5.000000E+01   0.000000E+00   41251-002-0        1.000000                  2.530000E-08
+      S.F.Mughabghab          EXFOR                1967        5.000000E+01   8.000000E+00   12120-002-0        1.000000                  2.530000E-08

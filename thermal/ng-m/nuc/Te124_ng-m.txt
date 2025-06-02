@@ -1,0 +1,53 @@
+# header:
+#   title: Te124(n,g)-m thermal cross section
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 52
+#   A: 124
+#   nuclide: Te124
+# reaction:
+#   type: (n,g)-m
+# observables:
+#   selected value [b]:  5.000000E-02
+#   selected value uncertainty [b]:  2.500000E-02
+#   selected value source: RIPL-3
+#   number of values: 9
+#   average value [b]:  2.659000E+00
+#   relative standard deviation [%]:      92.109688
+# quantity:
+#   type: Compilation
+#   average value:  5.000000E-02
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 10
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      RIPL-3                  Compilation          2004        5.000000E-02   2.500000E-02                      1.000000                  2.530000E-08
+# quantity:
+#   type: EXFOR
+#   average value:  2.306000E+00
+#   relative standard deviation [%]:      93.118423
+# datablock:
+#   columns: 10
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      V.S.Gvozdev             EXFOR                1959        4.000000E-02   2.500000E-02   41633-002-0        0.800000                  2.530000E-08
+      V.G.Alpatov             EXFOR                1990        1.120000E+00   7.000000E-02   41039-004-0       22.400000                  2.530000E-08
+      J.Honzatko              EXFOR                1993        3.150000E+00   0.000000E+00   31417-002-1       63.000000                  2.530000E-08
+      V.G.Alpatov             EXFOR                1995        1.120000E+00   7.000000E-02   41168-004-0       22.400000                  2.530000E-08
+      I.Tomandl               EXFOR                2003        6.100000E+00   7.000000E-01   31567-003-0      122.000000                  2.530000E-08
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  4.117000E+00
+#   relative standard deviation [%]:      58.033062
+# datablock:
+#   columns: 10
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      R.Hill                  EXFOR                1949        5.000000E+00   0.000000E+00   11998-002-0      100.000000   MXW            2.530000E-08
+      H.Pomerance             EXFOR                1952        6.500000E+00   1.300000E+00   11507-063-0      130.000000   MXW            2.530000E-08
+      M.C.Eastman             EXFOR                2008        8.510000E-01   6.100000E-02   14165-005-0       17.020000   MXW            2.530000E-08

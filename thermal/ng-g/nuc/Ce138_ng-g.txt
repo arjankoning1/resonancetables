@@ -1,0 +1,39 @@
+# header:
+#   title: Ce138(n,g)-g thermal cross section
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 58
+#   A: 138
+#   nuclide: Ce138
+# reaction:
+#   type: (n,g)-g
+# observables:
+#   selected value [b]:  9.800000E-01
+#   selected value uncertainty [b]:  5.000000E-02
+#   selected value source: Mughabghab-2018
+#   number of values: 4
+#   average value [b]:  1.060000E+00
+#   relative standard deviation [%]:      10.920602
+# quantity:
+#   type: Compilation
+#   average value:  9.900000E-01
+#   relative standard deviation [%]:       1.010100
+# datablock:
+#   columns: 10
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      RIPL-3                  Compilation          2004        1.000000E+00   3.000000E-01                      1.020408                  2.530000E-08
+      Mughabghab-2018         Compilation          2018        9.800000E-01   5.000000E-02                      1.000000                  2.530000E-08
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  1.130000E+00
+#   relative standard deviation [%]:      11.504425
+# datablock:
+#   columns: 10
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      B.H.Ketelle             EXFOR                1956        1.000000E+00   0.000000E+00   12063-002-0        1.020408   SPA            2.530000E-08
+      M.Sehgal                EXFOR                1962        1.260000E+00   2.000000E-01   11994-008-0        1.285714   MXW            2.530000E-08

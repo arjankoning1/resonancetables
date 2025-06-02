@@ -1,0 +1,51 @@
+# header:
+#   title: Ne021(n,a) thermal cross section
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 10
+#   A: 21
+#   nuclide: Ne021
+# reaction:
+#   type: (n,a)
+# observables:
+#   selected value [b]:  1.800000E-04
+#   selected value uncertainty [b]:  7.000000E-05
+#   selected value source: Mughabghab-2018
+#   number of values: 7
+#   average value [b]:  1.414296E+01
+#   relative standard deviation [%]:     236.332428
+# quantity:
+#   type: Compilation
+#   average value:  5.001200E-01
+#   relative standard deviation [%]:     141.370453
+# datablock:
+#   columns: 10
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Mughabghab-2006         Compilation          2006        1.800000E-04   7.000000E-05                      1.000000                  2.530000E-08
+      Sukhoruchkin            Compilation          2015        1.500000E+00   0.000000E+00                   8333.333008                  2.530000E-08
+      Mughabghab-2018         Compilation          2018        1.800000E-04   7.000000E-05                      1.000000                  2.530000E-08
+# quantity:
+#   type: EXFOR
+#   average value:  9.600000E+01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 10
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      A.I.Abramov             EXFOR                1962        9.600000E+01   3.300000E+01   40794-002-0   533333.312500                  2.530000E-08
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  5.001200E-01
+#   relative standard deviation [%]:     141.370453
+# datablock:
+#   columns: 10
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      E.F.Bennett             EXFOR                1968        1.500000E+00   0.000000E+00   11366-002-0     8333.333008   MXW            2.530000E-08
+      Yu.M.Gledenov           EXFOR                1997        1.800000E-04   7.000000E-05   41337-004-0        1.000000   MXW            2.530000E-08
+      Yu.M.Gledenov           EXFOR                1997        1.800000E-04   9.000000E-05   41309-004-0        1.000000   MXW            2.530000E-08

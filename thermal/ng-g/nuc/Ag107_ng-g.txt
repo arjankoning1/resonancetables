@@ -1,0 +1,37 @@
+# header:
+#   title: Ag107(n,g)-g thermal cross section
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 47
+#   A: 107
+#   nuclide: Ag107
+# reaction:
+#   type: (n,g)-g
+# observables:
+#   selected value [b]:  3.500000E+01
+#   selected value uncertainty [b]:  0.000000E+00
+#   selected value source: RIPL-3
+#   number of values: 2
+#   average value [b]:  3.405000E+01
+#   relative standard deviation [%]:       2.790017
+# quantity:
+#   type: Compilation
+#   average value:  3.500000E+01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 10
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      RIPL-3                  Compilation          2004        3.500000E+01   0.000000E+00                      1.000000                  2.530000E-08
+# quantity:
+#   type: EXFOR
+#   average value:  3.310000E+01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 10
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      F.De Corte              EXFOR                1988        3.310000E+01   1.655000E+00   23488-044-0        0.945714                  2.530000E-08

@@ -1,0 +1,52 @@
+# header:
+#   title: Zn000(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 30
+#   A: 0
+#   nuclide: Zn000
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  1.067000E+00
+#   selected value uncertainty [b]:  1.600000E-02
+#   selected value source: Firestone
+#   number of values: 8
+#   average value [b]:  1.047750E+00
+#   relative standard deviation [%]:       6.033821
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  1.067000E+00
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 10
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Firestone               Compilation          2022        1.067000E+00   1.600000E-02                      1.000000   MXW            2.530000E-08
+# quantity:
+#   type: EXFOR
+#   average value:  1.101667E+00
+#   relative standard deviation [%]:       0.771409
+# datablock:
+#   columns: 10
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      R.B.Tattersall          EXFOR                1960        1.090000E+00   2.000000E-02   20638-017-0        1.021556                  2.530000E-08
+      F.Kropff                EXFOR                1981        1.105000E+00   2.000000E-02   30547-003-0        1.035614                  2.530000E-08
+      L.Koester               EXFOR                1985        1.110000E+00   2.000000E-02   21980-007-0        1.040300                  2.530000E-08
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  1.002500E+00
+#   relative standard deviation [%]:       6.000604
+# datablock:
+#   columns: 10
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      J.Coltman               EXFOR                1946        9.200000E-01   6.000000E-02   12616-014-0        0.862231   MXW            2.530000E-08
+      S.P.Harris              EXFOR                1950        1.090000E+00   5.450000E-02   11528-016-0        1.021556   SPA            2.530000E-08
+      H.Pomerance             EXFOR                1951        1.000000E+00   5.000000E-02   11047-024-0        0.937207   MXW            2.530000E-08
+      J.Bouzyk                EXFOR                1961        1.000000E+00   0.000000E+00   30412-006-0        0.937207   MXW            2.530000E-08

@@ -1,0 +1,38 @@
+# header:
+#   title: Hf176(n,tot) thermal cross section
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 72
+#   A: 176
+#   nuclide: Hf176
+# reaction:
+#   type: (n,tot)
+# observables:
+#   selected value [b]:  1.900000E+01
+#   selected value uncertainty [b]:  0.000000E+00
+#   selected value source: V.P.Vertebny
+#   number of values: 3
+#   average value [b]:  1.084000E+02
+#   relative standard deviation [%]:     105.612549
+# quantity:
+#   type: EXFOR
+#   average value:  2.760000E+01
+#   relative standard deviation [%]:      31.159422
+# datablock:
+#   columns: 10
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      C.A.Conrad              EXFOR                1969        3.620000E+01   9.400000E+00   12085-002-0        1.905263                  2.530000E-08
+      V.P.Vertebny            EXFOR                1975        1.900000E+01   0.000000E+00   40279-013-0        1.000000                  2.530000E-08
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  2.700000E+02
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 10
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      K.Okamoto               EXFOR                1971        2.700000E+02   2.830000E+02   20318-003-0       14.210526   MXW            2.530000E-08

@@ -1,0 +1,74 @@
+# header:
+#   title: Ge074(n,g)-m thermal cross section
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 32
+#   A: 74
+#   nuclide: Ge074
+# reaction:
+#   type: (n,g)-m
+# observables:
+#   selected value [b]:  1.400000E-01
+#   selected value uncertainty [b]:  3.000000E-02
+#   selected value source: RIPL-3
+#   number of values: 30
+#   average value [b]:  2.826300E-01
+#   relative standard deviation [%]:      65.390938
+# quantity:
+#   type: Compilation
+#   average value:  1.400000E-01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 10
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      RIPL-3                  Compilation          2004        1.400000E-01   3.000000E-02                      1.000000                  2.530000E-08
+# quantity:
+#   type: EXFOR
+#   average value:  2.530222E-01
+#   relative standard deviation [%]:      68.469330
+# datablock:
+#   columns: 10
+#   entries: 18
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      G.Meierhofer            EXFOR                2010        4.800000E-01   5.000000E-02   23107-003-0        3.428571                  2.530000E-08
+      G.Meierhofer            EXFOR                2010        4.980000E-01   5.600000E-02   23107-003-0        3.557143                  2.530000E-08
+      G.Meierhofer            EXFOR                2010        4.920000E-01   5.100000E-02   23107-003-0        3.514286                  2.530000E-08
+      G.Meierhofer            EXFOR                2010        4.940000E-01   5.100000E-02   23107-003-0        3.528571                  2.530000E-08
+      G.Meierhofer            EXFOR                2010        5.160000E-01   5.700000E-02   23107-003-0        3.685714                  2.530000E-08
+      G.Meierhofer            EXFOR                2010        5.070000E-01   5.200000E-02   23107-003-0        3.621429                  2.530000E-08
+      G.Meierhofer            EXFOR                2010        1.287000E-01   7.500000E-03   23107-002-0        0.919286                  2.530000E-08
+      G.Meierhofer            EXFOR                2010        1.300000E-01   7.500000E-03   23107-002-0        0.928571                  2.530000E-08
+      G.Meierhofer            EXFOR                2010        1.302000E-01   7.500000E-03   23107-002-0        0.930000                  2.530000E-08
+      G.Meierhofer            EXFOR                2010        1.251000E-01   6.900000E-03   23107-002-0        0.893571                  2.530000E-08
+      G.Meierhofer            EXFOR                2010        1.320000E-01   7.700000E-03   23107-002-0        0.942857                  2.530000E-08
+      G.Meierhofer            EXFOR                2010        1.342000E-01   7.800000E-03   23107-002-0        0.958571                  2.530000E-08
+      G.Meierhofer            EXFOR                2010        1.310000E-01   7.600000E-03   23107-002-0        0.935714                  2.530000E-08
+      G.Meierhofer            EXFOR                2010        1.320000E-01   7.700000E-03   23107-002-0        0.942857                  2.530000E-08
+      G.Meierhofer            EXFOR                2010        1.294000E-01   7.200000E-03   23107-002-0        0.924286                  2.530000E-08
+      G.Meierhofer            EXFOR                2010        1.298000E-01   8.200000E-03   23107-002-0        0.927143                  2.530000E-08
+      G.Meierhofer            EXFOR                2010        1.322000E-01   9.700000E-03   23107-002-0        0.944286                  2.530000E-08
+      G.Meierhofer            EXFOR                2010        1.328000E-01   7.300000E-03   23107-002-0        0.948571                  2.530000E-08
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  3.440455E-01
+#   relative standard deviation [%]:      55.898727
+# datablock:
+#   columns: 10
+#   entries: 11
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      L.Seren                 EXFOR                1947        3.800000E-01   7.600000E-02   11447-037-0        2.714286   SPA            2.530000E-08
+      H.Pomerance             EXFOR                1952        6.000000E-01   6.000000E-02   11507-037-0        4.285715   MXW            2.530000E-08
+      W.A.Brooksbank          EXFOR                1955        5.300000E-01   1.000000E-01   11426-007-0        3.785714   MXW            2.530000E-08
+      E.Der Mateosian         EXFOR                1957        6.400000E-02   8.000000E-03   11823-002-0        0.457143   MXW            2.530000E-08
+      W.S.Lyon                EXFOR                1960        5.500000E-01   5.500000E-02   11625-010-0        3.928571   SPA            2.530000E-08
+      H.Weigmann              EXFOR                1962        2.000000E-01   2.000000E-02   21342-004-0        1.428571   MXW            2.530000E-08
+      K.F.Alexander           EXFOR                1964        5.100000E-01   7.000000E-02   31753-002-0        3.642857   MXW            2.530000E-08
+      K.F.Alexander           EXFOR                1964        1.800000E-01   4.000000E-02   31753-003-0        1.285714   MXW            2.530000E-08
+      W.Mannhart              EXFOR                1968        1.430000E-01   1.600000E-02   22521-006-0        1.021429   MXW            2.530000E-08
+      G.Meierhofer            EXFOR                2010        4.970000E-01   5.200000E-02   23107-006-0        3.550000   AV             2.530000E-08
+      G.Meierhofer            EXFOR                2010        1.305000E-01   5.600000E-03   23107-005-0        0.932143   AV             2.530000E-08

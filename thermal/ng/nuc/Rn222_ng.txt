@@ -1,0 +1,59 @@
+# header:
+#   title: Rn222(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 86
+#   A: 222
+#   nuclide: Rn222
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  7.200000E-01
+#   selected value uncertainty [b]:  7.000000E-05
+#   selected value source: Mughabghab-2018
+#   number of values: 6
+#   average value [b]:  7.144135E-01
+#   relative standard deviation [%]:       1.975594
+# quantity:
+#   type: Compilation
+#   average value:  7.300000E-01
+#   relative standard deviation [%]:       1.369862
+# datablock:
+#   columns: 10
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      RIPL-3                  Compilation          2004        7.400000E-01   5.000000E-02                      1.027778                  2.530000E-08
+      Mughabghab-2018         Compilation          2018        7.200000E-01   7.000000E-05                      1.000000                  2.530000E-08
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  7.200000E-01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 10
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Mughabghab-2006         Compilation          2006        7.200000E-01   7.000000E-02                      1.000000   MXW            2.530000E-08
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  7.000000E-01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 10
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      A.P.Baerg               EXFOR                1953        7.000000E-01   0.000000E+00   12238-002-0        0.972222   SPA            2.530000E-08
+# quantity:
+#   type: Nuclear data library
+#   average value:  7.032405E-01
+#   relative standard deviation [%]:       0.457523
+# datablock:
+#   columns: 10
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      jendl5.0                NDL                  2021        7.000230E-01   0.000000E+00                      0.972254                  2.530000E-08
+      tendl.2023              NDL                  2023        7.064580E-01   0.000000E+00                      0.981192                  2.530000E-08

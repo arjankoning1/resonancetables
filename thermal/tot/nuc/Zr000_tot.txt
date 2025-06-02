@@ -1,0 +1,32 @@
+# header:
+#   title: Zr000(n,tot) thermal cross section
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 40
+#   A: 0
+#   nuclide: Zr000
+# reaction:
+#   type: (n,tot)
+# observables:
+#   selected value [b]:  1.040600E+01
+#   selected value uncertainty [b]:  1.700800E-01
+#   selected value source: J.A.Harvey
+#   number of values: 6
+#   average value [b]:  9.282184E+00
+#   relative standard deviation [%]:      15.135947
+# quantity:
+#   type: EXFOR
+#   average value:  9.282184E+00
+#   relative standard deviation [%]:      15.135947
+# datablock:
+#   columns: 10
+#   entries: 6
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      E.G.Joki                EXFOR                1961        6.202000E+00   0.000000E+00   11635-006-0        0.596002                  2.524000E-08
+      J.A.Harvey              EXFOR                1998        9.485100E+00   1.627500E-01   14225-003-0        0.911503                  2.537100E-08
+      J.A.Harvey              EXFOR                1998        9.741800E+00   1.624800E-01   14225-003-0        0.936171                  2.533200E-08
+      J.A.Harvey              EXFOR                1998        9.888300E+00   1.666300E-01   14225-003-0        0.950250                  2.529400E-08
+      J.A.Harvey              EXFOR                1998        9.969900E+00   1.675300E-01   14225-003-0        0.958091                  2.525500E-08
+      J.A.Harvey              EXFOR                1998        1.040600E+01   1.700800E-01   14225-003-0        1.000000                  2.521700E-08

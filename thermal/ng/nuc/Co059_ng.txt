@@ -1,0 +1,83 @@
+# header:
+#   title: Co059(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 27
+#   A: 59
+#   nuclide: Co059
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  3.792000E+01
+#   selected value uncertainty [b]:  1.200000E-01
+#   selected value source: Kayzero
+#   number of values: 30
+#   average value [b]:  3.708691E+01
+#   relative standard deviation [%]:       2.847606
+# quantity:
+#   type: Compilation
+#   average value:  3.733200E+01
+#   relative standard deviation [%]:       0.787799
+# datablock:
+#   columns: 10
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      RIPL-3                  Compilation          2004        3.720000E+01   6.000000E-02                      0.981013                  2.530000E-08
+      Mughabghab-2006         Compilation          2006        3.718000E+01   6.000000E-02                      0.980485                  2.530000E-08
+      Sukhoruchkin            Compilation          2015        3.718000E+01   6.000000E-02                      0.980485                  2.530000E-08
+      Kayzero                 Compilation          2018        3.792000E+01   1.200000E-01                      1.000000                  2.530000E-08
+      Mughabghab-2018         Compilation          2018        3.718000E+01   6.000000E-02                      0.980485                  2.530000E-08
+# quantity:
+#   type: EXFOR
+#   average value:  3.751750E+01
+#   relative standard deviation [%]:       1.722334
+# datablock:
+#   columns: 10
+#   entries: 8
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      R.B.Tattersall          EXFOR                1960        3.820000E+01   7.000000E-01   20638-012-0        1.007384                  2.530000E-08
+      Al.Stefanescu           EXFOR                1961        3.840000E+01   9.900000E-01   30073-006-0        1.012658                  2.530000E-08
+      J.W.Meadows             EXFOR                1961        3.630000E+01   6.000000E-01   11028-010-0        0.957278                  2.530000E-08
+      J.C.Carre               EXFOR                1966        3.800000E+01   3.000000E-01   20658-008-0        1.002110                  2.530000E-08
+      M.G.Silk                EXFOR                1970        3.724000E+01   1.100000E-01   21472-002-0        0.982068                  2.530000E-08
+      J.P.Deworm              EXFOR                1972        3.770000E+01   4.000000E-01   20182-002-0        0.994198                  2.530000E-08
+      F.Farina Arbocco        EXFOR                2013        3.714000E+01   0.000000E+00   23266-045-0        0.979430                  2.530000E-08
+      F.Farina Arbocco        EXFOR                2013        3.716000E+01   0.000000E+00   23266-045-0        0.979958                  2.530000E-08
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  3.669500E+01
+#   relative standard deviation [%]:       3.994972
+# datablock:
+#   columns: 10
+#   entries: 12
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      S.P.Harris              EXFOR                1950        3.570000E+01   0.000000E+00   11528-013-0        0.941456   SPA            2.530000E-08
+      L.Yaffe                 EXFOR                1951        3.420000E+01   1.400000E+00   11743-002-0        0.901899   MXW            2.530000E-08
+      H.Pomerance             EXFOR                1951        3.420000E+01   1.710000E+00   11047-021-0        0.901899   MXW            2.530000E-08
+      J.Ailloud               EXFOR                1952        3.540000E+01   1.000000E+00   21415-003-0        0.933544   MXW            2.530000E-08
+      G.Wolf                  EXFOR                1960        3.800000E+01   5.000000E-01   20651-005-0        1.002110   MXW            2.530000E-08
+      J.R.Berreth             EXFOR                1962        3.910000E+01   0.000000E+00   12635-003-0        1.031118   MXW            2.530000E-08
+      R.Vaninbroukx           EXFOR                1966        3.740000E+01   3.000000E-01   21255-002-0        0.986287   MXW            2.530000E-08
+      J.I.Kim                 EXFOR                1968        3.660000E+01   5.000000E-01   20656-002-0        0.965190   MXW            2.530000E-08
+      J.S.Merritt             EXFOR                1968        3.714000E+01   2.700000E-01   11738-003-0        0.979430   MXW            2.530000E-08
+      R.P.Schuman             EXFOR                1969        3.800000E+01   2.000000E+00   11687-005-0        1.002110   MXW            2.530000E-08
+      E.M.Gryntakis           EXFOR                1976        3.745000E+01   4.500000E-01   20625-011-0        0.987606   MXW            2.530000E-08
+      F.Farina Arbocco        EXFOR                2013        3.715000E+01   2.000000E-01   23266-044-0        0.979694   AV             2.530000E-08
+# quantity:
+#   type: Nuclear data library
+#   average value:  3.709346E+01
+#   relative standard deviation [%]:       0.628397
+# datablock:
+#   columns: 10
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      cendl3.2                NDL                  2019        3.663660E+01   0.000000E+00                      0.966155                  2.530000E-08
+      jendl5.0                NDL                  2021        3.729680E+01   0.000000E+00                      0.983565                  2.530000E-08
+      tendl.2023              NDL                  2023        3.718870E+01   0.000000E+00                      0.980715                  2.530000E-08
+      endfb8.1                NDL                  2024        3.717260E+01   0.000000E+00                      0.980290                  2.530000E-08
+      jeff4.0                 NDL                  2025        3.717260E+01   0.000000E+00                      0.980290                  2.530000E-08

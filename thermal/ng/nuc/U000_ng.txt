@@ -1,0 +1,48 @@
+# header:
+#   title: U000(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 92
+#   A: 0
+#   nuclide: U000
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  7.673000E+00
+#   selected value uncertainty [b]:  2.100000E-02
+#   selected value source: Firestone
+#   number of values: 4
+#   average value [b]:  6.643250E+00
+#   relative standard deviation [%]:      23.365490
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  7.673000E+00
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 10
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Firestone               Compilation          2022        7.673000E+00   2.100000E-02                      1.000000   MXW            2.530000E-08
+# quantity:
+#   type: EXFOR
+#   average value:  7.830000E+00
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 10
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Al.Stefanescu           EXFOR                1961        7.830000E+00   4.200000E-01   30073-009-0        1.020461                  2.530000E-08
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  5.535000E+00
+#   relative standard deviation [%]:      27.732615
+# datablock:
+#   columns: 10
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      K.Hanatani              EXFOR                1945        4.000000E+00   2.100000E+00   23397-003-0        0.521308   SPA            2.530000E-08
+      V.G.Small               EXFOR                1955        7.070000E+00   1.200000E-01   21182-002-0        0.921413   MXW            2.530000E-08

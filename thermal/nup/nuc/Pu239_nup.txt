@@ -1,0 +1,37 @@
+# header:
+#   title: Pu239(n,nuprompt) thermal neutron multiplicity
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 94
+#   A: 239
+#   nuclide: Pu239
+# reaction:
+#   type: (n,nuprompt)
+# observables:
+#   selected value]:  3.200000E+00
+#   selected value uncertainty]:  1.000000E-01
+#   selected value source: Nishio
+#   number of values: 11
+#   average value:  2.914309E+00
+#   relative standard deviation [%]:       3.492780
+# quantity:
+#   type: EXFOR
+#   average value:  2.914309E+00
+#   relative standard deviation [%]:       3.492780
+# datablock:
+#   columns: 10
+#   entries: 11
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             []             []             []             []             []            [MeV]
+      Kalashnikova            EXFOR                1955        3.000000E+00   0.000000E+00   40757002           0.937500                  2.530000E-08
+      Sanders                 EXFOR                1956        2.860000E+00   1.800000E-01   21456007           0.893750                  2.530000E-08
+      Diven                   EXFOR                1961        2.814000E+00   4.600000E-02   142970091          0.879375                  2.530000E-08
+      Apalin                  EXFOR                1963        2.890000E+00   0.000000E+00   41674004           0.903125                  2.530000E-08
+      Hopkins                 EXFOR                1963        2.831000E+00   2.800000E-02   12326005           0.884688                  2.530000E-08
+      Apalin                  EXFOR                1965        2.890000E+00   0.000000E+00   41397008           0.903125                  2.530000E-08
+      Mather                  EXFOR                1965        2.931000E+00   3.900000E-02   21135008           0.915937                  2.530000E-08
+      Nesterov                EXFOR                1970        2.872000E+00   2.500000E-02   40033007           0.897500                  2.530000E-08
+      Nefedov                 EXFOR                1983        2.890000E+00   0.000000E+00   408710021          0.903125                  2.530000E-08
+      Boldeman                EXFOR                1985        2.879400E+00   0.000000E+00   307720042          0.899813                  2.530000E-08
+      Nishio                  EXFOR                1995        3.200000E+00   1.000000E-01   23012009           1.000000                  2.530000E-08

@@ -1,0 +1,63 @@
+# header:
+#   title: K039(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 19
+#   A: 39
+#   nuclide: K039
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  2.100000E+00
+#   selected value uncertainty [b]:  2.000000E-01
+#   selected value source: Mughabghab-2018
+#   number of values: 10
+#   average value [b]:  2.015376E+00
+#   relative standard deviation [%]:      10.798585
+# quantity:
+#   type: Compilation
+#   average value:  2.100000E+00
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 10
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      RIPL-3                  Compilation          2004        2.100000E+00   2.000000E-01                      1.000000                  2.530000E-08
+      Mughabghab-2018         Compilation          2018        2.100000E+00   2.000000E-01                      1.000000                  2.530000E-08
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  2.115000E+00
+#   relative standard deviation [%]:       0.709225
+# datablock:
+#   columns: 10
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Mughabghab-2006         Compilation          2006        2.100000E+00   2.000000E-01                      1.000000   MXW            2.530000E-08
+      Sukhoruchkin            Compilation          2015        2.130000E+00   2.000000E-01                      1.014286   MXW            2.530000E-08
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  1.635000E+00
+#   relative standard deviation [%]:      14.373090
+# datablock:
+#   columns: 10
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      H.Pomerance             EXFOR                1952        1.870000E+00   1.496000E-01   11507-008-0        0.890476   MXW            2.530000E-08
+      J.H.Gillette            EXFOR                1966        1.400000E+00   0.000000E+00   11603-002-0        0.666667   MXW            2.530000E-08
+# quantity:
+#   type: Nuclear data library
+#   average value:  2.113440E+00
+#   relative standard deviation [%]:       0.637820
+# datablock:
+#   columns: 10
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      jendl5.0                NDL                  2021        2.126920E+00   0.000000E+00                      1.012819                  2.530000E-08
+      tendl.2023              NDL                  2023        2.099960E+00   0.000000E+00                      0.999981                  2.530000E-08
+      endfb8.1                NDL                  2024        2.126920E+00   0.000000E+00                      1.012819                  2.530000E-08
+      jeff4.0                 NDL                  2025        2.099960E+00   0.000000E+00                      0.999981                  2.530000E-08

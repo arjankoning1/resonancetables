@@ -1,0 +1,63 @@
+# header:
+#   title: Sn117(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 50
+#   A: 117
+#   nuclide: Sn117
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  1.070000E+00
+#   selected value uncertainty [b]:  5.000000E-02
+#   selected value source: Mughabghab-2018
+#   number of values: 10
+#   average value [b]:  1.357304E+00
+#   relative standard deviation [%]:      38.795574
+# quantity:
+#   type: Compilation
+#   average value:  1.085000E+00
+#   relative standard deviation [%]:       1.382487
+# datablock:
+#   columns: 10
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      RIPL-3                  Compilation          2004        1.100000E+00   1.000000E-01                      1.028037                  2.530000E-08
+      Mughabghab-2018         Compilation          2018        1.070000E+00   5.000000E-02                      1.000000                  2.530000E-08
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  1.070000E+00
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 10
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Mughabghab-2006         Compilation          2006        1.070000E+00   5.000000E-02                      1.000000   MXW            2.530000E-08
+      Sukhoruchkin            Compilation          2015        1.070000E+00   5.000000E-02                      1.000000   MXW            2.530000E-08
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  2.600000E+00
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 10
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      L.V.Groshev             EXFOR                1960        2.600000E+00   1.000000E+00   41669-005-0        2.429906   SPA            2.530000E-08
+# quantity:
+#   type: Nuclear data library
+#   average value:  1.332608E+00
+#   relative standard deviation [%]:      32.042019
+# datablock:
+#   columns: 10
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      cendl3.2                NDL                  2019        2.173380E+00   0.000000E+00                      2.031196                  2.530000E-08
+      jendl5.0                NDL                  2021        1.080080E+00   0.000000E+00                      1.009421                  2.530000E-08
+      tendl.2023              NDL                  2023        1.267190E+00   0.000000E+00                      1.184290                  2.530000E-08
+      endfb8.1                NDL                  2024        1.070620E+00   0.000000E+00                      1.000579                  2.530000E-08
+      jeff4.0                 NDL                  2025        1.071770E+00   0.000000E+00                      1.001654                  2.530000E-08

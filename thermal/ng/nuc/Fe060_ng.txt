@@ -1,0 +1,39 @@
+# header:
+#   title: Fe060(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 26
+#   A: 60
+#   nuclide: Fe060
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  2.260000E-01
+#   selected value uncertainty [b]:  4.900000E-02
+#   selected value source: Mughabghab-2018
+#   number of values: 4
+#   average value [b]:  2.257793E-01
+#   relative standard deviation [%]:       0.177570
+# quantity:
+#   type: Compilation
+#   average value:  2.260000E-01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 10
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Mughabghab-2018         Compilation          2018        2.260000E-01   4.900000E-02                      1.000000                  2.530000E-08
+# quantity:
+#   type: Nuclear data library
+#   average value:  2.257057E-01
+#   relative standard deviation [%]:       0.194467
+# datablock:
+#   columns: 10
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      jendl5.0                NDL                  2021        2.260080E-01   0.000000E+00                      1.000035                  2.530000E-08
+      tendl.2023              NDL                  2023        2.260240E-01   0.000000E+00                      1.000106                  2.530000E-08
+      jeff4.0                 NDL                  2025        2.250850E-01   0.000000E+00                      0.995951                  2.530000E-08

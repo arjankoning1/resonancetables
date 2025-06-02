@@ -1,0 +1,52 @@
+# header:
+#   title: Cs133(n,g)-m thermal cross section
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 55
+#   A: 133
+#   nuclide: Cs133
+# reaction:
+#   type: (n,g)-m
+# observables:
+#   selected value [b]:  2.700000E+00
+#   selected value uncertainty [b]:  1.300000E-01
+#   selected value source: RIPL-3
+#   number of values: 8
+#   average value [b]:  2.372000E+00
+#   relative standard deviation [%]:      37.824741
+# quantity:
+#   type: Compilation
+#   average value:  2.700000E+00
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 10
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      RIPL-3                  Compilation          2004        2.700000E+00   1.300000E-01                      1.000000                  2.530000E-08
+# quantity:
+#   type: EXFOR
+#   average value:  2.755000E+00
+#   relative standard deviation [%]:       0.544464
+# datablock:
+#   columns: 10
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      F.De Corte              EXFOR                1988        2.740000E+00   8.220000E-02   23488-057-1        1.014815                  2.530000E-08
+      M.Karadag               EXFOR                2014        2.770000E+00   1.400000E-01   23202-006-0        1.025926                  2.530000E-08
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  2.153200E+00
+#   relative standard deviation [%]:      50.015812
+# datablock:
+#   columns: 10
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      L.Seren                 EXFOR                1947        1.600000E-02   3.200000E-03   11447-092-0        0.005926   SPA            2.530000E-08
+      A.Baerg                 EXFOR                1960        2.820000E+00   7.000000E-02   12006-002-0        1.044444   MXW            2.530000E-08
+      B.Keisch                EXFOR                1961        2.440000E+00   1.500000E-01   12018-002-0        0.903704   MXW            2.530000E-08
+      M.U.Rajput              EXFOR                1995        2.790000E+00   7.000000E-02   23388-005-0        1.033333   MXW            2.530000E-08
+      S.Nakamura              EXFOR                1999        2.700000E+00   1.300000E-01   22469-002-0        1.000000   MXW            2.530000E-08

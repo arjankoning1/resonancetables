@@ -1,0 +1,43 @@
+# header:
+#   title: Sr084(n,g)-g thermal cross section
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 38
+#   A: 84
+#   nuclide: Sr084
+# reaction:
+#   type: (n,g)-g
+# observables:
+#   selected value [b]:  1.990000E-01
+#   selected value uncertainty [b]:  1.000000E-01
+#   selected value source: Mughabghab-2018
+#   number of values: 8
+#   average value [b]:  2.108750E-01
+#   relative standard deviation [%]:      73.402390
+# quantity:
+#   type: Compilation
+#   average value:  1.995000E-01
+#   relative standard deviation [%]:       0.250627
+# datablock:
+#   columns: 10
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      RIPL-3                  Compilation          2004        2.000000E-01   7.000000E-02                      1.005025                  2.530000E-08
+      Mughabghab-2018         Compilation          2018        1.990000E-01   1.000000E-01                      1.000000                  2.530000E-08
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  2.146667E-01
+#   relative standard deviation [%]:      83.185623
+# datablock:
+#   columns: 10
+#   entries: 6
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      H.S.Hans                EXFOR                1960        6.000000E-01   2.000000E-01   31246-006-0        3.015075   MXW            2.530000E-08
+      A.Foglio Para           EXFOR                1967        2.400000E-01   0.000000E+00   21403-006-0        1.206030   MXW            2.530000E-08
+      K.S.Krane               EXFOR                2021        1.110000E-01   2.800000E-02   14714-008-4        0.557789   SPA            2.530000E-08
+      K.S.Krane               EXFOR                2021        1.170000E-01   5.200000E-02   14714-008-3        0.587940   SPA            2.530000E-08
+      K.S.Krane               EXFOR                2021        1.120000E-01   2.800000E-02   14714-008-2        0.562814   SPA            2.530000E-08
+      K.S.Krane               EXFOR                2021        1.080000E-01   3.300000E-02   14714-008-1        0.542714   SPA            2.530000E-08

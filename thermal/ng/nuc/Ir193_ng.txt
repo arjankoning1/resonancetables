@@ -1,0 +1,44 @@
+# header:
+#   title: Ir193(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 77
+#   A: 193
+#   nuclide: Ir193
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  1.186000E+02
+#   selected value uncertainty [b]:  1.200000E+00
+#   selected value source: Kayzero
+#   number of values: 9
+#   average value [b]:  1.004144E+02
+#   relative standard deviation [%]:      34.407146
+# quantity:
+#   type: Compilation
+#   average value:  1.135200E+02
+#   relative standard deviation [%]:       2.813596
+# datablock:
+#   columns: 10
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      RIPL-3                  Compilation          2004        1.160000E+02   5.000000E+00                      0.978078                  2.530000E-08
+      Mughabghab-2006         Compilation          2006        1.110000E+02   5.000000E+00                      0.935919                  2.530000E-08
+      Sukhoruchkin            Compilation          2015        1.110000E+02   5.000000E+00                      0.935919                  2.530000E-08
+      Kayzero                 Compilation          2018        1.186000E+02   1.200000E+00                      1.000000                  2.530000E-08
+      Mughabghab-2018         Compilation          2018        1.110000E+02   5.000000E+00                      0.935919                  2.530000E-08
+# quantity:
+#   type: Nuclear data library
+#   average value:  8.403243E+01
+#   relative standard deviation [%]:      55.689384
+# datablock:
+#   columns: 10
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      jendl5.0                NDL                  2021        2.977740E+00   0.000000E+00                      0.025107                  2.530000E-08
+      tendl.2023              NDL                  2023        1.108340E+02   0.000000E+00                      0.934519                  2.530000E-08
+      endfb8.1                NDL                  2024        1.111440E+02   0.000000E+00                      0.937133                  2.530000E-08
+      jeff4.0                 NDL                  2025        1.111740E+02   0.000000E+00                      0.937386                  2.530000E-08

@@ -1,0 +1,28 @@
+# header:
+#   title: Er162(n,tot) thermal cross section
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 68
+#   A: 162
+#   nuclide: Er162
+# reaction:
+#   type: (n,tot)
+# observables:
+#   selected value [b]:  1.840000E+02
+#   selected value uncertainty [b]:  0.000000E+00
+#   selected value source: V.P.Vertebnyi
+#   number of values: 2
+#   average value [b]:  1.920000E+02
+#   relative standard deviation [%]:       4.166667
+# quantity:
+#   type: EXFOR
+#   average value:  1.920000E+02
+#   relative standard deviation [%]:       4.166667
+# datablock:
+#   columns: 10
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      M.F.Vlasov              EXFOR                1966        2.000000E+02   2.500000E+01   40766-002-0        1.086957                  2.530000E-08
+      V.P.Vertebnyi           EXFOR                1968        1.840000E+02   0.000000E+00   40061-002-0        1.000000                  2.520000E-08

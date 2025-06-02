@@ -1,0 +1,37 @@
+# header:
+#   title: Ag000(n,tot) thermal cross section
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 47
+#   A: 0
+#   nuclide: Ag000
+# reaction:
+#   type: (n,tot)
+# observables:
+#   selected value [b]:  6.903200E+01
+#   selected value uncertainty [b]:  0.000000E+00
+#   selected value source: S.G.Shin
+#   number of values: 2
+#   average value [b]:  6.601600E+01
+#   relative standard deviation [%]:       4.568588
+# quantity:
+#   type: EXFOR
+#   average value:  6.903200E+01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 10
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      S.G.Shin                EXFOR                2018        6.903200E+01   0.000000E+00   30852-002-0        1.000000                  2.532000E-08
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  6.300000E+01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 10
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      M.Goldhaber             EXFOR                1937        6.300000E+01   0.000000E+00   22518-009-0        0.912620   MXW            2.530000E-08

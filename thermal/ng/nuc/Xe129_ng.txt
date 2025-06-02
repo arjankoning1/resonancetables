@@ -1,0 +1,74 @@
+# header:
+#   title: Xe129(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 54
+#   A: 129
+#   nuclide: Xe129
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  2.100000E+01
+#   selected value uncertainty [b]:  3.000000E+00
+#   selected value source: Mughabghab-2018
+#   number of values: 12
+#   average value [b]:  2.332354E+01
+#   relative standard deviation [%]:      28.093508
+# quantity:
+#   type: Compilation
+#   average value:  2.133333E+01
+#   relative standard deviation [%]:       2.209708
+# datablock:
+#   columns: 10
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      RIPL-3                  Compilation          2004        2.200000E+01   5.000000E+00                      1.047619                  2.530000E-08
+      Mughabghab-2006         Compilation          2006        2.100000E+01   3.000000E+00                      1.000000                  2.530000E-08
+      Mughabghab-2018         Compilation          2018        2.100000E+01   3.000000E+00                      1.000000                  2.530000E-08
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  2.100000E+01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 10
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Sukhoruchkin            Compilation          2015        2.100000E+01   3.000000E+00                      1.000000   MXW            2.530000E-08
+# quantity:
+#   type: EXFOR
+#   average value:  2.200000E+01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 10
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      M.Lucas                 EXFOR                1977        2.200000E+01   3.000000E+00   21563-012-0        1.047619                  2.530000E-08
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  3.300000E+01
+#   relative standard deviation [%]:      36.363636
+# datablock:
+#   columns: 10
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      J.Macnamara             EXFOR                1950        4.500000E+01   1.500000E+01   11858-006-0        2.142857   SPA            2.530000E-08
+      T.Eastwood              EXFOR                1963        2.100000E+01   0.000000E+00   11849-008-0        1.000000   SPA            2.530000E-08
+# quantity:
+#   type: Nuclear data library
+#   average value:  2.137650E+01
+#   relative standard deviation [%]:       2.371508
+# datablock:
+#   columns: 10
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      cendl3.2                NDL                  2019        2.198890E+01   0.000000E+00                      1.047090                  2.530000E-08
+      jendl5.0                NDL                  2021        2.200480E+01   0.000000E+00                      1.047848                  2.530000E-08
+      tendl.2023              NDL                  2023        2.094450E+01   0.000000E+00                      0.997357                  2.530000E-08
+      endfb8.1                NDL                  2024        2.100000E+01   0.000000E+00                      1.000000                  2.530000E-08
+      jeff4.0                 NDL                  2025        2.094430E+01   0.000000E+00                      0.997348                  2.530000E-08

@@ -1,0 +1,29 @@
+# header:
+#   title: Cm245(n,nuprompt) thermal neutron multiplicity
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 96
+#   A: 245
+#   nuclide: Cm245
+# reaction:
+#   type: (n,nuprompt)
+# observables:
+#   selected value]:  3.800000E+00
+#   selected value uncertainty]:  1.600000E-01
+#   selected value source: Zhuravlev
+#   number of values: 3
+#   average value:  3.820667E+00
+#   relative standard deviation [%]:       0.383083
+# quantity:
+#   type: EXFOR
+#   average value:  3.820667E+00
+#   relative standard deviation [%]:       0.383083
+# datablock:
+#   columns: 10
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             []             []             []             []             []            [MeV]
+      Kroshkin                EXFOR                1970        3.830000E+00   1.600000E-01   40064004           1.007895                  2.530000E-08
+      Jaffey                  EXFOR                1970        3.832000E+00   3.400000E-02   101250085          1.008421                  2.530000E-08
+      Zhuravlev               EXFOR                1973        3.800000E+00   1.600000E-01   40297011           1.000000                  2.530000E-08

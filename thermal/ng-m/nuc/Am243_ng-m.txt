@@ -1,0 +1,39 @@
+# header:
+#   title: Am243(n,g)-m thermal cross section
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 95
+#   A: 243
+#   nuclide: Am243
+# reaction:
+#   type: (n,g)-m
+# observables:
+#   selected value [b]:  7.500000E+01
+#   selected value uncertainty [b]:  0.000000E+00
+#   selected value source: RIPL-3
+#   number of values: 4
+#   average value [b]:  7.236000E+01
+#   relative standard deviation [%]:      18.427994
+# quantity:
+#   type: Compilation
+#   average value:  7.500000E+01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 10
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      RIPL-3                  Compilation          2004        7.500000E+01   0.000000E+00                      1.000000                  2.530000E-08
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  7.148000E+01
+#   relative standard deviation [%]:      21.399597
+# datablock:
+#   columns: 10
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      K.Street Jr             EXFOR                1950        5.000000E+01   0.000000E+00   12581-004-0        0.666667   MXW            2.530000E-08
+      C.H.Ice                 EXFOR                1966        8.000000E+01   0.000000E+00   12550-004-0        1.066667   SPA            2.530000E-08
+      Y.Hatsukawa             EXFOR                1998        8.444000E+01   0.000000E+00   22429-003-0        1.125867   MXW            2.530000E-08

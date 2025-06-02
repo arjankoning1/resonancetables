@@ -1,0 +1,69 @@
+# header:
+#   title: Hf177(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 72
+#   A: 177
+#   nuclide: Hf177
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  3.740000E+02
+#   selected value uncertainty [b]:  8.000000E+00
+#   selected value source: Mughabghab-2018
+#   number of values: 16
+#   average value [b]:  2.799291E+02
+#   relative standard deviation [%]:      57.616081
+# quantity:
+#   type: Compilation
+#   average value:  3.747525E+02
+#   relative standard deviation [%]:       0.115937
+# datablock:
+#   columns: 10
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      RIPL-3                  Compilation          2004        3.750100E+02   1.000000E+01                      1.002701                  2.530000E-08
+      Mughabghab-2006         Compilation          2006        3.750000E+02   1.000000E+01                      1.002674                  2.530000E-08
+      Sukhoruchkin            Compilation          2015        3.750000E+02   1.000000E+01                      1.002674                  2.530000E-08
+      Mughabghab-2018         Compilation          2018        3.740000E+02   8.000000E+00                      1.000000                  2.530000E-08
+# quantity:
+#   type: EXFOR
+#   average value:  2.468000E+02
+#   relative standard deviation [%]:      70.721848
+# datablock:
+#   columns: 10
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      M.C.Moxon               EXFOR                1974        3.664000E+02   8.200000E+00   22360-016-0        0.979679                  2.530000E-08
+      E.A.Pavlenko            EXFOR                1976        3.740000E+02   8.000000E+00   40464-006-0        1.000000                  2.520000E-08
+      S.A.Karamian            EXFOR                2006        2.600000E-06   0.000000E+00   41541-002-1        0.000000                  2.530000E-08
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  9.435000E+01
+#   relative standard deviation [%]:     171.737305
+# datablock:
+#   columns: 10
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      H.Pomerance             EXFOR                1952        3.750000E+02   3.000000E+01   11507-086-0        1.002674   MXW            2.530000E-08
+      K.F.Alexander           EXFOR                1962        1.400000E+00   6.000000E-01   31467-002-0        0.003743   MXW            2.530000E-08
+      A.Foglio Para           EXFOR                1967        1.000000E+00   1.000000E-01   21403-009-0        0.002674   MXW            2.530000E-08
+      R.G.Helmer              EXFOR                1973        2.000000E-07   1.000000E-07   10354-002-0        0.000000   MXW            2.530000E-08
+# quantity:
+#   type: Nuclear data library
+#   average value:  3.724112E+02
+#   relative standard deviation [%]:       0.253622
+# datablock:
+#   columns: 10
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      cendl3.2                NDL                  2019        3.735870E+02   0.000000E+00                      0.998896                  2.530000E-08
+      jendl5.0                NDL                  2021        3.718820E+02   0.000000E+00                      0.994337                  2.530000E-08
+      tendl.2023              NDL                  2023        3.734730E+02   0.000000E+00                      0.998591                  2.530000E-08
+      endfb8.1                NDL                  2024        3.718820E+02   0.000000E+00                      0.994337                  2.530000E-08
+      jeff4.0                 NDL                  2025        3.712320E+02   0.000000E+00                      0.992599                  2.530000E-08

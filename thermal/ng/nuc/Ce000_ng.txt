@@ -1,0 +1,38 @@
+# header:
+#   title: Ce000(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 58
+#   A: 0
+#   nuclide: Ce000
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  6.400000E-01
+#   selected value uncertainty [b]:  1.700000E-02
+#   selected value source: Firestone
+#   number of values: 3
+#   average value [b]:  6.966667E-01
+#   relative standard deviation [%]:      10.504545
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  6.400000E-01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 10
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Firestone               Compilation          2022        6.400000E-01   1.700000E-02                      1.000000   MXW            2.530000E-08
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  7.250000E-01
+#   relative standard deviation [%]:      10.344830
+# datablock:
+#   columns: 10
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      S.P.Harris              EXFOR                1950        6.500000E-01   0.000000E+00   11528-036-0        1.015625   SPA            2.530000E-08
+      H.Pomerance             EXFOR                1951        8.000000E-01   8.000000E-02   11047-064-0        1.250000   MXW            2.530000E-08

@@ -1,0 +1,51 @@
+# header:
+#   title: Ni000(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 28
+#   A: 0
+#   nuclide: Ni000
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  4.270000E+00
+#   selected value uncertainty [b]:  6.000000E-02
+#   selected value source: Firestone
+#   number of values: 7
+#   average value [b]:  4.634285E+00
+#   relative standard deviation [%]:       8.835334
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  4.270000E+00
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 10
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Firestone               Compilation          2022        4.270000E+00   6.000000E-02                      1.000000   MXW            2.530000E-08
+# quantity:
+#   type: EXFOR
+#   average value:  4.600000E+00
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 10
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      R.B.Tattersall          EXFOR                1960        4.600000E+00   1.000000E-01   20638-013-0        1.077283                  2.530000E-08
+      J.C.Carre               EXFOR                1966        4.600000E+00   1.000000E-01   20658-010-0        1.077283                  2.530000E-08
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  4.742500E+00
+#   relative standard deviation [%]:      10.498986
+# datablock:
+#   columns: 10
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      J.Coltman               EXFOR                1946        5.600000E+00   5.000000E-01   12616-012-0        1.311475   MXW            2.530000E-08
+      S.P.Harris              EXFOR                1950        4.370000E+00   0.000000E+00   11528-014-0        1.023419   SPA            2.530000E-08
+      H.Pomerance             EXFOR                1951        4.500000E+00   2.250000E-01   11047-022-0        1.053864   MXW            2.530000E-08
+      Yu.A.Prokhorov          EXFOR                1956        4.500000E+00   1.000000E-01   41648-008-0        1.053864   MXW            2.530000E-08

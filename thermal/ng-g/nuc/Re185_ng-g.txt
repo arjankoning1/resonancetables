@@ -1,0 +1,55 @@
+# header:
+#   title: Re185(n,g)-g thermal cross section
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 75
+#   A: 185
+#   nuclide: Re185
+# reaction:
+#   type: (n,g)-g
+# observables:
+#   selected value [b]:  1.100000E+02
+#   selected value uncertainty [b]:  0.000000E+00
+#   selected value source: RIPL-3
+#   number of values: 11
+#   average value [b]:  1.110364E+02
+#   relative standard deviation [%]:       9.270576
+# quantity:
+#   type: Compilation
+#   average value:  1.100000E+02
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 10
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      RIPL-3                  Compilation          2004        1.100000E+02   0.000000E+00                      1.000000                  2.530000E-08
+# quantity:
+#   type: EXFOR
+#   average value:  1.079600E+02
+#   relative standard deviation [%]:       5.858415
+# datablock:
+#   columns: 10
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      R.A.Karam               EXFOR                1963        9.650000E+01   1.000000E+01   12179-004-0        0.877273                  2.530000E-08
+      S.J.Friesenhahn         EXFOR                1968        1.140000E+02   3.000000E+00   12163-008-0        1.036364                  2.530000E-08
+      F.De Corte              EXFOR                1988        1.060000E+02   1.696000E+01   23488-085-0        0.963636                  2.530000E-08
+      F.Farina Arbocco        EXFOR                2013        1.124000E+02   0.000000E+00   23266-147-0        1.021818                  2.530000E-08
+      F.Farina Arbocco        EXFOR                2013        1.109000E+02   0.000000E+00   23266-147-0        1.008182                  2.530000E-08
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  1.143200E+02
+#   relative standard deviation [%]:      11.493720
+# datablock:
+#   columns: 10
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      L.Seren                 EXFOR                1947        1.010000E+02   2.020000E+01   11447-116-0        0.918182   MXW            2.530000E-08
+      H.Pomerance             EXFOR                1952        1.000000E+02   8.000000E+00   11507-095-0        0.909091   MXW            2.530000E-08
+      W.S.Lyon                EXFOR                1960        1.270000E+02   1.270000E+01   11625-033-0        1.154545   MXW            2.530000E-08
+      T.Hayakawa              EXFOR                2005        1.320000E+02   2.600000E+01   22777-006-0        1.200000   SPA            2.530000E-08
+      F.Farina Arbocco        EXFOR                2013        1.116000E+02   1.100000E+00   23266-146-0        1.014545   AV             2.530000E-08

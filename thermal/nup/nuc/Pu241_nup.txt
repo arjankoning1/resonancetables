@@ -1,0 +1,32 @@
+# header:
+#   title: Pu241(n,nuprompt) thermal neutron multiplicity
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 94
+#   A: 241
+#   nuclide: Pu241
+# reaction:
+#   type: (n,nuprompt)
+# observables:
+#   selected value]:  2.923700E+00
+#   selected value uncertainty]:  0.000000E+00
+#   selected value source: Boldeman
+#   number of values: 6
+#   average value:  2.954617E+00
+#   relative standard deviation [%]:       2.730088
+# quantity:
+#   type: EXFOR
+#   average value:  2.954617E+00
+#   relative standard deviation [%]:       2.730088
+# datablock:
+#   columns: 10
+#   entries: 6
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             []             []             []             []             []            [MeV]
+      Kalashnikova            EXFOR                1955        3.100000E+00   0.000000E+00   40757003           1.060300                  2.530000E-08
+      Sanders                 EXFOR                1956        3.020000E+00   2.100000E-01   21456008           1.032938                  2.530000E-08
+      Smith                   EXFOR                1961        2.880000E+00   1.800000E-01   12542002           0.985053                  2.530000E-08
+      Jaffey                  EXFOR                1970        2.874000E+00   1.500000E-02   101250025          0.983001                  2.530000E-08
+      Caitucoli               EXFOR                1981        2.930000E+00   0.000000E+00   21758004           1.002155                  2.530000E-08
+      Boldeman                EXFOR                1985        2.923700E+00   0.000000E+00   307720052          1.000000                  2.530000E-08

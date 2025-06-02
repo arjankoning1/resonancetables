@@ -1,0 +1,56 @@
+# header:
+#   title: Cd114(n,g)-g thermal cross section
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 48
+#   A: 114
+#   nuclide: Cd114
+# reaction:
+#   type: (n,g)-g
+# observables:
+#   selected value [b]:  2.940000E-01
+#   selected value uncertainty [b]:  1.600000E-02
+#   selected value source: Mughabghab-2018
+#   number of values: 12
+#   average value [b]:  9.409999E-01
+#   relative standard deviation [%]:     192.347031
+# quantity:
+#   type: Compilation
+#   average value:  2.970000E-01
+#   relative standard deviation [%]:       1.010103
+# datablock:
+#   columns: 10
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      RIPL-3                  Compilation          2004        3.000000E-01   2.000000E-02                      1.020408                  2.530000E-08
+      Mughabghab-2018         Compilation          2018        2.940000E-01   1.600000E-02                      1.000000                  2.530000E-08
+# quantity:
+#   type: EXFOR
+#   average value:  1.066444E+00
+#   relative standard deviation [%]:     193.477982
+# datablock:
+#   columns: 10
+#   entries: 9
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      S.Pearlstein            EXFOR                1966        3.000000E-01   1.500000E-02   11960-002-0        1.020408                  2.530000E-08
+      V.P.Vertebny            EXFOR                1979        6.900000E+00   7.000000E-01   40122-020-0       23.469389                  2.530000E-08
+      F.De Corte              EXFOR                1988        2.300000E-01   0.000000E+00   23488-046-0        0.782313                  2.530000E-08
+      S.Nakamura              EXFOR                2009        4.500000E-01   2.000000E-02   23090-006-0        1.530612                  2.530000E-08
+      S.Nakamura              EXFOR                2009        4.100000E-01   2.000000E-02   23090-003-2        1.394558                  2.530000E-08
+      K.Volev                 EXFOR                2013        3.050000E-01   0.000000E+00   23196-008-2        1.037415                  2.530000E-08
+      F.Farina Arbocco        EXFOR                2014        3.300000E-01   0.000000E+00   23260-096-0        1.122449                  2.530000E-08
+      F.Farina Arbocco        EXFOR                2014        3.390000E-01   0.000000E+00   23260-096-0        1.153061                  2.530000E-08
+      F.Farina Arbocco        EXFOR                2014        3.340000E-01   6.000000E-03   23260-095-0        1.136054                  2.530000E-08
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  1.100000E+00
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 10
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      L.Seren                 EXFOR                1947        1.100000E+00   2.200000E-01   11447-069-0        3.741497   SPA            2.530000E-08

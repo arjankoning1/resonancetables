@@ -1,0 +1,63 @@
+# header:
+#   title: Tl205(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 81
+#   A: 205
+#   nuclide: Tl205
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  1.040000E-01
+#   selected value uncertainty [b]:  1.700000E-02
+#   selected value source: Mughabghab-2018
+#   number of values: 10
+#   average value [b]:  1.825436E-01
+#   relative standard deviation [%]:     107.456940
+# quantity:
+#   type: Compilation
+#   average value:  1.070000E-01
+#   relative standard deviation [%]:       2.803737
+# datablock:
+#   columns: 10
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      RIPL-3                  Compilation          2004        1.100000E-01   2.000000E-02                      1.057692                  2.530000E-08
+      Mughabghab-2018         Compilation          2018        1.040000E-01   1.700000E-02                      1.000000                  2.530000E-08
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  1.037500E-01
+#   relative standard deviation [%]:       0.240964
+# datablock:
+#   columns: 10
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Mughabghab-2006         Compilation          2006        1.040000E-01   1.700000E-02                      1.000000   MXW            2.530000E-08
+      Sukhoruchkin            Compilation          2015        1.035000E-01   0.000000E+00                      0.995192   MXW            2.530000E-08
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  4.410000E-01
+#   relative standard deviation [%]:      74.603180
+# datablock:
+#   columns: 10
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      L.Seren                 EXFOR                1947        1.120000E-01   2.240000E-02   11447-129-0        1.076923   MXW            2.530000E-08
+      H.Pomerance             EXFOR                1952        7.700000E-01   7.700000E-02   11507-098-0        7.403846   MXW            2.530000E-08
+# quantity:
+#   type: Nuclear data library
+#   average value:  1.304840E-01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 10
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      jendl5.0                NDL                  2021        1.304840E-01   0.000000E+00                      1.254654                  2.530000E-08
+      tendl.2023              NDL                  2023        1.304840E-01   0.000000E+00                      1.254654                  2.530000E-08
+      endfb8.1                NDL                  2024        1.304840E-01   0.000000E+00                      1.254654                  2.530000E-08
+      jeff4.0                 NDL                  2025        1.304840E-01   0.000000E+00                      1.254654                  2.530000E-08

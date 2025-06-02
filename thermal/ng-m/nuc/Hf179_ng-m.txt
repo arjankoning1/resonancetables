@@ -1,0 +1,57 @@
+# header:
+#   title: Hf179(n,g)-m thermal cross section
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 72
+#   A: 179
+#   nuclide: Hf179
+# reaction:
+#   type: (n,g)-m
+# observables:
+#   selected value [b]:  4.450000E-01
+#   selected value uncertainty [b]:  3.000000E-03
+#   selected value source: Mughabghab-2018
+#   number of values: 13
+#   average value [b]:  4.261231E-01
+#   relative standard deviation [%]:       5.971117
+# quantity:
+#   type: Compilation
+#   average value:  4.375000E-01
+#   relative standard deviation [%]:       1.714284
+# datablock:
+#   columns: 10
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      RIPL-3                  Compilation          2004        4.300000E-01   3.000000E-03                      0.966292                  2.530000E-08
+      Mughabghab-2018         Compilation          2018        4.450000E-01   3.000000E-03                      1.000000                  2.530000E-08
+# quantity:
+#   type: EXFOR
+#   average value:  4.323600E-01
+#   relative standard deviation [%]:       1.481086
+# datablock:
+#   columns: 10
+#   entries: 10
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      W.Mannhart              EXFOR                1975        4.326000E-01   2.400000E-03   20610-005-0        0.972135                  2.530000E-08
+      F.De Corte              EXFOR                1988        4.450000E-01   5.340000E-03   23488-081-0        1.000000                  2.530000E-08
+      S.A.Karamian            EXFOR                2006        4.400000E-01   2.000000E-02   41541-004-1        0.988764                  2.530000E-08
+      Van Do Nguyen           EXFOR                2008        4.240000E-01   1.800000E-02   31602-002-0        0.952809                  2.530000E-08
+      F.Farina Arbocco        EXFOR                2014        4.240000E-01   0.000000E+00   23260-134-0        0.952809                  2.530000E-08
+      F.Farina Arbocco        EXFOR                2014        4.300000E-01   0.000000E+00   23260-134-0        0.966292                  2.530000E-08
+      F.Farina Arbocco        EXFOR                2014        4.280000E-01   0.000000E+00   23260-134-0        0.961798                  2.530000E-08
+      F.Farina Arbocco        EXFOR                2014        4.330000E-01   0.000000E+00   23260-134-0        0.973034                  2.530000E-08
+      F.Farina Arbocco        EXFOR                2014        4.370000E-01   0.000000E+00   23260-134-0        0.982023                  2.530000E-08
+      F.Farina Arbocco        EXFOR                2014        4.300000E-01   5.000000E-03   23260-133-0        0.966292                  2.530000E-08
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  3.410000E-01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 10
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      G.Scharff-Goldhaber     EXFOR                1967        3.410000E-01   3.000000E-02   12119-002-0        0.766292   MXW            2.530000E-08

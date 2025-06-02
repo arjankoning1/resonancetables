@@ -1,0 +1,60 @@
+# header:
+#   title: I126(n,g) thermal cross section
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 53
+#   A: 126
+#   nuclide: I126
+# reaction:
+#   type: (n,g)
+# observables:
+#   selected value [b]:  5.960000E+03
+#   selected value uncertainty [b]:  0.000000E+00
+#   selected value source: Mughabghab-2018
+#   number of values: 7
+#   average value [b]:  5.925567E+03
+#   relative standard deviation [%]:       1.340231
+# quantity:
+#   type: Compilation
+#   average value:  5.960000E+03
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 10
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      RIPL-3                  Compilation          2004        5.960000E+03   0.000000E+00                      1.000000                  2.530000E-08
+      Mughabghab-2018         Compilation          2018        5.960000E+03   0.000000E+00                      1.000000                  2.530000E-08
+# quantity:
+#   type: Compilation spectrum-averaged
+#   average value:  5.960000E+03
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 10
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Mughabghab-2006         Compilation          2006        5.960000E+03   0.000000E+00                      1.000000   MXW            2.530000E-08
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  5.960000E+03
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 10
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      M.F.Elgart              EXFOR                1971        5.960000E+03   4.500000E+02   10728-002-0        1.000000   MXW            2.530000E-08
+# quantity:
+#   type: Nuclear data library
+#   average value:  5.879657E+03
+#   relative standard deviation [%]:       1.786031
+# datablock:
+#   columns: 10
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      jendl5.0                NDL                  2021        5.960210E+03   0.000000E+00                      1.000035                  2.530000E-08
+      tendl.2023              NDL                  2023        5.731330E+03   0.000000E+00                      0.961633                  2.530000E-08
+      jeff4.0                 NDL                  2025        5.947430E+03   0.000000E+00                      0.997891                  2.530000E-08

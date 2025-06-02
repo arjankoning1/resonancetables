@@ -1,0 +1,39 @@
+# header:
+#   title: B000(n,a) thermal cross section
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 5
+#   A: 0
+#   nuclide: B000
+# reaction:
+#   type: (n,a)
+# observables:
+#   selected value [b]:  7.591000E+02
+#   selected value uncertainty [b]:  2.000000E+00
+#   selected value source: J.Als-Nielsen
+#   number of values: 4
+#   average value [b]:  7.629750E+02
+#   relative standard deviation [%]:       0.614920
+# quantity:
+#   type: EXFOR
+#   average value:  7.636333E+02
+#   relative standard deviation [%]:       0.688165
+# datablock:
+#   columns: 10
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      P.A.Egelstaff           EXFOR                1957        7.710000E+02   5.000000E+00   21196-002-0        1.015676                  2.530000E-08
+      A.Prosdocimi            EXFOR                1963        7.608000E+02   0.000000E+00   20192-005-0        1.002239                  2.530000E-08
+      J.Als-Nielsen           EXFOR                1964        7.591000E+02   2.000000E+00   20105-004-0        1.000000                  2.530000E-08
+# quantity:
+#   type: EXFOR spectrum-averaged
+#   average value:  7.610000E+02
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 10
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      C.H.Collie              EXFOR                1956        7.610000E+02   2.000000E+00   21739-002-0        1.002503   MXW            2.530000E-08

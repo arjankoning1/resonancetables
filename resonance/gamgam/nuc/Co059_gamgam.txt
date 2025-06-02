@@ -1,0 +1,39 @@
+# header:
+#   title: Co059 gamgam resonance data
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 27
+#   A: 59
+#   nuclide: Co059
+# reaction:
+#   type: gamgam
+# parameters:
+#   selected value [eV]:  5.400000E-01
+#   selected value uncertainty [eV]:  5.000000E-02
+#   selected value source: RIPL-3
+#   number of values: 4
+#   average value [b]:  5.398215E-01
+#   relative standard deviation [%]:       2.666750
+# quantity:
+#   type: Compilation
+#   average value:  5.466667E-01
+#   relative standard deviation [%]:       1.724649
+# datablock:
+#   columns: 8
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      RIPL-2                  Compilation          2000        5.600000E-01   1.000000E-01            96I       1.037037
+      RIPL-3                  Compilation          2009        5.400000E-01   5.000000E-02            07I       1.000000
+      Mughabghab-2018         Compilation          2018        5.400000E-01   4.000000E-02                      1.000000
+# quantity:
+#   type: Nuclear data library
+#   average value:  5.192860E-01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      TARES                   NDL                  2025        5.192860E-01   0.000000E+00                      0.961641

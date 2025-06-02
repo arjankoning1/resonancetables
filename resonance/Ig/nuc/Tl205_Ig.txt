@@ -1,0 +1,52 @@
+# header:
+#   title: Tl205 Ig resonance data
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 81
+#   A: 205
+#   nuclide: Tl205
+# reaction:
+#   type: Ig
+# parameters:
+#   selected value [eV]:  7.350000E-01
+#   selected value uncertainty [eV]:  0.000000E+00
+#   selected value source: Sukhoruchkin
+#   number of values: 8
+#   average value [b]:  7.018390E-01
+#   relative standard deviation [%]:      11.590389
+# quantity:
+#   type: Compilation
+#   average value:  6.975000E-01
+#   relative standard deviation [%]:       5.376343
+# datablock:
+#   columns: 8
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      JUKO                    Compilation          2000        6.600000E-01   1.000000E-01                      0.897959
+      Sukhoruchkin            Compilation          2015        7.350000E-01   0.000000E+00                      1.000000
+# quantity:
+#   type: EXFOR
+#   average value:  6.300000E-01
+#   relative standard deviation [%]:      20.634920
+# datablock:
+#   columns: 8
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      Harris                  EXFOR                1950        7.600000E-01   0.000000E+00       11343036       1.034014
+      Macklin                 EXFOR                1955        5.000000E-01   2.000000E-02       14388062       0.680272
+# quantity:
+#   type: Nuclear data library
+#   average value:  7.399280E-01
+#   relative standard deviation [%]:       0.860818
+# datablock:
+#   columns: 8
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        7.387260E-01   0.000000E+00                      1.005069
+      tendl.2023              NDL                  2023        7.501860E-01   0.000000E+00                      1.020661
+      endfb8.1                NDL                  2024        7.326980E-01   0.000000E+00                      0.996868
+      jeff4.0                 NDL                  2025        7.381020E-01   0.000000E+00                      1.004220

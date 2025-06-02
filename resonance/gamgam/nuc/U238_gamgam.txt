@@ -1,0 +1,57 @@
+# header:
+#   title: U238 gamgam resonance data
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction:
+#   type: gamgam
+# parameters:
+#   selected value [eV]:  2.360000E-02
+#   selected value uncertainty [eV]:  8.000000E-04
+#   selected value source: RIPL-3
+#   number of values: 13
+#   average value [b]:  2.306047E-02
+#   relative standard deviation [%]:       5.361444
+# quantity:
+#   type: Compilation
+#   average value:  2.336667E-02
+#   relative standard deviation [%]:       1.412197
+# datablock:
+#   columns: 8
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      RIPL-2                  Compilation          2000        2.360000E-02   8.000000E-04            97I       1.000000
+      RIPL-3                  Compilation          2009        2.360000E-02   8.000000E-04            04I       1.000000
+      Mughabghab-2018         Compilation          2018        2.290000E-02   4.000000E-04                      0.970339
+# quantity:
+#   type: EXFOR
+#   average value:  2.293556E-02
+#   relative standard deviation [%]:       6.348555
+# datablock:
+#   columns: 8
+#   entries: 9
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      Asghar                  EXFOR                1966        2.374000E-02   1.090000E-03       20972008       1.005932
+      Glass                   EXFOR                1968        1.910000E-02   1.523200E-03      124710051       0.809322
+      Rohr                    EXFOR                1970        2.464000E-02   8.500000E-04       20144003       1.044068
+      Rahn                    EXFOR                1972        2.290000E-02   5.000000E-04      102740102       0.970339
+      Rahn                    EXFOR                1972        2.290000E-02   5.000000E-04      102740102       0.970339
+      Byoun                   EXFOR                1973        2.300000E-02   0.000000E+00      105770393       0.974576
+      Byoun                   EXFOR                1973        2.300000E-02   0.000000E+00      105770393       0.974576
+      Poortmans               EXFOR                1981        2.354000E-02   1.100000E-04       20726008       0.997458
+      Poortmans               EXFOR                1981        2.360000E-02   5.119600E-04       20726003       1.000000
+# quantity:
+#   type: Nuclear data library
+#   average value:  2.326610E-02
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      TARES                   NDL                  2025        2.326610E-02   0.000000E+00                      0.985852

@@ -1,0 +1,38 @@
+# header:
+#   title: Cd113 gamgam1 resonance data
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 48
+#   A: 113
+#   nuclide: Cd113
+# reaction:
+#   type: gamgam1
+# parameters:
+#   selected value [eV]:  1.600000E-01
+#   selected value uncertainty [eV]:  2.000000E-02
+#   selected value source: RIPL-3
+#   number of values: 3
+#   average value [b]:  1.441807E-01
+#   relative standard deviation [%]:      15.516585
+# quantity:
+#   type: Compilation
+#   average value:  1.600000E-01
+#   relative standard deviation [%]:       0.000007
+# datablock:
+#   columns: 8
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      RIPL-3                  Compilation          2009        1.600000E-01   2.000000E-02            94F       1.000000
+      Mughabghab-2018         Compilation          2018        1.600000E-01   1.500000E-02                      1.000000
+# quantity:
+#   type: Nuclear data library
+#   average value:  1.125420E-01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      TARES                   NDL                  2025        1.125420E-01   0.000000E+00                      0.703387

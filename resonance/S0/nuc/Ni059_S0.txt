@@ -1,0 +1,38 @@
+# header:
+#   title: Ni059 S0 resonance data
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 28
+#   A: 59
+#   nuclide: Ni059
+# reaction:
+#   type: S0
+# parameters:
+#   selected value [*e-4]:  3.600000E+00
+#   selected value uncertainty [*e-4]:  1.100000E+00
+#   selected value source: RIPL-3
+#   number of values: 3
+#   average value [b]:  5.516883E+00
+#   relative standard deviation [%]:      41.684776
+# quantity:
+#   type: Compilation
+#   average value:  3.900000E+00
+#   relative standard deviation [%]:       7.692307
+# datablock:
+#   columns: 8
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []           [*e-4]         [*e-4]           []             []
+      RIPL-2                  Compilation          2000        4.200000E+00   1.100000E+00            96I       1.166667
+      RIPL-3                  Compilation          2009        3.600000E+00   1.100000E+00            96I       1.000000
+# quantity:
+#   type: Nuclear data library
+#   average value:  8.750649E+00
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []           [*e-4]         [*e-4]           []             []
+      TARES                   NDL                  2025        8.750649E+00   0.000000E+00                      2.430736

@@ -1,0 +1,37 @@
+# header:
+#   title: Ta182 S0 resonance data
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 73
+#   A: 182
+#   nuclide: Ta182
+# reaction:
+#   type: S0
+# parameters:
+#   selected value [*e-4]:  1.000000E+00
+#   selected value uncertainty [*e-4]:  5.000000E-01
+#   selected value source: RIPL-2
+#   number of values: 2
+#   average value [b]:  7.675570E-01
+#   relative standard deviation [%]:      30.283484
+# quantity:
+#   type: Compilation
+#   average value:  1.000000E+00
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []           [*e-4]         [*e-4]           []             []
+      RIPL-2                  Compilation          2000        1.000000E+00   5.000000E-01            97I       1.000000
+# quantity:
+#   type: Nuclear data library
+#   average value:  5.351140E-01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []           [*e-4]         [*e-4]           []             []
+      TARES                   NDL                  2025        5.351140E-01   0.000000E+00                      0.535114

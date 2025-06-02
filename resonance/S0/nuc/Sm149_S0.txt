@@ -1,0 +1,39 @@
+# header:
+#   title: Sm149 S0 resonance data
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 62
+#   A: 149
+#   nuclide: Sm149
+# reaction:
+#   type: S0
+# parameters:
+#   selected value [*e-4]:  5.900000E+00
+#   selected value uncertainty [*e-4]:  5.000000E-01
+#   selected value source: RIPL-3
+#   number of values: 4
+#   average value [b]:  5.511568E+00
+#   relative standard deviation [%]:      11.978493
+# quantity:
+#   type: Compilation
+#   average value:  5.583333E+00
+#   relative standard deviation [%]:      13.409598
+# datablock:
+#   columns: 8
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []           [*e-4]         [*e-4]           []             []
+      RIPL-2                  Compilation          2000        6.300000E+00   1.200000E+00            97I       1.067797
+      RIPL-3                  Compilation          2009        5.900000E+00   5.000000E-01            04I       1.000000
+      Mughabghab-2018         Compilation          2018        4.550000E+00   3.600000E-01                      0.771186
+# quantity:
+#   type: Nuclear data library
+#   average value:  5.296270E+00
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []           [*e-4]         [*e-4]           []             []
+      TARES                   NDL                  2025        5.296270E+00   0.000000E+00                      0.897673

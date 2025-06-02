@@ -1,0 +1,39 @@
+# header:
+#   title: Cd106 gamgam1 resonance data
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 48
+#   A: 106
+#   nuclide: Cd106
+# reaction:
+#   type: gamgam1
+# parameters:
+#   selected value [eV]:  1.750000E-01
+#   selected value uncertainty [eV]:  2.500000E-02
+#   selected value source: RIPL-3
+#   number of values: 4
+#   average value [b]:  1.739340E-01
+#   relative standard deviation [%]:      11.859096
+# quantity:
+#   type: Compilation
+#   average value:  1.840000E-01
+#   relative standard deviation [%]:       6.917347
+# datablock:
+#   columns: 8
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      RIPL-2                  Compilation          2000        1.750000E-01   2.500000E-02            78M       1.000000
+      RIPL-3                  Compilation          2009        1.750000E-01   2.500000E-02            06M       1.000000
+      Mughabghab-2018         Compilation          2018        2.020000E-01   1.500000E-02                      1.154286
+# quantity:
+#   type: Nuclear data library
+#   average value:  1.437360E-01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      TARES                   NDL                  2025        1.437360E-01   0.000000E+00                      0.821349

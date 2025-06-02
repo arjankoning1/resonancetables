@@ -1,0 +1,56 @@
+# header:
+#   title: Cs135 Ig resonance data
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 55
+#   A: 135
+#   nuclide: Cs135
+# reaction:
+#   type: Ig
+# parameters:
+#   selected value [eV]:  3.810000E+01
+#   selected value uncertainty [eV]:  2.600000E+00
+#   selected value source: Mughabghab-2018
+#   number of values: 12
+#   average value [b]:  4.826692E+01
+#   relative standard deviation [%]:      19.730549
+# quantity:
+#   type: Compilation
+#   average value:  4.233333E+01
+#   relative standard deviation [%]:      14.477487
+# datablock:
+#   columns: 8
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      JUKO                    Compilation          2000        3.790000E+01   2.700000E+00                      0.994751
+      Sukhoruchkin            Compilation          2015        5.100000E+01   7.000000E+00                      1.338583
+      Mughabghab-2018         Compilation          2018        3.810000E+01   2.600000E+00                      1.000000
+# quantity:
+#   type: EXFOR
+#   average value:  5.082500E+01
+#   relative standard deviation [%]:      23.003082
+# datablock:
+#   columns: 8
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      Eastwood                EXFOR                1958        6.200000E+01   2.000000E+00       12011019       1.627297
+      Baerg                   EXFOR                1958        6.170000E+01   2.300000E+00       12008003       1.619423
+      Katoh                   EXFOR                1997        3.430000E+01   2.600000E+00       22342003       0.900262
+      Nakamura                EXFOR                2020        4.530000E+01   3.200000E+00       23602003       1.188976
+# quantity:
+#   type: Nuclear data library
+#   average value:  4.978060E+01
+#   relative standard deviation [%]:      15.183171
+# datablock:
+#   columns: 8
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        6.246360E+01   0.000000E+00                      1.639465
+      jendl5.0                NDL                  2021        5.162110E+01   0.000000E+00                      1.354885
+      tendl.2023              NDL                  2023        4.201470E+01   0.000000E+00                      1.102748
+      endfb8.1                NDL                  2024        5.077500E+01   0.000000E+00                      1.332677
+      jeff4.0                 NDL                  2025        4.202860E+01   0.000000E+00                      1.103113

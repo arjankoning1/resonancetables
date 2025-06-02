@@ -1,0 +1,38 @@
+# header:
+#   title: Si029 D1 resonance data
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 14
+#   A: 29
+#   nuclide: Si029
+# reaction:
+#   type: D1
+# parameters:
+#   selected value [eV]:  8.540000E+04
+#   selected value uncertainty [eV]:  9.500000E+03
+#   selected value source: RIPL-3
+#   number of values: 3
+#   average value [b]:  7.301670E+04
+#   relative standard deviation [%]:      20.099955
+# quantity:
+#   type: Compilation
+#   average value:  6.890000E+04
+#   relative standard deviation [%]:      23.947750
+# datablock:
+#   columns: 8
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      RIPL-3                  Compilation          2009        8.540000E+04   9.500000E+03            97I       1.000000
+      Mughabghab-2018         Compilation          2018        5.240000E+04   5.400000E+03                      0.613583
+# quantity:
+#   type: Nuclear data library
+#   average value:  8.125010E+04
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      TARES                   NDL                  2025        8.125010E+04   0.000000E+00                      0.951406

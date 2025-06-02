@@ -1,0 +1,39 @@
+# header:
+#   title: Cr054 S0 resonance data
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 24
+#   A: 54
+#   nuclide: Cr054
+# reaction:
+#   type: S0
+# parameters:
+#   selected value [*e-4]:  2.300000E+00
+#   selected value uncertainty [*e-4]:  7.000000E-01
+#   selected value source: RIPL-3
+#   number of values: 4
+#   average value [b]:  2.953250E+00
+#   relative standard deviation [%]:      35.440704
+# quantity:
+#   type: Compilation
+#   average value:  2.350000E+00
+#   relative standard deviation [%]:       3.008967
+# datablock:
+#   columns: 8
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []           [*e-4]         [*e-4]           []             []
+      RIPL-2                  Compilation          2000        2.300000E+00   1.000000E+00            89R       1.000000
+      RIPL-3                  Compilation          2009        2.300000E+00   7.000000E-01            07I       1.000000
+      Mughabghab-2018         Compilation          2018        2.450000E+00   4.600000E-01                      1.065217
+# quantity:
+#   type: Nuclear data library
+#   average value:  4.763000E+00
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []           [*e-4]         [*e-4]           []             []
+      TARES                   NDL                  2025        4.763000E+00   0.000000E+00                      2.070870

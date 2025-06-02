@@ -1,0 +1,32 @@
+# header:
+#   title: Re000 Ig resonance data
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 75
+#   A: 0
+#   nuclide: Re000
+# reaction:
+#   type: Ig
+# parameters:
+#   selected value [eV]:  8.660000E+02
+#   selected value uncertainty [eV]:  3.500000E+01
+#   selected value source: Pierce
+#   number of values: 6
+#   average value [b]:  7.866667E+02
+#   relative standard deviation [%]:      10.366125
+# quantity:
+#   type: EXFOR
+#   average value:  7.866667E+02
+#   relative standard deviation [%]:      10.366125
+# datablock:
+#   columns: 8
+#   entries: 6
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      Karam                   EXFOR                1963        6.570000E+02   1.250000E+02       12179009       0.758660
+      Karam                   EXFOR                1963        6.940000E+02   2.800000E+01       12179006       0.801386
+      Sher                    EXFOR                1966        8.560000E+02   6.500000E+01       12194007       0.988453
+      Sher                    EXFOR                1966        8.420000E+02   5.000000E+01       12194006       0.972286
+      Sher                    EXFOR                1966        8.050000E+02   4.000000E+01       12194005       0.929561
+      Pierce                  EXFOR                1968        8.660000E+02   3.500000E+01       12165002       1.000000

@@ -1,0 +1,56 @@
+# header:
+#   title: Ge074 Ig resonance data
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 32
+#   A: 74
+#   nuclide: Ge074
+# reaction:
+#   type: Ig
+# parameters:
+#   selected value [eV]:  7.600000E-01
+#   selected value uncertainty [eV]:  2.000000E-01
+#   selected value source: Mughabghab-2018
+#   number of values: 12
+#   average value [b]:  6.442552E-01
+#   relative standard deviation [%]:      24.153931
+# quantity:
+#   type: Compilation
+#   average value:  8.033333E-01
+#   relative standard deviation [%]:      18.191132
+# datablock:
+#   columns: 8
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      JUKO                    Compilation          2000        1.000000E+00   2.000000E-01                      1.315789
+      Sukhoruchkin            Compilation          2015        6.500000E-01   1.100000E-01                      0.855263
+      Mughabghab-2018         Compilation          2018        7.600000E-01   2.000000E-01                      1.000000
+# quantity:
+#   type: EXFOR
+#   average value:  5.702000E-01
+#   relative standard deviation [%]:      24.903641
+# datablock:
+#   columns: 8
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      Ricabarra               EXFOR                1972        6.810000E-01   1.230000E-01      301890022       0.896053
+      Vanderlinden            EXFOR                1972        7.300000E-01   3.000000E-02      206430241       0.960526
+      Vanderlinden            EXFOR                1974        3.900000E-01   1.000000E-02       21697007       0.513158
+      Heft                    EXFOR                1978        6.400000E-01   6.000000E-02       12866041       0.842105
+      Beda                    EXFOR                1987        4.100000E-01   7.000000E-02       40985003       0.539474
+# quantity:
+#   type: Nuclear data library
+#   average value:  6.175157E-01
+#   relative standard deviation [%]:      11.306441
+# datablock:
+#   columns: 8
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        4.998030E-01   0.000000E+00                      0.657636
+      jendl5.0                NDL                  2021        6.436910E-01   0.000000E+00                      0.846962
+      tendl.2023              NDL                  2023        6.828780E-01   0.000000E+00                      0.898524
+      endfb8.1                NDL                  2024        6.436910E-01   0.000000E+00                      0.846962

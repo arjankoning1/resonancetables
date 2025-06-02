@@ -1,0 +1,51 @@
+# header:
+#   title: Yb171 Ig resonance data
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 70
+#   A: 171
+#   nuclide: Yb171
+# reaction:
+#   type: Ig
+# parameters:
+#   selected value [eV]:  3.180000E+02
+#   selected value uncertainty [eV]:  3.000000E+01
+#   selected value source: Sukhoruchkin
+#   number of values: 7
+#   average value [b]:  3.251637E+02
+#   relative standard deviation [%]:       1.490227
+# quantity:
+#   type: Compilation
+#   average value:  3.180000E+02
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      JUKO                    Compilation          2000        3.180000E+02   3.000000E+01                      1.000000
+      Sukhoruchkin            Compilation          2015        3.180000E+02   3.000000E+01                      1.000000
+# quantity:
+#   type: EXFOR
+#   average value:  3.320000E+02
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      Dobrozemsky             EXFOR                1971        3.320000E+02   3.000000E+01       20637023       1.044025
+# quantity:
+#   type: Nuclear data library
+#   average value:  3.270365E+02
+#   relative standard deviation [%]:       0.149986
+# datablock:
+#   columns: 8
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        3.265460E+02   0.000000E+00                      1.026874
+      tendl.2023              NDL                  2023        3.275270E+02   0.000000E+00                      1.029959
+      endfb8.1                NDL                  2024        3.265460E+02   0.000000E+00                      1.026874
+      jeff4.0                 NDL                  2025        3.275270E+02   0.000000E+00                      1.029959

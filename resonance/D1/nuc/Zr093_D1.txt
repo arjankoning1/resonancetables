@@ -1,0 +1,38 @@
+# header:
+#   title: Zr093 D1 resonance data
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 40
+#   A: 93
+#   nuclide: Zr093
+# reaction:
+#   type: D1
+# parameters:
+#   selected value [eV]:  1.200000E+02
+#   selected value uncertainty [eV]:  2.000000E+01
+#   selected value source: RIPL-3
+#   number of values: 3
+#   average value [b]:  1.553057E+02
+#   relative standard deviation [%]:      18.132465
+# quantity:
+#   type: Compilation
+#   average value:  1.385000E+02
+#   relative standard deviation [%]:      13.357401
+# datablock:
+#   columns: 8
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      RIPL-3                  Compilation          2009        1.200000E+02   2.000000E+01            07I       1.000000
+      Mughabghab-2018         Compilation          2018        1.570000E+02   1.500000E+01                      1.308333
+# quantity:
+#   type: Nuclear data library
+#   average value:  1.889170E+02
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      TARES                   NDL                  2025        1.889170E+02   0.000000E+00                      1.574308

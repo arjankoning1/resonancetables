@@ -1,0 +1,37 @@
+# header:
+#   title: U236 gamgam1 resonance data
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 92
+#   A: 236
+#   nuclide: U236
+# reaction:
+#   type: gamgam1
+# parameters:
+#   selected value [eV]:  2.140000E-02
+#   selected value uncertainty [eV]:  4.000000E-04
+#   selected value source: Mughabghab-2018
+#   number of values: 2
+#   average value [b]:  2.113715E-02
+#   relative standard deviation [%]:       1.243549
+# quantity:
+#   type: Compilation
+#   average value:  2.140000E-02
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      Mughabghab-2018         Compilation          2018        2.140000E-02   4.000000E-04                      1.000000
+# quantity:
+#   type: Nuclear data library
+#   average value:  2.087430E-02
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      TARES                   NDL                  2025        2.087430E-02   0.000000E+00                      0.975434

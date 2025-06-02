@@ -1,0 +1,49 @@
+# header:
+#   title: Ag107 gamgam resonance data
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 47
+#   A: 107
+#   nuclide: Ag107
+# reaction:
+#   type: gamgam
+# parameters:
+#   selected value [eV]:  1.400000E-01
+#   selected value uncertainty [eV]:  1.000000E-02
+#   selected value source: RIPL-3
+#   number of values: 5
+#   average value [b]:  1.406006E-01
+#   relative standard deviation [%]:       0.853270
+# quantity:
+#   type: Compilation
+#   average value:  1.410000E-01
+#   relative standard deviation [%]:       1.002990
+# datablock:
+#   columns: 8
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      RIPL-2                  Compilation          2000        1.400000E-01   2.000000E-02            96I       1.000000
+      RIPL-3                  Compilation          2009        1.400000E-01   1.000000E-02            04I       1.000000
+      Mughabghab-2018         Compilation          2018        1.430000E-01   6.000000E-03                      1.021429
+# quantity:
+#   type: EXFOR
+#   average value:  1.400000E-01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      Debarros                EXFOR                1969        1.400000E-01   7.000000E-03       20685003       1.000000
+# quantity:
+#   type: Nuclear data library
+#   average value:  1.400030E-01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      TARES                   NDL                  2025        1.400030E-01   0.000000E+00                      1.000021

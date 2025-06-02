@@ -1,0 +1,39 @@
+# header:
+#   title: Hf178 S0 resonance data
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 72
+#   A: 178
+#   nuclide: Hf178
+# reaction:
+#   type: S0
+# parameters:
+#   selected value [*e-4]:  2.100000E+00
+#   selected value uncertainty [*e-4]:  3.000000E-01
+#   selected value source: RIPL-3
+#   number of values: 4
+#   average value [b]:  2.216432E+00
+#   relative standard deviation [%]:       6.750027
+# quantity:
+#   type: Compilation
+#   average value:  2.133333E+00
+#   relative standard deviation [%]:       2.209712
+# datablock:
+#   columns: 8
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []           [*e-4]         [*e-4]           []             []
+      RIPL-2                  Compilation          2000        2.100000E+00   3.000000E-01            97I       1.000000
+      RIPL-3                  Compilation          2009        2.100000E+00   3.000000E-01            97I       1.000000
+      Mughabghab-2018         Compilation          2018        2.200000E+00   7.000000E-01                      1.047619
+# quantity:
+#   type: Nuclear data library
+#   average value:  2.465730E+00
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []           [*e-4]         [*e-4]           []             []
+      TARES                   NDL                  2025        2.465730E+00   0.000000E+00                      1.174157

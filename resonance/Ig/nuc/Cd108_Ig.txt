@@ -1,0 +1,52 @@
+# header:
+#   title: Cd108 Ig resonance data
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 48
+#   A: 108
+#   nuclide: Cd108
+# reaction:
+#   type: Ig
+# parameters:
+#   selected value [eV]:  1.636000E+01
+#   selected value uncertainty [eV]:  5.000000E-01
+#   selected value source: Mughabghab-2018
+#   number of values: 8
+#   average value [b]:  1.722607E+01
+#   relative standard deviation [%]:      22.141497
+# quantity:
+#   type: Compilation
+#   average value:  1.465333E+01
+#   relative standard deviation [%]:      19.136318
+# datablock:
+#   columns: 8
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      JUKO                    Compilation          2000        1.070000E+01   3.000000E+00                      0.654034
+      Sukhoruchkin            Compilation          2015        1.690000E+01   1.300000E+00                      1.033007
+      Mughabghab-2018         Compilation          2018        1.636000E+01   5.000000E-01                      1.000000
+# quantity:
+#   type: EXFOR
+#   average value:  1.670000E+01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      Beda                    EXFOR                1981        1.670000E+01   4.600000E+00       40747002       1.020782
+# quantity:
+#   type: Nuclear data library
+#   average value:  1.928715E+01
+#   relative standard deviation [%]:      19.341558
+# datablock:
+#   columns: 8
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        2.522220E+01   0.000000E+00                      1.541699
+      tendl.2023              NDL                  2023        1.550710E+01   0.000000E+00                      0.947867
+      endfb8.1                NDL                  2024        1.682600E+01   0.000000E+00                      1.028484
+      jeff4.0                 NDL                  2025        1.959330E+01   0.000000E+00                      1.197634

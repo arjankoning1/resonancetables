@@ -1,0 +1,52 @@
+# header:
+#   title: Sm150 Ig resonance data
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 62
+#   A: 150
+#   nuclide: Sm150
+# reaction:
+#   type: Ig
+# parameters:
+#   selected value [eV]:  3.330000E+02
+#   selected value uncertainty [eV]:  4.800000E+01
+#   selected value source: Sukhoruchkin
+#   number of values: 8
+#   average value [b]:  3.346719E+02
+#   relative standard deviation [%]:      10.402071
+# quantity:
+#   type: Compilation
+#   average value:  3.455000E+02
+#   relative standard deviation [%]:       3.617945
+# datablock:
+#   columns: 8
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      JUKO                    Compilation          2000        3.580000E+02   5.000000E+01                      1.075075
+      Sukhoruchkin            Compilation          2015        3.330000E+02   4.800000E+01                      1.000000
+# quantity:
+#   type: EXFOR
+#   average value:  2.550000E+02
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      Halperin                EXFOR                1962        2.550000E+02   2.550000E+01       12253003       0.765766
+# quantity:
+#   type: Nuclear data library
+#   average value:  3.462750E+02
+#   relative standard deviation [%]:       5.957274
+# datablock:
+#   columns: 8
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        3.246820E+02   0.000000E+00                      0.975021
+      jendl5.0                NDL                  2021        3.309210E+02   0.000000E+00                      0.993757
+      tendl.2023              NDL                  2023        3.722260E+02   0.000000E+00                      1.117796
+      endfb8.1                NDL                  2024        3.331750E+02   0.000000E+00                      1.000525
+      jeff4.0                 NDL                  2025        3.703710E+02   0.000000E+00                      1.112225

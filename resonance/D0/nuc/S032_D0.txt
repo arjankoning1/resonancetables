@@ -1,0 +1,54 @@
+# header:
+#   title: S032 D0 resonance data
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 16
+#   A: 32
+#   nuclide: S032
+# reaction:
+#   type: D0
+# parameters:
+#   selected value [eV]:  1.900000E+05
+#   selected value uncertainty [eV]:  6.000000E+04
+#   selected value source: RIPL-3
+#   number of values: 10
+#   average value [b]:  1.900050E+05
+#   relative standard deviation [%]:      55.688370
+# quantity:
+#   type: Compilation
+#   average value:  1.730000E+05
+#   relative standard deviation [%]:       9.752640
+# datablock:
+#   columns: 9
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio       #Resonances
+##      []             []             []             []            [eV]           [eV]            []             []             []
+      RIPL-2                  Compilation          2000        1.500000E+05   3.500000E+04            79R       0.789474               
+      RIPL-3                  Compilation          2009        1.900000E+05   6.000000E+04            07I       1.000000               
+      Mughabghab-2018         Compilation          2018        1.790000E+05   2.900000E+04                      0.942105               
+# quantity:
+#   type: EXFOR
+#   average value:  1.501667E+05
+#   relative standard deviation [%]:      35.015373
+# datablock:
+#   columns: 13
+#   entries: 6
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      J.Halperin              EXFOR                1980        2.260000E+05   6.000000E+04      10455-005       1.189474                                     0.0                                   
+      C.R.Jungmann            EXFOR                1982        9.100000E+04   0.000000E+00      21801-003       0.478947   2.034400E-01   1.659400E+00       0.0            2.5            1.0     
+      C.R.Jungmann            EXFOR                1982        1.330000E+05   0.000000E+00      21801-003       0.700000   2.034400E-01   1.659400E+00       0.0            1.5            1.0     
+      C.R.Jungmann            EXFOR                1982        8.300000E+04   0.000000E+00      21801-003       0.436842   2.034400E-01   1.659400E+00       0.0            1.5           -1.0     
+      C.R.Jungmann            EXFOR                1982        1.950000E+05   0.000000E+00      21801-003       1.026316   2.034400E-01   1.659400E+00       0.0            0.5           -1.0     
+      C.R.Jungmann            EXFOR                1982        1.730000E+05   0.000000E+00      21801-003       0.910526   2.034400E-01   1.659400E+00       0.0            0.5            1.0     
+# quantity:
+#   type: Nuclear data library
+#   average value:  4.800500E+05
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      TARES                   NDL                  2025        4.800500E+05   0.000000E+00                      2.526579

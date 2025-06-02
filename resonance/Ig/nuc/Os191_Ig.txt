@@ -1,0 +1,40 @@
+# header:
+#   title: Os191 Ig resonance data
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 76
+#   A: 191
+#   nuclide: Os191
+# reaction:
+#   type: Ig
+# parameters:
+#   selected value [eV]:  1.700000E+02
+#   selected value uncertainty [eV]:  3.000000E+01
+#   selected value source: JUKO
+#   number of values: 5
+#   average value [b]:  2.185355E+03
+#   relative standard deviation [%]:     134.848175
+# quantity:
+#   type: Compilation
+#   average value:  1.700000E+02
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      JUKO                    Compilation          2000        1.700000E+02   3.000000E+01                      1.000000
+# quantity:
+#   type: Nuclear data library
+#   average value:  2.689194E+03
+#   relative standard deviation [%]:     115.132698
+# datablock:
+#   columns: 8
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        1.310550E+03   0.000000E+00                      7.709118
+      tendl.2023              NDL                  2023        4.489340E+02   0.000000E+00                      2.640788
+      endfb8.1                NDL                  2024        9.718400E+02   0.000000E+00                      5.716706
+      jeff4.0                 NDL                  2025        8.025450E+03   0.000000E+00                     47.208530

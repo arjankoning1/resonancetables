@@ -1,0 +1,39 @@
+# header:
+#   title: Zn066 S1 resonance data
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 30
+#   A: 66
+#   nuclide: Zn066
+# reaction:
+#   type: S1
+# parameters:
+#   selected value [*e-4]:  6.600000E-01
+#   selected value uncertainty [*e-4]:  6.000000E-02
+#   selected value source: RIPL-3
+#   number of values: 4
+#   average value [b]:  6.033872E-01
+#   relative standard deviation [%]:      20.259920
+# quantity:
+#   type: Compilation
+#   average value:  6.733333E-01
+#   relative standard deviation [%]:       2.800420
+# datablock:
+#   columns: 8
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []           [*e-4]         [*e-4]           []             []
+      RIPL-2                  Compilation          2000        6.600000E-01   6.000000E-02            81G       1.000000
+      RIPL-3                  Compilation          2009        6.600000E-01   6.000000E-02            82G       1.000000
+      Mughabghab-2018         Compilation          2018        7.000000E-01   7.000000E-02                      1.060606
+# quantity:
+#   type: Nuclear data library
+#   average value:  3.935490E-01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []           [*e-4]         [*e-4]           []             []
+      TARES                   NDL                  2025        3.935490E-01   0.000000E+00                      0.596286

@@ -1,0 +1,73 @@
+# header:
+#   title: Ta181 Ig resonance data
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 73
+#   A: 181
+#   nuclide: Ta181
+# reaction:
+#   type: Ig
+# parameters:
+#   selected value [eV]:  6.780000E+02
+#   selected value uncertainty [eV]:  3.200000E+01
+#   selected value source: Kayzero
+#   number of values: 29
+#   average value [b]:  5.335289E+02
+#   relative standard deviation [%]:      52.059124
+# quantity:
+#   type: Compilation
+#   average value:  6.805000E+02
+#   relative standard deviation [%]:       5.200169
+# datablock:
+#   columns: 8
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      JUKO                    Compilation          2000        6.500000E+02   0.000000E+00                      0.958702
+      Sukhoruchkin            Compilation          2015        7.390000E+02   4.500000E+01                      1.089970
+      Kayzero                 Compilation          2018        6.780000E+02   3.200000E+01                      1.000000
+      Mughabghab-2018         Compilation          2018        6.550000E+02   2.000000E+01                      0.966077
+# quantity:
+#   type: EXFOR
+#   average value:  4.644207E+02
+#   relative standard deviation [%]:      66.733780
+# datablock:
+#   columns: 8
+#   entries: 20
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      Harris                  EXFOR                1950        5.170000E+02   0.000000E+00       11343029       0.762537
+      Macklin                 EXFOR                1955        5.900000E+02   2.360000E+01       14388052       0.870206
+      Wolf                    EXFOR                1960        7.200000E+02   8.000000E+01       20651007       1.061947
+      Konks                   EXFOR                1964        1.260000E+01   1.300000E+00       40799009       0.018584
+      VichaiHayodomm          EXFOR                1969        8.000000E+02   0.000000E+00       30368028       1.179941
+      VichaiHayodomm          EXFOR                1969        1.000000E+00   0.000000E+00       30368027       0.001475
+      Schuman                 EXFOR                1969        6.400000E+02   6.000000E+01       11687007       0.943953
+      Pierce                  EXFOR                1970        7.200000E+02   2.500000E+01       10260002       1.061947
+      Pierce                  EXFOR                1970        7.200000E+02   2.500000E+01       10260002       1.061947
+      Markovic                EXFOR                1971        5.370000E+02   1.800000E+01       30289005       0.792035
+      Steinnes                EXFOR                1972        7.500000E+02   5.000000E+01       20188029       1.106195
+      Alian                   EXFOR                1973        5.640000E+02   0.000000E+00       20644017       0.831858
+      Vanderlinden            EXFOR                1974        7.150000E+02   6.600000E+01       20645042       1.054572
+      Vanderlinden            EXFOR                1974        2.800000E-01   1.000000E-02       20645041       0.000413
+      Gryntakis               EXFOR                1976        7.170000E+02   5.800000E+01       20625031       1.057522
+      Gryntakis               EXFOR                1976        4.150000E-01   1.100000E-01       20625030       0.000612
+      Sage                    EXFOR                1976        1.860000E+00   1.250000E+00       10637016       0.002743
+      Sage                    EXFOR                1976        1.860000E+00   1.250000E+00       10637016       0.002743
+      Heft                    EXFOR                1978        6.250000E+02   2.000000E+01       12866181       0.921829
+      Kimura                  EXFOR                1989        6.554000E+02   2.778900E+01       23491013       0.966667
+# quantity:
+#   type: Nuclear data library
+#   average value:  6.923846E+02
+#   relative standard deviation [%]:       3.556834
+# datablock:
+#   columns: 8
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        6.599890E+02   0.000000E+00                      0.973435
+      jendl5.0                NDL                  2021        7.162960E+02   0.000000E+00                      1.056484
+      tendl.2023              NDL                  2023        6.648020E+02   0.000000E+00                      0.980534
+      endfb8.1                NDL                  2024        7.104180E+02   0.000000E+00                      1.047814
+      jeff4.0                 NDL                  2025        7.104180E+02   0.000000E+00                      1.047814

@@ -1,0 +1,38 @@
+# header:
+#   title: Nb093 gamgam1 resonance data
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 41
+#   A: 93
+#   nuclide: Nb093
+# reaction:
+#   type: gamgam1
+# parameters:
+#   selected value [eV]:  2.200000E-01
+#   selected value uncertainty [eV]:  2.000000E-02
+#   selected value source: RIPL-3
+#   number of values: 3
+#   average value [b]:  2.091107E-01
+#   relative standard deviation [%]:       8.050222
+# quantity:
+#   type: Compilation
+#   average value:  2.210000E-01
+#   relative standard deviation [%]:       0.452486
+# datablock:
+#   columns: 8
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      RIPL-3                  Compilation          2009        2.200000E-01   2.000000E-02            07I       1.000000
+      Mughabghab-2018         Compilation          2018        2.220000E-01   8.000000E-03                      1.009091
+# quantity:
+#   type: Nuclear data library
+#   average value:  1.853320E-01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      TARES                   NDL                  2025        1.853320E-01   0.000000E+00                      0.842418

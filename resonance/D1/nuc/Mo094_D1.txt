@@ -1,0 +1,39 @@
+# header:
+#   title: Mo094 D1 resonance data
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 42
+#   A: 94
+#   nuclide: Mo094
+# reaction:
+#   type: D1
+# parameters:
+#   selected value [eV]:  5.080000E+02
+#   selected value uncertainty [eV]:  4.700000E+01
+#   selected value source: RIPL-3
+#   number of values: 4
+#   average value [b]:  4.696143E+02
+#   relative standard deviation [%]:       5.650152
+# quantity:
+#   type: Compilation
+#   average value:  4.793333E+02
+#   relative standard deviation [%]:       4.940843
+# datablock:
+#   columns: 8
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      RIPL-2                  Compilation          2000        4.800000E+02   6.000000E+01            96I       0.944882
+      RIPL-3                  Compilation          2009        5.080000E+02   4.700000E+01            06M       1.000000
+      Mughabghab-2018         Compilation          2018        4.500000E+02   4.000000E+01                      0.885827
+# quantity:
+#   type: Nuclear data library
+#   average value:  4.404570E+02
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      TARES                   NDL                  2025        4.404570E+02   0.000000E+00                      0.867041

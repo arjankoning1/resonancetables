@@ -1,0 +1,41 @@
+# header:
+#   title: Hg200 Ig resonance data
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 80
+#   A: 200
+#   nuclide: Hg200
+# reaction:
+#   type: Ig
+# parameters:
+#   selected value [eV]:  2.600000E+00
+#   selected value uncertainty [eV]:  5.000000E-01
+#   selected value source: Sukhoruchkin
+#   number of values: 6
+#   average value [b]:  2.522607E+00
+#   relative standard deviation [%]:      18.638737
+# quantity:
+#   type: Compilation
+#   average value:  2.050000E+00
+#   relative standard deviation [%]:      26.829268
+# datablock:
+#   columns: 8
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      JUKO                    Compilation          2000        1.500000E+00   5.000000E-01                      0.576923
+      Sukhoruchkin            Compilation          2015        2.600000E+00   5.000000E-01                      1.000000
+# quantity:
+#   type: Nuclear data library
+#   average value:  2.758910E+00
+#   relative standard deviation [%]:       4.107009
+# datablock:
+#   columns: 8
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        2.801860E+00   0.000000E+00                      1.077639
+      tendl.2023              NDL                  2023        2.868640E+00   0.000000E+00                      1.103323
+      endfb8.1                NDL                  2024        2.568960E+00   0.000000E+00                      0.988062
+      jeff4.0                 NDL                  2025        2.796180E+00   0.000000E+00                      1.075454

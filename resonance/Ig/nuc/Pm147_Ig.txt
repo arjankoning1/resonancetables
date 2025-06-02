@@ -1,0 +1,58 @@
+# header:
+#   title: Pm147 Ig resonance data
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 61
+#   A: 147
+#   nuclide: Pm147
+# reaction:
+#   type: Ig
+# parameters:
+#   selected value [eV]:  2.205000E+03
+#   selected value uncertainty [eV]:  1.030000E+02
+#   selected value source: Sukhoruchkin
+#   number of values: 14
+#   average value [b]:  1.649751E+03
+#   relative standard deviation [%]:      34.344387
+# quantity:
+#   type: Compilation
+#   average value:  2.132500E+03
+#   relative standard deviation [%]:       3.399765
+# datablock:
+#   columns: 8
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      JUKO                    Compilation          2000        2.060000E+03   1.000000E+02                      0.934240
+      Sukhoruchkin            Compilation          2015        2.205000E+03   1.030000E+02                      1.000000
+# quantity:
+#   type: EXFOR
+#   average value:  1.144857E+03
+#   relative standard deviation [%]:      31.441347
+# datablock:
+#   columns: 8
+#   entries: 7
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      Stoughton               EXFOR                1960        1.200000E+03   0.000000E+00       12126005       0.544218
+      Stoughton               EXFOR                1960        9.000000E+02   0.000000E+00       12126003       0.408163
+      Schuman                 EXFOR                1962        1.700000E+03   2.500000E+02       12100005       0.770975
+      Schuman                 EXFOR                1962        1.520000E+03   2.300000E+02       12100003       0.689342
+      Fenner                  EXFOR                1967        7.200000E+02   2.300000E+02       20631005       0.326531
+      Fenner                  EXFOR                1967        7.000000E+02   2.000000E+02       20631004       0.317460
+      Cabell                  EXFOR                1970        1.274000E+03   6.600000E+01       20458003       0.577778
+# quantity:
+#   type: Nuclear data library
+#   average value:  2.163502E+03
+#   relative standard deviation [%]:       1.694988
+# datablock:
+#   columns: 8
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        2.204350E+03   0.000000E+00                      0.999705
+      jendl5.0                NDL                  2021        2.187340E+03   0.000000E+00                      0.991991
+      tendl.2023              NDL                  2023        2.118730E+03   0.000000E+00                      0.960875
+      endfb8.1                NDL                  2024        2.187340E+03   0.000000E+00                      0.991991
+      jeff4.0                 NDL                  2025        2.119750E+03   0.000000E+00                      0.961338

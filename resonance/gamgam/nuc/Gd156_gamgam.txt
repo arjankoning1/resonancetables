@@ -1,0 +1,49 @@
+# header:
+#   title: Gd156 gamgam resonance data
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 64
+#   A: 156
+#   nuclide: Gd156
+# reaction:
+#   type: gamgam
+# parameters:
+#   selected value [eV]:  8.800001E-02
+#   selected value uncertainty [eV]:  1.200000E-02
+#   selected value source: RIPL-3
+#   number of values: 5
+#   average value [b]:  8.295106E-02
+#   relative standard deviation [%]:       5.229199
+# quantity:
+#   type: Compilation
+#   average value:  8.493334E-02
+#   relative standard deviation [%]:       5.106269
+# datablock:
+#   columns: 8
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      RIPL-2                  Compilation          2000        8.800001E-02   1.200000E-02            97I       1.000000
+      RIPL-3                  Compilation          2009        8.800001E-02   1.200000E-02            00I       1.000000
+      Mughabghab-2018         Compilation          2018        7.880000E-02   5.000000E-04                      0.895454
+# quantity:
+#   type: EXFOR
+#   average value:  8.200000E-02
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      Karzhavina              EXFOR                1969        8.200000E-02   1.200000E-02       40162055       0.931818
+# quantity:
+#   type: Nuclear data library
+#   average value:  7.795530E-02
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      TARES                   NDL                  2025        7.795530E-02   0.000000E+00                      0.885856

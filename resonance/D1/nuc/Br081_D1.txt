@@ -1,0 +1,38 @@
+# header:
+#   title: Br081 D1 resonance data
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 35
+#   A: 81
+#   nuclide: Br081
+# reaction:
+#   type: D1
+# parameters:
+#   selected value [eV]:  6.000000E+01
+#   selected value uncertainty [eV]:  7.000000E+00
+#   selected value source: RIPL-3
+#   number of values: 3
+#   average value [b]:  8.187234E+01
+#   relative standard deviation [%]:      38.647839
+# quantity:
+#   type: Compilation
+#   average value:  5.950000E+01
+#   relative standard deviation [%]:       0.840336
+# datablock:
+#   columns: 8
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      RIPL-3                  Compilation          2009        6.000000E+01   7.000000E+00            07I       1.000000
+      Mughabghab-2018         Compilation          2018        5.900000E+01   4.000000E+00                      0.983333
+# quantity:
+#   type: Nuclear data library
+#   average value:  1.266170E+02
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      TARES                   NDL                  2025        1.266170E+02   0.000000E+00                      2.110283

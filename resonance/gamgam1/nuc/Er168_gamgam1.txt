@@ -1,0 +1,37 @@
+# header:
+#   title: Er168 gamgam1 resonance data
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 68
+#   A: 168
+#   nuclide: Er168
+# reaction:
+#   type: gamgam1
+# parameters:
+#   selected value [eV]:  5.630000E-02
+#   selected value uncertainty [eV]:  1.700000E-03
+#   selected value source: Mughabghab-2018
+#   number of values: 2
+#   average value [b]:  7.312000E-02
+#   relative standard deviation [%]:      23.003283
+# quantity:
+#   type: Compilation
+#   average value:  5.630000E-02
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      Mughabghab-2018         Compilation          2018        5.630000E-02   1.700000E-03                      1.000000
+# quantity:
+#   type: Nuclear data library
+#   average value:  8.994000E-02
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      TARES                   NDL                  2025        8.994000E-02   0.000000E+00                      1.597513

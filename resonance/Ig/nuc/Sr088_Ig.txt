@@ -1,0 +1,51 @@
+# header:
+#   title: Sr088 Ig resonance data
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 38
+#   A: 88
+#   nuclide: Sr088
+# reaction:
+#   type: Ig
+# parameters:
+#   selected value [eV]:  3.700000E-02
+#   selected value uncertainty [eV]:  3.000000E-03
+#   selected value source: Sukhoruchkin
+#   number of values: 7
+#   average value [b]:  4.043749E-02
+#   relative standard deviation [%]:      35.764854
+# quantity:
+#   type: Compilation
+#   average value:  5.100000E-02
+#   relative standard deviation [%]:      27.450977
+# datablock:
+#   columns: 8
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      JUKO                    Compilation          2000        6.500000E-02   3.000000E-02                      1.756757
+      Sukhoruchkin            Compilation          2015        3.700000E-02   3.000000E-03                      1.000000
+# quantity:
+#   type: EXFOR
+#   average value:  6.070000E-02
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      Krane                   EXFOR                2021        6.070000E-02   1.800000E-03       14714015       1.640540
+# quantity:
+#   type: Nuclear data library
+#   average value:  3.009060E-02
+#   relative standard deviation [%]:       5.305201
+# datablock:
+#   columns: 8
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        3.285370E-02   0.000000E+00                      0.887938
+      jendl5.0                NDL                  2021        2.926590E-02   0.000000E+00                      0.790970
+      tendl.2023              NDL                  2023        2.912140E-02   0.000000E+00                      0.787065
+      jeff4.0                 NDL                  2025        2.912140E-02   0.000000E+00                      0.787065

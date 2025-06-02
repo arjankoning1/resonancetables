@@ -1,0 +1,52 @@
+# header:
+#   title: Pr143 Ig resonance data
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 59
+#   A: 143
+#   nuclide: Pr143
+# reaction:
+#   type: Ig
+# parameters:
+#   selected value [eV]:  1.900000E+02
+#   selected value uncertainty [eV]:  2.500000E+01
+#   selected value source: Mughabghab-2018
+#   number of values: 8
+#   average value [b]:  1.660651E+02
+#   relative standard deviation [%]:      13.675587
+# quantity:
+#   type: Compilation
+#   average value:  1.706667E+02
+#   relative standard deviation [%]:      16.020386
+# datablock:
+#   columns: 8
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      JUKO                    Compilation          2000        1.900000E+02   2.500000E+01                      1.000000
+      Sukhoruchkin            Compilation          2015        1.320000E+02   2.400000E+01                      0.694737
+      Mughabghab-2018         Compilation          2018        1.900000E+02   2.500000E+01                      1.000000
+# quantity:
+#   type: EXFOR
+#   average value:  1.900000E+02
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      Roy                     EXFOR                1959        1.900000E+02   2.500000E+01       12052003       1.000000
+# quantity:
+#   type: Nuclear data library
+#   average value:  1.566302E+02
+#   relative standard deviation [%]:       9.528456
+# datablock:
+#   columns: 8
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        1.594120E+02   0.000000E+00                      0.839011
+      tendl.2023              NDL                  2023        1.678180E+02   0.000000E+00                      0.883253
+      endfb8.1                NDL                  2024        1.314730E+02   0.000000E+00                      0.691963
+      jeff4.0                 NDL                  2025        1.678180E+02   0.000000E+00                      0.883253

@@ -1,0 +1,61 @@
+# header:
+#   title: Ba138 Ig resonance data
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 56
+#   A: 138
+#   nuclide: Ba138
+# reaction:
+#   type: Ig
+# parameters:
+#   selected value [eV]:  3.600000E-01
+#   selected value uncertainty [eV]:  1.000000E-02
+#   selected value source: Kayzero
+#   number of values: 17
+#   average value [b]:  3.223504E-01
+#   relative standard deviation [%]:      17.341991
+# quantity:
+#   type: Compilation
+#   average value:  3.066667E-01
+#   relative standard deviation [%]:      12.297511
+# datablock:
+#   columns: 8
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      JUKO                    Compilation          2000        2.800000E-01   4.000000E-02                      0.777778
+      Sukhoruchkin            Compilation          2015        2.800000E-01   4.000000E-02                      0.777778
+      Kayzero                 Compilation          2018        3.600000E-01   1.000000E-02                      1.000000
+# quantity:
+#   type: EXFOR
+#   average value:  3.413333E-01
+#   relative standard deviation [%]:      18.906008
+# datablock:
+#   columns: 8
+#   entries: 9
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      Ricabarra               EXFOR                1968        2.000000E-01   9.000000E-02      301290082       0.555556
+      Vanderlinden            EXFOR                1974        3.300000E-01   2.000000E-02       20645014       0.916667
+      Gleason                 EXFOR                1977        4.000000E-01   2.000000E-02       10662013       1.111111
+      Heft                    EXFOR                1978        2.560000E-01   5.000000E-02       12866125       0.711111
+      Nyarko                  EXFOR                2010        3.800000E-01   5.000000E-03       31698011       1.055555
+      Agbemava                EXFOR                2011        3.800000E-01   5.000000E-03       31700003       1.055555
+      Dauenhauer              EXFOR                2012        3.820000E-01   2.000000E-02       14340015       1.061111
+      Panikkath               EXFOR                2016        3.640000E-01   2.700000E-02       33097007       1.011111
+      Panikkath               EXFOR                2016        3.800000E-01   3.300000E-02       33097006       1.055555
+# quantity:
+#   type: Nuclear data library
+#   average value:  2.975916E-01
+#   relative standard deviation [%]:       9.891851
+# datablock:
+#   columns: 8
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        3.553160E-01   0.000000E+00                      0.986989
+      jendl5.0                NDL                  2021        2.816860E-01   0.000000E+00                      0.782461
+      tendl.2023              NDL                  2023        2.888920E-01   0.000000E+00                      0.802478
+      endfb8.1                NDL                  2024        2.731720E-01   0.000000E+00                      0.758811
+      jeff4.0                 NDL                  2025        2.888920E-01   0.000000E+00                      0.802478

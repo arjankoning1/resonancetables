@@ -1,0 +1,50 @@
+# header:
+#   title: Xe131 D0 resonance data
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 54
+#   A: 131
+#   nuclide: Xe131
+# reaction:
+#   type: D0
+# parameters:
+#   selected value [eV]:  4.900000E+01
+#   selected value uncertainty [eV]:  8.000000E+00
+#   selected value source: RIPL-3
+#   number of values: 6
+#   average value [b]:  4.436548E+01
+#   relative standard deviation [%]:      47.817863
+# quantity:
+#   type: Compilation
+#   average value:  4.756667E+01
+#   relative standard deviation [%]:       4.261470
+# datablock:
+#   columns: 9
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio       #Resonances
+##      []             []             []             []            [eV]           [eV]            []             []             []
+      RIPL-2                  Compilation          2000        4.900000E+01   1.500000E+01            96I       1.000000        1      
+      RIPL-3                  Compilation          2009        4.900000E+01   8.000000E+00            00I       1.000000               
+      Mughabghab-2018         Compilation          2018        4.470000E+01   5.000000E+00                      0.912245               
+# quantity:
+#   type: EXFOR
+#   average value:  2.752275E+01
+#   relative standard deviation [%]:      99.834671
+# datablock:
+#   columns: 13
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      P.Ribon                 EXFOR                1969        5.500000E+01   7.000000E+00      20149-042       1.122449   1.400000E-05   4.000000E-03       0.0                                   
+      G.Noguere               EXFOR                2011        4.550000E-02   3.400000E-03      23211-016       0.000929   1.450000E-05   1.070000E-03       0.0                                   
+# quantity:
+#   type: Nuclear data library
+#   average value:  6.844740E+01
+#   relative standard deviation [%]:       0.000000
+# datablock:
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      TARES                   NDL                  2025        6.844740E+01   0.000000E+00                      1.396886

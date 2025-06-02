@@ -1,0 +1,66 @@
+# header:
+#   title: Ho165 Ig resonance data
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 67
+#   A: 165
+#   nuclide: Ho165
+# reaction:
+#   type: Ig
+# parameters:
+#   selected value [eV]:  6.430000E+02
+#   selected value uncertainty [eV]:  2.600000E+01
+#   selected value source: Kayzero
+#   number of values: 22
+#   average value [b]:  6.712022E+02
+#   relative standard deviation [%]:       3.910073
+# quantity:
+#   type: Compilation
+#   average value:  6.625000E+02
+#   relative standard deviation [%]:       2.098330
+# datablock:
+#   columns: 8
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      JUKO                    Compilation          2000        6.650000E+02   2.000000E+01                      1.034215
+      Sukhoruchkin            Compilation          2015        6.820000E+02   2.000000E+01                      1.060653
+      Kayzero                 Compilation          2018        6.430000E+02   2.600000E+01                      1.000000
+      Mughabghab-2018         Compilation          2018        6.600000E+02   2.200000E+01                      1.026439
+# quantity:
+#   type: EXFOR
+#   average value:  6.686923E+02
+#   relative standard deviation [%]:       4.733551
+# datablock:
+#   columns: 8
+#   entries: 13
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      Lesage                  EXFOR                1966        6.920000E+02   7.000000E+00       11754028       1.076205
+      Lesage                  EXFOR                1966        7.000000E+02   1.000000E+01       11754027       1.088647
+      Lesage                  EXFOR                1966        6.960000E+02   4.500000E+01       11754009       1.082426
+      VichaiHayodomm          EXFOR                1969        6.280000E+02   0.000000E+00       30368025       0.976672
+      Steinnes                EXFOR                1972        7.100000E+02   3.000000E+01       20188024       1.104199
+      Vanderlinden            EXFOR                1974        6.260000E+02   9.300000E+01       20645030       0.973561
+      Ryves                   EXFOR                1974        6.180000E+02   3.300000E+01       20561013       0.961120
+      Steinnes                EXFOR                1975        6.600000E+02   3.000000E+01       20635009       1.026439
+      Heft                    EXFOR                1978        7.180000E+02   4.000000E+01       12866161       1.116641
+      Yuecel                  EXFOR                2005        6.670000E+02   4.600000E+01       22871003       1.037325
+      Rajput                  EXFOR                2009        6.570000E+02   3.600000E+01       31660003       1.021773
+      Nguyen                  EXFOR                2011        6.710000E+02   4.700000E+01       30827003       1.043546
+      Zolghadri               EXFOR                2013        6.500000E+02   3.100000E+01       31725003       1.010886
+# quantity:
+#   type: Nuclear data library
+#   average value:  6.846899E+02
+#   relative standard deviation [%]:       0.509474
+# datablock:
+#   columns: 8
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        6.816380E+02   0.000000E+00                      1.060090
+      jendl5.0                NDL                  2021        6.822680E+02   0.000000E+00                      1.061070
+      tendl.2023              NDL                  2023        6.889530E+02   0.000000E+00                      1.071467
+      endfb8.1                NDL                  2024        6.816380E+02   0.000000E+00                      1.060090
+      jeff4.0                 NDL                  2025        6.889530E+02   0.000000E+00                      1.071467

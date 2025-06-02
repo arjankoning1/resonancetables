@@ -1,0 +1,61 @@
+# header:
+#   title: Ga071 Ig resonance data
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 31
+#   A: 71
+#   nuclide: Ga071
+# reaction:
+#   type: Ig
+# parameters:
+#   selected value [eV]:  3.230000E+01
+#   selected value uncertainty [eV]:  2.300000E+00
+#   selected value source: Mughabghab-2018
+#   number of values: 17
+#   average value [b]:  2.838098E+01
+#   relative standard deviation [%]:      24.178453
+# quantity:
+#   type: Compilation
+#   average value:  3.203334E+01
+#   relative standard deviation [%]:       2.122380
+# datablock:
+#   columns: 8
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      JUKO                    Compilation          2000        3.110000E+01   1.900000E+00                      0.962848
+      Sukhoruchkin            Compilation          2015        3.270000E+01   1.900000E+00                      1.012384
+      Mughabghab-2018         Compilation          2018        3.230000E+01   2.300000E+00                      1.000000
+# quantity:
+#   type: EXFOR
+#   average value:  2.597500E+01
+#   relative standard deviation [%]:      30.948851
+# datablock:
+#   columns: 8
+#   entries: 10
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      Harris                  EXFOR                1950        1.320000E+01   0.000000E+00       11343011       0.408669
+      Macklin                 EXFOR                1955        1.500000E+01   6.000000E-01       14388025       0.464396
+      Ryves                   EXFOR                1971        2.910000E+01   2.734340E+00       20791005       0.900929
+      Vanderlinden            EXFOR                1972        1.360000E+01   3.000000E-01      206430231       0.421053
+      Gleason                 EXFOR                1975        3.400000E+01   2.000000E+00       10644028       1.052632
+      Heft                    EXFOR                1978        2.970000E+01   4.200000E+00       12866039       0.919505
+      Kimura                  EXFOR                1989        3.026000E+01   1.709690E+00       23491008       0.936842
+      Karadag                 EXFOR                2003        3.230000E+01   2.300000E+00       22861003       1.000000
+      Son                     EXFOR                2011        3.309000E+01   2.970000E+00       31715005       1.024458
+      Krane                   EXFOR                2012        2.950000E+01   1.500000E+00       14342005       0.913313
+# quantity:
+#   type: Nuclear data library
+#   average value:  3.165668E+01
+#   relative standard deviation [%]:       5.479508
+# datablock:
+#   columns: 8
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        3.274870E+01   0.000000E+00                      1.013892
+      jendl5.0                NDL                  2021        3.249200E+01   0.000000E+00                      1.005944
+      tendl.2023              NDL                  2023        2.865730E+01   0.000000E+00                      0.887223
+      endfb8.1                NDL                  2024        3.272870E+01   0.000000E+00                      1.013272

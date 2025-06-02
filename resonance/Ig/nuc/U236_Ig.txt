@@ -1,0 +1,60 @@
+# header:
+#   title: U236 Ig resonance data
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 92
+#   A: 236
+#   nuclide: U236
+# reaction:
+#   type: Ig
+# parameters:
+#   selected value [eV]:  3.500000E+02
+#   selected value uncertainty [eV]:  1.500000E+01
+#   selected value source: Mughabghab-2018
+#   number of values: 16
+#   average value [b]:  3.116883E+02
+#   relative standard deviation [%]:      40.255638
+# quantity:
+#   type: Compilation
+#   average value:  1.197300E+02
+#   relative standard deviation [%]:     135.994293
+# datablock:
+#   columns: 8
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      JUKO                    Compilation          2000        4.100000E+00   1.000000E+00                      0.011714
+      Sukhoruchkin            Compilation          2015        5.090000E+00   1.000000E-01                      0.014543
+      Mughabghab-2018         Compilation          2018        3.500000E+02   1.500000E+01                      1.000000
+# quantity:
+#   type: EXFOR
+#   average value:  3.603750E+02
+#   relative standard deviation [%]:      18.471216
+# datablock:
+#   columns: 8
+#   entries: 8
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      Cabell                  EXFOR                1958        2.570000E+02   2.200000E+01       12449004       0.734286
+      Halperin                EXFOR                1958        4.500000E+02   3.000000E+01      124470032       1.285714
+      Eastwood                EXFOR                1958        2.570000E+02   2.200000E+01       12011024       0.734286
+      Berreth                 EXFOR                1962        3.810000E+02   0.000000E+00       12635007       1.088571
+      Hennelly                EXFOR                1968        4.000000E+02   4.000000E+01       14565006       1.142857
+      Baumann                 EXFOR                1968        4.170000E+02   2.500000E+01       12466002       1.191429
+      Schuman                 EXFOR                1969        3.810000E+02   2.000000E+01       11687010       1.088571
+      Jurova                  EXFOR                1984        3.400000E+02   1.500000E+01       40579011       0.971429
+# quantity:
+#   type: Nuclear data library
+#   average value:  3.489644E+02
+#   relative standard deviation [%]:       2.726111
+# datablock:
+#   columns: 8
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        3.416890E+02   0.000000E+00                      0.976254
+      jendl5.0                NDL                  2021        3.533560E+02   0.000000E+00                      1.009588
+      tendl.2023              NDL                  2023        3.417810E+02   0.000000E+00                      0.976517
+      endfb8.1                NDL                  2024        3.422080E+02   0.000000E+00                      0.977737
+      jeff4.0                 NDL                  2025        3.657880E+02   0.000000E+00                      1.045109

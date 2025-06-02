@@ -1,0 +1,42 @@
+# header:
+#   title: Pu241 If resonance data
+#   source: Resonancetables
+#   date: 2025-05-27
+# target:
+#   Z: 94
+#   A: 241
+#   nuclide: Pu241
+# reaction:
+#   type: If
+# parameters:
+#   selected value [eV]:  5.530000E+02
+#   selected value uncertainty [eV]:  2.000000E+01
+#   selected value source: Mughabghab-2018
+#   number of values: 7
+#   average value [b]:  5.572857E+02
+#   relative standard deviation [%]:       2.321299
+# quantity:
+#   type: Compilation
+#   average value:  5.643333E+02
+#   relative standard deviation [%]:       1.420061
+# datablock:
+#   columns: 8
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      JUKO                    Compilation          2000        5.700000E+02   1.500000E+01                      1.030741
+      Sukhoruchkin            Compilation          2015        5.700000E+02   4.900000E+01                      1.030741
+      Mughabghab-2018         Compilation          2018        5.530000E+02   2.000000E+01                      1.000000
+# quantity:
+#   type: EXFOR
+#   average value:  5.520000E+02
+#   relative standard deviation [%]:       2.427131
+# datablock:
+#   columns: 8
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      Hardyjr                 EXFOR                1961        5.570000E+02   3.300000E+01       12405004       1.007233
+      Bigham                  EXFOR                1964        5.320000E+02   1.600000E+01       12230008       0.962025
+      Bak                     EXFOR                1970        5.500000E+02   4.000000E+01      403490041       0.994575
+      Eiland                  EXFOR                1971        5.690000E+02   3.700000E+01       10143018       1.028933

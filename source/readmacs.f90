@@ -84,7 +84,7 @@ subroutine readmacs(Z, A, Liso, Riso)
         k = k + 1
         res_author(k) = 'Kadonis'
         res_type(k) = 'Compilation'
-        res_year(k) = 2000 
+        res_year(k) = 2010 
         res_ref(k) = ref
         res_av(k) = 'MXW'
         res_xs(k) = 0.001 * xs

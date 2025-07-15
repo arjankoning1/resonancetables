@@ -1,7 +1,7 @@
 # header:
 #   title: Xe136(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-05-27
+#   date: 2025-07-13
 # target:
 #   Z: 54
 #   A: 136
@@ -13,18 +13,18 @@
 #   selected value uncertainty [b]:  2.000000E-02
 #   selected value source: Mughabghab-2018
 #   number of values: 13
-#   average value [b]:  2.038468E+05
-#   relative standard deviation [%]:     346.408936
+#   average value [b]:  6.636885E-01
+#   relative standard deviation [%]:     191.186951
 # quantity:
 #   type: Compilation
-#   average value:  8.833335E+05
-#   relative standard deviation [%]:     141.421310
+#   average value:  2.616667E-01
+#   relative standard deviation [%]:       0.900772
 # datablock:
 #   columns: 10
 #   entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      RIPL-3                  Compilation          2004        2.650000E+06   1.100000E+05               10192308.000000                  2.530000E-08
+      RIPL-3                  Compilation          2004        2.650000E-01   1.100000E-02                      1.019231                  2.530000E-08
       Mughabghab-2006         Compilation          2006        2.600000E-01   2.000000E-02                      1.000000                  2.530000E-08
       Mughabghab-2018         Compilation          2018        2.600000E-01   2.000000E-02                      1.000000                  2.530000E-08
 # quantity:
@@ -52,8 +52,8 @@
       E.Kondaiah              EXFOR                1968        1.300000E-01   1.500000E-02   11883-017-0        0.500000   MXW            2.530000E-08
 # quantity:
 #   type: Nuclear data library
-#   average value:  2.342906E-01
-#   relative standard deviation [%]:      22.254362
+#   average value:  2.341902E-01
+#   relative standard deviation [%]:      22.242687
 # datablock:
 #   columns: 10
 #   entries: 5
@@ -61,6 +61,6 @@
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       cendl3.2                NDL                  2019        2.606910E-01   0.000000E+00                      1.002658                  2.530000E-08
       jendl5.0                NDL                  2021        1.300130E-01   0.000000E+00                      0.500050                  2.530000E-08
-      tendl.2023              NDL                  2023        2.602800E-01   0.000000E+00                      1.001077                  2.530000E-08
       endfb8.1                NDL                  2024        2.606910E-01   0.000000E+00                      1.002658                  2.530000E-08
+      tendl.2025              NDL                  2025        2.597780E-01   0.000000E+00                      0.999146                  2.530000E-08
       jeff4.0                 NDL                  2025        2.597780E-01   0.000000E+00                      0.999146                  2.530000E-08

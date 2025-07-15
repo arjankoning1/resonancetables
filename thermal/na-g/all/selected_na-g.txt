@@ -1,16 +1,16 @@
 # header:
 #   title: (n,a)-g thermal cross section
 #   source: Resonancetables
-#   date: 2025-05-27
+#   date: 2025-07-13
 # reaction:
 #   type: (n,a)-g
 # quantity:
 #   type: thermal cross section
 # datablock:
-#   columns: 9
+#   columns: 12
 #   entries: 3
-##       Z              A            Liso           Value         dValue        Reference    #Experiments     Spectrum        Nuclide
-##      []             []             []             [b]            [b]            []             []             []             []
-        72            180              0        1.300000E-05   0.000000E+00  A.Emsallem            2           MXW                Hf180 
-        73            181              0        1.000000E-06   0.000000E+00  A.Emsallem            1           MXW                Ta181 
-        83            209              0        3.000000E-07   0.000000E+00  A.Emsallem            1           MXW                Bi209 
+##       Z              A            Liso           Value         dValue        Reference   Rel. dev. comp. Rel. dev. NDL  Rel. dev. all  #Experiments     Spectrum        Nuclide
+##      []             []             []             [b]            [b]            []             [%]            [%]            [%]            []             []             []
+        72            180              0        1.300000E-05   0.000000E+00  A.Emsallem            0.00           0.00          84.05           2           MXW                Hf180 
+        73            181              0        1.000000E-06   0.000000E+00  A.Emsallem            0.00           0.00           0.00           1           MXW                Ta181 
+        83            209              0        3.000000E-07   0.000000E+00  A.Emsallem            0.00           0.00           0.00           1           MXW                Bi209 

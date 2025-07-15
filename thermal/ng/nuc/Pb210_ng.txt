@@ -1,7 +1,7 @@
 # header:
 #   title: Pb210(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-05-27
+#   date: 2025-07-13
 # target:
 #   Z: 82
 #   A: 210
@@ -13,7 +13,7 @@
 #   selected value uncertainty [b]:  5.000000E-01
 #   selected value source: Mughabghab-2018
 #   number of values: 6
-#   average value [b]:  4.166707E-01
+#   average value [b]:  4.166427E-01
 #   relative standard deviation [%]:      44.696453
 # quantity:
 #   type: Compilation
@@ -38,13 +38,13 @@
       Mughabghab-2006         Compilation          2006        5.000000E-01   5.000000E-01                      1.000000   MXW            2.530000E-08
 # quantity:
 #   type: Nuclear data library
-#   average value:  3.333414E-01
-#   relative standard deviation [%]:      70.661453
+#   average value:  3.332854E-01
+#   relative standard deviation [%]:      70.661446
 # datablock:
 #   columns: 10
 #   entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       jendl5.0                NDL                  2021        2.320680E-04   0.000000E+00                      0.000464                  2.530000E-08
-      tendl.2023              NDL                  2023        4.999800E-01   0.000000E+00                      0.999960                  2.530000E-08
+      tendl.2025              NDL                  2025        4.998120E-01   0.000000E+00                      0.999624                  2.530000E-08
       jeff4.0                 NDL                  2025        4.998120E-01   0.000000E+00                      0.999624                  2.530000E-08

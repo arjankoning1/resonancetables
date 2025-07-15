@@ -1,7 +1,7 @@
 # header:
 #   title: He003(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-05-27
+#   date: 2025-07-13
 # target:
 #   Z: 2
 #   A: 3
@@ -12,9 +12,9 @@
 #   selected value [b]:  5.500000E-05
 #   selected value uncertainty [b]:  3.000000E-06
 #   selected value source: Mughabghab-2018
-#   number of values: 14
-#   average value [b]:  5.835741E-05
-#   relative standard deviation [%]:      20.198116
+#   number of values: 13
+#   average value [b]:  5.861668E-05
+#   relative standard deviation [%]:      20.802135
 # quantity:
 #   type: Compilation
 #   average value:  5.250000E-05
@@ -62,15 +62,14 @@
       R.Wervelman             EXFOR                1991        5.500000E-05   3.000000E-06   22230-002-0        1.000000   MXW            2.530000E-08
 # quantity:
 #   type: Nuclear data library
-#   average value:  5.460074E-05
-#   relative standard deviation [%]:       0.864250
+#   average value:  5.450420E-05
+#   relative standard deviation [%]:       0.883236
 # datablock:
 #   columns: 10
-#   entries: 5
+#   entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       cendl3.2                NDL                  2019        5.402280E-05   0.000000E+00                      0.982233                  2.530000E-08
       jendl5.0                NDL                  2021        5.402280E-05   0.000000E+00                      0.982233                  2.530000E-08
-      tendl.2023              NDL                  2023        5.498690E-05   0.000000E+00                      0.999762                  2.530000E-08
       endfb8.1                NDL                  2024        5.498430E-05   0.000000E+00                      0.999714                  2.530000E-08
       jeff4.0                 NDL                  2025        5.498690E-05   0.000000E+00                      0.999762                  2.530000E-08

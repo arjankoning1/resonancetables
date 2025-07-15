@@ -1,7 +1,7 @@
 # header:
 #   title: (n,a)-g thermal cross section for EXFOR
 #   source: Resonancetables
-#   date: 2025-05-27
+#   date: 2025-07-13
 # reaction:
 #   type: (n,a)-g
 # quantity:
@@ -10,8 +10,8 @@
 #   columns: 10
 #   entries: 4
 ##       Z              A            Liso           Value         dValue          Ratio        Reference       Author                        Nuclide
-##      []             []             []             [b]            [b]            []             []             []             []             []
-        72            180              0        1.500000E-04   0.000000E+00   1.153846E+01   30421-004-0       J.Kvitek                      Hf180                                                      
-        72            180              0        1.300000E-05   0.000000E+00   1.000000E+00   21537-002-0       A.Emsallem                    Hf180                                                      
-        73            181              0        1.000000E-06   0.000000E+00   1.000000E+00   21537-003-0       A.Emsallem                    Ta181                                                      
-        83            209              0        3.000000E-07   0.000000E+00   1.000000E+00   21537-004-0       A.Emsallem                    Bi209                                                      
+##      []             []             []             [b]            [b]            []             [%]            [%]            [%]            []
+        72            180              0        1.500000E-04   0.000000E+00        11.5385   30421-004-0       J.Kvitek                      Hf180
+        72            180              0        1.300000E-05   0.000000E+00         1.0000   21537-002-0       A.Emsallem                    Hf180
+        73            181              0        1.000000E-06   0.000000E+00         1.0000   21537-003-0       A.Emsallem                    Ta181
+        83            209              0        3.000000E-07   0.000000E+00         1.0000   21537-004-0       A.Emsallem                    Bi209

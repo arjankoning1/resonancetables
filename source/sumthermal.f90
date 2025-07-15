@@ -5,7 +5,7 @@ subroutine sumthermal(Riso, type)
 !
 ! Revision    Date      Author      Quality  Description
 ! ======================================================
-!    1     2025-02-08   A.J. Koning    A     Original code
+!    1     2025-07-11   A.J. Koning    A     Original code
 !-----------------------------------------------------------------------------------------------------------------------------------
 !
 ! *** Use data from other modules
@@ -30,8 +30,8 @@ subroutine sumthermal(Riso, type)
   character(len=15)  :: ref
   character(len=30)  :: auth
   character(len=18)  :: react      ! reaction
-  character(len=15)  :: col(10)     ! header
-  character(len=15)  :: un(10)      ! units
+  character(len=15)  :: col(12)     ! header
+  character(len=15)  :: un(12)      ! units
   character(len=80)  :: quantity   ! quantity
   character(len=132) :: topline    ! topline
   logical            :: lexist
@@ -69,7 +69,7 @@ subroutine sumthermal(Riso, type)
   msource(5) = 'Mughabghab-2018'
   msource(6) = 'cendl3.2'
   msource(7) = 'jendl5.0'
-  msource(8) = 'tendl.2023'
+  msource(8) = 'tendl.2025'
   msource(9) = 'endfb8.1'
   msource(10) = 'jeff4.0'
   msource(11) = 'EXFOR'
@@ -89,15 +89,21 @@ subroutine sumthermal(Riso, type)
   col(4) = 'Value'
   col(5) = 'dValue'
   col(6) = 'Reference'
-  col(7) = '#Experiments'
-  col(8) = 'Spectrum'
-  col(9) = 'Nuclide'
-  Ncol = 9
+  col(7) = 'Rel. dev. comp.'
+  col(8) = 'Rel. dev. NDL'
+  col(9) = 'Rel. dev. all'
+  col(10) = '#Experiments'
+  col(11) = 'Spectrum'
+  col(12) = 'Nuclide'
+  Ncol = 12
   un = ''
   if (type <= 6) then
     un(4) = 'b'
     un(5) = 'b'
   endif
+  un(7) = '%'
+  un(8) = '%'
+  un(9) = '%'
   N = Nsave
   call write_quantity(quantity)
   call write_datablock(Ncol,N,col,un)
@@ -107,8 +113,8 @@ subroutine sumthermal(Riso, type)
     nuclide=trim(nuc(Zsave(k)))//Astring
     if (Lisosave(k) == 1) nuclide = trim(nuclide)//'m'
     if (Lisosave(k) == 2) nuclide = trim(nuclide)//'n'
-    write(1, '(3(6x,i4,5x),2es15.6,2x,a15,4x,i4,11x,a9,10x,a6)') Zsave(k), Asave(k), Lisosave(k), xssave(k), dxssave(k), &
- &     refsave(k), Nexpsave(k), avsave(k), nuclide 
+    write(1, '(3(6x,i4,5x),2es15.6,2x,a15,3(4x,f7.2,4x),4x,i4,11x,a9,10x,a6)') Zsave(k), Asave(k), Lisosave(k), &
+ &     xssave(k), dxssave(k), refsave(k), compsave(k), NDLsave(k), varsave(k), Nexpsave(k), avsave(k), nuclide 
     thermfile=trim(thermalpath)//trim(rfile)//'/nuc/'//trim(nuclide)//'_'//trim(rfile)//'.txt'
     inquire (file = thermfile, exist = lexist)
     if (lexist) then
@@ -131,10 +137,10 @@ subroutine sumthermal(Riso, type)
             if (isource == 11) then
               read(line(1:30), '(a)') auth
               read(line(91:105), '(a)') ref
-              write(ifile, '(3(6x,i4,5x),3es15.6,a15,a30,6x,a6)') Zsave(k), Asave(k), Lisosave(k), xs, dxs, ratio, ref, auth, &
- &              nuclide
+              write(ifile, '(3(6x,i4,5x),2es15.6,f15.4,a15,a30,6x,a6)') Zsave(k), Asave(k), Lisosave(k), xs, dxs, ratio, &
+ &              ref, auth, nuclide
             else
-              write(ifile, '(3(6x,i4,5x),3es15.6,6x,a6)') Zsave(k), Asave(k), Lisosave(k), xs, dxs, ratio, nuclide
+              write(ifile, '(3(6x,i4,5x),2es15.6,f16.4,6x,a6)') Zsave(k), Asave(k), Lisosave(k), xs, dxs, ratio, nuclide
             endif
           endif
         enddo
@@ -176,7 +182,7 @@ subroutine sumthermal(Riso, type)
       call write_quantity(quantity)
       call write_datablock(Ncol,N,col,un)
       do k = 1, N
-        write(1, '(a)') fline(k)
+        write(1, '(a)') trim(fline(k))
       enddo
       close(1)
     else

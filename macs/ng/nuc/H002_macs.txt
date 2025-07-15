@@ -1,7 +1,7 @@
 # header:
 #   title: H002(n,g) MACS
 #   source: Resonancetables
-#   date: 2025-05-27
+#   date: 2025-07-13
 # target:
 #   Z: 1
 #   A: 2
@@ -12,9 +12,9 @@
 #   selected value [b]:  3.000000E-06
 #   selected value uncertainty [b]:  2.000000E-07
 #   selected value source: Kadonis
-#   number of values: 6
-#   average value [b]:  1.971650E-06
-#   relative standard deviation [%]:      24.571457
+#   number of values: 5
+#   average value [b]:  2.029780E-06
+#   relative standard deviation [%]:      25.187180
 # quantity:
 #   type: Compilation spectrum-averaged
 #   average value:  3.000000E-06
@@ -24,18 +24,17 @@
 #   entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      Kadonis                 Compilation          2000        3.000000E-06   2.000000E-07                      1.000000   MXW            3.000000E-02
+      Kadonis                 Compilation          2010        3.000000E-06   2.000000E-07                      1.000000   MXW            3.000000E-02
 # quantity:
 #   type: Nuclear data library
-#   average value:  1.765980E-06
-#   relative standard deviation [%]:       9.448947
+#   average value:  1.787225E-06
+#   relative standard deviation [%]:      10.094580
 # datablock:
 #   columns: 10
-#   entries: 5
+#   entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       cendl3.2                NDL                  2019        1.683300E-06   0.000000E+00                      0.561100   MXW            3.000000E-02
       jendl5.0                NDL                  2021        2.099700E-06   0.000000E+00                      0.699900   MXW            3.000000E-02
-      tendl.2023              NDL                  2023        1.681000E-06   0.000000E+00                      0.560333   MXW            3.000000E-02
       endfb8.1                NDL                  2024        1.684900E-06   0.000000E+00                      0.561633   MXW            3.000000E-02
       jeff4.0                 NDL                  2025        1.681000E-06   0.000000E+00                      0.560333   MXW            3.000000E-02

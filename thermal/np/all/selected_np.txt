@@ -1,41 +1,41 @@
 # header:
 #   title: (n,p) thermal cross section
 #   source: Resonancetables
-#   date: 2025-05-27
+#   date: 2025-07-13
 # reaction:
 #   type: (n,p)
 # quantity:
 #   type: thermal cross section
 # datablock:
-#   columns: 9
+#   columns: 12
 #   entries: 28
-##       Z              A            Liso           Value         dValue        Reference    #Experiments     Spectrum        Nuclide
-##      []             []             []             [b]            [b]            []             []             []             []
-         2              3              0        5.333000E+03   7.000000E+00  Mughabghab-2018       3                              He003 
-         4              7              0        3.882000E+04   8.090000E+02  Mughabghab-2018       4                              Be007 
-         5             10              0        7.000000E-03   1.000000E-03  Mughabghab-2018       1                              B010  
-         7             14              0        1.860000E+00   3.000000E-02  Mughabghab-2018      18                              N014  
-        11             22              0        2.784000E+04   2.400000E+03  Mughabghab-2018       1                              Na022 
-        13             26              0        1.970000E+00   1.000000E-01  Mughabghab-2018       0                              Al026 
-        16             33              0        2.000000E-03   1.000000E-03  Mughabghab-2018       2                              S033  
-        17              0              0        2.200000E-01   0.000000E+00  W.Maurer              1           MXW                Cl000 
-        17             35              0        4.890000E-01   1.400000E-02  Mughabghab-2018      14                              Cl035 
-        17             36              0        4.620000E-02   4.000000E-04  Mughabghab-2018       2                              Cl036 
-        18             36              0        1.000000E-03   0.000000E+00  Mughabghab-2018       1                              Ar036 
-        18             37              0        3.700000E+01   4.000000E+00  Mughabghab-2018       3                              Ar037 
-        19             39              0        5.000000E-05   0.000000E+00  Sukhoruchkin          0                              K039  
-        19             40              0        4.400000E+00   3.000000E-01  Mughabghab-2018       1                              K040  
-        20             41              0        7.000000E-03   2.000000E-03  C.Wagemans            1           MXW                Ca041 
-        22             44              0        2.000000E-01   0.000000E+00  R.Ejnisman            1           MXW                Ti044 
-        23             49              0        7.000000E-04   4.000000E-04  Mughabghab-2018       0                              V049  
-        23             50              0        7.000000E-04   4.000000E-04  Mughabghab-2018       1                              V050  
-        28             58              0        3.000000E-02   3.000000E-03  B.L.Robinson          1           SPA                Ni058 
-        28             59              0        2.000000E+00   5.000000E-01  Mughabghab-2018       2                              Ni059 
-        28             60              0        6.000000E-04   1.000000E-04  B.L.Robinson          1           SPA                Ni060 
-        30             64              0        1.000000E-05   0.000000E+00  Mughabghab-2018       0                              Zn064 
-        30             67              0        1.230000E-03   1.300000E-04  S.Mirzadeh            2           SPA                Zn067 
-        32             72              0        4.400000E-05   7.000000E-06  R.De Neve             1           SPA                Ge072 
-        35             76              0        2.240000E+02   4.200000E+01  Mughabghab-2018       1                              Br076 
-        37             84              0        1.200000E+01   2.000000E+00  Mughabghab-2018       1                              Rb084 
-        56            132              0        7.000000E-04   2.000000E-04  B.L.Robinson          1           SPA                Ba132 
-        56            136              0        2.000000E-07   5.000000E-08  B.L.Robinson          1           SPA                Ba136 
+##       Z              A            Liso           Value         dValue        Reference   Rel. dev. comp. Rel. dev. NDL  Rel. dev. all  #Experiments     Spectrum        Nuclide
+##      []             []             []             [b]            [b]            []             [%]            [%]            [%]            []             []             []
+         2              3              0        5.333000E+03   7.000000E+00  Mughabghab-2018       0.00           0.00           5.87           3                              He003 
+         4              7              0        3.882000E+04   8.090000E+02  Mughabghab-2018       0.23           0.00          11.99           4                              Be007 
+         5             10              0        7.000000E-03   1.000000E-03  Mughabghab-2018       0.00           0.00           4.16           1                              B010  
+         7             14              0        1.860000E+00   3.000000E-02  Mughabghab-2018       0.00           0.00           9.79          18                              N014  
+        11             22              0        2.784000E+04   2.400000E+03  Mughabghab-2018       0.31           0.00           4.13           1                              Na022 
+        13             26              0        1.970000E+00   1.000000E-01  Mughabghab-2018       0.00           0.00           0.00           0                              Al026 
+        16             33              0        2.000000E-03   1.000000E-03  Mughabghab-2018       0.00           0.00         147.37           2                              S033  
+        17              0              0        2.200000E-01   0.000000E+00  W.Maurer              0.00           0.00           0.00           1           MXW                Cl000 
+        17             35              0        4.890000E-01   1.400000E-02  Mughabghab-2018       0.00           0.00          40.49          14                              Cl035 
+        17             36              0        4.620000E-02   4.000000E-04  Mughabghab-2018       0.00           0.00         113.52           2                              Cl036 
+        18             36              0        1.000000E-03   0.000000E+00  Mughabghab-2018      16.67           0.00          16.62           1                              Ar036 
+        18             37              0        3.700000E+01   4.000000E+00  Mughabghab-2018      79.79           0.00          58.20           3                              Ar037 
+        19             39              0        5.000000E-05   0.000000E+00  Sukhoruchkin          0.00           0.00           0.00           0                              K039  
+        19             40              0        4.400000E+00   3.000000E-01  Mughabghab-2018       0.00           0.00          42.13           1                              K040  
+        20             41              0        7.000000E-03   2.000000E-03  C.Wagemans            0.00           0.00           0.00           1           MXW                Ca041 
+        22             44              0        2.000000E-01   0.000000E+00  R.Ejnisman            0.00           0.00           0.00           1           MXW                Ti044 
+        23             49              0        7.000000E-04   4.000000E-04  Mughabghab-2018       0.00           0.00           0.00           0                              V049  
+        23             50              0        7.000000E-04   4.000000E-04  Mughabghab-2018       0.00           0.00           0.67           1                              V050  
+        28             58              0        3.000000E-02   3.000000E-03  B.L.Robinson          0.00           0.00           0.00           1           SPA                Ni058 
+        28             59              0        2.000000E+00   5.000000E-01  Mughabghab-2018       0.00           0.00          41.42           2                              Ni059 
+        28             60              0        6.000000E-04   1.000000E-04  B.L.Robinson          0.00           0.00           0.00           1           SPA                Ni060 
+        30             64              0        1.000000E-05   0.000000E+00  Mughabghab-2018       9.09           0.00           9.09           0                              Zn064 
+        30             67              0        1.230000E-03   1.300000E-04  S.Mirzadeh            0.00           0.00          14.95           2           SPA                Zn067 
+        32             72              0        4.400000E-05   7.000000E-06  R.De Neve             0.00           0.00           0.00           1           SPA                Ge072 
+        35             76              0        2.240000E+02   4.200000E+01  Mughabghab-2018     100.00           0.00          70.71           1                              Br076 
+        37             84              0        1.200000E+01   2.000000E+00  Mughabghab-2018       0.00           0.00           0.00           1                              Rb084 
+        56            132              0        7.000000E-04   2.000000E-04  B.L.Robinson          0.00           0.00           0.00           1           SPA                Ba132 
+        56            136              0        2.000000E-07   5.000000E-08  B.L.Robinson          0.00           0.00           0.00           1           SPA                Ba136 

@@ -263,6 +263,9 @@ Loop2:  do
     dxssave(N) = res_dxs_sel
     refsave(N) = res_author_sel
     Nexpsave(N) = Nres_exp
+    varsave(N) = var_xs
+    compsave(N) = var_xs_comp
+    NDLsave(N) = var_xs_NDL
     do i = 1, Nres
       F = res_xs(i) / res_xs(Nsel)    
       if (F < 0.2 .or. F > 5.) then

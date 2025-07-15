@@ -75,12 +75,12 @@ subroutine resonancetablesinitial
   ndyear(3) = 2025
   ndlib(4) = 'jendl5.0  '
   ndyear(4) = 2021
-  ndlib(5) = 'tendl.2023'
-  ndyear(5) = 2023
+  ndlib(5) = 'tendl.2025'
+  ndyear(5) = 2025
   user = ''
 ! user = 'Arjan Koning'
   source = 'Resonancetables'
-! oformat = 'YANDF-0.2'
+! oformat = 'YANDF-0.3'
   oformat = ''
 !
 ! Cleanup of previous results

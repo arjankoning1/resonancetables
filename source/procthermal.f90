@@ -241,6 +241,9 @@ subroutine procthermal(Z, A, Liso)
     refsave(N) = res_author_sel 
     avsave(N) = res_av_sel 
     Nexpsave(N) = Nres_exp 
+    varsave(N) = var_xs
+    compsave(N) = var_xs_comp 
+    NDLsave(N) = var_xs_NDL 
     do i = 1, Nres
       F = res_xs(i) / res_xs(Nsel)
       if (F < 0.2 .or. F > 5.) then

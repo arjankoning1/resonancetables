@@ -1,25 +1,25 @@
-# header:
+# header: 
 #   title: Pu241(n,f) thermal cross section
 #   source: Resonancetables
-#   date: 2025-07-13
-# target:
+#   date: 2025-08-01
+# target: 
 #   Z: 94
 #   A: 241
 #   nuclide: Pu241
-# reaction:
+# reaction: 
 #   type: (n,f)
-# observables:
+# observables: 
 #   selected value [b]:  1.011100E+03
 #   selected value uncertainty [b]:  6.200000E+00
 #   selected value source: Mughabghab-2018
 #   number of values: 21
 #   average value [b]:  1.008903E+03
-#   relative standard deviation [%]:       4.953436
-# quantity:
+#   relative standard deviation [%]:      4.953436
+# quantity: 
 #   type: Compilation
 #   average value:  1.011050E+03
-#   relative standard deviation [%]:       0.070112
-# datablock:
+#   relative standard deviation [%]:      0.070112
+# datablock: 
 #   columns: 10
 #   entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
@@ -28,11 +28,11 @@
       Mughabghab-2006         Compilation          2006        1.011100E+03   6.200000E+00                      1.000000                  2.530000E-08
       Sukhoruchkin            Compilation          2015        1.012000E+03   0.000000E+00                      1.000890                  2.530000E-08
       Mughabghab-2018         Compilation          2018        1.011100E+03   6.200000E+00                      1.000000                  2.530000E-08
-# quantity:
+# quantity: 
 #   type: EXFOR
 #   average value:  9.931258E+02
-#   relative standard deviation [%]:       4.897508
-# datablock:
+#   relative standard deviation [%]:      4.897508
+# datablock: 
 #   columns: 10
 #   entries: 14
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
@@ -51,11 +51,11 @@
       L.W.Weston              EXFOR                1978        1.010000E+03   0.000000E+00   10768-003-0        0.998912                  2.520000E-08
       C.Wagemans              EXFOR                1991        1.042900E+03   2.009000E+01   22193-002-0        1.031451                  2.532600E-08
       F.Tovesson              EXFOR                2010        9.990600E+02   0.000000E+00   14271-005-0        0.988092                  2.526000E-08
-# quantity:
+# quantity: 
 #   type: EXFOR spectrum-averaged
 #   average value:  1.079667E+03
-#   relative standard deviation [%]:       1.513128
-# datablock:
+#   relative standard deviation [%]:      1.513128
+# datablock: 
 #   columns: 10
 #   entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy

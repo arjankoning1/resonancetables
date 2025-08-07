@@ -1,25 +1,25 @@
-# header:
+# header: 
 #   title: Rh103(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-07-13
-# target:
+#   date: 2025-08-01
+# target: 
 #   Z: 45
 #   A: 103
 #   nuclide: Rh103
-# reaction:
+# reaction: 
 #   type: (n,g)
-# observables:
+# observables: 
 #   selected value [b]:  1.705000E+02
 #   selected value uncertainty [b]:  4.270000E+01
 #   selected value source: Kayzero
 #   number of values: 16
 #   average value [b]:  1.475956E+02
-#   relative standard deviation [%]:       7.712196
-# quantity:
+#   relative standard deviation [%]:      7.712196
+# quantity: 
 #   type: Compilation
 #   average value:  1.492000E+02
-#   relative standard deviation [%]:       7.148682
-# datablock:
+#   relative standard deviation [%]:      7.148682
+# datablock: 
 #   columns: 10
 #   entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
@@ -29,11 +29,11 @@
       Sukhoruchkin            Compilation          2015        1.435000E+02   1.500000E+00                      0.841642                  2.530000E-08
       Kayzero                 Compilation          2018        1.705000E+02   4.270000E+01                      1.000000                  2.530000E-08
       Mughabghab-2018         Compilation          2018        1.435000E+02   1.500000E+00                      0.841642                  2.530000E-08
-# quantity:
+# quantity: 
 #   type: EXFOR
 #   average value:  1.423750E+02
-#   relative standard deviation [%]:       9.348969
-# datablock:
+#   relative standard deviation [%]:      9.348969
+# datablock: 
 #   columns: 10
 #   entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
@@ -42,11 +42,11 @@
       T.Fuketa                EXFOR                1960        1.640000E+02   1.100000E+01   20275-003-0        0.961877                  2.530000E-08
       S.Lee                   EXFOR                2003        1.330000E+02   9.300000E-01   22828-002-0        0.780059                  2.530000E-08
       A.Brusegan              EXFOR                2004        1.425000E+02   1.500000E+00   22906-003-0        0.835777                  2.530000E-08
-# quantity:
+# quantity: 
 #   type: EXFOR spectrum-averaged
 #   average value:  1.570000E+02
-#   relative standard deviation [%]:       6.760800
-# datablock:
+#   relative standard deviation [%]:      6.760800
+# datablock: 
 #   columns: 10
 #   entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
@@ -54,11 +54,11 @@
       S.P.Harris              EXFOR                1950        1.720000E+02   8.600000E+00   11528-026-0        1.008798   SPA            2.530000E-08
       H.Pomerance             EXFOR                1951        1.500000E+02   7.500000E+00   11047-037-0        0.879765   MXW            2.530000E-08
       J.D.Cummins             EXFOR                1957        1.490000E+02   4.000000E+00   21469-007-0        0.873900   MXW            2.530000E-08
-# quantity:
+# quantity: 
 #   type: Nuclear data library
 #   average value:  1.437572E+02
-#   relative standard deviation [%]:       1.178203
-# datablock:
+#   relative standard deviation [%]:      1.178203
+# datablock: 
 #   columns: 10
 #   entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy

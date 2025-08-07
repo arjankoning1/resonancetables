@@ -1,25 +1,25 @@
-# header:
+# header: 
 #   title: Pu240(n,f) thermal cross section
 #   source: Resonancetables
-#   date: 2025-07-13
-# target:
+#   date: 2025-08-01
+# target: 
 #   Z: 94
 #   A: 240
 #   nuclide: Pu240
-# reaction:
+# reaction: 
 #   type: (n,f)
-# observables:
+# observables: 
 #   selected value [b]:  5.600000E-02
 #   selected value uncertainty [b]:  3.000000E-02
 #   selected value source: Mughabghab-2018
 #   number of values: 8
 #   average value [b]:  9.437564E-01
-#   relative standard deviation [%]:     193.132172
-# quantity:
+#   relative standard deviation [%]:    193.132172
+# quantity: 
 #   type: Compilation
 #   average value:  5.501250E-02
-#   relative standard deviation [%]:      13.010127
-# datablock:
+#   relative standard deviation [%]:     13.010127
+# datablock: 
 #   columns: 10
 #   entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
@@ -28,22 +28,22 @@
       Mughabghab-2006         Compilation          2006        5.600000E-02   3.000000E-02                      1.000000                  2.530000E-08
       Sukhoruchkin            Compilation          2015        6.405000E-02   0.000000E+00                      1.143750                  2.530000E-08
       Mughabghab-2018         Compilation          2018        5.600000E-02   3.000000E-02                      1.000000                  2.530000E-08
-# quantity:
+# quantity: 
 #   type: EXFOR
 #   average value:  1.865000E+00
-#   relative standard deviation [%]:      98.391418
-# datablock:
+#   relative standard deviation [%]:     98.391418
+# datablock: 
 #   columns: 10
 #   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       W.W.Pratt               EXFOR                1956        3.700000E+00   8.000000E+00   12509-004-0       66.071426                  2.530000E-08
       T.A.Eastwood            EXFOR                1958        3.000000E-02   4.500000E-02   12011-006-0        0.535714                  2.530000E-08
-# quantity:
+# quantity: 
 #   type: EXFOR spectrum-averaged
 #   average value:  1.800000E+00
-#   relative standard deviation [%]:     144.444443
-# datablock:
+#   relative standard deviation [%]:    144.444443
+# datablock: 
 #   columns: 10
 #   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy

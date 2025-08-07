@@ -1,56 +1,56 @@
-# header:
+# header: 
 #   title: Co057(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-07-13
-# target:
+#   date: 2025-08-01
+# target: 
 #   Z: 27
 #   A: 57
 #   nuclide: Co057
-# reaction:
+# reaction: 
 #   type: (n,g)
-# observables:
+# observables: 
 #   selected value [b]:  5.100000E+01
 #   selected value uncertainty [b]:  5.000000E+00
 #   selected value source: Mughabghab-2018
 #   number of values: 7
 #   average value [b]:  5.091260E+01
-#   relative standard deviation [%]:       0.334470
-# quantity:
+#   relative standard deviation [%]:      0.334470
+# quantity: 
 #   type: Compilation
 #   average value:  5.075000E+01
-#   relative standard deviation [%]:       0.492611
-# datablock:
+#   relative standard deviation [%]:      0.492611
+# datablock: 
 #   columns: 10
 #   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       RIPL-3                  Compilation          2004        5.050000E+01   4.600000E+00                      0.990196                  2.530000E-08
       Mughabghab-2018         Compilation          2018        5.100000E+01   5.000000E+00                      1.000000                  2.530000E-08
-# quantity:
+# quantity: 
 #   type: Compilation spectrum-averaged
 #   average value:  5.100000E+01
-#   relative standard deviation [%]:       0.000000
-# datablock:
+#   relative standard deviation [%]:      0.000000
+# datablock: 
 #   columns: 10
 #   entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       Mughabghab-2006         Compilation          2006        5.100000E+01   5.000000E+00                      1.000000   MXW            2.530000E-08
-# quantity:
+# quantity: 
 #   type: EXFOR spectrum-averaged
 #   average value:  5.100000E+01
-#   relative standard deviation [%]:       0.000000
-# datablock:
+#   relative standard deviation [%]:      0.000000
+# datablock: 
 #   columns: 10
 #   entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       N.L.Maidana             EXFOR                2004        5.100000E+01   5.000000E+00   31547-002-0        1.000000   MXW            2.530000E-08
-# quantity:
+# quantity: 
 #   type: Nuclear data library
 #   average value:  5.096273E+01
-#   relative standard deviation [%]:       0.054206
-# datablock:
+#   relative standard deviation [%]:      0.054206
+# datablock: 
 #   columns: 10
 #   entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy

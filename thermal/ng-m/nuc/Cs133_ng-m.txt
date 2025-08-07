@@ -1,46 +1,46 @@
-# header:
+# header: 
 #   title: Cs133(n,g)-m thermal cross section
 #   source: Resonancetables
-#   date: 2025-07-13
-# target:
+#   date: 2025-08-01
+# target: 
 #   Z: 55
 #   A: 133
 #   nuclide: Cs133
-# reaction:
+# reaction: 
 #   type: (n,g)-m
-# observables:
+# observables: 
 #   selected value [b]:  2.700000E+00
 #   selected value uncertainty [b]:  1.300000E-01
 #   selected value source: RIPL-3
 #   number of values: 8
 #   average value [b]:  2.372000E+00
-#   relative standard deviation [%]:      37.824741
-# quantity:
+#   relative standard deviation [%]:     37.824741
+# quantity: 
 #   type: Compilation
 #   average value:  2.700000E+00
-#   relative standard deviation [%]:       0.000000
-# datablock:
+#   relative standard deviation [%]:      0.000000
+# datablock: 
 #   columns: 10
 #   entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       RIPL-3                  Compilation          2004        2.700000E+00   1.300000E-01                      1.000000                  2.530000E-08
-# quantity:
+# quantity: 
 #   type: EXFOR
 #   average value:  2.755000E+00
-#   relative standard deviation [%]:       0.544464
-# datablock:
+#   relative standard deviation [%]:      0.544464
+# datablock: 
 #   columns: 10
 #   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       F.De Corte              EXFOR                1988        2.740000E+00   8.220000E-02   23488-057-1        1.014815                  2.530000E-08
       M.Karadag               EXFOR                2014        2.770000E+00   1.400000E-01   23202-006-0        1.025926                  2.530000E-08
-# quantity:
+# quantity: 
 #   type: EXFOR spectrum-averaged
 #   average value:  2.153200E+00
-#   relative standard deviation [%]:      50.015812
-# datablock:
+#   relative standard deviation [%]:     50.015812
+# datablock: 
 #   columns: 10
 #   entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy

@@ -1,25 +1,25 @@
-# header:
+# header: 
 #   title: Hf174(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-07-13
-# target:
+#   date: 2025-08-01
+# target: 
 #   Z: 72
 #   A: 174
 #   nuclide: Hf174
-# reaction:
+# reaction: 
 #   type: (n,g)
-# observables:
+# observables: 
 #   selected value [b]:  5.760000E+02
 #   selected value uncertainty [b]:  3.600000E+01
 #   selected value source: Kayzero
 #   number of values: 17
 #   average value [b]:  6.613834E+02
-#   relative standard deviation [%]:      63.876625
-# quantity:
+#   relative standard deviation [%]:     63.876625
+# quantity: 
 #   type: Compilation
 #   average value:  5.844000E+02
-#   relative standard deviation [%]:       6.340615
-# datablock:
+#   relative standard deviation [%]:      6.340615
+# datablock: 
 #   columns: 10
 #   entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
@@ -29,11 +29,11 @@
       Sukhoruchkin            Compilation          2015        5.490000E+02   7.000000E+00                      0.953125                  2.530000E-08
       Kayzero                 Compilation          2018        5.760000E+02   3.600000E+01                      1.000000                  2.530000E-08
       Mughabghab-2018         Compilation          2018        5.490000E+02   8.000000E+00                      0.953125                  2.530000E-08
-# quantity:
+# quantity: 
 #   type: EXFOR
 #   average value:  9.090000E+02
-#   relative standard deviation [%]:      78.549522
-# datablock:
+#   relative standard deviation [%]:     78.549522
+# datablock: 
 #   columns: 10
 #   entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
@@ -43,22 +43,22 @@
       F.De Corte              EXFOR                1988        5.490000E+02   9.882000E+00   23488-080-0        0.953125                  2.530000E-08
       F.Farina Arbocco        EXFOR                2014        5.490000E+02   0.000000E+00   23260-132-0        0.953125                  2.530000E-08
       F.Farina Arbocco        EXFOR                2014        5.490000E+02   6.000000E+00   23260-131-0        0.953125                  2.530000E-08
-# quantity:
+# quantity: 
 #   type: EXFOR spectrum-averaged
 #   average value:  4.450000E+02
-#   relative standard deviation [%]:      12.359550
-# datablock:
+#   relative standard deviation [%]:     12.359550
+# datablock: 
 #   columns: 10
 #   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       H.Pomerance             EXFOR                1952        5.000000E+02   5.000000E+02   11507-084-0        0.868056   MXW            2.530000E-08
       L.Esch                  EXFOR                1961        3.900000E+02   5.500000E+01   11989-004-0        0.677083   MXW            2.530000E-08
-# quantity:
+# quantity: 
 #   type: Nuclear data library
 #   average value:  5.773036E+02
-#   relative standard deviation [%]:       6.467531
-# datablock:
+#   relative standard deviation [%]:      6.467531
+# datablock: 
 #   columns: 10
 #   entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy

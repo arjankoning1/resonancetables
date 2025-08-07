@@ -1,46 +1,46 @@
-# header:
+# header: 
 #   title: Hg198(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-07-13
-# target:
+#   date: 2025-08-01
+# target: 
 #   Z: 80
 #   A: 198
 #   nuclide: Hg198
-# reaction:
+# reaction: 
 #   type: (n,g)
-# observables:
+# observables: 
 #   selected value [b]:  1.990000E+00
 #   selected value uncertainty [b]:  3.000000E-01
 #   selected value source: Sukhoruchkin
 #   number of values: 7
 #   average value [b]:  1.999171E+00
-#   relative standard deviation [%]:       0.577270
-# quantity:
+#   relative standard deviation [%]:      0.577270
+# quantity: 
 #   type: Compilation
 #   average value:  2.017000E+00
-#   relative standard deviation [%]:       0.000000
-# datablock:
+#   relative standard deviation [%]:      0.000000
+# datablock: 
 #   columns: 10
 #   entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       RIPL-3                  Compilation          2004        2.017000E+00   3.450000E-01                      1.013568                  2.530000E-08
-# quantity:
+# quantity: 
 #   type: Compilation spectrum-averaged
 #   average value:  1.995000E+00
-#   relative standard deviation [%]:       0.250626
-# datablock:
+#   relative standard deviation [%]:      0.250626
+# datablock: 
 #   columns: 10
 #   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       Mughabghab-2006         Compilation          2006        2.000000E+00   3.000000E-01                      1.005025   MXW            2.530000E-08
       Sukhoruchkin            Compilation          2015        1.990000E+00   3.000000E-01                      1.000000   MXW            2.530000E-08
-# quantity:
+# quantity: 
 #   type: Nuclear data library
 #   average value:  1.996800E+00
-#   relative standard deviation [%]:       0.563901
-# datablock:
+#   relative standard deviation [%]:      0.563901
+# datablock: 
 #   columns: 10
 #   entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy

@@ -1,25 +1,25 @@
-# header:
+# header: 
 #   title: Eu153(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-07-13
-# target:
+#   date: 2025-08-01
+# target: 
 #   Z: 63
 #   A: 153
 #   nuclide: Eu153
-# reaction:
+# reaction: 
 #   type: (n,g)
-# observables:
+# observables: 
 #   selected value [b]:  3.100000E+02
 #   selected value uncertainty [b]:  1.200000E+01
 #   selected value source: Kayzero
 #   number of values: 32
 #   average value [b]:  3.527000E+02
-#   relative standard deviation [%]:      27.848520
-# quantity:
+#   relative standard deviation [%]:     27.848520
+# quantity: 
 #   type: Compilation
 #   average value:  3.085000E+02
-#   relative standard deviation [%]:       1.612621
-# datablock:
+#   relative standard deviation [%]:      1.612621
+# datablock: 
 #   columns: 10
 #   entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
@@ -28,21 +28,21 @@
       Mughabghab-2006         Compilation          2006        3.120000E+02   7.000000E+00                      1.006452                  2.530000E-08
       Kayzero                 Compilation          2018        3.100000E+02   1.200000E+01                      1.000000                  2.530000E-08
       Mughabghab-2018         Compilation          2018        3.120000E+02   7.000000E+00                      1.006452                  2.530000E-08
-# quantity:
+# quantity: 
 #   type: Compilation spectrum-averaged
 #   average value:  3.580000E+02
-#   relative standard deviation [%]:       0.000000
-# datablock:
+#   relative standard deviation [%]:      0.000000
+# datablock: 
 #   columns: 10
 #   entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       Sukhoruchkin            Compilation          2015        3.580000E+02   8.000000E+00                      1.154839   MXW            2.530000E-08
-# quantity:
+# quantity: 
 #   type: EXFOR
 #   average value:  3.580625E+02
-#   relative standard deviation [%]:      26.180111
-# datablock:
+#   relative standard deviation [%]:     26.180111
+# datablock: 
 #   columns: 10
 #   entries: 20
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
@@ -67,22 +67,22 @@
       F.Farina Arbocco        EXFOR                2014        3.120000E+02   0.000000E+00   23260-116-0        1.006452                  2.530000E-08
       F.Farina Arbocco        EXFOR                2014        3.120000E+02   3.000000E+00   23260-115-0        1.006452                  2.530000E-08
       J.Lee                   EXFOR                2018        3.581000E+02   1.971000E+01   23416-003-0        1.155161                  2.530000E-08
-# quantity:
+# quantity: 
 #   type: EXFOR spectrum-averaged
 #   average value:  4.590000E+02
-#   relative standard deviation [%]:      47.712418
-# datablock:
+#   relative standard deviation [%]:     47.712418
+# datablock: 
 #   columns: 10
 #   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       R.J.Hayden              EXFOR                1949        2.400000E+02   0.000000E+00   12138-003-0        0.774194   SPA            2.530000E-08
       G.H.E.Sims              EXFOR                1967        6.780000E+02   8.000000E+00   12090-010-0        2.187097   MXW            2.530000E-08
-# quantity:
+# quantity: 
 #   type: Nuclear data library
 #   average value:  3.230298E+02
-#   relative standard deviation [%]:       5.419353
-# datablock:
+#   relative standard deviation [%]:      5.419353
+# datablock: 
 #   columns: 10
 #   entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy

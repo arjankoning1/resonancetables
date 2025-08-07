@@ -1,56 +1,56 @@
-# header:
+# header: 
 #   title: Xe133(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-07-13
-# target:
+#   date: 2025-08-01
+# target: 
 #   Z: 54
 #   A: 133
 #   nuclide: Xe133
-# reaction:
+# reaction: 
 #   type: (n,g)
-# observables:
+# observables: 
 #   selected value [b]:  1.900000E+02
 #   selected value uncertainty [b]:  9.000000E+01
 #   selected value source: Mughabghab-2018
 #   number of values: 9
 #   average value [b]:  1.686744E+02
-#   relative standard deviation [%]:      35.305393
-# quantity:
+#   relative standard deviation [%]:     35.305393
+# quantity: 
 #   type: Compilation
 #   average value:  1.900000E+02
-#   relative standard deviation [%]:       0.000000
-# datablock:
+#   relative standard deviation [%]:      0.000000
+# datablock: 
 #   columns: 10
 #   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       RIPL-3                  Compilation          2004        1.900000E+02   9.000000E+01                      1.000000                  2.530000E-08
       Mughabghab-2018         Compilation          2018        1.900000E+02   9.000000E+01                      1.000000                  2.530000E-08
-# quantity:
+# quantity: 
 #   type: Compilation spectrum-averaged
 #   average value:  1.900000E+02
-#   relative standard deviation [%]:       0.000000
-# datablock:
+#   relative standard deviation [%]:      0.000000
+# datablock: 
 #   columns: 10
 #   entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       Mughabghab-2006         Compilation          2006        1.900000E+02   9.000000E+01                      1.000000   MXW            2.530000E-08
-# quantity:
+# quantity: 
 #   type: EXFOR spectrum-averaged
 #   average value:  1.880000E+02
-#   relative standard deviation [%]:       0.000000
-# datablock:
+#   relative standard deviation [%]:      0.000000
+# datablock: 
 #   columns: 10
 #   entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       T.J.Kennet              EXFOR                1958        1.880000E+02   8.900000E+01   12016-004-0        0.989474   MXW            2.530000E-08
-# quantity:
+# quantity: 
 #   type: Nuclear data library
 #   average value:  1.520139E+02
-#   relative standard deviation [%]:      49.918663
-# datablock:
+#   relative standard deviation [%]:     49.918663
+# datablock: 
 #   columns: 10
 #   entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy

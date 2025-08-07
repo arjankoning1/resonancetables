@@ -1,25 +1,25 @@
-# header:
+# header: 
 #   title: Pa231(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-07-13
-# target:
+#   date: 2025-08-01
+# target: 
 #   Z: 91
 #   A: 231
 #   nuclide: Pa231
-# reaction:
+# reaction: 
 #   type: (n,g)
-# observables:
+# observables: 
 #   selected value [b]:  2.002000E+02
 #   selected value uncertainty [b]:  2.300000E+00
 #   selected value source: Mughabghab-2018
 #   number of values: 16
 #   average value [b]:  2.098498E+02
-#   relative standard deviation [%]:      13.163517
-# quantity:
+#   relative standard deviation [%]:     13.163517
+# quantity: 
 #   type: Compilation
 #   average value:  2.004667E+02
-#   relative standard deviation [%]:       0.094064
-# datablock:
+#   relative standard deviation [%]:      0.094064
+# datablock: 
 #   columns: 10
 #   entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
@@ -27,22 +27,22 @@
       Mughabghab-2006         Compilation          2006        2.006000E+02   2.300000E+00                      1.001998                  2.530000E-08
       Sukhoruchkin            Compilation          2015        2.006000E+02   2.300000E+00                      1.001998                  2.530000E-08
       Mughabghab-2018         Compilation          2018        2.002000E+02   2.300000E+00                      1.000000                  2.530000E-08
-# quantity:
+# quantity: 
 #   type: EXFOR
 #   average value:  2.395000E+02
-#   relative standard deviation [%]:       8.559499
-# datablock:
+#   relative standard deviation [%]:      8.559499
+# datablock: 
 #   columns: 10
 #   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       B.M.Aleksandrov         EXFOR                1972        2.600000E+02   1.300000E+01   40163-002-0        1.298701                  2.530000E-08
       L.N.Jurova              EXFOR                1984        2.190000E+02   6.000000E+00   40579-003-0        1.093906                  2.530000E-08
-# quantity:
+# quantity: 
 #   type: EXFOR spectrum-averaged
 #   average value:  2.105714E+02
-#   relative standard deviation [%]:      17.041328
-# datablock:
+#   relative standard deviation [%]:     17.041328
+# datablock: 
 #   columns: 10
 #   entries: 7
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
@@ -54,11 +54,11 @@
       E.M.Gryntakis           EXFOR                1974        2.180000E+02   1.400000E+01   20634-002-0        1.088911   MXW            2.530000E-08
       E.M.Gryntakis           EXFOR                1974        2.010000E+02   2.200000E+01   20634-002-0        1.003996   MXW            2.530000E-08
       T.Hashimoto             EXFOR                1988        1.860000E+02   1.300000E+01   23227-002-0        0.929071   MXW            2.530000E-08
-# quantity:
+# quantity: 
 #   type: Nuclear data library
 #   average value:  2.007990E+02
-#   relative standard deviation [%]:       0.247516
-# datablock:
+#   relative standard deviation [%]:      0.247516
+# datablock: 
 #   columns: 10
 #   entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy

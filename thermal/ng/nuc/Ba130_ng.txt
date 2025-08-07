@@ -1,47 +1,47 @@
-# header:
+# header: 
 #   title: Ba130(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-07-13
-# target:
+#   date: 2025-08-01
+# target: 
 #   Z: 56
 #   A: 130
 #   nuclide: Ba130
-# reaction:
+# reaction: 
 #   type: (n,g)
-# observables:
+# observables: 
 #   selected value [b]:  7.930000E+00
 #   selected value uncertainty [b]:  1.000000E-01
 #   selected value source: Kayzero
 #   number of values: 23
 #   average value [b]:  7.792603E+00
-#   relative standard deviation [%]:      21.573294
-# quantity:
+#   relative standard deviation [%]:     21.573294
+# quantity: 
 #   type: Compilation
 #   average value:  8.015000E+00
-#   relative standard deviation [%]:       1.060515
-# datablock:
+#   relative standard deviation [%]:      1.060515
+# datablock: 
 #   columns: 10
 #   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       Kayzero                 Compilation          2018        7.930000E+00   1.000000E-01                      1.000000                  2.530000E-08
       Mughabghab-2018         Compilation          2018        8.100000E+00   1.900000E-01                      1.021438                  2.530000E-08
-# quantity:
+# quantity: 
 #   type: Compilation spectrum-averaged
 #   average value:  8.700000E+00
-#   relative standard deviation [%]:       0.000000
-# datablock:
+#   relative standard deviation [%]:      0.000000
+# datablock: 
 #   columns: 10
 #   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       Mughabghab-2006         Compilation          2006        8.700000E+00   9.000000E-01                      1.097100   MXW            2.530000E-08
       Sukhoruchkin            Compilation          2015        8.700000E+00   9.000000E-01                      1.097100   MXW            2.530000E-08
-# quantity:
+# quantity: 
 #   type: EXFOR
 #   average value:  8.002501E+00
-#   relative standard deviation [%]:       2.231946
-# datablock:
+#   relative standard deviation [%]:      2.231946
+# datablock: 
 #   columns: 10
 #   entries: 12
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
@@ -58,22 +58,22 @@
       F.Farina Arbocco        EXFOR                2013        7.890000E+00   0.000000E+00   23266-111-0        0.994956                  2.530000E-08
       F.Farina Arbocco        EXFOR                2013        8.440000E+00   0.000000E+00   23266-111-0        1.064313                  2.530000E-08
       F.Farina Arbocco        EXFOR                2013        8.190000E+00   0.000000E+00   23266-111-0        1.032787                  2.530000E-08
-# quantity:
+# quantity: 
 #   type: EXFOR spectrum-averaged
 #   average value:  4.012000E+00
-#   relative standard deviation [%]:      99.401794
-# datablock:
+#   relative standard deviation [%]:     99.401794
+# datablock: 
 #   columns: 10
 #   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       L.Yaffe                 EXFOR                1949        2.400000E-02   8.000000E-03   14718-002-0        0.003026   SPA            2.530000E-08
       F.Farina Arbocco        EXFOR                2013        8.000000E+00   1.900000E-01   23266-110-0        1.008827   AV             2.530000E-08
-# quantity:
+# quantity: 
 #   type: Nuclear data library
 #   average value:  8.349171E+00
-#   relative standard deviation [%]:       3.333082
-# datablock:
+#   relative standard deviation [%]:      3.333082
+# datablock: 
 #   columns: 10
 #   entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy

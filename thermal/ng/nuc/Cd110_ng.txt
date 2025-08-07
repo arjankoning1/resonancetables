@@ -1,68 +1,68 @@
-# header:
+# header: 
 #   title: Cd110(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-07-13
-# target:
+#   date: 2025-08-01
+# target: 
 #   Z: 48
 #   A: 110
 #   nuclide: Cd110
-# reaction:
+# reaction: 
 #   type: (n,g)
-# observables:
+# observables: 
 #   selected value [b]:  1.100000E+01
 #   selected value uncertainty [b]:  1.000000E+00
 #   selected value source: Mughabghab-2018
 #   number of values: 11
 #   average value [b]:  1.004211E+01
-#   relative standard deviation [%]:      30.994593
-# quantity:
+#   relative standard deviation [%]:     30.994593
+# quantity: 
 #   type: Compilation
 #   average value:  1.103000E+01
-#   relative standard deviation [%]:       0.271987
-# datablock:
+#   relative standard deviation [%]:      0.271987
+# datablock: 
 #   columns: 10
 #   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       RIPL-3                  Compilation          2004        1.106000E+01   1.000000E+00                      1.005455                  2.530000E-08
       Mughabghab-2018         Compilation          2018        1.100000E+01   1.000000E+00                      1.000000                  2.530000E-08
-# quantity:
+# quantity: 
 #   type: Compilation spectrum-averaged
 #   average value:  1.100000E+01
-#   relative standard deviation [%]:       0.000000
-# datablock:
+#   relative standard deviation [%]:      0.000000
+# datablock: 
 #   columns: 10
 #   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       Mughabghab-2006         Compilation          2006        1.100000E+01   1.000000E+00                      1.000000   MXW            2.530000E-08
       Sukhoruchkin            Compilation          2015        1.100000E+01   1.000000E+00                      1.000000   MXW            2.530000E-08
-# quantity:
+# quantity: 
 #   type: EXFOR
 #   average value:  5.599500E+00
-#   relative standard deviation [%]:      96.428261
-# datablock:
+#   relative standard deviation [%]:     96.428261
+# datablock: 
 #   columns: 10
 #   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       M.Goldhaber             EXFOR                1947        2.000000E-01   0.000000E+00   11986-002-0        0.018182                  2.530000E-08
       K.Volev                 EXFOR                2013        1.099900E+01   0.000000E+00   23196-004-2        0.999909                  2.530000E-08
-# quantity:
+# quantity: 
 #   type: EXFOR spectrum-averaged
 #   average value:  1.100000E+01
-#   relative standard deviation [%]:       0.000000
-# datablock:
+#   relative standard deviation [%]:      0.000000
+# datablock: 
 #   columns: 10
 #   entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       C.R.Baldock             EXFOR                1966        1.100000E+01   1.000000E+00   11769-002-0        1.000000   SPA            2.530000E-08
-# quantity:
+# quantity: 
 #   type: Nuclear data library
 #   average value:  1.105105E+01
-#   relative standard deviation [%]:       0.288136
-# datablock:
+#   relative standard deviation [%]:      0.288136
+# datablock: 
 #   columns: 10
 #   entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy

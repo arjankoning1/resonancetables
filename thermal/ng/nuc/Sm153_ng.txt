@@ -1,45 +1,45 @@
-# header:
+# header: 
 #   title: Sm153(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-07-13
-# target:
+#   date: 2025-08-01
+# target: 
 #   Z: 62
 #   A: 153
 #   nuclide: Sm153
-# reaction:
+# reaction: 
 #   type: (n,g)
-# observables:
+# observables: 
 #   selected value [b]:  4.200000E+02
 #   selected value uncertainty [b]:  1.800000E+02
 #   selected value source: RIPL-3
 #   number of values: 6
 #   average value [b]:  5.349869E+03
-#   relative standard deviation [%]:     206.058731
-# quantity:
+#   relative standard deviation [%]:    206.058731
+# quantity: 
 #   type: Compilation
 #   average value:  4.200000E+02
-#   relative standard deviation [%]:       0.000000
-# datablock:
+#   relative standard deviation [%]:      0.000000
+# datablock: 
 #   columns: 10
 #   entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       RIPL-3                  Compilation          2004        4.200000E+02   1.800000E+02                      1.000000                  2.530000E-08
-# quantity:
+# quantity: 
 #   type: EXFOR spectrum-averaged
 #   average value:  3.000000E+04
-#   relative standard deviation [%]:       0.000000
-# datablock:
+#   relative standard deviation [%]:      0.000000
+# datablock: 
 #   columns: 10
 #   entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       W.H.Walker              EXFOR                1956        3.000000E+04   1.200000E+04   12127-009-0       71.428574   SPA            2.530000E-08
-# quantity:
+# quantity: 
 #   type: Nuclear data library
 #   average value:  4.198037E+02
-#   relative standard deviation [%]:       0.051400
-# datablock:
+#   relative standard deviation [%]:      0.051400
+# datablock: 
 #   columns: 10
 #   entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy

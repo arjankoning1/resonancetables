@@ -1,25 +1,25 @@
-# header:
+# header: 
 #   title: Mo100(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-07-13
-# target:
+#   date: 2025-08-01
+# target: 
 #   Z: 42
 #   A: 100
 #   nuclide: Mo100
-# reaction:
+# reaction: 
 #   type: (n,g)
-# observables:
+# observables: 
 #   selected value [b]:  1.930000E-01
 #   selected value uncertainty [b]:  5.000000E-03
 #   selected value source: Kayzero
 #   number of values: 26
 #   average value [b]:  2.212207E-01
-#   relative standard deviation [%]:      34.860786
-# quantity:
+#   relative standard deviation [%]:     34.860786
+# quantity: 
 #   type: Compilation
 #   average value:  1.940000E-01
-#   relative standard deviation [%]:       1.928690
-# datablock:
+#   relative standard deviation [%]:      1.928690
+# datablock: 
 #   columns: 10
 #   entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
@@ -27,22 +27,22 @@
       RIPL-3                  Compilation          2004        1.900000E-01   1.000000E-02                      0.984456                  2.530000E-08
       Kayzero                 Compilation          2018        1.930000E-01   5.000000E-03                      1.000000                  2.530000E-08
       Mughabghab-2018         Compilation          2018        1.990000E-01   3.000000E-03                      1.031088                  2.530000E-08
-# quantity:
+# quantity: 
 #   type: Compilation spectrum-averaged
 #   average value:  1.990000E-01
-#   relative standard deviation [%]:       0.000000
-# datablock:
+#   relative standard deviation [%]:      0.000000
+# datablock: 
 #   columns: 10
 #   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       Mughabghab-2006         Compilation          2006        1.990000E-01   3.000000E-03                      1.031088   MXW            2.530000E-08
       Sukhoruchkin            Compilation          2015        1.990000E-01   3.000000E-03                      1.031088   MXW            2.530000E-08
-# quantity:
+# quantity: 
 #   type: EXFOR
 #   average value:  2.016667E-01
-#   relative standard deviation [%]:       2.710945
-# datablock:
+#   relative standard deviation [%]:      2.710945
+# datablock: 
 #   columns: 10
 #   entries: 12
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
@@ -59,11 +59,11 @@
       F.Farina Arbocco        EXFOR                2014        2.000000E-01   0.000000E+00   23260-079-0        1.036269                  2.530000E-08
       F.Farina Arbocco        EXFOR                2014        2.010000E-01   0.000000E+00   23260-079-0        1.041451                  2.530000E-08
       F.Farina Arbocco        EXFOR                2014        2.010000E-01   1.000000E-03   23260-078-0        1.041451                  2.530000E-08
-# quantity:
+# quantity: 
 #   type: EXFOR spectrum-averaged
 #   average value:  3.407000E-01
-#   relative standard deviation [%]:      43.178768
-# datablock:
+#   relative standard deviation [%]:     43.178768
+# datablock: 
 #   columns: 10
 #   entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
@@ -72,11 +72,11 @@
       H.Pomerance             EXFOR                1952        5.000000E-01   5.000000E-01   11507-055-0        2.590673   MXW            2.530000E-08
       M.J.Cabell              EXFOR                1960        1.990000E-01   5.000000E-03   20639-002-0        1.031088   MXW            2.530000E-08
       J.M.Wyrick              EXFOR                1982        1.888000E-01   6.900000E-03   12831-005-0        0.978238   MXW            2.530000E-08
-# quantity:
+# quantity: 
 #   type: Nuclear data library
 #   average value:  1.977876E-01
-#   relative standard deviation [%]:       1.019880
-# datablock:
+#   relative standard deviation [%]:      1.019880
+# datablock: 
 #   columns: 10
 #   entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy

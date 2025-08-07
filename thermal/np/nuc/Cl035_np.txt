@@ -1,47 +1,47 @@
-# header:
+# header: 
 #   title: Cl035(n,p) thermal cross section
 #   source: Resonancetables
-#   date: 2025-07-13
-# target:
+#   date: 2025-08-01
+# target: 
 #   Z: 17
 #   A: 35
 #   nuclide: Cl035
-# reaction:
+# reaction: 
 #   type: (n,p)
-# observables:
+# observables: 
 #   selected value [b]:  4.890000E-01
 #   selected value uncertainty [b]:  1.400000E-02
 #   selected value source: Mughabghab-2018
 #   number of values: 16
 #   average value [b]:  3.886481E-01
-#   relative standard deviation [%]:      40.485882
-# quantity:
+#   relative standard deviation [%]:     40.485882
+# quantity: 
 #   type: Compilation
 #   average value:  4.890000E-01
-#   relative standard deviation [%]:       0.000000
-# datablock:
+#   relative standard deviation [%]:      0.000000
+# datablock: 
 #   columns: 10
 #   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       Sukhoruchkin            Compilation          2015        4.890000E-01   1.400000E-02                      1.000000                  2.530000E-08
       Mughabghab-2018         Compilation          2018        4.890000E-01   1.400000E-02                      1.000000                  2.530000E-08
-# quantity:
+# quantity: 
 #   type: EXFOR
 #   average value:  2.446850E-01
-#   relative standard deviation [%]:      99.848785
-# datablock:
+#   relative standard deviation [%]:     99.848785
+# datablock: 
 #   columns: 10
 #   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       W.Koehler               EXFOR                1966        3.700000E-04   2.000000E-05   21354-002-0        0.000757                  2.530000E-08
       G.H.E.Sims              EXFOR                1969        4.890000E-01   1.400000E-02   10042-002-0        1.000000                  2.530000E-08
-# quantity:
+# quantity: 
 #   type: EXFOR spectrum-averaged
 #   average value:  3.959167E-01
-#   relative standard deviation [%]:      33.771198
-# datablock:
+#   relative standard deviation [%]:     33.771198
+# datablock: 
 #   columns: 10
 #   entries: 12
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy

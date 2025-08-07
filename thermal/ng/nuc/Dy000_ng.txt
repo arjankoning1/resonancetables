@@ -1,46 +1,46 @@
-# header:
+# header: 
 #   title: Dy000(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-07-13
-# target:
+#   date: 2025-08-01
+# target: 
 #   Z: 66
 #   A: 0
 #   nuclide: Dy000
-# reaction:
+# reaction: 
 #   type: (n,g)
-# observables:
+# observables: 
 #   selected value [b]:  9.940000E+02
 #   selected value uncertainty [b]:  1.300000E+01
 #   selected value source: Firestone
 #   number of values: 5
 #   average value [b]:  9.380660E+02
-#   relative standard deviation [%]:       3.661974
-# quantity:
+#   relative standard deviation [%]:      3.661974
+# quantity: 
 #   type: Compilation spectrum-averaged
 #   average value:  9.940000E+02
-#   relative standard deviation [%]:       0.000000
-# datablock:
+#   relative standard deviation [%]:      0.000000
+# datablock: 
 #   columns: 10
 #   entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       Firestone               Compilation          2022        9.940000E+02   1.300000E+01                      1.000000   MXW            2.530000E-08
-# quantity:
+# quantity: 
 #   type: EXFOR
 #   average value:  9.281650E+02
-#   relative standard deviation [%]:       0.844138
-# datablock:
+#   relative standard deviation [%]:      0.844138
+# datablock: 
 #   columns: 10
 #   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       J.W.Meadows             EXFOR                1961        9.360000E+02   2.000000E+01   11028-022-0        0.941650                  2.530000E-08
       F.Widder                EXFOR                1975        9.203300E+02   2.114000E+01   20437-008-0        0.925885                  2.538000E-08
-# quantity:
+# quantity: 
 #   type: EXFOR spectrum-averaged
 #   average value:  9.200000E+02
-#   relative standard deviation [%]:       3.260870
-# datablock:
+#   relative standard deviation [%]:      3.260870
+# datablock: 
 #   columns: 10
 #   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy

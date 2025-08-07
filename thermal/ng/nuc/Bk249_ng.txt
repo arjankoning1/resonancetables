@@ -1,25 +1,25 @@
-# header:
+# header: 
 #   title: Bk249(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-07-13
-# target:
+#   date: 2025-08-01
+# target: 
 #   Z: 97
 #   A: 249
 #   nuclide: Bk249
-# reaction:
+# reaction: 
 #   type: (n,g)
-# observables:
+# observables: 
 #   selected value [b]:  7.460000E+02
 #   selected value uncertainty [b]:  4.000000E+01
 #   selected value source: Mughabghab-2018
 #   number of values: 11
 #   average value [b]:  7.884658E+02
-#   relative standard deviation [%]:      42.907597
-# quantity:
+#   relative standard deviation [%]:     42.907597
+# quantity: 
 #   type: Compilation
 #   average value:  7.460000E+02
-#   relative standard deviation [%]:       0.000000
-# datablock:
+#   relative standard deviation [%]:      0.000000
+# datablock: 
 #   columns: 10
 #   entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
@@ -27,32 +27,32 @@
       Mughabghab-2006         Compilation          2006        7.460000E+02   4.000000E+01                      1.000000                  2.530000E-08
       Sukhoruchkin            Compilation          2015        7.460000E+02   4.000000E+01                      1.000000                  2.530000E-08
       Mughabghab-2018         Compilation          2018        7.460000E+02   4.000000E+01                      1.000000                  2.530000E-08
-# quantity:
+# quantity: 
 #   type: EXFOR
 #   average value:  1.800000E+03
-#   relative standard deviation [%]:       0.000000
-# datablock:
+#   relative standard deviation [%]:      0.000000
+# datablock: 
 #   columns: 10
 #   entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       V.D.Gavrilov            EXFOR                1976        1.800000E+03   1.000000E+02   40467-013-0        2.412869                  2.530000E-08
-# quantity:
+# quantity: 
 #   type: EXFOR spectrum-averaged
 #   average value:  5.050000E+02
-#   relative standard deviation [%]:      30.693069
-# datablock:
+#   relative standard deviation [%]:     30.693069
+# datablock: 
 #   columns: 10
 #   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       L.B.Magnusson           EXFOR                1954        3.500000E+02   0.000000E+00   12568-002-0        0.469169   SPA            2.530000E-08
       C.H.Ice                 EXFOR                1966        6.600000E+02   0.000000E+00   12550-015-0        0.884718   SPA            2.530000E-08
-# quantity:
+# quantity: 
 #   type: Nuclear data library
 #   average value:  7.250246E+02
-#   relative standard deviation [%]:       2.398163
-# datablock:
+#   relative standard deviation [%]:      2.398163
+# datablock: 
 #   columns: 10
 #   entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy

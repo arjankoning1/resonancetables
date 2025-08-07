@@ -1,67 +1,67 @@
-# header:
+# header: 
 #   title: Ba134(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-07-13
-# target:
+#   date: 2025-08-01
+# target: 
 #   Z: 56
 #   A: 134
 #   nuclide: Ba134
-# reaction:
+# reaction: 
 #   type: (n,g)
-# observables:
+# observables: 
 #   selected value [b]:  1.500000E+00
 #   selected value uncertainty [b]:  3.000000E-01
 #   selected value source: Mughabghab-2018
 #   number of values: 11
 #   average value [b]:  1.573160E+00
-#   relative standard deviation [%]:      13.043698
-# quantity:
+#   relative standard deviation [%]:     13.043698
+# quantity: 
 #   type: Compilation
 #   average value:  1.450000E+00
-#   relative standard deviation [%]:       3.448277
-# datablock:
+#   relative standard deviation [%]:      3.448277
+# datablock: 
 #   columns: 10
 #   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       RIPL-3                  Compilation          2004        1.400000E+00   1.000000E+00                      0.933333                  2.530000E-08
       Mughabghab-2018         Compilation          2018        1.500000E+00   3.000000E-01                      1.000000                  2.530000E-08
-# quantity:
+# quantity: 
 #   type: Compilation spectrum-averaged
 #   average value:  1.500000E+00
-#   relative standard deviation [%]:       0.000000
-# datablock:
+#   relative standard deviation [%]:      0.000000
+# datablock: 
 #   columns: 10
 #   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       Mughabghab-2006         Compilation          2006        1.500000E+00   3.000000E-01                      1.000000   MXW            2.530000E-08
       Sukhoruchkin            Compilation          2015        1.500000E+00   3.000000E-01                      1.000000   MXW            2.530000E-08
-# quantity:
+# quantity: 
 #   type: EXFOR
 #   average value:  1.400000E+00
-#   relative standard deviation [%]:       0.000000
-# datablock:
+#   relative standard deviation [%]:      0.000000
+# datablock: 
 #   columns: 10
 #   entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       V.A.Bondarenko          EXFOR                1993        1.400000E+00   4.000000E-01   41159-002-0        0.933333                  2.530000E-08
-# quantity:
+# quantity: 
 #   type: EXFOR spectrum-averaged
 #   average value:  2.000000E+00
-#   relative standard deviation [%]:       0.000000
-# datablock:
+#   relative standard deviation [%]:      0.000000
+# datablock: 
 #   columns: 10
 #   entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       H.Pomerance             EXFOR                1952        2.000000E+00   2.000000E+00   11507-068-0        1.333333   MXW            2.530000E-08
-# quantity:
+# quantity: 
 #   type: Nuclear data library
 #   average value:  1.600952E+00
-#   relative standard deviation [%]:      12.526545
-# datablock:
+#   relative standard deviation [%]:     12.526545
+# datablock: 
 #   columns: 10
 #   entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy

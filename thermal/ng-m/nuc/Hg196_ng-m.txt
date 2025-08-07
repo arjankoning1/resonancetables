@@ -1,46 +1,46 @@
-# header:
+# header: 
 #   title: Hg196(n,g)-m thermal cross section
 #   source: Resonancetables
-#   date: 2025-07-13
-# target:
+#   date: 2025-08-01
+# target: 
 #   Z: 80
 #   A: 196
 #   nuclide: Hg196
-# reaction:
+# reaction: 
 #   type: (n,g)-m
-# observables:
+# observables: 
 #   selected value [b]:  1.050000E+02
 #   selected value uncertainty [b]:  6.000000E+00
 #   selected value source: RIPL-3
 #   number of values: 7
 #   average value [b]:  2.668143E+02
-#   relative standard deviation [%]:     101.915894
-# quantity:
+#   relative standard deviation [%]:    101.915894
+# quantity: 
 #   type: Compilation
 #   average value:  1.050000E+02
-#   relative standard deviation [%]:       0.000000
-# datablock:
+#   relative standard deviation [%]:      0.000000
+# datablock: 
 #   columns: 10
 #   entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       RIPL-3                  Compilation          2004        1.050000E+02   6.000000E+00                      1.000000                  2.530000E-08
-# quantity:
+# quantity: 
 #   type: EXFOR
 #   average value:  1.038500E+02
-#   relative standard deviation [%]:       2.744341
-# datablock:
+#   relative standard deviation [%]:      2.744341
+# datablock: 
 #   columns: 10
 #   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       J.I.Kim                 EXFOR                1967        1.067000E+02   1.280000E+01   20254-003-0        1.016190                  2.530000E-08
       F.De Corte              EXFOR                1988        1.010000E+02   7.171000E+01   23488-092-0        0.961905                  2.530000E-08
-# quantity:
+# quantity: 
 #   type: EXFOR spectrum-averaged
 #   average value:  3.887500E+02
-#   relative standard deviation [%]:      79.161743
-# datablock:
+#   relative standard deviation [%]:     79.161743
+# datablock: 
 #   columns: 10
 #   entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy

@@ -1,25 +1,25 @@
-# header:
+# header: 
 #   title: Gd154(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-07-13
-# target:
+#   date: 2025-08-01
+# target: 
 #   Z: 64
 #   A: 154
 #   nuclide: Gd154
-# reaction:
+# reaction: 
 #   type: (n,g)
-# observables:
+# observables: 
 #   selected value [b]:  8.500000E+01
 #   selected value uncertainty [b]:  1.200000E+01
 #   selected value source: Mughabghab-2018
 #   number of values: 14
 #   average value [b]:  9.451326E+01
-#   relative standard deviation [%]:      50.781017
-# quantity:
+#   relative standard deviation [%]:     50.781017
+# quantity: 
 #   type: Compilation
 #   average value:  7.668667E+01
-#   relative standard deviation [%]:      15.330994
-# datablock:
+#   relative standard deviation [%]:     15.330994
+# datablock: 
 #   columns: 10
 #   entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
@@ -27,31 +27,31 @@
       RIPL-3                  Compilation          2004        6.006000E+01   2.000000E+01                      0.706588                  2.530000E-08
       Mughabghab-2006         Compilation          2006        8.500000E+01   1.200000E+01                      1.000000                  2.530000E-08
       Mughabghab-2018         Compilation          2018        8.500000E+01   1.200000E+01                      1.000000                  2.530000E-08
-# quantity:
+# quantity: 
 #   type: Compilation spectrum-averaged
 #   average value:  8.500000E+01
-#   relative standard deviation [%]:       0.000000
-# datablock:
+#   relative standard deviation [%]:      0.000000
+# datablock: 
 #   columns: 10
 #   entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       Sukhoruchkin            Compilation          2015        8.500000E+01   1.200000E+01                      1.000000   MXW            2.530000E-08
-# quantity:
+# quantity: 
 #   type: EXFOR
 #   average value:  8.500000E+01
-#   relative standard deviation [%]:       0.000000
-# datablock:
+#   relative standard deviation [%]:      0.000000
+# datablock: 
 #   columns: 10
 #   entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       R.Dobrozemsky           EXFOR                1971        8.500000E+01   1.200000E+01   20637-006-0        1.000000                  2.530000E-08
-# quantity:
+# quantity: 
 #   type: EXFOR spectrum-averaged
 #   average value:  1.245000E+02
-#   relative standard deviation [%]:      65.565247
-# datablock:
+#   relative standard deviation [%]:     65.565247
+# datablock: 
 #   columns: 10
 #   entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
@@ -60,11 +60,11 @@
       P.M.Lantz               EXFOR                1965        2.300000E+01   0.000000E+00   11938-002-0        0.270588   MXW            2.530000E-08
       E.I.Grishanin           EXFOR                1967        1.250000E+02   3.200000E+01   41244-007-0        1.470588   SPA            2.530000E-08
       E.I.Grishanin           EXFOR                1967        1.000000E+02   5.000000E+00   41244-006-0        1.176471   SPA            2.530000E-08
-# quantity:
+# quantity: 
 #   type: Nuclear data library
 #   average value:  8.502514E+01
-#   relative standard deviation [%]:       0.093526
-# datablock:
+#   relative standard deviation [%]:      0.093526
+# datablock: 
 #   columns: 10
 #   entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy

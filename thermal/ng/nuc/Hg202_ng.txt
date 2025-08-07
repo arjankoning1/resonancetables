@@ -1,25 +1,25 @@
-# header:
+# header: 
 #   title: Hg202(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-07-13
-# target:
+#   date: 2025-08-01
+# target: 
 #   Z: 80
 #   A: 202
 #   nuclide: Hg202
-# reaction:
+# reaction: 
 #   type: (n,g)
-# observables:
+# observables: 
 #   selected value [b]:  4.339000E+00
 #   selected value uncertainty [b]:  8.300000E-02
 #   selected value source: Kayzero
 #   number of values: 16
 #   average value [b]:  4.601381E+00
-#   relative standard deviation [%]:      13.926885
-# quantity:
+#   relative standard deviation [%]:     13.926885
+# quantity: 
 #   type: Compilation
 #   average value:  4.785800E+00
-#   relative standard deviation [%]:       4.670545
-# datablock:
+#   relative standard deviation [%]:      4.670545
+# datablock: 
 #   columns: 10
 #   entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
@@ -29,22 +29,22 @@
       Sukhoruchkin            Compilation          2015        4.890000E+00   5.000000E-02                      1.126988                  2.530000E-08
       Kayzero                 Compilation          2018        4.339000E+00   8.300000E-02                      1.000000                  2.530000E-08
       Mughabghab-2018         Compilation          2018        4.910000E+00   5.000000E-02                      1.131597                  2.530000E-08
-# quantity:
+# quantity: 
 #   type: EXFOR
 #   average value:  4.695000E+00
-#   relative standard deviation [%]:       7.348244
-# datablock:
+#   relative standard deviation [%]:      7.348244
+# datablock: 
 #   columns: 10
 #   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       J.I.Kim                 EXFOR                1967        5.040000E+00   3.800000E-01   20254-006-0        1.161558                  2.530000E-08
       F.De Corte              EXFOR                1988        4.350000E+00   8.265000E-02   23488-093-0        1.002535                  2.530000E-08
-# quantity:
+# quantity: 
 #   type: EXFOR spectrum-averaged
 #   average value:  4.114000E+00
-#   relative standard deviation [%]:      22.449999
-# datablock:
+#   relative standard deviation [%]:     22.449999
+# datablock: 
 #   columns: 10
 #   entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
@@ -54,11 +54,11 @@
       M.Sehgal                EXFOR                1962        4.600000E+00   7.000000E-01   11994-015-0        1.060152   MXW            2.530000E-08
       G.H.E.Sims              EXFOR                1968        4.860000E+00   5.000000E-02   11658-023-0        1.120074   SPA            2.530000E-08
       G.H.E.Sims              EXFOR                1968        4.870000E+00   5.000000E-02   11658-024-0        1.122378   MXW            2.530000E-08
-# quantity:
+# quantity: 
 #   type: Nuclear data library
 #   average value:  4.933275E+00
-#   relative standard deviation [%]:       0.419358
-# datablock:
+#   relative standard deviation [%]:      0.419358
+# datablock: 
 #   columns: 10
 #   entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy

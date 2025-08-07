@@ -1,25 +1,25 @@
-# header:
+# header: 
 #   title: Ag109(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-07-13
-# target:
+#   date: 2025-08-01
+# target: 
 #   Z: 47
 #   A: 109
 #   nuclide: Ag109
-# reaction:
+# reaction: 
 #   type: (n,g)
-# observables:
+# observables: 
 #   selected value [b]:  7.690000E+01
 #   selected value uncertainty [b]:  3.900000E+00
 #   selected value source: Kayzero
 #   number of values: 15
 #   average value [b]:  7.028244E+01
-#   relative standard deviation [%]:      48.625351
-# quantity:
+#   relative standard deviation [%]:     48.625351
+# quantity: 
 #   type: Compilation
 #   average value:  8.870000E+01
-#   relative standard deviation [%]:       6.729712
-# datablock:
+#   relative standard deviation [%]:      6.729712
+# datablock: 
 #   columns: 10
 #   entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
@@ -29,21 +29,21 @@
       Sukhoruchkin            Compilation          2015        9.100000E+01   1.000000E+00                      1.183355                  2.530000E-08
       Kayzero                 Compilation          2018        7.690000E+01   3.900000E+00                      1.000000                  2.530000E-08
       Mughabghab-2018         Compilation          2018        9.340000E+01   6.000000E-01                      1.214564                  2.530000E-08
-# quantity:
+# quantity: 
 #   type: EXFOR
 #   average value:  9.200000E+01
-#   relative standard deviation [%]:       0.000000
-# datablock:
+#   relative standard deviation [%]:      0.000000
+# datablock: 
 #   columns: 10
 #   entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       R.B.Tattersall          EXFOR                1960        9.200000E+01   2.000000E+00   20638-030-0        1.196359                  2.530000E-08
-# quantity:
+# quantity: 
 #   type: EXFOR spectrum-averaged
 #   average value:  3.015000E+01
-#   relative standard deviation [%]:     107.206543
-# datablock:
+#   relative standard deviation [%]:    107.206543
+# datablock: 
 #   columns: 10
 #   entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
@@ -53,11 +53,11 @@
       B.Grimeland             EXFOR                1956        5.600000E+00   1.400000E+00   20041-004-0        0.072822   SPA            2.530000E-08
       B.Grimeland             EXFOR                1956        4.100000E+00   1.000000E+00   20041-005-0        0.053316   MXW            2.530000E-08
       G.H.E.Sims              EXFOR                1968        5.750000E+00   5.400000E-01   11658-008-0        0.074772   SPA            2.530000E-08
-# quantity:
+# quantity: 
 #   type: Nuclear data library
 #   average value:  9.199663E+01
-#   relative standard deviation [%]:       1.744757
-# datablock:
+#   relative standard deviation [%]:      1.744757
+# datablock: 
 #   columns: 10
 #   entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy

@@ -1,57 +1,57 @@
-# header:
+# header: 
 #   title: Ne021(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-07-13
-# target:
+#   date: 2025-08-01
+# target: 
 #   Z: 10
 #   A: 21
 #   nuclide: Ne021
-# reaction:
+# reaction: 
 #   type: (n,g)
-# observables:
+# observables: 
 #   selected value [b]:  6.660000E-01
 #   selected value uncertainty [b]:  1.100000E-01
 #   selected value source: Mughabghab-2018
 #   number of values: 9
 #   average value [b]:  6.762946E-01
-#   relative standard deviation [%]:       1.946043
-# quantity:
+#   relative standard deviation [%]:      1.946043
+# quantity: 
 #   type: Compilation
 #   average value:  6.830000E-01
-#   relative standard deviation [%]:       2.489018
-# datablock:
+#   relative standard deviation [%]:      2.489018
+# datablock: 
 #   columns: 10
 #   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       RIPL-3                  Compilation          2004        7.000000E-01   1.000000E-01                      1.051051                  2.530000E-08
       Mughabghab-2018         Compilation          2018        6.660000E-01   1.100000E-01                      1.000000                  2.530000E-08
-# quantity:
+# quantity: 
 #   type: Compilation spectrum-averaged
 #   average value:  6.680000E-01
-#   relative standard deviation [%]:       0.299402
-# datablock:
+#   relative standard deviation [%]:      0.299402
+# datablock: 
 #   columns: 10
 #   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       Mughabghab-2006         Compilation          2006        6.660000E-01   1.100000E-01                      1.000000   MXW            2.530000E-08
       Sukhoruchkin            Compilation          2015        6.700000E-01   1.100000E-01                      1.006006   MXW            2.530000E-08
-# quantity:
+# quantity: 
 #   type: EXFOR spectrum-averaged
 #   average value:  6.920000E-01
-#   relative standard deviation [%]:       0.000000
-# datablock:
+#   relative standard deviation [%]:      0.000000
+# datablock: 
 #   columns: 10
 #   entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       D.Bellmann              EXFOR                1971        6.920000E-01   1.140000E-01   23482-004-0        1.039039   SPA            2.530000E-08
-# quantity:
+# quantity: 
 #   type: Nuclear data library
 #   average value:  6.731628E-01
-#   relative standard deviation [%]:       1.592158
-# datablock:
+#   relative standard deviation [%]:      1.592158
+# datablock: 
 #   columns: 10
 #   entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy

@@ -1,58 +1,58 @@
-# header:
+# header: 
 #   title: Pd107(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-07-13
-# target:
+#   date: 2025-08-01
+# target: 
 #   Z: 46
 #   A: 107
 #   nuclide: Pd107
-# reaction:
+# reaction: 
 #   type: (n,g)
-# observables:
+# observables: 
 #   selected value [b]:  9.500000E+00
 #   selected value uncertainty [b]:  3.000000E-01
 #   selected value source: Mughabghab-2018
 #   number of values: 10
 #   average value [b]:  6.041754E+00
-#   relative standard deviation [%]:      64.362633
-# quantity:
+#   relative standard deviation [%]:     64.362633
+# quantity: 
 #   type: Compilation
 #   average value:  5.650000E+00
-#   relative standard deviation [%]:      68.141594
-# datablock:
+#   relative standard deviation [%]:     68.141594
+# datablock: 
 #   columns: 10
 #   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       RIPL-3                  Compilation          2004        1.800000E+00   2.000000E-01                      0.189474                  2.530000E-08
       Mughabghab-2018         Compilation          2018        9.500000E+00   3.000000E-01                      1.000000                  2.530000E-08
-# quantity:
+# quantity: 
 #   type: Compilation spectrum-averaged
 #   average value:  2.275000E+00
-#   relative standard deviation [%]:      11.648351
-# datablock:
+#   relative standard deviation [%]:     11.648351
+# datablock: 
 #   columns: 10
 #   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       Mughabghab-2006         Compilation          2006        2.540000E+00   2.000000E-01                      0.267368   MXW            2.530000E-08
       Sukhoruchkin            Compilation          2015        2.010000E+00   2.300000E-01                      0.211579   MXW            2.530000E-08
-# quantity:
+# quantity: 
 #   type: EXFOR
 #   average value:  6.270000E+00
-#   relative standard deviation [%]:      59.489632
-# datablock:
+#   relative standard deviation [%]:     59.489632
+# datablock: 
 #   columns: 10
 #   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       S.F.Mughabghab          EXFOR                2006        2.540000E+00   2.000000E-01   V1001-455-0        0.267368                  2.530000E-08
       S.Nakamura              EXFOR                2011        1.000000E+01   0.000000E+00   23140-006-0        1.052632                  2.530000E-08
-# quantity:
+# quantity: 
 #   type: Nuclear data library
 #   average value:  8.006885E+00
-#   relative standard deviation [%]:      43.876389
-# datablock:
+#   relative standard deviation [%]:     43.876389
+# datablock: 
 #   columns: 10
 #   entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy

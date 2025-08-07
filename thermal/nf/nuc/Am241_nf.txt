@@ -1,25 +1,25 @@
-# header:
+# header: 
 #   title: Am241(n,f) thermal cross section
 #   source: Resonancetables
-#   date: 2025-07-13
-# target:
+#   date: 2025-08-01
+# target: 
 #   Z: 95
 #   A: 241
 #   nuclide: Am241
-# reaction:
+# reaction: 
 #   type: (n,f)
-# observables:
+# observables: 
 #   selected value [b]:  3.200000E+00
 #   selected value uncertainty [b]:  9.000000E-02
 #   selected value source: Mughabghab-2018
 #   number of values: 16
 #   average value [b]:  2.181369E+00
-#   relative standard deviation [%]:      62.350811
-# quantity:
+#   relative standard deviation [%]:     62.350811
+# quantity: 
 #   type: Compilation
 #   average value:  3.155000E+00
-#   relative standard deviation [%]:       1.443811
-# datablock:
+#   relative standard deviation [%]:      1.443811
+# datablock: 
 #   columns: 10
 #   entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
@@ -28,22 +28,22 @@
       Mughabghab-2006         Compilation          2006        3.200000E+00   9.000000E-02                      1.000000                  2.530000E-08
       Sukhoruchkin            Compilation          2015        3.120000E+00   9.000000E-02                      0.975000                  2.530000E-08
       Mughabghab-2018         Compilation          2018        3.200000E+00   9.000000E-02                      1.000000                  2.530000E-08
-# quantity:
+# quantity: 
 #   type: EXFOR
 #   average value:  2.975000E+00
-#   relative standard deviation [%]:       5.882356
-# datablock:
+#   relative standard deviation [%]:      5.882356
+# datablock: 
 #   columns: 10
 #   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       V.D.Gavrilov            EXFOR                1976        2.800000E+00   2.500000E-01   40467-003-0        0.875000                  2.530000E-08
       S.Yamamoto              EXFOR                1997        3.150000E+00   9.700000E-02   22479-004-0        0.984375                  2.530000E-08
-# quantity:
+# quantity: 
 #   type: EXFOR spectrum-averaged
 #   average value:  1.633190E+00
-#   relative standard deviation [%]:      89.721970
-# datablock:
+#   relative standard deviation [%]:     89.721970
+# datablock: 
 #   columns: 10
 #   entries: 10
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy

@@ -1,47 +1,47 @@
-# header:
+# header: 
 #   title: Ge074(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-07-13
-# target:
+#   date: 2025-08-01
+# target: 
 #   Z: 32
 #   A: 74
 #   nuclide: Ge074
-# reaction:
+# reaction: 
 #   type: (n,g)
-# observables:
+# observables: 
 #   selected value [b]:  5.000000E-01
 #   selected value uncertainty [b]:  2.000000E-02
 #   selected value source: Mughabghab-2018
 #   number of values: 8
 #   average value [b]:  5.034786E-01
-#   relative standard deviation [%]:       6.561400
-# quantity:
+#   relative standard deviation [%]:      6.561400
+# quantity: 
 #   type: Compilation
 #   average value:  4.600000E-01
-#   relative standard deviation [%]:       8.695654
-# datablock:
+#   relative standard deviation [%]:      8.695654
+# datablock: 
 #   columns: 10
 #   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       RIPL-3                  Compilation          2004        4.200000E-01   4.000000E-02                      0.840000                  2.530000E-08
       Mughabghab-2018         Compilation          2018        5.000000E-01   2.000000E-02                      1.000000                  2.530000E-08
-# quantity:
+# quantity: 
 #   type: Compilation spectrum-averaged
 #   average value:  5.200000E-01
-#   relative standard deviation [%]:       0.000000
-# datablock:
+#   relative standard deviation [%]:      0.000000
+# datablock: 
 #   columns: 10
 #   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       Mughabghab-2006         Compilation          2006        5.200000E-01   4.000000E-02                      1.040000   MXW            2.530000E-08
       Sukhoruchkin            Compilation          2015        5.200000E-01   4.000000E-02                      1.040000   MXW            2.530000E-08
-# quantity:
+# quantity: 
 #   type: Nuclear data library
 #   average value:  5.169572E-01
-#   relative standard deviation [%]:       2.112904
-# datablock:
+#   relative standard deviation [%]:      2.112904
+# datablock: 
 #   columns: 10
 #   entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy

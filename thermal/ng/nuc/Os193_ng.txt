@@ -1,56 +1,56 @@
-# header:
+# header: 
 #   title: Os193(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-07-13
-# target:
+#   date: 2025-08-01
+# target: 
 #   Z: 76
 #   A: 193
 #   nuclide: Os193
-# reaction:
+# reaction: 
 #   type: (n,g)
-# observables:
+# observables: 
 #   selected value [b]:  3.800000E+01
 #   selected value uncertainty [b]:  1.000000E+01
 #   selected value source: Mughabghab-2018
 #   number of values: 7
 #   average value [b]:  6.713770E+01
-#   relative standard deviation [%]:     105.118492
-# quantity:
+#   relative standard deviation [%]:    105.118492
+# quantity: 
 #   type: Compilation
 #   average value:  3.900000E+01
-#   relative standard deviation [%]:       2.564103
-# datablock:
+#   relative standard deviation [%]:      2.564103
+# datablock: 
 #   columns: 10
 #   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       RIPL-3                  Compilation          2004        4.000000E+01   1.000000E+01                      1.052632                  2.530000E-08
       Mughabghab-2018         Compilation          2018        3.800000E+01   1.000000E+01                      1.000000                  2.530000E-08
-# quantity:
+# quantity: 
 #   type: Compilation spectrum-averaged
 #   average value:  3.800000E+01
-#   relative standard deviation [%]:       0.000000
-# datablock:
+#   relative standard deviation [%]:      0.000000
+# datablock: 
 #   columns: 10
 #   entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       Mughabghab-2006         Compilation          2006        3.800000E+01   1.000000E+01                      1.000000   MXW            2.530000E-08
-# quantity:
+# quantity: 
 #   type: EXFOR spectrum-averaged
 #   average value:  2.400000E+02
-#   relative standard deviation [%]:       0.000000
-# datablock:
+#   relative standard deviation [%]:      0.000000
+# datablock: 
 #   columns: 10
 #   entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       S.Mirzadeh              EXFOR                1991        2.400000E+02   4.000000E+01   13512-002-0        6.315790   SPA            2.530000E-08
-# quantity:
+# quantity: 
 #   type: Nuclear data library
 #   average value:  3.798797E+01
-#   relative standard deviation [%]:       0.024819
-# datablock:
+#   relative standard deviation [%]:      0.024819
+# datablock: 
 #   columns: 10
 #   entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy

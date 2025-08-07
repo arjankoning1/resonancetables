@@ -1,25 +1,25 @@
-# header:
+# header: 
 #   title: U235(n,f) thermal cross section
 #   source: Resonancetables
-#   date: 2025-07-13
-# target:
+#   date: 2025-08-01
+# target: 
 #   Z: 92
 #   A: 235
 #   nuclide: U235
-# reaction:
+# reaction: 
 #   type: (n,f)
-# observables:
+# observables: 
 #   selected value [b]:  5.826000E+02
 #   selected value uncertainty [b]:  1.100000E+00
 #   selected value source: Mughabghab-2018
 #   number of values: 44
 #   average value [b]:  5.383643E+02
-#   relative standard deviation [%]:      26.497232
-# quantity:
+#   relative standard deviation [%]:     26.497232
+# quantity: 
 #   type: Compilation
 #   average value:  5.840500E+02
-#   relative standard deviation [%]:       0.255542
-# datablock:
+#   relative standard deviation [%]:      0.255542
+# datablock: 
 #   columns: 10
 #   entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
@@ -28,11 +28,11 @@
       Mughabghab-2006         Compilation          2006        5.826000E+02   1.100000E+00                      1.000000                  2.530000E-08
       Sukhoruchkin            Compilation          2015        5.850000E+02   0.000000E+00                      1.004120                  2.530000E-08
       Mughabghab-2018         Compilation          2018        5.826000E+02   1.100000E+00                      1.000000                  2.530000E-08
-# quantity:
+# quantity: 
 #   type: EXFOR
 #   average value:  5.320481E+02
-#   relative standard deviation [%]:      28.657572
-# datablock:
+#   relative standard deviation [%]:     28.657572
+# datablock: 
 #   columns: 10
 #   entries: 38
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
@@ -75,11 +75,11 @@
       S.Amaducci              EXFOR                2019        6.263500E+02   0.000000E+00   23453-013-0        1.075094                  2.532200E-08
       S.Amaducci              EXFOR                2019        5.482300E+02   0.000000E+00   23453-013-0        0.941006                  2.526400E-08
       S.Amaducci              EXFOR                2019        5.286800E+02   0.000000E+00   23453-013-0        0.907449                  2.520600E-08
-# quantity:
+# quantity: 
 #   type: EXFOR spectrum-averaged
 #   average value:  5.670000E+02
-#   relative standard deviation [%]:       2.645503
-# datablock:
+#   relative standard deviation [%]:      2.645503
+# datablock: 
 #   columns: 10
 #   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy

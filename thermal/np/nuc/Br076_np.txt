@@ -1,36 +1,36 @@
-# header:
+# header: 
 #   title: Br076(n,p) thermal cross section
 #   source: Resonancetables
-#   date: 2025-07-13
-# target:
+#   date: 2025-08-01
+# target: 
 #   Z: 35
 #   A: 76
 #   nuclide: Br076
-# reaction:
+# reaction: 
 #   type: (n,p)
-# observables:
+# observables: 
 #   selected value [b]:  2.240000E+02
 #   selected value uncertainty [b]:  4.200000E+01
 #   selected value source: Mughabghab-2018
 #   number of values: 3
 #   average value [b]:  1.493334E+02
-#   relative standard deviation [%]:      70.710564
-# quantity:
+#   relative standard deviation [%]:     70.710564
+# quantity: 
 #   type: Compilation
 #   average value:  1.120001E+02
-#   relative standard deviation [%]:      99.999802
-# datablock:
+#   relative standard deviation [%]:     99.999802
+# datablock: 
 #   columns: 10
 #   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       RIPL-3                  Compilation          2004        2.240000E-04   4.200000E-05                      0.000001                  2.530000E-08
       Mughabghab-2018         Compilation          2018        2.240000E+02   4.200000E+01                      1.000000                  2.530000E-08
-# quantity:
+# quantity: 
 #   type: EXFOR spectrum-averaged
 #   average value:  2.240000E+02
-#   relative standard deviation [%]:       0.000000
-# datablock:
+#   relative standard deviation [%]:      0.000000
+# datablock: 
 #   columns: 10
 #   entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy

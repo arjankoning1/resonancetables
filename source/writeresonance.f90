@@ -28,11 +28,15 @@ subroutine writeresonance(Z, A, Liso, type)
   integer            :: Ncol       ! number of columns
   integer            :: Liso       ! target isomer
   integer            :: type       ! reaction type
+  integer            :: indent
+  integer            :: id2
   real               :: F
 !
 ! **************** Write databases for resonance data *****
 !
   if (.not.res_exist) return
+  indent = 0
+  id2 = indent + 2
   Ztarget = Z
   Atarget = A
   quantity='resonance data'
@@ -41,9 +45,9 @@ subroutine writeresonance(Z, A, Liso, type)
   nucfile=trim(respath)//trim(react)//'/nuc/'//trim(targetnuclide)//'_'//trim(react)//'.txt'
   write(*,*) Z, A, Liso, trim(nucfile), " ", Nres
   open (unit = 1, status = 'unknown', file = trim(nucfile))
-  call write_header(topline,source,user,date,oformat)
-  call write_target
-  call write_reaction(react,0.D0,0.D0,0,0)
+  call write_header(indent,topline,source,user,date,oformat)
+  call write_target(indent)
+  call write_reaction(indent,react,0.D0,0.D0,0,0)
   un = ''
   col(1) = 'Author'
   col(2) = ''
@@ -61,23 +65,23 @@ subroutine writeresonance(Z, A, Liso, type)
   col(7) = 'Reference'
   col(8) = 'Ratio'
   Ncol = 8
-  write(1,'("# parameters:")')
-  call write_real(2,'selected value ['//trim(un(5))//']',res_xs_sel)
-  call write_real(2,'selected value uncertainty ['//trim(un(5))//']',res_dxs_sel)
-  call write_char(2,'selected value source',res_author_sel)
-  call write_integer(2,'number of values',Nres)
-  call write_real(2,'average value [b]',av_xs)
-  write(1,'("#   relative standard deviation [%]:",f15.6)') var_xs
+  call write_char(id2,'parameters','')
+  call write_real(id2,'selected value ['//trim(un(5))//']',res_xs_sel)
+  call write_real(id2,'selected value uncertainty ['//trim(un(5))//']',res_dxs_sel)
+  call write_char(id2,'selected value source',res_author_sel)
+  call write_integer(id2,'number of values',Nres)
+  call write_real(id2,'average value [b]',av_xs)
+  call write_realF(id2,'relative standard deviation [%]',var_xs)
   if (Ncomp > 0) then
     if (type == 1) then
       col(9) = '#Resonances'
       Ncol = 9
     endif
     quantity='Compilation'
-    call write_quantity(quantity)
-    call write_real(2,'average value',av_xs_comp)
-    write(1,'("#   relative standard deviation [%]:",f15.6)') var_xs_comp
-    call write_datablock(Ncol,Ncomp,col,un)
+    call write_quantity(indent,quantity)
+    call write_real(id2,'average value',av_xs_comp)
+    call write_realF(id2,'relative standard deviation [%]',var_xs_comp)
+    call write_datablock(indent,Ncol,Ncomp,col,un)
     do k = 1, Nres
       if (res_type(k) == 'Compilation') then
         F = res_xs(k) / res_xs_sel
@@ -107,10 +111,10 @@ subroutine writeresonance(Z, A, Liso, type)
       un(13) = ''
     endif
     quantity='EXFOR'
-    call write_quantity(quantity)
-    call write_real(2,'average value',av_xs_exfor)
-    write(1,'("#   relative standard deviation [%]:",f15.6)') var_xs_exfor
-    call write_datablock(Ncol,Nexp,col,un)
+    call write_quantity(indent,quantity)
+    call write_real(id2,'average value',av_xs_exfor)
+    call write_realF(id2,'relative standard deviation [%]',var_xs_exfor)
+    call write_datablock(indent,Ncol,Nexp,col,un)
     F = 1.
     do k = 1, Nres
       if (res_type(k) == 'EXFOR') then
@@ -128,10 +132,10 @@ subroutine writeresonance(Z, A, Liso, type)
   Ncol = 8
   if (Nlib > 0) then
     quantity='Nuclear data library'
-    call write_quantity(quantity)
-    call write_real(2,'average value',av_xs_NDL)
-    write(1,'("#   relative standard deviation [%]:",f15.6)') var_xs_NDL
-    call write_datablock(Ncol,Nlib,col,un)
+    call write_quantity(indent,quantity)
+    call write_real(id2,'average value',av_xs_NDL)
+    call write_realF(id2,'relative standard deviation [%]',var_xs_NDL)
+    call write_datablock(indent,Ncol,Nlib,col,un)
     F = 1.
     do k = 1, Nres
       if (res_type(k) == 'NDL') then

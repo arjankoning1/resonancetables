@@ -80,7 +80,7 @@ subroutine resonancetablesinitial
   user = ''
 ! user = 'Arjan Koning'
   source = 'Resonancetables'
-! oformat = 'YANDF-0.3'
+! oformat = 'YANDF-0.4'
   oformat = ''
 !
 ! Cleanup of previous results

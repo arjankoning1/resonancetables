@@ -31,12 +31,15 @@ subroutine writethermal(Z, A, Liso, Riso, type)
   integer            :: Liso       ! target isomer
   integer            :: Riso       ! residual isomer
   integer            :: type       ! reaction type
+  integer            :: indent
+  integer            :: id2
   real               :: F
-  real               :: tolerance
 !
 ! **************** Write databases for thermal cross sections *****
 !
   if (.not.res_exist) return
+  indent = 0
+  id2 = indent + 2
   Ztarget = Z
   Atarget = A
   iso = ''
@@ -54,25 +57,25 @@ subroutine writethermal(Z, A, Liso, Riso, type)
   nucfile=trim(thermalpath)//trim(rfile)//'/nuc/'//trim(targetnuclide)//'_'//trim(rfile)//'.txt'
   write(*,*) Z, A, Liso, Riso, trim(nucfile), " ", Nres
   open (unit = 1, status = 'unknown', file = trim(nucfile))
-  call write_header(topline,source,user,date,oformat)
-  call write_target
-  call write_reaction(react,0.D0,0.D0,0,0)
-  write(1,'("# observables:")')
+  call write_header(indent,topline,source,user,date,oformat)
+  call write_target(indent)
+  call write_reaction(indent,react,0.D0,0.D0,0,0)
+  call write_char(indent,'observables','')
   if (type <= 6) then
-    call write_real(2,'selected value [b]',res_xs_sel)
-    call write_real(2,'selected value uncertainty [b]',res_dxs_sel)
+    call write_real(id2,'selected value [b]',res_xs_sel)
+    call write_real(id2,'selected value uncertainty [b]',res_dxs_sel)
   else
-    call write_real(2,'selected value]',res_xs_sel)
-    call write_real(2,'selected value uncertainty]',res_dxs_sel)
+    call write_real(id2,'selected value]',res_xs_sel)
+    call write_real(id2,'selected value uncertainty]',res_dxs_sel)
   endif
-  call write_char(2,'selected value source',res_author_sel)
-  call write_integer(2,'number of values',Nres)
+  call write_char(id2,'selected value source',res_author_sel)
+  call write_integer(id2,'number of values',Nres)
   if (type <= 6) then
-    call write_real(2,'average value [b]',av_xs)
+    call write_real(id2,'average value [b]',av_xs)
   else
-    call write_real(2,'average value',av_xs)
+    call write_real(id2,'average value',av_xs)
   endif
-  write(1,'("#   relative standard deviation [%]:",f15.6)') var_xs
+  call write_realF(id2,'relative standard deviation [%]',var_xs)
   col(1) = 'Author'
   col(2) = ''
   col(3) = 'Type'
@@ -92,10 +95,10 @@ subroutine writethermal(Z, A, Liso, Riso, type)
   endif
   if (Ncomp > 0) then
     quantity='Compilation'
-    call write_quantity(quantity)
-    call write_real(2,'average value',av_xs_comp)
-    write(1,'("#   relative standard deviation [%]:",f15.6)') var_xs_comp
-    call write_datablock(Ncol,Ncomp,col,un)
+    call write_quantity(indent,quantity)
+    call write_real(id2,'average value',av_xs_comp)
+    call write_realF(id2,'relative standard deviation [%]',var_xs_comp)
+    call write_datablock(indent,Ncol,Ncomp,col,un)
     F = 1.
     do k = 1, Nres
       if (res_type(k) == 'Compilation' .and. res_av(k) == '') then
@@ -107,10 +110,10 @@ subroutine writethermal(Z, A, Liso, Riso, type)
   endif
   if (Ncomp_av > 0) then
     quantity='Compilation spectrum-averaged'
-    call write_quantity(quantity)
-    call write_real(2,'average value',av_xs_av_comp)
-    write(1,'("#   relative standard deviation [%]:",f15.6)') var_xs_av_comp
-    call write_datablock(Ncol,Ncomp_av,col,un)
+    call write_quantity(indent,quantity)
+    call write_real(id2,'average value',av_xs_av_comp)
+    call write_realF(id2,'relative standard deviation [%]',var_xs_av_comp)
+    call write_datablock(indent,Ncol,Ncomp_av,col,un)
     F = 1.
     do k = 1, Nres
       if (res_type(k) == 'Compilation' .and. res_av(k) /= '') then
@@ -122,10 +125,10 @@ subroutine writethermal(Z, A, Liso, Riso, type)
   endif
   if (Nexp > 0) then
     quantity='EXFOR'
-    call write_quantity(quantity)
-    call write_real(2,'average value',av_xs_exfor)
-    write(1,'("#   relative standard deviation [%]:",f15.6)') var_xs_exfor
-    call write_datablock(Ncol,Nexp,col,un)
+    call write_quantity(indent,quantity)
+    call write_real(id2,'average value',av_xs_exfor)
+    call write_realF(id2,'relative standard deviation [%]',var_xs_exfor)
+    call write_datablock(indent,Ncol,Nexp,col,un)
     F = 1.
     do k = 1, Nres
       if (res_type(k) == 'EXFOR' .and. res_av(k) == '') then
@@ -137,10 +140,10 @@ subroutine writethermal(Z, A, Liso, Riso, type)
   endif
   if (Nexp_av > 0) then
     quantity='EXFOR spectrum-averaged'
-    call write_quantity(quantity)
-    call write_real(2,'average value',av_xs_av_exfor)
-    write(1,'("#   relative standard deviation [%]:",f15.6)') var_xs_av_exfor
-    call write_datablock(Ncol,Nexp_av,col,un)
+    call write_quantity(indent,quantity)
+    call write_real(id2,'average value',av_xs_av_exfor)
+    call write_realF(id2,'relative standard deviation [%]',var_xs_av_exfor)
+    call write_datablock(indent,Ncol,Nexp_av,col,un)
     F = 1.
     do k = 1, Nres
       if (res_type(k) == 'EXFOR' .and. res_av(k) /= '') then
@@ -152,10 +155,10 @@ subroutine writethermal(Z, A, Liso, Riso, type)
   endif
   if (Nlib > 0) then
     quantity='Nuclear data library'
-    call write_quantity(quantity)
-    call write_real(2,'average value',av_xs_NDL)
-    write(1,'("#   relative standard deviation [%]:",f15.6)') var_xs_NDL
-    call write_datablock(Ncol,Nlib,col,un)
+    call write_quantity(indent,quantity)
+    call write_real(id2,'average value',av_xs_NDL)
+    call write_realF(id2,'relative standard deviation [%]',var_xs_NDL)
+    call write_datablock(indent,Ncol,Nlib,col,un)
     F = 1.
     do k = 1, Nres
       if (res_type(k) == 'NDL') then

@@ -39,6 +39,7 @@ subroutine summacs
   integer            :: isource
   integer            :: ifile
   integer            :: ix
+  integer            :: indent
   integer            :: N          ! counter
   integer            :: Ncol       ! number of columns
   real               :: xs
@@ -47,6 +48,7 @@ subroutine summacs
 !
 ! **************** Write databases for thermal cross sections *****
 !
+  indent = 0
   msource(1) = 'Astral'
   msource(2) = 'Kadonis'
   msource(3) = 'Bao'
@@ -70,8 +72,8 @@ subroutine summacs
   nucfile=trim(macspath)//trim(dir)//'all/selected_macs.txt'
   write(*,*) " Writing to ", trim(nucfile) 
   open (unit = 1, status = 'unknown', file = trim(nucfile))
-  call write_header(topline,source,user,date,oformat)
-  call write_reaction(react,0.D0,0.D0,0,0)
+  call write_header(indent,topline,source,user,date,oformat)
+  call write_reaction(indent,react,0.D0,0.D0,0,0)
   col(1) = 'Z'
   col(2) = 'A'
   col(3) = 'Liso'
@@ -92,8 +94,8 @@ subroutine summacs
   un(8) = '%'
   un(9) = '%'
   N = Nsave
-  call write_quantity(quantity)
-  call write_datablock(Ncol,N,col,un)
+  call write_quantity(indent,quantity)
+  call write_datablock(indent,Ncol,N,col,un)
   do k = 1, N
     Astring='   '
     write(Astring(1:3),'(i3.3)') Asave(k)
@@ -164,10 +166,10 @@ subroutine summacs
     endif
     open (unit = 1, status = 'unknown', file = trim(sourcefile(isource)))
     if (N > 0) then
-      call write_header(trim(topline)//' for '//trim(msource(isource)),source,user,date,oformat)
-      call write_reaction(react,0.D0,0.D0,0,0)
-      call write_quantity(quantity)  
-      call write_datablock(Ncol,N,col,un)
+      call write_header(indent,trim(topline)//' for '//trim(msource(isource)),source,user,date,oformat)
+      call write_reaction(indent,react,0.D0,0.D0,0,0)
+      call write_quantity(indent,quantity)  
+      call write_datablock(indent,Ncol,N,col,un)
       do k = 1, N      
         write(1, '(a)') trim(fline(k))
       enddo            

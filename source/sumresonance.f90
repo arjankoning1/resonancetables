@@ -27,6 +27,7 @@ subroutine sumresonance(type)
   integer            :: isource
   integer            :: ifile
   integer            :: ix
+  integer            :: indent
   real               :: xs
   real               :: dxs
   real               :: ratio
@@ -49,6 +50,7 @@ subroutine sumresonance(type)
 !
 ! **************** Write databases for thermal cross sections *****
 !
+  indent = 0
   react=restype(type)
   msource(1) = 'RIPL-2'
   msource(2) = 'RIPL-3'
@@ -72,8 +74,8 @@ subroutine sumresonance(type)
   nucfile=trim(respath)//trim(react)//'/all/selected_'//trim(react)//'.txt'
   write(*,*) " Writing to ", trim(nucfile) 
   open (unit = 1, status = 'unknown', file = trim(nucfile))
-  call write_header(topline,source,user,date,oformat)
-  call write_reaction(react,0.D0,0.D0,0,0)
+  call write_header(indent,topline,source,user,date,oformat)
+  call write_reaction(indent,react,0.D0,0.D0,0,0)
   col(1) = 'Z'
   col(2) = 'A'
   col(3) = 'Liso'
@@ -93,8 +95,8 @@ subroutine sumresonance(type)
   un(8) = '%'
   un(9) = '%'
   N = Nsave
-  call write_quantity(quantity)
-  call write_datablock(Ncol,N,col,un)
+  call write_quantity(indent,quantity)
+  call write_datablock(indent,Ncol,N,col,un)
   do k = 1, N
     Astring='   '
     write(Astring(1:3),'(i3.3)') Asave(k)
@@ -165,10 +167,10 @@ subroutine sumresonance(type)
     endif
     open (unit = 1, status = 'unknown', file = trim(sourcefile(isource)))
     if (N > 0) then
-      call write_header(trim(topline)//' for '//trim(msource(isource)),source,user,date,oformat)
-      call write_reaction(react,0.D0,0.D0,0,0)
-      call write_quantity(quantity)
-      call write_datablock(Ncol,N,col,un)
+      call write_header(indent,trim(topline)//' for '//trim(msource(isource)),source,user,date,oformat)
+      call write_reaction(indent,react,0.D0,0.D0,0,0)
+      call write_quantity(indent,quantity)
+      call write_datablock(indent,Ncol,N,col,un)
       do k = 1, N
         write(1, '(a)') trim(fline(k))
       enddo

@@ -1,47 +1,47 @@
-# header:
+# header: 
 #   title: S032 D1 resonance data
 #   source: Resonancetables
-#   date: 2025-07-13
-# target:
+#   date: 2025-08-01
+# target: 
 #   Z: 16
 #   A: 32
 #   nuclide: S032
-# reaction:
+# reaction: 
 #   type: D1
-# parameters:
+#   parameters: 
 #   selected value [eV]:  4.630000E+04
 #   selected value uncertainty [eV]:  4.100000E+03
 #   selected value source: RIPL-3
 #   number of values: 5
 #   average value [b]:  7.032068E+04
-#   relative standard deviation [%]:      52.116425
-# quantity:
+#   relative standard deviation [%]:     52.116425
+# quantity: 
 #   type: Compilation
 #   average value:  4.630000E+04
-#   relative standard deviation [%]:       0.000000
-# datablock:
+#   relative standard deviation [%]:      0.000000
+# datablock: 
 #   columns: 8
 #   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
       RIPL-3                  Compilation          2009        4.630000E+04   4.100000E+03            06M       1.000000
       Mughabghab-2018         Compilation          2018        4.630000E+04   4.100000E+03                      1.000000
-# quantity:
+# quantity: 
 #   type: EXFOR
 #   average value:  1.135000E+05
-#   relative standard deviation [%]:      11.894273
-# datablock:
+#   relative standard deviation [%]:     11.894273
+# datablock: 
 #   columns: 13
 #   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
 ##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
       J.Halperin              EXFOR                1980        1.000000E+05   2.000000E+04      10455-007       2.159827                                     1.0            1.5                    
       J.Halperin              EXFOR                1980        1.270000E+05   2.700000E+04      10455-007       2.742980                                     1.0            0.5                    
-# quantity:
+# quantity: 
 #   type: Nuclear data library
 #   average value:  3.200340E+04
-#   relative standard deviation [%]:       0.000000
-# datablock:
+#   relative standard deviation [%]:      0.000000
+# datablock: 
 #   columns: 8
 #   entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio

@@ -1,25 +1,25 @@
-# header:
+# header: 
 #   title: U238 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-07-13
-# target:
+#   date: 2025-08-01
+# target: 
 #   Z: 92
 #   A: 238
 #   nuclide: U238
-# reaction:
+# reaction: 
 #   type: D0
-# parameters:
+#   parameters: 
 #   selected value [eV]:  2.030000E+01
 #   selected value uncertainty [eV]:  6.000000E-01
 #   selected value source: RIPL-3
 #   number of values: 14
 #   average value [b]:  1.998796E+01
-#   relative standard deviation [%]:       9.116817
-# quantity:
+#   relative standard deviation [%]:      9.116817
+# quantity: 
 #   type: Compilation
 #   average value:  2.045333E+01
-#   relative standard deviation [%]:       1.201139
-# datablock:
+#   relative standard deviation [%]:      1.201139
+# datablock: 
 #   columns: 9
 #   entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio       #Resonances
@@ -27,11 +27,11 @@
       RIPL-2                  Compilation          2000        2.080000E+01   3.000000E-01            97I       1.024630        2      
       RIPL-3                  Compilation          2009        2.030000E+01   6.000000E-01            04I       1.000000               
       Mughabghab-2018         Compilation          2018        2.026000E+01   7.200000E-01                      0.998030               
-# quantity:
+# quantity: 
 #   type: EXFOR
 #   average value:  1.961000E+01
-#   relative standard deviation [%]:      10.012189
-# datablock:
+#   relative standard deviation [%]:     10.012189
+# datablock: 
 #   columns: 13
 #   entries: 10
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
@@ -46,11 +46,11 @@
       F.Poortmans             EXFOR                1978        2.170000E+01   9.000000E-01      20726-006       1.068965   4.410000E-06   4.260300E-03       0.0                                   
       Y.Nakajima              EXFOR                1980        2.190000E+01   1.500000E+00      21598-004       1.078818   2.000000E-05   4.700000E-03       0.0                                   
       Yu.V.Grigor'Ev          EXFOR                1991        2.080000E+01   0.000000E+00      40876-008       1.024630   4.650000E-04   2.000000E-01       0.0                                   
-# quantity:
+# quantity: 
 #   type: Nuclear data library
 #   average value:  2.237140E+01
-#   relative standard deviation [%]:       0.000000
-# datablock:
+#   relative standard deviation [%]:      0.000000
+# datablock: 
 #   columns: 8
 #   entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio

@@ -1,25 +1,25 @@
-# header:
+# header: 
 #   title: Se078 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-07-13
-# target:
+#   date: 2025-08-01
+# target: 
 #   Z: 34
 #   A: 78
 #   nuclide: Se078
-# reaction:
+# reaction: 
 #   type: D0
-# parameters:
+#   parameters: 
 #   selected value [eV]:  1.500000E+03
 #   selected value uncertainty [eV]:  3.000000E+02
 #   selected value source: RIPL-3
 #   number of values: 5
 #   average value [b]:  1.819092E+03
-#   relative standard deviation [%]:      39.648941
-# quantity:
+#   relative standard deviation [%]:     39.648941
+# quantity: 
 #   type: Compilation
 #   average value:  1.660000E+03
-#   relative standard deviation [%]:      14.491261
-# datablock:
+#   relative standard deviation [%]:     14.491261
+# datablock: 
 #   columns: 9
 #   entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio       #Resonances
@@ -27,21 +27,21 @@
       RIPL-2                  Compilation          2000        2.000000E+03   5.000000E+02            96I       1.333333        2      
       RIPL-3                  Compilation          2009        1.500000E+03   3.000000E+02            07I       1.000000               
       Mughabghab-2018         Compilation          2018        1.480000E+03   2.000000E+02                      0.986667               
-# quantity:
+# quantity: 
 #   type: EXFOR
 #   average value:  1.000000E+03
-#   relative standard deviation [%]:       0.000000
-# datablock:
+#   relative standard deviation [%]:      0.000000
+# datablock: 
 #   columns: 13
 #   entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
 ##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
       H.Malecki               EXFOR                1969        1.000000E+03   2.700000E+02      40022-027       0.666667   3.840000E-04   2.015000E-02       0.0                                   
-# quantity:
+# quantity: 
 #   type: Nuclear data library
 #   average value:  3.115460E+03
-#   relative standard deviation [%]:       0.000000
-# datablock:
+#   relative standard deviation [%]:      0.000000
+# datablock: 
 #   columns: 8
 #   entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio

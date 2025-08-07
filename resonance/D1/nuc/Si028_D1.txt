@@ -1,47 +1,47 @@
-# header:
+# header: 
 #   title: Si028 D1 resonance data
 #   source: Resonancetables
-#   date: 2025-07-13
-# target:
+#   date: 2025-08-01
+# target: 
 #   Z: 14
 #   A: 28
 #   nuclide: Si028
-# reaction:
+# reaction: 
 #   type: D1
-# parameters:
+#   parameters: 
 #   selected value [eV]:  7.500000E+04
 #   selected value uncertainty [eV]:  1.000000E+04
 #   selected value source: RIPL-3
 #   number of values: 5
 #   average value [b]:  1.198000E+05
-#   relative standard deviation [%]:      21.833433
-# quantity:
+#   relative standard deviation [%]:     21.833433
+# quantity: 
 #   type: Compilation
 #   average value:  9.200000E+04
-#   relative standard deviation [%]:      18.478260
-# datablock:
+#   relative standard deviation [%]:     18.478260
+# datablock: 
 #   columns: 8
 #   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
       RIPL-3                  Compilation          2009        7.500000E+04   1.000000E+04            97I       1.000000
       Mughabghab-2018         Compilation          2018        1.090000E+05   1.100000E+04                      1.453333
-# quantity:
+# quantity: 
 #   type: EXFOR
 #   average value:  1.450000E+05
-#   relative standard deviation [%]:       0.000000
-# datablock:
+#   relative standard deviation [%]:      0.000000
+# datablock: 
 #   columns: 13
 #   entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
 ##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
       H.Weigmann              EXFOR                1987        1.450000E+05   0.000000E+00      22072-008       1.933333                                     1.0                                   
       H.Weigmann              EXFOR                1987        1.450000E+05   0.000000E+00      22027-004       1.933333                                     1.0                                   
-# quantity:
+# quantity: 
 #   type: Nuclear data library
 #   average value:  1.250000E+05
-#   relative standard deviation [%]:       0.000000
-# datablock:
+#   relative standard deviation [%]:      0.000000
+# datablock: 
 #   columns: 8
 #   entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio

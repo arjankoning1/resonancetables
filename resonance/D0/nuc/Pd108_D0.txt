@@ -1,25 +1,25 @@
-# header:
+# header: 
 #   title: Pd108 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-07-13
-# target:
+#   date: 2025-08-01
+# target: 
 #   Z: 46
 #   A: 108
 #   nuclide: Pd108
-# reaction:
+# reaction: 
 #   type: D0
-# parameters:
+#   parameters: 
 #   selected value [eV]:  1.820000E+02
 #   selected value uncertainty [eV]:  3.300000E+01
 #   selected value source: RIPL-3
 #   number of values: 5
 #   average value [b]:  1.914080E+02
-#   relative standard deviation [%]:       8.342534
-# quantity:
+#   relative standard deviation [%]:      8.342534
+# quantity: 
 #   type: Compilation
 #   average value:  1.956667E+02
-#   relative standard deviation [%]:       9.877811
-# datablock:
+#   relative standard deviation [%]:      9.877811
+# datablock: 
 #   columns: 9
 #   entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio       #Resonances
@@ -27,21 +27,21 @@
       RIPL-2                  Compilation          2000        1.820000E+02   3.300000E+01            98C       1.000000        5      
       RIPL-3                  Compilation          2009        1.820000E+02   3.300000E+01            98C       1.000000               
       Mughabghab-2018         Compilation          2018        2.230000E+02   4.000000E+01                      1.225275               
-# quantity:
+# quantity: 
 #   type: EXFOR
 #   average value:  1.820000E+02
-#   relative standard deviation [%]:       0.000000
-# datablock:
+#   relative standard deviation [%]:      0.000000
+# datablock: 
 #   columns: 13
 #   entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
 ##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
       B.E.Crawford            EXFOR                1998        1.820000E+02   3.300000E+01      13713-007       1.000000   2.000000E-05   2.000000E-03       0.0                                   
-# quantity:
+# quantity: 
 #   type: Nuclear data library
 #   average value:  1.880400E+02
-#   relative standard deviation [%]:       0.000000
-# datablock:
+#   relative standard deviation [%]:      0.000000
+# datablock: 
 #   columns: 8
 #   entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio

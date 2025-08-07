@@ -1,25 +1,25 @@
-# header:
+# header: 
 #   title: Pu239 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-07-13
-# target:
+#   date: 2025-08-01
+# target: 
 #   Z: 94
 #   A: 239
 #   nuclide: Pu239
-# reaction:
+# reaction: 
 #   type: D0
-# parameters:
+#   parameters: 
 #   selected value [eV]:  2.200000E+00
 #   selected value uncertainty [eV]:  9.000000E-02
 #   selected value source: RIPL-3
 #   number of values: 14
 #   average value [b]:  5.165871E+01
-#   relative standard deviation [%]:     332.023376
-# quantity:
+#   relative standard deviation [%]:    332.023376
+# quantity: 
 #   type: Compilation
 #   average value:  2.156667E+00
-#   relative standard deviation [%]:       2.841544
-# datablock:
+#   relative standard deviation [%]:      2.841544
+# datablock: 
 #   columns: 9
 #   entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio       #Resonances
@@ -27,11 +27,11 @@
       RIPL-2                  Compilation          2000        2.200000E+00   5.000000E-02            97I       1.000000        2      
       RIPL-3                  Compilation          2009        2.200000E+00   9.000000E-02            97I       1.000000               
       Mughabghab-2018         Compilation          2018        2.070000E+00   7.000000E-02                      0.940909               
-# quantity:
+# quantity: 
 #   type: EXFOR
 #   average value:  7.143200E+01
-#   relative standard deviation [%]:     279.348297
-# datablock:
+#   relative standard deviation [%]:    279.348297
+# datablock: 
 #   columns: 13
 #   entries: 10
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
@@ -46,11 +46,11 @@
       H.Derrien               EXFOR                1973        3.200000E+00   0.000000E+00      20445-011       1.454545                  6.000000E-04       0.0            1.0            1.0     
       H.Derrien               EXFOR                1973        9.600000E+00   0.000000E+00      20445-011       4.363636                  6.000000E-04       0.0            0.0            1.0     
       J.Trochon               EXFOR                1977        6.700000E+02   0.000000E+00      21001-004     304.545441                  2.000000E-03       0.0                                   
-# quantity:
+# quantity: 
 #   type: Nuclear data library
 #   average value:  2.431920E+00
-#   relative standard deviation [%]:       0.000000
-# datablock:
+#   relative standard deviation [%]:      0.000000
+# datablock: 
 #   columns: 8
 #   entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio

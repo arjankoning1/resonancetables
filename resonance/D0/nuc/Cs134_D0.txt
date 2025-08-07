@@ -1,25 +1,25 @@
-# header:
+# header: 
 #   title: Cs134 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-07-13
-# target:
+#   date: 2025-08-01
+# target: 
 #   Z: 55
 #   A: 134
 #   nuclide: Cs134
-# reaction:
+# reaction: 
 #   type: D0
-# parameters:
+#   parameters: 
 #   selected value [eV]:  1.600000E+01
 #   selected value uncertainty [eV]:  3.000000E+00
 #   selected value source: RIPL-3
 #   number of values: 5
 #   average value [b]:  2.506480E+01
-#   relative standard deviation [%]:      31.002293
-# quantity:
+#   relative standard deviation [%]:     31.002293
+# quantity: 
 #   type: Compilation
 #   average value:  2.133333E+01
-#   relative standard deviation [%]:      35.355335
-# datablock:
+#   relative standard deviation [%]:     35.355335
+# datablock: 
 #   columns: 9
 #   entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio       #Resonances
@@ -27,21 +27,21 @@
       RIPL-2                  Compilation          2000        1.600000E+01   3.000000E+00            96I       1.000000       10      
       RIPL-3                  Compilation          2009        1.600000E+01   3.000000E+00            96I       1.000000               
       Mughabghab-2018         Compilation          2018        3.200000E+01   1.100000E+01                      2.000000               
-# quantity:
+# quantity: 
 #   type: EXFOR
 #   average value:  2.700000E+01
-#   relative standard deviation [%]:       0.000000
-# datablock:
+#   relative standard deviation [%]:      0.000000
+# datablock: 
 #   columns: 13
 #   entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
 ##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
       V.A.Anufriev            EXFOR                1977        2.700000E+01   7.500000E+00      41284-008       1.687500   1.227000E-05   1.710000E-04       0.0                                   
-# quantity:
+# quantity: 
 #   type: Nuclear data library
 #   average value:  3.432400E+01
-#   relative standard deviation [%]:       0.000000
-# datablock:
+#   relative standard deviation [%]:      0.000000
+# datablock: 
 #   columns: 8
 #   entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio

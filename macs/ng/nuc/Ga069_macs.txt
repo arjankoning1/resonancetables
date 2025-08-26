@@ -1,7 +1,7 @@
 # header: 
 #   title: Ga069(n,g) MACS
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 31
 #   A: 69
@@ -12,18 +12,18 @@
 #   selected value [b]:  1.390000E-01
 #   selected value uncertainty [b]:  6.000000E-03
 #   selected value source: Kadonis
-#   number of values: 11
-#   average value [b]:  1.309209E-01
-#   relative standard deviation [%]:     23.712547
+#   number of values: 12
+#   average value [b]:  1.315767E-01
+#   relative standard deviation [%]:     22.650282
 # quantity: 
 #   type: Compilation spectrum-averaged
 #   average value:  1.337500E-01
 #   relative standard deviation [%]:      6.798706
 # datablock: 
-#   columns: 10
+#   columns: 11
 #   entries: 4
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
-##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
       Bao                     Compilation          2000        1.390000E-01   6.000000E-03                      1.000000   MXW            3.000000E-02
       Kadonis                 Compilation          2010        1.390000E-01   6.000000E-03                      1.000000   MXW            3.000000E-02
       Sukhoruchkin            Compilation          2015        1.180000E-01   1.000000E-02                      0.848921   MXW            3.000000E-02
@@ -33,10 +33,10 @@
 #   average value:  9.920000E-02
 #   relative standard deviation [%]:     49.596771
 # datablock: 
-#   columns: 10
+#   columns: 11
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
-##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
       Kononov                 EXFOR                1958        1.484000E-01   1.200000E-03   40421009           1.067626                  2.400000E-02
       Chaubey                 EXFOR                1966        5.000000E-02   5.000000E-03   30079007           0.359712                  2.400000E-02
 # quantity: 
@@ -44,21 +44,22 @@
 #   average value:  1.860000E-01
 #   relative standard deviation [%]:      0.000000
 # datablock: 
-#   columns: 10
+#   columns: 11
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
-##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
       Goebel                  EXFOR                2021        1.860000E-01   1.200000E-02   23776004           1.338129   MXW            2.500000E-02
 # quantity: 
 #   type: Nuclear data library
-#   average value:  1.301825E-01
-#   relative standard deviation [%]:      7.176470
+#   average value:  1.319040E-01
+#   relative standard deviation [%]:      6.851733
 # datablock: 
-#   columns: 10
-#   entries: 4
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
-##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      cendl3.2                NDL                  2019        1.224500E-01   0.000000E+00                      0.880935   MXW            3.000000E-02
-      jendl5.0                NDL                  2021        1.401100E-01   0.000000E+00                      1.007985   MXW            3.000000E-02
-      endfb8.1                NDL                  2024        1.193800E-01   0.000000E+00                      0.858849   MXW            3.000000E-02
-      tendl.2025              NDL                  2025        1.387900E-01   0.000000E+00                      0.998489   MXW            3.000000E-02
+#   columns: 11
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      cendl3.2                NDL                  2019        1.224500E-01   0.000000E+00                      0.880935   MXW            3.000000E-02   6.039930E+01
+      jendl5.0                NDL                  2021        1.401100E-01   0.000000E+00                      1.007985   MXW            3.000000E-02   8.882980E+01
+      endfb8.1                NDL                  2024        1.193800E-01   0.000000E+00                      0.858849   MXW            3.000000E-02   7.513620E+01
+      tendl.2025              NDL                  2025        1.387900E-01   0.000000E+00                      0.998489   MXW            3.000000E-02   7.874760E+01
+      jeff4.0                 NDL                  2025        1.387900E-01   0.000000E+00                      0.998489   MXW            3.000000E-02   7.874760E+01

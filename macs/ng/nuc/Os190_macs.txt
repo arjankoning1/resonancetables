@@ -1,7 +1,7 @@
 # header: 
 #   title: Os190(n,g) MACS
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 76
 #   A: 190
@@ -20,10 +20,10 @@
 #   average value:  2.794165E-01
 #   relative standard deviation [%]:      4.690011
 # datablock: 
-#   columns: 10
+#   columns: 11
 #   entries: 5
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
-##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
       Bao                     Compilation          2000        2.950000E-01   4.500000E-02                      1.117075   MXW            3.000000E-02
       Kadonis                 Compilation          2010        2.740000E-01   1.200000E-02                      1.037554   MXW            3.000000E-02
       Sukhoruchkin            Compilation          2015        2.950000E-01   4.500000E-02                      1.117075   MXW            3.000000E-02
@@ -34,10 +34,10 @@
 #   average value:  5.539885E-01
 #   relative standard deviation [%]:     35.187099
 # datablock: 
-#   columns: 10
+#   columns: 11
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
-##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
       Macklin                 EXFOR                1957        7.489210E-01   1.098870E-01   11399048           2.835935                  2.400000E-02
       Bradley                 EXFOR                1979        3.590560E-01   3.860840E-02   10938007           1.359635                  2.430000E-02
 # quantity: 
@@ -45,10 +45,10 @@
 #   average value:  2.774100E-01
 #   relative standard deviation [%]:      3.031610
 # datablock: 
-#   columns: 10
+#   columns: 11
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
-##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
       Marganiec               EXFOR                2014        2.858200E-01   1.086110E-02   232670342          1.082313   MXW            2.500000E-02
       Marganiec               EXFOR                2014        2.690000E-01   1.076000E-02   23267022           1.018621   MXW            2.500000E-02
 # quantity: 
@@ -56,11 +56,11 @@
 #   average value:  3.518850E-01
 #   relative standard deviation [%]:      1.538857
 # datablock: 
-#   columns: 10
+#   columns: 11
 #   entries: 4
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
-##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      jendl5.0                NDL                  2021        3.573000E-01   0.000000E+00                      1.352986   MXW            3.000000E-02
-      endfb8.1                NDL                  2024        3.573000E-01   0.000000E+00                      1.352986   MXW            3.000000E-02
-      tendl.2025              NDL                  2025        3.464700E-01   0.000000E+00                      1.311976   MXW            3.000000E-02
-      jeff4.0                 NDL                  2025        3.464700E-01   0.000000E+00                      1.311976   MXW            3.000000E-02
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      jendl5.0                NDL                  2021        3.573000E-01   0.000000E+00                      1.352986   MXW            3.000000E-02   2.968830E+01
+      endfb8.1                NDL                  2024        3.573000E-01   0.000000E+00                      1.352986   MXW            3.000000E-02   2.968830E+01
+      tendl.2025              NDL                  2025        3.464700E-01   0.000000E+00                      1.311976   MXW            3.000000E-02   3.431200E+01
+      jeff4.0                 NDL                  2025        3.464700E-01   0.000000E+00                      1.311976   MXW            3.000000E-02   3.431200E+01

@@ -1,7 +1,7 @@
 # header: 
 #   title: Zn070(n,g) MACS
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 30
 #   A: 70
@@ -20,10 +20,10 @@
 #   average value:  1.034958E-02
 #   relative standard deviation [%]:      9.598850
 # datablock: 
-#   columns: 10
+#   columns: 11
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
-##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
       Sukhoruchkin            Compilation          2015        1.170000E-02   2.000000E-03                      1.252847   MXW            3.000000E-02
       Mughabghab-2018         Compilation          2018        1.001000E-02   8.800000E-04                      1.071881   MXW            3.000000E-02
       Astral                  Compilation          2020        9.338727E-03   5.905057E-04                      1.000000   MXW            3.000000E-02
@@ -32,12 +32,12 @@
 #   average value:  1.209220E-02
 #   relative standard deviation [%]:      2.693035
 # datablock: 
-#   columns: 10
+#   columns: 11
 #   entries: 5
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
-##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      cendl3.2                NDL                  2019        1.182000E-02   0.000000E+00                      1.265697   MXW            3.000000E-02
-      jendl5.0                NDL                  2021        1.182900E-02   0.000000E+00                      1.266661   MXW            3.000000E-02
-      endfb8.1                NDL                  2024        1.183000E-02   0.000000E+00                      1.266768   MXW            3.000000E-02
-      tendl.2025              NDL                  2025        1.248700E-02   0.000000E+00                      1.337120   MXW            3.000000E-02
-      jeff4.0                 NDL                  2025        1.249500E-02   0.000000E+00                      1.337977   MXW            3.000000E-02
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      cendl3.2                NDL                  2019        1.182000E-02   0.000000E+00                      1.265697   MXW            3.000000E-02   2.793000E+01
+      jendl5.0                NDL                  2021        1.182900E-02   0.000000E+00                      1.266661   MXW            3.000000E-02   2.795130E+01
+      endfb8.1                NDL                  2024        1.183000E-02   0.000000E+00                      1.266768   MXW            3.000000E-02   2.795360E+01
+      tendl.2025              NDL                  2025        1.248700E-02   0.000000E+00                      1.337120   MXW            3.000000E-02   2.526890E+01
+      jeff4.0                 NDL                  2025        1.249500E-02   0.000000E+00                      1.337977   MXW            3.000000E-02   2.528440E+01

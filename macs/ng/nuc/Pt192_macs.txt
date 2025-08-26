@@ -1,7 +1,7 @@
 # header: 
 #   title: Pt192(n,g) MACS
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 78
 #   A: 192
@@ -12,18 +12,31 @@
 #   selected value [b]:  5.900000E-01
 #   selected value uncertainty [b]:  1.200000E-01
 #   selected value source: Bao
-#   number of values: 3
-#   average value [b]:  5.543334E-01
-#   relative standard deviation [%]:      9.099268
+#   number of values: 7
+#   average value [b]:  4.915043E-01
+#   relative standard deviation [%]:     18.301069
 # quantity: 
 #   type: Compilation spectrum-averaged
 #   average value:  5.543334E-01
 #   relative standard deviation [%]:      9.099268
 # datablock: 
-#   columns: 10
+#   columns: 11
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
-##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
       Bao                     Compilation          2000        5.900000E-01   1.200000E-01                      1.000000   MXW            3.000000E-02
       Sukhoruchkin            Compilation          2015        5.900000E-01   1.200000E-01                      1.000000   MXW            3.000000E-02
       Mughabghab-2018         Compilation          2018        4.830000E-01   2.000000E-02                      0.818644   MXW            3.000000E-02
+# quantity: 
+#   type: Nuclear data library
+#   average value:  4.443825E-01
+#   relative standard deviation [%]:     18.921621
+# datablock: 
+#   columns: 11
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      jendl5.0                NDL                  2021        4.522900E-01   0.000000E+00                      0.766593   MXW            3.000000E-02   1.148080E+00
+      endfb8.1                NDL                  2024        3.046400E-01   0.000000E+00                      0.516339   MXW            3.000000E-02   3.316940E+01
+      tendl.2025              NDL                  2025        5.103000E-01   0.000000E+00                      0.864915   MXW            3.000000E-02   9.269890E-01
+      jeff4.0                 NDL                  2025        5.103000E-01   0.000000E+00                      0.864915   MXW            3.000000E-02   9.269890E-01

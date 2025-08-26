@@ -1,7 +1,7 @@
 # header: 
 #   title: Mo100(n,g) MACS
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 42
 #   A: 100
@@ -13,17 +13,17 @@
 #   selected value uncertainty [b]:  1.400000E-02
 #   selected value source: Kadonis
 #   number of values: 15
-#   average value [b]:  9.774321E-02
-#   relative standard deviation [%]:     23.957073
+#   average value [b]:  9.833048E-02
+#   relative standard deviation [%]:     23.585407
 # quantity: 
 #   type: Compilation spectrum-averaged
 #   average value:  1.025000E-01
 #   relative standard deviation [%]:      9.293931
 # datablock: 
-#   columns: 10
+#   columns: 11
 #   entries: 4
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
-##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
       Bao                     Compilation          2000        1.080000E-01   1.400000E-02                      1.000000   MXW            3.000000E-02
       Kadonis                 Compilation          2010        1.080000E-01   1.400000E-02                      1.000000   MXW            3.000000E-02
       Sukhoruchkin            Compilation          2015        8.600000E-02   8.000000E-03                      0.796296   MXW            3.000000E-02
@@ -33,10 +33,10 @@
 #   average value:  1.044945E-01
 #   relative standard deviation [%]:     32.180542
 # datablock: 
-#   columns: 10
+#   columns: 11
 #   entries: 6
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
-##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
       Hummel                  EXFOR                1951        5.700000E-02   1.710000E-02   11010008           0.527778                  2.400000E-02
       Kononov                 EXFOR                1958        1.100000E-01   3.000000E-03   40421016           1.018519                  2.400000E-02
       Vervier                 EXFOR                1959        1.480000E-01   3.900000E-02   20205007           1.370370                  2.500000E-02
@@ -45,15 +45,15 @@
       Wyrick                  EXFOR                1982        1.179670E-01   1.300000E-02   12831009           1.092287                  3.000000E-02
 # quantity: 
 #   type: Nuclear data library
-#   average value:  8.583619E-02
-#   relative standard deviation [%]:      1.098146
+#   average value:  8.759800E-02
+#   relative standard deviation [%]:      3.490048
 # datablock: 
-#   columns: 10
+#   columns: 11
 #   entries: 5
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
-##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      cendl3.2                NDL                  2019        8.689100E-02   0.000000E+00                      0.804546   MXW            3.000000E-02
-      jendl5.0                NDL                  2021        8.621200E-02   0.000000E+00                      0.798259   MXW            3.000000E-02
-      endfb8.1                NDL                  2024        8.665200E-02   0.000000E+00                      0.802333   MXW            3.000000E-02
-      tendl.2025              NDL                  2025        8.471300E-02   0.000000E+00                      0.784380   MXW            3.000000E-02
-      jeff4.0                 NDL                  2025        8.471300E-02   0.000000E+00                      0.784380   MXW            3.000000E-02
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      cendl3.2                NDL                  2019        8.689100E-02   0.000000E+00                      0.804546   MXW            3.000000E-02   9.085740E-01
+      jendl5.0                NDL                  2021        8.621200E-02   0.000000E+00                      0.798259   MXW            3.000000E-02   9.834820E-01
+      endfb8.1                NDL                  2024        8.665200E-02   0.000000E+00                      0.802333   MXW            3.000000E-02   9.060750E-01
+      tendl.2025              NDL                  2025        8.471300E-02   0.000000E+00                      0.784380   MXW            3.000000E-02   9.980500E-01
+      jeff4.0                 NDL                  2025        9.352200E-02   0.000000E+00                      0.865944   MXW            3.000000E-02   7.940130E-01

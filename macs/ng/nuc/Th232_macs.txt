@@ -1,7 +1,7 @@
 # header: 
 #   title: Th232(n,g) MACS
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 90
 #   A: 232
@@ -12,31 +12,45 @@
 #   selected value [b]:  4.755600E-01
 #   selected value uncertainty [b]:  2.642700E-02
 #   selected value source: Poenitz
-#   number of values: 7
-#   average value [b]:  5.466372E-01
-#   relative standard deviation [%]:     13.156838
+#   number of values: 12
+#   average value [b]:  5.231150E-01
+#   relative standard deviation [%]:     11.832525
 # quantity: 
 #   type: Compilation spectrum-averaged
 #   average value:  4.879000E-01
 #   relative standard deviation [%]:      0.000000
 # datablock: 
-#   columns: 10
+#   columns: 11
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
-##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
       Sukhoruchkin            Compilation          2015        4.879000E-01   0.000000E+00                      1.025948   MXW            3.000000E-02
 # quantity: 
 #   type: EXFOR
 #   average value:  5.564267E-01
 #   relative standard deviation [%]:     13.162135
 # datablock: 
-#   columns: 10
+#   columns: 11
 #   entries: 6
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
-##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
       Macklin                 EXFOR                1957        5.000000E-01   1.000000E-01   11399051           1.051392                  2.400000E-02
       Belanova                EXFOR                1965        6.100000E-01   2.400000E-02   400720362          1.282698                  2.400000E-02
       Belanova                EXFOR                1965        6.580001E-01   2.900000E-02   400720361          1.383632                  2.400000E-02
       Belanova                EXFOR                1965        6.150000E-01   2.500000E-02   40072018           1.293212                  2.400000E-02
       Chaubey                 EXFOR                1965        4.800000E-01   5.000000E-02   30063012           1.009336                  2.400000E-02
       Poenitz                 EXFOR                1978        4.755600E-01   2.642700E-02   10735004           1.000000                  3.000000E-02
+# quantity: 
+#   type: Nuclear data library
+#   average value:  4.901840E-01
+#   relative standard deviation [%]:      1.984306
+# datablock: 
+#   columns: 11
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      cendl3.2                NDL                  2019        4.854700E-01   0.000000E+00                      1.020839   MXW            3.000000E-02   7.205440E+01
+      jendl5.0                NDL                  2021        4.763700E-01   0.000000E+00                      1.001703   MXW            3.000000E-02   7.070410E+01
+      endfb8.1                NDL                  2024        4.879200E-01   0.000000E+00                      1.025990   MXW            3.000000E-02   7.241820E+01
+      tendl.2025              NDL                  2025        5.049800E-01   0.000000E+00                      1.061864   MXW            3.000000E-02   7.495170E+01
+      jeff4.0                 NDL                  2025        4.961800E-01   0.000000E+00                      1.043359   MXW            3.000000E-02   7.364430E+01

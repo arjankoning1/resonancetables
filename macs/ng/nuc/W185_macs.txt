@@ -1,7 +1,7 @@
 # header: 
 #   title: W185(n,g) MACS
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 74
 #   A: 185
@@ -12,18 +12,18 @@
 #   selected value [b]:  5.530000E-01
 #   selected value uncertainty [b]:  6.000000E-02
 #   selected value source: Mohr
-#   number of values: 3
-#   average value [b]:  5.976667E-01
-#   relative standard deviation [%]:     10.569134
+#   number of values: 7
+#   average value [b]:  6.972028E-01
+#   relative standard deviation [%]:     27.293682
 # quantity: 
 #   type: Compilation spectrum-averaged
 #   average value:  6.200000E-01
 #   relative standard deviation [%]:     10.806452
 # datablock: 
-#   columns: 10
+#   columns: 11
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
-##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
       Sukhoruchkin            Compilation          2015        6.870000E-01   1.100000E-01                      1.242315   MXW            3.000000E-02
       Mughabghab-2018         Compilation          2018        5.530000E-01   6.000000E-02                      1.000000   MXW            3.000000E-02
 # quantity: 
@@ -31,8 +31,21 @@
 #   average value:  5.530000E-01
 #   relative standard deviation [%]:      0.000000
 # datablock: 
-#   columns: 10
+#   columns: 11
 #   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
-##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
       Mohr                    EXFOR                2004        5.530000E-01   6.000000E-02   22867002           1.000000   MXW            3.000000E-02
+# quantity: 
+#   type: Nuclear data library
+#   average value:  7.718550E-01
+#   relative standard deviation [%]:     28.198845
+# datablock: 
+#   columns: 11
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      jendl5.0                NDL                  2021        5.550700E-01   0.000000E+00                      1.003743   MXW            3.000000E-02   1.010360E+00
+      endfb8.1                NDL                  2024        1.134900E+00   0.000000E+00                      2.052260   MXW            3.000000E-02   9.438390E-01
+      tendl.2025              NDL                  2025        6.987300E-01   0.000000E+00                      1.263526   MXW            3.000000E-02   1.117990E+00
+      jeff4.0                 NDL                  2025        6.987200E-01   0.000000E+00                      1.263508   MXW            3.000000E-02   1.117990E+00

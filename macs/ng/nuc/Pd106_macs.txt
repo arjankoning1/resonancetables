@@ -1,7 +1,7 @@
 # header: 
 #   title: Pd106(n,g) MACS
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 46
 #   A: 106
@@ -13,31 +13,31 @@
 #   selected value uncertainty [b]:  2.500000E-02
 #   selected value source: Kadonis
 #   number of values: 8
-#   average value [b]:  2.500200E-01
-#   relative standard deviation [%]:      2.586300
+#   average value [b]:  2.478400E-01
+#   relative standard deviation [%]:      2.978707
 # quantity: 
 #   type: Compilation spectrum-averaged
 #   average value:  2.495000E-01
 #   relative standard deviation [%]:      2.222554
 # datablock: 
-#   columns: 10
+#   columns: 11
 #   entries: 4
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
-##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
       Bao                     Compilation          2000        2.520000E-01   2.500000E-02                      1.000000   MXW            3.000000E-02
       Kadonis                 Compilation          2010        2.520000E-01   2.500000E-02                      1.000000   MXW            3.000000E-02
       Sukhoruchkin            Compilation          2015        2.400000E-01   4.000000E-02                      0.952381   MXW            3.000000E-02
       Mughabghab-2018         Compilation          2018        2.540000E-01   2.400000E-02                      1.007936   MXW            3.000000E-02
 # quantity: 
 #   type: Nuclear data library
-#   average value:  2.505400E-01
-#   relative standard deviation [%]:      2.887464
+#   average value:  2.461800E-01
+#   relative standard deviation [%]:      3.464428
 # datablock: 
-#   columns: 10
+#   columns: 11
 #   entries: 4
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
-##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      jendl5.0                NDL                  2021        2.546700E-01   0.000000E+00                      1.010595   MXW            3.000000E-02
-      endfb8.1                NDL                  2024        2.380100E-01   0.000000E+00                      0.944484   MXW            3.000000E-02
-      tendl.2025              NDL                  2025        2.547400E-01   0.000000E+00                      1.010873   MXW            3.000000E-02
-      jeff4.0                 NDL                  2025        2.547400E-01   0.000000E+00                      1.010873   MXW            3.000000E-02
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      jendl5.0                NDL                  2021        2.546700E-01   0.000000E+00                      1.010595   MXW            3.000000E-02   9.917940E-01
+      endfb8.1                NDL                  2024        2.380100E-01   0.000000E+00                      0.944484   MXW            3.000000E-02   9.999990E+01
+      tendl.2025              NDL                  2025        2.547400E-01   0.000000E+00                      1.010873   MXW            3.000000E-02   1.021710E+00
+      jeff4.0                 NDL                  2025        2.373000E-01   0.000000E+00                      0.941667   MXW            3.000000E-02   1.004120E+00

@@ -1,7 +1,7 @@
 # header: 
 #   title: Cd111(n,g) MACS
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 48
 #   A: 111
@@ -20,10 +20,10 @@
 #   average value:  8.580819E-01
 #   relative standard deviation [%]:     13.880754
 # datablock: 
-#   columns: 10
+#   columns: 11
 #   entries: 5
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
-##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
       Bao                     Compilation          2000        1.063000E+00   1.250000E-01                      1.329732   MXW            3.000000E-02
       Kadonis                 Compilation          2010        7.540000E-01   1.200000E-02                      0.943196   MXW            3.000000E-02
       Sukhoruchkin            Compilation          2015        9.200000E-01   2.100000E-01                      1.150850   MXW            3.000000E-02
@@ -34,11 +34,11 @@
 #   average value:  8.133325E-01
 #   relative standard deviation [%]:      8.906176
 # datablock: 
-#   columns: 10
+#   columns: 11
 #   entries: 4
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
-##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      jendl5.0                NDL                  2021        7.266600E-01   0.000000E+00                      0.908996   MXW            3.000000E-02
-      endfb8.1                NDL                  2024        9.277500E-01   0.000000E+00                      1.160544   MXW            3.000000E-02
-      tendl.2025              NDL                  2025        7.994600E-01   0.000000E+00                      1.000063   MXW            3.000000E-02
-      jeff4.0                 NDL                  2025        7.994600E-01   0.000000E+00                      1.000063   MXW            3.000000E-02
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      jendl5.0                NDL                  2021        7.266600E-01   0.000000E+00                      0.908996   MXW            3.000000E-02   9.548750E-01
+      endfb8.1                NDL                  2024        9.277500E-01   0.000000E+00                      1.160544   MXW            3.000000E-02   9.387070E-01
+      tendl.2025              NDL                  2025        7.994600E-01   0.000000E+00                      1.000063   MXW            3.000000E-02   9.742680E-01
+      jeff4.0                 NDL                  2025        7.994600E-01   0.000000E+00                      1.000063   MXW            3.000000E-02   9.742680E-01

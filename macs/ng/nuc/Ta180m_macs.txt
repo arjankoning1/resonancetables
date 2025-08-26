@@ -1,7 +1,7 @@
 # header: 
 #   title: Ta180m(n,g) MACS
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 73
 #   A: 180
@@ -12,18 +12,29 @@
 #   selected value [b]:  1.465000E+00
 #   selected value uncertainty [b]:  1.000000E-01
 #   selected value source: Kadonis
-#   number of values: 3
-#   average value [b]:  1.465000E+00
-#   relative standard deviation [%]:      0.000000
+#   number of values: 5
+#   average value [b]:  2.131400E+00
+#   relative standard deviation [%]:     38.292675
 # quantity: 
 #   type: Compilation spectrum-averaged
 #   average value:  1.465000E+00
 #   relative standard deviation [%]:      0.000000
 # datablock: 
-#   columns: 10
+#   columns: 11
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
-##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
       Kadonis                 Compilation          2010        1.465000E+00   1.000000E-01                      1.000000   MXW            3.000000E-02
       Sukhoruchkin            Compilation          2015        1.465000E+00   1.000000E-01                      1.000000   MXW            3.000000E-02
       Mughabghab-2018         Compilation          2018        1.465000E+00   1.000000E-01                      1.000000   MXW            3.000000E-02
+# quantity: 
+#   type: Nuclear data library
+#   average value:  3.131000E+00
+#   relative standard deviation [%]:      0.000000
+# datablock: 
+#   columns: 11
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      tendl.2025              NDL                  2025        3.131000E+00   0.000000E+00                      2.137201   MXW            3.000000E-02   6.047630E+00
+      jeff4.0                 NDL                  2025        3.131000E+00   0.000000E+00                      2.137201   MXW            3.000000E-02   6.047630E+00

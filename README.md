@@ -20,13 +20,13 @@ The following are the prerequisites for compiling RESONANCETABLES:
 ### Downloads:
 
 To download RESONANCEtables, you can use one of the following options:
-#### 1. Download the tar file:
+#### 1. Download the tar file (frozen version):
 ```
 https://nds.iaea.org/talys/resonancetables.tar
 tar zxf resonancetables.tar
 ```
 
-#### 2. Using git:
+#### 2. Using git (latest beta version):
 ```
 git clone https://github.com/arjankoning1/resonancetables.git
 ```

@@ -5,7 +5,7 @@ subroutine procthermal(Z, A, Liso)
 !
 ! Revision    Date      Author      Quality  Description
 ! ======================================================
-!    1     2025-03-05   A.J. Koning    A     Original code
+!    1     2025-08-10   A.J. Koning    A     Original code
 !-----------------------------------------------------------------------------------------------------------------------------------
 !
 ! *** Use data from other modules
@@ -20,15 +20,21 @@ subroutine procthermal(Z, A, Liso)
   character(len=24)  :: atmp          ! author
   character(len=40)  :: rtmp          ! reference
   character(len=40)  :: avtmp 
+  character(len=40)  :: thermchoice
+  character(len=132) :: thermfile 
   integer            :: Z             ! charge number
   integer            :: A             ! mass number
   integer            :: N             ! counter
+  integer            :: iz
+  integer            :: ia
+  integer            :: istat
   integer            :: i             ! counter
   integer            :: j             ! counter
   integer            :: Nsel          ! counter
   integer            :: ytmp          ! year
   integer            :: Liso          ! target isomer
   real(sgl)          :: Etmp
+  real(sgl)          :: Gtmp
   real(sgl)          :: xstmp         ! cross section
   real(sgl)          :: dxstmp        ! cross section uncertainty
   real(sgl)          :: sumxs
@@ -79,6 +85,7 @@ subroutine procthermal(Z, A, Liso)
         rtmp = res_ref(i)
         avtmp = res_av(i)
         Etmp = res_E(i)
+        Gtmp = res_G(i)
         res_xs(i) = res_xs(j)
         res_dxs(i) = res_dxs(j)
         res_year(i) = res_year(j)
@@ -87,6 +94,7 @@ subroutine procthermal(Z, A, Liso)
         res_ref(i) = res_ref(j)
         res_av(i) = res_av(j)
         res_E(i) = res_E(j)
+        res_G(i) = res_G(j)
         res_xs(j) = xstmp 
         res_dxs(j) = dxstmp 
         res_year(j) = ytmp 
@@ -95,6 +103,7 @@ subroutine procthermal(Z, A, Liso)
         res_ref(j) = rtmp
         res_av(j) = avtmp
         res_E(j) = Etmp
+        res_G(j) = Gtmp
       enddo
     enddo
 !
@@ -226,9 +235,29 @@ subroutine procthermal(Z, A, Liso)
     Nsel = Nres_exp
     exit Loop1
   enddo Loop1
+!
+! Overrule rule by specific cases
+!
+  thermfile = trim(filespath)//'thermal_koning.ng'
+  open (unit = 2, status = 'old', file = thermfile)
+  do
+    read(2,'(2i4, 1x, a)', iostat = istat) iz, ia, thermchoice
+    if (istat == -1) exit
+    if (istat > 0) call read_error(thermfile, istat)
+    if (iz == Z .and. ia == A) then
+      do i = 1, N
+        if (trim(res_author(i)) == trim(thermchoice)) then
+          Nsel = i
+          exit
+        endif
+      enddo
+    endif
+  enddo
+  close(2)
   if (Nsel > 0) then
     res_xs_sel = res_xs(Nsel)
     res_dxs_sel = res_dxs(Nsel)
+    res_G_sel = res_G(Nsel)
     res_author_sel = res_author(Nsel)
     res_av_sel = res_av(Nsel)
     Nsave = Nsave + 1
@@ -238,12 +267,14 @@ subroutine procthermal(Z, A, Liso)
     Lisosave(N) = Liso
     xssave(N) = res_xs_sel 
     dxssave(N) = res_dxs_sel 
+    Gsave(N) = res_G_sel 
     refsave(N) = res_author_sel 
     avsave(N) = res_av_sel 
     Nexpsave(N) = Nres_exp 
     varsave(N) = var_xs
     compsave(N) = var_xs_comp 
     NDLsave(N) = var_xs_NDL 
+    expsave(N) = var_xs_exfor 
     do i = 1, Nres
       F = res_xs(i) / res_xs(Nsel)
       if (F < 0.2 .or. F > 5.) then
@@ -253,6 +284,7 @@ subroutine procthermal(Z, A, Liso)
   else
     res_xs_sel = 0.
     res_dxs_sel = 0.
+    res_G_sel = 0.
     res_author_sel = ''
     res_av_sel = ''
   endif

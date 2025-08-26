@@ -5,7 +5,7 @@ module A0_resonancetables_mod
 !                                                                                                                                   
 ! Revision    Date      Author           Description                                                                                
 ! ====================================================                                                                              
-!    1     2025-08-01   A.J. Koning      Original code                                                                              
+!    1     2025-08-22   A.J. Koning      Original code                                                                              
 !-----------------------------------------------------------------------------------------------------------------------------------
 !                                                                                                                                   
 ! *** Use data from other modules                                                                                                   
@@ -66,6 +66,7 @@ module A0_resonancetables_mod
   integer                             :: Nres_exp ! number of EXFOR cases
   real, dimension(numex)              :: res_xs  ! res parameter
   real, dimension(numex)              :: res_dxs ! res parameter uncertainty
+  real, dimension(numex)              :: res_G ! G-factor
   real, dimension(numex)              :: res_E
   character(len=15), dimension(numex) :: res_Nrr
   character(len=15), dimension(numex) :: res_Emin
@@ -80,6 +81,7 @@ module A0_resonancetables_mod
   character(len=40)                   :: res_av_sel 
   real                                :: res_xs_sel  
   real                                :: res_dxs_sel 
+  real                                :: res_G_sel 
 !                                                                                                                                   
 ! readthermal                                                                                                                       
 !                                                                                                                                   
@@ -91,8 +93,10 @@ module A0_resonancetables_mod
   integer, dimension(numdat)           :: Nexpsave
   real, dimension(numdat)              :: xssave
   real, dimension(numdat)              :: dxssave
+  real, dimension(numdat)              :: Gsave
   real, dimension(numdat)              :: varsave
   real, dimension(numdat)              :: compsave
+  real, dimension(numdat)              :: expsave
   real, dimension(numdat)              :: NDLsave
   integer                              :: Nsave
   integer                              :: Nexp

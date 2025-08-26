@@ -5,7 +5,7 @@ subroutine readthermal(Z, A, Liso, Riso, type)
 !
 ! Revision    Date      Author      Quality  Description
 ! ======================================================
-!    1     2025-03-05   A.J. Koning    A     Original code
+!    1     2025-08-19   A.J. Koning    A     Original code
 !-----------------------------------------------------------------------------------------------------------------------------------
 !
 ! *** Use data from other modules
@@ -23,6 +23,7 @@ subroutine readthermal(Z, A, Liso, Riso, type)
   character(len=3)   :: exten      ! extension
   character(len=3)   :: Zstring
   character(len=3)   :: Astring
+  character(len=4)   :: ext
   character(len=9)   :: ref        ! reference
   character(len=12)  :: sub        ! subentry
   character(len=10)   :: nucstring
@@ -52,6 +53,8 @@ subroutine readthermal(Z, A, Liso, Riso, type)
   integer            :: istat      ! error code
   real(sgl)          :: Einc       ! incident energy
   real(sgl)          :: dEinc 
+  real(sgl)          :: G
+  real(sgl)          :: dum
   real(sgl)          :: xs0        ! cross section
   real(sgl)          :: xs1        ! cross section
   real(sgl)          :: xs         ! cross section
@@ -80,6 +83,7 @@ subroutine readthermal(Z, A, Liso, Riso, type)
   res_ref = ''
   res_xs = 0.
   res_dxs = 0.
+  res_G = 0.
   res_av = ''
   res_E = 2.53e-8
   ref = ''
@@ -94,11 +98,11 @@ subroutine readthermal(Z, A, Liso, Riso, type)
   if (type >= 3 .and. type <= 6) then
     thermfile = trim(filespath)//'thermal.ripl'
     open (unit = 2, status = 'old', file = thermfile)
+    read(2, '()')
     do
       read(2, '(a)', iostat = istat) line
       if (istat == -1) exit
       if (istat > 0) call read_error(thermfile, istat)
-      if (line(1:2) == 'ZA') cycle
       read(line, * ) IZA, isoT, MT, isoR, xs ,dxs
       iz=IZA/1000
       ia=IZA-1000*Z
@@ -298,6 +302,7 @@ subroutine readthermal(Z, A, Liso, Riso, type)
         dxs = rochread(line(354:354))
         if (xs > 0.) go = 1
       endif
+      if (xs <= 0.) go = 0
 !
 ! Add to database
 !
@@ -468,30 +473,43 @@ subroutine readthermal(Z, A, Liso, Riso, type)
 !
   xs = 0.
   dxs = 0.
-  if (type == 4 .and. Riso == -1) then
+  if ((type == 3 .and. Riso == -1) .or. type == 1 .or. type == 2 .or. type == 4) then
+    if (type == 1) ext = 'tot'
+    if (type == 2) ext = 'el'
+    if (type == 3) ext = 'nf'
+    if (type == 4) then
+      ext = 'ng'
+      if (Riso == 0) ext=trim(ext)//'_g'
+      if (Riso == 1) ext=trim(ext)//'_m'
+      if (Riso == 2) ext=trim(ext)//'_n'
+    endif
     do lib = 1, numndlib
-      thermfile = trim(libspath)//trim(ndlib(lib))//'.therm'
-      open (unit = 2, status = 'old', file = thermfile)
-      do
-        read(2, '(a)', iostat = istat) line
-        if (istat == -1) exit
-        if (istat > 0) call read_error(thermfile, istat)
-        if (line(1:1) == '#') cycle
-        read(line, * ) iz, ia, isoT, CE, chi2, xs
-        if (iz == Z .and. ia == A .and. Liso == isoT) then
-          k = k + 1
-          res_author(k) = ndlib(lib)
-          res_type(k) = 'NDL'
-          res_year(k) = ndyear(lib)
-          res_ref(k) = ref
-          res_xs(k) = xs
-          res_dxs(k) = dxs
-          res_av(k) = ''
-          res_exist = .true.
-          exit
-        endif
-      enddo
-      close (2)
+      thermfile = trim(libspath)//trim(ndlib(lib))//'.therm_'//ext
+      inquire (file = thermfile, exist = lexist)
+      if (lexist) then
+        open (unit = 2, status = 'old', file = thermfile)
+        do
+          read(2, '(a)', iostat = istat) line
+          if (istat == -1) exit
+          if (istat > 0) call read_error(thermfile, istat)
+          if (line(1:1) == '#') cycle
+          read(line, * ) iz, ia, isoT, CE, chi2, xs, dum, dum, dum, G
+          if (iz == Z .and. ia == A .and. Liso == isoT) then
+            k = k + 1
+            res_author(k) = ndlib(lib)
+            res_type(k) = 'NDL'
+            res_year(k) = ndyear(lib)
+            res_ref(k) = ref
+            res_xs(k) = xs
+            res_dxs(k) = dxs
+            res_G(k) = G
+            res_av(k) = ''
+            res_exist = .true.
+            exit
+          endif
+        enddo
+        close (2)
+      endif
     enddo
   endif
 !
@@ -546,6 +564,7 @@ subroutine readthermal(Z, A, Liso, Riso, type)
           write(*,*) "EXFOR problem: ",trim(line)
           cycle
         endif
+        if (xs <= 0.) cycle
         Nres_exp = Nres_exp + 1
         if (Nres_exp  > numex) then
           Nres_exp = numex

@@ -266,6 +266,7 @@ Loop2:  do
     varsave(N) = var_xs
     compsave(N) = var_xs_comp
     NDLsave(N) = var_xs_NDL
+    expsave(N) = var_xs_exfor
     do i = 1, Nres
       F = res_xs(i) / res_xs(Nsel)    
       if (F < 0.2 .or. F > 5.) then

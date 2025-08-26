@@ -5,7 +5,7 @@ subroutine sumthermal(Riso, type)
 !
 ! Revision    Date      Author      Quality  Description
 ! ======================================================
-!    1     2025-07-11   A.J. Koning    A     Original code
+!    1     2025-08-09   A.J. Koning    A     Original code
 !-----------------------------------------------------------------------------------------------------------------------------------
 !
 ! *** Use data from other modules
@@ -30,8 +30,8 @@ subroutine sumthermal(Riso, type)
   character(len=15)  :: ref
   character(len=30)  :: auth
   character(len=18)  :: react      ! reaction
-  character(len=15)  :: col(12)     ! header
-  character(len=15)  :: un(12)      ! units
+  character(len=15)  :: col(13)     ! header
+  character(len=15)  :: un(13)      ! units
   character(len=80)  :: quantity   ! quantity
   character(len=132) :: topline    ! topline
   logical            :: lexist
@@ -93,11 +93,12 @@ subroutine sumthermal(Riso, type)
   col(6) = 'Reference'
   col(7) = 'Rel. dev. comp.'
   col(8) = 'Rel. dev. NDL'
-  col(9) = 'Rel. dev. all'
-  col(10) = '#Experiments'
-  col(11) = 'Spectrum'
-  col(12) = 'Nuclide'
-  Ncol = 12
+  col(9) = 'Rel. dev. EXFOR'
+  col(10) = 'Rel. dev. all'
+  col(11) = '#Experiments'
+  col(12) = 'Spectrum'
+  col(13) = 'Nuclide'
+  Ncol = 13
   un = ''
   if (type <= 6) then
     un(4) = 'b'
@@ -106,6 +107,7 @@ subroutine sumthermal(Riso, type)
   un(7) = '%'
   un(8) = '%'
   un(9) = '%'
+  un(10) = '%'
   N = Nsave
   call write_quantity(indent,quantity)
   call write_datablock(indent,Ncol,N,col,un)
@@ -115,8 +117,8 @@ subroutine sumthermal(Riso, type)
     nuclide=trim(nuc(Zsave(k)))//Astring
     if (Lisosave(k) == 1) nuclide = trim(nuclide)//'m'
     if (Lisosave(k) == 2) nuclide = trim(nuclide)//'n'
-    write(1, '(3(6x,i4,5x),2es15.6,2x,a15,3(4x,f7.2,4x),4x,i4,11x,a9,10x,a6)') Zsave(k), Asave(k), Lisosave(k), &
- &     xssave(k), dxssave(k), refsave(k), compsave(k), NDLsave(k), varsave(k), Nexpsave(k), avsave(k), nuclide 
+    write(1, '(3(6x,i4,5x),2es15.6,2x,a15,4(4x,f7.2,4x),4x,i4,11x,a9,10x,a6)') Zsave(k), Asave(k), Lisosave(k), &
+ &     xssave(k), dxssave(k), refsave(k), compsave(k), NDLsave(k), expsave(k), varsave(k), Nexpsave(k), avsave(k), nuclide 
     thermfile=trim(thermalpath)//trim(rfile)//'/nuc/'//trim(nuclide)//'_'//trim(rfile)//'.txt'
     inquire (file = thermfile, exist = lexist)
     if (lexist) then

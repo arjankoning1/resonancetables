@@ -5,7 +5,7 @@ subroutine sumresonance(type)
 !
 ! Revision    Date      Author      Quality  Description
 ! ======================================================
-!    1     2025-07-11   A.J. Koning    A     Original code
+!    1     2025-08-09   A.J. Koning    A     Original code
 !-----------------------------------------------------------------------------------------------------------------------------------
 !
 ! *** Use data from other modules
@@ -16,7 +16,7 @@ subroutine sumresonance(type)
 ! *** Declaration of local data
 !
   implicit none
-  integer, parameter :: Nsource=11
+  integer, parameter :: Nsource=12
   character(len=200) :: line
   character(len=200) :: fline(10000)
   character(len=132) :: resfile   ! nuclide file
@@ -63,6 +63,7 @@ subroutine sumresonance(type)
   msource(9) = 'endfb8.1'
   msource(10) = 'jeff4.0'
   msource(11) = 'EXFOR'
+  msource(12) = 'TARES'
   do isource = 1, Nsource
     sourcefile(isource)=trim(respath)//trim(react)//'/all/'//trim(msource(isource))//'_'//trim(react)//'.txt'
     ifile = 10 + isource
@@ -84,16 +85,23 @@ subroutine sumresonance(type)
   col(6) = 'Reference'
   col(7) = 'Rel. dev. comp.'
   col(8) = 'Rel. dev. NDL'
-  col(9) = 'Rel. dev. all'
-  col(10) = '#Experiments'
-  col(11) = 'Nuclide'
-  Ncol = 11
+  col(9) = 'Rel. dev. EXFOR'
+  col(10) = 'Rel. dev. all'
+  col(11) = '#Experiments'
+  col(12) = 'Nuclide'
+  Ncol = 12
   un = ''
-  un(4) = 'eV'
-  un(5) = 'eV'
+  if (type == 2 .or. type == 5) then
+    un(4) = '*e-4'
+    un(5) = '*e-4'
+  else
+    un(4) = 'eV'
+    un(5) = 'eV'
+  endif
   un(7) = '%'
   un(8) = '%'
   un(9) = '%'
+  un(10) = '%'
   N = Nsave
   call write_quantity(indent,quantity)
   call write_datablock(indent,Ncol,N,col,un)
@@ -103,8 +111,8 @@ subroutine sumresonance(type)
     nuclide=trim(nuc(Zsave(k)))//Astring
     if (Lisosave(k) == 1) nuclide = trim(nuclide)//'m'
     if (Lisosave(k) == 2) nuclide = trim(nuclide)//'n'
-    write(1, '(3(6x,i4,5x),2es15.6,2x,a15,3(4x,f7.2,4x),4x,i4,11x,a6)') Zsave(k), Asave(k), Lisosave(k), &
- &     xssave(k), dxssave(k), refsave(k), compsave(k), NDLsave(k), varsave(k), Nexpsave(k), nuclide
+    write(1, '(3(6x,i4,5x),2es15.6,2x,a15,4(4x,f7.2,4x),4x,i4,11x,a6)') Zsave(k), Asave(k), Lisosave(k), &
+ &     xssave(k), dxssave(k), refsave(k), compsave(k), NDLsave(k), expsave(k), varsave(k), Nexpsave(k), nuclide
     resfile=trim(respath)//trim(react)//'/nuc/'//trim(nuclide)//'_'//trim(react)//'.txt'
     inquire (file = resfile, exist = lexist)
     if (lexist) then

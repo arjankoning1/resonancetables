@@ -19,6 +19,8 @@ subroutine procmacs(Z, A, Liso)
   character(len=40)  :: ttmp          ! subentry
   character(len=24)  :: atmp          ! author
   character(len=40)  :: avtmp 
+  character(len=40)  :: macschoice 
+  character(len=132) :: macsfile 
   character(len=40)  :: rtmp          ! reference
   integer            :: Z             ! charge number
   integer            :: A             ! mass number
@@ -28,8 +30,12 @@ subroutine procmacs(Z, A, Liso)
   integer            :: Nsel          ! counter
   integer            :: ytmp          ! year
   integer            :: Liso          ! target isomer
+  integer            :: iz
+  integer            :: ia
+  integer            :: istat
   real(sgl)          :: xstmp         ! cross section
   real(sgl)          :: Etmp 
+  real(sgl)          :: Gtmp 
   real(sgl)          :: dxstmp        ! cross section uncertainty
   real(sgl)          :: sumxs
   real(sgl)          :: sumxs_comp
@@ -73,6 +79,7 @@ subroutine procmacs(Z, A, Liso)
         if (res_year(i) > res_year(j)) cycle
         xstmp = res_xs(i)
         dxstmp = res_dxs(i)
+        Gtmp = res_G(i)
         ytmp = res_year(i)
         atmp = res_author(i)
         ttmp = res_type(i)
@@ -87,6 +94,7 @@ subroutine procmacs(Z, A, Liso)
         res_ref(i) = res_ref(j)
         res_av(i) = res_av(j)
         res_E(i) = res_E(j)
+        res_G(i) = res_G(j)
         res_xs(j) = xstmp 
         res_dxs(j) = dxstmp 
         res_year(j) = ytmp 
@@ -95,6 +103,7 @@ subroutine procmacs(Z, A, Liso)
         res_ref(j) = rtmp
         res_av(j) = avtmp
         res_E(j) = Etmp
+        res_G(j) = Gtmp
       enddo
     enddo
 !
@@ -204,9 +213,29 @@ Loop1:  do
     if (A > 0) Nsel = Nres_exp
     exit Loop1
   enddo Loop1
+!
+! Overrule rule by specific cases
+!
+  macsfile = trim(filespath)//'macs_koning.ng'
+  open (unit = 2, status = 'old', file = macsfile)
+  do
+    read(2,'(2i4, 1x, a)', iostat = istat) iz, ia, macschoice
+    if (istat == -1) exit
+    if (istat > 0) call read_error(macsfile, istat)
+    if (iz == Z .and. ia == A) then
+      do i = 1, N
+        if (trim(res_author(i)) == trim(macschoice)) then
+          Nsel = i
+          exit 
+        endif
+      enddo
+    endif
+  enddo
+  close(2)
   if (Nsel > 0) then
      res_xs_sel = res_xs(Nsel)
      res_dxs_sel = res_dxs(Nsel)
+     res_G_sel = res_G(Nsel)
      res_author_sel = res_author(Nsel)
      res_av_sel = res_av(Nsel)
     Nsave = Nsave +1
@@ -216,12 +245,14 @@ Loop1:  do
     Lisosave(N) = Liso
     xssave(N) = res_xs_sel
     dxssave(N) = res_dxs_sel
+    Gsave(N) = res_G_sel
     refsave(N) = res_author_sel
     avsave(N) = res_av_sel
     Nexpsave(N) = Nres_exp
     varsave(N) = var_xs
     compsave(N) = var_xs_av_comp
     NDLsave(N) = var_xs_NDL
+    expsave(N) = var_xs_exfor
     do i = 1, Nres
       F = res_xs(i) / res_xs(Nsel)    
       if (F < 0.2 .or. F > 5.) then
@@ -231,6 +262,7 @@ Loop1:  do
   else
      res_xs_sel = 0.
      res_dxs_sel = 0.
+     res_G_sel = 0.
      res_author_sel = ''
      res_av_sel = ''
   endif

@@ -5,7 +5,7 @@ subroutine writethermal(Z, A, Liso, Riso, type)
 !
 ! Revision    Date      Author      Quality  Description
 ! ======================================================
-!    1     2025-03-05   A.J. Koning    A     Original code
+!    1     2025-08-22   A.J. Koning    A     Original code
 !-----------------------------------------------------------------------------------------------------------------------------------
 !
 ! *** Use data from other modules
@@ -20,8 +20,8 @@ subroutine writethermal(Z, A, Liso, Riso, type)
   character(len=132) :: nucfile    ! nuclide file
   character(len=18)  :: rfile
   character(len=20)  :: react      ! reaction
-  character(len=15)  :: col(10)     ! header
-  character(len=15)  :: un(10)      ! units
+  character(len=15)  :: col(11)     ! header
+  character(len=15)  :: un(11)      ! units
   character(len=80)  :: quantity   ! quantity
   character(len=132) :: topline    ! topline
   integer            :: Z          ! charge number
@@ -86,6 +86,7 @@ subroutine writethermal(Z, A, Liso, Riso, type)
   col(8) = 'Ratio'
   col(9) = 'Spectrum'
   col(10) = 'Energy'
+  col(11) = 'G-factor'
   Ncol = 10
   un = ''
   un(10) = 'MeV'
@@ -158,13 +159,23 @@ subroutine writethermal(Z, A, Liso, Riso, type)
     call write_quantity(indent,quantity)
     call write_real(id2,'average value',av_xs_NDL)
     call write_realF(id2,'relative standard deviation [%]',var_xs_NDL)
+    if (type <= 4) then
+      Ncol = 11
+    else
+      Ncol = 10
+    endif
     call write_datablock(indent,Ncol,Nlib,col,un)
     F = 1.
     do k = 1, Nres
       if (res_type(k) == 'NDL') then
         if (res_xs_sel > 0.) F = res_xs(k) / res_xs_sel
-        write(1, '(a30,a15,6x,i4,5x,2es15.6,3x,a12,f15.6,3x,a12,es15.6)') res_author(k), res_type(k), res_year(k), res_xs(k), & 
- &        res_dxs(k), res_ref(k), F, res_av(k), res_E(k)
+        if (type <= 4) then
+          write(1, '(a30,a15,6x,i4,5x,2es15.6,3x,a12,f15.6,3x,a12,2es15.6)') res_author(k), res_type(k), res_year(k), res_xs(k), & 
+ &          res_dxs(k), res_ref(k), F, res_av(k), res_E(k), res_G(k)
+        else
+          write(1, '(a30,a15,6x,i4,5x,2es15.6,3x,a12,f15.6,3x,a12,es15.6)') res_author(k), res_type(k), res_year(k), res_xs(k), & 
+ &          res_dxs(k), res_ref(k), F, res_av(k), res_E(k)
+        endif
       endif
     enddo
   endif

@@ -46,6 +46,8 @@ subroutine readmacs(Z, A, Liso, Riso)
   real(sgl)          :: rochread
   real(sgl)          :: CE
   real(sgl)          :: chi2
+  real(sgl)          :: G
+  real(sgl)          :: dum
 !
 ! **************** Read RIPL-3 database for MACS cross sections *****
 !
@@ -55,6 +57,7 @@ subroutine readmacs(Z, A, Liso, Riso)
   res_ref = ''
   res_xs = 0.
   res_dxs = 0.
+  res_G = 0.
   res_E = 0.03
   res_av = ''
   ref = ''
@@ -250,7 +253,7 @@ subroutine readmacs(Z, A, Liso, Riso)
       if (istat == -1) exit
       if (istat > 0) call read_error(macsfile, istat)
       if (line(1:1) == '#') cycle
-      read(line, * ) iz, ia, isoT, CE, chi2, xs
+      read(line, * ) iz, ia, isoT, CE, chi2, xs, dum, dum, dum, G
       if (iz == Z .and. ia == A .and. Liso == isoT .and. Riso == -1) then
         if (xs > 0.) then
           k = k + 1
@@ -260,6 +263,7 @@ subroutine readmacs(Z, A, Liso, Riso)
           res_ref(k) = ref
           res_xs(k) = xs
           res_dxs(k) = dxs
+          res_G(k) = G
           res_av(k) = 'MXW'
           res_exist = .true.
         endif

@@ -18,6 +18,7 @@ subroutine readresonance(Z, A, Liso, type)
   implicit none
   character(len=2)   :: cdum       !
   character(len=2)   :: Unuc
+  character(len=10)  :: ext
   character(len=3)   :: Zstring
   character(len=3)   :: Astring
   character(len=10)   :: nucstring
@@ -345,32 +346,40 @@ subroutine readresonance(Z, A, Liso, type)
 !
   xs = 0.
   dxs = 0.
-  if (type == 8) then
+! if (type == 8 .or. type == 9) then
+!   if (type == 8) ext='Ig'
+!   else
+!     ext='If'
+!   endif
+    ext=restype(type)
     do lib = 1, numndlib
-      resfile = trim(libspath)//trim(ndlib(lib))//'.RI'
-      open (unit = 2, status = 'old', file = resfile)
-      do
-        read(2, '(a)', iostat = istat) line
-        if (istat == -1) exit
-        if (istat > 0) call read_error(resfile, istat)
-        if (line(1:1) == '#') cycle
-        read(line, * ) iz, ia, isoT, CE, chi2, xs
-        if (iz == Z .and. ia == A .and. Liso == isoT) then
-          k = k + 1
-          res_author(k) = ndlib(lib)
-          res_type(k) = 'NDL'
-          res_year(k) = ndyear(lib)
-          res_ref(k) = ref
-          res_xs(k) = xs
-          res_dxs(k) = dxs
-          res_av(k) = ''
-          res_exist = .true.
-          exit
-        endif
-      enddo
-      close (2)
+      resfile = trim(libspath)//trim(ndlib(lib))//'.'//trim(ext)
+      inquire (file = resfile, exist = lexist)
+      if (lexist) then
+        open (unit = 2, status = 'old', file = resfile)
+        do
+          read(2, '(a)', iostat = istat) line
+          if (istat == -1) exit
+          if (istat > 0) call read_error(resfile, istat)
+          if (line(1:1) == '#') cycle
+          read(line, * ) iz, ia, isoT, CE, chi2, xs
+          if (iz == Z .and. ia == A .and. Liso == isoT) then
+            k = k + 1
+            res_author(k) = ndlib(lib)
+            res_type(k) = 'NDL'
+            res_year(k) = ndyear(lib)
+            res_ref(k) = ref
+            res_xs(k) = xs
+            res_dxs(k) = dxs
+            res_av(k) = ''
+            res_exist = .true.
+            exit
+          endif
+        enddo
+        close (2)
+      endif
     enddo
-  endif
+! endif
 !
 ! Number of cases
 !

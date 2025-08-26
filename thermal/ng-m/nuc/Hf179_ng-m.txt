@@ -1,7 +1,7 @@
 # header: 
 #   title: Hf179(n,g)-m thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 72
 #   A: 179
@@ -12,9 +12,9 @@
 #   selected value [b]:  4.450000E-01
 #   selected value uncertainty [b]:  3.000000E-03
 #   selected value source: Mughabghab-2018
-#   number of values: 13
-#   average value [b]:  4.261231E-01
-#   relative standard deviation [%]:      5.971117
+#   number of values: 15
+#   average value [b]:  4.353533E-01
+#   relative standard deviation [%]:      8.978195
 # quantity: 
 #   type: Compilation
 #   average value:  4.375000E-01
@@ -55,3 +55,14 @@
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       G.Scharff-Goldhaber     EXFOR                1967        3.410000E-01   3.000000E-02   12119-002-0        0.766292   MXW            2.530000E-08
+# quantity: 
+#   type: Nuclear data library
+#   average value:  4.953500E-01
+#   relative standard deviation [%]:     11.234279
+# datablock: 
+#   columns: 11
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      tendl.2025              NDL                  2025        4.397010E-01   0.000000E+00                      0.988092                  2.530000E-08   0.000000E+00
+      jeff4.0                 NDL                  2025        5.509990E-01   0.000000E+00                      1.238200                  2.530000E-08   0.000000E+00

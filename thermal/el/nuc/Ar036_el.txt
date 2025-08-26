@@ -1,7 +1,7 @@
 # header: 
 #   title: Ar036(n,el) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 18
 #   A: 36
@@ -12,9 +12,9 @@
 #   selected value [b]:  7.370000E+01
 #   selected value uncertainty [b]:  4.000000E-01
 #   selected value source: Mughabghab-2018
-#   number of values: 2
-#   average value [b]:  7.370000E+01
-#   relative standard deviation [%]:      0.000000
+#   number of values: 6
+#   average value [b]:  9.651791E+01
+#   relative standard deviation [%]:     34.016243
 # quantity: 
 #   type: Compilation
 #   average value:  7.370000E+01
@@ -26,3 +26,16 @@
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       Mughabghab-2006         Compilation          2006        7.370000E+01   4.000000E-01                      1.000000                  2.530000E-08
       Mughabghab-2018         Compilation          2018        7.370000E+01   4.000000E-01                      1.000000                  2.530000E-08
+# quantity: 
+#   type: Nuclear data library
+#   average value:  1.079269E+02
+#   relative standard deviation [%]:     32.447819
+# datablock: 
+#   columns: 11
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      jendl5.0                NDL                  2021        7.126180E+01   0.000000E+00                      0.966917                  2.530000E-08   1.128340E+00
+      endfb8.1                NDL                  2024        7.459170E+01   0.000000E+00                      1.012099                  2.530000E-08   1.128340E+00
+      tendl.2025              NDL                  2025        1.429240E+02   0.000000E+00                      1.939267                  2.530000E-08   1.128340E+00
+      jeff4.0                 NDL                  2025        1.429300E+02   0.000000E+00                      1.939349                  2.530000E-08   1.128340E+00

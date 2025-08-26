@@ -1,7 +1,7 @@
 # header: 
 #   title: Sn124(n,g)-g thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 50
 #   A: 124
@@ -12,9 +12,9 @@
 #   selected value [b]:  4.600000E-03
 #   selected value uncertainty [b]:  2.000000E-04
 #   selected value source: Mughabghab-2018
-#   number of values: 19
-#   average value [b]:  1.012526E-02
-#   relative standard deviation [%]:    232.809433
+#   number of values: 21
+#   average value [b]:  1.562343E-02
+#   relative standard deviation [%]:    179.894363
 # quantity: 
 #   type: Compilation
 #   average value:  4.800000E-03
@@ -61,3 +61,14 @@
       M.Ricabarra             EXFOR                1973        1.100000E-01   4.000000E-02   31477-006-0       23.913042   MXW            2.530000E-08
       S.Nakamura              EXFOR                1999        4.200000E-03   1.300000E-03   22632-008-0        0.913043   MXW            2.540000E-08
       S.Nakamura              EXFOR                2003        4.180000E-03   1.260000E-03   22834-012-0        0.908696   MXW            2.530000E-08
+# quantity: 
+#   type: Nuclear data library
+#   average value:  6.785600E-02
+#   relative standard deviation [%]:      0.000000
+# datablock: 
+#   columns: 11
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      tendl.2025              NDL                  2025        6.785600E-02   0.000000E+00                     14.751304                  2.530000E-08   1.000360E+00
+      jeff4.0                 NDL                  2025        6.785600E-02   0.000000E+00                     14.751304                  2.530000E-08   1.000360E+00

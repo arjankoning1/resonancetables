@@ -1,7 +1,7 @@
 # header: 
 #   title: Gd153(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 64
 #   A: 153
@@ -52,11 +52,11 @@
 #   average value:  2.235030E+04
 #   relative standard deviation [%]:      0.459980
 # datablock: 
-#   columns: 10
+#   columns: 11
 #   entries: 4
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
-##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      jendl5.0                NDL                  2021        2.218740E+04   0.000000E+00                      0.987863                  2.530000E-08
-      endfb8.1                NDL                  2024        2.233680E+04   0.000000E+00                      0.994515                  2.530000E-08
-      tendl.2025              NDL                  2025        2.243850E+04   0.000000E+00                      0.999043                  2.530000E-08
-      jeff4.0                 NDL                  2025        2.243850E+04   0.000000E+00                      0.999043                  2.530000E-08
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      jendl5.0                NDL                  2021        2.218740E+04   0.000000E+00                      0.987863                  2.530000E-08   7.414900E-01
+      endfb8.1                NDL                  2024        2.233680E+04   0.000000E+00                      0.994515                  2.530000E-08   7.443200E-01
+      tendl.2025              NDL                  2025        2.243850E+04   0.000000E+00                      0.999043                  2.530000E-08   7.436000E-01
+      jeff4.0                 NDL                  2025        2.243850E+04   0.000000E+00                      0.999043                  2.530000E-08   7.436000E-01

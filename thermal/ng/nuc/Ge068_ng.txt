@@ -1,7 +1,7 @@
 # header: 
 #   title: Ge068(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 32
 #   A: 68
@@ -12,9 +12,9 @@
 #   selected value [b]:  1.000000E+00
 #   selected value uncertainty [b]:  5.000000E-01
 #   selected value source: Mughabghab-2018
-#   number of values: 5
-#   average value [b]:  9.999272E-01
-#   relative standard deviation [%]:      0.016634
+#   number of values: 3
+#   average value [b]:  1.000000E+00
+#   relative standard deviation [%]:      0.000000
 # quantity: 
 #   type: Compilation
 #   average value:  1.000000E+00
@@ -45,14 +45,3 @@
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       K.S.Krane               EXFOR                1999        1.000000E+00   5.000000E-01   13783-003-0        1.000000   MXW            2.530000E-08
-# quantity: 
-#   type: Nuclear data library
-#   average value:  9.998180E-01
-#   relative standard deviation [%]:      0.022207
-# datablock: 
-#   columns: 10
-#   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
-##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      jendl5.0                NDL                  2021        1.000040E+00   0.000000E+00                      1.000040                  2.530000E-08
-      tendl.2025              NDL                  2025        9.995960E-01   0.000000E+00                      0.999596                  2.530000E-08

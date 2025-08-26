@@ -1,7 +1,7 @@
 # header: 
 #   title: Ag107(n,g)-m thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 47
 #   A: 107
@@ -12,9 +12,9 @@
 #   selected value [b]:  4.100000E-01
 #   selected value uncertainty [b]:  8.000000E-02
 #   selected value source: Mughabghab-2018
-#   number of values: 5
-#   average value [b]:  3.906000E-01
-#   relative standard deviation [%]:     12.822919
+#   number of values: 7
+#   average value [b]:  4.075851E-01
+#   relative standard deviation [%]:     12.540407
 # quantity: 
 #   type: Compilation
 #   average value:  3.900000E-01
@@ -47,3 +47,14 @@
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       D.V.Rao                 EXFOR                1978        3.300000E-01   0.000000E+00   12959-002-0        0.804878   MXW            2.530000E-08
+# quantity: 
+#   type: Nuclear data library
+#   average value:  4.500480E-01
+#   relative standard deviation [%]:      4.144445
+# datablock: 
+#   columns: 11
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      tendl.2025              NDL                  2025        4.313960E-01   0.000000E+00                      1.052185                  2.530000E-08   0.000000E+00
+      jeff4.0                 NDL                  2025        4.687000E-01   0.000000E+00                      1.143171                  2.530000E-08   0.000000E+00

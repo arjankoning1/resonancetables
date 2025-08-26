@@ -1,7 +1,7 @@
 # header: 
 #   title: Au198(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 79
 #   A: 198
@@ -64,9 +64,9 @@
 #   average value:  1.256148E+04
 #   relative standard deviation [%]:     99.983635
 # datablock: 
-#   columns: 10
+#   columns: 11
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
-##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      jendl5.0                NDL                  2021        2.055800E+00   0.000000E+00                      0.000082                  2.530000E-08
-      tendl.2025              NDL                  2025        2.512090E+04   0.000000E+00                      1.000833                  2.530000E-08
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      jendl5.0                NDL                  2021        2.055800E+00   0.000000E+00                      0.000082                  2.530000E-08   1.000060E+00
+      tendl.2025              NDL                  2025        2.512090E+04   0.000000E+00                      1.000833                  2.530000E-08   1.008100E+00

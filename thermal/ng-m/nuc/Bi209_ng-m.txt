@@ -1,7 +1,7 @@
 # header: 
 #   title: Bi209(n,g)-m thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 83
 #   A: 209
@@ -12,9 +12,9 @@
 #   selected value [b]:  1.820000E-02
 #   selected value uncertainty [b]:  7.000000E-04
 #   selected value source: Mughabghab-2018
-#   number of values: 5
-#   average value [b]:  1.600000E-02
-#   relative standard deviation [%]:     28.893665
+#   number of values: 8
+#   average value [b]:  1.433010E-02
+#   relative standard deviation [%]:     34.603031
 # quantity: 
 #   type: Compilation
 #   average value:  1.460000E-02
@@ -47,3 +47,15 @@
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       D.J.Littler             EXFOR                1953        1.030000E-02   2.500000E-03   23520-006-0        0.565934   SPA            2.530000E-08
+# quantity: 
+#   type: Nuclear data library
+#   average value:  1.154693E-02
+#   relative standard deviation [%]:     36.285469
+# datablock: 
+#   columns: 11
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      jendl5.0                NDL                  2021        6.014000E-03   0.000000E+00                      0.330440                  2.530000E-08   0.000000E+00
+      tendl.2025              NDL                  2025        1.247700E-02   0.000000E+00                      0.685549                  2.530000E-08   0.000000E+00
+      jeff4.0                 NDL                  2025        1.614980E-02   0.000000E+00                      0.887352                  2.530000E-08   0.000000E+00

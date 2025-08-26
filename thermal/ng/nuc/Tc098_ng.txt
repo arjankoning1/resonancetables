@@ -1,7 +1,7 @@
 # header: 
 #   title: Tc098(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 43
 #   A: 98
@@ -12,9 +12,9 @@
 #   selected value [b]:  9.300000E-01
 #   selected value uncertainty [b]:  2.000000E-02
 #   selected value source: Mughabghab-2018
-#   number of values: 7
-#   average value [b]:  2.487214E+00
-#   relative standard deviation [%]:    153.420334
+#   number of values: 6
+#   average value [b]:  9.293826E-01
+#   relative standard deviation [%]:      0.118736
 # quantity: 
 #   type: Compilation
 #   average value:  9.300000E-01
@@ -38,14 +38,13 @@
       Mughabghab-2006         Compilation          2006        9.300000E-01   2.000000E-01                      1.000000   MXW            2.530000E-08
 # quantity: 
 #   type: Nuclear data library
-#   average value:  3.655124E+00
-#   relative standard deviation [%]:    129.193756
+#   average value:  9.287653E-01
+#   relative standard deviation [%]:      0.139276
 # datablock: 
-#   columns: 10
-#   entries: 4
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
-##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      jendl5.0                NDL                  2021        1.183420E+01   0.000000E+00                     12.724946                  2.530000E-08
-      endfb8.1                NDL                  2024        9.269360E-01   0.000000E+00                      0.996705                  2.530000E-08
-      tendl.2025              NDL                  2025        9.296800E-01   0.000000E+00                      0.999656                  2.530000E-08
-      jeff4.0                 NDL                  2025        9.296800E-01   0.000000E+00                      0.999656                  2.530000E-08
+#   columns: 11
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      endfb8.1                NDL                  2024        9.269360E-01   0.000000E+00                      0.996705                  2.530000E-08   9.995600E-01
+      tendl.2025              NDL                  2025        9.296800E-01   0.000000E+00                      0.999656                  2.530000E-08   1.051940E+00
+      jeff4.0                 NDL                  2025        9.296800E-01   0.000000E+00                      0.999656                  2.530000E-08   1.051940E+00

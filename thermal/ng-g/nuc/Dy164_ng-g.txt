@@ -1,7 +1,7 @@
 # header: 
 #   title: Dy164(n,g)-g thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 66
 #   A: 164
@@ -12,9 +12,9 @@
 #   selected value [b]:  1.040000E+03
 #   selected value uncertainty [b]:  1.400000E+02
 #   selected value source: Mughabghab-2018
-#   number of values: 8
-#   average value [b]:  1.619250E+03
-#   relative standard deviation [%]:     50.675198
+#   number of values: 10
+#   average value [b]:  1.619234E+03
+#   relative standard deviation [%]:     45.325722
 # quantity: 
 #   type: Compilation
 #   average value:  1.020000E+03
@@ -50,3 +50,14 @@
       L.Seren                 EXFOR                1947        2.620000E+03   2.620000E+02   11447-105-0        2.519231   MXW            2.530000E-08
       M.Sehgal                EXFOR                1959        8.400000E+02   0.000000E+00   31244-005-0        0.807692   MXW            2.530000E-08
       S.K.Mangal              EXFOR                1962        9.510000E+02   2.377500E+02   31248-012-0        0.914423   MXW            2.530000E-08
+# quantity: 
+#   type: Nuclear data library
+#   average value:  1.619170E+03
+#   relative standard deviation [%]:      0.000000
+# datablock: 
+#   columns: 11
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      tendl.2025              NDL                  2025        1.619170E+03   0.000000E+00                      1.556894                  2.530000E-08   9.876600E-01
+      jeff4.0                 NDL                  2025        1.619170E+03   0.000000E+00                      1.556894                  2.530000E-08   9.876600E-01

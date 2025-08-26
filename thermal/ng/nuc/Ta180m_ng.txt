@@ -1,7 +1,7 @@
 # header: 
 #   title: Ta180m(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 73
 #   A: 180
@@ -42,9 +42,9 @@
 #   average value:  5.637640E+02
 #   relative standard deviation [%]:      0.000000
 # datablock: 
-#   columns: 10
+#   columns: 11
 #   entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
-##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      tendl.2025              NDL                  2025        5.637640E+02   0.000000E+00                      1.001357                  2.530000E-08
-      jeff4.0                 NDL                  2025        5.637640E+02   0.000000E+00                      1.001357                  2.530000E-08
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      tendl.2025              NDL                  2025        5.637640E+02   0.000000E+00                      1.001357                  2.530000E-08   1.338380E+00
+      jeff4.0                 NDL                  2025        5.637640E+02   0.000000E+00                      1.001357                  2.530000E-08   1.338380E+00

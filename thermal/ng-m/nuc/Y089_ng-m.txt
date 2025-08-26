@@ -1,7 +1,7 @@
 # header: 
 #   title: Y089(n,g)-m thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 39
 #   A: 89
@@ -12,9 +12,9 @@
 #   selected value [b]:  1.000000E-03
 #   selected value uncertainty [b]:  2.000000E-04
 #   selected value source: RIPL-3
-#   number of values: 9
-#   average value [b]:  3.406933E-01
-#   relative standard deviation [%]:    141.098236
+#   number of values: 12
+#   average value [b]:  2.557716E-01
+#   relative standard deviation [%]:    172.626450
 # quantity: 
 #   type: Compilation
 #   average value:  1.000000E-03
@@ -51,3 +51,15 @@
       K.S.Krane               EXFOR                2020        1.060000E+00   3.000000E-02   14657-002-0     1059.999878   MXW            2.530000E-08
       K.S.Krane               EXFOR                2020        9.800000E-01   2.000000E-02   14657-002-0      980.000000   MXW            2.530000E-08
       K.S.Krane               EXFOR                2020        1.020000E+00   1.000000E-02   14657-002-0     1019.999939   MXW            2.530000E-08
+# quantity: 
+#   type: Nuclear data library
+#   average value:  1.006683E-03
+#   relative standard deviation [%]:      0.474455
+# datablock: 
+#   columns: 11
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      jendl5.0                NDL                  2021        1.010060E-03   0.000000E+00                      1.010060                  2.530000E-08   0.000000E+00
+      tendl.2025              NDL                  2025        9.999280E-04   0.000000E+00                      0.999928                  2.530000E-08   0.000000E+00
+      jeff4.0                 NDL                  2025        1.010060E-03   0.000000E+00                      1.010060                  2.530000E-08   0.000000E+00

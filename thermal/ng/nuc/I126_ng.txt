@@ -1,7 +1,7 @@
 # header: 
 #   title: I126(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 53
 #   A: 126
@@ -51,10 +51,10 @@
 #   average value:  5.951690E+03
 #   relative standard deviation [%]:      0.101222
 # datablock: 
-#   columns: 10
+#   columns: 11
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
-##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      jendl5.0                NDL                  2021        5.960210E+03   0.000000E+00                      1.000035                  2.530000E-08
-      tendl.2025              NDL                  2025        5.947430E+03   0.000000E+00                      0.997891                  2.530000E-08
-      jeff4.0                 NDL                  2025        5.947430E+03   0.000000E+00                      0.997891                  2.530000E-08
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      jendl5.0                NDL                  2021        5.960210E+03   0.000000E+00                      1.000035                  2.530000E-08   1.000060E+00
+      tendl.2025              NDL                  2025        5.947430E+03   0.000000E+00                      0.997891                  2.530000E-08   9.968600E-01
+      jeff4.0                 NDL                  2025        5.947430E+03   0.000000E+00                      0.997891                  2.530000E-08   9.968600E-01

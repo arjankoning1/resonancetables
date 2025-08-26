@@ -1,7 +1,7 @@
 # header: 
 #   title: Yb176(n,el) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 70
 #   A: 176
@@ -12,9 +12,9 @@
 #   selected value [b]:  9.660000E+00
 #   selected value uncertainty [b]:  2.200000E-01
 #   selected value source: Mughabghab-2018
-#   number of values: 2
-#   average value [b]:  9.660000E+00
-#   relative standard deviation [%]:      0.000000
+#   number of values: 6
+#   average value [b]:  9.244463E+00
+#   relative standard deviation [%]:      3.499754
 # quantity: 
 #   type: Compilation
 #   average value:  9.660000E+00
@@ -26,3 +26,16 @@
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       Mughabghab-2006         Compilation          2006        9.660000E+00   2.200000E-01                      1.000000                  2.530000E-08
       Mughabghab-2018         Compilation          2018        9.660000E+00   2.200000E-01                      1.000000                  2.530000E-08
+# quantity: 
+#   type: Nuclear data library
+#   average value:  9.036695E+00
+#   relative standard deviation [%]:      1.835350
+# datablock: 
+#   columns: 11
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      jendl5.0                NDL                  2021        8.870840E+00   0.000000E+00                      0.918306                  2.530000E-08   1.128270E+00
+      endfb8.1                NDL                  2024        8.870840E+00   0.000000E+00                      0.918306                  2.530000E-08   1.128270E+00
+      tendl.2025              NDL                  2025        9.202550E+00   0.000000E+00                      0.952645                  2.530000E-08   1.128270E+00
+      jeff4.0                 NDL                  2025        9.202550E+00   0.000000E+00                      0.952645                  2.530000E-08   1.128270E+00

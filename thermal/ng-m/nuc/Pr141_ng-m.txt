@@ -1,7 +1,7 @@
 # header: 
 #   title: Pr141(n,g)-m thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 59
 #   A: 141
@@ -12,9 +12,9 @@
 #   selected value [b]:  3.900000E+00
 #   selected value uncertainty [b]:  3.000000E-01
 #   selected value source: Mughabghab-2018
-#   number of values: 3
-#   average value [b]:  3.866667E+00
-#   relative standard deviation [%]:      3.225566
+#   number of values: 6
+#   average value [b]:  3.293642E+00
+#   relative standard deviation [%]:     18.408920
 # quantity: 
 #   type: Compilation
 #   average value:  3.950000E+00
@@ -36,3 +36,15 @@
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       J.Kern                  EXFOR                1967        3.700000E+00   5.000000E-01   21261-002-0        0.948718   MXW            2.530000E-08
+# quantity: 
+#   type: Nuclear data library
+#   average value:  2.720617E+00
+#   relative standard deviation [%]:      9.224786
+# datablock: 
+#   columns: 11
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      jendl5.0                NDL                  2021        2.365690E+00   0.000000E+00                      0.606587                  2.530000E-08   9.992900E-01
+      tendl.2025              NDL                  2025        2.898070E+00   0.000000E+00                      0.743095                  2.530000E-08   9.992100E-01
+      jeff4.0                 NDL                  2025        2.898090E+00   0.000000E+00                      0.743100                  2.530000E-08   9.992100E-01

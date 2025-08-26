@@ -1,7 +1,7 @@
 # header: 
 #   title: Li006(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 3
 #   A: 6
@@ -65,10 +65,10 @@
 #   average value:  3.849710E-02
 #   relative standard deviation [%]:      0.010652
 # datablock: 
-#   columns: 10
+#   columns: 11
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
-##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      jendl5.0                NDL                  2021        3.849130E-02   0.000000E+00                      0.979422                  2.530000E-08
-      endfb8.1                NDL                  2024        3.850000E-02   0.000000E+00                      0.979644                  2.530000E-08
-      jeff4.0                 NDL                  2025        3.850000E-02   0.000000E+00                      0.979644                  2.530000E-08
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      jendl5.0                NDL                  2021        3.849130E-02   0.000000E+00                      0.979422                  2.530000E-08   9.999300E-01
+      endfb8.1                NDL                  2024        3.850000E-02   0.000000E+00                      0.979644                  2.530000E-08   1.000060E+00
+      jeff4.0                 NDL                  2025        3.850000E-02   0.000000E+00                      0.979644                  2.530000E-08   1.000060E+00

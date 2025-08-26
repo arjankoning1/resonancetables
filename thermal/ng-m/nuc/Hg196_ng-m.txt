@@ -1,7 +1,7 @@
 # header: 
 #   title: Hg196(n,g)-m thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 80
 #   A: 196
@@ -12,9 +12,9 @@
 #   selected value [b]:  1.050000E+02
 #   selected value uncertainty [b]:  6.000000E+00
 #   selected value source: RIPL-3
-#   number of values: 7
-#   average value [b]:  2.668143E+02
-#   relative standard deviation [%]:    101.915894
+#   number of values: 9
+#   average value [b]:  2.304911E+02
+#   relative standard deviation [%]:    108.142250
 # quantity: 
 #   type: Compilation
 #   average value:  1.050000E+02
@@ -49,3 +49,14 @@
       M.Sehgal                EXFOR                1959        4.200000E+02   8.000000E+01   31244-011-0        4.000000   MXW            2.530000E-08
       S.K.Mangal              EXFOR                1963        1.300000E+02   1.560000E+01   31249-011-0        1.238095   SPA            2.530000E-08
       R.S.Tilbury             EXFOR                1968        1.250000E+02   1.300000E+01   11927-012-0        1.190476   SPA            2.530000E-08
+# quantity: 
+#   type: Nuclear data library
+#   average value:  1.033600E+02
+#   relative standard deviation [%]:      0.000000
+# datablock: 
+#   columns: 11
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      tendl.2025              NDL                  2025        1.033600E+02   0.000000E+00                      0.984381                  2.530000E-08   0.000000E+00
+      jeff4.0                 NDL                  2025        1.033600E+02   0.000000E+00                      0.984381                  2.530000E-08   0.000000E+00

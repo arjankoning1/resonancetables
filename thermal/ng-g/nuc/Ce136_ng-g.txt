@@ -1,7 +1,7 @@
 # header: 
 #   title: Ce136(n,g)-g thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 58
 #   A: 136
@@ -12,9 +12,9 @@
 #   selected value [b]:  3.910000E+00
 #   selected value uncertainty [b]:  1.800000E-01
 #   selected value source: Mughabghab-2018
-#   number of values: 3
-#   average value [b]:  5.570000E+00
-#   relative standard deviation [%]:     21.124481
+#   number of values: 5
+#   average value [b]:  4.914886E+00
+#   relative standard deviation [%]:     24.705900
 # quantity: 
 #   type: Compilation
 #   average value:  5.205000E+00
@@ -36,3 +36,14 @@
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       A.R.Brosi               EXFOR                1956        6.300000E+00   0.000000E+00   12062-002-1        1.611253   MXW            2.530000E-08
+# quantity: 
+#   type: Nuclear data library
+#   average value:  3.932215E+00
+#   relative standard deviation [%]:      0.061160
+# datablock: 
+#   columns: 11
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      tendl.2025              NDL                  2025        3.929810E+00   0.000000E+00                      1.005067                  2.530000E-08   9.997600E-01
+      jeff4.0                 NDL                  2025        3.934620E+00   0.000000E+00                      1.006297                  2.530000E-08   9.998000E-01

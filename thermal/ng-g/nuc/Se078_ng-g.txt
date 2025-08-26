@@ -1,7 +1,7 @@
 # header: 
 #   title: Se078(n,g)-g thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 34
 #   A: 78
@@ -12,9 +12,9 @@
 #   selected value [b]:  5.000000E-02
 #   selected value uncertainty [b]:  1.000000E-02
 #   selected value source: Mughabghab-2018
-#   number of values: 2
-#   average value [b]:  5.000000E-02
-#   relative standard deviation [%]:      0.000000
+#   number of values: 5
+#   average value [b]:  1.505368E-01
+#   relative standard deviation [%]:     55.085381
 # quantity: 
 #   type: Compilation
 #   average value:  5.000000E-02
@@ -26,3 +26,15 @@
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       RIPL-3                  Compilation          2004        5.000000E-02   1.000000E-02                      1.000000                  2.530000E-08
       Mughabghab-2018         Compilation          2018        5.000000E-02   1.000000E-02                      1.000000                  2.530000E-08
+# quantity: 
+#   type: Nuclear data library
+#   average value:  2.175613E-01
+#   relative standard deviation [%]:      6.968756
+# datablock: 
+#   columns: 11
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      jendl5.0                NDL                  2021        1.961200E-01   0.000000E+00                      3.922400                  2.530000E-08   1.000040E+00
+      tendl.2025              NDL                  2025        2.282820E-01   0.000000E+00                      4.565640                  2.530000E-08   1.000040E+00
+      jeff4.0                 NDL                  2025        2.282820E-01   0.000000E+00                      4.565640                  2.530000E-08   1.000040E+00

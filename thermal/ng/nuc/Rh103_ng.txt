@@ -1,7 +1,7 @@
 # header: 
 #   title: Rh103(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 45
 #   A: 103
@@ -13,8 +13,8 @@
 #   selected value uncertainty [b]:  4.270000E+01
 #   selected value source: Kayzero
 #   number of values: 16
-#   average value [b]:  1.475956E+02
-#   relative standard deviation [%]:      7.712196
+#   average value [b]:  1.475862E+02
+#   relative standard deviation [%]:      7.715386
 # quantity: 
 #   type: Compilation
 #   average value:  1.492000E+02
@@ -56,14 +56,14 @@
       J.D.Cummins             EXFOR                1957        1.490000E+02   4.000000E+00   21469-007-0        0.873900   MXW            2.530000E-08
 # quantity: 
 #   type: Nuclear data library
-#   average value:  1.437572E+02
-#   relative standard deviation [%]:      1.178203
+#   average value:  1.437197E+02
+#   relative standard deviation [%]:      1.193566
 # datablock: 
-#   columns: 10
+#   columns: 11
 #   entries: 4
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
-##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      cendl3.2                NDL                  2019        1.466890E+02   0.000000E+00                      0.860346                  2.530000E-08
-      endfb8.1                NDL                  2024        1.426800E+02   0.000000E+00                      0.836833                  2.530000E-08
-      tendl.2025              NDL                  2025        1.428300E+02   0.000000E+00                      0.837713                  2.530000E-08
-      jeff4.0                 NDL                  2025        1.428300E+02   0.000000E+00                      0.837713                  2.530000E-08
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      cendl3.2                NDL                  2019        1.466890E+02   0.000000E+00                      0.860346                  2.530000E-08   1.022840E+00
+      endfb8.1                NDL                  2024        1.426800E+02   0.000000E+00                      0.836833                  2.530000E-08   1.022610E+00
+      tendl.2025              NDL                  2025        1.428300E+02   0.000000E+00                      0.837713                  2.530000E-08   1.021380E+00
+      jeff4.0                 NDL                  2025        1.426800E+02   0.000000E+00                      0.836833                  2.530000E-08   1.022610E+00

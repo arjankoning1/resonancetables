@@ -1,7 +1,7 @@
 # header: 
 #   title: Se076(n,g)-m thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 34
 #   A: 76
@@ -12,9 +12,9 @@
 #   selected value [b]:  2.000000E+01
 #   selected value uncertainty [b]:  1.000000E+00
 #   selected value source: Mughabghab-2018
-#   number of values: 7
-#   average value [b]:  1.954286E+01
-#   relative standard deviation [%]:     21.569155
+#   number of values: 9
+#   average value [b]:  1.881500E+01
+#   relative standard deviation [%]:     21.041866
 # quantity: 
 #   type: Compilation
 #   average value:  2.100000E+01
@@ -40,3 +40,14 @@
       K.F.Alexander           EXFOR                1963        2.200000E+01   3.000000E+00   31003-005-0        1.100000   MXW            2.530000E-08
       H.H.Kramer              EXFOR                1965        2.300000E+01   2.300000E+00   11832-002-0        1.150000   MXW            2.530000E-08
       W.Mannhart              EXFOR                1968        1.780000E+01   2.500000E+00   22521-008-0        0.890000   MXW            2.530000E-08
+# quantity: 
+#   type: Nuclear data library
+#   average value:  1.626750E+01
+#   relative standard deviation [%]:      0.000000
+# datablock: 
+#   columns: 11
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      tendl.2025              NDL                  2025        1.626750E+01   0.000000E+00                      0.813375                  2.530000E-08   9.999700E-01
+      jeff4.0                 NDL                  2025        1.626750E+01   0.000000E+00                      0.813375                  2.530000E-08   9.999700E-01

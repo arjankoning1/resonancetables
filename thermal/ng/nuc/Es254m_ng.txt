@@ -1,7 +1,7 @@
 # header: 
 #   title: Es254m(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 99
 #   A: 254
@@ -40,10 +40,10 @@
 #   average value:  7.660340E+02
 #   relative standard deviation [%]:     95.261887
 # datablock: 
-#   columns: 10
+#   columns: 11
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
-##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      jendl5.0                NDL                  2021        2.500310E+02   0.000000E+00                      0.138906                  2.530000E-08
-      endfb8.1                NDL                  2024        2.500310E+02   0.000000E+00                      0.138906                  2.530000E-08
-      tendl.2025              NDL                  2025        1.798040E+03   0.000000E+00                      0.998911                  2.530000E-08
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      jendl5.0                NDL                  2021        2.500310E+02   0.000000E+00                      0.138906                  2.530000E-08   1.000960E+00
+      endfb8.1                NDL                  2024        2.500310E+02   0.000000E+00                      0.138906                  2.530000E-08   1.000960E+00
+      tendl.2025              NDL                  2025        1.798040E+03   0.000000E+00                      0.998911                  2.530000E-08   1.010970E+00

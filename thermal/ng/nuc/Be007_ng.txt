@@ -1,7 +1,7 @@
 # header: 
 #   title: Be007(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 4
 #   A: 7
@@ -12,9 +12,9 @@
 #   selected value [b]:  1.550000E-01
 #   selected value uncertainty [b]:  0.000000E+00
 #   selected value source: P.Bassi
-#   number of values: 1
-#   average value [b]:  1.550000E-01
-#   relative standard deviation [%]:      0.000000
+#   number of values: 3
+#   average value [b]:  3.894395E+01
+#   relative standard deviation [%]:    140.860596
 # quantity: 
 #   type: EXFOR spectrum-averaged
 #   average value:  1.550000E-01
@@ -25,3 +25,14 @@
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       P.Bassi                 EXFOR                1963        1.550000E-01   0.000000E+00   20896-003-0        1.000000   MXW            2.530000E-08
+# quantity: 
+#   type: Nuclear data library
+#   average value:  5.833842E+01
+#   relative standard deviation [%]:     99.736298
+# datablock: 
+#   columns: 11
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      jendl5.0                NDL                  2021        1.538420E-01   0.000000E+00                      0.992529                  2.530000E-08   1.000060E+00
+      tendl.2025              NDL                  2025        1.165230E+02   0.000000E+00                    751.761292                  2.530000E-08   9.926100E-01

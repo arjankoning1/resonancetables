@@ -1,7 +1,7 @@
 # header: 
 #   title: Pd110(n,g)-g thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 46
 #   A: 110
@@ -12,9 +12,9 @@
 #   selected value [b]:  2.900000E-01
 #   selected value uncertainty [b]:  1.000000E-02
 #   selected value source: Mughabghab-2018
-#   number of values: 4
-#   average value [b]:  2.897500E-01
-#   relative standard deviation [%]:     24.404486
+#   number of values: 6
+#   average value [b]:  2.889315E-01
+#   relative standard deviation [%]:     19.986643
 # quantity: 
 #   type: Compilation
 #   average value:  2.400000E-01
@@ -37,3 +37,14 @@
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       L.Seren                 EXFOR                1947        3.900000E-01   7.800000E-02   11447-065-0        1.344828   MXW            2.530000E-08
       K.S.Krane               EXFOR                2019        2.890000E-01   2.100000E-02   14558-006-0        0.996552   MXW            2.530000E-08
+# quantity: 
+#   type: Nuclear data library
+#   average value:  2.872945E-01
+#   relative standard deviation [%]:      0.000871
+# datablock: 
+#   columns: 11
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      tendl.2025              NDL                  2025        2.872920E-01   0.000000E+00                      0.990662                  2.530000E-08   9.996700E-01
+      jeff4.0                 NDL                  2025        2.872970E-01   0.000000E+00                      0.990679                  2.530000E-08   9.996700E-01

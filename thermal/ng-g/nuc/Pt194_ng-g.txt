@@ -1,7 +1,7 @@
 # header: 
 #   title: Pt194(n,g)-g thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 78
 #   A: 194
@@ -12,9 +12,9 @@
 #   selected value [b]:  1.100000E+00
 #   selected value uncertainty [b]:  0.000000E+00
 #   selected value source: RIPL-3
-#   number of values: 1
-#   average value [b]:  1.100000E+00
-#   relative standard deviation [%]:      0.000000
+#   number of values: 4
+#   average value [b]:  1.157347E+00
+#   relative standard deviation [%]:     24.464666
 # quantity: 
 #   type: Compilation
 #   average value:  1.100000E+00
@@ -25,3 +25,15 @@
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       RIPL-3                  Compilation          2004        1.100000E+00   0.000000E+00                      1.000000                  2.530000E-08
+# quantity: 
+#   type: Nuclear data library
+#   average value:  1.176462E+00
+#   relative standard deviation [%]:     27.599709
+# datablock: 
+#   columns: 11
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      endfb8.1                NDL                  2024        7.172670E-01   0.000000E+00                      0.652061                  2.530000E-08   9.996900E-01
+      tendl.2025              NDL                  2025        1.406060E+00   0.000000E+00                      1.278236                  2.530000E-08   9.996900E-01
+      jeff4.0                 NDL                  2025        1.406060E+00   0.000000E+00                      1.278236                  2.530000E-08   9.996900E-01

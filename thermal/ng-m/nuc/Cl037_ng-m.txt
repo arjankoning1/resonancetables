@@ -1,7 +1,7 @@
 # header: 
 #   title: Cl037(n,g)-m thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 17
 #   A: 37
@@ -12,9 +12,9 @@
 #   selected value [b]:  5.000000E-02
 #   selected value uncertainty [b]:  1.000000E-02
 #   selected value source: RIPL-3
-#   number of values: 2
-#   average value [b]:  2.750000E-02
-#   relative standard deviation [%]:     81.818184
+#   number of values: 4
+#   average value [b]:  2.854152E-02
+#   relative standard deviation [%]:     65.730637
 # quantity: 
 #   type: Compilation
 #   average value:  5.000000E-02
@@ -35,3 +35,14 @@
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       G.Scharff-Goldhaber     EXFOR                1954        5.000000E-03   0.000000E+00   11565-002-0        0.100000   SPA            2.530000E-08
+# quantity: 
+#   type: Nuclear data library
+#   average value:  2.958305E-02
+#   relative standard deviation [%]:     47.263382
+# datablock: 
+#   columns: 11
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      jendl5.0                NDL                  2021        1.560110E-02   0.000000E+00                      0.312022                  2.530000E-08   1.000060E+00
+      tendl.2025              NDL                  2025        4.356500E-02   0.000000E+00                      0.871300                  2.530000E-08   1.000050E+00

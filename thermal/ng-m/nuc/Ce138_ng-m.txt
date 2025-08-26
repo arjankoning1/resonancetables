@@ -1,7 +1,7 @@
 # header: 
 #   title: Ce138(n,g)-m thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 58
 #   A: 138
@@ -12,9 +12,9 @@
 #   selected value [b]:  1.800000E-02
 #   selected value uncertainty [b]:  5.000000E-03
 #   selected value source: RIPL-3
-#   number of values: 3
-#   average value [b]:  1.433333E-02
-#   relative standard deviation [%]:     36.177551
+#   number of values: 5
+#   average value [b]:  2.657920E-02
+#   relative standard deviation [%]:     58.416370
 # quantity: 
 #   type: Compilation
 #   average value:  1.800000E-02
@@ -36,3 +36,14 @@
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       B.H.Ketelle             EXFOR                1956        7.000000E-03   0.000000E+00   12063-003-0        0.388889   SPA            2.530000E-08
       M.Sehgal                EXFOR                1962        1.800000E-02   5.000000E-03   11994-009-0        1.000000   MXW            2.530000E-08
+# quantity: 
+#   type: Nuclear data library
+#   average value:  4.494800E-02
+#   relative standard deviation [%]:      0.040048
+# datablock: 
+#   columns: 11
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      tendl.2025              NDL                  2025        4.493000E-02   0.000000E+00                      2.496111                  2.530000E-08   0.000000E+00
+      jeff4.0                 NDL                  2025        4.496600E-02   0.000000E+00                      2.498111                  2.530000E-08   0.000000E+00

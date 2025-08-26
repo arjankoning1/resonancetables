@@ -1,7 +1,7 @@
 # header: 
 #   title: Kr082(n,g)-m thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 36
 #   A: 82
@@ -12,9 +12,9 @@
 #   selected value [b]:  1.510000E+01
 #   selected value uncertainty [b]:  2.700000E+00
 #   selected value source: Mughabghab-2018
-#   number of values: 5
-#   average value [b]:  1.942000E+01
-#   relative standard deviation [%]:     71.807892
+#   number of values: 7
+#   average value [b]:  1.627491E+01
+#   relative standard deviation [%]:     78.598930
 # quantity: 
 #   type: Compilation
 #   average value:  1.455000E+01
@@ -38,3 +38,14 @@
       J.Macnamara             EXFOR                1950        4.500000E+01   1.500000E+01   11858-011-0        2.980132   SPA            2.530000E-08
       S.L.Ruby                EXFOR                1965        3.000000E+00   1.000000E+00   11855-002-0        0.198675   SPA            2.530000E-08
       E.Kondaiah              EXFOR                1968        2.000000E+01   3.500000E+00   11883-005-0        1.324503   MXW            2.530000E-08
+# quantity: 
+#   type: Nuclear data library
+#   average value:  8.412200E+00
+#   relative standard deviation [%]:      0.035666
+# datablock: 
+#   columns: 11
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      tendl.2025              NDL                  2025        8.409200E+00   0.000000E+00                      0.556901                  2.530000E-08   0.000000E+00
+      jeff4.0                 NDL                  2025        8.415200E+00   0.000000E+00                      0.557298                  2.530000E-08   0.000000E+00

@@ -1,7 +1,7 @@
 # header: 
 #   title: Sn112(n,g)-m thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 50
 #   A: 112
@@ -12,9 +12,9 @@
 #   selected value [b]:  1.500000E-01
 #   selected value uncertainty [b]:  4.000000E-02
 #   selected value source: RIPL-3
-#   number of values: 3
-#   average value [b]:  2.266666E-01
-#   relative standard deviation [%]:     50.985107
+#   number of values: 6
+#   average value [b]:  1.967507E-01
+#   relative standard deviation [%]:     54.082108
 # quantity: 
 #   type: Compilation
 #   average value:  1.500000E-01
@@ -45,3 +45,15 @@
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       M.Schmorak              EXFOR                1961        3.900000E-01   1.000000E-01   11972-003-0        2.600000   SPA            2.530000E-08
+# quantity: 
+#   type: Nuclear data library
+#   average value:  1.668347E-01
+#   relative standard deviation [%]:     51.907013
+# datablock: 
+#   columns: 11
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      jendl5.0                NDL                  2021        2.893040E-01   0.000000E+00                      1.928693                  2.530000E-08   9.996900E-01
+      tendl.2025              NDL                  2025        1.056000E-01   0.000000E+00                      0.704000                  2.530000E-08   1.000300E+00
+      jeff4.0                 NDL                  2025        1.056000E-01   0.000000E+00                      0.704000                  2.530000E-08   1.000300E+00

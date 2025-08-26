@@ -1,7 +1,7 @@
 # header: 
 #   title: Sn122(n,g)-m thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 50
 #   A: 122
@@ -12,9 +12,9 @@
 #   selected value [b]:  1.500000E-01
 #   selected value uncertainty [b]:  2.000000E-02
 #   selected value source: RIPL-3
-#   number of values: 8
-#   average value [b]:  1.311500E-01
-#   relative standard deviation [%]:     39.454548
+#   number of values: 10
+#   average value [b]:  1.193348E-01
+#   relative standard deviation [%]:     43.545929
 # quantity: 
 #   type: Compilation
 #   average value:  1.500000E-01
@@ -50,3 +50,14 @@
       S.K.Mangal              EXFOR                1963        2.060000E-01   3.090000E-02   31249-003-0        1.373333   SPA            2.530000E-08
       R.S.Tilbury             EXFOR                1968        1.500000E-01   2.000000E-02   11927-005-0        1.000000   SPA            2.530000E-08
       W.Maenhaut              EXFOR                1973        1.450000E-01   0.000000E+00   20731-007-0        0.966667   MXW            2.530000E-08
+# quantity: 
+#   type: Nuclear data library
+#   average value:  7.207380E-02
+#   relative standard deviation [%]:      0.000000
+# datablock: 
+#   columns: 11
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      tendl.2025              NDL                  2025        7.207380E-02   0.000000E+00                      0.480492                  2.530000E-08   9.999600E-01
+      jeff4.0                 NDL                  2025        7.207380E-02   0.000000E+00                      0.480492                  2.530000E-08   9.999600E-01

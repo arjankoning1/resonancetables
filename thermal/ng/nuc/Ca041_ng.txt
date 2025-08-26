@@ -1,7 +1,7 @@
 # header: 
 #   title: Ca041(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 20
 #   A: 41
@@ -12,9 +12,9 @@
 #   selected value [b]:  4.000000E+00
 #   selected value uncertainty [b]:  0.000000E+00
 #   selected value source: Mughabghab-2018
-#   number of values: 8
-#   average value [b]:  3.501875E+00
-#   relative standard deviation [%]:     37.646942
+#   number of values: 7
+#   average value [b]:  4.000147E+00
+#   relative standard deviation [%]:      0.289146
 # quantity: 
 #   type: Compilation
 #   average value:  4.000000E+00
@@ -39,14 +39,13 @@
       Sukhoruchkin            Compilation          2015        4.000000E+00   0.000000E+00                      1.000000   MXW            2.530000E-08
 # quantity: 
 #   type: Nuclear data library
-#   average value:  3.003750E+00
-#   relative standard deviation [%]:     57.468792
+#   average value:  4.000343E+00
+#   relative standard deviation [%]:      0.441609
 # datablock: 
-#   columns: 10
-#   entries: 4
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
-##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      jendl5.0                NDL                  2021        4.022710E+00   0.000000E+00                      1.005677                  2.530000E-08
-      endfb8.1                NDL                  2024        1.396890E-02   0.000000E+00                      0.003492                  2.530000E-08
-      tendl.2025              NDL                  2025        3.998800E+00   0.000000E+00                      0.999700                  2.530000E-08
-      jeff4.0                 NDL                  2025        3.979520E+00   0.000000E+00                      0.994880                  2.530000E-08
+#   columns: 11
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      jendl5.0                NDL                  2021        4.022710E+00   0.000000E+00                      1.005677                  2.530000E-08   1.000030E+00
+      tendl.2025              NDL                  2025        3.998800E+00   0.000000E+00                      0.999700                  2.530000E-08   1.000080E+00
+      jeff4.0                 NDL                  2025        3.979520E+00   0.000000E+00                      0.994880                  2.530000E-08   1.000050E+00

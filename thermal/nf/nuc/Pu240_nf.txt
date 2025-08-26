@@ -1,7 +1,7 @@
 # header: 
 #   title: Pu240(n,f) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 94
 #   A: 240
@@ -12,9 +12,9 @@
 #   selected value [b]:  5.600000E-02
 #   selected value uncertainty [b]:  3.000000E-02
 #   selected value source: Mughabghab-2018
-#   number of values: 8
-#   average value [b]:  9.437564E-01
-#   relative standard deviation [%]:    193.132172
+#   number of values: 12
+#   average value [b]:  7.232271E-01
+#   relative standard deviation [%]:    206.666611
 # quantity: 
 #   type: Compilation
 #   average value:  5.501250E-02
@@ -41,12 +41,25 @@
       T.A.Eastwood            EXFOR                1958        3.000000E-02   4.500000E-02   12011-006-0        0.535714                  2.530000E-08
 # quantity: 
 #   type: EXFOR spectrum-averaged
-#   average value:  1.800000E+00
-#   relative standard deviation [%]:    144.444443
+#   average value:  4.400000E+00
+#   relative standard deviation [%]:      0.000000
 # datablock: 
 #   columns: 10
-#   entries: 2
+#   entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       E.K.Hulet               EXFOR                1956        4.400000E+00   5.000000E-01   13466-002-0       78.571426   MXW            2.530000E-08
-      C.B.Bigham              EXFOR                1958       -8.000000E-01   7.000000E-01   14526-003-0      -14.285714   SPA            2.530000E-08
+# quantity: 
+#   type: Nuclear data library
+#   average value:  6.573502E-02
+#   relative standard deviation [%]:     11.633782
+# datablock: 
+#   columns: 11
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      cendl3.2                NDL                  2019        6.403120E-02   0.000000E+00                      1.143414                  2.530000E-08   1.024450E+00
+      jendl5.0                NDL                  2021        5.914940E-02   0.000000E+00                      1.056239                  2.530000E-08   1.032460E+00
+      endfb8.1                NDL                  2024        7.459790E-02   0.000000E+00                      1.332105                  2.530000E-08   1.028870E+00
+      tendl.2025              NDL                  2025        5.629870E-02   0.000000E+00                      1.005334                  2.530000E-08   1.031790E+00
+      jeff4.0                 NDL                  2025        7.459790E-02   0.000000E+00                      1.332105                  2.530000E-08   1.028870E+00

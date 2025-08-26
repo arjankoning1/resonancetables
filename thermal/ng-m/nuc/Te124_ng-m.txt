@@ -1,7 +1,7 @@
 # header: 
 #   title: Te124(n,g)-m thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 52
 #   A: 124
@@ -12,9 +12,9 @@
 #   selected value [b]:  5.000000E-02
 #   selected value uncertainty [b]:  2.500000E-02
 #   selected value source: RIPL-3
-#   number of values: 9
-#   average value [b]:  2.659000E+00
-#   relative standard deviation [%]:     92.109688
+#   number of values: 11
+#   average value [b]:  2.311879E+00
+#   relative standard deviation [%]:    100.980713
 # quantity: 
 #   type: Compilation
 #   average value:  5.000000E-02
@@ -51,3 +51,14 @@
       R.Hill                  EXFOR                1949        5.000000E+00   0.000000E+00   11998-002-0      100.000000   MXW            2.530000E-08
       H.Pomerance             EXFOR                1952        6.500000E+00   1.300000E+00   11507-063-0      130.000000   MXW            2.530000E-08
       M.C.Eastman             EXFOR                2008        8.510000E-01   6.100000E-02   14165-005-0       17.020000   MXW            2.530000E-08
+# quantity: 
+#   type: Nuclear data library
+#   average value:  7.498350E-01
+#   relative standard deviation [%]:      0.000668
+# datablock: 
+#   columns: 11
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      tendl.2025              NDL                  2025        7.498300E-01   0.000000E+00                     14.996600                  2.530000E-08   0.000000E+00
+      jeff4.0                 NDL                  2025        7.498400E-01   0.000000E+00                     14.996800                  2.530000E-08   0.000000E+00

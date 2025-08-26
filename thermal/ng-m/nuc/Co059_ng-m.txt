@@ -1,7 +1,7 @@
 # header: 
 #   title: Co059(n,g)-m thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 27
 #   A: 59
@@ -12,9 +12,9 @@
 #   selected value [b]:  2.040000E+01
 #   selected value uncertainty [b]:  8.000000E-01
 #   selected value source: Mughabghab-2018
-#   number of values: 10
-#   average value [b]:  2.079000E+01
-#   relative standard deviation [%]:     50.452080
+#   number of values: 12
+#   average value [b]:  2.031842E+01
+#   relative standard deviation [%]:     50.247162
 # quantity: 
 #   type: Compilation
 #   average value:  2.055000E+01
@@ -52,3 +52,14 @@
       B.Keisch                EXFOR                1963        2.000000E+01   2.000000E+00   11748-002-0        0.980392   MXW            2.530000E-08
       E.M.Gryntakis           EXFOR                1976        1.880000E+01   1.500000E+00   20625-009-0        0.921569   MXW            2.530000E-08
       F.Farina Arbocco        EXFOR                2013        2.070000E+01   5.000000E-01   23266-040-0        1.014706   AV             2.530000E-08
+# quantity: 
+#   type: Nuclear data library
+#   average value:  1.796054E+01
+#   relative standard deviation [%]:     46.124828
+# datablock: 
+#   columns: 11
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      jendl5.0                NDL                  2021        2.624480E+01   0.000000E+00                      1.286510                  2.530000E-08   1.000200E+00
+      tendl.2025              NDL                  2025        9.676270E+00   0.000000E+00                      0.474327                  2.530000E-08   1.000190E+00

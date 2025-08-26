@@ -1,7 +1,7 @@
 # header: 
 #   title: Pb206(n,g)-g thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 82
 #   A: 206
@@ -12,9 +12,9 @@
 #   selected value [b]:  2.937000E-02
 #   selected value uncertainty [b]:  0.000000E+00
 #   selected value source: RIPL-3
-#   number of values: 1
-#   average value [b]:  2.937000E-02
-#   relative standard deviation [%]:      0.000000
+#   number of values: 3
+#   average value [b]:  2.878200E-02
+#   relative standard deviation [%]:      1.520104
 # quantity: 
 #   type: Compilation
 #   average value:  2.937000E-02
@@ -25,3 +25,14 @@
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       RIPL-3                  Compilation          2004        2.937000E-02   0.000000E+00                      1.000000                  2.530000E-08
+# quantity: 
+#   type: Nuclear data library
+#   average value:  2.848800E-02
+#   relative standard deviation [%]:      0.585513
+# datablock: 
+#   columns: 11
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      jendl5.0                NDL                  2021        2.865480E-02   0.000000E+00                      0.975649                  2.530000E-08   1.000060E+00
+      tendl.2025              NDL                  2025        2.832120E-02   0.000000E+00                      0.964290                  2.530000E-08   1.000060E+00

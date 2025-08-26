@@ -1,7 +1,7 @@
 # header: 
 #   title: Sr086(n,g)-m thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 38
 #   A: 86
@@ -12,9 +12,9 @@
 #   selected value [b]:  8.100000E-01
 #   selected value uncertainty [b]:  6.000000E-02
 #   selected value source: RIPL-3
-#   number of values: 14
-#   average value [b]:  9.152142E-01
-#   relative standard deviation [%]:     28.966839
+#   number of values: 16
+#   average value [b]:  8.571453E-01
+#   relative standard deviation [%]:     34.034054
 # quantity: 
 #   type: Compilation
 #   average value:  8.100000E-01
@@ -56,3 +56,14 @@
       K.S.Krane               EXFOR                2021        7.700000E-01   2.000000E-02   14714-010-3        0.950617   SPA            2.530000E-08
       K.S.Krane               EXFOR                2021        7.570000E-01   2.000000E-02   14714-010-2        0.934568   SPA            2.530000E-08
       K.S.Krane               EXFOR                2021        7.850000E-01   2.200000E-02   14714-010-1        0.969136   SPA            2.530000E-08
+# quantity: 
+#   type: Nuclear data library
+#   average value:  4.506625E-01
+#   relative standard deviation [%]:      0.001220
+# datablock: 
+#   columns: 11
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      tendl.2025              NDL                  2025        4.506570E-01   0.000000E+00                      0.556367                  2.530000E-08   1.000080E+00
+      jeff4.0                 NDL                  2025        4.506680E-01   0.000000E+00                      0.556380                  2.530000E-08   1.000080E+00

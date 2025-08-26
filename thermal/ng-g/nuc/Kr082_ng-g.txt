@@ -1,7 +1,7 @@
 # header: 
 #   title: Kr082(n,g)-g thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 36
 #   A: 82
@@ -12,9 +12,9 @@
 #   selected value [b]:  7.000000E+00
 #   selected value uncertainty [b]:  0.000000E+00
 #   selected value source: RIPL-3
-#   number of values: 2
-#   average value [b]:  1.250000E+01
-#   relative standard deviation [%]:     44.000000
+#   number of values: 4
+#   average value [b]:  1.154247E+01
+#   relative standard deviation [%]:     34.699913
 # quantity: 
 #   type: Compilation
 #   average value:  7.000000E+00
@@ -35,3 +35,14 @@
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       M.Lucas                 EXFOR                1977        1.800000E+01   4.000000E+00   21563-009-0        2.571429                  2.530000E-08
+# quantity: 
+#   type: Nuclear data library
+#   average value:  1.058495E+01
+#   relative standard deviation [%]:      0.035431
+# datablock: 
+#   columns: 11
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      tendl.2025              NDL                  2025        1.058120E+01   0.000000E+00                      1.511600                  2.530000E-08   9.999700E-01
+      jeff4.0                 NDL                  2025        1.058870E+01   0.000000E+00                      1.512671                  2.530000E-08   9.999800E-01

@@ -1,7 +1,7 @@
 # header: 
 #   title: Se082(n,g)-m thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 34
 #   A: 82
@@ -12,9 +12,9 @@
 #   selected value [b]:  3.900000E-02
 #   selected value uncertainty [b]:  3.000000E-03
 #   selected value source: RIPL-3
-#   number of values: 2
-#   average value [b]:  3.900000E-02
-#   relative standard deviation [%]:      0.000000
+#   number of values: 4
+#   average value [b]:  2.983320E-02
+#   relative standard deviation [%]:     30.726843
 # quantity: 
 #   type: Compilation
 #   average value:  3.900000E-02
@@ -35,3 +35,14 @@
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       W.Mannhart              EXFOR                1968        3.900000E-02   3.000000E-03   22521-010-0        1.000000   MXW            2.530000E-08
+# quantity: 
+#   type: Nuclear data library
+#   average value:  2.066640E-02
+#   relative standard deviation [%]:      0.000000
+# datablock: 
+#   columns: 11
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      tendl.2025              NDL                  2025        2.066640E-02   0.000000E+00                      0.529908                  2.530000E-08   1.000010E+00
+      jeff4.0                 NDL                  2025        2.066640E-02   0.000000E+00                      0.529908                  2.530000E-08   1.000010E+00

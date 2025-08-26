@@ -1,7 +1,7 @@
 # header: 
 #   title: Hf181(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 72
 #   A: 181
@@ -12,9 +12,9 @@
 #   selected value [b]:  4.000000E+01
 #   selected value uncertainty [b]:  3.000000E+01
 #   selected value source: Mughabghab-2018
-#   number of values: 9
-#   average value [b]:  5.221844E+01
-#   relative standard deviation [%]:     38.070168
+#   number of values: 5
+#   average value [b]:  4.600000E+01
+#   relative standard deviation [%]:     37.903473
 # quantity: 
 #   type: Compilation
 #   average value:  3.500000E+01
@@ -47,16 +47,3 @@
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       J.Wing                  EXFOR                1961        4.000000E+01   0.000000E+00   12114-002-0        1.000000   SPA            2.530000E-08
       Qiu Jiu-Zi              EXFOR                2005        8.000000E+01   5.600000E+00   31624-002-0        2.000000   MXW            2.530000E-08
-# quantity: 
-#   type: Nuclear data library
-#   average value:  5.999150E+01
-#   relative standard deviation [%]:     33.356560
-# datablock: 
-#   columns: 10
-#   entries: 4
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
-##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      jendl5.0                NDL                  2021        8.000260E+01   0.000000E+00                      2.000065                  2.530000E-08
-      endfb8.1                NDL                  2024        8.000260E+01   0.000000E+00                      2.000065                  2.530000E-08
-      tendl.2025              NDL                  2025        3.998040E+01   0.000000E+00                      0.999510                  2.530000E-08
-      jeff4.0                 NDL                  2025        3.998040E+01   0.000000E+00                      0.999510                  2.530000E-08

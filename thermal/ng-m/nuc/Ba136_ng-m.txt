@@ -1,7 +1,7 @@
 # header: 
 #   title: Ba136(n,g)-m thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 56
 #   A: 136
@@ -12,9 +12,9 @@
 #   selected value [b]:  1.000000E-02
 #   selected value uncertainty [b]:  1.000000E-03
 #   selected value source: RIPL-3
-#   number of values: 5
-#   average value [b]:  1.504000E-02
-#   relative standard deviation [%]:     47.939892
+#   number of values: 7
+#   average value [b]:  1.709457E-02
+#   relative standard deviation [%]:     40.396019
 # quantity: 
 #   type: Compilation
 #   average value:  1.000000E-02
@@ -38,3 +38,14 @@
       H.H.Kramer              EXFOR                1965        1.100000E-02   1.100000E-03   11832-007-0        1.100000   MXW            2.530000E-08
       A.Foglio Para           EXFOR                1967        9.500000E-03   1.000000E-03   21403-008-0        0.950000   MXW            2.530000E-08
       A.Y.Dauenhauer          EXFOR                2012        2.870000E-02   5.700000E-03   14340-007-0        2.870000   MXW            2.530000E-08
+# quantity: 
+#   type: Nuclear data library
+#   average value:  2.223100E-02
+#   relative standard deviation [%]:      0.000000
+# datablock: 
+#   columns: 11
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      tendl.2025              NDL                  2025        2.223100E-02   0.000000E+00                      2.223100                  2.530000E-08   0.000000E+00
+      jeff4.0                 NDL                  2025        2.223100E-02   0.000000E+00                      2.223100                  2.530000E-08   0.000000E+00

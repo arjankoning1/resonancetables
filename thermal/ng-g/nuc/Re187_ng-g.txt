@@ -1,7 +1,7 @@
 # header: 
 #   title: Re187(n,g)-g thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 75
 #   A: 187
@@ -12,9 +12,9 @@
 #   selected value [b]:  7.275000E+01
 #   selected value uncertainty [b]:  1.000000E+00
 #   selected value source: Mughabghab-2018
-#   number of values: 3
-#   average value [b]:  7.265000E+01
-#   relative standard deviation [%]:      0.681313
+#   number of values: 5
+#   average value [b]:  7.269244E+01
+#   relative standard deviation [%]:      0.532260
 # quantity: 
 #   type: Compilation
 #   average value:  7.237500E+01
@@ -36,3 +36,14 @@
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       F.De Corte              EXFOR                1988        7.320000E+01   3.074400E+00   23488-086-2        1.006186                  2.530000E-08
+# quantity: 
+#   type: Nuclear data library
+#   average value:  7.275610E+01
+#   relative standard deviation [%]:      0.000000
+# datablock: 
+#   columns: 11
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      tendl.2025              NDL                  2025        7.275610E+01   0.000000E+00                      1.000084                  2.530000E-08   9.943100E-01
+      jeff4.0                 NDL                  2025        7.275610E+01   0.000000E+00                      1.000084                  2.530000E-08   9.943100E-01

@@ -1,7 +1,7 @@
 # header: 
 #   title: Ti046(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 22
 #   A: 46
@@ -52,12 +52,12 @@
 #   average value:  5.913502E-01
 #   relative standard deviation [%]:      1.890906
 # datablock: 
-#   columns: 10
+#   columns: 11
 #   entries: 5
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
-##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      cendl3.2                NDL                  2019        5.760660E-01   0.000000E+00                      0.976383                  2.530000E-08
-      jendl5.0                NDL                  2021        5.896730E-01   0.000000E+00                      0.999446                  2.530000E-08
-      endfb8.1                NDL                  2024        5.896730E-01   0.000000E+00                      0.999446                  2.530000E-08
-      tendl.2025              NDL                  2025        5.903680E-01   0.000000E+00                      1.000624                  2.530000E-08
-      jeff4.0                 NDL                  2025        6.109710E-01   0.000000E+00                      1.035544                  2.530000E-08
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      cendl3.2                NDL                  2019        5.760660E-01   0.000000E+00                      0.976383                  2.530000E-08   1.000040E+00
+      jendl5.0                NDL                  2021        5.896730E-01   0.000000E+00                      0.999446                  2.530000E-08   1.000040E+00
+      endfb8.1                NDL                  2024        5.896730E-01   0.000000E+00                      0.999446                  2.530000E-08   1.000040E+00
+      tendl.2025              NDL                  2025        5.903680E-01   0.000000E+00                      1.000624                  2.530000E-08   1.000040E+00
+      jeff4.0                 NDL                  2025        6.109710E-01   0.000000E+00                      1.035544                  2.530000E-08   1.000040E+00

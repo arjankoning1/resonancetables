@@ -1,7 +1,7 @@
 # header: 
 #   title: Ti044(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 22
 #   A: 44
@@ -41,10 +41,10 @@
 #   average value:  1.099907E+00
 #   relative standard deviation [%]:      0.013369
 # datablock: 
-#   columns: 10
+#   columns: 11
 #   entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
-##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      jendl5.0                NDL                  2021        1.100030E+00   0.000000E+00                      1.000027                  2.530000E-08
-      tendl.2025              NDL                  2025        1.099700E+00   0.000000E+00                      0.999727                  2.530000E-08
-      jeff4.0                 NDL                  2025        1.099990E+00   0.000000E+00                      0.999991                  2.530000E-08
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      jendl5.0                NDL                  2021        1.100030E+00   0.000000E+00                      1.000027                  2.530000E-08   1.000060E+00
+      tendl.2025              NDL                  2025        1.099700E+00   0.000000E+00                      0.999727                  2.530000E-08   1.000000E+00
+      jeff4.0                 NDL                  2025        1.099990E+00   0.000000E+00                      0.999991                  2.530000E-08   1.000050E+00

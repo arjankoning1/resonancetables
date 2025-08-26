@@ -1,7 +1,7 @@
 # header: 
 #   title: Ba132(n,g)-g thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 56
 #   A: 132
@@ -12,9 +12,9 @@
 #   selected value [b]:  7.500000E+00
 #   selected value uncertainty [b]:  3.000000E-01
 #   selected value source: Mughabghab-2018
-#   number of values: 5
-#   average value [b]:  7.442000E+00
-#   relative standard deviation [%]:     17.074591
+#   number of values: 7
+#   average value [b]:  7.469470E+00
+#   relative standard deviation [%]:     14.389372
 # quantity: 
 #   type: Compilation
 #   average value:  8.600000E+00
@@ -38,3 +38,14 @@
       S.Katcoff               EXFOR                1947        6.000000E+00   0.000000E+00   12037-002-0        0.800000   SPA            2.530000E-08
       W.S.Lyon                EXFOR                1963        6.500000E+00   0.000000E+00   12019-003-0        0.866667   SPA            2.530000E-08
       A.Y.Dauenhauer          EXFOR                2012        7.510000E+00   3.200000E-01   14340-005-0        1.001333   MXW            2.530000E-08
+# quantity: 
+#   type: Nuclear data library
+#   average value:  7.538145E+00
+#   relative standard deviation [%]:      0.050080
+# datablock: 
+#   columns: 11
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      tendl.2025              NDL                  2025        7.534370E+00   0.000000E+00                      1.004583                  2.530000E-08   9.998700E-01
+      jeff4.0                 NDL                  2025        7.541920E+00   0.000000E+00                      1.005589                  2.530000E-08   9.998700E-01

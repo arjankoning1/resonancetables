@@ -1,7 +1,7 @@
 # header: 
 #   title: Re185(n,g)-g thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 75
 #   A: 185
@@ -12,9 +12,9 @@
 #   selected value [b]:  1.100000E+02
 #   selected value uncertainty [b]:  0.000000E+00
 #   selected value source: RIPL-3
-#   number of values: 11
-#   average value [b]:  1.110364E+02
-#   relative standard deviation [%]:      9.270576
+#   number of values: 13
+#   average value [b]:  1.111442E+02
+#   relative standard deviation [%]:      8.522455
 # quantity: 
 #   type: Compilation
 #   average value:  1.100000E+02
@@ -53,3 +53,14 @@
       W.S.Lyon                EXFOR                1960        1.270000E+02   1.270000E+01   11625-033-0        1.154545   MXW            2.530000E-08
       T.Hayakawa              EXFOR                2005        1.320000E+02   2.600000E+01   22777-006-0        1.200000   SPA            2.530000E-08
       F.Farina Arbocco        EXFOR                2013        1.116000E+02   1.100000E+00   23266-146-0        1.014545   AV             2.530000E-08
+# quantity: 
+#   type: Nuclear data library
+#   average value:  1.117370E+02
+#   relative standard deviation [%]:      0.000000
+# datablock: 
+#   columns: 11
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      tendl.2025              NDL                  2025        1.117370E+02   0.000000E+00                      1.015791                  2.530000E-08   1.003950E+00
+      jeff4.0                 NDL                  2025        1.117370E+02   0.000000E+00                      1.015791                  2.530000E-08   1.003950E+00

@@ -1,7 +1,7 @@
 # header: 
 #   title: Lu176(n,g)-m thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 71
 #   A: 176
@@ -12,9 +12,9 @@
 #   selected value [b]:  2.000000E+00
 #   selected value uncertainty [b]:  7.000000E-01
 #   selected value source: RIPL-3
-#   number of values: 4
-#   average value [b]:  3.025000E+00
-#   relative standard deviation [%]:     77.187599
+#   number of values: 6
+#   average value [b]:  2.633367E+00
+#   relative standard deviation [%]:     75.389427
 # quantity: 
 #   type: Compilation
 #   average value:  2.000000E+00
@@ -46,3 +46,14 @@
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       D.R.Nethaway            EXFOR                1967        7.000000E+00   2.100000E+00   12088-002-2        3.500000   MXW            2.530000E-08
       E.M.Gryntakis           EXFOR                1976        2.100000E+00   7.000000E-01   20625-026-0        1.050000   MXW            2.530000E-08
+# quantity: 
+#   type: Nuclear data library
+#   average value:  1.850100E+00
+#   relative standard deviation [%]:      0.000000
+# datablock: 
+#   columns: 11
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      tendl.2025              NDL                  2025        1.850100E+00   0.000000E+00                      0.925050                  2.530000E-08   0.000000E+00
+      jeff4.0                 NDL                  2025        1.850100E+00   0.000000E+00                      0.925050                  2.530000E-08   0.000000E+00

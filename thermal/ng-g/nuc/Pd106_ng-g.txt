@@ -1,7 +1,7 @@
 # header: 
 #   title: Pd106(n,g)-g thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 46
 #   A: 106
@@ -12,9 +12,9 @@
 #   selected value [b]:  2.920000E-01
 #   selected value uncertainty [b]:  2.900000E-02
 #   selected value source: Mughabghab-2018
-#   number of values: 2
-#   average value [b]:  2.860000E-01
-#   relative standard deviation [%]:      2.097901
+#   number of values: 5
+#   average value [b]:  2.916752E-01
+#   relative standard deviation [%]:      2.502955
 # quantity: 
 #   type: Compilation
 #   average value:  2.860000E-01
@@ -26,3 +26,15 @@
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       RIPL-3                  Compilation          2004        2.800000E-01   2.900000E-02                      0.958904                  2.530000E-08
       Mughabghab-2018         Compilation          2018        2.920000E-01   2.900000E-02                      1.000000                  2.530000E-08
+# quantity: 
+#   type: Nuclear data library
+#   average value:  2.954587E-01
+#   relative standard deviation [%]:      1.823975
+# datablock: 
+#   columns: 11
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      jendl5.0                NDL                  2021        3.030800E-01   0.000000E+00                      1.037945                  2.530000E-08   9.998400E-01
+      tendl.2025              NDL                  2025        2.916480E-01   0.000000E+00                      0.998795                  2.530000E-08   9.997100E-01
+      jeff4.0                 NDL                  2025        2.916480E-01   0.000000E+00                      0.998795                  2.530000E-08   9.997100E-01

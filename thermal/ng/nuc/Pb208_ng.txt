@@ -1,7 +1,7 @@
 # header: 
 #   title: Pb208(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 82
 #   A: 208
@@ -12,9 +12,9 @@
 #   selected value [b]:  2.300000E-04
 #   selected value uncertainty [b]:  2.000000E-05
 #   selected value source: Mughabghab-2018
-#   number of values: 13
-#   average value [b]:  1.638812E-03
-#   relative standard deviation [%]:    288.307678
+#   number of values: 12
+#   average value [b]:  1.775379E-03
+#   relative standard deviation [%]:    275.605042
 # quantity: 
 #   type: Compilation
 #   average value:  2.955000E-04
@@ -30,15 +30,14 @@
       Mughabghab-2018         Compilation          2018        2.300000E-04   2.000000E-05                      1.000000                  2.530000E-08
 # quantity: 
 #   type: EXFOR spectrum-averaged
-#   average value:  4.736750E-03
-#   relative standard deviation [%]:    161.713959
+#   average value:  6.315667E-03
+#   relative standard deviation [%]:    130.818787
 # datablock: 
 #   columns: 10
-#   entries: 4
+#   entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       D.J.Hughes              EXFOR                1949        4.600000E-04   0.000000E+00   13859-002-0        2.000000   SPA            2.530000E-08
-      H.Pomerance             EXFOR                1952        0.000000E+00   0.000000E+00   11507-102-0        0.000000   MXW            2.530000E-08
       R.Vidal                 EXFOR                1963        1.800000E-02   1.000000E-02   21513-002-0       78.260864   MXW            2.530000E-08
       J.F.Emery               EXFOR                1968        4.870000E-04   3.000000E-05   12632-003-0        2.117391   SPA            2.530000E-08
 # quantity: 
@@ -46,12 +45,12 @@
 #   average value:  2.351108E-04
 #   relative standard deviation [%]:      3.230527
 # datablock: 
-#   columns: 10
+#   columns: 11
 #   entries: 5
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
-##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      cendl3.2                NDL                  2019        2.498850E-04   0.000000E+00                      1.086456                  2.530000E-08
-      jendl5.0                NDL                  2021        2.303070E-04   0.000000E+00                      1.001335                  2.530000E-08
-      endfb8.1                NDL                  2024        2.348370E-04   0.000000E+00                      1.021030                  2.530000E-08
-      tendl.2025              NDL                  2025        2.302180E-04   0.000000E+00                      1.000948                  2.530000E-08
-      jeff4.0                 NDL                  2025        2.303070E-04   0.000000E+00                      1.001335                  2.530000E-08
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      cendl3.2                NDL                  2019        2.498850E-04   0.000000E+00                      1.086456                  2.530000E-08   1.000060E+00
+      jendl5.0                NDL                  2021        2.303070E-04   0.000000E+00                      1.001335                  2.530000E-08   1.000250E+00
+      endfb8.1                NDL                  2024        2.348370E-04   0.000000E+00                      1.021030                  2.530000E-08   1.000340E+00
+      tendl.2025              NDL                  2025        2.302180E-04   0.000000E+00                      1.000948                  2.530000E-08   1.000060E+00
+      jeff4.0                 NDL                  2025        2.303070E-04   0.000000E+00                      1.001335                  2.530000E-08   1.000250E+00

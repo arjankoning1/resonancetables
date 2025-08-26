@@ -1,7 +1,7 @@
 # header: 
 #   title: Xe132(n,g)-g thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 54
 #   A: 132
@@ -12,9 +12,9 @@
 #   selected value [b]:  4.000000E-01
 #   selected value uncertainty [b]:  0.000000E+00
 #   selected value source: RIPL-3
-#   number of values: 4
-#   average value [b]:  3.987500E-01
-#   relative standard deviation [%]:     24.958569
+#   number of values: 7
+#   average value [b]:  3.997876E-01
+#   relative standard deviation [%]:     18.839483
 # quantity: 
 #   type: Compilation
 #   average value:  4.000000E-01
@@ -37,3 +37,15 @@
       T.Eastwood              EXFOR                1963        2.500000E-01   2.500000E-02   11849-012-0        0.625000   MXW            2.530000E-08
       R.S.Tilbury             EXFOR                1968        5.300000E-01   1.000000E-01   11927-010-0        1.325000   SPA            2.530000E-08
       E.Kondaiah              EXFOR                1968        4.150000E-01   4.500000E-02   11883-013-0        1.037500   MXW            2.530000E-08
+# quantity: 
+#   type: Nuclear data library
+#   average value:  4.011710E-01
+#   relative standard deviation [%]:      1.293049
+# datablock: 
+#   columns: 11
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      jendl5.0                NDL                  2021        3.938350E-01   0.000000E+00                      0.984587                  2.530000E-08   9.999700E-01
+      tendl.2025              NDL                  2025        4.048390E-01   0.000000E+00                      1.012097                  2.530000E-08   9.999600E-01
+      jeff4.0                 NDL                  2025        4.048390E-01   0.000000E+00                      1.012097                  2.530000E-08   9.999600E-01

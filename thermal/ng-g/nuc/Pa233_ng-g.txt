@@ -1,7 +1,7 @@
 # header: 
 #   title: Pa233(n,g)-g thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 91
 #   A: 233
@@ -12,9 +12,9 @@
 #   selected value [b]:  1.940000E+01
 #   selected value uncertainty [b]:  3.000000E+00
 #   selected value source: Mughabghab-2018
-#   number of values: 5
-#   average value [b]:  2.288000E+01
-#   relative standard deviation [%]:     22.276320
+#   number of values: 6
+#   average value [b]:  2.343545E+01
+#   relative standard deviation [%]:     20.548632
 # quantity: 
 #   type: Compilation
 #   average value:  1.920000E+01
@@ -38,3 +38,13 @@
       R.R.Smith               EXFOR                1955        3.200000E+01   5.000000E+00   12299-004-0        1.649485   SPA            2.530000E-08
       R.R.Smith               EXFOR                1955        2.500000E+01   4.000000E+00   12299-003-0        1.288660   MXW            2.530000E-08
       T.A.Eastwood            EXFOR                1960        1.900000E+01   3.000000E+00   12256-003-0        0.979381   MXW            2.530000E-08
+# quantity: 
+#   type: Nuclear data library
+#   average value:  2.621270E+01
+#   relative standard deviation [%]:      0.000000
+# datablock: 
+#   columns: 11
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      tendl.2025              NDL                  2025        2.621270E+01   0.000000E+00                      1.351170                  2.530000E-08   1.007910E+00

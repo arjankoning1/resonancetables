@@ -1,7 +1,7 @@
 # header: 
 #   title: Au198(n,el) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 79
 #   A: 198
@@ -12,9 +12,9 @@
 #   selected value [b]:  3.500000E+01
 #   selected value uncertainty [b]:  0.000000E+00
 #   selected value source: Mughabghab-2018
-#   number of values: 1
-#   average value [b]:  3.500000E+01
-#   relative standard deviation [%]:      0.000000
+#   number of values: 3
+#   average value [b]:  2.599317E+01
+#   relative standard deviation [%]:     48.946159
 # quantity: 
 #   type: Compilation
 #   average value:  3.500000E+01
@@ -25,3 +25,14 @@
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       Mughabghab-2018         Compilation          2018        3.500000E+01   0.000000E+00                      1.000000                  2.530000E-08
+# quantity: 
+#   type: Nuclear data library
+#   average value:  2.148976E+01
+#   relative standard deviation [%]:     62.770081
+# datablock: 
+#   columns: 11
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      jendl5.0                NDL                  2021        8.000620E+00   0.000000E+00                      0.228589                  2.530000E-08   1.128450E+00
+      tendl.2025              NDL                  2025        3.497890E+01   0.000000E+00                      0.999397                  2.530000E-08   1.129790E+00

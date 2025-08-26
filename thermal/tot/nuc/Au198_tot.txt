@@ -1,7 +1,7 @@
 # header: 
 #   title: Au198(n,tot) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 79
 #   A: 198
@@ -12,9 +12,9 @@
 #   selected value [b]:  2.560000E+04
 #   selected value uncertainty [b]:  1.280000E+03
 #   selected value source: F.Simpson
-#   number of values: 1
-#   average value [b]:  2.560000E+04
-#   relative standard deviation [%]:      0.000000
+#   number of values: 3
+#   average value [b]:  1.692199E+04
+#   relative standard deviation [%]:     70.676765
 # quantity: 
 #   type: EXFOR
 #   average value:  2.560000E+04
@@ -25,3 +25,14 @@
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       F.Simpson               EXFOR                1963        2.560000E+04   1.280000E+03   12186-002-0        1.000000                  2.530000E-08
+# quantity: 
+#   type: Nuclear data library
+#   average value:  1.258298E+04
+#   relative standard deviation [%]:     99.920044
+# datablock: 
+#   columns: 11
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      jendl5.0                NDL                  2021        1.006020E+01   0.000000E+00                      0.000393                  2.530000E-08   1.102090E+00
+      tendl.2025              NDL                  2025        2.515590E+04   0.000000E+00                      0.982652                  2.530000E-08   1.008270E+00

@@ -1,7 +1,7 @@
 # header: 
 #   title: Te130(n,g)-g thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 52
 #   A: 130
@@ -12,9 +12,9 @@
 #   selected value [b]:  1.850000E-01
 #   selected value uncertainty [b]:  1.000000E-02
 #   selected value source: Mughabghab-2018
-#   number of values: 6
-#   average value [b]:  2.006667E-01
-#   relative standard deviation [%]:     17.879341
+#   number of values: 8
+#   average value [b]:  1.968535E-01
+#   relative standard deviation [%]:     16.136545
 # quantity: 
 #   type: Compilation
 #   average value:  1.825000E-01
@@ -39,3 +39,14 @@
       S.K.Mangal              EXFOR                1962        1.610000E-01   2.415000E-02   31248-011-0        0.870270   MXW            2.530000E-08
       M.Sehgal                EXFOR                1962        2.700000E-01   6.000000E-02   11994-005-0        1.459460   MXW            2.530000E-08
       M.C.Eastman             EXFOR                2008        1.860000E-01   1.100000E-02   14165-010-0        1.005405   MXW            2.530000E-08
+# quantity: 
+#   type: Nuclear data library
+#   average value:  1.854140E-01
+#   relative standard deviation [%]:      0.000000
+# datablock: 
+#   columns: 11
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      tendl.2025              NDL                  2025        1.854140E-01   0.000000E+00                      1.002238                  2.530000E-08   9.999900E-01
+      jeff4.0                 NDL                  2025        1.854140E-01   0.000000E+00                      1.002238                  2.530000E-08   9.999900E-01

@@ -1,7 +1,7 @@
 # header: 
 #   title: Xe124(n,g)-g thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 54
 #   A: 124
@@ -12,9 +12,9 @@
 #   selected value [b]:  1.370000E+02
 #   selected value uncertainty [b]:  0.000000E+00
 #   selected value source: RIPL-3
-#   number of values: 1
-#   average value [b]:  1.370000E+02
-#   relative standard deviation [%]:      0.000000
+#   number of values: 4
+#   average value [b]:  1.331613E+02
+#   relative standard deviation [%]:      5.360039
 # quantity: 
 #   type: Compilation
 #   average value:  1.370000E+02
@@ -25,3 +25,15 @@
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       RIPL-3                  Compilation          2004        1.370000E+02   0.000000E+00                      1.000000                  2.530000E-08
+# quantity: 
+#   type: Nuclear data library
+#   average value:  1.318817E+02
+#   relative standard deviation [%]:      5.940378
+# datablock: 
+#   columns: 11
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      jendl5.0                NDL                  2021        1.429610E+02   0.000000E+00                      1.043511                  2.530000E-08   1.004000E+00
+      tendl.2025              NDL                  2025        1.263420E+02   0.000000E+00                      0.922204                  2.530000E-08   1.003220E+00
+      jeff4.0                 NDL                  2025        1.263420E+02   0.000000E+00                      0.922204                  2.530000E-08   1.003220E+00

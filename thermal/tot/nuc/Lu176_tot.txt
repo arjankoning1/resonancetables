@@ -1,7 +1,7 @@
 # header: 
 #   title: Lu176(n,tot) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 71
 #   A: 176
@@ -12,9 +12,9 @@
 #   selected value [b]:  2.134000E+03
 #   selected value uncertainty [b]:  6.000000E+01
 #   selected value source: T.E.Young
-#   number of values: 3
-#   average value [b]:  2.094133E+03
-#   relative standard deviation [%]:      1.689858
+#   number of values: 6
+#   average value [b]:  2.083043E+03
+#   relative standard deviation [%]:      1.467941
 # quantity: 
 #   type: EXFOR
 #   average value:  2.094133E+03
@@ -27,3 +27,15 @@
       A.H.Baston              EXFOR                1960        2.100400E+03   0.000000E+00   21322-009-0        0.984255                  2.526600E-08
       J.Roberge               EXFOR                1960        2.048000E+03   0.000000E+00   12096-002-0        0.959700                  2.540000E-08
       T.E.Young               EXFOR                1970        2.134000E+03   6.000000E+01   14026-006-0        1.000000                  2.530000E-08
+# quantity: 
+#   type: Nuclear data library
+#   average value:  2.071953E+03
+#   relative standard deviation [%]:      0.930542
+# datablock: 
+#   columns: 11
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      endfb8.1                NDL                  2024        2.099220E+03   0.000000E+00                      0.983702                  2.530000E-08   1.711570E+00
+      tendl.2025              NDL                  2025        2.058320E+03   0.000000E+00                      0.964536                  2.530000E-08   1.710830E+00
+      jeff4.0                 NDL                  2025        2.058320E+03   0.000000E+00                      0.964536                  2.530000E-08   1.710830E+00

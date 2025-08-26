@@ -1,7 +1,7 @@
 # header: 
 #   title: Gd157(n,tot) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 64
 #   A: 157
@@ -9,12 +9,12 @@
 # reaction: 
 #   type: (n,tot)
 # observables: 
-#   selected value [b]:  2.526900E+05
-#   selected value uncertainty [b]:  4.570000E+03
-#   selected value source: A.Kimura
-#   number of values: 3
-#   average value [b]:  2.548967E+05
-#   relative standard deviation [%]:      2.634697
+#   selected value [b]:  2.546430E+05
+#   selected value uncertainty [b]:  0.000000E+00
+#   selected value source: cendl3.2
+#   number of values: 8
+#   average value [b]:  2.547505E+05
+#   relative standard deviation [%]:      1.623666
 # quantity: 
 #   type: EXFOR
 #   average value:  2.548967E+05
@@ -24,6 +24,20 @@
 #   entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      N.J.Pattenden           EXFOR                1958        2.640000E+05   4.500000E+03   21325-020-0        1.044758                  2.530000E-08
-      Y.Ohno                  EXFOR                1968        2.480000E+05   4.000000E+03   20328-005-0        0.981440                  2.530000E-08
-      A.Kimura                EXFOR                2023        2.526900E+05   4.570000E+03   23607-002-0        1.000000                  2.523000E-08
+      N.J.Pattenden           EXFOR                1958        2.640000E+05   4.500000E+03   21325-020-0        1.036746                  2.530000E-08
+      Y.Ohno                  EXFOR                1968        2.480000E+05   4.000000E+03   20328-005-0        0.973912                  2.530000E-08
+      A.Kimura                EXFOR                2023        2.526900E+05   4.570000E+03   23607-002-0        0.992330                  2.523000E-08
+# quantity: 
+#   type: Nuclear data library
+#   average value:  2.546628E+05
+#   relative standard deviation [%]:      0.212560
+# datablock: 
+#   columns: 11
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      cendl3.2                NDL                  2019        2.546430E+05   0.000000E+00                      1.000000                  2.530000E-08   8.520600E-01
+      jendl5.0                NDL                  2021        2.546280E+05   0.000000E+00                      0.999941                  2.530000E-08   8.532700E-01
+      endfb8.1                NDL                  2024        2.538910E+05   0.000000E+00                      0.997047                  2.530000E-08   8.534000E-01
+      tendl.2025              NDL                  2025        2.545630E+05   0.000000E+00                      0.999686                  2.530000E-08   8.515400E-01
+      jeff4.0                 NDL                  2025        2.555890E+05   0.000000E+00                      1.003715                  2.530000E-08   8.523700E-01

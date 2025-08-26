@@ -1,7 +1,7 @@
 # header: 
 #   title: Sm151(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 62
 #   A: 151
@@ -13,8 +13,8 @@
 #   selected value uncertainty [b]:  3.000000E+02
 #   selected value source: Mughabghab-2018
 #   number of values: 12
-#   average value [b]:  1.421513E+04
-#   relative standard deviation [%]:     16.075653
+#   average value [b]:  1.418872E+04
+#   relative standard deviation [%]:     16.041975
 # quantity: 
 #   type: Compilation
 #   average value:  1.517000E+04
@@ -42,15 +42,15 @@
       W.H.Walker              EXFOR                1956        1.500000E+04   6.500000E+03   12127-007-0        0.990753   SPA            2.530000E-08
 # quantity: 
 #   type: Nuclear data library
-#   average value:  1.514032E+04
-#   relative standard deviation [%]:      0.075877
+#   average value:  1.507692E+04
+#   relative standard deviation [%]:      0.846840
 # datablock: 
-#   columns: 10
+#   columns: 11
 #   entries: 5
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
-##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      cendl3.2                NDL                  2019        1.512410E+04   0.000000E+00                      0.998950                  2.530000E-08
-      jendl5.0                NDL                  2021        1.516010E+04   0.000000E+00                      1.001328                  2.530000E-08
-      endfb8.1                NDL                  2024        1.513820E+04   0.000000E+00                      0.999881                  2.530000E-08
-      tendl.2025              NDL                  2025        1.513960E+04   0.000000E+00                      0.999974                  2.530000E-08
-      jeff4.0                 NDL                  2025        1.513960E+04   0.000000E+00                      0.999974                  2.530000E-08
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      cendl3.2                NDL                  2019        1.512410E+04   0.000000E+00                      0.998950                  2.530000E-08   9.271600E-01
+      jendl5.0                NDL                  2021        1.516010E+04   0.000000E+00                      1.001328                  2.530000E-08   9.273900E-01
+      endfb8.1                NDL                  2024        1.513820E+04   0.000000E+00                      0.999881                  2.530000E-08   9.270300E-01
+      tendl.2025              NDL                  2025        1.513960E+04   0.000000E+00                      0.999974                  2.530000E-08   9.297000E-01
+      jeff4.0                 NDL                  2025        1.482260E+04   0.000000E+00                      0.979036                  2.530000E-08   9.231400E-01

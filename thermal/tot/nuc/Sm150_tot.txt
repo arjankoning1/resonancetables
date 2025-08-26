@@ -1,7 +1,7 @@
 # header: 
 #   title: Sm150(n,tot) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 62
 #   A: 150
@@ -12,9 +12,9 @@
 #   selected value [b]:  1.350000E+02
 #   selected value uncertainty [b]:  8.000000E+00
 #   selected value source: H.M.Eiland
-#   number of values: 1
-#   average value [b]:  1.350000E+02
-#   relative standard deviation [%]:      0.000000
+#   number of values: 6
+#   average value [b]:  1.190338E+02
+#   relative standard deviation [%]:      7.033325
 # quantity: 
 #   type: EXFOR
 #   average value:  1.350000E+02
@@ -25,3 +25,17 @@
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       H.M.Eiland              EXFOR                1974        1.350000E+02   8.000000E+00   10147-009-0        1.000000                  2.530000E-08
+# quantity: 
+#   type: Nuclear data library
+#   average value:  1.158406E+02
+#   relative standard deviation [%]:      4.133607
+# datablock: 
+#   columns: 11
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      cendl3.2                NDL                  2019        1.169350E+02   0.000000E+00                      0.866185                  2.530000E-08   1.002810E+00
+      jendl5.0                NDL                  2021        1.089000E+02   0.000000E+00                      0.806667                  2.530000E-08   1.003370E+00
+      endfb8.1                NDL                  2024        1.227950E+02   0.000000E+00                      0.909593                  2.530000E-08   1.021390E+00
+      tendl.2025              NDL                  2025        1.181410E+02   0.000000E+00                      0.875118                  2.530000E-08   1.019860E+00
+      jeff4.0                 NDL                  2025        1.124320E+02   0.000000E+00                      0.832830                  2.530000E-08   1.017180E+00

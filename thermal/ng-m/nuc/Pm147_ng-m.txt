@@ -1,7 +1,7 @@
 # header: 
 #   title: Pm147(n,g)-m thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 61
 #   A: 147
@@ -12,9 +12,9 @@
 #   selected value [b]:  7.240000E+01
 #   selected value uncertainty [b]:  3.000000E+00
 #   selected value source: Mughabghab-2018
-#   number of values: 7
-#   average value [b]:  8.358571E+01
-#   relative standard deviation [%]:     26.286896
+#   number of values: 9
+#   average value [b]:  7.860354E+01
+#   relative standard deviation [%]:     28.055008
 # quantity: 
 #   type: Compilation
 #   average value:  7.820000E+01
@@ -40,3 +40,14 @@
       N.C.Fenner              EXFOR                1967        7.200000E+01   7.000000E+00   20631-002-0        0.994475   MXW            2.530000E-08
       R.S.Mowatt              EXFOR                1971        7.240000E+01   3.000000E+00   10151-003-0        1.000000   MXW            2.530000E-08
       K.Broderick             EXFOR                2019        5.330000E+01   2.700000E+00   14680-005-0        0.736188   SPA            2.530000E-08
+# quantity: 
+#   type: Nuclear data library
+#   average value:  6.116590E+01
+#   relative standard deviation [%]:     16.966808
+# datablock: 
+#   columns: 11
+#   entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      tendl.2025              NDL                  2025        5.078800E+01   0.000000E+00                      0.701492                  2.530000E-08   0.000000E+00
+      jeff4.0                 NDL                  2025        7.154380E+01   0.000000E+00                      0.988174                  2.530000E-08   0.000000E+00

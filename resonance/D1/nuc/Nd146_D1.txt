@@ -1,7 +1,7 @@
 # header: 
 #   title: Nd146 D1 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 60
 #   A: 146
@@ -12,9 +12,9 @@
 #   selected value [eV]:  1.210000E+02
 #   selected value uncertainty [eV]:  1.500000E+01
 #   selected value source: Mughabghab-2018
-#   number of values: 2
-#   average value [b]:  1.686215E+02
-#   relative standard deviation [%]:     28.241655
+#   number of values: 7
+#   average value [b]:  2.002031E+02
+#   relative standard deviation [%]:     16.479101
 # quantity: 
 #   type: Compilation
 #   average value:  1.210000E+02
@@ -27,11 +27,16 @@
       Mughabghab-2018         Compilation          2018        1.210000E+02   1.500000E+01                      1.000000
 # quantity: 
 #   type: Nuclear data library
-#   average value:  2.162430E+02
-#   relative standard deviation [%]:      0.000000
+#   average value:  2.134037E+02
+#   relative standard deviation [%]:      3.316202
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 6
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        2.040820E+02   0.000000E+00                      1.686628
+      jendl5.0                NDL                  2021        2.040820E+02   0.000000E+00                      1.686628
+      endfb8.1                NDL                  2024        2.235290E+02   0.000000E+00                      1.847347
       TARES                   NDL                  2025        2.162430E+02   0.000000E+00                      1.787132
+      tendl.2025              NDL                  2025        2.162430E+02   0.000000E+00                      1.787132
+      jeff4.0                 NDL                  2025        2.162430E+02   0.000000E+00                      1.787132

@@ -1,7 +1,7 @@
 # header: 
 #   title: Pd104 D1 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 46
 #   A: 104
@@ -12,9 +12,9 @@
 #   selected value [eV]:  8.100000E+01
 #   selected value uncertainty [eV]:  7.000000E+00
 #   selected value source: RIPL-3
-#   number of values: 4
-#   average value [b]:  8.064005E+01
-#   relative standard deviation [%]:     10.058108
+#   number of values: 8
+#   average value [b]:  8.655157E+01
+#   relative standard deviation [%]:     17.457762
 # quantity: 
 #   type: Compilation
 #   average value:  7.740000E+01
@@ -38,11 +38,15 @@
       D.A.Smith               EXFOR                2002        7.400000E+01   1.400000E+01      13784-010       0.913580   1.090000E-04   2.031000E-03       1.0                                   
 # quantity: 
 #   type: Nuclear data library
-#   average value:  9.376020E+01
-#   relative standard deviation [%]:      0.000000
+#   average value:  9.272252E+01
+#   relative standard deviation [%]:     17.290276
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        1.175840E+02   0.000000E+00                      1.451654
+      endfb8.1                NDL                  2024        6.696430E+01   0.000000E+00                      0.826720
       TARES                   NDL                  2025        9.376020E+01   0.000000E+00                      1.157533
+      tendl.2025              NDL                  2025        9.376020E+01   0.000000E+00                      1.157533
+      jeff4.0                 NDL                  2025        9.154390E+01   0.000000E+00                      1.130172

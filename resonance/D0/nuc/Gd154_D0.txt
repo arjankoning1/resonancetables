@@ -1,7 +1,7 @@
 # header: 
 #   title: Gd154 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 64
 #   A: 154
@@ -12,9 +12,9 @@
 #   selected value [eV]:  1.450000E+01
 #   selected value uncertainty [eV]:  1.500000E+00
 #   selected value source: RIPL-3
-#   number of values: 7
-#   average value [b]:  1.578413E+01
-#   relative standard deviation [%]:     24.683498
+#   number of values: 12
+#   average value [b]:  1.792507E+01
+#   relative standard deviation [%]:     25.169275
 # quantity: 
 #   type: Compilation
 #   average value:  1.398333E+01
@@ -41,11 +41,16 @@
       A.Mazzone               EXFOR                2020        1.340000E+01   1.100000E+00      23459-005       0.924138                                     0.0                                   
 # quantity: 
 #   type: Nuclear data library
-#   average value:  2.513890E+01
-#   relative standard deviation [%]:      0.000000
+#   average value:  2.162515E+01
+#   relative standard deviation [%]:     16.437241
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 6
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        1.864860E+01   0.000000E+00                      1.286110
+      jendl5.0                NDL                  2021        1.864860E+01   0.000000E+00                      1.286110
+      endfb8.1                NDL                  2024        1.703700E+01   0.000000E+00                      1.174966
       TARES                   NDL                  2025        2.513890E+01   0.000000E+00                      1.733717
+      tendl.2025              NDL                  2025        2.513890E+01   0.000000E+00                      1.733717
+      jeff4.0                 NDL                  2025        2.513890E+01   0.000000E+00                      1.733717

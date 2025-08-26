@@ -1,7 +1,7 @@
 # header: 
 #   title: Pu240 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 94
 #   A: 240
@@ -12,9 +12,9 @@
 #   selected value [eV]:  1.300000E+01
 #   selected value uncertainty [eV]:  5.000000E-01
 #   selected value source: RIPL-3
-#   number of values: 8
-#   average value [b]:  8.003111E+01
-#   relative standard deviation [%]:    221.955429
+#   number of values: 13
+#   average value [b]:  5.491640E+01
+#   relative standard deviation [%]:    260.282715
 # quantity: 
 #   type: Compilation
 #   average value:  1.273333E+01
@@ -42,11 +42,16 @@
       C.Guerrero              EXFOR                2012        1.200000E+01   0.000000E+00      23069-009       0.923077                                     0.0                                   
 # quantity: 
 #   type: Nuclear data library
-#   average value:  1.334890E+01
-#   relative standard deviation [%]:      0.000000
+#   average value:  1.450220E+01
+#   relative standard deviation [%]:     21.648363
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 6
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        2.142860E+01   0.000000E+00                      1.648354
+      jendl5.0                NDL                  2021        1.200000E+01   0.000000E+00                      0.923077
+      endfb8.1                NDL                  2024        1.344340E+01   0.000000E+00                      1.034108
       TARES                   NDL                  2025        1.334890E+01   0.000000E+00                      1.026838
+      tendl.2025              NDL                  2025        1.334890E+01   0.000000E+00                      1.026838
+      jeff4.0                 NDL                  2025        1.344340E+01   0.000000E+00                      1.034108

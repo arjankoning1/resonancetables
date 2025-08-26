@@ -1,7 +1,7 @@
 # header: 
 #   title: Ga069 gamgam resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 31
 #   A: 69
@@ -12,9 +12,9 @@
 #   selected value [eV]:  2.660000E-01
 #   selected value uncertainty [eV]:  2.000000E-02
 #   selected value source: RIPL-3
-#   number of values: 5
-#   average value [b]:  2.660000E-01
-#   relative standard deviation [%]:      0.951059
+#   number of values: 10
+#   average value [b]:  2.768000E-01
+#   relative standard deviation [%]:     12.211621
 # quantity: 
 #   type: Compilation
 #   average value:  2.646667E-01
@@ -39,11 +39,16 @@
       Maletski                EXFOR                1968        2.700000E-01   4.000000E-02       40026009       1.015038
 # quantity: 
 #   type: Nuclear data library
-#   average value:  2.660000E-01
-#   relative standard deviation [%]:      0.000000
+#   average value:  2.840000E-01
+#   relative standard deviation [%]:     14.811072
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 6
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        3.780000E-01   0.000000E+00                      1.421053
+      jendl5.0                NDL                  2021        2.620000E-01   0.000000E+00                      0.984962
+      endfb8.1                NDL                  2024        2.660000E-01   0.000000E+00                      1.000000
       TARES                   NDL                  2025        2.660000E-01   0.000000E+00                      1.000000
+      tendl.2025              NDL                  2025        2.660000E-01   0.000000E+00                      1.000000
+      jeff4.0                 NDL                  2025        2.660000E-01   0.000000E+00                      1.000000

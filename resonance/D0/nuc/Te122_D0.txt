@@ -1,7 +1,7 @@
 # header: 
 #   title: Te122 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 52
 #   A: 122
@@ -12,9 +12,9 @@
 #   selected value [eV]:  1.460000E+02
 #   selected value uncertainty [eV]:  1.400000E+01
 #   selected value source: RIPL-3
-#   number of values: 6
-#   average value [b]:  1.599820E+02
-#   relative standard deviation [%]:     33.092934
+#   number of values: 10
+#   average value [b]:  1.864682E+02
+#   relative standard deviation [%]:     33.053730
 # quantity: 
 #   type: Compilation
 #   average value:  1.365667E+02
@@ -40,11 +40,15 @@
       H.Tellier               EXFOR                1970        1.324000E+02   0.000000E+00      20120-013       0.906849                  1.080000E-02       0.0                                   
 # quantity: 
 #   type: Nuclear data library
-#   average value:  2.777920E+02
-#   relative standard deviation [%]:      0.000000
+#   average value:  2.365164E+02
+#   relative standard deviation [%]:     21.373602
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        1.746030E+02   0.000000E+00                      1.195911
+      endfb8.1                NDL                  2024        1.746030E+02   0.000000E+00                      1.195911
       TARES                   NDL                  2025        2.777920E+02   0.000000E+00                      1.902685
+      tendl.2025              NDL                  2025        2.777920E+02   0.000000E+00                      1.902685
+      jeff4.0                 NDL                  2025        2.777920E+02   0.000000E+00                      1.902685

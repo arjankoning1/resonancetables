@@ -1,7 +1,7 @@
 # header: 
 #   title: Sn114 D1 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 50
 #   A: 114
@@ -12,9 +12,9 @@
 #   selected value [eV]:  2.800000E+00
 #   selected value uncertainty [eV]:  3.000000E-01
 #   selected value source: Mughabghab-2018
-#   number of values: 2
-#   average value [b]:  5.088615E+01
-#   relative standard deviation [%]:     94.497528
+#   number of values: 7
+#   average value [b]:  1.629981E+02
+#   relative standard deviation [%]:     65.327316
 # quantity: 
 #   type: Compilation
 #   average value:  2.800000E+00
@@ -27,11 +27,16 @@
       Mughabghab-2018         Compilation          2018        2.800000E+00   3.000000E-01                      1.000000
 # quantity: 
 #   type: Nuclear data library
-#   average value:  9.897230E+01
-#   relative standard deviation [%]:      0.000000
+#   average value:  1.896978E+02
+#   relative standard deviation [%]:     47.846661
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 6
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        2.777780E+02   0.000000E+00                     99.206436
+      jendl5.0                NDL                  2021        2.777780E+02   0.000000E+00                     99.206436
+      endfb8.1                NDL                  2024        2.857140E+02   0.000000E+00                    102.040710
       TARES                   NDL                  2025        9.897230E+01   0.000000E+00                     35.347248
+      tendl.2025              NDL                  2025        9.897230E+01   0.000000E+00                     35.347248
+      jeff4.0                 NDL                  2025        9.897230E+01   0.000000E+00                     35.347248

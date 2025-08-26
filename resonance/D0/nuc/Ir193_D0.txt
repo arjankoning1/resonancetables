@@ -1,7 +1,7 @@
 # header: 
 #   title: Ir193 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 77
 #   A: 193
@@ -12,9 +12,9 @@
 #   selected value [eV]:  5.800000E+00
 #   selected value uncertainty [eV]:  5.000000E-01
 #   selected value source: RIPL-3
-#   number of values: 5
-#   average value [b]:  6.626316E+00
-#   relative standard deviation [%]:     18.559622
+#   number of values: 9
+#   average value [b]:  6.654184E+00
+#   relative standard deviation [%]:     24.762779
 # quantity: 
 #   type: Compilation
 #   average value:  5.833333E+00
@@ -39,11 +39,15 @@
       L.Lason                 EXFOR                1972        7.500000E+00   5.000000E-01      40119-009       1.293103                  3.900000E-04       0.0                                   
 # quantity: 
 #   type: Nuclear data library
-#   average value:  8.131580E+00
-#   relative standard deviation [%]:      0.000000
+#   average value:  6.977532E+00
+#   relative standard deviation [%]:     27.589808
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        7.281250E+00   0.000000E+00                      1.255388
+      endfb8.1                NDL                  2024        8.157900E+00   0.000000E+00                      1.406535
       TARES                   NDL                  2025        8.131580E+00   0.000000E+00                      1.401997
+      tendl.2025              NDL                  2025        3.185350E+00   0.000000E+00                      0.549198
+      jeff4.0                 NDL                  2025        8.131580E+00   0.000000E+00                      1.401997

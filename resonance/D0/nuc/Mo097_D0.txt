@@ -1,7 +1,7 @@
 # header: 
 #   title: Mo097 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 42
 #   A: 97
@@ -12,9 +12,9 @@
 #   selected value [eV]:  6.000000E+01
 #   selected value uncertainty [eV]:  1.000000E+01
 #   selected value source: RIPL-3
-#   number of values: 9
-#   average value [b]:  2.058671E+02
-#   relative standard deviation [%]:    149.225677
+#   number of values: 14
+#   average value [b]:  1.619678E+02
+#   relative standard deviation [%]:    156.377701
 # quantity: 
 #   type: Compilation
 #   average value:  6.426667E+01
@@ -43,11 +43,16 @@
       A.R.De L.Musgrove       EXFOR                1976        4.200000E+01   1.500000E+01      30357-015       0.700000   3.000000E-03   2.000000E-02       0.0                                   
 # quantity: 
 #   type: Nuclear data library
-#   average value:  8.000400E+01
-#   relative standard deviation [%]:      0.000000
+#   average value:  8.245813E+01
+#   relative standard deviation [%]:      6.659365
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 6
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        8.000000E+01   0.000000E+00                      1.333333
+      jendl5.0                NDL                  2021        9.473680E+01   0.000000E+00                      1.578947
+      endfb8.1                NDL                  2024        8.000000E+01   0.000000E+00                      1.333333
       TARES                   NDL                  2025        8.000400E+01   0.000000E+00                      1.333400
+      tendl.2025              NDL                  2025        8.000400E+01   0.000000E+00                      1.333400
+      jeff4.0                 NDL                  2025        8.000400E+01   0.000000E+00                      1.333400

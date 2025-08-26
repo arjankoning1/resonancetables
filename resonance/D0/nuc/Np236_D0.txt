@@ -1,7 +1,7 @@
 # header: 
 #   title: Np236 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 93
 #   A: 236
@@ -12,9 +12,9 @@
 #   selected value [eV]:  6.000000E-01
 #   selected value uncertainty [eV]:  6.000000E-02
 #   selected value source: RIPL-3
-#   number of values: 4
-#   average value [b]:  7.363625E-01
-#   relative standard deviation [%]:     24.860308
+#   number of values: 9
+#   average value [b]:  8.876355E-01
+#   relative standard deviation [%]:     20.828135
 # quantity: 
 #   type: Compilation
 #   average value:  6.333334E-01
@@ -29,11 +29,16 @@
       Mughabghab-2018         Compilation          2018        7.000000E-01   6.000000E-02                      1.166667               
 # quantity: 
 #   type: Nuclear data library
-#   average value:  1.045450E+00
-#   relative standard deviation [%]:      0.000000
+#   average value:  1.014786E+00
+#   relative standard deviation [%]:      4.010686
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 6
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        9.263890E-01   0.000000E+00                      1.543982
+      jendl5.0                NDL                  2021        1.023810E+00   0.000000E+00                      1.706350
+      endfb8.1                NDL                  2024        1.023810E+00   0.000000E+00                      1.706350
       TARES                   NDL                  2025        1.045450E+00   0.000000E+00                      1.742417
+      tendl.2025              NDL                  2025        1.045450E+00   0.000000E+00                      1.742417
+      jeff4.0                 NDL                  2025        1.023810E+00   0.000000E+00                      1.706350

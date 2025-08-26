@@ -1,7 +1,7 @@
 # header: 
 #   title: U232 If resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 92
 #   A: 232
@@ -12,9 +12,9 @@
 #   selected value [eV]:  3.500000E+02
 #   selected value uncertainty [eV]:  3.000000E+01
 #   selected value source: Mughabghab-2018
-#   number of values: 5
-#   average value [b]:  5.276000E+02
-#   relative standard deviation [%]:     63.185528
+#   number of values: 10
+#   average value [b]:  4.480752E+02
+#   relative standard deviation [%]:     55.534794
 # quantity: 
 #   type: Compilation
 #   average value:  3.553333E+02
@@ -38,3 +38,17 @@
 ##      []             []             []             []            [eV]           [eV]            []             []
       Gryntakis               EXFOR                1976        3.780000E+02   1.160000E+02       20625040       1.080000
       Fomushkin               EXFOR                1997        1.194000E+03   1.020000E+02       41341008       3.411429
+# quantity: 
+#   type: Nuclear data library
+#   average value:  3.685504E+02
+#   relative standard deviation [%]:      2.075063
+# datablock: 
+#   columns: 8
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        3.795410E+02   0.000000E+00                      1.084403
+      jendl5.0                NDL                  2021        3.598770E+02   0.000000E+00                      1.028220
+      endfb8.1                NDL                  2024        3.710270E+02   0.000000E+00                      1.060077
+      tendl.2025              NDL                  2025        3.724300E+02   0.000000E+00                      1.064086
+      jeff4.0                 NDL                  2025        3.598770E+02   0.000000E+00                      1.028220

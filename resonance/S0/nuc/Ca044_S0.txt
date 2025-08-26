@@ -1,7 +1,7 @@
 # header: 
 #   title: Ca044 S0 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 20
 #   A: 44
@@ -12,9 +12,9 @@
 #   selected value [*e-4]:  2.400000E+00
 #   selected value uncertainty [*e-4]:  5.000000E-01
 #   selected value source: RIPL-3
-#   number of values: 4
-#   average value [b]:  2.378860E+00
-#   relative standard deviation [%]:      1.539204
+#   number of values: 8
+#   average value [b]:  2.286725E+00
+#   relative standard deviation [%]:      5.610761
 # quantity: 
 #   type: Compilation
 #   average value:  2.400000E+00
@@ -29,11 +29,15 @@
       Mughabghab-2018         Compilation          2018        2.400000E+00   5.000000E-01                      1.000000
 # quantity: 
 #   type: Nuclear data library
-#   average value:  2.315440E+00
-#   relative standard deviation [%]:      0.000000
+#   average value:  2.218760E+00
+#   relative standard deviation [%]:      5.336689
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []           [*e-4]         [*e-4]           []             []
+      jendl5.0                NDL                  2021        2.073740E+00   0.000000E+00                      0.864058
+      endfb8.1                NDL                  2024        2.073740E+00   0.000000E+00                      0.864058
       TARES                   NDL                  2025        2.315440E+00   0.000000E+00                      0.964767
+      tendl.2025              NDL                  2025        2.315440E+00   0.000000E+00                      0.964767
+      jeff4.0                 NDL                  2025        2.315440E+00   0.000000E+00                      0.964767

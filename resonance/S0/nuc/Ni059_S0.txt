@@ -1,7 +1,7 @@
 # header: 
 #   title: Ni059 S0 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 28
 #   A: 59
@@ -12,9 +12,9 @@
 #   selected value [*e-4]:  3.600000E+00
 #   selected value uncertainty [*e-4]:  1.100000E+00
 #   selected value source: RIPL-3
-#   number of values: 3
-#   average value [b]:  5.516883E+00
-#   relative standard deviation [%]:     41.684776
+#   number of values: 7
+#   average value [b]:  4.845425E+00
+#   relative standard deviation [%]:     55.635403
 # quantity: 
 #   type: Compilation
 #   average value:  3.900000E+00
@@ -28,11 +28,15 @@
       RIPL-3                  Compilation          2009        3.600000E+00   1.100000E+00            96I       1.000000
 # quantity: 
 #   type: Nuclear data library
-#   average value:  8.750649E+00
-#   relative standard deviation [%]:      0.000000
+#   average value:  5.223596E+00
+#   relative standard deviation [%]:     59.430996
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []           [*e-4]         [*e-4]           []             []
+      jendl5.0                NDL                  2021        3.930570E+00   0.000000E+00                      1.091825
+      endfb8.1                NDL                  2024        3.930570E+00   0.000000E+00                      1.091825
       TARES                   NDL                  2025        8.750649E+00   0.000000E+00                      2.430736
+      tendl.2025              NDL                  2025        8.750650E+00   0.000000E+00                      2.430736
+      jeff4.0                 NDL                  2025        7.555390E-01   0.000000E+00                      0.209872

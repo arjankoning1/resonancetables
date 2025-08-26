@@ -1,7 +1,7 @@
 # header: 
 #   title: U235 If resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 92
 #   A: 235
@@ -12,9 +12,9 @@
 #   selected value [eV]:  2.750000E+02
 #   selected value uncertainty [eV]:  5.000000E+00
 #   selected value source: Mughabghab-2018
-#   number of values: 21
-#   average value [b]:  2.718381E+02
-#   relative standard deviation [%]:      8.228723
+#   number of values: 26
+#   average value [b]:  2.724836E+02
+#   relative standard deviation [%]:      7.401011
 # quantity: 
 #   type: Compilation
 #   average value:  2.753333E+02
@@ -54,3 +54,17 @@
       Wagemans                EXFOR                1976        2.800000E+02   7.000000E+00       20826005       1.018182
       Heft                    EXFOR                1978        2.750000E+02   0.000000E+00       12866209       1.000000
       Knitter                 EXFOR                1988        2.760000E+02   1.000000E+01       22032005       1.003636
+# quantity: 
+#   type: Nuclear data library
+#   average value:  2.751948E+02
+#   relative standard deviation [%]:      0.741020
+# datablock: 
+#   columns: 8
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        2.723960E+02   0.000000E+00                      0.990531
+      jendl5.0                NDL                  2021        2.766680E+02   0.000000E+00                      1.006065
+      endfb8.1                NDL                  2024        2.773210E+02   0.000000E+00                      1.008440
+      tendl.2025              NDL                  2025        2.765190E+02   0.000000E+00                      1.005524
+      jeff4.0                 NDL                  2025        2.730700E+02   0.000000E+00                      0.992982

@@ -1,7 +1,7 @@
 # header: 
 #   title: Dy160 S1 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 66
 #   A: 160
@@ -12,9 +12,9 @@
 #   selected value [*e-4]:  1.900000E+00
 #   selected value uncertainty [*e-4]:  4.000000E-01
 #   selected value source: Mughabghab-2018
-#   number of values: 1
-#   average value [b]:  1.900000E+00
-#   relative standard deviation [%]:      0.000000
+#   number of values: 5
+#   average value [b]:  1.676646E+00
+#   relative standard deviation [%]:     20.106949
 # quantity: 
 #   type: Compilation
 #   average value:  1.900000E+00
@@ -25,3 +25,16 @@
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []           [*e-4]         [*e-4]           []             []
       Mughabghab-2018         Compilation          2018        1.900000E+00   4.000000E-01                      1.000000
+# quantity: 
+#   type: Nuclear data library
+#   average value:  1.620808E+00
+#   relative standard deviation [%]:     21.941702
+# datablock: 
+#   columns: 8
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []           [*e-4]         [*e-4]           []             []
+      jendl5.0                NDL                  2021        2.191170E+00   0.000000E+00                      1.153247
+      endfb8.1                NDL                  2024        1.650000E+00   0.000000E+00                      0.868421
+      tendl.2025              NDL                  2025        1.321030E+00   0.000000E+00                      0.695279
+      jeff4.0                 NDL                  2025        1.321030E+00   0.000000E+00                      0.695279

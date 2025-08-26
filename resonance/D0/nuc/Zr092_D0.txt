@@ -1,7 +1,7 @@
 # header: 
 #   title: Zr092 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 40
 #   A: 92
@@ -12,9 +12,9 @@
 #   selected value [eV]:  3.500000E+03
 #   selected value uncertainty [eV]:  8.000000E+02
 #   selected value source: RIPL-3
-#   number of values: 9
-#   average value [b]:  4.302095E+03
-#   relative standard deviation [%]:     69.604294
+#   number of values: 14
+#   average value [b]:  5.561890E+03
+#   relative standard deviation [%]:     56.053185
 # quantity: 
 #   type: Compilation
 #   average value:  3.600000E+03
@@ -43,11 +43,16 @@
       J.W.Boldeman            EXFOR                1976        3.100000E+03   1.000000E+03      30358-003       0.885714   3.000000E-03   2.000000E-01       0.0                                   
 # quantity: 
 #   type: Nuclear data library
-#   average value:  9.230850E+03
-#   relative standard deviation [%]:      0.000000
+#   average value:  8.063076E+03
+#   relative standard deviation [%]:     20.885368
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 6
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        5.916670E+03   0.000000E+00                      1.690477
+      jendl5.0                NDL                  2021        5.461540E+03   0.000000E+00                      1.560440
+      endfb8.1                NDL                  2024        9.307690E+03   0.000000E+00                      2.659340
       TARES                   NDL                  2025        9.230850E+03   0.000000E+00                      2.637386
+      tendl.2025              NDL                  2025        9.230850E+03   0.000000E+00                      2.637386
+      jeff4.0                 NDL                  2025        9.230850E+03   0.000000E+00                      2.637386

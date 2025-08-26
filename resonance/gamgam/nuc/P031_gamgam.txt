@@ -1,7 +1,7 @@
 # header: 
 #   title: P031 gamgam resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 15
 #   A: 31
@@ -12,7 +12,7 @@
 #   selected value [eV]:  2.000000E+00
 #   selected value uncertainty [eV]:  4.000000E-01
 #   selected value source: RIPL-3
-#   number of values: 2
+#   number of values: 5
 #   average value [b]:  2.000000E+00
 #   relative standard deviation [%]:      0.000000
 # quantity: 
@@ -31,7 +31,10 @@
 #   relative standard deviation [%]:      0.000000
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        2.000000E+00   0.000000E+00                      1.000000
       TARES                   NDL                  2025        2.000000E+00   0.000000E+00                      1.000000
+      tendl.2025              NDL                  2025        2.000000E+00   0.000000E+00                      1.000000
+      jeff4.0                 NDL                  2025        2.000000E+00   0.000000E+00                      1.000000

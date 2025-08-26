@@ -1,7 +1,7 @@
 # header: 
 #   title: Xe124 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 54
 #   A: 124
@@ -12,9 +12,9 @@
 #   selected value [eV]:  4.300000E+01
 #   selected value uncertainty [eV]:  9.000000E+00
 #   selected value source: Mughabghab-2018
-#   number of values: 2
-#   average value [b]:  2.923620E+01
-#   relative standard deviation [%]:     47.077938
+#   number of values: 7
+#   average value [b]:  6.658342E+01
+#   relative standard deviation [%]:     82.446655
 # quantity: 
 #   type: Compilation
 #   average value:  4.300000E+01
@@ -27,11 +27,16 @@
       Mughabghab-2018         Compilation          2018        4.300000E+01   9.000000E+00                      1.000000               
 # quantity: 
 #   type: Nuclear data library
-#   average value:  1.547240E+01
-#   relative standard deviation [%]:      0.000000
+#   average value:  7.051398E+01
+#   relative standard deviation [%]:     82.785263
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 6
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        8.666670E+01   0.000000E+00                      2.015505
+      jendl5.0                NDL                  2021        1.450000E+02   0.000000E+00                      3.372093
+      endfb8.1                NDL                  2024        1.450000E+02   0.000000E+00                      3.372093
       TARES                   NDL                  2025        1.547240E+01   0.000000E+00                      0.359823
+      tendl.2025              NDL                  2025        1.547240E+01   0.000000E+00                      0.359823
+      jeff4.0                 NDL                  2025        1.547240E+01   0.000000E+00                      0.359823

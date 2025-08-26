@@ -1,7 +1,7 @@
 # header: 
 #   title: Cm243 gamgam resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 96
 #   A: 243
@@ -12,9 +12,9 @@
 #   selected value [eV]:  4.000000E-02
 #   selected value uncertainty [eV]:  5.000000E-03
 #   selected value source: RIPL-3
-#   number of values: 3
-#   average value [b]:  3.766667E-02
-#   relative standard deviation [%]:      8.760616
+#   number of values: 7
+#   average value [b]:  3.900000E-02
+#   relative standard deviation [%]:      6.280743
 # quantity: 
 #   type: Compilation
 #   average value:  3.650000E-02
@@ -32,7 +32,11 @@
 #   relative standard deviation [%]:      0.000000
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        4.000000E-02   0.000000E+00                      1.000000
+      endfb8.1                NDL                  2024        4.000000E-02   0.000000E+00                      1.000000
       TARES                   NDL                  2025        4.000000E-02   0.000000E+00                      1.000000
+      tendl.2025              NDL                  2025        4.000000E-02   0.000000E+00                      1.000000
+      jeff4.0                 NDL                  2025        4.000000E-02   0.000000E+00                      1.000000

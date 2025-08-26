@@ -1,7 +1,7 @@
 # header: 
 #   title: Ba138 gamgam resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 56
 #   A: 138
@@ -12,9 +12,9 @@
 #   selected value [eV]:  5.500000E-02
 #   selected value uncertainty [eV]:  2.000000E-02
 #   selected value source: RIPL-3
-#   number of values: 4
-#   average value [b]:  5.387500E-02
-#   relative standard deviation [%]:      3.616812
+#   number of values: 9
+#   average value [b]:  7.284887E-02
+#   relative standard deviation [%]:     50.864273
 # quantity: 
 #   type: Compilation
 #   average value:  5.500000E-02
@@ -29,11 +29,16 @@
       Mughabghab-2018         Compilation          2018        5.500000E-02   2.000000E-02                      1.000000
 # quantity: 
 #   type: Nuclear data library
-#   average value:  5.050000E-02
-#   relative standard deviation [%]:      0.000000
+#   average value:  8.177332E-02
+#   relative standard deviation [%]:     52.178509
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 6
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        1.582320E-01   0.000000E+00                      2.876945
+      jendl5.0                NDL                  2021        1.220190E-01   0.000000E+00                      2.218527
+      endfb8.1                NDL                  2024        5.888890E-02   0.000000E+00                      1.070707
       TARES                   NDL                  2025        5.050000E-02   0.000000E+00                      0.918182
+      tendl.2025              NDL                  2025        5.050000E-02   0.000000E+00                      0.918182
+      jeff4.0                 NDL                  2025        5.050000E-02   0.000000E+00                      0.918182

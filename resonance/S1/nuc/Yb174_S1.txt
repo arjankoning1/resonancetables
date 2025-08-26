@@ -1,7 +1,7 @@
 # header: 
 #   title: Yb174 S1 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 70
 #   A: 174
@@ -12,9 +12,9 @@
 #   selected value [*e-4]:  8.000000E-01
 #   selected value uncertainty [*e-4]:  3.000000E-01
 #   selected value source: Mughabghab-2018
-#   number of values: 2
-#   average value [b]:  3.298075E+02
-#   relative standard deviation [%]:     99.757439
+#   number of values: 6
+#   average value [b]:  5.603127E+02
+#   relative standard deviation [%]:     44.737473
 # quantity: 
 #   type: Compilation
 #   average value:  8.000000E-01
@@ -27,11 +27,15 @@
       Mughabghab-2018         Compilation          2018        8.000000E-01   3.000000E-01                      1.000000
 # quantity: 
 #   type: Nuclear data library
-#   average value:  6.588150E+02
-#   relative standard deviation [%]:      0.000000
+#   average value:  6.722152E+02
+#   relative standard deviation [%]:      2.441274
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []           [*e-4]         [*e-4]           []             []
+      jendl5.0                NDL                  2021        6.923140E+02   0.000000E+00                    865.392517
+      endfb8.1                NDL                  2024        6.923140E+02   0.000000E+00                    865.392517
       TARES                   NDL                  2025        6.588150E+02   0.000000E+00                    823.518738
+      tendl.2025              NDL                  2025        6.588150E+02   0.000000E+00                    823.518738
+      jeff4.0                 NDL                  2025        6.588180E+02   0.000000E+00                    823.522461

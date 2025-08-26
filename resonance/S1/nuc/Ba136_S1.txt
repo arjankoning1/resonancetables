@@ -1,7 +1,7 @@
 # header: 
 #   title: Ba136 S1 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 56
 #   A: 136
@@ -12,9 +12,9 @@
 #   selected value [*e-4]:  1.800000E+00
 #   selected value uncertainty [*e-4]:  3.000000E-01
 #   selected value source: RIPL-3
-#   number of values: 4
-#   average value [b]:  2.201065E+00
-#   relative standard deviation [%]:     23.503838
+#   number of values: 9
+#   average value [b]:  2.135800E+00
+#   relative standard deviation [%]:     34.341419
 # quantity: 
 #   type: Compilation
 #   average value:  1.913333E+00
@@ -29,11 +29,16 @@
       Mughabghab-2018         Compilation          2018        2.140000E+00   3.600000E-01                      1.188889
 # quantity: 
 #   type: Nuclear data library
-#   average value:  3.064260E+00
-#   relative standard deviation [%]:      0.000000
+#   average value:  2.247033E+00
+#   relative standard deviation [%]:     38.720043
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 6
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []           [*e-4]         [*e-4]           []             []
+      cendl3.2                NDL                  2019        8.339390E-01   0.000000E+00                      0.463299
+      jendl5.0                NDL                  2021        1.695160E+00   0.000000E+00                      0.941756
+      endfb8.1                NDL                  2024        1.760290E+00   0.000000E+00                      0.977939
       TARES                   NDL                  2025        3.064260E+00   0.000000E+00                      1.702367
+      tendl.2025              NDL                  2025        3.064260E+00   0.000000E+00                      1.702367
+      jeff4.0                 NDL                  2025        3.064290E+00   0.000000E+00                      1.702383

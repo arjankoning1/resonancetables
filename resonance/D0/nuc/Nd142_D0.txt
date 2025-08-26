@@ -1,7 +1,7 @@
 # header: 
 #   title: Nd142 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 60
 #   A: 142
@@ -12,9 +12,9 @@
 #   selected value [eV]:  1.030000E+03
 #   selected value uncertainty [eV]:  1.350000E+02
 #   selected value source: RIPL-3
-#   number of values: 8
-#   average value [b]:  8.500625E+02
-#   relative standard deviation [%]:     24.148136
+#   number of values: 13
+#   average value [b]:  9.424547E+02
+#   relative standard deviation [%]:     21.789505
 # quantity: 
 #   type: Compilation
 #   average value:  9.750000E+02
@@ -42,11 +42,16 @@
       A.R.De L.Musgrove       EXFOR                1977        7.900000E+02   0.000000E+00      30360-003       0.766990   3.000000E-03   2.000000E-01       0.0                                   
 # quantity: 
 #   type: Nuclear data library
-#   average value:  1.000500E+03
-#   relative standard deviation [%]:      0.000000
+#   average value:  1.075318E+03
+#   relative standard deviation [%]:      7.620289
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 6
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        1.181820E+03   0.000000E+00                      1.147398
+      jendl5.0                NDL                  2021        1.083330E+03   0.000000E+00                      1.051777
+      endfb8.1                NDL                  2024        1.185260E+03   0.000000E+00                      1.150738
       TARES                   NDL                  2025        1.000500E+03   0.000000E+00                      0.971359
+      tendl.2025              NDL                  2025        1.000500E+03   0.000000E+00                      0.971359
+      jeff4.0                 NDL                  2025        1.000500E+03   0.000000E+00                      0.971359

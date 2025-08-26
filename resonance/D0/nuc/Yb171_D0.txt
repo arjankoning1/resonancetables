@@ -1,7 +1,7 @@
 # header: 
 #   title: Yb171 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 70
 #   A: 171
@@ -12,9 +12,9 @@
 #   selected value [eV]:  6.900000E+00
 #   selected value uncertainty [eV]:  5.000000E-01
 #   selected value source: RIPL-3
-#   number of values: 7
-#   average value [b]:  6.565686E+00
-#   relative standard deviation [%]:     22.793018
+#   number of values: 11
+#   average value [b]:  7.863509E+00
+#   relative standard deviation [%]:     26.594936
 # quantity: 
 #   type: Compilation
 #   average value:  6.260000E+00
@@ -41,11 +41,15 @@
       H.I.Liou                EXFOR                1973        5.790000E+00   4.800000E-01      10081-037       0.839130   7.900000E-06   1.685000E-03       0.0                                   
 # quantity: 
 #   type: Nuclear data library
-#   average value:  1.008980E+01
-#   relative standard deviation [%]:      0.000000
+#   average value:  1.012572E+01
+#   relative standard deviation [%]:      0.434466
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        1.017960E+01   0.000000E+00                      1.475304
+      endfb8.1                NDL                  2024        1.017960E+01   0.000000E+00                      1.475304
       TARES                   NDL                  2025        1.008980E+01   0.000000E+00                      1.462290
+      tendl.2025              NDL                  2025        1.008980E+01   0.000000E+00                      1.462290
+      jeff4.0                 NDL                  2025        1.008980E+01   0.000000E+00                      1.462290

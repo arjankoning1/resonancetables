@@ -1,7 +1,7 @@
 # header: 
 #   title: Zr096 gamgam resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 40
 #   A: 96
@@ -12,9 +12,9 @@
 #   selected value [eV]:  6.500001E-02
 #   selected value uncertainty [eV]:  1.500000E-02
 #   selected value source: RIPL-3
-#   number of values: 4
-#   average value [b]:  8.618751E-02
-#   relative standard deviation [%]:     29.888950
+#   number of values: 9
+#   average value [b]:  8.379167E-02
+#   relative standard deviation [%]:     23.253616
 # quantity: 
 #   type: Compilation
 #   average value:  8.866668E-02
@@ -29,11 +29,16 @@
       Mughabghab-2018         Compilation          2018        7.100000E-02   8.000000E-03                      1.092308
 # quantity: 
 #   type: Nuclear data library
-#   average value:  7.875000E-02
-#   relative standard deviation [%]:      0.000000
+#   average value:  8.135417E-02
+#   relative standard deviation [%]:     13.551186
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 6
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        6.812500E-02   0.000000E+00                      1.048077
+      jendl5.0                NDL                  2021        7.937500E-02   0.000000E+00                      1.221154
+      endfb8.1                NDL                  2024        1.043750E-01   0.000000E+00                      1.605769
       TARES                   NDL                  2025        7.875000E-02   0.000000E+00                      1.211538
+      tendl.2025              NDL                  2025        7.875000E-02   0.000000E+00                      1.211538
+      jeff4.0                 NDL                  2025        7.875000E-02   0.000000E+00                      1.211538

@@ -1,7 +1,7 @@
 # header: 
 #   title: Sc045 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 21
 #   A: 45
@@ -12,9 +12,9 @@
 #   selected value [eV]:  1.300000E+03
 #   selected value uncertainty [eV]:  1.000000E+02
 #   selected value source: RIPL-3
-#   number of values: 8
-#   average value [b]:  1.425505E+03
-#   relative standard deviation [%]:     25.743563
+#   number of values: 12
+#   average value [b]:  1.408903E+03
+#   relative standard deviation [%]:     21.333620
 # quantity: 
 #   type: Compilation
 #   average value:  1.210000E+03
@@ -42,11 +42,15 @@
       M.J.Kenny               EXFOR                1977        1.400000E+03   0.000000E+00      30381-004       1.076923   2.500000E-03   1.000000E-01       0.0                                   
 # quantity: 
 #   type: Nuclear data library
-#   average value:  1.374040E+03
-#   relative standard deviation [%]:      0.000000
+#   average value:  1.375368E+03
+#   relative standard deviation [%]:      0.364594
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        1.369860E+03   0.000000E+00                      1.053738
+      endfb8.1                NDL                  2024        1.384860E+03   0.000000E+00                      1.065277
       TARES                   NDL                  2025        1.374040E+03   0.000000E+00                      1.056954
+      tendl.2025              NDL                  2025        1.374040E+03   0.000000E+00                      1.056954
+      jeff4.0                 NDL                  2025        1.374040E+03   0.000000E+00                      1.056954

@@ -1,7 +1,7 @@
 # header: 
 #   title: Cm248 If resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 96
 #   A: 248
@@ -12,9 +12,9 @@
 #   selected value [eV]:  1.320000E+01
 #   selected value uncertainty [eV]:  8.000000E-01
 #   selected value source: Mughabghab-2018
-#   number of values: 6
-#   average value [b]:  1.093500E+01
-#   relative standard deviation [%]:     32.471378
+#   number of values: 10
+#   average value [b]:  8.615129E+00
+#   relative standard deviation [%]:     46.044136
 # quantity: 
 #   type: Compilation
 #   average value:  1.190000E+01
@@ -39,3 +39,16 @@
       Benjamin                EXFOR                1972        1.320000E+01   8.000000E-01       10128011       1.000000
       Zhuravlev               EXFOR                1975        1.310000E+01   1.500000E+00       40436019       0.992424
       Alekseev                EXFOR                2010        3.610000E+00   2.000000E-01       41533012       0.273485
+# quantity: 
+#   type: Nuclear data library
+#   average value:  5.135323E+00
+#   relative standard deviation [%]:      9.629830
+# datablock: 
+#   columns: 8
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        5.442690E+00   0.000000E+00                      0.412325
+      endfb8.1                NDL                  2024        5.442690E+00   0.000000E+00                      0.412325
+      tendl.2025              NDL                  2025        4.280090E+00   0.000000E+00                      0.324249
+      jeff4.0                 NDL                  2025        5.375820E+00   0.000000E+00                      0.407259

@@ -1,7 +1,7 @@
 # header: 
 #   title: Ni060 gamgam resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 28
 #   A: 60
@@ -12,9 +12,9 @@
 #   selected value [eV]:  1.120000E+00
 #   selected value uncertainty [eV]:  2.000000E-01
 #   selected value source: RIPL-3
-#   number of values: 5
-#   average value [b]:  1.912064E+00
-#   relative standard deviation [%]:     62.326012
+#   number of values: 10
+#   average value [b]:  1.614327E+00
+#   relative standard deviation [%]:     55.362808
 # quantity: 
 #   type: Compilation
 #   average value:  1.326667E+00
@@ -39,11 +39,16 @@
       Litvinskij              EXFOR                1990        4.260000E+00   1.700000E-01       41088009       3.803572
 # quantity: 
 #   type: Nuclear data library
-#   average value:  1.320320E+00
-#   relative standard deviation [%]:      0.000000
+#   average value:  1.317212E+00
+#   relative standard deviation [%]:      0.527665
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 6
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        1.301670E+00   0.000000E+00                      1.162205
+      jendl5.0                NDL                  2021        1.320320E+00   0.000000E+00                      1.178857
+      endfb8.1                NDL                  2024        1.320320E+00   0.000000E+00                      1.178857
       TARES                   NDL                  2025        1.320320E+00   0.000000E+00                      1.178857
+      tendl.2025              NDL                  2025        1.320320E+00   0.000000E+00                      1.178857
+      jeff4.0                 NDL                  2025        1.320320E+00   0.000000E+00                      1.178857

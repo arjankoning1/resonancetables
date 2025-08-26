@@ -1,7 +1,7 @@
 # header: 
 #   title: Pu239 S0 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 94
 #   A: 239
@@ -12,9 +12,9 @@
 #   selected value [*e-4]:  1.200000E+00
 #   selected value uncertainty [*e-4]:  1.000000E-01
 #   selected value source: RIPL-3
-#   number of values: 4
-#   average value [b]:  1.202387E+00
-#   relative standard deviation [%]:      7.462365
+#   number of values: 9
+#   average value [b]:  1.132893E+00
+#   relative standard deviation [%]:      8.299049
 # quantity: 
 #   type: Compilation
 #   average value:  1.250000E+00
@@ -29,11 +29,16 @@
       Mughabghab-2018         Compilation          2018        1.300000E+00   1.000000E-01                      1.083333
 # quantity: 
 #   type: Nuclear data library
-#   average value:  1.059550E+00
-#   relative standard deviation [%]:      0.000000
+#   average value:  1.074340E+00
+#   relative standard deviation [%]:      4.306565
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 6
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []           [*e-4]         [*e-4]           []             []
+      cendl3.2                NDL                  2019        1.025990E+00   0.000000E+00                      0.854992
+      jendl5.0                NDL                  2021        1.006650E+00   0.000000E+00                      0.838875
+      endfb8.1                NDL                  2024        1.117950E+00   0.000000E+00                      0.931625
       TARES                   NDL                  2025        1.059550E+00   0.000000E+00                      0.882958
+      tendl.2025              NDL                  2025        1.117950E+00   0.000000E+00                      0.931625
+      jeff4.0                 NDL                  2025        1.117950E+00   0.000000E+00                      0.931625

@@ -1,7 +1,7 @@
 # header: 
 #   title: Hg201 gamgam resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 80
 #   A: 201
@@ -12,9 +12,9 @@
 #   selected value [eV]:  4.000000E-01
 #   selected value uncertainty [eV]:  1.000000E-01
 #   selected value source: RIPL-3
-#   number of values: 3
-#   average value [b]:  3.906666E-01
-#   relative standard deviation [%]:      1.702215
+#   number of values: 7
+#   average value [b]:  3.874286E-01
+#   relative standard deviation [%]:      1.336621
 # quantity: 
 #   type: Compilation
 #   average value:  3.935000E-01
@@ -32,7 +32,11 @@
 #   relative standard deviation [%]:      0.000000
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        3.850000E-01   0.000000E+00                      0.962500
+      endfb8.1                NDL                  2024        3.850000E-01   0.000000E+00                      0.962500
       TARES                   NDL                  2025        3.850000E-01   0.000000E+00                      0.962500
+      tendl.2025              NDL                  2025        3.850000E-01   0.000000E+00                      0.962500
+      jeff4.0                 NDL                  2025        3.850000E-01   0.000000E+00                      0.962500

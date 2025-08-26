@@ -1,7 +1,7 @@
 # header: 
 #   title: W185 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 74
 #   A: 185
@@ -12,9 +12,9 @@
 #   selected value [eV]:  9.300000E+00
 #   selected value uncertainty [eV]:  1.600000E+00
 #   selected value source: Mughabghab-2018
-#   number of values: 3
-#   average value [b]:  8.561347E+00
-#   relative standard deviation [%]:     18.290184
+#   number of values: 7
+#   average value [b]:  8.969360E+00
+#   relative standard deviation [%]:     27.364464
 # quantity: 
 #   type: Compilation
 #   average value:  9.300000E+00
@@ -37,11 +37,15 @@
       V.A.Anufriev            EXFOR                1983        1.000000E+01   0.000000E+00      40850-006       1.075269   2.000000E-08   1.000000E-04       0.0                                   
 # quantity: 
 #   type: Nuclear data library
-#   average value:  6.384040E+00
-#   relative standard deviation [%]:      0.000000
+#   average value:  8.697104E+00
+#   relative standard deviation [%]:     32.775372
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        1.266670E+01   0.000000E+00                      1.362011
+      endfb8.1                NDL                  2024        1.166670E+01   0.000000E+00                      1.254484
       TARES                   NDL                  2025        6.384040E+00   0.000000E+00                      0.686456
+      tendl.2025              NDL                  2025        6.384040E+00   0.000000E+00                      0.686456
+      jeff4.0                 NDL                  2025        6.384040E+00   0.000000E+00                      0.686456

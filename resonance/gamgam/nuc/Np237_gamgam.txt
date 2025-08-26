@@ -1,7 +1,7 @@
 # header: 
 #   title: Np237 gamgam resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 93
 #   A: 237
@@ -12,9 +12,9 @@
 #   selected value [eV]:  4.080000E-02
 #   selected value uncertainty [eV]:  1.200000E-03
 #   selected value source: RIPL-3
-#   number of values: 9
-#   average value [b]:  4.028158E-02
-#   relative standard deviation [%]:      1.888096
+#   number of values: 14
+#   average value [b]:  4.033259E-02
+#   relative standard deviation [%]:      1.752000
 # quantity: 
 #   type: Compilation
 #   average value:  4.076667E-02
@@ -43,11 +43,16 @@
       Guerrero                EXFOR                2012        4.090000E-02   1.800000E-03       23069003       1.002451
 # quantity: 
 #   type: Nuclear data library
-#   average value:  4.103420E-02
-#   relative standard deviation [%]:      0.000000
+#   average value:  4.052603E-02
+#   relative standard deviation [%]:      1.434869
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 6
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        4.058890E-02   0.000000E+00                      0.994826
+      jendl5.0                NDL                  2021        4.060780E-02   0.000000E+00                      0.995289
+      endfb8.1                NDL                  2024        4.058890E-02   0.000000E+00                      0.994826
       TARES                   NDL                  2025        4.103420E-02   0.000000E+00                      1.005740
+      tendl.2025              NDL                  2025        4.103420E-02   0.000000E+00                      1.005740
+      jeff4.0                 NDL                  2025        3.930220E-02   0.000000E+00                      0.963289

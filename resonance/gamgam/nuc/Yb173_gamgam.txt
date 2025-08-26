@@ -1,7 +1,7 @@
 # header: 
 #   title: Yb173 gamgam resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 70
 #   A: 173
@@ -12,9 +12,9 @@
 #   selected value [eV]:  7.400000E-02
 #   selected value uncertainty [eV]:  5.000000E-03
 #   selected value source: RIPL-3
-#   number of values: 5
-#   average value [b]:  7.462424E-02
-#   relative standard deviation [%]:      1.593057
+#   number of values: 9
+#   average value [b]:  7.437911E-02
+#   relative standard deviation [%]:      1.247747
 # quantity: 
 #   type: Compilation
 #   average value:  7.400000E-02
@@ -39,11 +39,15 @@
       WangNaiyanggg           EXFOR                1966        7.700000E-02   7.000000E-03       40030013       1.040541
 # quantity: 
 #   type: Nuclear data library
-#   average value:  7.412120E-02
-#   relative standard deviation [%]:      0.000000
+#   average value:  7.408240E-02
+#   relative standard deviation [%]:      0.064144
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        7.402420E-02   0.000000E+00                      1.000327
+      endfb8.1                NDL                  2024        7.402420E-02   0.000000E+00                      1.000327
       TARES                   NDL                  2025        7.412120E-02   0.000000E+00                      1.001638
+      tendl.2025              NDL                  2025        7.412120E-02   0.000000E+00                      1.001638
+      jeff4.0                 NDL                  2025        7.412120E-02   0.000000E+00                      1.001638

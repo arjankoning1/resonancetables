@@ -1,7 +1,7 @@
 # header: 
 #   title: U233 If resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 92
 #   A: 233
@@ -12,9 +12,9 @@
 #   selected value [eV]:  7.750000E+02
 #   selected value uncertainty [eV]:  1.800000E+01
 #   selected value source: Mughabghab-2018
-#   number of values: 15
-#   average value [b]:  7.483666E+02
-#   relative standard deviation [%]:     18.590158
+#   number of values: 20
+#   average value [b]:  7.557144E+02
+#   relative standard deviation [%]:     16.037373
 # quantity: 
 #   type: Compilation
 #   average value:  7.751667E+02
@@ -48,3 +48,17 @@
       Eiland                  EXFOR                1971        4.050000E+02   2.400000E+01       10143012       0.522581
       Eiland                  EXFOR                1971        8.300000E+02   6.000000E+01       10143009       1.070968
       Gryntakis               EXFOR                1976        8.120000E+02   9.000000E+01       20625043       1.047742
+# quantity: 
+#   type: Nuclear data library
+#   average value:  7.777576E+02
+#   relative standard deviation [%]:      0.827964
+# datablock: 
+#   columns: 8
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        7.710180E+02   0.000000E+00                      0.994862
+      jendl5.0                NDL                  2021        7.844330E+02   0.000000E+00                      1.012172
+      endfb8.1                NDL                  2024        7.740140E+02   0.000000E+00                      0.998728
+      tendl.2025              NDL                  2025        7.865930E+02   0.000000E+00                      1.014959
+      jeff4.0                 NDL                  2025        7.727300E+02   0.000000E+00                      0.997071

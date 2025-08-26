@@ -1,7 +1,7 @@
 # header: 
 #   title: Pd110 S0 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 46
 #   A: 110
@@ -12,9 +12,9 @@
 #   selected value [*e-4]:  2.500000E-01
 #   selected value uncertainty [*e-4]:  1.500000E-01
 #   selected value source: RIPL-3
-#   number of values: 4
-#   average value [b]:  3.042658E-01
-#   relative standard deviation [%]:     31.450865
+#   number of values: 8
+#   average value [b]:  3.043910E-01
+#   relative standard deviation [%]:     31.787285
 # quantity: 
 #   type: Compilation
 #   average value:  3.233334E-01
@@ -29,11 +29,15 @@
       Mughabghab-2018         Compilation          2018        4.700000E-01   1.700000E-01                      1.880000
 # quantity: 
 #   type: Nuclear data library
-#   average value:  2.470630E-01
-#   relative standard deviation [%]:      0.000000
+#   average value:  2.930256E-01
+#   relative standard deviation [%]:     30.868114
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []           [*e-4]         [*e-4]           []             []
+      jendl5.0                NDL                  2021        4.739140E-01   0.000000E+00                      1.895656
+      endfb8.1                NDL                  2024        2.500250E-01   0.000000E+00                      1.000100
       TARES                   NDL                  2025        2.470630E-01   0.000000E+00                      0.988252
+      tendl.2025              NDL                  2025        2.470630E-01   0.000000E+00                      0.988252
+      jeff4.0                 NDL                  2025        2.470630E-01   0.000000E+00                      0.988252

@@ -1,7 +1,7 @@
 # header: 
 #   title: Am241 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 95
 #   A: 241
@@ -12,9 +12,9 @@
 #   selected value [eV]:  5.800000E-01
 #   selected value uncertainty [eV]:  4.000000E-02
 #   selected value source: RIPL-3
-#   number of values: 11
-#   average value [b]:  1.545512E+04
-#   relative standard deviation [%]:    316.214783
+#   number of values: 16
+#   average value [b]:  1.062566E+04
+#   relative standard deviation [%]:    387.272736
 # quantity: 
 #   type: Compilation
 #   average value:  5.700000E-01
@@ -45,11 +45,16 @@
       E.Mendoza               EXFOR                2018        5.600000E-01   4.000000E-02      23369-006       0.965517                  7.000000E-04       0.0                                   
 # quantity: 
 #   type: Nuclear data library
-#   average value:  7.936510E-01
-#   relative standard deviation [%]:      0.000000
+#   average value:  8.278716E-01
+#   relative standard deviation [%]:     13.975718
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 6
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        7.936510E-01   0.000000E+00                      1.368364
+      jendl5.0                NDL                  2021        1.078340E+00   0.000000E+00                      1.859207
+      endfb8.1                NDL                  2024        7.936510E-01   0.000000E+00                      1.368364
       TARES                   NDL                  2025        7.936510E-01   0.000000E+00                      1.368364
+      tendl.2025              NDL                  2025        7.936510E-01   0.000000E+00                      1.368364
+      jeff4.0                 NDL                  2025        7.142860E-01   0.000000E+00                      1.231528

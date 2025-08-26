@@ -1,7 +1,7 @@
 # header: 
 #   title: Pt195 S0 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 78
 #   A: 195
@@ -12,9 +12,9 @@
 #   selected value [*e-4]:  1.800000E+00
 #   selected value uncertainty [*e-4]:  3.000000E-01
 #   selected value source: RIPL-3
-#   number of values: 4
-#   average value [b]:  1.844440E+00
-#   relative standard deviation [%]:      2.446828
+#   number of values: 8
+#   average value [b]:  7.896370E+00
+#   relative standard deviation [%]:    134.632935
 # quantity: 
 #   type: Compilation
 #   average value:  1.833333E+00
@@ -29,11 +29,15 @@
       Mughabghab-2018         Compilation          2018        1.900000E+00   1.600000E-01                      1.055556
 # quantity: 
 #   type: Nuclear data library
-#   average value:  1.877760E+00
-#   relative standard deviation [%]:      0.000000
+#   average value:  1.153419E+01
+#   relative standard deviation [%]:    104.593910
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []           [*e-4]         [*e-4]           []             []
+      jendl5.0                NDL                  2021        1.763590E+00   0.000000E+00                      0.979772
+      endfb8.1                NDL                  2024        1.412810E+00   0.000000E+00                      0.784894
       TARES                   NDL                  2025        1.877760E+00   0.000000E+00                      1.043200
+      tendl.2025              NDL                  2025        2.630840E+01   0.000000E+00                     14.615778
+      jeff4.0                 NDL                  2025        2.630840E+01   0.000000E+00                     14.615778

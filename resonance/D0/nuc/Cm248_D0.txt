@@ -1,7 +1,7 @@
 # header: 
 #   title: Cm248 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 96
 #   A: 248
@@ -12,9 +12,9 @@
 #   selected value [eV]:  3.000000E+01
 #   selected value uncertainty [eV]:  5.000000E+00
 #   selected value source: RIPL-3
-#   number of values: 5
-#   average value [b]:  3.355500E+01
-#   relative standard deviation [%]:     21.282150
+#   number of values: 9
+#   average value [b]:  3.947500E+01
+#   relative standard deviation [%]:     21.516176
 # quantity: 
 #   type: Compilation
 #   average value:  2.863333E+01
@@ -43,7 +43,11 @@
 #   relative standard deviation [%]:      0.000000
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        4.687500E+01   0.000000E+00                      1.562500
+      endfb8.1                NDL                  2024        4.687500E+01   0.000000E+00                      1.562500
       TARES                   NDL                  2025        4.687500E+01   0.000000E+00                      1.562500
+      tendl.2025              NDL                  2025        4.687500E+01   0.000000E+00                      1.562500
+      jeff4.0                 NDL                  2025        4.687500E+01   0.000000E+00                      1.562500

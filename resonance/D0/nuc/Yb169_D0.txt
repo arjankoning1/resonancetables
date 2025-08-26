@@ -1,7 +1,7 @@
 # header: 
 #   title: Yb169 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 70
 #   A: 169
@@ -12,9 +12,9 @@
 #   selected value [eV]:  1.600000E+00
 #   selected value uncertainty [eV]:  4.000000E-01
 #   selected value source: RIPL-3
-#   number of values: 5
-#   average value [b]:  1.793868E+00
-#   relative standard deviation [%]:     16.270224
+#   number of values: 8
+#   average value [b]:  1.913054E+00
+#   relative standard deviation [%]:     15.226782
 # quantity: 
 #   type: Compilation
 #   average value:  1.560000E+00
@@ -39,11 +39,14 @@
       V.A.Anufriev            EXFOR                1980        2.200000E+00   5.000000E-01      41637-010       1.375000   8.070000E-07   4.540000E-05       0.0                                   
 # quantity: 
 #   type: Nuclear data library
-#   average value:  2.089340E+00
-#   relative standard deviation [%]:      0.000000
+#   average value:  2.106107E+00
+#   relative standard deviation [%]:      5.999868
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      endfb8.1                NDL                  2024        2.300000E+00   0.000000E+00                      1.437500
       TARES                   NDL                  2025        2.089340E+00   0.000000E+00                      1.305838
+      tendl.2025              NDL                  2025        2.089340E+00   0.000000E+00                      1.305838
+      jeff4.0                 NDL                  2025        1.945750E+00   0.000000E+00                      1.216094

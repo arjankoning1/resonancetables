@@ -1,7 +1,7 @@
 # header: 
 #   title: Cf252 If resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 98
 #   A: 252
@@ -12,9 +12,9 @@
 #   selected value [eV]:  1.100000E+02
 #   selected value uncertainty [eV]:  3.000000E+01
 #   selected value source: Mughabghab-2018
-#   number of values: 4
-#   average value [b]:  1.102500E+02
-#   relative standard deviation [%]:      0.392755
+#   number of values: 8
+#   average value [b]:  1.071679E+02
+#   relative standard deviation [%]:      3.157310
 # quantity: 
 #   type: Compilation
 #   average value:  1.103333E+02
@@ -37,3 +37,16 @@
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
       Halperin                EXFOR                1971        1.100000E+02   3.000000E+01       10222003       1.000000
+# quantity: 
+#   type: Nuclear data library
+#   average value:  1.040857E+02
+#   relative standard deviation [%]:      1.850851
+# datablock: 
+#   columns: 8
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        1.051980E+02   0.000000E+00                      0.956345
+      endfb8.1                NDL                  2024        1.051980E+02   0.000000E+00                      0.956345
+      tendl.2025              NDL                  2025        1.007490E+02   0.000000E+00                      0.915900
+      jeff4.0                 NDL                  2025        1.051980E+02   0.000000E+00                      0.956345

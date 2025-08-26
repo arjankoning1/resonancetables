@@ -1,7 +1,7 @@
 # header: 
 #   title: Cm242 If resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 96
 #   A: 242
@@ -12,9 +12,9 @@
 #   selected value [eV]:  1.300000E+01
 #   selected value uncertainty [eV]:  7.000000E-01
 #   selected value source: Mughabghab-2018
-#   number of values: 3
-#   average value [b]:  1.563333E+01
-#   relative standard deviation [%]:     24.275217
+#   number of values: 7
+#   average value [b]:  1.778617E+01
+#   relative standard deviation [%]:     31.224277
 # quantity: 
 #   type: Compilation
 #   average value:  1.563333E+01
@@ -27,3 +27,16 @@
       JUKO                    Compilation          2000        1.290000E+01   7.000000E-01                      0.992308
       Sukhoruchkin            Compilation          2015        2.100000E+01   4.000000E+00                      1.615385
       Mughabghab-2018         Compilation          2018        1.300000E+01   7.000000E-01                      1.000000
+# quantity: 
+#   type: Nuclear data library
+#   average value:  1.940080E+01
+#   relative standard deviation [%]:     31.391121
+# datablock: 
+#   columns: 8
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        1.587700E+01   0.000000E+00                      1.221308
+      endfb8.1                NDL                  2024        1.587700E+01   0.000000E+00                      1.221308
+      tendl.2025              NDL                  2025        2.994920E+01   0.000000E+00                      2.303785
+      jeff4.0                 NDL                  2025        1.590000E+01   0.000000E+00                      1.223077

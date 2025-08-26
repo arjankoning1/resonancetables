@@ -1,7 +1,7 @@
 # header: 
 #   title: U236 If resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 92
 #   A: 236
@@ -12,9 +12,9 @@
 #   selected value [eV]:  7.800000E+00
 #   selected value uncertainty [eV]:  1.400000E+00
 #   selected value source: Sukhoruchkin
-#   number of values: 2
-#   average value [b]:  5.950000E+00
-#   relative standard deviation [%]:     31.092440
+#   number of values: 7
+#   average value [b]:  3.994365E+00
+#   relative standard deviation [%]:     60.756149
 # quantity: 
 #   type: Compilation
 #   average value:  5.950000E+00
@@ -26,3 +26,17 @@
 ##      []             []             []             []            [eV]           [eV]            []             []
       JUKO                    Compilation          2000        4.100000E+00   1.000000E+00                      0.525641
       Sukhoruchkin            Compilation          2015        7.800000E+00   1.400000E+00                      1.000000
+# quantity: 
+#   type: Nuclear data library
+#   average value:  3.212112E+00
+#   relative standard deviation [%]:     67.740417
+# datablock: 
+#   columns: 8
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        4.990610E+00   0.000000E+00                      0.639822
+      jendl5.0                NDL                  2021        5.434240E-01   0.000000E+00                      0.069670
+      endfb8.1                NDL                  2024        4.986850E+00   0.000000E+00                      0.639340
+      tendl.2025              NDL                  2025        4.988710E+00   0.000000E+00                      0.639578
+      jeff4.0                 NDL                  2025        5.509640E-01   0.000000E+00                      0.070636

@@ -1,7 +1,7 @@
 # header: 
 #   title: Mo096 D1 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 42
 #   A: 96
@@ -12,9 +12,9 @@
 #   selected value [eV]:  3.500000E+02
 #   selected value uncertainty [eV]:  5.000000E+01
 #   selected value source: RIPL-3
-#   number of values: 4
-#   average value [b]:  3.387773E+02
-#   relative standard deviation [%]:      3.394783
+#   number of values: 9
+#   average value [b]:  3.372428E+02
+#   relative standard deviation [%]:      2.473505
 # quantity: 
 #   type: Compilation
 #   average value:  3.413333E+02
@@ -29,11 +29,16 @@
       Mughabghab-2018         Compilation          2018        3.240000E+02   2.500000E+01                      0.925714
 # quantity: 
 #   type: Nuclear data library
-#   average value:  3.311090E+02
-#   relative standard deviation [%]:      0.000000
+#   average value:  3.351975E+02
+#   relative standard deviation [%]:      1.219729
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 6
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        3.392860E+02   0.000000E+00                      0.969389
+      jendl5.0                NDL                  2021        3.392860E+02   0.000000E+00                      0.969389
+      endfb8.1                NDL                  2024        3.392860E+02   0.000000E+00                      0.969389
       TARES                   NDL                  2025        3.311090E+02   0.000000E+00                      0.946026
+      tendl.2025              NDL                  2025        3.311090E+02   0.000000E+00                      0.946026
+      jeff4.0                 NDL                  2025        3.311090E+02   0.000000E+00                      0.946026

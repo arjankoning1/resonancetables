@@ -1,7 +1,7 @@
 # header: 
 #   title: Kr080 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 36
 #   A: 80
@@ -12,9 +12,9 @@
 #   selected value [eV]:  2.800000E+02
 #   selected value uncertainty [eV]:  8.000000E+01
 #   selected value source: RIPL-3
-#   number of values: 4
-#   average value [b]:  2.735610E+02
-#   relative standard deviation [%]:      8.818317
+#   number of values: 8
+#   average value [b]:  3.362332E+02
+#   relative standard deviation [%]:     30.241205
 # quantity: 
 #   type: Compilation
 #   average value:  2.866667E+02
@@ -29,11 +29,15 @@
       Mughabghab-2018         Compilation          2018        3.000000E+02   6.000000E+01                      1.071429               
 # quantity: 
 #   type: Nuclear data library
-#   average value:  2.342440E+02
-#   relative standard deviation [%]:      0.000000
+#   average value:  3.659732E+02
+#   relative standard deviation [%]:     32.481041
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        5.000000E+02   0.000000E+00                      1.785714
+      endfb8.1                NDL                  2024        5.000000E+02   0.000000E+00                      1.785714
       TARES                   NDL                  2025        2.342440E+02   0.000000E+00                      0.836586
+      tendl.2025              NDL                  2025        2.342440E+02   0.000000E+00                      0.836586
+      jeff4.0                 NDL                  2025        3.613780E+02   0.000000E+00                      1.290636

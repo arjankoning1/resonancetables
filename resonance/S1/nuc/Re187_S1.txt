@@ -1,7 +1,7 @@
 # header: 
 #   title: Re187 S1 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 75
 #   A: 187
@@ -12,9 +12,9 @@
 #   selected value [*e-4]:  7.000000E-01
 #   selected value uncertainty [*e-4]:  3.000000E-01
 #   selected value source: Mughabghab-2018
-#   number of values: 1
-#   average value [b]:  7.000000E-01
-#   relative standard deviation [%]:      0.000000
+#   number of values: 4
+#   average value [b]:  9.017632E-01
+#   relative standard deviation [%]:     48.554028
 # quantity: 
 #   type: Compilation
 #   average value:  7.000000E-01
@@ -25,3 +25,15 @@
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []           [*e-4]         [*e-4]           []             []
       Mughabghab-2018         Compilation          2018        7.000000E-01   3.000000E-01                      1.000000
+# quantity: 
+#   type: Nuclear data library
+#   average value:  9.690177E-01
+#   relative standard deviation [%]:     50.293758
+# datablock: 
+#   columns: 8
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []           [*e-4]         [*e-4]           []             []
+      endfb8.1                NDL                  2024        2.797930E-01   0.000000E+00                      0.399704
+      tendl.2025              NDL                  2025        1.313630E+00   0.000000E+00                      1.876614
+      jeff4.0                 NDL                  2025        1.313630E+00   0.000000E+00                      1.876614

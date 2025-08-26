@@ -1,7 +1,7 @@
 # header: 
 #   title: Nd150 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 60
 #   A: 150
@@ -12,9 +12,9 @@
 #   selected value [eV]:  1.650000E+02
 #   selected value uncertainty [eV]:  1.500000E+01
 #   selected value source: RIPL-3
-#   number of values: 7
-#   average value [b]:  1.873901E+02
-#   relative standard deviation [%]:     22.559000
+#   number of values: 12
+#   average value [b]:  1.910144E+02
+#   relative standard deviation [%]:     17.610470
 # quantity: 
 #   type: Compilation
 #   average value:  1.663333E+02
@@ -41,11 +41,16 @@
       H.Tellier               EXFOR                1971        1.210000E+02   0.000000E+00      20121-048       0.733333                  1.400000E-02       0.0                                   
 # quantity: 
 #   type: Nuclear data library
-#   average value:  2.067310E+02
-#   relative standard deviation [%]:      0.000000
+#   average value:  1.978622E+02
+#   relative standard deviation [%]:      6.336290
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 6
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        1.801320E+02   0.000000E+00                      1.091709
+      jendl5.0                NDL                  2021        1.801320E+02   0.000000E+00                      1.091709
+      endfb8.1                NDL                  2024        2.067160E+02   0.000000E+00                      1.252824
       TARES                   NDL                  2025        2.067310E+02   0.000000E+00                      1.252915
+      tendl.2025              NDL                  2025        2.067310E+02   0.000000E+00                      1.252915
+      jeff4.0                 NDL                  2025        2.067310E+02   0.000000E+00                      1.252915

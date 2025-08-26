@@ -1,7 +1,7 @@
 # header: 
 #   title: Te123 gamgam resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 52
 #   A: 123
@@ -12,9 +12,9 @@
 #   selected value [eV]:  1.210000E-01
 #   selected value uncertainty [eV]:  1.000000E-02
 #   selected value source: RIPL-3
-#   number of values: 5
-#   average value [b]:  1.221698E-01
-#   relative standard deviation [%]:      3.171572
+#   number of values: 9
+#   average value [b]:  1.223773E-01
+#   relative standard deviation [%]:      4.533020
 # quantity: 
 #   type: Compilation
 #   average value:  1.223333E-01
@@ -39,11 +39,15 @@
       Macklin                 EXFOR                1989        1.160000E-01   8.000000E-03       13167018       0.958678
 # quantity: 
 #   type: Nuclear data library
-#   average value:  1.278490E-01
-#   relative standard deviation [%]:      0.000000
+#   average value:  1.236792E-01
+#   relative standard deviation [%]:      5.401463
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        1.119260E-01   0.000000E+00                      0.925008
+      endfb8.1                NDL                  2024        1.206740E-01   0.000000E+00                      0.997306
       TARES                   NDL                  2025        1.278490E-01   0.000000E+00                      1.056603
+      tendl.2025              NDL                  2025        1.300980E-01   0.000000E+00                      1.075190
+      jeff4.0                 NDL                  2025        1.278490E-01   0.000000E+00                      1.056603

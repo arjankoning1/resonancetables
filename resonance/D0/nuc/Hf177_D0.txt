@@ -1,7 +1,7 @@
 # header: 
 #   title: Hf177 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 72
 #   A: 177
@@ -12,9 +12,9 @@
 #   selected value [eV]:  2.400000E+00
 #   selected value uncertainty [eV]:  3.000000E-01
 #   selected value source: RIPL-3
-#   number of values: 23
-#   average value [b]:  4.636337E+00
-#   relative standard deviation [%]:     39.849178
+#   number of values: 28
+#   average value [b]:  4.388829E+00
+#   relative standard deviation [%]:     40.382267
 # quantity: 
 #   type: Compilation
 #   average value:  2.373333E+00
@@ -57,11 +57,16 @@
       G.Noguere               EXFOR                2009        2.400000E+00   1.000000E-01      22956-040       1.000000   1.100000E-06   2.020300E-04       0.0                                   
 # quantity: 
 #   type: Nuclear data library
-#   average value:  3.915730E+00
-#   relative standard deviation [%]:      0.000000
+#   average value:  3.361198E+00
+#   relative standard deviation [%]:     16.831642
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 6
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        3.910610E+00   0.000000E+00                      1.629421
+      jendl5.0                NDL                  2021        2.688170E+00   0.000000E+00                      1.120071
+      endfb8.1                NDL                  2024        2.688170E+00   0.000000E+00                      1.120071
       TARES                   NDL                  2025        3.915730E+00   0.000000E+00                      1.631554
+      tendl.2025              NDL                  2025        3.915730E+00   0.000000E+00                      1.631554
+      jeff4.0                 NDL                  2025        3.048780E+00   0.000000E+00                      1.270325

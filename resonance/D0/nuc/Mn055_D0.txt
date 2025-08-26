@@ -1,7 +1,7 @@
 # header: 
 #   title: Mn055 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 25
 #   A: 55
@@ -12,9 +12,9 @@
 #   selected value [eV]:  2.300000E+03
 #   selected value uncertainty [eV]:  4.000000E+02
 #   selected value source: RIPL-3
-#   number of values: 10
-#   average value [b]:  3.112091E+03
-#   relative standard deviation [%]:     23.264338
+#   number of values: 15
+#   average value [b]:  2.983819E+03
+#   relative standard deviation [%]:     21.185122
 # quantity: 
 #   type: Compilation
 #   average value:  2.340000E+03
@@ -44,11 +44,16 @@
       J.B.Garg                EXFOR                1978        3.850000E+03   5.500000E+02      10716-009       1.673913                                     0.0            2.0                    
 # quantity: 
 #   type: Nuclear data library
-#   average value:  2.840910E+03
-#   relative standard deviation [%]:      0.000000
+#   average value:  2.746213E+03
+#   relative standard deviation [%]:      7.710551
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 6
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        2.272730E+03   0.000000E+00                      0.988143
+      jendl5.0                NDL                  2021        2.840910E+03   0.000000E+00                      1.235178
+      endfb8.1                NDL                  2024        2.840910E+03   0.000000E+00                      1.235178
       TARES                   NDL                  2025        2.840910E+03   0.000000E+00                      1.235178
+      tendl.2025              NDL                  2025        2.840910E+03   0.000000E+00                      1.235178
+      jeff4.0                 NDL                  2025        2.840910E+03   0.000000E+00                      1.235178

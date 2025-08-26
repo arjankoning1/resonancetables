@@ -1,7 +1,7 @@
 # header: 
 #   title: Sm149 gamgam resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 62
 #   A: 149
@@ -12,9 +12,9 @@
 #   selected value [eV]:  6.200000E-02
 #   selected value uncertainty [eV]:  4.000000E-03
 #   selected value source: RIPL-3
-#   number of values: 7
-#   average value [b]:  6.652702E-02
-#   relative standard deviation [%]:      8.110636
+#   number of values: 12
+#   average value [b]:  6.709095E-02
+#   relative standard deviation [%]:      7.402997
 # quantity: 
 #   type: Compilation
 #   average value:  6.200000E-02
@@ -41,11 +41,16 @@
       Georgiev                EXFOR                1999        7.500000E-02   3.000000E-03       41345003       1.209677
 # quantity: 
 #   type: Nuclear data library
-#   average value:  7.268910E-02
-#   relative standard deviation [%]:      0.000000
+#   average value:  6.868190E-02
+#   relative standard deviation [%]:      6.124061
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 6
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        6.213040E-02   0.000000E+00                      1.002103
+      jendl5.0                NDL                  2021        6.616200E-02   0.000000E+00                      1.067129
+      endfb8.1                NDL                  2024        6.573170E-02   0.000000E+00                      1.060189
       TARES                   NDL                  2025        7.268910E-02   0.000000E+00                      1.172405
+      tendl.2025              NDL                  2025        7.268910E-02   0.000000E+00                      1.172405
+      jeff4.0                 NDL                  2025        7.268910E-02   0.000000E+00                      1.172405

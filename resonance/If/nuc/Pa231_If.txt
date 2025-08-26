@@ -1,7 +1,7 @@
 # header: 
 #   title: Pa231 If resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 91
 #   A: 231
@@ -12,9 +12,9 @@
 #   selected value [eV]:  3.980000E+00
 #   selected value uncertainty [eV]:  2.500000E-01
 #   selected value source: Sukhoruchkin
-#   number of values: 3
-#   average value [b]:  1.359667E+00
-#   relative standard deviation [%]:    136.272766
+#   number of values: 7
+#   average value [b]:  1.246056E+00
+#   relative standard deviation [%]:     97.695015
 # quantity: 
 #   type: Compilation
 #   average value:  2.015000E+00
@@ -36,3 +36,16 @@
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
       Gryntakis               EXFOR                1976        4.900000E-02   1.300000E-02       20625036       0.012312
+# quantity: 
+#   type: Nuclear data library
+#   average value:  1.160848E+00
+#   relative standard deviation [%]:      3.428071
+# datablock: 
+#   columns: 8
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        1.228740E+00   0.000000E+00                      0.308729
+      endfb8.1                NDL                  2024        1.132610E+00   0.000000E+00                      0.284575
+      tendl.2025              NDL                  2025        1.149430E+00   0.000000E+00                      0.288802
+      jeff4.0                 NDL                  2025        1.132610E+00   0.000000E+00                      0.284575

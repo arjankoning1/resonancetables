@@ -1,7 +1,7 @@
 # header: 
 #   title: Pr141 gamgam resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 59
 #   A: 141
@@ -12,9 +12,9 @@
 #   selected value [eV]:  8.800001E-02
 #   selected value uncertainty [eV]:  9.000001E-03
 #   selected value source: RIPL-3
-#   number of values: 7
-#   average value [b]:  9.484523E-02
-#   relative standard deviation [%]:     23.811422
+#   number of values: 12
+#   average value [b]:  9.152377E-02
+#   relative standard deviation [%]:     19.739763
 # quantity: 
 #   type: Compilation
 #   average value:  8.650001E-02
@@ -41,11 +41,16 @@
       Morgenstern             EXFOR                1969        8.500000E-02   7.000000E-03       20684024       0.965909
 # quantity: 
 #   type: Nuclear data library
-#   average value:  8.341660E-02
-#   relative standard deviation [%]:      0.000000
+#   average value:  8.629754E-02
+#   relative standard deviation [%]:      6.189394
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 6
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        8.456250E-02   0.000000E+00                      0.960937
+      jendl5.0                NDL                  2021        9.817290E-02   0.000000E+00                      1.115601
+      endfb8.1                NDL                  2024        8.480000E-02   0.000000E+00                      0.963636
       TARES                   NDL                  2025        8.341660E-02   0.000000E+00                      0.947916
+      tendl.2025              NDL                  2025        8.341660E-02   0.000000E+00                      0.947916
+      jeff4.0                 NDL                  2025        8.341660E-02   0.000000E+00                      0.947916

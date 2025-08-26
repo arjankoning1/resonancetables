@@ -1,7 +1,7 @@
 # header: 
 #   title: Np236 If resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 93
 #   A: 236
@@ -12,9 +12,9 @@
 #   selected value [eV]:  1.174000E+03
 #   selected value uncertainty [eV]:  7.300000E+01
 #   selected value source: Sukhoruchkin
-#   number of values: 4
-#   average value [b]:  1.229250E+03
-#   relative standard deviation [%]:     10.666119
+#   number of values: 9
+#   average value [b]:  1.216636E+03
+#   relative standard deviation [%]:      7.763049
 # quantity: 
 #   type: Compilation
 #   average value:  1.262000E+03
@@ -37,3 +37,17 @@
 ##      []             []             []             []            [eV]           [eV]            []             []
       Valskiy                 EXFOR                1987        1.040000E+03   6.000000E+01       40995004       0.885860
       Danon                   EXFOR                1996        1.353000E+03   8.600000E+01       13602013       1.152470
+# quantity: 
+#   type: Nuclear data library
+#   average value:  1.206544E+03
+#   relative standard deviation [%]:      3.775497
+# datablock: 
+#   columns: 8
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        1.267460E+03   0.000000E+00                      1.079608
+      jendl5.0                NDL                  2021        1.169450E+03   0.000000E+00                      0.996124
+      endfb8.1                NDL                  2024        1.169450E+03   0.000000E+00                      0.996124
+      tendl.2025              NDL                  2025        1.256910E+03   0.000000E+00                      1.070622
+      jeff4.0                 NDL                  2025        1.169450E+03   0.000000E+00                      0.996124

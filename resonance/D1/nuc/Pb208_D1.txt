@@ -1,7 +1,7 @@
 # header: 
 #   title: Pb208 D1 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 82
 #   A: 208
@@ -12,9 +12,9 @@
 #   selected value [eV]:  3.000000E+04
 #   selected value uncertainty [eV]:  5.000000E+03
 #   selected value source: RIPL-3
-#   number of values: 3
-#   average value [b]:  3.448717E+04
-#   relative standard deviation [%]:     10.071498
+#   number of values: 8
+#   average value [b]:  3.792123E+04
+#   relative standard deviation [%]:      9.815620
 # quantity: 
 #   type: Compilation
 #   average value:  3.250000E+04
@@ -28,11 +28,16 @@
       RIPL-3                  Compilation          2009        3.000000E+04   5.000000E+03            04I       1.000000
 # quantity: 
 #   type: Nuclear data library
-#   average value:  3.846150E+04
-#   relative standard deviation [%]:      0.000000
+#   average value:  3.972830E+04
+#   relative standard deviation [%]:      4.591653
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 6
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        4.166670E+04   0.000000E+00                      1.388890
+      jendl5.0                NDL                  2021        3.846150E+04   0.000000E+00                      1.282050
+      endfb8.1                NDL                  2024        4.285710E+04   0.000000E+00                      1.428570
       TARES                   NDL                  2025        3.846150E+04   0.000000E+00                      1.282050
+      tendl.2025              NDL                  2025        3.846150E+04   0.000000E+00                      1.282050
+      jeff4.0                 NDL                  2025        3.846150E+04   0.000000E+00                      1.282050

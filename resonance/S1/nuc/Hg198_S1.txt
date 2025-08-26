@@ -1,7 +1,7 @@
 # header: 
 #   title: Hg198 S1 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 80
 #   A: 198
@@ -12,9 +12,9 @@
 #   selected value [*e-4]:  5.000000E-01
 #   selected value uncertainty [*e-4]:  1.000000E-01
 #   selected value source: Mughabghab-2018
-#   number of values: 1
-#   average value [b]:  5.000000E-01
-#   relative standard deviation [%]:      0.000000
+#   number of values: 4
+#   average value [b]:  5.714460E-01
+#   relative standard deviation [%]:     43.969135
 # quantity: 
 #   type: Compilation
 #   average value:  5.000000E-01
@@ -25,3 +25,15 @@
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []           [*e-4]         [*e-4]           []             []
       Mughabghab-2018         Compilation          2018        5.000000E-01   1.000000E-01                      1.000000
+# quantity: 
+#   type: Nuclear data library
+#   average value:  5.952613E-01
+#   relative standard deviation [%]:     48.078617
+# datablock: 
+#   columns: 8
+#   entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []           [*e-4]         [*e-4]           []             []
+      jendl5.0                NDL                  2021        1.000000E+00   0.000000E+00                      2.000000
+      tendl.2025              NDL                  2025        3.928920E-01   0.000000E+00                      0.785784
+      jeff4.0                 NDL                  2025        3.928920E-01   0.000000E+00                      0.785784

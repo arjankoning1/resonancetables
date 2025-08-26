@@ -1,7 +1,7 @@
 # header: 
 #   title: Tb159 gamgam resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 65
 #   A: 159
@@ -12,9 +12,9 @@
 #   selected value [eV]:  9.700000E-02
 #   selected value uncertainty [eV]:  7.000000E-03
 #   selected value source: RIPL-3
-#   number of values: 7
-#   average value [b]:  1.040980E-01
-#   relative standard deviation [%]:     18.651827
+#   number of values: 11
+#   average value [b]:  1.023877E-01
+#   relative standard deviation [%]:     15.307029
 # quantity: 
 #   type: Compilation
 #   average value:  9.700000E-02
@@ -41,11 +41,15 @@
       Vertebnyj               EXFOR                1983        1.020000E-01   5.000000E-03      408460032       1.051546
 # quantity: 
 #   type: Nuclear data library
-#   average value:  1.006860E-01
-#   relative standard deviation [%]:      0.000000
+#   average value:  9.965290E-02
+#   relative standard deviation [%]:      1.270243
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        9.804430E-02   0.000000E+00                      1.010766
+      endfb8.1                NDL                  2024        9.816220E-02   0.000000E+00                      1.011981
       TARES                   NDL                  2025        1.006860E-01   0.000000E+00                      1.038000
+      tendl.2025              NDL                  2025        1.006860E-01   0.000000E+00                      1.038000
+      jeff4.0                 NDL                  2025        1.006860E-01   0.000000E+00                      1.038000

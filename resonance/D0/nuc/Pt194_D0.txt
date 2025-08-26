@@ -1,7 +1,7 @@
 # header: 
 #   title: Pt194 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 78
 #   A: 194
@@ -12,9 +12,9 @@
 #   selected value [eV]:  8.200000E+01
 #   selected value uncertainty [eV]:  1.000000E+01
 #   selected value source: RIPL-3
-#   number of values: 5
-#   average value [b]:  1.698654E+02
-#   relative standard deviation [%]:     46.630501
+#   number of values: 9
+#   average value [b]:  1.968505E+02
+#   relative standard deviation [%]:     34.225407
 # quantity: 
 #   type: Compilation
 #   average value:  1.179333E+02
@@ -39,11 +39,15 @@
       V.P.Vertebnyi           EXFOR                1975        2.700000E+02   7.500000E+01      40276-028       3.292683   2.000000E-08   3.000000E-03       0.0                                   
 # quantity: 
 #   type: Nuclear data library
-#   average value:  2.255270E+02
-#   relative standard deviation [%]:      0.000000
+#   average value:  2.295710E+02
+#   relative standard deviation [%]:      7.050093
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        2.600000E+02   0.000000E+00                      3.170732
+      endfb8.1                NDL                  2024        2.112740E+02   0.000000E+00                      2.576512
       TARES                   NDL                  2025        2.255270E+02   0.000000E+00                      2.750329
+      tendl.2025              NDL                  2025        2.255270E+02   0.000000E+00                      2.750329
+      jeff4.0                 NDL                  2025        2.255270E+02   0.000000E+00                      2.750329

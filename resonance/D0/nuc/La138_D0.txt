@@ -1,7 +1,7 @@
 # header: 
 #   title: La138 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 57
 #   A: 138
@@ -12,9 +12,9 @@
 #   selected value [eV]:  3.200000E+01
 #   selected value uncertainty [eV]:  6.000000E+00
 #   selected value source: RIPL-3
-#   number of values: 5
-#   average value [b]:  3.100438E+01
-#   relative standard deviation [%]:     32.422363
+#   number of values: 9
+#   average value [b]:  3.031598E+01
+#   relative standard deviation [%]:     36.289860
 # quantity: 
 #   type: Compilation
 #   average value:  3.156667E+01
@@ -39,11 +39,15 @@
       J.A.Harvey              EXFOR                1966        4.600000E+01   1.500000E+01      12639-003       1.437500   3.080000E-06   1.600000E-04       0.0                                   
 # quantity: 
 #   type: Nuclear data library
-#   average value:  1.432190E+01
-#   relative standard deviation [%]:      0.000000
+#   average value:  2.642876E+01
+#   relative standard deviation [%]:     46.709457
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        4.125000E+01   0.000000E+00                      1.289062
+      endfb8.1                NDL                  2024        4.125000E+01   0.000000E+00                      1.289062
       TARES                   NDL                  2025        1.432190E+01   0.000000E+00                      0.447559
+      tendl.2025              NDL                  2025        1.432190E+01   0.000000E+00                      0.447559
+      jeff4.0                 NDL                  2025        2.100000E+01   0.000000E+00                      0.656250

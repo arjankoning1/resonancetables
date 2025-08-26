@@ -1,7 +1,7 @@
 # header: 
 #   title: Mo095 gamgam resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 42
 #   A: 95
@@ -12,9 +12,9 @@
 #   selected value [eV]:  1.620000E-01
 #   selected value uncertainty [eV]:  1.000000E-02
 #   selected value source: RIPL-3
-#   number of values: 6
-#   average value [b]:  1.610905E-01
-#   relative standard deviation [%]:     15.228406
+#   number of values: 11
+#   average value [b]:  1.675547E-01
+#   relative standard deviation [%]:     14.699201
 # quantity: 
 #   type: Compilation
 #   average value:  1.580000E-01
@@ -40,11 +40,16 @@
       Weigmann                EXFOR                1971        1.700000E-01   1.500000E-02       20398011       1.049383
 # quantity: 
 #   type: Nuclear data library
-#   average value:  2.025430E-01
-#   relative standard deviation [%]:      0.000000
+#   average value:  1.798503E-01
+#   relative standard deviation [%]:     12.695755
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 6
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        1.571500E-01   0.000000E+00                      0.970062
+      jendl5.0                NDL                  2021        1.527780E-01   0.000000E+00                      0.943074
+      endfb8.1                NDL                  2024        1.615450E-01   0.000000E+00                      0.997191
       TARES                   NDL                  2025        2.025430E-01   0.000000E+00                      1.250265
+      tendl.2025              NDL                  2025        2.025430E-01   0.000000E+00                      1.250265
+      jeff4.0                 NDL                  2025        2.025430E-01   0.000000E+00                      1.250265

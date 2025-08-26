@@ -1,7 +1,7 @@
 # header: 
 #   title: Er170 gamgam resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 68
 #   A: 170
@@ -12,9 +12,9 @@
 #   selected value [eV]:  7.320000E-02
 #   selected value uncertainty [eV]:  4.700000E-03
 #   selected value source: Mughabghab-2018
-#   number of values: 3
-#   average value [b]:  7.933334E-02
-#   relative standard deviation [%]:      7.231772
+#   number of values: 7
+#   average value [b]:  7.822857E-02
+#   relative standard deviation [%]:      6.030612
 # quantity: 
 #   type: Compilation
 #   average value:  7.320000E-02
@@ -37,11 +37,15 @@
       Trofimova               EXFOR                1977        8.700000E-02   5.481000E-04      405940083       1.188524
 # quantity: 
 #   type: Nuclear data library
-#   average value:  7.780000E-02
-#   relative standard deviation [%]:      0.000000
+#   average value:  7.748000E-02
+#   relative standard deviation [%]:      4.112639
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        8.200000E-02   0.000000E+00                      1.120219
+      endfb8.1                NDL                  2024        7.200000E-02   0.000000E+00                      0.983606
       TARES                   NDL                  2025        7.780000E-02   0.000000E+00                      1.062841
+      tendl.2025              NDL                  2025        7.780000E-02   0.000000E+00                      1.062841
+      jeff4.0                 NDL                  2025        7.780000E-02   0.000000E+00                      1.062841

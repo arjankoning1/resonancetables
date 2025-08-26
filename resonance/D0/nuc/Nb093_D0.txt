@@ -1,7 +1,7 @@
 # header: 
 #   title: Nb093 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 41
 #   A: 93
@@ -12,9 +12,9 @@
 #   selected value [eV]:  9.400000E+01
 #   selected value uncertainty [eV]:  1.000000E+01
 #   selected value source: RIPL-3
-#   number of values: 8
-#   average value [b]:  1.848594E+02
-#   relative standard deviation [%]:    133.125443
+#   number of values: 13
+#   average value [b]:  1.427323E+02
+#   relative standard deviation [%]:    140.831894
 # quantity: 
 #   type: Compilation
 #   average value:  8.986667E+01
@@ -42,11 +42,16 @@
       R.L.Macklin             EXFOR                1976        7.740000E+01   3.300000E+00      10537-009       0.823404   2.600000E-03   1.026000E-01       0.0                                   
 # quantity: 
 #   type: Nuclear data library
-#   average value:  1.093750E+02
-#   relative standard deviation [%]:      0.000000
+#   average value:  8.100330E+01
+#   relative standard deviation [%]:     35.025360
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 6
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        5.263160E+01   0.000000E+00                      0.559911
+      jendl5.0                NDL                  2021        5.263160E+01   0.000000E+00                      0.559911
+      endfb8.1                NDL                  2024        5.263160E+01   0.000000E+00                      0.559911
       TARES                   NDL                  2025        1.093750E+02   0.000000E+00                      1.163564
+      tendl.2025              NDL                  2025        1.093750E+02   0.000000E+00                      1.163564
+      jeff4.0                 NDL                  2025        1.093750E+02   0.000000E+00                      1.163564

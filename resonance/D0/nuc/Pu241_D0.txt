@@ -1,7 +1,7 @@
 # header: 
 #   title: Pu241 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 94
 #   A: 241
@@ -12,9 +12,9 @@
 #   selected value [eV]:  9.300000E-01
 #   selected value uncertainty [eV]:  8.000000E-02
 #   selected value source: RIPL-3
-#   number of values: 12
-#   average value [b]:  1.194266E+00
-#   relative standard deviation [%]:     27.193752
+#   number of values: 17
+#   average value [b]:  1.217845E+00
+#   relative standard deviation [%]:     22.605158
 # quantity: 
 #   type: Compilation
 #   average value:  9.033334E-01
@@ -46,11 +46,16 @@
       W.Kolar                 EXFOR                1971        1.000000E+00   0.000000E+00      20116-018       1.075269   1.280000E-05   5.020000E-05       0.0                                   
 # quantity: 
 #   type: Nuclear data library
-#   average value:  1.271190E+00
-#   relative standard deviation [%]:      0.000000
+#   average value:  1.273895E+00
+#   relative standard deviation [%]:      0.212339
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 6
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        1.276600E+00   0.000000E+00                      1.372688
+      jendl5.0                NDL                  2021        1.271190E+00   0.000000E+00                      1.366871
+      endfb8.1                NDL                  2024        1.276600E+00   0.000000E+00                      1.372688
       TARES                   NDL                  2025        1.271190E+00   0.000000E+00                      1.366871
+      tendl.2025              NDL                  2025        1.271190E+00   0.000000E+00                      1.366871
+      jeff4.0                 NDL                  2025        1.276600E+00   0.000000E+00                      1.372688

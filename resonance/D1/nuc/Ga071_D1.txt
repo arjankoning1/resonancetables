@@ -1,7 +1,7 @@
 # header: 
 #   title: Ga071 D1 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 31
 #   A: 71
@@ -12,9 +12,9 @@
 #   selected value [eV]:  1.130000E+02
 #   selected value uncertainty [eV]:  2.300000E+01
 #   selected value source: RIPL-3
-#   number of values: 3
-#   average value [b]:  2.943847E+02
-#   relative standard deviation [%]:     87.136551
+#   number of values: 8
+#   average value [b]:  6.246826E+02
+#   relative standard deviation [%]:     51.019131
 # quantity: 
 #   type: Compilation
 #   average value:  1.130000E+02
@@ -28,11 +28,16 @@
       Mughabghab-2018         Compilation          2018        1.130000E+02   1.100000E+01                      1.000000
 # quantity: 
 #   type: Nuclear data library
-#   average value:  6.571540E+02
-#   relative standard deviation [%]:      0.000000
+#   average value:  7.952435E+02
+#   relative standard deviation [%]:     17.364431
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 6
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        9.333330E+02   0.000000E+00                      8.259584
+      jendl5.0                NDL                  2021        9.333330E+02   0.000000E+00                      8.259584
+      endfb8.1                NDL                  2024        9.333330E+02   0.000000E+00                      8.259584
       TARES                   NDL                  2025        6.571540E+02   0.000000E+00                      5.815522
+      tendl.2025              NDL                  2025        6.571540E+02   0.000000E+00                      5.815522
+      jeff4.0                 NDL                  2025        6.571540E+02   0.000000E+00                      5.815522

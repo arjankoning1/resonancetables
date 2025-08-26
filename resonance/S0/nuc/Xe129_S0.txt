@@ -1,7 +1,7 @@
 # header: 
 #   title: Xe129 S0 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 54
 #   A: 129
@@ -12,9 +12,9 @@
 #   selected value [*e-4]:  1.000000E+00
 #   selected value uncertainty [*e-4]:  2.000000E-01
 #   selected value source: RIPL-3
-#   number of values: 4
-#   average value [b]:  8.448175E-01
-#   relative standard deviation [%]:     39.690609
+#   number of values: 9
+#   average value [b]:  8.316703E-01
+#   relative standard deviation [%]:     43.768673
 # quantity: 
 #   type: Compilation
 #   average value:  1.036667E+00
@@ -29,11 +29,16 @@
       Mughabghab-2018         Compilation          2018        1.110000E+00   2.000000E-01                      1.110000
 # quantity: 
 #   type: Nuclear data library
-#   average value:  2.692700E-01
-#   relative standard deviation [%]:      0.000000
+#   average value:  7.291721E-01
+#   relative standard deviation [%]:     55.857986
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 6
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []           [*e-4]         [*e-4]           []             []
+      cendl3.2                NDL                  2019        1.197200E+00   0.000000E+00                      1.197200
+      jendl5.0                NDL                  2021        1.197200E+00   0.000000E+00                      1.197200
+      endfb8.1                NDL                  2024        9.799980E-01   0.000000E+00                      0.979998
       TARES                   NDL                  2025        2.692700E-01   0.000000E+00                      0.269270
+      tendl.2025              NDL                  2025        4.620950E-01   0.000000E+00                      0.462095
+      jeff4.0                 NDL                  2025        2.692700E-01   0.000000E+00                      0.269270

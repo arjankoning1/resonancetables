@@ -1,7 +1,7 @@
 # header: 
 #   title: Co059 D1 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 27
 #   A: 59
@@ -12,9 +12,9 @@
 #   selected value [eV]:  9.000000E+02
 #   selected value uncertainty [eV]:  4.700000E+01
 #   selected value source: Mughabghab-2018
-#   number of values: 3
-#   average value [b]:  1.278347E+03
-#   relative standard deviation [%]:     21.789461
+#   number of values: 7
+#   average value [b]:  1.413583E+03
+#   relative standard deviation [%]:     15.949904
 # quantity: 
 #   type: Compilation
 #   average value:  9.000000E+02
@@ -37,11 +37,15 @@
       G.De Saussure           EXFOR                1992        1.562500E+03   0.000000E+00      12988-008       1.736111   2.000000E-04   1.000000E-01       1.0                                   
 # quantity: 
 #   type: Nuclear data library
-#   average value:  1.372540E+03
-#   relative standard deviation [%]:      0.000000
+#   average value:  1.486516E+03
+#   relative standard deviation [%]:      6.260343
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        1.562500E+03   0.000000E+00                      1.736111
+      endfb8.1                NDL                  2024        1.562500E+03   0.000000E+00                      1.736111
       TARES                   NDL                  2025        1.372540E+03   0.000000E+00                      1.525044
+      tendl.2025              NDL                  2025        1.372540E+03   0.000000E+00                      1.525044
+      jeff4.0                 NDL                  2025        1.562500E+03   0.000000E+00                      1.736111

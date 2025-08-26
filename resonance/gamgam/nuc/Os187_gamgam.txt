@@ -1,7 +1,7 @@
 # header: 
 #   title: Os187 gamgam resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 76
 #   A: 187
@@ -12,9 +12,9 @@
 #   selected value [eV]:  8.800001E-02
 #   selected value uncertainty [eV]:  8.000000E-03
 #   selected value source: RIPL-3
-#   number of values: 6
-#   average value [b]:  7.390366E-02
-#   relative standard deviation [%]:     15.485419
+#   number of values: 10
+#   average value [b]:  7.207002E-02
+#   relative standard deviation [%]:     14.293174
 # quantity: 
 #   type: Compilation
 #   average value:  7.936668E-02
@@ -40,11 +40,15 @@
       Fujii                   EXFOR                2010        6.490000E-02   2.300000E-03       23027003       0.737500
 # quantity: 
 #   type: Nuclear data library
-#   average value:  6.182190E-02
-#   relative standard deviation [%]:      0.000000
+#   average value:  6.782006E-02
+#   relative standard deviation [%]:     10.831920
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        7.681730E-02   0.000000E+00                      0.872924
+      endfb8.1                NDL                  2024        7.681730E-02   0.000000E+00                      0.872924
       TARES                   NDL                  2025        6.182190E-02   0.000000E+00                      0.702522
+      tendl.2025              NDL                  2025        6.182190E-02   0.000000E+00                      0.702522
+      jeff4.0                 NDL                  2025        6.182190E-02   0.000000E+00                      0.702522

@@ -1,7 +1,7 @@
 # header: 
 #   title: Zn066 S1 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 30
 #   A: 66
@@ -12,9 +12,9 @@
 #   selected value [*e-4]:  6.600000E-01
 #   selected value uncertainty [*e-4]:  6.000000E-02
 #   selected value source: RIPL-3
-#   number of values: 4
-#   average value [b]:  6.033872E-01
-#   relative standard deviation [%]:     20.259920
+#   number of values: 9
+#   average value [b]:  5.216008E-01
+#   relative standard deviation [%]:     22.230284
 # quantity: 
 #   type: Compilation
 #   average value:  6.733333E-01
@@ -29,11 +29,16 @@
       Mughabghab-2018         Compilation          2018        7.000000E-01   7.000000E-02                      1.060606
 # quantity: 
 #   type: Nuclear data library
-#   average value:  3.935490E-01
-#   relative standard deviation [%]:      0.000000
+#   average value:  4.457345E-01
+#   relative standard deviation [%]:     11.706859
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 6
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []           [*e-4]         [*e-4]           []             []
+      cendl3.2                NDL                  2019        4.979160E-01   0.000000E+00                      0.754418
+      jendl5.0                NDL                  2021        4.979160E-01   0.000000E+00                      0.754418
+      endfb8.1                NDL                  2024        4.979160E-01   0.000000E+00                      0.754418
       TARES                   NDL                  2025        3.935490E-01   0.000000E+00                      0.596286
+      tendl.2025              NDL                  2025        3.935490E-01   0.000000E+00                      0.596286
+      jeff4.0                 NDL                  2025        3.935610E-01   0.000000E+00                      0.596305

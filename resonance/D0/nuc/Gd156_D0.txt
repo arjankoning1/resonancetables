@@ -1,7 +1,7 @@
 # header: 
 #   title: Gd156 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 64
 #   A: 156
@@ -12,9 +12,9 @@
 #   selected value [eV]:  3.000000E+01
 #   selected value uncertainty [eV]:  6.000000E+00
 #   selected value source: RIPL-3
-#   number of values: 6
-#   average value [b]:  3.926170E+01
-#   relative standard deviation [%]:     27.468468
+#   number of values: 11
+#   average value [b]:  3.595440E+01
+#   relative standard deviation [%]:     26.588820
 # quantity: 
 #   type: Compilation
 #   average value:  3.016667E+01
@@ -40,11 +40,16 @@
       S.F.Mughabghab          EXFOR                1969        5.900000E+01   1.000000E+01      10051-019       1.966667   3.320000E-05   8.460000E-04       0.0                                   
 # quantity: 
 #   type: Nuclear data library
-#   average value:  3.907020E+01
-#   relative standard deviation [%]:      0.000000
+#   average value:  3.316640E+01
+#   relative standard deviation [%]:     17.619429
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 6
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        2.515910E+01   0.000000E+00                      0.838637
+      jendl5.0                NDL                  2021        2.544830E+01   0.000000E+00                      0.848277
+      endfb8.1                NDL                  2024        3.374240E+01   0.000000E+00                      1.124747
       TARES                   NDL                  2025        3.907020E+01   0.000000E+00                      1.302340
+      tendl.2025              NDL                  2025        3.907020E+01   0.000000E+00                      1.302340
+      jeff4.0                 NDL                  2025        3.650820E+01   0.000000E+00                      1.216940

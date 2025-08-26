@@ -1,7 +1,7 @@
 # header: 
 #   title: Os190 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 76
 #   A: 190
@@ -12,9 +12,9 @@
 #   selected value [eV]:  7.000000E+01
 #   selected value uncertainty [eV]:  4.000000E+01
 #   selected value source: RIPL-3
-#   number of values: 8
-#   average value [b]:  6.202216E+01
-#   relative standard deviation [%]:     15.238806
+#   number of values: 12
+#   average value [b]:  6.869248E+01
+#   relative standard deviation [%]:     18.654606
 # quantity: 
 #   type: Compilation
 #   average value:  6.500000E+01
@@ -42,11 +42,15 @@
       J.C.Browne              EXFOR                1981        7.000000E+01   5.000000E+00      12712-014       1.000000   1.145000E-03   1.480000E-01       0.0                                   
 # quantity: 
 #   type: Nuclear data library
-#   average value:  7.517730E+01
-#   relative standard deviation [%]:      0.000000
+#   average value:  8.066194E+01
+#   relative standard deviation [%]:      8.327702
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        8.888890E+01   0.000000E+00                      1.269841
+      endfb8.1                NDL                  2024        8.888890E+01   0.000000E+00                      1.269841
       TARES                   NDL                  2025        7.517730E+01   0.000000E+00                      1.073961
+      tendl.2025              NDL                  2025        7.517730E+01   0.000000E+00                      1.073961
+      jeff4.0                 NDL                  2025        7.517730E+01   0.000000E+00                      1.073961

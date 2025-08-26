@@ -1,7 +1,7 @@
 # header: 
 #   title: Cu063 gamgam resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 29
 #   A: 63
@@ -12,9 +12,9 @@
 #   selected value [eV]:  4.900000E-01
 #   selected value uncertainty [eV]:  3.000000E-02
 #   selected value source: RIPL-3
-#   number of values: 4
-#   average value [b]:  4.943268E-01
-#   relative standard deviation [%]:      1.516030
+#   number of values: 7
+#   average value [b]:  4.977833E-01
+#   relative standard deviation [%]:      1.465326
 # quantity: 
 #   type: Compilation
 #   average value:  4.900000E-01
@@ -29,11 +29,14 @@
       Mughabghab-2018         Compilation          2018        4.900000E-01   3.000000E-02                      1.000000
 # quantity: 
 #   type: Nuclear data library
-#   average value:  5.073070E-01
-#   relative standard deviation [%]:      0.000000
+#   average value:  5.036207E-01
+#   relative standard deviation [%]:      0.732197
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        5.000700E-01   0.000000E+00                      1.020551
+      jendl5.0                NDL                  2021        4.997990E-01   0.000000E+00                      1.019998
       TARES                   NDL                  2025        5.073070E-01   0.000000E+00                      1.035320
+      tendl.2025              NDL                  2025        5.073070E-01   0.000000E+00                      1.035320

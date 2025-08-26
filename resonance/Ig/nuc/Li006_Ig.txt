@@ -1,7 +1,7 @@
 # header: 
 #   title: Li006 Ig resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 3
 #   A: 6
@@ -12,9 +12,9 @@
 #   selected value [eV]:  1.740000E-02
 #   selected value uncertainty [eV]:  1.400000E-03
 #   selected value source: Sukhoruchkin
-#   number of values: 6
-#   average value [b]:  1.444989E-02
-#   relative standard deviation [%]:     44.693863
+#   number of values: 2
+#   average value [b]:  1.735000E-02
+#   relative standard deviation [%]:      0.288184
 # quantity: 
 #   type: Compilation
 #   average value:  1.735000E-02
@@ -26,16 +26,3 @@
 ##      []             []             []             []            [eV]           [eV]            []             []
       JUKO                    Compilation          2000        1.730000E-02   1.400000E-03                      0.994253
       Sukhoruchkin            Compilation          2015        1.740000E-02   1.400000E-03                      1.000000
-# quantity: 
-#   type: Nuclear data library
-#   average value:  1.299984E-02
-#   relative standard deviation [%]:     57.694862
-# datablock: 
-#   columns: 8
-#   entries: 4
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      jendl5.0                NDL                  2021        1.733450E-02   0.000000E+00                      0.996236
-      endfb8.1                NDL                  2024        1.732790E-02   0.000000E+00                      0.995856
-      tendl.2025              NDL                  2025        9.044430E-06   0.000000E+00                      0.000520
-      jeff4.0                 NDL                  2025        1.732790E-02   0.000000E+00                      0.995856

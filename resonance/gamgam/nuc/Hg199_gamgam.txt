@@ -1,7 +1,7 @@
 # header: 
 #   title: Hg199 gamgam resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 80
 #   A: 199
@@ -12,9 +12,9 @@
 #   selected value [eV]:  2.950000E-01
 #   selected value uncertainty [eV]:  2.000000E-02
 #   selected value source: RIPL-3
-#   number of values: 4
-#   average value [b]:  2.809935E-01
-#   relative standard deviation [%]:      7.452000
+#   number of values: 8
+#   average value [b]:  2.751730E-01
+#   relative standard deviation [%]:      8.524744
 # quantity: 
 #   type: Compilation
 #   average value:  2.930000E-01
@@ -29,11 +29,15 @@
       Mughabghab-2018         Compilation          2018        2.890000E-01   1.700000E-02                      0.979661
 # quantity: 
 #   type: Nuclear data library
-#   average value:  2.449740E-01
-#   relative standard deviation [%]:      0.000000
+#   average value:  2.644768E-01
+#   relative standard deviation [%]:      9.031398
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        2.937310E-01   0.000000E+00                      0.995698
+      endfb8.1                NDL                  2024        2.937310E-01   0.000000E+00                      0.995698
       TARES                   NDL                  2025        2.449740E-01   0.000000E+00                      0.830420
+      tendl.2025              NDL                  2025        2.449740E-01   0.000000E+00                      0.830420
+      jeff4.0                 NDL                  2025        2.449740E-01   0.000000E+00                      0.830420

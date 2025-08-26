@@ -1,7 +1,7 @@
 # header: 
 #   title: Cm247 If resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 96
 #   A: 247
@@ -12,9 +12,9 @@
 #   selected value [eV]:  7.600000E+02
 #   selected value uncertainty [eV]:  5.000000E+01
 #   selected value source: Mughabghab-2018
-#   number of values: 10
-#   average value [b]:  8.861000E+02
-#   relative standard deviation [%]:     15.422777
+#   number of values: 14
+#   average value [b]:  9.027116E+02
+#   relative standard deviation [%]:     13.134398
 # quantity: 
 #   type: Compilation
 #   average value:  8.250000E+02
@@ -43,3 +43,16 @@
       Zhuravlev               EXFOR                1975        7.300000E+02   7.000000E+01       40436018       0.960526
       Danon                   EXFOR                1994        1.091000E+03   8.000000E+01       13646008       1.435526
       Alekseev                EXFOR                2010        8.890000E+02   3.600000E+01       41533011       1.169737
+# quantity: 
+#   type: Nuclear data library
+#   average value:  9.442407E+02
+#   relative standard deviation [%]:      1.043863
+# datablock: 
+#   columns: 8
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        9.497550E+02   0.000000E+00                      1.249678
+      endfb8.1                NDL                  2024        9.497880E+02   0.000000E+00                      1.249721
+      tendl.2025              NDL                  2025        9.271720E+02   0.000000E+00                      1.219963
+      jeff4.0                 NDL                  2025        9.502480E+02   0.000000E+00                      1.250326

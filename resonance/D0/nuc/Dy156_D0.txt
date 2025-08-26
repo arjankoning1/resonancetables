@@ -1,7 +1,7 @@
 # header: 
 #   title: Dy156 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 66
 #   A: 156
@@ -12,9 +12,9 @@
 #   selected value [eV]:  2.800000E+00
 #   selected value uncertainty [eV]:  6.000000E-01
 #   selected value source: RIPL-3
-#   number of values: 5
-#   average value [b]:  4.526176E+00
-#   relative standard deviation [%]:     27.933500
+#   number of values: 9
+#   average value [b]:  4.945735E+00
+#   relative standard deviation [%]:     24.615784
 # quantity: 
 #   type: Compilation
 #   average value:  4.333333E+00
@@ -39,11 +39,15 @@
       V.P.Vertebny            EXFOR                1969        3.400000E+00   4.000000E-01      40097-012       1.214286   2.150000E-06   1.240000E-04       0.0                                   
 # quantity: 
 #   type: Nuclear data library
-#   average value:  6.230880E+00
-#   relative standard deviation [%]:      0.000000
+#   average value:  5.622322E+00
+#   relative standard deviation [%]:     15.565419
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        4.166670E+00   0.000000E+00                      1.488096
+      endfb8.1                NDL                  2024        5.055560E+00   0.000000E+00                      1.805557
       TARES                   NDL                  2025        6.230880E+00   0.000000E+00                      2.225314
+      tendl.2025              NDL                  2025        6.230880E+00   0.000000E+00                      2.225314
+      jeff4.0                 NDL                  2025        6.427620E+00   0.000000E+00                      2.295578

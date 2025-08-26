@@ -1,7 +1,7 @@
 # header: 
 #   title: Ni058 D1 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 28
 #   A: 58
@@ -12,9 +12,9 @@
 #   selected value [eV]:  3.200000E+03
 #   selected value uncertainty [eV]:  3.700000E+02
 #   selected value source: RIPL-3
-#   number of values: 5
-#   average value [b]:  3.925172E+03
-#   relative standard deviation [%]:     13.100564
+#   number of values: 10
+#   average value [b]:  3.855758E+03
+#   relative standard deviation [%]:     10.733112
 # quantity: 
 #   type: Compilation
 #   average value:  3.900000E+03
@@ -39,11 +39,16 @@
       A.Brusegan              EXFOR                1994        4.460000E+03   2.700000E+02      22314-002       1.393750   1.330000E-02   3.440000E-01       1.0                                   
 # quantity: 
 #   type: Nuclear data library
-#   average value:  3.465860E+03
-#   relative standard deviation [%]:      0.000000
+#   average value:  3.732930E+03
+#   relative standard deviation [%]:      7.154432
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 6
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        4.000000E+03   0.000000E+00                      1.250000
+      jendl5.0                NDL                  2021        4.000000E+03   0.000000E+00                      1.250000
+      endfb8.1                NDL                  2024        4.000000E+03   0.000000E+00                      1.250000
       TARES                   NDL                  2025        3.465860E+03   0.000000E+00                      1.083081
+      tendl.2025              NDL                  2025        3.465860E+03   0.000000E+00                      1.083081
+      jeff4.0                 NDL                  2025        3.465860E+03   0.000000E+00                      1.083081

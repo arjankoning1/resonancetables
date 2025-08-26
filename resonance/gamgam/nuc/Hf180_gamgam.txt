@@ -1,7 +1,7 @@
 # header: 
 #   title: Hf180 gamgam resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 72
 #   A: 180
@@ -12,9 +12,9 @@
 #   selected value [eV]:  5.000000E-02
 #   selected value uncertainty [eV]:  5.000000E-03
 #   selected value source: RIPL-3
-#   number of values: 4
-#   average value [b]:  5.236775E-02
-#   relative standard deviation [%]:      4.526842
+#   number of values: 9
+#   average value [b]:  5.295082E-02
+#   relative standard deviation [%]:      7.246212
 # quantity: 
 #   type: Compilation
 #   average value:  5.163333E-02
@@ -29,11 +29,16 @@
       Mughabghab-2018         Compilation          2018        5.490000E-02   5.100000E-03                      1.098000
 # quantity: 
 #   type: Nuclear data library
-#   average value:  5.457100E-02
-#   relative standard deviation [%]:      0.000000
+#   average value:  5.360956E-02
+#   relative standard deviation [%]:      7.938858
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 6
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        5.407560E-02   0.000000E+00                      1.081512
+      jendl5.0                NDL                  2021        4.863570E-02   0.000000E+00                      0.972714
+      endfb8.1                NDL                  2024        4.863570E-02   0.000000E+00                      0.972714
       TARES                   NDL                  2025        5.457100E-02   0.000000E+00                      1.091420
+      tendl.2025              NDL                  2025        5.457100E-02   0.000000E+00                      1.091420
+      jeff4.0                 NDL                  2025        6.116840E-02   0.000000E+00                      1.223368

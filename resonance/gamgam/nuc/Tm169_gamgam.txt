@@ -1,7 +1,7 @@
 # header: 
 #   title: Tm169 gamgam resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 69
 #   A: 169
@@ -12,9 +12,9 @@
 #   selected value [eV]:  9.700000E-02
 #   selected value uncertainty [eV]:  1.000000E-02
 #   selected value source: RIPL-3
-#   number of values: 7
-#   average value [b]:  1.047231E-01
-#   relative standard deviation [%]:     11.432283
+#   number of values: 11
+#   average value [b]:  1.019641E-01
+#   relative standard deviation [%]:     10.837536
 # quantity: 
 #   type: Compilation
 #   average value:  1.046667E-01
@@ -41,11 +41,15 @@
       Tellier                 EXFOR                1972        1.100000E-01   3.500000E-02       20124004       1.134021
 # quantity: 
 #   type: Nuclear data library
-#   average value:  1.040620E-01
-#   relative standard deviation [%]:      0.000000
+#   average value:  9.852101E-02
+#   relative standard deviation [%]:      6.909861
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        9.106190E-02   0.000000E+00                      0.938782
+      endfb8.1                NDL                  2024        8.935720E-02   0.000000E+00                      0.921208
       TARES                   NDL                  2025        1.040620E-01   0.000000E+00                      1.072804
+      tendl.2025              NDL                  2025        1.040620E-01   0.000000E+00                      1.072804
+      jeff4.0                 NDL                  2025        1.040620E-01   0.000000E+00                      1.072804

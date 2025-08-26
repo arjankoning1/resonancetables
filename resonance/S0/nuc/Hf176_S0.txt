@@ -1,7 +1,7 @@
 # header: 
 #   title: Hf176 S0 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 72
 #   A: 176
@@ -12,9 +12,9 @@
 #   selected value [*e-4]:  1.700000E+00
 #   selected value uncertainty [*e-4]:  4.000000E-01
 #   selected value source: RIPL-3
-#   number of values: 4
-#   average value [b]:  1.777358E+00
-#   relative standard deviation [%]:     14.409891
+#   number of values: 9
+#   average value [b]:  2.030814E+00
+#   relative standard deviation [%]:     20.452890
 # quantity: 
 #   type: Compilation
 #   average value:  1.866667E+00
@@ -29,11 +29,16 @@
       Mughabghab-2018         Compilation          2018        2.200000E+00   3.000000E-01                      1.294118
 # quantity: 
 #   type: Nuclear data library
-#   average value:  1.509430E+00
-#   relative standard deviation [%]:      0.000000
+#   average value:  2.112888E+00
+#   relative standard deviation [%]:     21.729954
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 6
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []           [*e-4]         [*e-4]           []             []
+      cendl3.2                NDL                  2019        2.500000E+00   0.000000E+00                      1.470588
+      jendl5.0                NDL                  2021        2.596380E+00   0.000000E+00                      1.527282
+      endfb8.1                NDL                  2024        2.596380E+00   0.000000E+00                      1.527282
       TARES                   NDL                  2025        1.509430E+00   0.000000E+00                      0.887900
+      tendl.2025              NDL                  2025        1.709940E+00   0.000000E+00                      1.005847
+      jeff4.0                 NDL                  2025        1.765200E+00   0.000000E+00                      1.038353

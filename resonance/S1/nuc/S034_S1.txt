@@ -1,7 +1,7 @@
 # header: 
 #   title: S034 S1 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 16
 #   A: 34
@@ -12,9 +12,9 @@
 #   selected value [*e-4]:  7.200000E-01
 #   selected value uncertainty [*e-4]:  1.900000E-01
 #   selected value source: RIPL-3
-#   number of values: 3
-#   average value [b]:  7.604167E-01
-#   relative standard deviation [%]:      7.516640
+#   number of values: 8
+#   average value [b]:  6.815696E-01
+#   relative standard deviation [%]:     22.157673
 # quantity: 
 #   type: Compilation
 #   average value:  7.200000E-01
@@ -28,11 +28,16 @@
       Mughabghab-2018         Compilation          2018        7.200000E-01   1.900000E-01                      1.000000
 # quantity: 
 #   type: Nuclear data library
-#   average value:  8.412500E-01
-#   relative standard deviation [%]:      0.000000
+#   average value:  6.687595E-01
+#   relative standard deviation [%]:     25.792604
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 6
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []           [*e-4]         [*e-4]           []             []
+      cendl3.2                NDL                  2019        4.962690E-01   0.000000E+00                      0.689262
+      jendl5.0                NDL                  2021        4.962690E-01   0.000000E+00                      0.689262
+      endfb8.1                NDL                  2024        4.962690E-01   0.000000E+00                      0.689262
       TARES                   NDL                  2025        8.412500E-01   0.000000E+00                      1.168403
+      tendl.2025              NDL                  2025        8.412500E-01   0.000000E+00                      1.168403
+      jeff4.0                 NDL                  2025        8.412500E-01   0.000000E+00                      1.168403

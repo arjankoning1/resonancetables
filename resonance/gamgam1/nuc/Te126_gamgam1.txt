@@ -1,7 +1,7 @@
 # header: 
 #   title: Te126 gamgam1 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 52
 #   A: 126
@@ -12,9 +12,9 @@
 #   selected value [eV]:  8.000001E-02
 #   selected value uncertainty [eV]:  1.500000E-02
 #   selected value source: RIPL-3
-#   number of values: 3
-#   average value [b]:  8.036070E-02
-#   relative standard deviation [%]:      2.601243
+#   number of values: 7
+#   average value [b]:  8.616938E-02
+#   relative standard deviation [%]:     13.501925
 # quantity: 
 #   type: Compilation
 #   average value:  7.900000E-02
@@ -28,11 +28,15 @@
       Mughabghab-2018         Compilation          2018        7.800000E-02   8.000000E-03                      0.975000
 # quantity: 
 #   type: Nuclear data library
-#   average value:  8.308210E-02
-#   relative standard deviation [%]:      0.000000
+#   average value:  8.903714E-02
+#   relative standard deviation [%]:     14.220886
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        1.143350E-01   0.000000E+00                      1.429187
+      endfb8.1                NDL                  2024        8.160440E-02   0.000000E+00                      1.020055
       TARES                   NDL                  2025        8.308210E-02   0.000000E+00                      1.038526
+      tendl.2025              NDL                  2025        8.308210E-02   0.000000E+00                      1.038526
+      jeff4.0                 NDL                  2025        8.308210E-02   0.000000E+00                      1.038526

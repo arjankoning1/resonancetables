@@ -1,7 +1,7 @@
 # header: 
 #   title: In113 S1 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 49
 #   A: 113
@@ -12,9 +12,9 @@
 #   selected value [*e-4]:  2.510000E+00
 #   selected value uncertainty [*e-4]:  7.900000E-01
 #   selected value source: Mughabghab-2018
-#   number of values: 2
-#   average value [b]:  1.467099E+00
-#   relative standard deviation [%]:     71.085884
+#   number of values: 7
+#   average value [b]:  2.441493E+00
+#   relative standard deviation [%]:     55.369705
 # quantity: 
 #   type: Compilation
 #   average value:  2.510000E+00
@@ -27,11 +27,16 @@
       Mughabghab-2018         Compilation          2018        2.510000E+00   7.900000E-01                      1.000000
 # quantity: 
 #   type: Nuclear data library
-#   average value:  4.241990E-01
-#   relative standard deviation [%]:      0.000000
+#   average value:  2.430075E+00
+#   relative standard deviation [%]:     60.074261
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 6
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []           [*e-4]         [*e-4]           []             []
+      cendl3.2                NDL                  2019        2.700030E+00   0.000000E+00                      1.075709
+      jendl5.0                NDL                  2021        3.677340E+00   0.000000E+00                      1.465076
+      endfb8.1                NDL                  2024        3.677340E+00   0.000000E+00                      1.465076
       TARES                   NDL                  2025        4.241990E-01   0.000000E+00                      0.169004
+      tendl.2025              NDL                  2025        4.241990E-01   0.000000E+00                      0.169004
+      jeff4.0                 NDL                  2025        3.677340E+00   0.000000E+00                      1.465076

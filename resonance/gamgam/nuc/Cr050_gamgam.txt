@@ -1,7 +1,7 @@
 # header: 
 #   title: Cr050 gamgam resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 24
 #   A: 50
@@ -12,9 +12,9 @@
 #   selected value [eV]:  1.100000E+00
 #   selected value uncertainty [eV]:  4.000000E-01
 #   selected value source: RIPL-3
-#   number of values: 5
-#   average value [b]:  1.184264E+00
-#   relative standard deviation [%]:     13.376491
+#   number of values: 10
+#   average value [b]:  1.161872E+00
+#   relative standard deviation [%]:     10.859151
 # quantity: 
 #   type: Compilation
 #   average value:  1.233333E+00
@@ -39,11 +39,16 @@
       Brusegan                EXFOR                1986        1.130000E+00   7.700000E-01      220410113       1.027273
 # quantity: 
 #   type: Nuclear data library
-#   average value:  1.091320E+00
-#   relative standard deviation [%]:      0.000000
+#   average value:  1.131453E+00
+#   relative standard deviation [%]:      6.315108
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 6
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        1.289820E+00   0.000000E+00                      1.172564
+      jendl5.0                NDL                  2021        1.091320E+00   0.000000E+00                      0.992109
+      endfb8.1                NDL                  2024        1.112470E+00   0.000000E+00                      1.011336
       TARES                   NDL                  2025        1.091320E+00   0.000000E+00                      0.992109
+      tendl.2025              NDL                  2025        1.091320E+00   0.000000E+00                      0.992109
+      jeff4.0                 NDL                  2025        1.112470E+00   0.000000E+00                      1.011336

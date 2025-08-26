@@ -1,7 +1,7 @@
 # header: 
 #   title: Hg200 D1 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 80
 #   A: 200
@@ -12,9 +12,9 @@
 #   selected value [eV]:  2.000000E+02
 #   selected value uncertainty [eV]:  4.000000E+01
 #   selected value source: RIPL-3
-#   number of values: 3
-#   average value [b]:  2.314763E+02
-#   relative standard deviation [%]:     25.584448
+#   number of values: 6
+#   average value [b]:  2.726311E+02
+#   relative standard deviation [%]:     21.537367
 # quantity: 
 #   type: Compilation
 #   average value:  1.900000E+02
@@ -28,11 +28,14 @@
       Mughabghab-2018         Compilation          2018        1.800000E+02   2.200000E+01                      0.900000
 # quantity: 
 #   type: Nuclear data library
-#   average value:  3.144290E+02
-#   relative standard deviation [%]:      0.000000
+#   average value:  3.139467E+02
+#   relative standard deviation [%]:      0.266056
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        3.125000E+02   0.000000E+00                      1.562500
       TARES                   NDL                  2025        3.144290E+02   0.000000E+00                      1.572145
+      tendl.2025              NDL                  2025        3.144290E+02   0.000000E+00                      1.572145
+      jeff4.0                 NDL                  2025        3.144290E+02   0.000000E+00                      1.572145

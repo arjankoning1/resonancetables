@@ -1,7 +1,7 @@
 # header: 
 #   title: Dy162 gamgam resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 66
 #   A: 162
@@ -12,9 +12,9 @@
 #   selected value [eV]:  1.120000E-01
 #   selected value uncertainty [eV]:  2.000000E-02
 #   selected value source: RIPL-3
-#   number of values: 5
-#   average value [b]:  1.210824E-01
-#   relative standard deviation [%]:     14.027232
+#   number of values: 9
+#   average value [b]:  1.178540E-01
+#   relative standard deviation [%]:     11.188140
 # quantity: 
 #   type: Compilation
 #   average value:  1.120000E-01
@@ -39,11 +39,15 @@
       Mughabghab              EXFOR                1970        1.550000E-01   1.500000E-02       10052028       1.383929
 # quantity: 
 #   type: Nuclear data library
-#   average value:  1.144120E-01
-#   relative standard deviation [%]:      0.000000
+#   average value:  1.139372E-01
+#   relative standard deviation [%]:      0.913561
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        1.145900E-01   0.000000E+00                      1.023125
+      endfb8.1                NDL                  2024        1.118600E-01   0.000000E+00                      0.998750
       TARES                   NDL                  2025        1.144120E-01   0.000000E+00                      1.021536
+      tendl.2025              NDL                  2025        1.144120E-01   0.000000E+00                      1.021536
+      jeff4.0                 NDL                  2025        1.144120E-01   0.000000E+00                      1.021536

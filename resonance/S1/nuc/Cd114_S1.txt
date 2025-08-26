@@ -1,7 +1,7 @@
 # header: 
 #   title: Cd114 S1 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 48
 #   A: 114
@@ -12,9 +12,9 @@
 #   selected value [*e-4]:  4.300000E+00
 #   selected value uncertainty [*e-4]:  6.000000E-01
 #   selected value source: RIPL-3
-#   number of values: 4
-#   average value [b]:  4.451047E+00
-#   relative standard deviation [%]:     18.238214
+#   number of values: 8
+#   average value [b]:  4.537208E+00
+#   relative standard deviation [%]:     23.170887
 # quantity: 
 #   type: Compilation
 #   average value:  4.020000E+00
@@ -29,11 +29,15 @@
       Mughabghab-2018         Compilation          2018        4.260000E+00   6.300000E-01                      0.990698
 # quantity: 
 #   type: Nuclear data library
-#   average value:  5.744190E+00
-#   relative standard deviation [%]:      0.000000
+#   average value:  4.847532E+00
+#   relative standard deviation [%]:     24.671564
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []           [*e-4]         [*e-4]           []             []
+      jendl5.0                NDL                  2021        2.753660E+00   0.000000E+00                      0.640386
+      endfb8.1                NDL                  2024        4.251430E+00   0.000000E+00                      0.988705
       TARES                   NDL                  2025        5.744190E+00   0.000000E+00                      1.335858
+      tendl.2025              NDL                  2025        5.744190E+00   0.000000E+00                      1.335858
+      jeff4.0                 NDL                  2025        5.744190E+00   0.000000E+00                      1.335858

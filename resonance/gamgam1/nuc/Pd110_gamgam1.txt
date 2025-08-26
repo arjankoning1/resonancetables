@@ -1,7 +1,7 @@
 # header: 
 #   title: Pd110 gamgam1 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 46
 #   A: 110
@@ -12,9 +12,9 @@
 #   selected value [eV]:  9.800000E-02
 #   selected value uncertainty [eV]:  1.700000E-02
 #   selected value source: RIPL-3
-#   number of values: 3
-#   average value [b]:  8.198733E-02
-#   relative standard deviation [%]:     22.643738
+#   number of values: 7
+#   average value [b]:  6.903257E-02
+#   relative standard deviation [%]:     24.310904
 # quantity: 
 #   type: Compilation
 #   average value:  9.500000E-02
@@ -28,11 +28,15 @@
       Mughabghab-2018         Compilation          2018        9.200000E-02   1.800000E-02                      0.938775
 # quantity: 
 #   type: Nuclear data library
-#   average value:  5.596200E-02
-#   relative standard deviation [%]:      0.000000
+#   average value:  5.864560E-02
+#   relative standard deviation [%]:      6.171239
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        6.506670E-02   0.000000E+00                      0.663946
+      endfb8.1                NDL                  2024        6.027530E-02   0.000000E+00                      0.615054
       TARES                   NDL                  2025        5.596200E-02   0.000000E+00                      0.571041
+      tendl.2025              NDL                  2025        5.596200E-02   0.000000E+00                      0.571041
+      jeff4.0                 NDL                  2025        5.596200E-02   0.000000E+00                      0.571041

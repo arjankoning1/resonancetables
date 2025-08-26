@@ -1,7 +1,7 @@
 # header: 
 #   title: Os188 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 76
 #   A: 188
@@ -12,9 +12,9 @@
 #   selected value [eV]:  4.700000E+01
 #   selected value uncertainty [eV]:  4.000000E+00
 #   selected value source: RIPL-3
-#   number of values: 11
-#   average value [b]:  4.496984E+01
-#   relative standard deviation [%]:     11.607596
+#   number of values: 15
+#   average value [b]:  4.572030E+01
+#   relative standard deviation [%]:     10.452890
 # quantity: 
 #   type: Compilation
 #   average value:  4.466667E+01
@@ -45,11 +45,15 @@
       K.Fujii                 EXFOR                2010        3.900000E+01   5.000000E-01      23027-007       0.829787                                     0.0                                   
 # quantity: 
 #   type: Nuclear data library
-#   average value:  4.556820E+01
-#   relative standard deviation [%]:      0.000000
+#   average value:  4.734092E+01
+#   relative standard deviation [%]:      4.586159
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        5.000000E+01   0.000000E+00                      1.063830
+      endfb8.1                NDL                  2024        5.000000E+01   0.000000E+00                      1.063830
       TARES                   NDL                  2025        4.556820E+01   0.000000E+00                      0.969536
+      tendl.2025              NDL                  2025        4.556820E+01   0.000000E+00                      0.969536
+      jeff4.0                 NDL                  2025        4.556820E+01   0.000000E+00                      0.969536

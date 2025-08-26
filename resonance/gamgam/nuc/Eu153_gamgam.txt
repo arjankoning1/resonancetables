@@ -1,7 +1,7 @@
 # header: 
 #   title: Eu153 gamgam resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 63
 #   A: 153
@@ -12,9 +12,9 @@
 #   selected value [eV]:  9.500001E-02
 #   selected value uncertainty [eV]:  1.200000E-02
 #   selected value source: RIPL-3
-#   number of values: 6
-#   average value [b]:  9.971000E-02
-#   relative standard deviation [%]:      6.157385
+#   number of values: 11
+#   average value [b]:  1.002541E-01
+#   relative standard deviation [%]:      5.815432
 # quantity: 
 #   type: Compilation
 #   average value:  9.433334E-02
@@ -40,11 +40,16 @@
       Trofimova               EXFOR                1977        1.000000E-01   6.300000E-04      405940033       1.052631
 # quantity: 
 #   type: Nuclear data library
-#   average value:  1.052600E-01
-#   relative standard deviation [%]:      0.000000
+#   average value:  1.016325E-01
+#   relative standard deviation [%]:      5.075067
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 6
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        9.504290E-02   0.000000E+00                      1.000451
+      jendl5.0                NDL                  2021        1.052960E-01   0.000000E+00                      1.108379
+      endfb8.1                NDL                  2024        9.367610E-02   0.000000E+00                      0.986064
       TARES                   NDL                  2025        1.052600E-01   0.000000E+00                      1.108000
+      tendl.2025              NDL                  2025        1.052600E-01   0.000000E+00                      1.108000
+      jeff4.0                 NDL                  2025        1.052600E-01   0.000000E+00                      1.108000

@@ -1,7 +1,7 @@
 # header: 
 #   title: Xe131 gamgam resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 54
 #   A: 131
@@ -12,9 +12,9 @@
 #   selected value [eV]:  1.140000E-01
 #   selected value uncertainty [eV]:  2.000000E-02
 #   selected value source: RIPL-3
-#   number of values: 6
-#   average value [b]:  1.185893E-01
-#   relative standard deviation [%]:      4.177524
+#   number of values: 11
+#   average value [b]:  1.263218E-01
+#   relative standard deviation [%]:     12.625706
 # quantity: 
 #   type: Compilation
 #   average value:  1.172667E-01
@@ -40,11 +40,16 @@
       Noguere                 EXFOR                2011        1.241000E-01   2.300000E-03       23211014       1.088596
 # quantity: 
 #   type: Nuclear data library
-#   average value:  1.226360E-01
-#   relative standard deviation [%]:      0.000000
+#   average value:  1.334400E-01
+#   relative standard deviation [%]:     13.687769
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 6
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        1.240980E-01   0.000000E+00                      1.088579
+      jendl5.0                NDL                  2021        1.612570E-01   0.000000E+00                      1.414535
+      endfb8.1                NDL                  2024        1.137670E-01   0.000000E+00                      0.997956
       TARES                   NDL                  2025        1.226360E-01   0.000000E+00                      1.075754
+      tendl.2025              NDL                  2025        1.562460E-01   0.000000E+00                      1.370579
+      jeff4.0                 NDL                  2025        1.226360E-01   0.000000E+00                      1.075754

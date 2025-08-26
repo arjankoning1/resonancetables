@@ -1,7 +1,7 @@
 # header: 
 #   title: Sn120 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 50
 #   A: 120
@@ -12,9 +12,9 @@
 #   selected value [eV]:  1.250000E+03
 #   selected value uncertainty [eV]:  2.000000E+02
 #   selected value source: RIPL-3
-#   number of values: 8
-#   average value [b]:  1.246427E+03
-#   relative standard deviation [%]:     38.056297
+#   number of values: 13
+#   average value [b]:  1.404548E+03
+#   relative standard deviation [%]:     42.788647
 # quantity: 
 #   type: Compilation
 #   average value:  1.458333E+03
@@ -42,11 +42,16 @@
       V.M.Timokhov            EXFOR                1988        1.610000E+03   4.900000E+02      40960-060       1.288000   2.000000E-02   1.400000E+00       0.0                                   
 # quantity: 
 #   type: Nuclear data library
-#   average value:  1.440420E+03
-#   relative standard deviation [%]:      0.000000
+#   average value:  1.621355E+03
+#   relative standard deviation [%]:     39.126579
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 6
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        2.916670E+03   0.000000E+00                      2.333336
+      jendl5.0                NDL                  2021        8.235290E+02   0.000000E+00                      0.658823
+      endfb8.1                NDL                  2024        1.666670E+03   0.000000E+00                      1.333336
       TARES                   NDL                  2025        1.440420E+03   0.000000E+00                      1.152336
+      tendl.2025              NDL                  2025        1.440420E+03   0.000000E+00                      1.152336
+      jeff4.0                 NDL                  2025        1.440420E+03   0.000000E+00                      1.152336

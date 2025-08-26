@@ -1,7 +1,7 @@
 # header: 
 #   title: Sm154 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 62
 #   A: 154
@@ -12,9 +12,9 @@
 #   selected value [eV]:  1.140000E+02
 #   selected value uncertainty [eV]:  1.500000E+01
 #   selected value source: RIPL-3
-#   number of values: 6
-#   average value [b]:  1.157108E+02
-#   relative standard deviation [%]:     14.998107
+#   number of values: 11
+#   average value [b]:  1.259760E+02
+#   relative standard deviation [%]:     15.735769
 # quantity: 
 #   type: Compilation
 #   average value:  1.133333E+02
@@ -40,11 +40,16 @@
       F.Rahn                  EXFOR                1972        1.150000E+02   8.000000E+00      10046-028       1.008772                  3.100000E-03       0.0                                   
 # quantity: 
 #   type: Nuclear data library
-#   average value:  1.492650E+02
-#   relative standard deviation [%]:      0.000000
+#   average value:  1.401227E+02
+#   relative standard deviation [%]:     10.196856
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 6
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        1.200000E+02   0.000000E+00                      1.052632
+      jendl5.0                NDL                  2021        1.200000E+02   0.000000E+00                      1.052632
+      endfb8.1                NDL                  2024        1.529410E+02   0.000000E+00                      1.341588
       TARES                   NDL                  2025        1.492650E+02   0.000000E+00                      1.309342
+      tendl.2025              NDL                  2025        1.492650E+02   0.000000E+00                      1.309342
+      jeff4.0                 NDL                  2025        1.492650E+02   0.000000E+00                      1.309342

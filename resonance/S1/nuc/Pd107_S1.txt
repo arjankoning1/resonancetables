@@ -1,7 +1,7 @@
 # header: 
 #   title: Pd107 S1 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 46
 #   A: 107
@@ -12,9 +12,9 @@
 #   selected value [*e-4]:  5.500000E+00
 #   selected value uncertainty [*e-4]:  5.000000E-01
 #   selected value source: Mughabghab-2018
-#   number of values: 2
-#   average value [b]:  3.009026E+00
-#   relative standard deviation [%]:     82.783394
+#   number of values: 6
+#   average value [b]:  2.455532E+00
+#   relative standard deviation [%]:     84.237862
 # quantity: 
 #   type: Compilation
 #   average value:  5.500000E+00
@@ -27,11 +27,15 @@
       Mughabghab-2018         Compilation          2018        5.500000E+00   5.000000E-01                      1.000000
 # quantity: 
 #   type: Nuclear data library
-#   average value:  5.180520E-01
-#   relative standard deviation [%]:      0.000000
+#   average value:  1.846638E+00
+#   relative standard deviation [%]:     92.374969
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []           [*e-4]         [*e-4]           []             []
+      jendl5.0                NDL                  2021        4.649080E+00   0.000000E+00                      0.845287
+      endfb8.1                NDL                  2024        3.029950E+00   0.000000E+00                      0.550900
       TARES                   NDL                  2025        5.180520E-01   0.000000E+00                      0.094191
+      tendl.2025              NDL                  2025        5.180510E-01   0.000000E+00                      0.094191
+      jeff4.0                 NDL                  2025        5.180600E-01   0.000000E+00                      0.094193

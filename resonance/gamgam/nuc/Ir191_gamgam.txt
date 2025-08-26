@@ -1,7 +1,7 @@
 # header: 
 #   title: Ir191 gamgam resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 77
 #   A: 191
@@ -12,9 +12,9 @@
 #   selected value [eV]:  8.100000E-02
 #   selected value uncertainty [eV]:  1.100000E-02
 #   selected value source: RIPL-3
-#   number of values: 5
-#   average value [b]:  8.265636E-02
-#   relative standard deviation [%]:      2.993741
+#   number of values: 9
+#   average value [b]:  8.323342E-02
+#   relative standard deviation [%]:      2.578953
 # quantity: 
 #   type: Compilation
 #   average value:  8.066667E-02
@@ -39,11 +39,15 @@
       ZoInOkkk                EXFOR                1982        8.600000E-02   4.000000E-03       41287004       1.061728
 # quantity: 
 #   type: Nuclear data library
-#   average value:  8.528180E-02
-#   relative standard deviation [%]:      0.000000
+#   average value:  8.422016E-02
+#   relative standard deviation [%]:      1.549547
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        8.245100E-02   0.000000E+00                      1.017914
+      endfb8.1                NDL                  2024        8.280440E-02   0.000000E+00                      1.022277
       TARES                   NDL                  2025        8.528180E-02   0.000000E+00                      1.052862
+      tendl.2025              NDL                  2025        8.528180E-02   0.000000E+00                      1.052862
+      jeff4.0                 NDL                  2025        8.528180E-02   0.000000E+00                      1.052862

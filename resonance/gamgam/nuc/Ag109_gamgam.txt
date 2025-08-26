@@ -1,7 +1,7 @@
 # header: 
 #   title: Ag109 gamgam resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 47
 #   A: 109
@@ -12,9 +12,9 @@
 #   selected value [eV]:  1.300000E-01
 #   selected value uncertainty [eV]:  1.500000E-02
 #   selected value source: RIPL-3
-#   number of values: 6
-#   average value [b]:  1.343387E-01
-#   relative standard deviation [%]:      4.089129
+#   number of values: 11
+#   average value [b]:  1.530804E-01
+#   relative standard deviation [%]:     26.123951
 # quantity: 
 #   type: Compilation
 #   average value:  1.336667E-01
@@ -40,11 +40,16 @@
       Anufriev                EXFOR                1982        1.430000E-01   1.000000E-02      406220033       1.100000
 # quantity: 
 #   type: Nuclear data library
-#   average value:  1.300320E-01
-#   relative standard deviation [%]:      0.000000
+#   average value:  1.679807E-01
+#   relative standard deviation [%]:     29.267372
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 6
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        2.357020E-01   0.000000E+00                      1.813092
+      jendl5.0                NDL                  2021        2.386460E-01   0.000000E+00                      1.835738
+      endfb8.1                NDL                  2024        1.434400E-01   0.000000E+00                      1.103384
       TARES                   NDL                  2025        1.300320E-01   0.000000E+00                      1.000246
+      tendl.2025              NDL                  2025        1.300320E-01   0.000000E+00                      1.000246
+      jeff4.0                 NDL                  2025        1.300320E-01   0.000000E+00                      1.000246

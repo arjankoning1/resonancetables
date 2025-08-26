@@ -1,7 +1,7 @@
 # header: 
 #   title: Ti049 gamgam1 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 22
 #   A: 49
@@ -12,9 +12,9 @@
 #   selected value [eV]:  4.000000E-01
 #   selected value uncertainty [eV]:  1.200000E-01
 #   selected value source: RIPL-2
-#   number of values: 3
-#   average value [b]:  5.284523E-01
-#   relative standard deviation [%]:     27.953476
+#   number of values: 8
+#   average value [b]:  6.289508E-01
+#   relative standard deviation [%]:     28.408228
 # quantity: 
 #   type: Compilation
 #   average value:  4.250000E-01
@@ -28,11 +28,16 @@
       Mughabghab-2018         Compilation          2018        4.500000E-01   2.800000E-01                      1.125000
 # quantity: 
 #   type: Nuclear data library
-#   average value:  7.353570E-01
-#   relative standard deviation [%]:      0.000000
+#   average value:  6.969345E-01
+#   relative standard deviation [%]:     22.168549
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 6
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        3.557140E-01   0.000000E+00                      0.889285
+      jendl5.0                NDL                  2021        7.945450E-01   0.000000E+00                      1.986362
+      endfb8.1                NDL                  2024        7.945450E-01   0.000000E+00                      1.986362
       TARES                   NDL                  2025        7.353570E-01   0.000000E+00                      1.838392
+      tendl.2025              NDL                  2025        7.353570E-01   0.000000E+00                      1.838392
+      jeff4.0                 NDL                  2025        7.660890E-01   0.000000E+00                      1.915223

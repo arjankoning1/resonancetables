@@ -1,7 +1,7 @@
 # header: 
 #   title: Rh103 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 45
 #   A: 103
@@ -12,9 +12,9 @@
 #   selected value [eV]:  3.200000E+01
 #   selected value uncertainty [eV]:  4.000000E+00
 #   selected value source: RIPL-3
-#   number of values: 10
-#   average value [b]:  3.385962E+01
-#   relative standard deviation [%]:     79.897400
+#   number of values: 13
+#   average value [b]:  3.344814E+01
+#   relative standard deviation [%]:     71.939941
 # quantity: 
 #   type: Compilation
 #   average value:  3.126667E+01
@@ -44,11 +44,14 @@
       L.C.Mihailescu          EXFOR                2007        2.314000E+01   0.000000E+00      22986-004       0.723125   6.000000E-03   9.600000E-02       0.0                                   
 # quantity: 
 #   type: Nuclear data library
-#   average value:  4.365620E+01
-#   relative standard deviation [%]:      0.000000
+#   average value:  3.497148E+01
+#   relative standard deviation [%]:     24.833849
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        2.632350E+01   0.000000E+00                      0.822609
+      jendl5.0                NDL                  2021        2.625000E+01   0.000000E+00                      0.820312
       TARES                   NDL                  2025        4.365620E+01   0.000000E+00                      1.364256
+      tendl.2025              NDL                  2025        4.365620E+01   0.000000E+00                      1.364256

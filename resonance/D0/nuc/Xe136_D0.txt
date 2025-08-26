@@ -1,7 +1,7 @@
 # header: 
 #   title: Xe136 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 54
 #   A: 136
@@ -12,9 +12,9 @@
 #   selected value [eV]:  2.880000E+04
 #   selected value uncertainty [eV]:  2.700000E+03
 #   selected value source: RIPL-3
-#   number of values: 2
-#   average value [b]:  2.090000E+04
-#   relative standard deviation [%]:     37.799042
+#   number of values: 3
+#   average value [b]:  6.837766E+04
+#   relative standard deviation [%]:     98.647240
 # quantity: 
 #   type: Compilation
 #   average value:  2.090000E+04
@@ -26,3 +26,13 @@
 ##      []             []             []             []            [eV]           [eV]            []             []             []
       RIPL-2                  Compilation          2000        1.300000E+04   6.000000E+03            97I       0.451389               
       RIPL-3                  Compilation          2009        2.880000E+04   2.700000E+03           *07I       1.000000               
+# quantity: 
+#   type: Nuclear data library
+#   average value:  1.633330E+05
+#   relative standard deviation [%]:      0.000000
+# datablock: 
+#   columns: 8
+#   entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        1.633330E+05   0.000000E+00                      5.671285

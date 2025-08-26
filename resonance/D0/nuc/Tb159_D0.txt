@@ -1,7 +1,7 @@
 # header: 
 #   title: Tb159 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 65
 #   A: 159
@@ -12,9 +12,9 @@
 #   selected value [eV]:  3.820000E+00
 #   selected value uncertainty [eV]:  2.400000E+00
 #   selected value source: RIPL-3
-#   number of values: 17
-#   average value [b]:  6.742835E+00
-#   relative standard deviation [%]:     68.995888
+#   number of values: 21
+#   average value [b]:  6.482592E+00
+#   relative standard deviation [%]:     65.099518
 # quantity: 
 #   type: Compilation
 #   average value:  3.933333E+00
@@ -51,11 +51,15 @@
       V.P.Vertebnyy           EXFOR                1983        4.200000E+00   0.000000E+00      40846-003       1.099476   2.500000E-08   1.000000E-04       0.0                                   
 # quantity: 
 #   type: Nuclear data library
-#   average value:  5.398190E+00
-#   relative standard deviation [%]:      0.000000
+#   average value:  5.380886E+00
+#   relative standard deviation [%]:      0.964763
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        5.280000E+00   0.000000E+00                      1.382199
+      endfb8.1                NDL                  2024        5.429860E+00   0.000000E+00                      1.421429
       TARES                   NDL                  2025        5.398190E+00   0.000000E+00                      1.413139
+      tendl.2025              NDL                  2025        5.398190E+00   0.000000E+00                      1.413139
+      jeff4.0                 NDL                  2025        5.398190E+00   0.000000E+00                      1.413139

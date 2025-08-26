@@ -1,7 +1,7 @@
 # header: 
 #   title: Sn115 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 50
 #   A: 115
@@ -12,9 +12,9 @@
 #   selected value [eV]:  4.600000E+01
 #   selected value uncertainty [eV]:  1.400000E+01
 #   selected value source: V.M.Timokhov
-#   number of values: 1
-#   average value [b]:  4.600000E+01
-#   relative standard deviation [%]:      0.000000
+#   number of values: 7
+#   average value [b]:  1.531600E+02
+#   relative standard deviation [%]:     89.432915
 # quantity: 
 #   type: EXFOR
 #   average value:  4.600000E+01
@@ -25,3 +25,18 @@
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
 ##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
       V.M.Timokhov            EXFOR                1988        4.600000E+01   1.400000E+01      40960-055       1.000000   2.000000E-02   1.400000E+00       0.0                                   
+# quantity: 
+#   type: Nuclear data library
+#   average value:  1.710200E+02
+#   relative standard deviation [%]:     81.979599
+# datablock: 
+#   columns: 8
+#   entries: 6
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        3.166670E+02   0.000000E+00                      6.884065
+      jendl5.0                NDL                  2021        3.166670E+02   0.000000E+00                      6.884065
+      endfb8.1                NDL                  2024        3.000000E+02   0.000000E+00                      6.521739
+      TARES                   NDL                  2025        3.092860E+01   0.000000E+00                      0.672361
+      tendl.2025              NDL                  2025        3.092860E+01   0.000000E+00                      0.672361
+      jeff4.0                 NDL                  2025        3.092860E+01   0.000000E+00                      0.672361

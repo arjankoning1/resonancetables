@@ -1,7 +1,7 @@
 # header: 
 #   title: Ag107 S1 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 47
 #   A: 107
@@ -12,9 +12,9 @@
 #   selected value [*e-4]:  4.500000E+00
 #   selected value uncertainty [*e-4]:  6.000000E-01
 #   selected value source: RIPL-3
-#   number of values: 4
-#   average value [b]:  4.357415E+00
-#   relative standard deviation [%]:     15.016455
+#   number of values: 9
+#   average value [b]:  4.542309E+00
+#   relative standard deviation [%]:     23.457867
 # quantity: 
 #   type: Compilation
 #   average value:  4.020000E+00
@@ -29,11 +29,16 @@
       Mughabghab-2018         Compilation          2018        3.760000E+00   3.100000E-01                      0.835556
 # quantity: 
 #   type: Nuclear data library
-#   average value:  5.369660E+00
-#   relative standard deviation [%]:      0.000000
+#   average value:  4.803463E+00
+#   relative standard deviation [%]:     24.987949
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 6
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []           [*e-4]         [*e-4]           []             []
+      cendl3.2                NDL                  2019        5.109930E+00   0.000000E+00                      1.135540
+      jendl5.0                NDL                  2021        5.470930E+00   0.000000E+00                      1.215762
+      endfb8.1                NDL                  2024        2.130850E+00   0.000000E+00                      0.473522
       TARES                   NDL                  2025        5.369660E+00   0.000000E+00                      1.193258
+      tendl.2025              NDL                  2025        5.369660E+00   0.000000E+00                      1.193258
+      jeff4.0                 NDL                  2025        5.369750E+00   0.000000E+00                      1.193278

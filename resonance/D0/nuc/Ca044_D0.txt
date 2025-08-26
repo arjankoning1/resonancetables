@@ -1,7 +1,7 @@
 # header: 
 #   title: Ca044 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 20
 #   A: 44
@@ -12,9 +12,9 @@
 #   selected value [eV]:  2.410000E+04
 #   selected value uncertainty [eV]:  3.200000E+03
 #   selected value source: RIPL-3
-#   number of values: 5
-#   average value [b]:  2.198002E+04
-#   relative standard deviation [%]:     16.086197
+#   number of values: 9
+#   average value [b]:  2.319154E+04
+#   relative standard deviation [%]:     18.607441
 # quantity: 
 #   type: Compilation
 #   average value:  2.463333E+04
@@ -39,11 +39,15 @@
       A.R.De L.Musgrove       EXFOR                1977        1.600000E+04   2.000000E+03      30356-010       0.663900   2.500000E-03   1.650000E-01       0.0                                   
 # quantity: 
 #   type: Nuclear data library
-#   average value:  2.000010E+04
-#   relative standard deviation [%]:      0.000000
+#   average value:  2.376478E+04
+#   relative standard deviation [%]:     19.401705
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        2.941180E+04   0.000000E+00                      1.220407
+      endfb8.1                NDL                  2024        2.941180E+04   0.000000E+00                      1.220407
       TARES                   NDL                  2025        2.000010E+04   0.000000E+00                      0.829880
+      tendl.2025              NDL                  2025        2.000010E+04   0.000000E+00                      0.829880
+      jeff4.0                 NDL                  2025        2.000010E+04   0.000000E+00                      0.829880

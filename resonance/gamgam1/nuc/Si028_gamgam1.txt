@@ -1,7 +1,7 @@
 # header: 
 #   title: Si028 gamgam1 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 14
 #   A: 28
@@ -12,9 +12,9 @@
 #   selected value [eV]:  2.700000E+00
 #   selected value uncertainty [eV]:  9.000000E-01
 #   selected value source: RIPL-3
-#   number of values: 2
-#   average value [b]:  4.213000E+00
-#   relative standard deviation [%]:     35.912651
+#   number of values: 5
+#   average value [b]:  5.120800E+00
+#   relative standard deviation [%]:     23.636930
 # quantity: 
 #   type: Compilation
 #   average value:  2.700000E+00
@@ -31,7 +31,10 @@
 #   relative standard deviation [%]:      0.000000
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        5.726000E+00   0.000000E+00                      2.120741
+      jendl5.0                NDL                  2021        5.726000E+00   0.000000E+00                      2.120741
       TARES                   NDL                  2025        5.726000E+00   0.000000E+00                      2.120741
+      tendl.2025              NDL                  2025        5.726000E+00   0.000000E+00                      2.120741

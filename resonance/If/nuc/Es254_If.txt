@@ -1,7 +1,7 @@
 # header: 
 #   title: Es254 If resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 99
 #   A: 254
@@ -12,9 +12,9 @@
 #   selected value [eV]:  1.010000E+03
 #   selected value uncertainty [eV]:  8.000000E+01
 #   selected value source: Mughabghab-2018
-#   number of values: 5
-#   average value [b]:  1.324000E+03
-#   relative standard deviation [%]:     33.698330
+#   number of values: 9
+#   average value [b]:  1.242694E+03
+#   relative standard deviation [%]:     27.821447
 # quantity: 
 #   type: Compilation
 #   average value:  1.105000E+03
@@ -38,3 +38,16 @@
       Macmurdo                EXFOR                1972        2.200000E+03   9.000000E+01       10281002       2.178218
       Halperin                EXFOR                1985        1.200000E+03   2.500000E+02       12933005       1.188119
       Danon                   EXFOR                1994        1.010000E+03   8.000000E+01       13646009       1.000000
+# quantity: 
+#   type: Nuclear data library
+#   average value:  1.141062E+03
+#   relative standard deviation [%]:      3.424825
+# datablock: 
+#   columns: 8
+#   entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        1.118500E+03   0.000000E+00                      1.107426
+      endfb8.1                NDL                  2024        1.118500E+03   0.000000E+00                      1.107426
+      tendl.2025              NDL                  2025        1.208750E+03   0.000000E+00                      1.196782
+      jeff4.0                 NDL                  2025        1.118500E+03   0.000000E+00                      1.107426

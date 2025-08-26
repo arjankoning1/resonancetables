@@ -1,7 +1,7 @@
 # header: 
 #   title: Cm247 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 96
 #   A: 247
@@ -12,9 +12,9 @@
 #   selected value [eV]:  1.200000E+00
 #   selected value uncertainty [eV]:  3.000000E-01
 #   selected value source: RIPL-3
-#   number of values: 6
-#   average value [b]:  1.765238E+00
-#   relative standard deviation [%]:     59.840496
+#   number of values: 10
+#   average value [b]:  1.629857E+00
+#   relative standard deviation [%]:     51.222946
 # quantity: 
 #   type: Compilation
 #   average value:  1.200000E+00
@@ -40,11 +40,15 @@
       Y.Danon                 EXFOR                1994        1.470000E+00   3.000000E-02      13646-006       1.225000   1.200000E-06   2.200000E-05       0.0                                   
 # quantity: 
 #   type: Nuclear data library
-#   average value:  1.421430E+00
-#   relative standard deviation [%]:      0.000000
+#   average value:  1.425714E+00
+#   relative standard deviation [%]:      0.245343
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        1.428570E+00   0.000000E+00                      1.190475
+      endfb8.1                NDL                  2024        1.428570E+00   0.000000E+00                      1.190475
       TARES                   NDL                  2025        1.421430E+00   0.000000E+00                      1.184525
+      tendl.2025              NDL                  2025        1.421430E+00   0.000000E+00                      1.184525
+      jeff4.0                 NDL                  2025        1.428570E+00   0.000000E+00                      1.190475

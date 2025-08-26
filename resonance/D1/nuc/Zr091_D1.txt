@@ -1,7 +1,7 @@
 # header: 
 #   title: Zr091 D1 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 40
 #   A: 91
@@ -12,9 +12,9 @@
 #   selected value [eV]:  2.500000E+02
 #   selected value uncertainty [eV]:  3.000000E+01
 #   selected value source: RIPL-3
-#   number of values: 7
-#   average value [b]:  3.208591E+02
-#   relative standard deviation [%]:     36.141338
+#   number of values: 12
+#   average value [b]:  2.972546E+02
+#   relative standard deviation [%]:     31.387934
 # quantity: 
 #   type: Compilation
 #   average value:  2.710000E+02
@@ -41,11 +41,16 @@
       G.Tagliente             EXFOR                2008        2.600000E+02   2.000000E+01      23044-003       1.040000   1.594300E-04   2.612600E-02       1.0                                   
 # quantity: 
 #   type: Nuclear data library
-#   average value:  2.750140E+02
-#   relative standard deviation [%]:      0.000000
+#   average value:  2.660093E+02
+#   relative standard deviation [%]:      5.016920
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 6
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        2.766970E+02   0.000000E+00                      1.106788
+      jendl5.0                NDL                  2021        2.476190E+02   0.000000E+00                      0.990476
+      endfb8.1                NDL                  2024        2.466980E+02   0.000000E+00                      0.986792
       TARES                   NDL                  2025        2.750140E+02   0.000000E+00                      1.100056
+      tendl.2025              NDL                  2025        2.750140E+02   0.000000E+00                      1.100056
+      jeff4.0                 NDL                  2025        2.750140E+02   0.000000E+00                      1.100056

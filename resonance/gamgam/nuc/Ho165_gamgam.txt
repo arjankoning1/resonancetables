@@ -1,7 +1,7 @@
 # header: 
 #   title: Ho165 gamgam resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 67
 #   A: 165
@@ -12,9 +12,9 @@
 #   selected value [eV]:  7.700001E-02
 #   selected value uncertainty [eV]:  5.000000E-03
 #   selected value source: RIPL-3
-#   number of values: 7
-#   average value [b]:  8.980139E-02
-#   relative standard deviation [%]:     28.754509
+#   number of values: 12
+#   average value [b]:  9.038824E-02
+#   relative standard deviation [%]:     22.058432
 # quantity: 
 #   type: Compilation
 #   average value:  7.933334E-02
@@ -41,11 +41,16 @@
       Trofimova               EXFOR                1977        7.300000E-02   4.599000E-04      405940043       0.948052
 # quantity: 
 #   type: Nuclear data library
-#   average value:  9.660970E-02
-#   relative standard deviation [%]:      0.000000
+#   average value:  9.210981E-02
+#   relative standard deviation [%]:      4.885362
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 6
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        8.760990E-02   0.000000E+00                      1.137791
+      jendl5.0                NDL                  2021        8.760990E-02   0.000000E+00                      1.137791
+      endfb8.1                NDL                  2024        8.760990E-02   0.000000E+00                      1.137791
       TARES                   NDL                  2025        9.660970E-02   0.000000E+00                      1.254671
+      tendl.2025              NDL                  2025        9.660970E-02   0.000000E+00                      1.254671
+      jeff4.0                 NDL                  2025        9.660970E-02   0.000000E+00                      1.254671

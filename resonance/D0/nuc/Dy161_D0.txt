@@ -1,7 +1,7 @@
 # header: 
 #   title: Dy161 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 66
 #   A: 161
@@ -12,9 +12,9 @@
 #   selected value [eV]:  2.400000E+00
 #   selected value uncertainty [eV]:  2.000000E-01
 #   selected value source: RIPL-3
-#   number of values: 11
-#   average value [b]:  3.087850E+00
-#   relative standard deviation [%]:     38.148384
+#   number of values: 15
+#   average value [b]:  3.270348E+00
+#   relative standard deviation [%]:     32.339050
 # quantity: 
 #   type: Compilation
 #   average value:  2.293333E+00
@@ -45,11 +45,15 @@
       I.Knapova               EXFOR                2022        2.150000E+00   5.000000E-02      14839-005       0.895833                                     0.0                                   
 # quantity: 
 #   type: Nuclear data library
-#   average value:  3.956350E+00
-#   relative standard deviation [%]:      0.000000
+#   average value:  3.809046E+00
+#   relative standard deviation [%]:      4.803687
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        3.539820E+00   0.000000E+00                      1.474925
+      endfb8.1                NDL                  2024        3.636360E+00   0.000000E+00                      1.515150
       TARES                   NDL                  2025        3.956350E+00   0.000000E+00                      1.648479
+      tendl.2025              NDL                  2025        3.956350E+00   0.000000E+00                      1.648479
+      jeff4.0                 NDL                  2025        3.956350E+00   0.000000E+00                      1.648479

@@ -1,7 +1,7 @@
 # header: 
 #   title: Zr094 S0 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 40
 #   A: 94
@@ -12,9 +12,9 @@
 #   selected value [*e-4]:  5.200000E-01
 #   selected value uncertainty [*e-4]:  1.000000E-01
 #   selected value source: RIPL-3
-#   number of values: 4
-#   average value [b]:  5.996547E-01
-#   relative standard deviation [%]:     14.204808
+#   number of values: 9
+#   average value [b]:  5.601618E-01
+#   relative standard deviation [%]:     12.042368
 # quantity: 
 #   type: Compilation
 #   average value:  6.266667E-01
@@ -29,11 +29,16 @@
       Mughabghab-2018         Compilation          2018        6.400000E-01   2.000000E-01                      1.230769
 # quantity: 
 #   type: Nuclear data library
-#   average value:  5.186190E-01
-#   relative standard deviation [%]:      0.000000
+#   average value:  5.269094E-01
+#   relative standard deviation [%]:      2.169415
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 6
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []           [*e-4]         [*e-4]           []             []
+      cendl3.2                NDL                  2019        5.358870E-01   0.000000E+00                      1.030552
+      jendl5.0                NDL                  2021        5.484740E-01   0.000000E+00                      1.054758
+      endfb8.1                NDL                  2024        5.212380E-01   0.000000E+00                      1.002381
       TARES                   NDL                  2025        5.186190E-01   0.000000E+00                      0.997344
+      tendl.2025              NDL                  2025        5.186190E-01   0.000000E+00                      0.997344
+      jeff4.0                 NDL                  2025        5.186190E-01   0.000000E+00                      0.997344

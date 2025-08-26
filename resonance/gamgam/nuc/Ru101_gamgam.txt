@@ -1,7 +1,7 @@
 # header: 
 #   title: Ru101 gamgam resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 44
 #   A: 101
@@ -12,9 +12,9 @@
 #   selected value [eV]:  1.800000E-01
 #   selected value uncertainty [eV]:  1.500000E-02
 #   selected value source: RIPL-3
-#   number of values: 7
-#   average value [b]:  1.808961E-01
-#   relative standard deviation [%]:      3.288553
+#   number of values: 12
+#   average value [b]:  1.802089E-01
+#   relative standard deviation [%]:      2.895093
 # quantity: 
 #   type: Compilation
 #   average value:  1.810000E-01
@@ -41,11 +41,16 @@
       Popov                   EXFOR                1979        1.750000E-01   0.000000E+00      405910072       0.972222
 # quantity: 
 #   type: Nuclear data library
-#   average value:  1.752730E-01
-#   relative standard deviation [%]:      0.000000
+#   average value:  1.785845E-01
+#   relative standard deviation [%]:      2.096843
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 6
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        1.784360E-01   0.000000E+00                      0.991311
+      jendl5.0                NDL                  2021        1.840620E-01   0.000000E+00                      1.022567
+      endfb8.1                NDL                  2024        1.831900E-01   0.000000E+00                      1.017722
       TARES                   NDL                  2025        1.752730E-01   0.000000E+00                      0.973739
+      tendl.2025              NDL                  2025        1.752730E-01   0.000000E+00                      0.973739
+      jeff4.0                 NDL                  2025        1.752730E-01   0.000000E+00                      0.973739

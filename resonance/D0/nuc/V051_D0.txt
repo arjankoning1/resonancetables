@@ -1,7 +1,7 @@
 # header: 
 #   title: V051 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 23
 #   A: 51
@@ -12,9 +12,9 @@
 #   selected value [eV]:  4.000000E+03
 #   selected value uncertainty [eV]:  6.000000E+02
 #   selected value source: RIPL-3
-#   number of values: 15
-#   average value [b]:  8.176001E+03
-#   relative standard deviation [%]:     59.543209
+#   number of values: 18
+#   average value [b]:  7.538084E+03
+#   relative standard deviation [%]:     61.922153
 # quantity: 
 #   type: Compilation
 #   average value:  4.016667E+03
@@ -49,11 +49,14 @@
       J.B.Garg                EXFOR                1978        8.700000E+03   1.250000E+03      10716-008       2.175000                                     0.0            3.0                    
 # quantity: 
 #   type: Nuclear data library
-#   average value:  4.250020E+03
-#   relative standard deviation [%]:      0.000000
+#   average value:  4.323877E+03
+#   relative standard deviation [%]:      2.958572
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        4.545450E+03   0.000000E+00                      1.136363
       TARES                   NDL                  2025        4.250020E+03   0.000000E+00                      1.062505
+      tendl.2025              NDL                  2025        4.250020E+03   0.000000E+00                      1.062505
+      jeff4.0                 NDL                  2025        4.250020E+03   0.000000E+00                      1.062505

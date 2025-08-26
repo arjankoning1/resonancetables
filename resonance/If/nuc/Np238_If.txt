@@ -1,7 +1,7 @@
 # header: 
 #   title: Np238 If resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 93
 #   A: 238
@@ -12,9 +12,9 @@
 #   selected value [eV]:  8.830000E+02
 #   selected value uncertainty [eV]:  7.000000E+01
 #   selected value source: Mughabghab-2018
-#   number of values: 6
-#   average value [b]:  1.005000E+03
-#   relative standard deviation [%]:     18.360569
+#   number of values: 11
+#   average value [b]:  1.041751E+03
+#   relative standard deviation [%]:     15.049567
 # quantity: 
 #   type: Compilation
 #   average value:  9.553333E+02
@@ -39,3 +39,17 @@
       Spencer                 EXFOR                1969        8.800000E+02   7.000000E+01       12475003       0.996602
       Abramovich              EXFOR                1995        9.050000E+02   4.800000E+01       41324004       1.024915
       Danon                   EXFOR                1996        1.379000E+03   3.000000E+01       13602011       1.561721
+# quantity: 
+#   type: Nuclear data library
+#   average value:  1.085853E+03
+#   relative standard deviation [%]:      9.047078
+# datablock: 
+#   columns: 8
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        1.258050E+03   0.000000E+00                      1.424745
+      jendl5.0                NDL                  2021        1.095680E+03   0.000000E+00                      1.240861
+      endfb8.1                NDL                  2024        1.095680E+03   0.000000E+00                      1.240861
+      tendl.2025              NDL                  2025        9.915940E+02   0.000000E+00                      1.122983
+      jeff4.0                 NDL                  2025        9.882630E+02   0.000000E+00                      1.119211

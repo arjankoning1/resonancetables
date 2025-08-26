@@ -1,7 +1,7 @@
 # header: 
 #   title: Se074 gamgam resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 34
 #   A: 74
@@ -12,9 +12,9 @@
 #   selected value [eV]:  2.800000E-01
 #   selected value uncertainty [eV]:  8.000001E-02
 #   selected value source: RIPL-3
-#   number of values: 6
-#   average value [b]:  2.598327E-01
-#   relative standard deviation [%]:      9.454731
+#   number of values: 11
+#   average value [b]:  2.599080E-01
+#   relative standard deviation [%]:      9.439878
 # quantity: 
 #   type: Compilation
 #   average value:  2.696667E-01
@@ -40,11 +40,16 @@
       Julien                  EXFOR                1969        2.300000E-01   5.000000E-02       20687007       0.821429
 # quantity: 
 #   type: Nuclear data library
-#   average value:  2.299960E-01
-#   relative standard deviation [%]:      0.000000
+#   average value:  2.549980E-01
+#   relative standard deviation [%]:      9.804784
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 6
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        2.800000E-01   0.000000E+00                      1.000000
+      jendl5.0                NDL                  2021        2.800000E-01   0.000000E+00                      1.000000
+      endfb8.1                NDL                  2024        2.800000E-01   0.000000E+00                      1.000000
       TARES                   NDL                  2025        2.299960E-01   0.000000E+00                      0.821414
+      tendl.2025              NDL                  2025        2.299960E-01   0.000000E+00                      0.821414
+      jeff4.0                 NDL                  2025        2.299960E-01   0.000000E+00                      0.821414

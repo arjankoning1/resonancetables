@@ -1,7 +1,7 @@
 # header: 
 #   title: Hg200 gamgam1 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 80
 #   A: 200
@@ -12,9 +12,9 @@
 #   selected value [eV]:  2.246000E-01
 #   selected value uncertainty [eV]:  3.500000E-02
 #   selected value source: Mughabghab-2018
-#   number of values: 2
-#   average value [b]:  3.171570E-01
-#   relative standard deviation [%]:     29.183338
+#   number of values: 5
+#   average value [b]:  3.907484E-01
+#   relative standard deviation [%]:     23.066902
 # quantity: 
 #   type: Compilation
 #   average value:  2.246000E-01
@@ -27,11 +27,14 @@
       Mughabghab-2018         Compilation          2018        2.246000E-01   3.500000E-02                      1.000000
 # quantity: 
 #   type: Nuclear data library
-#   average value:  4.097140E-01
-#   relative standard deviation [%]:      0.000000
+#   average value:  4.322855E-01
+#   relative standard deviation [%]:      9.043787
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        5.000000E-01   0.000000E+00                      2.226180
       TARES                   NDL                  2025        4.097140E-01   0.000000E+00                      1.824194
+      tendl.2025              NDL                  2025        4.097140E-01   0.000000E+00                      1.824194
+      jeff4.0                 NDL                  2025        4.097140E-01   0.000000E+00                      1.824194

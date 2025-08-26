@@ -1,7 +1,7 @@
 # header: 
 #   title: Br081 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 35
 #   A: 81
@@ -12,9 +12,9 @@
 #   selected value [eV]:  1.000000E+02
 #   selected value uncertainty [eV]:  1.500000E+01
 #   selected value source: RIPL-3
-#   number of values: 5
-#   average value [b]:  1.262264E+02
-#   relative standard deviation [%]:     39.254829
+#   number of values: 9
+#   average value [b]:  1.490298E+02
+#   relative standard deviation [%]:     41.735455
 # quantity: 
 #   type: Compilation
 #   average value:  1.156667E+02
@@ -39,11 +39,15 @@
       M.Ohkubo                EXFOR                1981        7.000000E+01   1.200000E+01      21294-003       0.700000                  2.500000E-03       0.0                                   
 # quantity: 
 #   type: Nuclear data library
-#   average value:  2.141320E+02
-#   relative standard deviation [%]:      0.000000
+#   average value:  1.848537E+02
+#   relative standard deviation [%]:     32.243889
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        6.565660E+01   0.000000E+00                      0.656566
+      endfb8.1                NDL                  2024        2.162160E+02   0.000000E+00                      2.162160
       TARES                   NDL                  2025        2.141320E+02   0.000000E+00                      2.141320
+      tendl.2025              NDL                  2025        2.141320E+02   0.000000E+00                      2.141320
+      jeff4.0                 NDL                  2025        2.141320E+02   0.000000E+00                      2.141320

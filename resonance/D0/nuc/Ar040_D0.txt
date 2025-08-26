@@ -1,7 +1,7 @@
 # header: 
 #   title: Ar040 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 18
 #   A: 40
@@ -12,9 +12,9 @@
 #   selected value [eV]:  5.200000E+04
 #   selected value uncertainty [eV]:  4.700000E+03
 #   selected value source: RIPL-3
-#   number of values: 6
-#   average value [b]:  6.239764E+04
-#   relative standard deviation [%]:     21.376938
+#   number of values: 10
+#   average value [b]:  6.277691E+04
+#   relative standard deviation [%]:     16.502285
 # quantity: 
 #   type: Compilation
 #   average value:  5.803333E+04
@@ -40,11 +40,15 @@
       R.R.Winters             EXFOR                1991        4.900000E+04   5.000000E+03      13501-005       0.942308   7.000000E-03   1.520000E+00       0.0                                   
 # quantity: 
 #   type: Nuclear data library
-#   average value:  6.428580E+04
-#   relative standard deviation [%]:      0.000000
+#   average value:  6.353380E+04
+#   relative standard deviation [%]:      1.449635
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        6.240580E+04   0.000000E+00                      1.200112
+      endfb8.1                NDL                  2024        6.240580E+04   0.000000E+00                      1.200112
       TARES                   NDL                  2025        6.428580E+04   0.000000E+00                      1.236265
+      tendl.2025              NDL                  2025        6.428580E+04   0.000000E+00                      1.236265
+      jeff4.0                 NDL                  2025        6.428580E+04   0.000000E+00                      1.236265

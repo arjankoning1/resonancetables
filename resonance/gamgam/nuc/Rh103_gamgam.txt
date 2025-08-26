@@ -1,7 +1,7 @@
 # header: 
 #   title: Rh103 gamgam resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 45
 #   A: 103
@@ -12,9 +12,9 @@
 #   selected value [eV]:  1.600000E-01
 #   selected value uncertainty [eV]:  1.000000E-02
 #   selected value source: RIPL-3
-#   number of values: 8
-#   average value [b]:  1.608308E-01
-#   relative standard deviation [%]:      9.497240
+#   number of values: 11
+#   average value [b]:  1.730572E-01
+#   relative standard deviation [%]:     15.331117
 # quantity: 
 #   type: Compilation
 #   average value:  1.643333E-01
@@ -42,11 +42,14 @@
       Mihailescu              EXFOR                2007        1.234000E-01   0.000000E+00      229860044       0.771250
 # quantity: 
 #   type: Nuclear data library
-#   average value:  1.752460E-01
-#   relative standard deviation [%]:      0.000000
+#   average value:  1.980572E-01
+#   relative standard deviation [%]:     11.802235
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        2.136510E-01   0.000000E+00                      1.335319
+      jendl5.0                NDL                  2021        2.280860E-01   0.000000E+00                      1.425537
       TARES                   NDL                  2025        1.752460E-01   0.000000E+00                      1.095287
+      tendl.2025              NDL                  2025        1.752460E-01   0.000000E+00                      1.095287

@@ -1,7 +1,7 @@
 # header: 
 #   title: Xe128 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 54
 #   A: 128
@@ -12,9 +12,9 @@
 #   selected value [eV]:  2.500000E+02
 #   selected value uncertainty [eV]:  1.000000E+02
 #   selected value source: RIPL-3
-#   number of values: 5
-#   average value [b]:  2.389080E+02
-#   relative standard deviation [%]:     10.894195
+#   number of values: 9
+#   average value [b]:  2.506342E+02
+#   relative standard deviation [%]:      9.973693
 # quantity: 
 #   type: Compilation
 #   average value:  2.400000E+02
@@ -39,11 +39,15 @@
       P.Ribon                 EXFOR                1969        2.000000E+02   0.000000E+00      20149-021       0.800000   2.300000E-04   3.440000E-03       0.0                                   
 # quantity: 
 #   type: Nuclear data library
-#   average value:  2.745400E+02
-#   relative standard deviation [%]:      0.000000
+#   average value:  2.671416E+02
+#   relative standard deviation [%]:      4.609977
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        2.428570E+02   0.000000E+00                      0.971428
+      endfb8.1                NDL                  2024        2.692310E+02   0.000000E+00                      1.076924
       TARES                   NDL                  2025        2.745400E+02   0.000000E+00                      1.098160
+      tendl.2025              NDL                  2025        2.745400E+02   0.000000E+00                      1.098160
+      jeff4.0                 NDL                  2025        2.745400E+02   0.000000E+00                      1.098160

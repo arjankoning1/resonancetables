@@ -1,7 +1,7 @@
 # header: 
 #   title: Np237 If resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 93
 #   A: 237
@@ -12,9 +12,9 @@
 #   selected value [eV]:  4.700000E+00
 #   selected value uncertainty [eV]:  2.300000E-01
 #   selected value source: Mughabghab-2018
-#   number of values: 4
-#   average value [b]:  5.275000E+00
-#   relative standard deviation [%]:     18.880178
+#   number of values: 9
+#   average value [b]:  3.799566E+00
+#   relative standard deviation [%]:     38.884209
 # quantity: 
 #   type: Compilation
 #   average value:  5.466667E+00
@@ -37,3 +37,17 @@
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
       Kozharin                EXFOR                1986        4.700000E+00   2.300000E-01       40901003       1.000000
+# quantity: 
+#   type: Nuclear data library
+#   average value:  2.619218E+00
+#   relative standard deviation [%]:      1.079056
+# datablock: 
+#   columns: 8
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        2.623630E+00   0.000000E+00                      0.558219
+      jendl5.0                NDL                  2021        2.624380E+00   0.000000E+00                      0.558379
+      endfb8.1                NDL                  2024        2.600740E+00   0.000000E+00                      0.553349
+      tendl.2025              NDL                  2025        2.581440E+00   0.000000E+00                      0.549243
+      jeff4.0                 NDL                  2025        2.665900E+00   0.000000E+00                      0.567213

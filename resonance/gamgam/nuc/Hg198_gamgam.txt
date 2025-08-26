@@ -1,7 +1,7 @@
 # header: 
 #   title: Hg198 gamgam resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 80
 #   A: 198
@@ -12,9 +12,9 @@
 #   selected value [eV]:  1.200000E-01
 #   selected value uncertainty [eV]:  2.000000E-02
 #   selected value source: RIPL-3
-#   number of values: 5
-#   average value [b]:  1.324800E-01
-#   relative standard deviation [%]:     11.591059
+#   number of values: 9
+#   average value [b]:  1.401778E-01
+#   relative standard deviation [%]:     10.216246
 # quantity: 
 #   type: Compilation
 #   average value:  1.274667E-01
@@ -39,11 +39,15 @@
       Julien                  EXFOR                1969        1.300000E-01   8.000000E-03       20687038       1.083333
 # quantity: 
 #   type: Nuclear data library
-#   average value:  1.500000E-01
-#   relative standard deviation [%]:      0.000000
+#   average value:  1.498400E-01
+#   relative standard deviation [%]:      0.130781
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        1.496000E-01   0.000000E+00                      1.246667
+      endfb8.1                NDL                  2024        1.496000E-01   0.000000E+00                      1.246667
       TARES                   NDL                  2025        1.500000E-01   0.000000E+00                      1.250000
+      tendl.2025              NDL                  2025        1.500000E-01   0.000000E+00                      1.250000
+      jeff4.0                 NDL                  2025        1.500000E-01   0.000000E+00                      1.250000

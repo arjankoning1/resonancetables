@@ -1,7 +1,7 @@
 # header: 
 #   title: In113 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 49
 #   A: 113
@@ -12,9 +12,9 @@
 #   selected value [eV]:  1.070000E+01
 #   selected value uncertainty [eV]:  8.000000E-01
 #   selected value source: RIPL-3
-#   number of values: 7
-#   average value [b]:  1.357254E+01
-#   relative standard deviation [%]:     35.227806
+#   number of values: 12
+#   average value [b]:  1.534759E+01
+#   relative standard deviation [%]:     34.381462
 # quantity: 
 #   type: Compilation
 #   average value:  1.146667E+01
@@ -41,11 +41,16 @@
       I.A.Radkevich           EXFOR                1956        9.000000E+00   0.000000E+00      40382-055       0.841121   1.470000E-05   3.230000E-05       0.0                                   
 # quantity: 
 #   type: Nuclear data library
-#   average value:  2.460780E+01
-#   relative standard deviation [%]:      0.000000
+#   average value:  1.896185E+01
+#   relative standard deviation [%]:     27.183966
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 6
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        2.305560E+01   0.000000E+00                      2.154729
+      jendl5.0                NDL                  2021        1.383330E+01   0.000000E+00                      1.292832
+      endfb8.1                NDL                  2024        1.383330E+01   0.000000E+00                      1.292832
       TARES                   NDL                  2025        2.460780E+01   0.000000E+00                      2.299794
+      tendl.2025              NDL                  2025        2.460780E+01   0.000000E+00                      2.299794
+      jeff4.0                 NDL                  2025        1.383330E+01   0.000000E+00                      1.292832

@@ -1,7 +1,7 @@
 # header: 
 #   title: Gd156 gamgam resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 64
 #   A: 156
@@ -12,9 +12,9 @@
 #   selected value [eV]:  8.800001E-02
 #   selected value uncertainty [eV]:  1.200000E-02
 #   selected value source: RIPL-3
-#   number of values: 5
-#   average value [b]:  8.295106E-02
-#   relative standard deviation [%]:      5.229199
+#   number of values: 10
+#   average value [b]:  8.761681E-02
+#   relative standard deviation [%]:     11.323629
 # quantity: 
 #   type: Compilation
 #   average value:  8.493334E-02
@@ -39,11 +39,16 @@
       Karzhavina              EXFOR                1969        8.200000E-02   1.200000E-02       40162055       0.931818
 # quantity: 
 #   type: Nuclear data library
-#   average value:  7.795530E-02
-#   relative standard deviation [%]:      0.000000
+#   average value:  8.989467E-02
+#   relative standard deviation [%]:     13.190674
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 6
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        1.055170E-01   0.000000E+00                      1.199057
+      jendl5.0                NDL                  2021        1.048250E-01   0.000000E+00                      1.191193
+      endfb8.1                NDL                  2024        8.067160E-02   0.000000E+00                      0.916723
       TARES                   NDL                  2025        7.795530E-02   0.000000E+00                      0.885856
+      tendl.2025              NDL                  2025        7.795530E-02   0.000000E+00                      0.885856
+      jeff4.0                 NDL                  2025        9.244380E-02   0.000000E+00                      1.050498

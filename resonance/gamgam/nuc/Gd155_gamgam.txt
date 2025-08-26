@@ -1,7 +1,7 @@
 # header: 
 #   title: Gd155 gamgam resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 64
 #   A: 155
@@ -12,9 +12,9 @@
 #   selected value [eV]:  1.080000E-01
 #   selected value uncertainty [eV]:  1.000000E-02
 #   selected value source: RIPL-3
-#   number of values: 9
-#   average value [b]:  1.099740E-01
-#   relative standard deviation [%]:      4.851887
+#   number of values: 13
+#   average value [b]:  1.133418E-01
+#   relative standard deviation [%]:      6.858849
 # quantity: 
 #   type: Compilation
 #   average value:  1.110000E-01
@@ -43,11 +43,15 @@
       Mastromarco             EXFOR                2019        1.068000E-01   1.400000E-03       23400013       0.988889
 # quantity: 
 #   type: Nuclear data library
-#   average value:  1.175660E-01
-#   relative standard deviation [%]:      0.000000
+#   average value:  1.202486E-01
+#   relative standard deviation [%]:      5.346313
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        1.296800E-01   0.000000E+00                      1.200741
+      jendl5.0                NDL                  2021        1.251090E-01   0.000000E+00                      1.158417
+      endfb8.1                NDL                  2024        1.113220E-01   0.000000E+00                      1.030759
       TARES                   NDL                  2025        1.175660E-01   0.000000E+00                      1.088574
+      tendl.2025              NDL                  2025        1.175660E-01   0.000000E+00                      1.088574

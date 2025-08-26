@@ -1,7 +1,7 @@
 # header: 
 #   title: Te122 S1 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 52
 #   A: 122
@@ -12,9 +12,9 @@
 #   selected value [*e-4]:  1.700000E+00
 #   selected value uncertainty [*e-4]:  5.000000E-01
 #   selected value source: RIPL-3
-#   number of values: 3
-#   average value [b]:  1.963010E+00
-#   relative standard deviation [%]:     21.182280
+#   number of values: 7
+#   average value [b]:  1.884953E+00
+#   relative standard deviation [%]:     16.669588
 # quantity: 
 #   type: Compilation
 #   average value:  2.125000E+00
@@ -28,11 +28,15 @@
       Mughabghab-2018         Compilation          2018        2.550000E+00   3.700000E-01                      1.500000
 # quantity: 
 #   type: Nuclear data library
-#   average value:  1.639030E+00
-#   relative standard deviation [%]:      0.000000
+#   average value:  1.788934E+00
+#   relative standard deviation [%]:     10.262316
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []           [*e-4]         [*e-4]           []             []
+      jendl5.0                NDL                  2021        2.013780E+00   0.000000E+00                      1.184577
+      endfb8.1                NDL                  2024        2.013780E+00   0.000000E+00                      1.184577
       TARES                   NDL                  2025        1.639030E+00   0.000000E+00                      0.964135
+      tendl.2025              NDL                  2025        1.639030E+00   0.000000E+00                      0.964135
+      jeff4.0                 NDL                  2025        1.639050E+00   0.000000E+00                      0.964147

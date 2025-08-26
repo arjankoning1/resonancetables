@@ -1,7 +1,7 @@
 # header: 
 #   title: Hg201 Ig resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 80
 #   A: 201
@@ -12,9 +12,9 @@
 #   selected value [eV]:  3.300000E+01
 #   selected value uncertainty [eV]:  3.000000E+00
 #   selected value source: Sukhoruchkin
-#   number of values: 5
-#   average value [b]:  3.358794E+01
-#   relative standard deviation [%]:      6.343343
+#   number of values: 6
+#   average value [b]:  3.393365E+01
+#   relative standard deviation [%]:      6.167779
 # quantity: 
 #   type: Compilation
 #   average value:  3.150000E+01
@@ -28,13 +28,14 @@
       Sukhoruchkin            Compilation          2015        3.300000E+01   3.000000E+00                      1.000000
 # quantity: 
 #   type: Nuclear data library
-#   average value:  3.497990E+01
-#   relative standard deviation [%]:      3.160043
+#   average value:  3.515047E+01
+#   relative standard deviation [%]:      2.850150
 # datablock: 
 #   columns: 8
-#   entries: 3
+#   entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
       jendl5.0                NDL                  2021        3.585680E+01   0.000000E+00                      1.086570
       endfb8.1                NDL                  2024        3.342070E+01   0.000000E+00                      1.012748
       tendl.2025              NDL                  2025        3.566220E+01   0.000000E+00                      1.080673
+      jeff4.0                 NDL                  2025        3.566220E+01   0.000000E+00                      1.080673

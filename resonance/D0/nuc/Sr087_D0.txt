@@ -1,7 +1,7 @@
 # header: 
 #   title: Sr087 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 38
 #   A: 87
@@ -12,9 +12,9 @@
 #   selected value [eV]:  2.900000E+02
 #   selected value uncertainty [eV]:  8.000000E+01
 #   selected value source: RIPL-3
-#   number of values: 6
-#   average value [b]:  3.134367E+02
-#   relative standard deviation [%]:     34.672092
+#   number of values: 10
+#   average value [b]:  2.437288E+02
+#   relative standard deviation [%]:     49.315903
 # quantity: 
 #   type: Compilation
 #   average value:  2.826667E+02
@@ -40,11 +40,15 @@
       G.C.Hicks               EXFOR                1982        3.700000E+02   0.000000E+00      30487-007       1.275862   3.000000E-03   1.420000E-02       0.0                                   
 # quantity: 
 #   type: Nuclear data library
-#   average value:  1.526200E+02
-#   relative standard deviation [%]:      0.000000
+#   average value:  1.418576E+02
+#   relative standard deviation [%]:      9.291849
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        1.257140E+02   0.000000E+00                      0.433497
+      endfb8.1                NDL                  2024        1.257140E+02   0.000000E+00                      0.433497
       TARES                   NDL                  2025        1.526200E+02   0.000000E+00                      0.526276
+      tendl.2025              NDL                  2025        1.526200E+02   0.000000E+00                      0.526276
+      jeff4.0                 NDL                  2025        1.526200E+02   0.000000E+00                      0.526276

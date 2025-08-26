@@ -1,7 +1,7 @@
 # header: 
 #   title: Sn119 gamgam resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 50
 #   A: 119
@@ -12,9 +12,9 @@
 #   selected value [eV]:  1.000000E-01
 #   selected value uncertainty [eV]:  1.600000E-02
 #   selected value source: RIPL-3
-#   number of values: 3
-#   average value [b]:  9.743300E-02
-#   relative standard deviation [%]:      3.944916
+#   number of values: 8
+#   average value [b]:  9.482931E-02
+#   relative standard deviation [%]:      4.503114
 # quantity: 
 #   type: Compilation
 #   average value:  9.600000E-02
@@ -28,11 +28,16 @@
       Mughabghab-2018         Compilation          2018        9.200000E-02   1.400000E-02                      0.920000
 # quantity: 
 #   type: Nuclear data library
-#   average value:  1.002990E-01
-#   relative standard deviation [%]:      0.000000
+#   average value:  9.443907E-02
+#   relative standard deviation [%]:      4.538545
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 6
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        9.000000E-02   0.000000E+00                      0.900000
+      jendl5.0                NDL                  2021        9.284620E-02   0.000000E+00                      0.928462
+      endfb8.1                NDL                  2024        9.284620E-02   0.000000E+00                      0.928462
       TARES                   NDL                  2025        1.002990E-01   0.000000E+00                      1.002990
+      tendl.2025              NDL                  2025        9.034400E-02   0.000000E+00                      0.903440
+      jeff4.0                 NDL                  2025        1.002990E-01   0.000000E+00                      1.002990

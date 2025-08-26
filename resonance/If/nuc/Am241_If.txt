@@ -1,7 +1,7 @@
 # header: 
 #   title: Am241 If resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 95
 #   A: 241
@@ -12,9 +12,9 @@
 #   selected value [eV]:  1.440000E+01
 #   selected value uncertainty [eV]:  1.000000E+00
 #   selected value source: Mughabghab-2018
-#   number of values: 7
-#   average value [b]:  1.941429E+01
-#   relative standard deviation [%]:     24.149303
+#   number of values: 12
+#   average value [b]:  1.544425E+01
+#   relative standard deviation [%]:     38.252872
 # quantity: 
 #   type: Compilation
 #   average value:  1.456667E+01
@@ -40,3 +40,17 @@
       Bak                     EXFOR                1970        2.100000E+01   2.000000E+00      403490051       1.458333
       Zhuravlev               EXFOR                1975        2.770000E+01   1.600000E+00       40436012       1.923611
       Gavrilov                EXFOR                1976        2.250000E+01   1.700000E+00       40467007       1.562500
+# quantity: 
+#   type: Nuclear data library
+#   average value:  9.886190E+00
+#   relative standard deviation [%]:      1.907083
+# datablock: 
+#   columns: 8
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        9.846540E+00   0.000000E+00                      0.683788
+      jendl5.0                NDL                  2021        1.002040E+01   0.000000E+00                      0.695861
+      endfb8.1                NDL                  2024        1.000970E+01   0.000000E+00                      0.695118
+      tendl.2025              NDL                  2025        1.002120E+01   0.000000E+00                      0.695917
+      jeff4.0                 NDL                  2025        9.533110E+00   0.000000E+00                      0.662022

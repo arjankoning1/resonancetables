@@ -1,7 +1,7 @@
 # header: 
 #   title: Tm169 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 69
 #   A: 169
@@ -12,9 +12,9 @@
 #   selected value [eV]:  8.500000E+00
 #   selected value uncertainty [eV]:  7.000000E-01
 #   selected value source: RIPL-3
-#   number of values: 5
-#   average value [b]:  7.656560E+00
-#   relative standard deviation [%]:     30.318068
+#   number of values: 9
+#   average value [b]:  8.701805E+00
+#   relative standard deviation [%]:     24.519329
 # quantity: 
 #   type: Compilation
 #   average value:  8.093333E+00
@@ -39,11 +39,15 @@
       J.H.Gibbons             EXFOR                1961        3.500000E+00   0.000000E+00      11329-099       0.411765   1.000000E-02   2.000000E-01       0.0                                   
 # quantity: 
 #   type: Nuclear data library
-#   average value:  1.050280E+01
-#   relative standard deviation [%]:      0.000000
+#   average value:  1.010725E+01
+#   relative standard deviation [%]:      6.151838
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        8.897640E+00   0.000000E+00                      1.046781
+      endfb8.1                NDL                  2024        1.013020E+01   0.000000E+00                      1.191788
       TARES                   NDL                  2025        1.050280E+01   0.000000E+00                      1.235623
+      tendl.2025              NDL                  2025        1.050280E+01   0.000000E+00                      1.235623
+      jeff4.0                 NDL                  2025        1.050280E+01   0.000000E+00                      1.235623

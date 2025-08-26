@@ -1,7 +1,7 @@
 # header: 
 #   title: Tl205 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 81
 #   A: 205
@@ -12,9 +12,9 @@
 #   selected value [eV]:  4.000000E+03
 #   selected value uncertainty [eV]:  4.000000E+02
 #   selected value source: RIPL-3
-#   number of values: 5
-#   average value [b]:  5.917000E+03
-#   relative standard deviation [%]:     79.038788
+#   number of values: 9
+#   average value [b]:  4.569444E+03
+#   relative standard deviation [%]:     83.105965
 # quantity: 
 #   type: Compilation
 #   average value:  3.900000E+03
@@ -43,7 +43,11 @@
 #   relative standard deviation [%]:      0.000000
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        2.885000E+03   0.000000E+00                      0.721250
+      endfb8.1                NDL                  2024        2.885000E+03   0.000000E+00                      0.721250
       TARES                   NDL                  2025        2.885000E+03   0.000000E+00                      0.721250
+      tendl.2025              NDL                  2025        2.885000E+03   0.000000E+00                      0.721250
+      jeff4.0                 NDL                  2025        2.885000E+03   0.000000E+00                      0.721250

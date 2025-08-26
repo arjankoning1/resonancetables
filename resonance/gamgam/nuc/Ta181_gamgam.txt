@@ -1,7 +1,7 @@
 # header: 
 #   title: Ta181 gamgam resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 73
 #   A: 181
@@ -12,9 +12,9 @@
 #   selected value [eV]:  5.700000E-02
 #   selected value uncertainty [eV]:  3.000000E-03
 #   selected value source: RIPL-3
-#   number of values: 5
-#   average value [b]:  5.983324E-02
-#   relative standard deviation [%]:      6.131524
+#   number of values: 10
+#   average value [b]:  6.361594E-02
+#   relative standard deviation [%]:      7.254902
 # quantity: 
 #   type: Compilation
 #   average value:  5.873333E-02
@@ -39,11 +39,16 @@
       Vertebnyj               EXFOR                1983        5.700000E-02   4.000000E-03      408810023       1.000000
 # quantity: 
 #   type: Nuclear data library
-#   average value:  6.596620E-02
-#   relative standard deviation [%]:      0.000000
+#   average value:  6.715990E-02
+#   relative standard deviation [%]:      1.265324
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 6
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        6.773830E-02   0.000000E+00                      1.188391
+      jendl5.0                NDL                  2021        6.756690E-02   0.000000E+00                      1.185384
+      endfb8.1                NDL                  2024        6.786090E-02   0.000000E+00                      1.190542
       TARES                   NDL                  2025        6.596620E-02   0.000000E+00                      1.157302
+      tendl.2025              NDL                  2025        6.596620E-02   0.000000E+00                      1.157302
+      jeff4.0                 NDL                  2025        6.786090E-02   0.000000E+00                      1.190542

@@ -1,7 +1,7 @@
 # header: 
 #   title: U234 If resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 92
 #   A: 234
@@ -12,9 +12,9 @@
 #   selected value [eV]:  6.400000E+00
 #   selected value uncertainty [eV]:  1.000000E+00
 #   selected value source: Sukhoruchkin
-#   number of values: 3
-#   average value [b]:  2.606000E+00
-#   relative standard deviation [%]:    103.051422
+#   number of values: 8
+#   average value [b]:  2.546015E+00
+#   relative standard deviation [%]:     64.793053
 # quantity: 
 #   type: Compilation
 #   average value:  3.480000E+00
@@ -36,3 +36,17 @@
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
       Heyse                   EXFOR                2007        8.580000E-01   6.000000E-02       23082004       0.134062
+# quantity: 
+#   type: Nuclear data library
+#   average value:  2.510024E+00
+#   relative standard deviation [%]:      6.099209
+# datablock: 
+#   columns: 8
+#   entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        2.672060E+00   0.000000E+00                      0.417509
+      jendl5.0                NDL                  2021        2.589130E+00   0.000000E+00                      0.404552
+      endfb8.1                NDL                  2024        2.494870E+00   0.000000E+00                      0.389823
+      tendl.2025              NDL                  2025        2.225410E+00   0.000000E+00                      0.347720
+      jeff4.0                 NDL                  2025        2.568650E+00   0.000000E+00                      0.401352

@@ -1,7 +1,7 @@
 # header: 
 #   title: Cd116 D1 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 48
 #   A: 116
@@ -12,9 +12,9 @@
 #   selected value [eV]:  2.150000E+02
 #   selected value uncertainty [eV]:  2.000000E+01
 #   selected value source: RIPL-3
-#   number of values: 4
-#   average value [b]:  2.326452E+02
-#   relative standard deviation [%]:      9.665042
+#   number of values: 8
+#   average value [b]:  2.547715E+02
+#   relative standard deviation [%]:     19.568115
 # quantity: 
 #   type: Compilation
 #   average value:  2.150000E+02
@@ -38,11 +38,15 @@
       A.R.De L.Musgrove       EXFOR                1978        2.700000E+02   5.000000E+01      30453-023       1.255814   3.000000E-03   9.000000E-02       1.0                                   
 # quantity: 
 #   type: Nuclear data library
-#   average value:  2.305810E+02
-#   relative standard deviation [%]:      0.000000
+#   average value:  2.676344E+02
+#   relative standard deviation [%]:     20.911144
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        3.750000E+02   0.000000E+00                      1.744186
+      endfb8.1                NDL                  2024        2.714290E+02   0.000000E+00                      1.262460
       TARES                   NDL                  2025        2.305810E+02   0.000000E+00                      1.072470
+      tendl.2025              NDL                  2025        2.305810E+02   0.000000E+00                      1.072470
+      jeff4.0                 NDL                  2025        2.305810E+02   0.000000E+00                      1.072470

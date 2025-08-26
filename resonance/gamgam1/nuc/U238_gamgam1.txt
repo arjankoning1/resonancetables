@@ -1,7 +1,7 @@
 # header: 
 #   title: U238 gamgam1 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 92
 #   A: 238
@@ -12,9 +12,9 @@
 #   selected value [eV]:  1.720000E-02
 #   selected value uncertainty [eV]:  4.000000E-04
 #   selected value source: Mughabghab-2018
-#   number of values: 2
-#   average value [b]:  2.067325E-02
-#   relative standard deviation [%]:     16.800694
+#   number of values: 7
+#   average value [b]:  2.296561E-02
+#   relative standard deviation [%]:     10.498762
 # quantity: 
 #   type: Compilation
 #   average value:  1.720000E-02
@@ -27,11 +27,16 @@
       Mughabghab-2018         Compilation          2018        1.720000E-02   4.000000E-04                      1.000000
 # quantity: 
 #   type: Nuclear data library
-#   average value:  2.414650E-02
-#   relative standard deviation [%]:      0.000000
+#   average value:  2.392655E-02
+#   relative standard deviation [%]:      2.358905
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 6
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        2.325550E-02   0.000000E+00                      1.352064
+      jendl5.0                NDL                  2021        2.486040E-02   0.000000E+00                      1.445372
+      endfb8.1                NDL                  2024        2.392540E-02   0.000000E+00                      1.391012
       TARES                   NDL                  2025        2.414650E-02   0.000000E+00                      1.403866
+      tendl.2025              NDL                  2025        2.414650E-02   0.000000E+00                      1.403866
+      jeff4.0                 NDL                  2025        2.322500E-02   0.000000E+00                      1.350291

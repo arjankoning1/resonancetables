@@ -1,7 +1,7 @@
 # header: 
 #   title: Pa232 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-08-01
+#   date: 2025-08-25
 # target: 
 #   Z: 91
 #   A: 232
@@ -12,9 +12,9 @@
 #   selected value [eV]:  4.200000E-01
 #   selected value uncertainty [eV]:  8.000000E-02
 #   selected value source: RIPL-3
-#   number of values: 4
-#   average value [b]:  6.029443E-01
-#   relative standard deviation [%]:     26.866875
+#   number of values: 8
+#   average value [b]:  6.527264E-01
+#   relative standard deviation [%]:     19.705118
 # quantity: 
 #   type: Compilation
 #   average value:  5.446666E-01
@@ -29,11 +29,15 @@
       Mughabghab-2018         Compilation          2018        4.640000E-01   4.000000E-02                      1.104762               
 # quantity: 
 #   type: Nuclear data library
-#   average value:  7.777770E-01
-#   relative standard deviation [%]:      0.000000
+#   average value:  7.175622E-01
+#   relative standard deviation [%]:      6.851696
 # datablock: 
 #   columns: 8
-#   entries: 1
+#   entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        6.774190E-01   0.000000E+00                      1.612902
+      endfb8.1                NDL                  2024        6.774190E-01   0.000000E+00                      1.612902
       TARES                   NDL                  2025        7.777770E-01   0.000000E+00                      1.851850
+      tendl.2025              NDL                  2025        7.777770E-01   0.000000E+00                      1.851850
+      jeff4.0                 NDL                  2025        6.774190E-01   0.000000E+00                      1.612902

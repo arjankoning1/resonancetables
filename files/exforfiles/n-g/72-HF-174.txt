@@ -1,0 +1,37 @@
+# Header: 
+#   title: 72-HF-174(N,G) thermal cross section 
+#   source: EXFOR 
+#   date created: 2025-09-08 
+# Target: 
+#   Z: 72 
+#   A: 174 
+#   Nuclide: 72-HF-174 
+# Reaction: 
+#   Type: N,G 
+#   Incident energy       : 2.5000e-08 MeV - 2.5400e-08 MeV 
+# Residual: 
+#   Z: 72 
+#   A: 175 
+#   Nuclide: 72-HF-175
+# Statistics:
+#   Thermal Simple Mean       |  Simple Stdev        : 9.09000E+02  |   7.98293E+02   (N = 5)
+#   Thermal Weighted Mean    +/- Weighted Error      : 5.49186E+02 +/-  5.10640E+00   (N = 5)
+#   MXW Simple Mean           |  Simple Stdev        : 4.45000E+02  |   7.77817E+01   (N = 2)
+#   MXW Weighted Mean        +/- Weighted Error      : 3.91315E+02 +/-  5.46702E+01   (N = 2)
+#   SPA Simple Mean           |  Simple Stdev        : 6.20000E+02  |           NAN   (N = 1)
+#   SPA Weighted Mean        +/- Weighted Error      :         NAN +/-          NAN   (N = 1)
+#
+# Data Table
+#   Experimental Data
+# EXFOR ID          First Author            Year   En_inc[MeV]  dEn_inc      Data[eV]     dData         sf8    sf9
+22360-013-0         M.C.Moxon               1974   2.5400E-08   0.0000E+00   2.3370E+03   7.5000E+02                
+40464-004-0         E.A.Pavlenko            1976   2.5200E-08   0.0000E+00   5.6100E+02   5.5000E+01                
+23488-080-0         F.De Corte              1988   2.5300E-08   0.0000E+00   5.4900E+02   9.8820E+00                
+23260-131-0         F.Farina Arbocco        2014   2.5300E-08   0.0000E+00   5.4900E+02   6.0000E+00                
+23260-132-0         F.Farina Arbocco        2014   2.5300E-08   0.0000E+00   5.4900E+02   0.0000E+00                
+11507-084-0         H.Pomerance             1952   2.5300E-08   0.0000E+00   5.0000E+02   5.0000E+02     MXW        
+11989-004-0         L.Esch                  1961   2.5300E-08   0.0000E+00   3.9000E+02   5.5000E+01     MXW        
+12866-174-0         R.E.Heft                1978   2.5000E-08   0.0000E+00   6.2000E+02   2.0000E+01     SPA        
+#   Recom./Eval./Deriv./Calc. Data
+# EXFOR ID          First Author            Year   En_inc[MeV]  dEn_inc      Data[eV]     dData         sf8    sf9
+V1002-361-1         S.F.Mughabghab          2006   2.5300E-08   0.0000E+00   5.4900E+02   7.0000E+00           RECOM

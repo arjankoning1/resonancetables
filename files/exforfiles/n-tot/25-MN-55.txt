@@ -1,0 +1,33 @@
+# Header: 
+#   title: 25-MN-55(N,TOT) thermal cross section 
+#   source: EXFOR 
+#   date created: 2025-09-08 
+# Target: 
+#   Z: 25 
+#   A: 55 
+#   Nuclide: 25-MN-55 
+# Reaction: 
+#   Type: N,TOT 
+#   Incident energy       : 2.4000e-08 MeV - 2.6000e-08 MeV 
+# Residual: 
+#   Z:  
+#   A:  
+#   Nuclide: 
+# Statistics:
+#   Thermal Simple Mean       |  Simple Stdev        : 1.57448E+01  |   3.32604E-01   (N = 5)
+#   Thermal Weighted Mean    +/- Weighted Error      : 1.59126E+01 +/-  6.91704E-02   (N = 5)
+#   MXW Simple Mean           |  Simple Stdev        : 1.43000E+01  |           NAN   (N = 1)
+#   MXW Weighted Mean        +/- Weighted Error      :         NAN +/-          NAN   (N = 1)
+#
+# Data Table
+#   Experimental Data
+# EXFOR ID          First Author            Year   En_inc[MeV]  dEn_inc      Data[eV]     dData         sf8    sf9
+11685-002-0         L.J.Rainwater           1947   2.6000E-08   0.0000E+00   1.5944E+01   0.0000E+00                
+11678-003-0         R.E.Cote                1964   2.4580E-08   0.0000E+00   1.5920E+01   7.0000E-02                
+30469-005-0         M.Adib                  1976   2.4000E-08   0.0000E+00   1.6050E+01   8.0250E-01                
+30469-005-0         M.Adib                  1976   2.4900E-08   0.0000E+00   1.5560E+01   7.7800E-01                
+30469-005-0         M.Adib                  1976   2.5900E-08   0.0000E+00   1.5250E+01   7.6250E-01                
+12634-023-0         J.R.Dunning             1935   2.5000E-08   0.0000E+00   1.4300E+01   0.0000E+00     MXW        
+#   Recom./Eval./Deriv./Calc. Data
+# EXFOR ID          First Author            Year   En_inc[MeV]  dEn_inc      Data[eV]     dData         sf8    sf9
+30469-006-0         M.Adib                  1976   2.5000E-08   0.0000E+00   1.5800E+01   4.0000E-01           DERIV

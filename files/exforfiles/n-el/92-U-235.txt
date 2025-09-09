@@ -1,0 +1,31 @@
+# Header: 
+#   title: 92-U-235(N,EL) thermal cross section 
+#   source: EXFOR 
+#   date created: 2025-09-08 
+# Target: 
+#   Z: 92 
+#   A: 235 
+#   Nuclide: 92-U-235 
+# Reaction: 
+#   Type: N,EL 
+#   Incident energy       : 2.4400e-08 MeV - 2.5310e-08 MeV 
+# Residual: 
+#   Z: 92 
+#   A: 235 
+#   Nuclide: 92-U-235
+# Statistics:
+#   Thermal Simple Mean       |  Simple Stdev        : 1.48400E+01  |   5.78187E-01   (N = 3)
+#   Thermal Weighted Mean    +/- Weighted Error      : 1.48871E+01 +/-  1.99834E-02   (N = 3)
+#   MXW Simple Mean           |  Simple Stdev        : 9.70000E+00  |           NAN   (N = 1)
+#   MXW Weighted Mean        +/- Weighted Error      :         NAN +/-          NAN   (N = 1)
+#
+# Data Table
+#   Experimental Data
+# EXFOR ID          First Author            Year   En_inc[MeV]  dEn_inc      Data[eV]     dData         sf8    sf9
+20369-005-0         H.Ceulemans             1970   2.4400E-08   0.0000E+00   1.5450E+01   4.8000E-02                
+20369-005-0         H.Ceulemans             1970   2.5310E-08   0.0000E+00   1.4770E+01   2.2000E-02                
+20369-006-0         H.Ceulemans             1970   2.5300E-08   0.0000E+00   1.4300E+01   5.0000E-01                
+11434-005-0         C.T.Hibdon              1951   2.5300E-08   0.0000E+00   9.7000E+00   1.9000E+00     MXW        
+#   Recom./Eval./Deriv./Calc. Data
+# EXFOR ID          First Author            Year   En_inc[MeV]  dEn_inc      Data[eV]     dData         sf8    sf9
+12417-003-0         H.L.Foote Jr            1958   2.5300E-08   0.0000E+00   1.5000E+01   1.0000E+00           DERIV

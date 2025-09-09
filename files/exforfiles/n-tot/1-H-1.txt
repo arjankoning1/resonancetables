@@ -1,0 +1,50 @@
+# Header: 
+#   title: 1-H-1(N,TOT) thermal cross section 
+#   source: EXFOR 
+#   date created: 2025-09-08 
+# Target: 
+#   Z: 1 
+#   A: 1 
+#   Nuclide: 1-H-1 
+# Reaction: 
+#   Type: N,TOT 
+#   Incident energy       : 2.4022e-08 MeV - 2.5997e-08 MeV 
+# Residual: 
+#   Z:  
+#   A:  
+#   Nuclide: 
+# Statistics:
+#   Thermal Simple Mean       |  Simple Stdev        : 5.29940E+01  |   6.77758E+00  (N = 12)
+#   Thermal Weighted Mean    +/- Weighted Error      : 5.42532E+01 +/-  1.72047E-01  (N = 12)
+#   MXW Simple Mean           |  Simple Stdev        : 4.23667E+01  |   6.54243E+00   (N = 3)
+#   MXW Weighted Mean        +/- Weighted Error      :         NAN +/-          NAN   (N = 3)
+#   TMP/MSC Simple Mean       |  Simple Stdev        : 3.90998E+01  |   1.79594E+01   (N = 6)
+#   TMP/MSC Weighted Mean    +/- Weighted Error      :         NAN +/-          NAN   (N = 6)
+#
+# Data Table
+#   Experimental Data
+# EXFOR ID          First Author            Year   En_inc[MeV]  dEn_inc      Data[eV]     dData         sf8    sf9
+11432-005-0         W.B.Jones Jr            1948   2.4570E-08   0.0000E+00   5.2328E+01   0.0000E+00                
+11150-002-0         E.Melkonian             1949   2.5400E-08   0.0000E+00   3.5100E+01   0.0000E+00                
+21146-002-0         B.Broecker              1966   2.4980E-08   2.4980E-10   4.7400E+01   4.7400E-01                
+21146-003-0         B.Broecker              1966   2.4980E-08   2.4980E-10   5.9000E+01   5.9000E-01                
+21146-004-0         B.Broecker              1966   2.4980E-08   2.4980E-10   4.8800E+01   4.8800E-01                
+21146-005-0         B.Broecker              1966   2.4980E-08   2.4980E-10   5.4800E+01   5.4800E-01                
+21146-006-0         B.Broecker              1966   2.4980E-08   2.4980E-10   5.2600E+01   5.2600E-01                
+21146-007-0         B.Broecker              1966   2.4980E-08   2.4980E-10   5.7200E+01   5.7200E-01                
+21146-009-0         B.Broecker              1966   2.4980E-08   2.4980E-10   5.6300E+01   5.6300E-01                
+21146-010-0         B.Broecker              1966   2.4980E-08   2.4980E-10   5.9500E+01   5.9500E-01                
+21146-011-0         B.Broecker              1966   2.4980E-08   2.4980E-10   5.5600E+01   5.5600E-01                
+21146-014-0         B.Broecker              1966   2.4980E-08   2.4980E-10   5.7300E+01   5.7300E-01                
+12634-002-0         J.R.Dunning             1935   2.5000E-08   0.0000E+00   3.5000E+01   0.0000E+00     MXW        
+22518-003-0         M.Goldhaber             1937   2.5300E-08   0.0000E+00   4.7500E+01   0.0000E+00     MXW        
+11135-009-0         H.Carroll               1941   2.5300E-08   0.0000E+00   4.4600E+01   5.0000E-01     MXW        
+23423-003-0         W.D.Seiffert            1970   2.5900E-08   0.0000E+00   2.2600E+01   0.0000E+00 TMP/MSC        
+23423-004-0         W.D.Seiffert            1970   2.5900E-08   0.0000E+00   5.7500E+01   0.0000E+00 TMP/MSC        
+23423-007-0         W.D.Seiffert            1970   2.4713E-08   1.3246E-10   2.2284E+01   0.0000E+00 TMP/MSC        
+23423-007-0         W.D.Seiffert            1970   2.5997E-08   1.3934E-10   2.3336E+01   0.0000E+00 TMP/MSC        
+23423-008-0         W.D.Seiffert            1970   2.4022E-08   1.2876E-10   5.4446E+01   0.0000E+00 TMP/MSC        
+23423-008-0         W.D.Seiffert            1970   2.5587E-08   1.3715E-10   5.4433E+01   0.0000E+00 TMP/MSC        
+#   Recom./Eval./Deriv./Calc. Data
+# EXFOR ID          First Author            Year   En_inc[MeV]  dEn_inc      Data[eV]     dData         sf8    sf9
+21233-003-0         A.Gibert                1946   2.5300E-08   0.0000E+00   1.9600E+01   0.0000E+00     MXW   DERIV

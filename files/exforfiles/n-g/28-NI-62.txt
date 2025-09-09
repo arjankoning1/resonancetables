@@ -1,0 +1,40 @@
+# Header: 
+#   title: 28-NI-62(N,G) thermal cross section 
+#   source: EXFOR 
+#   date created: 2025-09-08 
+# Target: 
+#   Z: 28 
+#   A: 62 
+#   Nuclide: 28-NI-62 
+# Reaction: 
+#   Type: N,G 
+#   Incident energy       : 2.5000e-08 MeV - 2.5300e-08 MeV 
+# Residual: 
+#   Z: 28 
+#   A: 63 
+#   Nuclide: 28-NI-63
+# Statistics:
+#   Thermal Simple Mean       |  Simple Stdev        : 1.41333E+01  |   1.15470E-01   (N = 3)
+#   Thermal Weighted Mean    +/- Weighted Error      :         NAN +/-          NAN   (N = 3)
+#   MXW Simple Mean           |  Simple Stdev        : 1.46250E+01  |   6.13052E-01   (N = 4)
+#   MXW Weighted Mean        +/- Weighted Error      : 1.54166E+01 +/-  6.66768E-01   (N = 4)
+#   SPA Simple Mean           |  Simple Stdev        : 1.64225E+01  |   3.14844E+00   (N = 4)
+#   SPA Weighted Mean        +/- Weighted Error      : 1.55343E+01 +/-  3.91909E-01   (N = 4)
+#
+# Data Table
+#   Experimental Data
+# EXFOR ID          First Author            Year   En_inc[MeV]  dEn_inc      Data[eV]     dData         sf8    sf9
+41262-004-0         E.Doilnitsyn            1965   2.5000E-08   0.0000E+00   1.4000E+01   0.0000E+00                
+10608-007-0         G.H.E.Sims              1970   2.5300E-08   0.0000E+00   1.4200E+01   0.0000E+00                
+14164-002-0         A.M.Alpizar-Vicente     2008   2.5290E-08   2.3290E-10   1.4200E+01   9.6100E-01                
+11507-029-0         H.Pomerance             1952   2.5300E-08   0.0000E+00   1.4600E+01   2.1900E+00     MXW        
+10608-006-0         G.H.E.Sims              1970   2.5300E-08   0.0000E+00   1.4200E+01   0.0000E+00     MXW        
+10676-004-0         A.F.M.Ishaq             1977   2.5300E-08   0.0000E+00   1.4200E+01   0.0000E+00     MXW        
+31489-018-0         L.Venturini             1997   2.5000E-08   0.0000E+00   1.5500E+01   7.0000E-01     MXW        
+12620-002-0         C.Mcmullen              1956   2.5300E-08   0.0000E+00   2.1000E+01   2.0000E+00     SPA        
+12619-002-0         D.Horrocks              1962   2.5300E-08   0.0000E+00   1.4000E+01   1.0000E+00     SPA        
+20301-006-0         H.Ishikawa              1973   2.5300E-08   0.0000E+00   1.5890E+01   5.2000E-01     SPA        
+20660-002-0         H.Michael               1974   2.5300E-08   0.0000E+00   1.4800E+01   8.0000E-01     SPA        
+#   Recom./Eval./Deriv./Calc. Data
+# EXFOR ID          First Author            Year   En_inc[MeV]  dEn_inc      Data[eV]     dData         sf8    sf9
+V1001-232-1         S.F.Mughabghab          2006   2.5300E-08   0.0000E+00   1.4900E+01   3.0000E-01           RECOM

@@ -1,0 +1,58 @@
+# Header: 
+#   title: 55-CS-137(N,G) thermal cross section 
+#   source: EXFOR 
+#   date created: 2025-09-08 
+# Target: 
+#   Z: 55 
+#   A: 137 
+#   Nuclide: 55-CS-137 
+# Reaction: 
+#   Type: N,G 
+#   Incident energy       : 2.5300e-08 MeV - 2.5300e-08 MeV 
+# Residual: 
+#   Z: 55 
+#   A: 138 
+#   Nuclide: 55-CS-138
+# Statistics:
+#   Thermal Simple Mean       |  Simple Stdev        : 2.53000E-01  |   0.00000E+00   (N = 2)
+#   Thermal Weighted Mean    +/- Weighted Error      : 2.53000E-01 +/-  1.23934E-02   (N = 2)
+#   MXW Simple Mean           |  Simple Stdev        : 1.87000E-01  |   1.08894E-01   (N = 2)
+#   MXW Weighted Mean        +/- Weighted Error      : 2.37630E-01 +/-  1.36555E-02   (N = 2)
+#   SPA Simple Mean           |  Simple Stdev        : 2.82500E-01  |   2.21736E-02   (N = 4)
+#   SPA Weighted Mean        +/- Weighted Error      : 2.74223E-01 +/-  8.63316E-03   (N = 4)
+#
+# Data Table
+#   Experimental Data
+# EXFOR ID          First Author            Year   En_inc[MeV]  dEn_inc      Data[eV]     dData         sf8    sf9
+22737-002-0         T.Sekine                1993   2.5300E-08   0.0000E+00   2.5300E-01   2.2000E-02                
+31517-003-0         N.L.Maidana             1998   2.5300E-08   0.0000E+00   2.5300E-01   1.5000E-02                
+12021-002-0         D.C.Stupegia            1960   2.5300E-08   0.0000E+00   1.1000E-01   3.3000E-02     MXW        
+31517-002-0         N.L.Maidana             1998   2.5300E-08   0.0000E+00   2.6400E-01   1.5000E-02     MXW        
+22174-002-0         H.Harada                1990   2.5300E-08   0.0000E+00   2.5000E-01   1.3000E-02     SPA        
+22174-004-0         H.Harada                1990   2.5300E-08   0.0000E+00   2.9000E-01   2.0000E-02     SPA        
+22737-004-0         T.Sekine                1993   2.5300E-08   0.0000E+00   2.9000E-01   2.0000E-02     SPA        
+22649-003-0         H.Wada                  2000   2.5300E-08   0.0000E+00   3.0000E-01   2.0000E-02     SPA        
+#   Recom./Eval./Deriv./Calc. Data
+# EXFOR ID          First Author            Year   En_inc[MeV]  dEn_inc      Data[eV]     dData         sf8    sf9
+22649-004-0         H.Wada                  2000   2.5300E-08   0.0000E+00   2.7000E-01   3.0000E-02           RECOM
+22649-005-0         H.Wada                  2000   2.5300E-08   0.0000E+00   2.9000E-01   2.0000E-02     SPA   RECOM
+# Header: 
+#   title: 55-CS-137(N,G) thermal cross section 
+#   source: EXFOR 
+#   date created: 2025-09-08 
+# Target: 
+#   Z: 55 
+#   A: 137 
+#   Nuclide: 55-CS-137 
+# Reaction: 
+#   Type: N,G 
+#   Incident energy       : 2.5300e-08 MeV 
+# Residual: 
+#   Z: 55 
+#   A: 138 
+#   Nuclide: 55-CS-138-G
+#
+# Data Table
+#   Recom./Eval./Deriv./Calc. Data
+# EXFOR ID          First Author            Year   En_inc[MeV]  dEn_inc      Data[eV]     dData         sf8    sf9
+V1002-083-0         S.F.Mughabghab          2006   2.5300E-08   0.0000E+00   2.7000E-01   3.0000E-02           RECOM

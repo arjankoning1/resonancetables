@@ -1,0 +1,36 @@
+# Header: 
+#   title: 96-CM-243(N,F) thermal cross section 
+#   source: EXFOR 
+#   date created: 2025-09-08 
+# Target: 
+#   Z: 96 
+#   A: 243 
+#   Nuclide: 96-CM-243 
+# Reaction: 
+#   Type: N,F 
+#   Incident energy       : 2.5000e-08 MeV - 2.5300e-08 MeV 
+# Residual: 
+#   Z:  
+#   A:  
+#   Nuclide: 
+# Statistics:
+#   Thermal Simple Mean       |  Simple Stdev        : 6.45000E+02  |   4.40076E+01   (N = 4)
+#   Thermal Weighted Mean    +/- Weighted Error      :         NAN +/-          NAN   (N = 4)
+#   MXW Simple Mean           |  Simple Stdev        : 6.65100E+02  |   2.89729E+01   (N = 3)
+#   MXW Weighted Mean        +/- Weighted Error      : 6.82623E+02 +/-  3.84111E+01   (N = 3)
+#
+# Data Table
+#   Experimental Data
+# EXFOR ID          First Author            Year   En_inc[MeV]  dEn_inc      Data[eV]     dData         sf8    sf9
+10681-007-0         C.E.Bemis Jr            1977   2.5300E-08   0.0000E+00   5.7900E+02   0.0000E+00                
+23185-002-0         L.Popescu               2012   2.5300E-08   0.0000E+00   6.6600E+02   0.0000E+00                
+23185-003-0         L.Popescu               2012   2.5300E-08   0.0000E+00   6.6800E+02   0.0000E+00                
+23185-004-0         L.Popescu               2012   2.5300E-08   0.0000E+00   6.6700E+02   2.6000E+01                
+12497-007-0         E.K.Hulet               1957   2.5300E-08   0.0000E+00   6.9000E+02   5.0000E+01     MXW        
+10681-006-0         C.E.Bemis Jr            1977   2.5300E-08   0.0000E+00   6.3330E+02   0.0000E+00     MXW        
+40490-002-0         K.D.Zhuravlev           1979   2.5300E-08   0.0000E+00   6.7200E+02   6.0000E+01     MXW        
+#   Recom./Eval./Deriv./Calc. Data
+# EXFOR ID          First Author            Year   En_inc[MeV]  dEn_inc      Data[eV]     dData         sf8    sf9
+23577-003-0         O.Serot                 2005   2.5300E-08   0.0000E+00   5.7200E+02   2.5000E+01           DERIV
+41532-003-0         A.A.Alekseev            2009   2.5000E-08   0.0000E+00   6.4200E+02   2.9000E+01           DERIV
+20881-021-0         H.Ihle                  1972   2.5000E-08   0.0000E+00   7.5000E+02   0.0000E+00     SPA   DERIV

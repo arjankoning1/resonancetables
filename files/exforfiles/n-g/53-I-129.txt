@@ -1,0 +1,110 @@
+# Header: 
+#   title: 53-I-129(N,G) thermal cross section 
+#   source: EXFOR 
+#   date created: 2025-09-08 
+# Target: 
+#   Z: 53 
+#   A: 129 
+#   Nuclide: 53-I-129 
+# Reaction: 
+#   Type: N,G 
+#   Incident energy       : 2.4034e-08 MeV - 2.5988e-08 MeV 
+# Residual: 
+#   Z: 53 
+#   A: 130 
+#   Nuclide: 53-I-130
+# Statistics:
+#   Thermal Simple Mean       |  Simple Stdev        : 2.84875E+01  |   2.61397E+00   (N = 8)
+#   Thermal Weighted Mean    +/- Weighted Error      : 2.79079E+01 +/-  3.93528E-01   (N = 8)
+#   MXW Simple Mean           |  Simple Stdev        : 2.85000E+01  |   2.54558E+00   (N = 2)
+#   MXW Weighted Mean        +/- Weighted Error      : 2.93471E+01 +/-  1.02899E+00   (N = 2)
+#   SPA Simple Mean           |  Simple Stdev        : 2.20500E+01  |   1.70413E+01   (N = 2)
+#   SPA Weighted Mean        +/- Weighted Error      : 2.26675E+01 +/-  1.37750E+00   (N = 2)
+#
+# Data Table
+#   Experimental Data
+# EXFOR ID          First Author            Year   En_inc[MeV]  dEn_inc      Data[eV]     dData         sf8    sf9
+23485-010-1         L.Friedmann             1983   2.5300E-08   0.0000E+00   3.3900E+01   1.9000E+00                
+31667-003-0         T.Belgya                2007   2.5300E-08   0.0000E+00   3.0600E+01   1.1000E+00                
+23615-005-0         G.Rovira                2024   2.5988E-08   0.0000E+00   2.6970E+01   1.0600E+00                
+23615-005-0         G.Rovira                2024   2.5578E-08   0.0000E+00   2.5850E+01   1.0100E+00                
+23615-005-0         G.Rovira                2024   2.5179E-08   0.0000E+00   2.6760E+01   1.0400E+00                
+23615-005-0         G.Rovira                2024   2.4788E-08   0.0000E+00   2.7320E+01   1.0600E+00                
+23615-005-0         G.Rovira                2024   2.4407E-08   0.0000E+00   2.8670E+01   1.1100E+00                
+23615-005-0         G.Rovira                2024   2.4034E-08   0.0000E+00   2.7830E+01   1.0800E+00                
+12005-003-0         J.Roy                   1958   2.5300E-08   0.0000E+00   2.6700E+01   2.0000E+00     MXW        
+22819-006-0         S.Nakamura              2000   2.5300E-08   0.0000E+00   3.0300E+01   1.2000E+00     MXW        
+23485-011-1         L.Friedmann             1983   2.5300E-08   0.0000E+00   3.4100E+01   1.9000E+00     SPA        
+41545-002-0         M.I.Krivopustov         1997   2.5300E-08   0.0000E+00   1.0000E+01   2.0000E+00     SPA        
+#   Recom./Eval./Deriv./Calc. Data
+# EXFOR ID          First Author            Year   En_inc[MeV]  dEn_inc      Data[eV]     dData         sf8    sf9
+12025-006-0         N.J.Pattenden           1963   2.5300E-08   0.0000E+00   2.8000E+01   2.0000E+00           DERIV
+23615-007-0         G.Rovira                2024   2.5300E-08   0.0000E+00   3.1000E+01   4.0000E-01           DERIV
+V1002-036-1         S.F.Mughabghab          2006   2.5300E-08   0.0000E+00   3.0300E+01   1.2000E+00           RECOM
+# Header: 
+#   title: 53-I-129(N,G) thermal cross section 
+#   source: EXFOR 
+#   date created: 2025-09-08 
+# Target: 
+#   Z: 53 
+#   A: 129 
+#   Nuclide: 53-I-129 
+# Reaction: 
+#   Type: N,G 
+#   Incident energy       : 2.5300e-08 MeV - 2.5300e-08 MeV 
+# Residual: 
+#   Z: 53 
+#   A: 130 
+#   Nuclide: 53-I-130-M
+# Statistics:
+#   Thermal Simple Mean       |  Simple Stdev        : 2.04000E+01  |           NAN   (N = 1)
+#   Thermal Weighted Mean    +/- Weighted Error      :         NAN +/-          NAN   (N = 1)
+#   MXW Simple Mean           |  Simple Stdev        : 1.78000E+01  |           NAN   (N = 1)
+#   MXW Weighted Mean        +/- Weighted Error      :         NAN +/-          NAN   (N = 1)
+#   SPA Simple Mean           |  Simple Stdev        : 1.82500E+01  |   3.18198E+00   (N = 2)
+#   SPA Weighted Mean        +/- Weighted Error      :         NAN +/-          NAN   (N = 2)
+#
+# Data Table
+#   Experimental Data
+# EXFOR ID          First Author            Year   En_inc[MeV]  dEn_inc      Data[eV]     dData         sf8    sf9
+23485-010-2         L.Friedmann             1983   2.5300E-08   0.0000E+00   2.0400E+01   1.6000E+00                
+22819-004-0         S.Nakamura              2000   2.5300E-08   0.0000E+00   1.7800E+01   7.0000E-01     MXW        
+12014-002-0         D.D.Wilkey              1966   2.5300E-08   0.0000E+00   1.6000E+01   0.0000E+00     SPA        
+23485-011-2         L.Friedmann             1983   2.5300E-08   0.0000E+00   2.0500E+01   1.6000E+00     SPA        
+#   Recom./Eval./Deriv./Calc. Data
+# EXFOR ID          First Author            Year   En_inc[MeV]  dEn_inc      Data[eV]     dData         sf8    sf9
+V1002-036-2         S.F.Mughabghab          2006   2.5300E-08   0.0000E+00   1.7800E+01   7.0000E-01           RECOM
+# Header: 
+#   title: 53-I-129(N,G) thermal cross section 
+#   source: EXFOR 
+#   date created: 2025-09-08 
+# Target: 
+#   Z: 53 
+#   A: 129 
+#   Nuclide: 53-I-129 
+# Reaction: 
+#   Type: N,G 
+#   Incident energy       : 2.5300e-08 MeV - 2.5300e-08 MeV 
+# Residual: 
+#   Z: 53 
+#   A: 130 
+#   Nuclide: 53-I-130-G
+# Statistics:
+#   Thermal Simple Mean       |  Simple Stdev        : 1.35000E+01  |           NAN   (N = 1)
+#   Thermal Weighted Mean    +/- Weighted Error      :         NAN +/-          NAN   (N = 1)
+#   MXW Simple Mean           |  Simple Stdev        : 2.37500E+01  |   1.59099E+01   (N = 2)
+#   MXW Weighted Mean        +/- Weighted Error      :         NAN +/-          NAN   (N = 2)
+#   SPA Simple Mean           |  Simple Stdev        : 1.08000E+01  |   3.95980E+00   (N = 2)
+#   SPA Weighted Mean        +/- Weighted Error      :         NAN +/-          NAN   (N = 2)
+#
+# Data Table
+#   Experimental Data
+# EXFOR ID          First Author            Year   En_inc[MeV]  dEn_inc      Data[eV]     dData         sf8    sf9
+23485-010-3         L.Friedmann             1983   2.5300E-08   0.0000E+00   1.3500E+01   1.2000E+00                
+21393-002-0         B.C.Purkayastha         1956   2.5300E-08   0.0000E+00   3.5000E+01   0.0000E+00     MXW        
+22819-002-0         S.Nakamura              2000   2.5300E-08   0.0000E+00   1.2500E+01   5.0000E-01     MXW        
+12014-003-0         D.D.Wilkey              1966   2.5300E-08   0.0000E+00   8.0000E+00   0.0000E+00     SPA        
+23485-011-3         L.Friedmann             1983   2.5300E-08   0.0000E+00   1.3600E+01   1.2000E+00     SPA        
+#   Recom./Eval./Deriv./Calc. Data
+# EXFOR ID          First Author            Year   En_inc[MeV]  dEn_inc      Data[eV]     dData         sf8    sf9
+V1002-036-3         S.F.Mughabghab          2006   2.5300E-08   0.0000E+00   1.2500E+01   5.0000E-01           RECOM

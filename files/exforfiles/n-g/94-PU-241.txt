@@ -1,0 +1,39 @@
+# Header: 
+#   title: 94-PU-241(N,G) thermal cross section 
+#   source: EXFOR 
+#   date created: 2025-09-08 
+# Target: 
+#   Z: 94 
+#   A: 241 
+#   Nuclide: 94-PU-241 
+# Reaction: 
+#   Type: N,G 
+#   Incident energy       : 2.4150e-08 MeV - 2.5940e-08 MeV 
+# Residual: 
+#   Z: 94 
+#   A: 242 
+#   Nuclide: 94-PU-242
+# Statistics:
+#   Thermal Simple Mean       |  Simple Stdev        : 3.67229E+02  |   1.94715E+01   (N = 7)
+#   Thermal Weighted Mean    +/- Weighted Error      :         NAN +/-          NAN   (N = 7)
+#   MXW Simple Mean           |  Simple Stdev        : 3.35000E+02  |           NAN   (N = 1)
+#   MXW Weighted Mean        +/- Weighted Error      :         NAN +/-          NAN   (N = 1)
+#   SPA Simple Mean           |  Simple Stdev        : 4.10000E+02  |   2.82843E+01   (N = 2)
+#   SPA Weighted Mean        +/- Weighted Error      : 4.27647E+02 +/-  1.94029E+01   (N = 2)
+#
+# Data Table
+#   Experimental Data
+# EXFOR ID          First Author            Year   En_inc[MeV]  dEn_inc      Data[eV]     dData         sf8    sf9
+21410-017-0         M.J.Cabell              1968   2.5300E-08   0.0000E+00   3.7160E+02   1.2000E+01                
+10768-002-0         L.W.Weston              1978   2.4150E-08   0.0000E+00   3.8000E+02   0.0000E+00                
+10768-002-0         L.W.Weston              1978   2.4490E-08   0.0000E+00   3.5950E+02   0.0000E+00                
+10768-002-0         L.W.Weston              1978   2.4840E-08   0.0000E+00   3.4170E+02   0.0000E+00                
+10768-002-0         L.W.Weston              1978   2.5200E-08   0.0000E+00   3.7510E+02   0.0000E+00                
+10768-002-0         L.W.Weston              1978   2.5570E-08   0.0000E+00   3.9670E+02   0.0000E+00                
+10768-002-0         L.W.Weston              1978   2.5940E-08   0.0000E+00   3.4600E+02   0.0000E+00                
+13906-010-0         M.G.Inghram             1956   2.5000E-08   0.0000E+00   3.3500E+02   0.0000E+00     MXW        
+12535-007-0         P.R.Fields              1956   2.5300E-08   0.0000E+00   3.9000E+02   8.0000E+01     SPA        
+12548-003-0         D.S.Craig               1958   2.5300E-08   0.0000E+00   4.3000E+02   2.0000E+01     SPA        
+#   Recom./Eval./Deriv./Calc. Data
+# EXFOR ID          First Author            Year   En_inc[MeV]  dEn_inc      Data[eV]     dData         sf8    sf9
+20881-007-0         H.Ihle                  1972   2.5000E-08   0.0000E+00   4.0000E+02   0.0000E+00     SPA   DERIV

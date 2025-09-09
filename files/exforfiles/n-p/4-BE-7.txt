@@ -1,0 +1,41 @@
+# Header: 
+#   title: 4-BE-7(N,P) thermal cross section 
+#   source: EXFOR 
+#   date created: 2025-09-08 
+# Target: 
+#   Z: 4 
+#   A: 7 
+#   Nuclide: 4-BE-7 
+# Reaction: 
+#   Type: N,P 
+#   Incident energy       : 2.4000e-08 MeV - 2.5750e-08 MeV 
+# Residual: 
+#   Z: 3 
+#   A: 7 
+#   Nuclide: 3-LI-7
+# Statistics:
+#   Thermal Simple Mean       |  Simple Stdev        : 4.63472E+04  |   6.15485E+03   (N = 4)
+#   Thermal Weighted Mean    +/- Weighted Error      : 4.02892E+04 +/-  6.97791E+02   (N = 4)
+#   MXW Simple Mean           |  Simple Stdev        : 4.68000E+04  |           NAN   (N = 1)
+#   MXW Weighted Mean        +/- Weighted Error      :         NAN +/-          NAN   (N = 1)
+#
+# Data Table
+#   Experimental Data
+# EXFOR ID          First Author            Year   En_inc[MeV]  dEn_inc      Data[eV]     dData         sf8    sf9
+23291-002-0         R.C.Hanna               1955   2.5300E-08   0.0000E+00   5.3000E+04   8.0000E+03                
+41596-006-0         Yu.M.Gledenov           1987   2.4657E-08   5.1656E-10   4.9269E+04   0.0000E+00                
+13163-003-0         P.E.Koehler             1988   2.5300E-08   0.0000E+00   3.8820E+04   8.0900E+02                
+31791-003-0         I.Tomandl               2019   2.5300E-08   0.0000E+00   4.4300E+04   1.4000E+03                
+32103-002-0         J.Cervena               1989   2.5300E-08   0.0000E+00   4.6800E+04   4.0000E+03     MXW        
+#   Recom./Eval./Deriv./Calc. Data
+# EXFOR ID          First Author            Year   En_inc[MeV]  dEn_inc      Data[eV]     dData         sf8    sf9
+23399-004-0         L.Damone                2018   2.5300E-08   0.0000E+00   5.2300E+04   0.0000E+00           DERIV
+23399-005-0         L.Damone                2018   2.4000E-08   0.0000E+00   5.4123E+04   0.0000E+00           DERIV
+23399-005-0         L.Damone                2018   2.4250E-08   0.0000E+00   5.3843E+04   0.0000E+00           DERIV
+23399-005-0         L.Damone                2018   2.4500E-08   0.0000E+00   5.3567E+04   0.0000E+00           DERIV
+23399-005-0         L.Damone                2018   2.4750E-08   0.0000E+00   5.3296E+04   0.0000E+00           DERIV
+23399-005-0         L.Damone                2018   2.5000E-08   0.0000E+00   5.3028E+04   0.0000E+00           DERIV
+23399-005-0         L.Damone                2018   2.5250E-08   0.0000E+00   5.2765E+04   0.0000E+00           DERIV
+23399-005-0         L.Damone                2018   2.5500E-08   0.0000E+00   5.2506E+04   0.0000E+00           DERIV
+23399-005-0         L.Damone                2018   2.5750E-08   0.0000E+00   5.2250E+04   0.0000E+00           DERIV
+V1001-016-1         S.F.Mughabghab          2006   2.5300E-08   0.0000E+00   3.8820E+04   8.0900E+02           RECOM

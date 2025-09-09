@@ -1,0 +1,57 @@
+# Header: 
+#   title: 42-MO-98(N,G) thermal cross section 
+#   source: EXFOR 
+#   date created: 2025-09-08 
+# Target: 
+#   Z: 42 
+#   A: 98 
+#   Nuclide: 42-MO-98 
+# Reaction: 
+#   Type: N,G 
+#   Incident energy       : 2.5000e-08 MeV - 2.5300e-08 MeV 
+# Residual: 
+#   Z: 42 
+#   A: 99 
+#   Nuclide: 42-MO-99
+# Statistics:
+#   Thermal Simple Mean       |  Simple Stdev        : 1.32455E-01  |   8.84719E-03  (N = 11)
+#   Thermal Weighted Mean    +/- Weighted Error      : 1.30750E-01 +/-  1.00992E-03  (N = 11)
+#   AV Simple Mean            |  Simple Stdev        : 1.28000E-01  |           NAN   (N = 1)
+#   AV Weighted Mean         +/- Weighted Error      :         NAN +/-          NAN   (N = 1)
+#   MXW Simple Mean           |  Simple Stdev        : 1.85783E-01  |   1.06599E-01   (N = 6)
+#   MXW Weighted Mean        +/- Weighted Error      : 1.35910E-01 +/-  2.37427E-03   (N = 6)
+#   SPA Simple Mean           |  Simple Stdev        : 2.71462E-01  |   1.85853E-01   (N = 6)
+#   SPA Weighted Mean        +/- Weighted Error      : 1.62149E-01 +/-  4.37401E-03   (N = 6)
+#
+# Data Table
+#   Experimental Data
+# EXFOR ID          First Author            Year   En_inc[MeV]  dEn_inc      Data[eV]     dData         sf8    sf9
+20186-002-0         A.Fabry                 1969   2.5300E-08   0.0000E+00   1.2000E-01   5.0000E-03                
+10662-004-0         G.Gleason               1977   2.5300E-08   0.0000E+00   1.4500E-01   1.5000E-02                
+21584-002-0         M.Kurosawa              1979   2.5300E-08   0.0000E+00   1.5000E-01   0.0000E+00                
+23488-036-0         F.De Corte              1988   2.5300E-08   0.0000E+00   1.3100E-01   1.0480E-03                
+31656-002-0         Nguyen Van Do           2009   2.5300E-08   0.0000E+00   1.3600E-01   7.0000E-03                
+31693-004-0         A.El Abd                2010   2.5300E-08   0.0000E+00   1.3700E-01   1.4000E-02                
+23266-103-0         F.Farina Arbocco        2013   2.5300E-08   0.0000E+00   1.3000E-01   0.0000E+00                
+23266-103-0         F.Farina Arbocco        2013   2.5300E-08   0.0000E+00   1.2700E-01   0.0000E+00                
+23266-103-0         F.Farina Arbocco        2013   2.5300E-08   0.0000E+00   1.2700E-01   0.0000E+00                
+23266-103-0         F.Farina Arbocco        2013   2.5300E-08   0.0000E+00   1.2600E-01   0.0000E+00                
+23266-103-0         F.Farina Arbocco        2013   2.5300E-08   0.0000E+00   1.2800E-01   0.0000E+00                
+23266-102-0         F.Farina Arbocco        2013   2.5300E-08   0.0000E+00   1.2800E-01   2.0000E-03      AV        
+11507-054-0         H.Pomerance             1952   2.5300E-08   0.0000E+00   4.0000E-01   4.0000E-01     MXW        
+11916-002-0         R.Garth                 1952   2.5300E-08   0.0000E+00   1.3000E-01   5.0000E-02     MXW        
+20049-007-0         R.Dahlberg              1961   2.5300E-08   0.0000E+00   1.8000E-01   2.0000E-02     MXW        
+20626-002-0         M.J.Cabell              1961   2.5300E-08   0.0000E+00   1.3600E-01   3.0000E-03     MXW        
+11813-012-0         G.H.E.Sims              1967   2.5300E-08   0.0000E+00   1.3700E-01   6.0000E-03     MXW        
+12831-004-0         J.M.Wyrick              1982   2.5300E-08   0.0000E+00   1.3170E-01   5.3000E-03     MXW        
+11447-057-0         L.Seren                 1947   2.5300E-08   0.0000E+00   4.1500E-01   8.3000E-02     SPA        
+11625-016-0         W.S.Lyon                1960   2.5300E-08   0.0000E+00   5.8000E-01   5.8000E-02     SPA        
+11813-011-0         G.H.E.Sims              1967   2.5300E-08   0.0000E+00   2.2400E-01   1.0000E-02     SPA        
+12866-076-0         R.E.Heft                1978   2.5000E-08   0.0000E+00   1.4400E-01   5.0000E-03     SPA        
+33108-002-0         S.Badwar                2017   2.5000E-08   0.0000E+00   1.3205E-01   3.2890E-02     SPA        
+33108-002-0         S.Badwar                2017   2.5000E-08   0.0000E+00   1.3372E-01   3.3300E-02     SPA        
+#   Recom./Eval./Deriv./Calc. Data
+# EXFOR ID          First Author            Year   En_inc[MeV]  dEn_inc      Data[eV]     dData         sf8    sf9
+41062-004-0         S.I.Babich              1989   2.5300E-08   0.0000E+00   1.4000E-01   1.0000E-01           DERIV
+31757-003-0         Md.S.Uddin              2015   2.5300E-08   0.0000E+00   1.3300E-01   8.0000E-03           DERIV
+V1001-402-1         S.F.Mughabghab          2006   2.5300E-08   0.0000E+00   1.3000E-01   6.0000E-03           RECOM

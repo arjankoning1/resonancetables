@@ -1,0 +1,30 @@
+# Header: 
+#   title: 20-CA-0(N,TOT) thermal cross section 
+#   source: EXFOR 
+#   date created: 2025-09-08 
+# Target: 
+#   Z: 20 
+#   A: 0 
+#   Nuclide: 20-CA-0 
+# Reaction: 
+#   Type: N,TOT 
+#   Incident energy       : 2.4100e-08 MeV - 2.5300e-08 MeV 
+# Residual: 
+#   Z:  
+#   A:  
+#   Nuclide: 
+# Statistics:
+#   Thermal Simple Mean       |  Simple Stdev        : 4.38650E+00  |   3.88909E-02   (N = 2)
+#   Thermal Weighted Mean    +/- Weighted Error      : 4.38616E+00 +/-  1.55077E-01   (N = 2)
+#   MXW Simple Mean           |  Simple Stdev        : 1.10000E+01  |           NAN   (N = 1)
+#   MXW Weighted Mean        +/- Weighted Error      :         NAN +/-          NAN   (N = 1)
+#
+# Data Table
+#   Experimental Data
+# EXFOR ID          First Author            Year   En_inc[MeV]  dEn_inc      Data[eV]     dData         sf8    sf9
+30467-002-0         A.Abdel-Kawi            1972   2.4100E-08   0.0000E+00   4.3590E+00   2.1795E-01                
+30467-002-0         A.Abdel-Kawi            1972   2.5300E-08   0.0000E+00   4.4140E+00   2.2070E-01                
+12634-019-0         J.R.Dunning             1935   2.5000E-08   0.0000E+00   1.1000E+01   0.0000E+00     MXW        
+#   Recom./Eval./Deriv./Calc. Data
+# EXFOR ID          First Author            Year   En_inc[MeV]  dEn_inc      Data[eV]     dData         sf8    sf9
+30467-003-0         A.Abdel-Kawi            1972   2.5000E-08   0.0000E+00   4.3500E+00   1.2000E-01           DERIV

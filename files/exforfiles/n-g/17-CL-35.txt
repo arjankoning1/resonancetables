@@ -1,0 +1,37 @@
+# Header: 
+#   title: 17-CL-35(N,G) thermal cross section 
+#   source: EXFOR 
+#   date created: 2025-09-08 
+# Target: 
+#   Z: 17 
+#   A: 35 
+#   Nuclide: 17-CL-35 
+# Reaction: 
+#   Type: N,G 
+#   Incident energy       : 2.5000e-08 MeV - 2.5300e-08 MeV 
+# Residual: 
+#   Z: 17 
+#   A: 36 
+#   Nuclide: 17-CL-36
+# Statistics:
+#   Thermal Simple Mean       |  Simple Stdev        : 4.18000E+01  |           NAN   (N = 1)
+#   Thermal Weighted Mean    +/- Weighted Error      :         NAN +/-          NAN   (N = 1)
+#   A Simple Mean             |  Simple Stdev        : 3.29400E+01  |           NAN   (N = 1)
+#   A Weighted Mean          +/- Weighted Error      :         NAN +/-          NAN   (N = 1)
+#   MXW Simple Mean           |  Simple Stdev        : 4.26000E+01  |   1.13137E+00   (N = 2)
+#   MXW Weighted Mean        +/- Weighted Error      : 4.28240E+01 +/-  7.20000E-01   (N = 2)
+#   SPA Simple Mean           |  Simple Stdev        : 1.51950E+01  |   2.09374E+01   (N = 2)
+#   SPA Weighted Mean        +/- Weighted Error      :         NAN +/-          NAN   (N = 2)
+#
+# Data Table
+#   Experimental Data
+# EXFOR ID          First Author            Year   En_inc[MeV]  dEn_inc      Data[eV]     dData         sf8    sf9
+10042-005-0         G.H.E.Sims              1969   2.5300E-08   0.0000E+00   4.1800E+01   1.2000E+00                
+31556-003-0         G.L.Molnar              2004   2.5300E-08   0.0000E+00   3.2940E+01   1.4000E-01       A        
+10042-006-0         G.H.E.Sims              1969   2.5300E-08   0.0000E+00   4.1800E+01   1.2000E+00     MXW        
+31489-010-0         L.Venturini             1997   2.5000E-08   0.0000E+00   4.3400E+01   9.0000E-01     MXW        
+11549-005-0         R.W.Durham              1961   2.5300E-08   0.0000E+00   3.9000E-01   6.0000E-02     SPA        
+11603-004-0         J.H.Gillette            1966   2.5300E-08   0.0000E+00   3.0000E+01   0.0000E+00     SPA        
+#   Recom./Eval./Deriv./Calc. Data
+# EXFOR ID          First Author            Year   En_inc[MeV]  dEn_inc      Data[eV]     dData         sf8    sf9
+V1001-105-1         S.F.Mughabghab          2006   2.5300E-08   0.0000E+00   4.3600E+01   4.0000E-01           RECOM

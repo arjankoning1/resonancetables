@@ -1,0 +1,33 @@
+# Header: 
+#   title: 26-FE-56(N,G) thermal cross section 
+#   source: EXFOR 
+#   date created: 2025-09-08 
+# Target: 
+#   Z: 26 
+#   A: 56 
+#   Nuclide: 26-FE-56 
+# Reaction: 
+#   Type: N,G 
+#   Incident energy       : 2.5000e-08 MeV - 2.5300e-08 MeV 
+# Residual: 
+#   Z: 26 
+#   A: 57 
+#   Nuclide: 26-FE-57
+# Statistics:
+#   Thermal Simple Mean       |  Simple Stdev        : 2.51133E+00  |   1.01614E-01   (N = 3)
+#   Thermal Weighted Mean    +/- Weighted Error      : 2.39808E+00 +/-  1.87782E-02   (N = 3)
+#   MXW Simple Mean           |  Simple Stdev        : 2.55000E+00  |           NAN   (N = 1)
+#   MXW Weighted Mean        +/- Weighted Error      :         NAN +/-          NAN   (N = 1)
+#
+# Data Table
+#   Experimental Data
+# EXFOR ID          First Author            Year   En_inc[MeV]  dEn_inc      Data[eV]     dData         sf8    sf9
+40544-002-0         O.A.Shcherbakov         1977   2.5000E-08   0.0000E+00   2.5700E+00   2.6000E-01                
+40544-004-0         O.A.Shcherbakov         1977   2.5300E-08   0.0000E+00   2.5700E+00   1.4000E-01                
+31772-004-0         R.B.Firestone           2017   2.5300E-08   0.0000E+00   2.3940E+00   1.9000E-02                
+11507-023-0         H.Pomerance             1952   2.5300E-08   0.0000E+00   2.5500E+00   2.0400E-01     MXW        
+#   Recom./Eval./Deriv./Calc. Data
+# EXFOR ID          First Author            Year   En_inc[MeV]  dEn_inc      Data[eV]     dData         sf8    sf9
+32234-009-1         L.L.Litvinskij          1994   2.5300E-08   0.0000E+00   2.8000E+00   0.0000E+00           DERIV
+32234-009-2         L.L.Litvinskij          1994   2.5300E-08   0.0000E+00   2.7700E+00   0.0000E+00           DERIV
+V1001-202-1         S.F.Mughabghab          2006   2.5300E-08   0.0000E+00   2.5900E+00   1.4000E-01           RECOM

@@ -1,0 +1,49 @@
+# Header: 
+#   title: 62-SM-152(N,G) thermal cross section 
+#   source: EXFOR 
+#   date created: 2025-09-08 
+# Target: 
+#   Z: 62 
+#   A: 152 
+#   Nuclide: 62-SM-152 
+# Reaction: 
+#   Type: N,G 
+#   Incident energy       : 2.5000e-08 MeV - 2.5300e-08 MeV 
+# Residual: 
+#   Z: 62 
+#   A: 153 
+#   Nuclide: 62-SM-153
+# Statistics:
+#   Thermal Simple Mean       |  Simple Stdev        : 2.15503E+02  |   1.34100E+01  (N = 10)
+#   Thermal Weighted Mean    +/- Weighted Error      : 2.12799E+02 +/-  2.77607E+00  (N = 10)
+#   AV Simple Mean            |  Simple Stdev        : 2.07000E+02  |           NAN   (N = 1)
+#   AV Weighted Mean         +/- Weighted Error      :         NAN +/-          NAN   (N = 1)
+#   MXW Simple Mean           |  Simple Stdev        : 1.96500E+02  |   3.94842E+01   (N = 4)
+#   MXW Weighted Mean        +/- Weighted Error      : 2.09489E+02 +/-  6.11477E+00   (N = 4)
+#   SPA Simple Mean           |  Simple Stdev        : 2.27000E+02  |   3.25269E+01   (N = 2)
+#   SPA Weighted Mean        +/- Weighted Error      : 2.05444E+02 +/-  8.85765E+00   (N = 2)
+#
+# Data Table
+#   Experimental Data
+# EXFOR ID          First Author            Year   En_inc[MeV]  dEn_inc      Data[eV]     dData         sf8    sf9
+21325-012-0         N.J.Pattenden           1958   2.5300E-08   0.0000E+00   2.0000E+02   6.0000E+00                
+20638-048-0         R.B.Tattersall          1960   2.5300E-08   0.0000E+00   2.2400E+02   7.0000E+00                
+23488-067-0         F.De Corte              1988   2.5300E-08   0.0000E+00   2.2000E+02   5.2800E+00                
+22964-002-0         M.Karadag               2007   2.5000E-08   0.0000E+00   2.0480E+02   7.9000E+00                
+31698-006-0         B.J.B.Nyarko            2010   2.5300E-08   0.0000E+00   2.3893E+02   1.9110E+01                
+31717-003-0         S.E.Agbemava            2011   2.5300E-08   0.0000E+00   2.0730E+02   9.4000E+00                
+23266-135-0         F.Farina Arbocco        2013   2.5300E-08   0.0000E+00   2.0600E+02   0.0000E+00                
+23266-135-0         F.Farina Arbocco        2013   2.5300E-08   0.0000E+00   2.3500E+02   0.0000E+00                
+23266-135-0         F.Farina Arbocco        2013   2.5300E-08   0.0000E+00   2.0700E+02   0.0000E+00                
+30843-002-0         V.D.Nguyen              2017   2.5300E-08   0.0000E+00   2.1200E+02   8.0000E+00                
+23266-134-0         F.Farina Arbocco        2013   2.5300E-08   0.0000E+00   2.0700E+02   1.0000E+00      AV        
+11447-096-0         L.Seren                 1947   2.5300E-08   0.0000E+00   1.3800E+02   2.7600E+01     MXW        
+12023-006-0         E.Fehr                  1960   2.5300E-08   0.0000E+00   2.1500E+02   1.0000E+01     MXW        
+14457-004-0         R.E.Chrien              1961   2.5300E-08   0.0000E+00   2.2400E+02   1.8000E+01     MXW        
+20627-002-0         M.J.Cabell              1962   2.5300E-08   0.0000E+00   2.0900E+02   9.0000E+00     MXW        
+12127-008-0         W.H.Walker              1956   2.5300E-08   0.0000E+00   2.5000E+02   5.0000E+01     SPA        
+12866-142-0         R.E.Heft                1978   2.5000E-08   0.0000E+00   2.0400E+02   9.0000E+00     SPA        
+#   Recom./Eval./Deriv./Calc. Data
+# EXFOR ID          First Author            Year   En_inc[MeV]  dEn_inc      Data[eV]     dData         sf8    sf9
+12099-002-0         Br.A.Bernabei           1962   2.5300E-08   0.0000E+00   2.0910E+02   2.0700E+01           DERIV
+V1002-204-1         S.F.Mughabghab          2006   2.5300E-08   0.0000E+00   2.0600E+02   6.0000E+00           RECOM

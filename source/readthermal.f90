@@ -24,6 +24,7 @@ subroutine readthermal(Z, A, Liso, Riso, type)
   character(len=3)   :: Zstring
   character(len=3)   :: Astring
   character(len=4)   :: ext
+  character(len=9)   :: reacdir(6) 
   character(len=9)   :: ref        ! reference
   character(len=12)  :: sub        ! subentry
   character(len=10)   :: nucstring
@@ -363,7 +364,7 @@ subroutine readthermal(Z, A, Liso, Riso, type)
 !
   xs = 0.
   dxs = 0.
-  if (type == 4 .and. A == 0 .and. Liso == 0 .and. Riso == -1) then
+  if (type == 4 .and. Liso == 0 .and. Riso == -1) then
     thermfile = trim(filespath)//'firestone2022.txt'
     open (unit = 2, status = 'old', file = thermfile)
     do
@@ -371,16 +372,17 @@ subroutine readthermal(Z, A, Liso, Riso, type)
       if (istat == -1) exit
       if (istat > 0) call read_error(thermfile, istat)
       if (line(1:1) == '#') cycle
+      read(line(12:14), * ) ia
       read(line(17:20), * ) iz
 !
 ! (n,g)
 !
-      if (iz == Z .and. (Z <= 83 .or. Z == 90 .or. Z == 92)) then
+      if (iz == Z .and. ia == A) then
         xs = rochread(line(63:72))
         dxs = rochread(line(77:86))
         if (xs > 0.) then
           k = k + 1
-          res_author(k) = 'Firestone'
+          res_author(k) = 'Firestone-2022'
           res_type(k) = 'Compilation'
           res_year(k) = 2022
           res_ref(k) = ref
@@ -473,17 +475,20 @@ subroutine readthermal(Z, A, Liso, Riso, type)
 !
   xs = 0.
   dxs = 0.
-  if ((type == 3 .and. Riso == -1) .or. type == 1 .or. type == 2 .or. type == 4) then
+  if (type <= 6) then
     if (type == 1) ext = 'tot'
     if (type == 2) ext = 'el'
     if (type == 3) ext = 'nf'
-    if (type == 4) then
-      ext = 'ng'
+    if (type == 4) ext = 'ng'
+    if (type == 5) ext = 'np'
+    if (type == 6) ext = 'na'
+    if (type >= 4) then
       if (Riso == 0) ext=trim(ext)//'_g'
       if (Riso == 1) ext=trim(ext)//'_m'
       if (Riso == 2) ext=trim(ext)//'_n'
     endif
     do lib = 1, numndlib
+      if (type <= 3 .and. Riso /= -1) cycle
       thermfile = trim(libspath)//trim(ndlib(lib))//'.therm_'//ext
       inquire (file = thermfile, exist = lexist)
       if (lexist) then
@@ -515,6 +520,14 @@ subroutine readthermal(Z, A, Liso, Riso, type)
 !
 ! Shin Okumura EXFOR mining
 !
+! Get thermal c.s. from Shin Okumra repo, and nubar from EXFORtables
+!
+  reacdir(1) = 'n-tot'
+  reacdir(2) = 'n-el'
+  reacdir(3) = 'n-f'
+  reacdir(4) = 'n-g'
+  reacdir(5) = 'n-p'
+  reacdir(6) = 'n-a'
   if (type <= 6) then
     shin = .true.
   else
@@ -533,7 +546,7 @@ subroutine readthermal(Z, A, Liso, Riso, type)
     if (Unuc(2:2) /= ' ') Unuc(2:2) = achar(iachar(Unuc(2:2)) - 32) 
     write(nucstring,'(a,"-",a,"-",a)') trim(adjustl(Zstring)),trim(Unuc),trim(adjustl(Astring))
     if (Liso == 1) nucstring=trim(nucstring)//'-M'
-    thermfile = trim(filespath)//'exforfiles/'//trim(reac(type))//'/'//trim(nucstring)//'.txt'
+    thermfile = trim(filespath)//'exforfiles/'//trim(reacdir(type))//'/'//trim(nucstring)//'.txt'
     inquire (file = thermfile, exist = lexist)
     if (lexist .and. Liso == 0) then
       open (unit = 2, status = 'old', file = thermfile)
@@ -553,6 +566,7 @@ subroutine readthermal(Z, A, Liso, Riso, type)
         if (Riso /= isoR) cycle
         recom=index(line,'RECOM') 
         recom=max(recom,index(line,'DERIV') )
+        recom=max(recom,index(line,'RAW') )
         if (recom > 0) cycle
         mxw1=index(line,'MXW') 
         mxw2=index(line,'AV') 
@@ -566,8 +580,8 @@ subroutine readthermal(Z, A, Liso, Riso, type)
         endif
         if (xs <= 0.) cycle
         Nres_exp = Nres_exp + 1
-        if (Nres_exp  > numex) then
-          Nres_exp = numex
+        if (Nres_exp  > numex - 20) then
+          Nres_exp = numex - 20
           exit
         endif
         k = k + 1

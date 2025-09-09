@@ -227,7 +227,7 @@ subroutine procthermal(Z, A, Liso)
       endif
     enddo
     do i = 1, N
-      if (res_author(i) == 'Firestone') then
+      if (res_author(i) == 'Firestone-2022') then
         Nsel = i
         exit Loop1
       endif

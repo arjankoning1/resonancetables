@@ -30,6 +30,7 @@ subroutine writeresonance(Z, A, Liso, type)
   integer            :: type       ! reaction type
   integer            :: indent
   integer            :: id2
+  integer            :: id4
   real               :: F
 !
 ! **************** Write databases for resonance data *****
@@ -37,6 +38,7 @@ subroutine writeresonance(Z, A, Liso, type)
   if (.not.res_exist) return
   indent = 0
   id2 = indent + 2
+  id4 = indent + 4
   Ztarget = Z
   Atarget = A
   quantity='resonance data'
@@ -78,10 +80,10 @@ subroutine writeresonance(Z, A, Liso, type)
       Ncol = 9
     endif
     quantity='Compilation'
-    call write_quantity(indent,quantity)
-    call write_real(id2,'average value',av_xs_comp)
-    call write_realF(id2,'relative standard deviation [%]',var_xs_comp)
-    call write_datablock(indent,Ncol,Ncomp,col,un)
+    call write_quantity(id2,quantity)
+    call write_real(id4,'average value',av_xs_comp)
+    call write_realF(id4,'relative standard deviation [%]',var_xs_comp)
+    call write_datablock(id2,Ncol,Ncomp,col,un)
     do k = 1, Nres
       if (res_type(k) == 'Compilation') then
         F = res_xs(k) / res_xs_sel
@@ -111,10 +113,10 @@ subroutine writeresonance(Z, A, Liso, type)
       un(13) = ''
     endif
     quantity='EXFOR'
-    call write_quantity(indent,quantity)
-    call write_real(id2,'average value',av_xs_exfor)
-    call write_realF(id2,'relative standard deviation [%]',var_xs_exfor)
-    call write_datablock(indent,Ncol,Nexp,col,un)
+    call write_quantity(id2,quantity)
+    call write_real(id4,'average value',av_xs_exfor)
+    call write_realF(id4,'relative standard deviation [%]',var_xs_exfor)
+    call write_datablock(id2,Ncol,Nexp,col,un)
     F = 1.
     do k = 1, Nres
       if (res_type(k) == 'EXFOR') then
@@ -132,10 +134,10 @@ subroutine writeresonance(Z, A, Liso, type)
   Ncol = 8
   if (Nlib > 0) then
     quantity='Nuclear data library'
-    call write_quantity(indent,quantity)
-    call write_real(id2,'average value',av_xs_NDL)
-    call write_realF(id2,'relative standard deviation [%]',var_xs_NDL)
-    call write_datablock(indent,Ncol,Nlib,col,un)
+    call write_quantity(id2,quantity)
+    call write_real(id4,'average value',av_xs_NDL)
+    call write_realF(id4,'relative standard deviation [%]',var_xs_NDL)
+    call write_datablock(id2,Ncol,Nlib,col,un)
     F = 1.
     do k = 1, Nres
       if (res_type(k) == 'NDL') then

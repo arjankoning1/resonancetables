@@ -16,7 +16,7 @@ subroutine sumthermal(Riso, type)
 ! *** Declaration of local data
 !
   implicit none
-  integer, parameter :: Nsource=11
+  integer, parameter :: Nsource=12
   character(len=2)   :: iso        ! extension
   character(len=132) :: thermfile   ! nuclide file
   character(len=20)  :: msource(Nsource)
@@ -69,12 +69,13 @@ subroutine sumthermal(Riso, type)
   msource(3) = 'Sukhoruchkin'
   msource(4) = 'Mughabghab-2006'
   msource(5) = 'Mughabghab-2018'
-  msource(6) = 'cendl3.2'
-  msource(7) = 'jendl5.0'
-  msource(8) = 'tendl.2025'
-  msource(9) = 'endfb8.1'
-  msource(10) = 'jeff4.0'
-  msource(11) = 'EXFOR'
+  msource(6) = 'Firestone-2022'
+  msource(7) = 'cendl3.2'
+  msource(8) = 'jendl5.0'
+  msource(9) = 'tendl.2025'
+  msource(10) = 'endfb8.1'
+  msource(11) = 'jeff4.0'
+  msource(12) = 'EXFOR'
   do isource = 1, Nsource
     sourcefile(isource)=trim(thermalpath)//trim(rfile)//'/all/'//trim(msource(isource))//'_'//trim(rfile)//'.txt'
     ifile = 10 + isource
@@ -138,7 +139,7 @@ subroutine sumthermal(Riso, type)
             else
               ratio = 0.
             endif
-            if (isource == 11) then
+            if (isource == Nsource) then
               read(line(1:30), '(a)') auth
               read(line(91:105), '(a)') ref
               write(ifile, '(3(6x,i4,5x),2es15.6,f15.4,a15,a30,6x,a6)') Zsave(k), Asave(k), Lisosave(k), xs, dxs, ratio, &
@@ -169,7 +170,7 @@ subroutine sumthermal(Riso, type)
     enddo
     N = k - 1
     close(10)
-    if (isource == 11) then
+    if (isource == Nsource) then
       col(7) = 'Reference'
       col(8) = 'Author'
       col(9) = ''

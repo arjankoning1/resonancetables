@@ -31,6 +31,7 @@ subroutine writemacs(Z, A, Liso, Riso)
   integer            :: Riso       ! residual isomer
   integer            :: indent
   integer            :: id2
+  integer            :: id4
   real               :: F
 !
 ! **************** Write databases for MACS *****
@@ -38,6 +39,7 @@ subroutine writemacs(Z, A, Liso, Riso)
   if (.not.res_exist) return
   indent = 0
   id2 = indent + 2
+  id4 = indent + 4
   dir='ng/nuc/'
   Ztarget = Z
   Atarget = A
@@ -75,10 +77,10 @@ subroutine writemacs(Z, A, Liso, Riso)
   un(10) = 'MeV'
   if (Ncomp > 0) then
     quantity='Compilation'
-    call write_quantity(indent,quantity)
-    call write_real(id2,'average value',av_xs_comp)
-    call write_realF(id2,'relative standard deviation [%]',var_xs_comp)
-    call write_datablock(indent,Ncol,Ncomp,col,un)
+    call write_quantity(id2,quantity)
+    call write_real(id4,'average value',av_xs_comp)
+    call write_realF(id4,'relative standard deviation [%]',var_xs_comp)
+    call write_datablock(id2,Ncol,Ncomp,col,un)
     F = 1.
     do k = 1, Nres
       if (res_type(k) == 'Compilation' .and. res_av(k) == '') then
@@ -90,10 +92,10 @@ subroutine writemacs(Z, A, Liso, Riso)
   endif
   if (Ncomp_av > 0) then
     quantity='Compilation spectrum-averaged'
-    call write_quantity(indent,quantity)
-    call write_real(id2,'average value',av_xs_av_comp)
-    call write_realF(id2,'relative standard deviation [%]',var_xs_av_comp)
-    call write_datablock(indent,Ncol,Ncomp_av,col,un)
+    call write_quantity(id2,quantity)
+    call write_real(id4,'average value',av_xs_av_comp)
+    call write_realF(id4,'relative standard deviation [%]',var_xs_av_comp)
+    call write_datablock(id2,Ncol,Ncomp_av,col,un)
     F = 1.
     do k = 1, Nres
       if (res_type(k) == 'Compilation' .and. res_av(k) /= '') then
@@ -105,10 +107,10 @@ subroutine writemacs(Z, A, Liso, Riso)
   endif
   if (Nexp > 0) then
     quantity='EXFOR'
-    call write_quantity(indent,quantity)
-    call write_real(id2,'average value',av_xs_exfor)
-    call write_realF(id2,'relative standard deviation [%]',var_xs_exfor)
-    call write_datablock(indent,Ncol,Nexp,col,un)
+    call write_quantity(id2,quantity)
+    call write_real(id4,'average value',av_xs_exfor)
+    call write_realF(id4,'relative standard deviation [%]',var_xs_exfor)
+    call write_datablock(id2,Ncol,Nexp,col,un)
     F = 1.
     do k = 1, Nres
       if (res_type(k) == 'EXFOR' .and. res_av(k) == '') then
@@ -120,10 +122,10 @@ subroutine writemacs(Z, A, Liso, Riso)
   endif
   if (Nexp_av > 0) then
     quantity='EXFOR spectrum-averaged'
-    call write_quantity(indent,quantity)
-    call write_real(id2,'average value',av_xs_av_exfor)
-    call write_realF(id2,'relative standard deviation [%]',var_xs_av_exfor)
-    call write_datablock(indent,Ncol,Nexp_av,col,un)
+    call write_quantity(id2,quantity)
+    call write_real(id4,'average value',av_xs_av_exfor)
+    call write_realF(id4,'relative standard deviation [%]',var_xs_av_exfor)
+    call write_datablock(id2,Ncol,Nexp_av,col,un)
     F = 1.
     do k = 1, Nres
       if (res_type(k) == 'EXFOR' .and. res_av(k) /= '') then
@@ -135,10 +137,10 @@ subroutine writemacs(Z, A, Liso, Riso)
   endif
   if (Nlib > 0) then
     quantity='Nuclear data library'
-    call write_quantity(indent,quantity)
-    call write_real(id2,'average value',av_xs_NDL)
-    call write_realF(id2,'relative standard deviation [%]',var_xs_NDL)
-    call write_datablock(indent,Ncol,Nlib,col,un)
+    call write_quantity(id2,quantity)
+    call write_real(id4,'average value',av_xs_NDL)
+    call write_realF(id4,'relative standard deviation [%]',var_xs_NDL)
+    call write_datablock(id2,Ncol,Nlib,col,un)
     F = 1.
     do k = 1, Nres
       if (res_type(k) == 'NDL') then

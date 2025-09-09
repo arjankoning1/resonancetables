@@ -1,0 +1,37 @@
+# header: 
+#   title: Sb000(n,tot) thermal cross section
+#   source: Resonancetables
+#   date: 2025-09-08
+# target: 
+#   Z: 51
+#   A: 0
+#   nuclide: Sb000
+# reaction: 
+#   type: (n,tot)
+# observables: 
+#   selected value [b]:  8.334000E+00
+#   selected value uncertainty [b]:  0.000000E+00
+#   selected value source: W.W.Havens Jr
+#   number of values: 2
+#   average value [b]:  8.217000E+00
+#   relative standard deviation [%]:      1.423873
+#   quantity: 
+#     type: EXFOR
+#     average value:  8.334000E+00
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      W.W.Havens Jr           EXFOR                1946        8.334000E+00   0.000000E+00   11139-031-0        1.000000                  2.600000E-08
+#   quantity: 
+#     type: EXFOR spectrum-averaged
+#     average value:  8.100000E+00
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      J.R.Dunning             EXFOR                1935        8.100000E+00   0.000000E+00   12634-044-0        0.971922   MXW            2.500000E-08

@@ -1,7 +1,7 @@
 # header: 
 #   title: Na023(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 11
 #   A: 23
@@ -12,39 +12,39 @@
 #   selected value [b]:  5.130000E-01
 #   selected value uncertainty [b]:  3.000000E-03
 #   selected value source: Kayzero
-#   number of values: 41
-#   average value [b]:  5.131885E-01
-#   relative standard deviation [%]:      8.142271
-# quantity: 
-#   type: Compilation
-#   average value:  5.180000E-01
-#   relative standard deviation [%]:      0.841483
-# datablock: 
-#   columns: 10
-#   entries: 4
+#   number of values: 43
+#   average value [b]:  5.149007E-01
+#   relative standard deviation [%]:      8.144871
+#   quantity: 
+#     type: Compilation
+#     average value:  5.180000E-01
+#     relative standard deviation [%]:      0.841483
+#   datablock: 
+#     columns: 10
+#     entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       Mughabghab-2006         Compilation          2006        5.170000E-01   4.000000E-03                      1.007797                  2.530000E-08
       Sukhoruchkin            Compilation          2015        5.170000E-01   4.000000E-03                      1.007797                  2.530000E-08
       Kayzero                 Compilation          2018        5.130000E-01   3.000000E-03                      1.000000                  2.530000E-08
       Mughabghab-2018         Compilation          2018        5.250000E-01   5.000000E-03                      1.023392                  2.530000E-08
-# quantity: 
-#   type: Compilation spectrum-averaged
-#   average value:  4.000000E-01
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 1
+#   quantity: 
+#     type: Compilation spectrum-averaged
+#     average value:  4.000000E-01
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       Mughabghab-2006         Compilation          2006        4.000000E-01   3.000000E-02                      0.779727   MXW            2.530000E-08
-# quantity: 
-#   type: EXFOR
-#   average value:  5.264647E-01
-#   relative standard deviation [%]:      3.807892
-# datablock: 
-#   columns: 10
-#   entries: 17
+#   quantity: 
+#     type: EXFOR
+#     average value:  5.264647E-01
+#     relative standard deviation [%]:      3.807892
+#   datablock: 
+#     columns: 10
+#     entries: 17
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       L.V.Groshev             EXFOR                1955        5.000000E-01   0.000000E+00   40589-003-0        0.974659                  2.530000E-08
@@ -64,13 +64,13 @@
       R.B.Firestone           EXFOR                2014        5.400000E-01   3.000000E-03   31736-003-3        1.052632                  2.530000E-08
       R.B.Firestone           EXFOR                2014        5.420000E-01   3.000000E-03   31736-003-2        1.056530                  2.530000E-08
       R.B.Firestone           EXFOR                2014        5.440000E-01   5.000000E-03   31736-003-1        1.060429                  2.530000E-08
-# quantity: 
-#   type: EXFOR spectrum-averaged
-#   average value:  4.987857E-01
-#   relative standard deviation [%]:     11.342563
-# datablock: 
-#   columns: 10
-#   entries: 14
+#   quantity: 
+#     type: EXFOR spectrum-averaged
+#     average value:  5.051875E-01
+#     relative standard deviation [%]:     11.160122
+#   datablock: 
+#     columns: 10
+#     entries: 16
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       J.Coltman               EXFOR                1946        4.700000E-01   4.000000E-02   12616-002-0        0.916179   MXW            2.530000E-08
@@ -86,14 +86,16 @@
       K.F.Alexander           EXFOR                1963        4.000000E-01   3.000000E-02   31003-002-0        0.779727   MXW            2.530000E-08
       W.Koehler               EXFOR                1963        5.000000E-01   2.000000E-02   21357-005-0        0.974659   MXW            2.530000E-08
       G.Gleason               EXFOR                1975        5.400000E-01   2.000000E-02   10644-002-0        1.052632   MXW            2.530000E-08
+      R.E.Heft                EXFOR                1978        5.230000E-01   5.000000E-03   12866-002-0        1.019493   SPA            2.500000E-08
+      K.Kaminishi             EXFOR                1982        5.770000E-01   8.000000E-03   21949-002-0        1.124756   MXW            2.500000E-08
       F.Farina Arbocco        EXFOR                2013        5.190000E-01   1.000000E-03   23266-004-0        1.011696   AV             2.530000E-08
-# quantity: 
-#   type: Nuclear data library
-#   average value:  5.271656E-01
-#   relative standard deviation [%]:      0.786702
-# datablock: 
-#   columns: 11
-#   entries: 5
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  5.271656E-01
+#     relative standard deviation [%]:      0.786702
+#   datablock: 
+#     columns: 11
+#     entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
       cendl3.2                NDL                  2019        5.313660E-01   0.000000E+00                      1.035801                  2.530000E-08   1.000110E+00

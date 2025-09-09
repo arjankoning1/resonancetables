@@ -1,7 +1,7 @@
 # header: 
 #   title: In000(n,tot) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 49
 #   A: 0
@@ -9,19 +9,23 @@
 # reaction: 
 #   type: (n,tot)
 # observables: 
-#   selected value [b]:  1.844000E+02
+#   selected value [b]:  1.864000E+02
 #   selected value uncertainty [b]:  0.000000E+00
 #   selected value source: J.E.Evans
-#   number of values: 1
-#   average value [b]:  1.844000E+02
-#   relative standard deviation [%]:      0.000000
-# quantity: 
-#   type: EXFOR
-#   average value:  1.844000E+02
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 1
+#   number of values: 5
+#   average value [b]:  1.847800E+02
+#   relative standard deviation [%]:      2.997477
+#   quantity: 
+#     type: EXFOR
+#     average value:  1.847800E+02
+#     relative standard deviation [%]:      2.997477
+#   datablock: 
+#     columns: 10
+#     entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      J.E.Evans               EXFOR                1955        1.844000E+02   0.000000E+00   11980-002-0        1.000000                  2.531000E-08
+      J.E.Evans               EXFOR                1955        1.815000E+02   0.000000E+00   11980-002-0        0.973713                  2.598000E-08
+      J.E.Evans               EXFOR                1955        1.941000E+02   0.000000E+00   11980-002-0        1.041309                  2.576000E-08
+      J.E.Evans               EXFOR                1955        1.775000E+02   0.000000E+00   11980-002-0        0.952253                  2.554000E-08
+      J.E.Evans               EXFOR                1955        1.844000E+02   0.000000E+00   11980-002-0        0.989270                  2.531000E-08
+      J.E.Evans               EXFOR                1955        1.864000E+02   0.000000E+00   11980-002-0        1.000000                  2.510000E-08

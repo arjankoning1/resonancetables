@@ -1,7 +1,7 @@
 # header: 
 #   title: U235(n,tot) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 92
 #   A: 235
@@ -12,16 +12,16 @@
 #   selected value [b]:  6.950000E+02
 #   selected value uncertainty [b]:  1.700000E+01
 #   selected value source: A.V.Antonov
-#   number of values: 15
-#   average value [b]:  6.588539E+02
-#   relative standard deviation [%]:     22.392994
-# quantity: 
-#   type: EXFOR
-#   average value:  6.384950E+02
-#   relative standard deviation [%]:     27.755993
-# datablock: 
-#   columns: 10
-#   entries: 10
+#   number of values: 30
+#   average value [b]:  6.227203E+02
+#   relative standard deviation [%]:     32.389339
+#   quantity: 
+#     type: EXFOR
+#     average value:  6.073500E+02
+#     relative standard deviation [%]:     35.846588
+#   datablock: 
+#     columns: 10
+#     entries: 25
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       E.E.Anderson            EXFOR                1944        6.500000E+02   0.000000E+00   14728-004-0        0.935252                  2.530000E-08
@@ -30,17 +30,32 @@
       P.A.Egelstaff           EXFOR                1954        7.240000E+02   1.500000E+01   21179-009-0        1.041727                  2.530000E-08
       P.A.Egelstaff           EXFOR                1954        7.290000E+02   1.500000E+01   21179-006-0        1.048921                  2.530000E-08
       B.R.Leonard Jr          EXFOR                1954        7.020000E+02   0.000000E+00   12430-003-0        1.010072                  2.530000E-08
+      H.Palevsky              EXFOR                1954        7.123000E+02   0.000000E+00   12410-004-0        1.024892                  2.417000E-08
+      H.Palevsky              EXFOR                1954        7.280000E+02   0.000000E+00   12410-004-0        1.047482                  2.410000E-08
+      S.J.Nikitin             EXFOR                1955        7.100000E+02   2.000000E+01   41219-007-0        1.021583                  2.500000E-08
+      S.J.Nikitin             EXFOR                1955        7.230000E+02   0.000000E+00   41219-006-0        1.040288                  2.500000E-08
+      S.J.Nikitin             EXFOR                1955        7.360000E+02   0.000000E+00   41219-006-0        1.058993                  2.400000E-08
       G.J.Safford             EXFOR                1959        6.986800E+02   4.810000E+00   12404-003-0        1.005295                  2.530000E-08
       G.J.Safford             EXFOR                1959        6.949700E+02   1.810000E+00   12404-002-0        0.999957                  2.530000E-08
+      O.D.Simpson             EXFOR                1960        1.097000E+02   0.000000E+00   12329-002-0        0.157842                  2.570000E-08
       O.D.Simpson             EXFOR                1960        1.103000E+02   0.000000E+00   12329-002-0        0.158705                  2.520000E-08
+      O.D.Simpson             EXFOR                1960        1.103000E+02   0.000000E+00   12329-002-0        0.158705                  2.470000E-08
+      O.D.Simpson             EXFOR                1960        1.103000E+02   0.000000E+00   12329-002-0        0.158705                  2.420000E-08
+      R.C.Block               EXFOR                1960        6.860000E+02   0.000000E+00   12024-008-0        0.987050                  2.580000E-08
+      R.C.Block               EXFOR                1960        6.950000E+02   0.000000E+00   12024-008-0        1.000000                  2.510000E-08
+      R.C.Block               EXFOR                1960        7.040000E+02   0.000000E+00   12024-008-0        1.012950                  2.450000E-08
+      A.Saplakoglu            EXFOR                1961        6.952000E+02   1.320000E+00   12406-002-0        1.000288                  2.510000E-08
+      V.F.Gerasimov           EXFOR                1962        6.890000E+02   0.000000E+00   40651-003-0        0.991367                  2.560000E-08
+      V.F.Gerasimov           EXFOR                1962        6.800000E+02   0.000000E+00   40651-003-0        0.978417                  2.500000E-08
+      V.F.Gerasimov           EXFOR                1962        7.100000E+02   0.000000E+00   40651-003-0        1.021583                  2.400000E-08
       A.V.Antonov             EXFOR                1986        6.950000E+02   1.700000E+01   40974-004-0        1.000000                  2.530000E-08
-# quantity: 
-#   type: Nuclear data library
-#   average value:  6.995720E+02
-#   relative standard deviation [%]:      0.087408
-# datablock: 
-#   columns: 11
-#   entries: 5
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  6.995720E+02
+#     relative standard deviation [%]:      0.087408
+#   datablock: 
+#     columns: 11
+#     entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
       cendl3.2                NDL                  2019        6.984440E+02   0.000000E+00                      1.004955                  2.530000E-08   9.814500E-01

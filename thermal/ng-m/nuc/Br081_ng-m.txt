@@ -1,7 +1,7 @@
 # header: 
 #   title: Br081(n,g)-m thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 35
 #   A: 81
@@ -12,37 +12,38 @@
 #   selected value [b]:  2.360000E+00
 #   selected value uncertainty [b]:  5.000000E-02
 #   selected value source: Mughabghab-2018
-#   number of values: 5
-#   average value [b]:  2.107024E+00
-#   relative standard deviation [%]:     37.279510
-# quantity: 
-#   type: Compilation
-#   average value:  2.380000E+00
-#   relative standard deviation [%]:      0.840340
-# datablock: 
-#   columns: 10
-#   entries: 2
+#   number of values: 6
+#   average value [b]:  2.109187E+00
+#   relative standard deviation [%]:     33.997257
+#   quantity: 
+#     type: Compilation
+#     average value:  2.380000E+00
+#     relative standard deviation [%]:      0.840340
+#   datablock: 
+#     columns: 10
+#     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       RIPL-3                  Compilation          2004        2.400000E+00   4.000000E-01                      1.016949                  2.530000E-08
       Mughabghab-2018         Compilation          2018        2.360000E+00   5.000000E-02                      1.000000                  2.530000E-08
-# quantity: 
-#   type: EXFOR spectrum-averaged
-#   average value:  3.300000E+00
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 1
+#   quantity: 
+#     type: EXFOR spectrum-averaged
+#     average value:  2.710000E+00
+#     relative standard deviation [%]:     21.771219
+#   datablock: 
+#     columns: 10
+#     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       J.F.Emery               EXFOR                1965        3.300000E+00   0.000000E+00   11829-004-0        1.398305   SPA            2.530000E-08
-# quantity: 
-#   type: Nuclear data library
-#   average value:  1.237560E+00
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 11
-#   entries: 2
+      R.E.Heft                EXFOR                1978        2.120000E+00   3.000000E-02   12866-058-0        0.898305   SPA            2.500000E-08
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  1.237560E+00
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 11
+#     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
       tendl.2025              NDL                  2025        1.237560E+00   0.000000E+00                      0.524390                  2.530000E-08   1.000180E+00

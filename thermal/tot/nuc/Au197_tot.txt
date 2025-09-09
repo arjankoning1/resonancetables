@@ -1,7 +1,7 @@
 # header: 
 #   title: Au197(n,tot) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 79
 #   A: 197
@@ -12,31 +12,47 @@
 #   selected value [b]:  1.035000E+02
 #   selected value uncertainty [b]:  2.500000E+00
 #   selected value source: H.M.Eiland
-#   number of values: 11
-#   average value [b]:  1.053860E+02
-#   relative standard deviation [%]:      1.381866
-# quantity: 
-#   type: EXFOR
-#   average value:  1.042833E+02
-#   relative standard deviation [%]:      0.932046
-# datablock: 
-#   columns: 10
-#   entries: 6
+#   number of values: 18
+#   average value [b]:  1.032859E+02
+#   relative standard deviation [%]:      5.075624
+#   quantity: 
+#     type: EXFOR
+#     average value:  1.031333E+02
+#     relative standard deviation [%]:      3.963858
+#   datablock: 
+#     columns: 10
+#     entries: 12
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      B.D.Mcdaniel            EXFOR                1947        1.040000E+02   2.000000E+00   14688-003-0        1.004831                  2.500000E-08
+      R.S.Carter              EXFOR                1953        1.030000E+02   0.000000E+00   11211-004-0        0.995169                  2.580000E-08
+      R.S.Carter              EXFOR                1953        1.070000E+02   0.000000E+00   11211-004-0        1.033816                  2.440000E-08
       P.A.Egelstaff           EXFOR                1954        1.026000E+02   1.700000E+00   21178-004-0        0.991304                  2.530000E-08
+      P.A.Egelstaff           EXFOR                1954        1.069000E+02   1.800000E+00   21178-004-0        1.032850                  2.410000E-08
       P.A.Egelstaff           EXFOR                1954        1.050000E+02   1.000000E+00   21178-002-0        1.014493                  2.530000E-08
+      F.G.Bianchini           EXFOR                1964        1.000000E+02   4.000000E+00   30164-002-0        0.966184                  2.450000E-08
       Lu Hanlin               EXFOR                1965        1.053000E+02   3.000000E-01   30914-003-0        1.017391                  2.530000E-08
+      B.Antonini              EXFOR                1965        9.100000E+01   7.000000E+00   21323-002-0        0.879227                  2.564700E-08
       R.Fulfaro               EXFOR                1968        1.042000E+02   0.000000E+00   30165-002-0        1.006763                  2.530000E-08
       V.P.Vertebny            EXFOR                1972        1.051000E+02   5.000000E-01   40109-005-0        1.015459                  2.530000E-08
       H.M.Eiland              EXFOR                1974        1.035000E+02   2.500000E+00   10147-014-0        1.000000                  2.530000E-08
-# quantity: 
-#   type: Nuclear data library
-#   average value:  1.067092E+02
-#   relative standard deviation [%]:      0.531913
-# datablock: 
-#   columns: 11
-#   entries: 5
+#   quantity: 
+#     type: EXFOR spectrum-averaged
+#     average value:  8.800000E+01
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      J.R.Dunning             EXFOR                1935        8.800000E+01   0.000000E+00   12634-068-0        0.850242   MXW            2.500000E-08
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  1.067092E+02
+#     relative standard deviation [%]:      0.531913
+#   datablock: 
+#     columns: 11
+#     entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
       cendl3.2                NDL                  2019        1.055740E+02   0.000000E+00                      1.020039                  2.530000E-08   1.012760E+00

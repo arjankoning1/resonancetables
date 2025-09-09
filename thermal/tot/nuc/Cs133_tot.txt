@@ -1,0 +1,28 @@
+# header: 
+#   title: Cs133(n,tot) thermal cross section
+#   source: Resonancetables
+#   date: 2025-09-08
+# target: 
+#   Z: 55
+#   A: 133
+#   nuclide: Cs133
+# reaction: 
+#   type: (n,tot)
+# observables: 
+#   selected value [b]:  3.540000E+01
+#   selected value uncertainty [b]:  9.000000E-01
+#   selected value source: G.D.Hickman
+#   number of values: 2
+#   average value [b]:  3.425000E+01
+#   relative standard deviation [%]:      3.357669
+#   quantity: 
+#     type: EXFOR
+#     average value:  3.425000E+01
+#     relative standard deviation [%]:      3.357669
+#   datablock: 
+#     columns: 10
+#     entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      G.D.Hickman             EXFOR                1965        3.310000E+01   8.000000E-01   12004-002-0        0.935028                  2.500000E-08
+      G.D.Hickman             EXFOR                1965        3.540000E+01   9.000000E-01   12004-002-0        1.000000                  2.400000E-08

@@ -1,7 +1,7 @@
 # header: 
 #   title: Te124(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 52
 #   A: 124
@@ -12,38 +12,39 @@
 #   selected value [b]:  6.300000E+00
 #   selected value uncertainty [b]:  7.000000E-01
 #   selected value source: Mughabghab-2018
-#   number of values: 8
-#   average value [b]:  6.459011E+00
-#   relative standard deviation [%]:      4.223698
-# quantity: 
-#   type: Compilation
-#   average value:  6.675000E+00
-#   relative standard deviation [%]:      5.617977
-# datablock: 
-#   columns: 10
-#   entries: 2
+#   number of values: 9
+#   average value [b]:  6.463565E+00
+#   relative standard deviation [%]:      3.984322
+#   quantity: 
+#     type: Compilation
+#     average value:  6.675000E+00
+#     relative standard deviation [%]:      5.617977
+#   datablock: 
+#     columns: 10
+#     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       RIPL-3                  Compilation          2004        7.050000E+00   1.300000E+00                      1.119048                  2.530000E-08
       Mughabghab-2018         Compilation          2018        6.300000E+00   7.000000E-01                      1.000000                  2.530000E-08
-# quantity: 
-#   type: Compilation spectrum-averaged
-#   average value:  6.300000E+00
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 2
+#   quantity: 
+#     type: Compilation spectrum-averaged
+#     average value:  6.366667E+00
+#     relative standard deviation [%]:      1.480850
+#   datablock: 
+#     columns: 10
+#     entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       Mughabghab-2006         Compilation          2006        6.300000E+00   7.000000E-01                      1.000000   MXW            2.530000E-08
       Sukhoruchkin            Compilation          2015        6.300000E+00   7.000000E-01                      1.000000   MXW            2.530000E-08
-# quantity: 
-#   type: Nuclear data library
-#   average value:  6.430520E+00
-#   relative standard deviation [%]:      3.177759
-# datablock: 
-#   columns: 11
-#   entries: 4
+      Firestone-2022          Compilation          2022        6.500000E+00   1.300000E+00                      1.031746   MXW            2.530000E-08
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  6.430520E+00
+#     relative standard deviation [%]:      3.177759
+#   datablock: 
+#     columns: 11
+#     entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
       jendl5.0                NDL                  2021        6.784290E+00   0.000000E+00                      1.076871                  2.530000E-08   9.981500E-01

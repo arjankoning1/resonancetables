@@ -1,7 +1,7 @@
 # header: 
 #   title: Pu241(n,tot) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 94
 #   A: 241
@@ -9,37 +9,56 @@
 # reaction: 
 #   type: (n,tot)
 # observables: 
-#   selected value [b]:  1.393000E+03
+#   selected value [b]:  1.403000E+03
 #   selected value uncertainty [b]:  0.000000E+00
 #   selected value source: J.R.Smith
-#   number of values: 10
-#   average value [b]:  1.376644E+03
-#   relative standard deviation [%]:      3.156900
-# quantity: 
-#   type: EXFOR
-#   average value:  1.362000E+03
-#   relative standard deviation [%]:      4.220296
-# datablock: 
-#   columns: 10
-#   entries: 5
+#   number of values: 29
+#   average value [b]:  1.359922E+03
+#   relative standard deviation [%]:      5.620663
+#   quantity: 
+#     type: EXFOR
+#     average value:  1.353387E+03
+#     relative standard deviation [%]:      6.094279
+#   datablock: 
+#     columns: 10
+#     entries: 24
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      O.D.Simpson             EXFOR                1961        1.383000E+03   0.000000E+00   12537-002-0        0.992821                  2.534000E-08
-      D.S.Craig               EXFOR                1964        1.383000E+03   3.000000E+01   12528-017-0        0.992821                  2.530000E-08
-      D.S.Craig               EXFOR                1964        1.248000E+03   0.000000E+00   12528-012-0        0.895908                  2.528000E-08
-      T.E.Young               EXFOR                1968        1.403000E+03   0.000000E+00   10406-003-0        1.007179                  2.520000E-08
-      J.R.Smith               EXFOR                1970        1.393000E+03   0.000000E+00   13019-004-0        1.000000                  2.528000E-08
-# quantity: 
-#   type: Nuclear data library
-#   average value:  1.391288E+03
-#   relative standard deviation [%]:      0.479597
-# datablock: 
-#   columns: 11
-#   entries: 5
+      O.D.Simpson             EXFOR                1961        1.365000E+03   0.000000E+00   12537-002-0        0.972915                  2.579000E-08
+      O.D.Simpson             EXFOR                1961        1.398000E+03   0.000000E+00   12537-002-0        0.996436                  2.556000E-08
+      O.D.Simpson             EXFOR                1961        1.383000E+03   0.000000E+00   12537-002-0        0.985745                  2.534000E-08
+      O.D.Simpson             EXFOR                1961        1.383000E+03   0.000000E+00   12537-002-0        0.985745                  2.512000E-08
+      O.D.Simpson             EXFOR                1961        1.425000E+03   0.000000E+00   12537-002-0        1.015681                  2.490000E-08
+      O.D.Simpson             EXFOR                1961        1.422000E+03   0.000000E+00   12537-002-0        1.013542                  2.468000E-08
+      O.D.Simpson             EXFOR                1961        1.424000E+03   0.000000E+00   12537-002-0        1.014968                  2.447000E-08
+      O.D.Simpson             EXFOR                1961        1.415000E+03   0.000000E+00   12537-002-0        1.008553                  2.426000E-08
+      O.D.Simpson             EXFOR                1961        1.425000E+03   0.000000E+00   12537-002-0        1.015681                  2.405000E-08
+      D.S.Craig               EXFOR                1964        1.383000E+03   3.000000E+01   12528-017-0        0.985745                  2.530000E-08
+      D.S.Craig               EXFOR                1964        1.391000E+03   0.000000E+00   12528-016-0        0.991447                  2.500000E-08
+      D.S.Craig               EXFOR                1964        1.153000E+03   0.000000E+00   12528-012-0        0.821810                  2.588000E-08
+      D.S.Craig               EXFOR                1964        1.245000E+03   0.000000E+00   12528-012-0        0.887384                  2.567000E-08
+      D.S.Craig               EXFOR                1964        1.233000E+03   0.000000E+00   12528-012-0        0.878831                  2.547000E-08
+      D.S.Craig               EXFOR                1964        1.248000E+03   0.000000E+00   12528-012-0        0.889522                  2.528000E-08
+      D.S.Craig               EXFOR                1964        1.238000E+03   0.000000E+00   12528-012-0        0.882395                  2.508000E-08
+      D.S.Craig               EXFOR                1964        1.248000E+03   0.000000E+00   12528-012-0        0.889522                  2.489000E-08
+      D.S.Craig               EXFOR                1964        1.248000E+03   0.000000E+00   12528-012-0        0.889522                  2.470000E-08
+      T.E.Young               EXFOR                1968        1.398200E+03   0.000000E+00   10406-004-0        0.996579                  2.488000E-08
+      T.E.Young               EXFOR                1968        1.403000E+03   0.000000E+00   10406-003-0        1.000000                  2.520000E-08
+      T.E.Young               EXFOR                1968        1.444700E+03   0.000000E+00   10406-003-0        1.029722                  2.400000E-08
+      T.E.Young               EXFOR                1968        1.412400E+03   0.000000E+00   10406-002-0        1.006700                  2.488000E-08
+      J.R.Smith               EXFOR                1970        1.393000E+03   0.000000E+00   13019-004-0        0.992872                  2.528000E-08
+      J.R.Smith               EXFOR                1970        1.403000E+03   0.000000E+00   13019-003-0        1.000000                  2.513000E-08
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  1.391288E+03
+#     relative standard deviation [%]:      0.479597
+#   datablock: 
+#     columns: 11
+#     entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
-      cendl3.2                NDL                  2019        1.385000E+03   0.000000E+00                      0.994257                  2.530000E-08   1.039160E+00
-      jendl5.0                NDL                  2021        1.386280E+03   0.000000E+00                      0.995176                  2.530000E-08   1.042390E+00
-      endfb8.1                NDL                  2024        1.399380E+03   0.000000E+00                      1.004580                  2.530000E-08   1.046440E+00
-      tendl.2025              NDL                  2025        1.386280E+03   0.000000E+00                      0.995176                  2.530000E-08   1.042390E+00
-      jeff4.0                 NDL                  2025        1.399500E+03   0.000000E+00                      1.004666                  2.530000E-08   1.039640E+00
+      cendl3.2                NDL                  2019        1.385000E+03   0.000000E+00                      0.987170                  2.530000E-08   1.039160E+00
+      jendl5.0                NDL                  2021        1.386280E+03   0.000000E+00                      0.988083                  2.530000E-08   1.042390E+00
+      endfb8.1                NDL                  2024        1.399380E+03   0.000000E+00                      0.997420                  2.530000E-08   1.046440E+00
+      tendl.2025              NDL                  2025        1.386280E+03   0.000000E+00                      0.988083                  2.530000E-08   1.042390E+00
+      jeff4.0                 NDL                  2025        1.399500E+03   0.000000E+00                      0.997505                  2.530000E-08   1.039640E+00

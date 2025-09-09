@@ -1,7 +1,7 @@
 # header: 
 #   title: Sm154(n,tot) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 62
 #   A: 154
@@ -9,35 +9,42 @@
 # reaction: 
 #   type: (n,tot)
 # observables: 
-#   selected value [b]:  2.910000E+01
+#   selected value [b]:  3.110000E+01
 #   selected value uncertainty [b]:  0.000000E+00
 #   selected value source: V.P.Vertebnyj
-#   number of values: 8
-#   average value [b]:  2.199797E+01
-#   relative standard deviation [%]:     26.947897
-# quantity: 
-#   type: EXFOR
-#   average value:  2.933333E+01
-#   relative standard deviation [%]:      0.579433
-# datablock: 
-#   columns: 10
-#   entries: 3
+#   number of values: 15
+#   average value [b]:  2.591892E+01
+#   relative standard deviation [%]:     23.523327
+#   quantity: 
+#     type: EXFOR
+#     average value:  3.008000E+01
+#     relative standard deviation [%]:      4.125020
+#   datablock: 
+#     columns: 10
+#     entries: 10
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      V.P.Vertebnyj           EXFOR                1980        2.950000E+01   0.000000E+00   40536-003-0        1.013746                  2.520000E-08
-      V.P.Vertebnyj           EXFOR                1980        2.940000E+01   0.000000E+00   40536-003-0        1.010309                  2.530000E-08
-      V.P.Vertebnyj           EXFOR                1980        2.910000E+01   0.000000E+00   40536-003-0        1.000000                  2.540000E-08
-# quantity: 
-#   type: Nuclear data library
-#   average value:  1.759676E+01
-#   relative standard deviation [%]:     12.126249
-# datablock: 
-#   columns: 11
-#   entries: 5
+      V.P.Vertebnyj           EXFOR                1980        3.070000E+01   0.000000E+00   40536-003-0        0.987138                  2.500000E-08
+      V.P.Vertebnyj           EXFOR                1980        3.070000E+01   0.000000E+00   40536-003-0        0.987138                  2.510000E-08
+      V.P.Vertebnyj           EXFOR                1980        2.950000E+01   0.000000E+00   40536-003-0        0.948553                  2.520000E-08
+      V.P.Vertebnyj           EXFOR                1980        2.940000E+01   0.000000E+00   40536-003-0        0.945338                  2.530000E-08
+      V.P.Vertebnyj           EXFOR                1980        2.910000E+01   0.000000E+00   40536-003-0        0.935691                  2.540000E-08
+      V.P.Vertebnyj           EXFOR                1980        3.030000E+01   0.000000E+00   40536-003-0        0.974276                  2.550000E-08
+      V.P.Vertebnyj           EXFOR                1980        2.960000E+01   0.000000E+00   40536-003-0        0.951769                  2.560000E-08
+      V.P.Vertebnyj           EXFOR                1980        2.780000E+01   0.000000E+00   40536-003-0        0.893891                  2.580000E-08
+      V.P.Vertebnyj           EXFOR                1980        3.260000E+01   0.000000E+00   40536-003-0        1.048231                  2.590000E-08
+      V.P.Vertebnyj           EXFOR                1980        3.110000E+01   0.000000E+00   40536-003-0        1.000000                  2.600000E-08
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  1.759676E+01
+#     relative standard deviation [%]:     12.126249
+#   datablock: 
+#     columns: 11
+#     entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
-      cendl3.2                NDL                  2019        1.942470E+01   0.000000E+00                      0.667515                  2.530000E-08   1.072550E+00
-      jendl5.0                NDL                  2021        1.942470E+01   0.000000E+00                      0.667515                  2.530000E-08   1.072550E+00
-      endfb8.1                NDL                  2024        1.916240E+01   0.000000E+00                      0.658502                  2.530000E-08   1.072280E+00
-      tendl.2025              NDL                  2025        1.498600E+01   0.000000E+00                      0.514983                  2.530000E-08   1.054810E+00
-      jeff4.0                 NDL                  2025        1.498600E+01   0.000000E+00                      0.514983                  2.530000E-08   1.054810E+00
+      cendl3.2                NDL                  2019        1.942470E+01   0.000000E+00                      0.624588                  2.530000E-08   1.072550E+00
+      jendl5.0                NDL                  2021        1.942470E+01   0.000000E+00                      0.624588                  2.530000E-08   1.072550E+00
+      endfb8.1                NDL                  2024        1.916240E+01   0.000000E+00                      0.616154                  2.530000E-08   1.072280E+00
+      tendl.2025              NDL                  2025        1.498600E+01   0.000000E+00                      0.481865                  2.530000E-08   1.054810E+00
+      jeff4.0                 NDL                  2025        1.498600E+01   0.000000E+00                      0.481865                  2.530000E-08   1.054810E+00

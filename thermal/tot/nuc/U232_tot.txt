@@ -1,0 +1,28 @@
+# header: 
+#   title: U232(n,tot) thermal cross section
+#   source: Resonancetables
+#   date: 2025-09-08
+# target: 
+#   Z: 92
+#   A: 232
+#   nuclide: U232
+# reaction: 
+#   type: (n,tot)
+# observables: 
+#   selected value [b]:  1.673000E+02
+#   selected value uncertainty [b]:  0.000000E+00
+#   selected value source: O.D.Simpson
+#   number of values: 2
+#   average value [b]:  1.657000E+02
+#   relative standard deviation [%]:      0.965599
+#   quantity: 
+#     type: EXFOR
+#     average value:  1.657000E+02
+#     relative standard deviation [%]:      0.965599
+#   datablock: 
+#     columns: 10
+#     entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      O.D.Simpson             EXFOR                1967        1.641000E+02   0.000000E+00   12375-002-0        0.980873                  2.542000E-08
+      O.D.Simpson             EXFOR                1967        1.673000E+02   0.000000E+00   12375-002-0        1.000000                  2.421000E-08

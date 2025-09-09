@@ -1,7 +1,7 @@
 # header: 
 #   title: Am241(n,f) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 95
 #   A: 241
@@ -12,45 +12,62 @@
 #   selected value [b]:  3.200000E+00
 #   selected value uncertainty [b]:  9.000000E-02
 #   selected value source: Mughabghab-2018
-#   number of values: 21
-#   average value [b]:  2.408385E+00
-#   relative standard deviation [%]:     52.104561
-# quantity: 
-#   type: Compilation
-#   average value:  3.155000E+00
-#   relative standard deviation [%]:      1.443811
-# datablock: 
-#   columns: 10
-#   entries: 4
+#   number of values: 38
+#   average value [b]:  2.897628E+00
+#   relative standard deviation [%]:     39.732082
+#   quantity: 
+#     type: Compilation
+#     average value:  3.155000E+00
+#     relative standard deviation [%]:      1.443811
+#   datablock: 
+#     columns: 10
+#     entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       RIPL-3                  Compilation          2004        3.100000E+00   2.000000E-01                      0.968750                  2.530000E-08
       Mughabghab-2006         Compilation          2006        3.200000E+00   9.000000E-02                      1.000000                  2.530000E-08
       Sukhoruchkin            Compilation          2015        3.120000E+00   9.000000E-02                      0.975000                  2.530000E-08
       Mughabghab-2018         Compilation          2018        3.200000E+00   9.000000E-02                      1.000000                  2.530000E-08
-# quantity: 
-#   type: EXFOR
-#   average value:  2.975000E+00
-#   relative standard deviation [%]:      5.882356
-# datablock: 
-#   columns: 10
-#   entries: 2
+#   quantity: 
+#     type: EXFOR
+#     average value:  3.426878E+00
+#     relative standard deviation [%]:     17.520853
+#   datablock: 
+#     columns: 10
+#     entries: 18
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      V.F.Gerasimov           EXFOR                1966        3.100000E+00   4.000000E-01   40270-003-0        0.968750                  2.590000E-08
+      V.F.Gerasimov           EXFOR                1966        2.700000E+00   0.000000E+00   40270-003-0        0.843750                  2.550000E-08
+      V.F.Gerasimov           EXFOR                1966        3.800000E+00   0.000000E+00   40270-003-0        1.187500                  2.510000E-08
+      V.F.Gerasimov           EXFOR                1966        3.400000E+00   0.000000E+00   40270-003-0        1.062500                  2.470000E-08
+      V.F.Gerasimov           EXFOR                1966        2.900000E+00   0.000000E+00   40270-003-0        0.906250                  2.430000E-08
+      V.F.Gerasimov           EXFOR                1966        3.100000E+00   4.000000E-01   40085-005-0        0.968750                  2.590000E-08
+      V.F.Gerasimov           EXFOR                1966        2.700000E+00   0.000000E+00   40085-005-0        0.843750                  2.550000E-08
+      V.F.Gerasimov           EXFOR                1966        3.800000E+00   0.000000E+00   40085-005-0        1.187500                  2.510000E-08
+      V.F.Gerasimov           EXFOR                1966        3.400000E+00   0.000000E+00   40085-005-0        1.062500                  2.470000E-08
+      V.F.Gerasimov           EXFOR                1966        2.900000E+00   0.000000E+00   40085-005-0        0.906250                  2.430000E-08
       V.D.Gavrilov            EXFOR                1976        2.800000E+00   2.500000E-01   40467-003-0        0.875000                  2.530000E-08
+      J.W.T.Dabbs             EXFOR                1983        3.229000E+00   1.059000E-01   12809-002-0        1.009063                  2.402000E-08
+      V.F.Gerasimov           EXFOR                1997        4.650400E+00   0.000000E+00   41369-010-0        1.453250                  2.560600E-08
+      V.F.Gerasimov           EXFOR                1997        4.140200E+00   0.000000E+00   41369-010-0        1.293813                  2.508300E-08
+      V.F.Gerasimov           EXFOR                1997        4.179000E+00   0.000000E+00   41369-010-0        1.305937                  2.458200E-08
+      V.F.Gerasimov           EXFOR                1997        4.543900E+00   0.000000E+00   41369-010-0        1.419969                  2.442400E-08
+      V.F.Gerasimov           EXFOR                1997        3.191300E+00   0.000000E+00   41369-010-0        0.997281                  2.406700E-08
       S.Yamamoto              EXFOR                1997        3.150000E+00   9.700000E-02   22479-004-0        0.984375                  2.530000E-08
-# quantity: 
-#   type: EXFOR spectrum-averaged
-#   average value:  1.633190E+00
-#   relative standard deviation [%]:     89.721970
-# datablock: 
-#   columns: 10
-#   entries: 10
+#   quantity: 
+#     type: EXFOR spectrum-averaged
+#     average value:  1.830173E+00
+#     relative standard deviation [%]:     83.582863
+#   datablock: 
+#     columns: 10
+#     entries: 11
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       B.B.Cunningham          EXFOR                1951        3.000000E+00   2.000000E-01   13574-002-0        0.937500   MXW            2.530000E-08
       G.C.Hanna               EXFOR                1951        3.000000E+00   0.000000E+00   12496-003-0        0.937500   MXW            2.530000E-08
       E.K.Hulet               EXFOR                1957        3.130000E+00   1.500000E-01   12497-004-0        0.978125   MXW            2.530000E-08
+      M.Hyakutake             EXFOR                1966        3.800000E+00   2.000000E-01   20274-002-0        1.187500   MXW            2.500000E-08
       K.D.Zhuravlev           EXFOR                1975        3.200000E+00   1.500000E-01   40436-003-0        1.000000   MXW            2.530000E-08
       K.Kobayashi             EXFOR                1997        3.150000E+00   9.700000E-02   22344-002-0        0.984375   MXW            2.530000E-08
       N.Shinohara             EXFOR                1999        1.690000E-02   2.400000E-03   22425-010-0        0.005281   MXW            2.530000E-08
@@ -58,13 +75,13 @@
       N.Shinohara             EXFOR                1999        2.700000E-01   2.300000E-02   22425-006-0        0.084375   MXW            2.530000E-08
       N.Shinohara             EXFOR                1999        2.480000E-01   2.300000E-02   22425-004-0        0.077500   MXW            2.530000E-08
       N.Shinohara             EXFOR                1999        1.400000E-01   1.200000E-02   22425-002-0        0.043750   MXW            2.530000E-08
-# quantity: 
-#   type: Nuclear data library
-#   average value:  3.134836E+00
-#   relative standard deviation [%]:      1.265321
-# datablock: 
-#   columns: 11
-#   entries: 5
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  3.134836E+00
+#     relative standard deviation [%]:      1.265321
+#   datablock: 
+#     columns: 11
+#     entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
       cendl3.2                NDL                  2019        3.137990E+00   0.000000E+00                      0.980622                  2.530000E-08   1.013450E+00

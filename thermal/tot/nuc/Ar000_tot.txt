@@ -1,7 +1,7 @@
 # header: 
 #   title: Ar000(n,tot) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 18
 #   A: 0
@@ -9,19 +9,31 @@
 # reaction: 
 #   type: (n,tot)
 # observables: 
-#   selected value [b]:  2.530000E+00
-#   selected value uncertainty [b]:  1.000000E-01
-#   selected value source: H.Carroll
-#   number of values: 1
-#   average value [b]:  2.530000E+00
-#   relative standard deviation [%]:      0.000000
-# quantity: 
-#   type: EXFOR spectrum-averaged
-#   average value:  2.530000E+00
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 1
+#   selected value [b]:  1.270000E+00
+#   selected value uncertainty [b]:  2.200000E-02
+#   selected value source: R.Genin
+#   number of values: 4
+#   average value [b]:  1.618500E+00
+#   relative standard deviation [%]:     32.674992
+#   quantity: 
+#     type: EXFOR
+#     average value:  1.314667E+00
+#     relative standard deviation [%]:      4.591419
+#   datablock: 
+#     columns: 10
+#     entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      H.Carroll               EXFOR                1941        2.530000E+00   1.000000E-01   11135-004-0        1.000000   MXW            2.530000E-08
+      E.Melkonian             EXFOR                1949        1.400000E+00   0.000000E+00   11150-006-0        1.102362                  2.460000E-08
+      R.Genin                 EXFOR                1963        1.274000E+00   2.900000E-02   21227-008-0        1.003150                  2.500000E-08
+      R.Genin                 EXFOR                1963        1.270000E+00   2.200000E-02   21227-008-0        1.000000                  2.400000E-08
+#   quantity: 
+#     type: EXFOR spectrum-averaged
+#     average value:  2.530000E+00
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      H.Carroll               EXFOR                1941        2.530000E+00   1.000000E-01   11135-004-0        1.992126   MXW            2.530000E-08

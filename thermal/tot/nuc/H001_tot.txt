@@ -1,7 +1,7 @@
 # header: 
 #   title: H001(n,tot) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 1
 #   A: 1
@@ -9,43 +9,61 @@
 # reaction: 
 #   type: (n,tot)
 # observables: 
-#   selected value [b]:  3.510000E+01
+#   selected value [b]:  2.260000E+01
 #   selected value uncertainty [b]:  0.000000E+00
-#   selected value source: E.Melkonian
-#   number of values: 7
-#   average value [b]:  3.556517E+01
-#   relative standard deviation [%]:     19.287851
-# quantity: 
-#   type: EXFOR
-#   average value:  3.510000E+01
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 1
+#   selected value source: W.D.Seiffert
+#   number of values: 25
+#   average value [b]:  4.477532E+01
+#   relative standard deviation [%]:     28.415449
+#   quantity: 
+#     type: EXFOR
+#     average value:  4.836261E+01
+#     relative standard deviation [%]:     26.200890
+#   datablock: 
+#     columns: 10
+#     entries: 18
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      E.Melkonian             EXFOR                1949        3.510000E+01   0.000000E+00   11150-002-0        1.000000                  2.540000E-08
-# quantity: 
-#   type: EXFOR spectrum-averaged
-#   average value:  4.605000E+01
-#   relative standard deviation [%]:      3.148753
-# datablock: 
-#   columns: 10
-#   entries: 2
+      W.B.Jones Jr            EXFOR                1948        5.232800E+01   0.000000E+00   11432-005-0        2.315398                  2.457000E-08
+      E.Melkonian             EXFOR                1949        3.510000E+01   0.000000E+00   11150-002-0        1.553097                  2.540000E-08
+      B.Broecker              EXFOR                1966        5.730000E+01   5.730000E-01   21146-014-0        2.535398                  2.498000E-08
+      B.Broecker              EXFOR                1966        5.560000E+01   5.560000E-01   21146-011-0        2.460177                  2.498000E-08
+      B.Broecker              EXFOR                1966        5.950000E+01   5.950000E-01   21146-010-0        2.632743                  2.498000E-08
+      B.Broecker              EXFOR                1966        5.630000E+01   5.630000E-01   21146-009-0        2.491150                  2.498000E-08
+      B.Broecker              EXFOR                1966        5.720000E+01   5.720000E-01   21146-007-0        2.530973                  2.498000E-08
+      B.Broecker              EXFOR                1966        5.260000E+01   5.260000E-01   21146-006-0        2.327434                  2.498000E-08
+      B.Broecker              EXFOR                1966        5.480000E+01   5.480000E-01   21146-005-0        2.424779                  2.498000E-08
+      B.Broecker              EXFOR                1966        4.880000E+01   4.880000E-01   21146-004-0        2.159292                  2.498000E-08
+      B.Broecker              EXFOR                1966        5.900000E+01   5.900000E-01   21146-003-0        2.610619                  2.498000E-08
+      B.Broecker              EXFOR                1966        4.740000E+01   4.740000E-01   21146-002-0        2.097345                  2.498000E-08
+      W.D.Seiffert            EXFOR                1970        5.443300E+01   0.000000E+00   23423-008-0        2.408540                  2.558700E-08
+      W.D.Seiffert            EXFOR                1970        5.444600E+01   0.000000E+00   23423-008-0        2.409115                  2.402200E-08
+      W.D.Seiffert            EXFOR                1970        2.333600E+01   0.000000E+00   23423-007-0        1.032566                  2.599700E-08
+      W.D.Seiffert            EXFOR                1970        2.228400E+01   0.000000E+00   23423-007-0        0.986018                  2.471300E-08
+      W.D.Seiffert            EXFOR                1970        5.750000E+01   0.000000E+00   23423-004-0        2.544248                  2.590000E-08
+      W.D.Seiffert            EXFOR                1970        2.260000E+01   0.000000E+00   23423-003-0        1.000000                  2.590000E-08
+#   quantity: 
+#     type: EXFOR spectrum-averaged
+#     average value:  4.236666E+01
+#     relative standard deviation [%]:     12.608658
+#   datablock: 
+#     columns: 10
+#     entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      M.Goldhaber             EXFOR                1937        4.750000E+01   0.000000E+00   22518-003-0        1.353276   MXW            2.530000E-08
-      H.Carroll               EXFOR                1941        4.460000E+01   5.000000E-01   11135-009-0        1.270655   MXW            2.530000E-08
-# quantity: 
-#   type: Nuclear data library
-#   average value:  3.043905E+01
-#   relative standard deviation [%]:      0.044669
-# datablock: 
-#   columns: 11
-#   entries: 4
+      J.R.Dunning             EXFOR                1935        3.500000E+01   0.000000E+00   12634-002-0        1.548673   MXW            2.500000E-08
+      M.Goldhaber             EXFOR                1937        4.750000E+01   0.000000E+00   22518-003-0        2.101770   MXW            2.530000E-08
+      H.Carroll               EXFOR                1941        4.460000E+01   5.000000E-01   11135-009-0        1.973451   MXW            2.530000E-08
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  3.043905E+01
+#     relative standard deviation [%]:      0.044669
+#   datablock: 
+#     columns: 11
+#     entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
-      cendl3.2                NDL                  2019        3.046260E+01   0.000000E+00                      0.867880                  2.530000E-08   1.083390E+00
-      jendl5.0                NDL                  2021        3.043120E+01   0.000000E+00                      0.866986                  2.530000E-08   1.083390E+00
-      endfb8.1                NDL                  2024        3.043120E+01   0.000000E+00                      0.866986                  2.530000E-08   1.083390E+00
-      jeff4.0                 NDL                  2025        3.043120E+01   0.000000E+00                      0.866986                  2.530000E-08   1.083390E+00
+      cendl3.2                NDL                  2019        3.046260E+01   0.000000E+00                      1.347903                  2.530000E-08   1.083390E+00
+      jendl5.0                NDL                  2021        3.043120E+01   0.000000E+00                      1.346513                  2.530000E-08   1.083390E+00
+      endfb8.1                NDL                  2024        3.043120E+01   0.000000E+00                      1.346513                  2.530000E-08   1.083390E+00
+      jeff4.0                 NDL                  2025        3.043120E+01   0.000000E+00                      1.346513                  2.530000E-08   1.083390E+00

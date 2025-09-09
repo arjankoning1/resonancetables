@@ -1,0 +1,41 @@
+# header: 
+#   title: Th230(n,tot) thermal cross section
+#   source: Resonancetables
+#   date: 2025-09-08
+# target: 
+#   Z: 90
+#   A: 230
+#   nuclide: Th230
+# reaction: 
+#   type: (n,tot)
+# observables: 
+#   selected value [b]:  5.400000E+01
+#   selected value uncertainty [b]:  3.000000E+00
+#   selected value source: R.N.Ivanov
+#   number of values: 6
+#   average value [b]:  6.683334E+01
+#   relative standard deviation [%]:     13.338733
+#   quantity: 
+#     type: EXFOR
+#     average value:  6.920000E+01
+#     relative standard deviation [%]:     11.356580
+#   datablock: 
+#     columns: 10
+#     entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      S.M.Kalebin             EXFOR                1966        7.000000E+01   3.000000E+00   41670-003-0        1.296296                  2.500000E-08
+      S.M.Kalebin             EXFOR                1968        7.400000E+01   3.000000E+00   40093-002-0        1.370370                  2.500000E-08
+      S.M.Kalebin             EXFOR                1968        7.200000E+01   3.000000E+00   40093-002-0        1.333333                  2.480000E-08
+      S.M.Kalebin             EXFOR                1968        7.600000E+01   3.000000E+00   40093-002-0        1.407407                  2.410000E-08
+      R.N.Ivanov              EXFOR                1977        5.400000E+01   3.000000E+00   40377-006-0        1.000000                  2.500000E-08
+#   quantity: 
+#     type: EXFOR spectrum-averaged
+#     average value:  5.500000E+01
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      S.M.Kalebin             EXFOR                1966        5.500000E+01   1.000000E+00   41670-004-0        1.018519   SPA            2.500000E-08

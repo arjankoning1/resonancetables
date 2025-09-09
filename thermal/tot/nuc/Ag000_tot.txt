@@ -1,7 +1,7 @@
 # header: 
 #   title: Ag000(n,tot) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 47
 #   A: 0
@@ -9,29 +9,42 @@
 # reaction: 
 #   type: (n,tot)
 # observables: 
-#   selected value [b]:  6.903200E+01
+#   selected value [b]:  6.865800E+01
 #   selected value uncertainty [b]:  0.000000E+00
 #   selected value source: S.G.Shin
-#   number of values: 2
-#   average value [b]:  6.601600E+01
-#   relative standard deviation [%]:      4.568588
-# quantity: 
-#   type: EXFOR
-#   average value:  6.903200E+01
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 1
+#   number of values: 15
+#   average value [b]:  6.676460E+01
+#   relative standard deviation [%]:      6.287398
+#   quantity: 
+#     type: EXFOR
+#     average value:  6.795916E+01
+#     relative standard deviation [%]:      3.939695
+#   datablock: 
+#     columns: 10
+#     entries: 13
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      S.G.Shin                EXFOR                2018        6.903200E+01   0.000000E+00   30852-002-0        1.000000                  2.532000E-08
-# quantity: 
-#   type: EXFOR spectrum-averaged
-#   average value:  6.300000E+01
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 1
+      W.W.Havens Jr           EXFOR                1946        6.427500E+01   0.000000E+00   11139-004-0        0.936162                  2.400000E-08
+      W.W.Havens Jr           EXFOR                1946        6.443200E+01   0.000000E+00   11139-004-0        0.938449                  2.600000E-08
+      S.G.Shin                EXFOR                2018        6.820000E+01   0.000000E+00   30852-002-0        0.993329                  2.591000E-08
+      S.G.Shin                EXFOR                2018        6.311400E+01   0.000000E+00   30852-002-0        0.919252                  2.571000E-08
+      S.G.Shin                EXFOR                2018        6.556200E+01   0.000000E+00   30852-002-0        0.954907                  2.551000E-08
+      S.G.Shin                EXFOR                2018        6.903200E+01   0.000000E+00   30852-002-0        1.005447                  2.532000E-08
+      S.G.Shin                EXFOR                2018        6.931200E+01   0.000000E+00   30852-002-0        1.009525                  2.512000E-08
+      S.G.Shin                EXFOR                2018        7.124800E+01   0.000000E+00   30852-002-0        1.037723                  2.493000E-08
+      S.G.Shin                EXFOR                2018        6.972900E+01   0.000000E+00   30852-002-0        1.015599                  2.474000E-08
+      S.G.Shin                EXFOR                2018        7.219000E+01   0.000000E+00   30852-002-0        1.051443                  2.455000E-08
+      S.G.Shin                EXFOR                2018        6.955100E+01   0.000000E+00   30852-002-0        1.013007                  2.437000E-08
+      S.G.Shin                EXFOR                2018        6.816600E+01   0.000000E+00   30852-002-0        0.992834                  2.418000E-08
+      S.G.Shin                EXFOR                2018        6.865800E+01   0.000000E+00   30852-002-0        1.000000                  2.400000E-08
+#   quantity: 
+#     type: EXFOR spectrum-averaged
+#     average value:  5.900000E+01
+#     relative standard deviation [%]:      6.779661
+#   datablock: 
+#     columns: 10
+#     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      M.Goldhaber             EXFOR                1937        6.300000E+01   0.000000E+00   22518-009-0        0.912620   MXW            2.530000E-08
+      J.R.Dunning             EXFOR                1935        5.500000E+01   0.000000E+00   12634-041-0        0.801072   MXW            2.500000E-08
+      M.Goldhaber             EXFOR                1937        6.300000E+01   0.000000E+00   22518-009-0        0.917592   MXW            2.530000E-08

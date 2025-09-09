@@ -1,7 +1,7 @@
 # header: 
 #   title: U235 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 92
 #   A: 235
@@ -15,25 +15,25 @@
 #   number of values: 15
 #   average value [b]:  6.738071E+01
 #   relative standard deviation [%]:    369.917633
-# quantity: 
-#   type: Compilation
-#   average value:  4.566667E-01
-#   relative standard deviation [%]:      5.462276
-# datablock: 
-#   columns: 9
-#   entries: 3
+#   quantity: 
+#     type: Compilation
+#     average value:  4.566667E-01
+#     relative standard deviation [%]:      5.462276
+#   datablock: 
+#     columns: 9
+#     entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio       #Resonances
 ##      []             []             []             []            [eV]           [eV]            []             []             []
       RIPL-2                  Compilation          2000        4.300000E-01   2.000000E-02            97I       0.955556       11      
       RIPL-3                  Compilation          2009        4.500000E-01   3.000000E-02            05I       1.000000               
       Mughabghab-2018         Compilation          2018        4.900000E-01   2.000000E-02                      1.088889               
-# quantity: 
-#   type: EXFOR
-#   average value:  1.675133E+02
-#   relative standard deviation [%]:    222.250687
-# datablock: 
-#   columns: 13
-#   entries: 6
+#   quantity: 
+#     type: EXFOR
+#     average value:  1.675133E+02
+#     relative standard deviation [%]:    222.250687
+#   datablock: 
+#     columns: 13
+#     entries: 6
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
 ##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
       O.D.Simpson             EXFOR                1956        1.400000E+00   1.500000E-01      12412-003       3.111111   9.250000E-06   1.800000E-05       0.0                                   
@@ -42,13 +42,13 @@
       Yu.V.Ryabov             EXFOR                1970        1.260000E+00   1.000000E-01      40070-034       2.800000                                     0.0            3.0           -1.0     
       Yu.V.Ryabov             EXFOR                1970        6.300000E-01   5.000000E-02      40070-028       1.400000   2.900000E-07   5.020000E-05       0.0                                   
       H.Beer                  EXFOR                1978        1.000000E+03   3.000000E+02      20880-006    2222.222168   1.000000E-02   3.000000E-02       0.0                                   
-# quantity: 
-#   type: Nuclear data library
-#   average value:  7.101154E-01
-#   relative standard deviation [%]:      0.067630
-# datablock: 
-#   columns: 8
-#   entries: 6
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  7.101154E-01
+#     relative standard deviation [%]:      0.067630
+#   datablock: 
+#     columns: 8
+#     entries: 6
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
       cendl3.2                NDL                  2019        7.111250E-01   0.000000E+00                      1.580278

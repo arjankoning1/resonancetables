@@ -1,7 +1,7 @@
 # header: 
 #   title: Zr092 D1 resonance data
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 40
 #   A: 92
@@ -12,38 +12,39 @@
 #   selected value [eV]:  1.400000E+03
 #   selected value uncertainty [eV]:  2.000000E+02
 #   selected value source: RIPL-3
-#   number of values: 10
-#   average value [b]:  1.447027E+03
-#   relative standard deviation [%]:     13.726691
-# quantity: 
-#   type: Compilation
-#   average value:  1.445000E+03
-#   relative standard deviation [%]:      4.404125
-# datablock: 
-#   columns: 8
-#   entries: 3
+#   number of values: 11
+#   average value [b]:  1.315479E+03
+#   relative standard deviation [%]:     34.745708
+#   quantity: 
+#     type: Compilation
+#     average value:  1.445000E+03
+#     relative standard deviation [%]:      4.404125
+#   datablock: 
+#     columns: 8
+#     entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
       RIPL-2                  Compilation          2000        1.400000E+03   2.000000E+02            96I       1.000000
       RIPL-3                  Compilation          2009        1.400000E+03   2.000000E+02            96I       1.000000
       Mughabghab-2018         Compilation          2018        1.535000E+03   9.000000E+01                      1.096429
-# quantity: 
-#   type: EXFOR
-#   average value:  1.977000E+03
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 13
-#   entries: 1
+#   quantity: 
+#     type: EXFOR
+#     average value:  9.885000E+02
+#     relative standard deviation [%]:    100.000000
+#   datablock: 
+#     columns: 13
+#     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
 ##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
       Z.M.Bartolome           EXFOR                1969        1.977000E+03   0.000000E+00      10002-031       1.412143   2.004000E-03   9.791000E-03       1.0                                   
-# quantity: 
-#   type: Nuclear data library
-#   average value:  1.359712E+03
-#   relative standard deviation [%]:      7.089687
-# datablock: 
-#   columns: 8
-#   entries: 6
+      J.W.Boldeman            EXFOR                1976        0.000000E+00   0.000000E+00      30358-003       0.000000   3.000000E-03   2.000000E-01       1.0                                   
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  1.359712E+03
+#     relative standard deviation [%]:      7.089687
+#   datablock: 
+#     columns: 8
+#     entries: 6
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
       cendl3.2                NDL                  2019        1.245610E+03   0.000000E+00                      0.889721

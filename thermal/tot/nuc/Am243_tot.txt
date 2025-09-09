@@ -1,7 +1,7 @@
 # header: 
 #   title: Am243(n,tot) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 95
 #   A: 243
@@ -12,27 +12,29 @@
 #   selected value [b]:  8.500000E+01
 #   selected value uncertainty [b]:  4.000000E+00
 #   selected value source: J.R.Berreth
-#   number of values: 7
-#   average value [b]:  1.003689E+02
-#   relative standard deviation [%]:     36.485561
-# quantity: 
-#   type: EXFOR
-#   average value:  1.375000E+02
-#   relative standard deviation [%]:     38.181820
-# datablock: 
-#   columns: 10
-#   entries: 2
+#   number of values: 9
+#   average value [b]:  9.696362E+01
+#   relative standard deviation [%]:     33.949219
+#   quantity: 
+#     type: EXFOR
+#     average value:  1.112725E+02
+#     relative standard deviation [%]:     40.848789
+#   datablock: 
+#     columns: 10
+#     entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       R.E.Cote                EXFOR                1959        1.900000E+02   0.000000E+00   12539-011-0        2.235294                  2.530000E-08
+      J.R.Berreth             EXFOR                1970        8.519000E+01   0.000000E+00   10272-005-0        1.002235                  2.577000E-08
+      J.R.Berreth             EXFOR                1970        8.490000E+01   0.000000E+00   10272-005-0        0.998824                  2.454000E-08
       J.R.Berreth             EXFOR                1970        8.500000E+01   4.000000E+00   10272-004-0        1.000000                  2.530000E-08
-# quantity: 
-#   type: Nuclear data library
-#   average value:  8.551652E+01
-#   relative standard deviation [%]:      1.981490
-# datablock: 
-#   columns: 11
-#   entries: 5
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  8.551652E+01
+#     relative standard deviation [%]:      1.981490
+#   datablock: 
+#     columns: 11
+#     entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
       cendl3.2                NDL                  2019        8.426210E+01   0.000000E+00                      0.991319                  2.530000E-08   1.022880E+00

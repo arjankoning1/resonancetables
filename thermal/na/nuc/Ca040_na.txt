@@ -1,7 +1,7 @@
 # header: 
 #   title: Ca040(n,a) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 20
 #   A: 40
@@ -12,28 +12,40 @@
 #   selected value [b]:  2.500000E-03
 #   selected value uncertainty [b]:  1.100000E-03
 #   selected value source: Mughabghab-2018
-#   number of values: 4
-#   average value [b]:  1.882500E-03
-#   relative standard deviation [%]:     53.791744
-# quantity: 
-#   type: Compilation
-#   average value:  1.710000E-03
-#   relative standard deviation [%]:     65.335007
-# datablock: 
-#   columns: 10
-#   entries: 3
+#   number of values: 7
+#   average value [b]:  1.791383E-03
+#   relative standard deviation [%]:     61.012253
+#   quantity: 
+#     type: Compilation
+#     average value:  1.710000E-03
+#     relative standard deviation [%]:     65.335007
+#   datablock: 
+#     columns: 10
+#     entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       Mughabghab-2006         Compilation          2006        2.500000E-03   1.100000E-03                      1.000000                  2.530000E-08
       Sukhoruchkin            Compilation          2015        1.300000E-04   4.000000E-05                      0.052000                  2.530000E-08
       Mughabghab-2018         Compilation          2018        2.500000E-03   1.100000E-03                      1.000000                  2.530000E-08
-# quantity: 
-#   type: EXFOR spectrum-averaged
-#   average value:  2.400000E-03
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 1
+#   quantity: 
+#     type: EXFOR spectrum-averaged
+#     average value:  2.400000E-03
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       F.Muennich              EXFOR                1958        2.400000E-03   1.100000E-03   21340-004-0        0.960000   MXW            2.530000E-08
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  1.669893E-03
+#     relative standard deviation [%]:     70.710678
+#   datablock: 
+#     columns: 10
+#     entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      endfb8.1                NDL                  2024        1.012600E-20   0.000000E+00                      0.000000                  2.530000E-08
+      tendl.2025              NDL                  2025        2.504840E-03   0.000000E+00                      1.001936                  2.530000E-08
+      jeff4.0                 NDL                  2025        2.504840E-03   0.000000E+00                      1.001936                  2.530000E-08

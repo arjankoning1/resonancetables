@@ -1,7 +1,7 @@
 # header: 
 #   title: Hf179(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 72
 #   A: 179
@@ -12,58 +12,59 @@
 #   selected value [b]:  4.100000E+01
 #   selected value uncertainty [b]:  3.000000E+00
 #   selected value source: Mughabghab-2018
-#   number of values: 11
-#   average value [b]:  4.231149E+01
-#   relative standard deviation [%]:      7.469026
-# quantity: 
-#   type: Compilation
-#   average value:  4.281166E+01
-#   relative standard deviation [%]:      5.984548
-# datablock: 
-#   columns: 10
-#   entries: 3
+#   number of values: 12
+#   average value [b]:  4.295220E+01
+#   relative standard deviation [%]:      8.608104
+#   quantity: 
+#     type: Compilation
+#     average value:  4.281166E+01
+#     relative standard deviation [%]:      5.984548
+#   datablock: 
+#     columns: 10
+#     entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       RIPL-3                  Compilation          2004        4.643500E+01   5.000000E+00                      1.132561                  2.530000E-08
       Mughabghab-2006         Compilation          2006        4.100000E+01   3.000000E+00                      1.000000                  2.530000E-08
       Mughabghab-2018         Compilation          2018        4.100000E+01   3.000000E+00                      1.000000                  2.530000E-08
-# quantity: 
-#   type: Compilation spectrum-averaged
-#   average value:  4.300000E+01
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 1
+#   quantity: 
+#     type: Compilation spectrum-averaged
+#     average value:  4.650000E+01
+#     relative standard deviation [%]:      7.526882
+#   datablock: 
+#     columns: 10
+#     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       Sukhoruchkin            Compilation          2015        4.300000E+01   3.000000E+00                      1.048780   MXW            2.530000E-08
-# quantity: 
-#   type: EXFOR
-#   average value:  3.860000E+01
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 1
+      Firestone-2022          Compilation          2022        5.000000E+01   2.500000E+01                      1.219512   MXW            2.530000E-08
+#   quantity: 
+#     type: EXFOR
+#     average value:  3.860000E+01
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       M.C.Moxon               EXFOR                1974        3.860000E+01   2.120000E+00   22360-020-0        0.941463                  2.530000E-08
-# quantity: 
-#   type: EXFOR spectrum-averaged
-#   average value:  5.000000E+01
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 1
+#   quantity: 
+#     type: EXFOR spectrum-averaged
+#     average value:  5.000000E+01
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       H.Pomerance             EXFOR                1952        5.000000E+01   2.500000E+01   11507-088-0        1.219512   MXW            2.530000E-08
-# quantity: 
-#   type: Nuclear data library
-#   average value:  4.107828E+01
-#   relative standard deviation [%]:      3.164617
-# datablock: 
-#   columns: 11
-#   entries: 5
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  4.107828E+01
+#     relative standard deviation [%]:      3.164617
+#   datablock: 
+#     columns: 11
+#     entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
       cendl3.2                NDL                  2019        4.358520E+01   0.000000E+00                      1.063054                  2.530000E-08   9.980100E-01

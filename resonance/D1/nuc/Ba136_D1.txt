@@ -1,7 +1,7 @@
 # header: 
 #   title: Ba136 D1 resonance data
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 56
 #   A: 136
@@ -12,28 +12,38 @@
 #   selected value [eV]:  5.220000E+02
 #   selected value uncertainty [eV]:  3.400000E+01
 #   selected value source: RIPL-3
-#   number of values: 9
-#   average value [b]:  4.839187E+02
-#   relative standard deviation [%]:      8.093947
-# quantity: 
-#   type: Compilation
-#   average value:  4.953333E+02
-#   relative standard deviation [%]:      7.613532
-# datablock: 
-#   columns: 8
-#   entries: 3
+#   number of values: 10
+#   average value [b]:  4.355268E+02
+#   relative standard deviation [%]:     34.407883
+#   quantity: 
+#     type: Compilation
+#     average value:  4.953333E+02
+#     relative standard deviation [%]:      7.613532
+#   datablock: 
+#     columns: 8
+#     entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
       RIPL-2                  Compilation          2000        5.220000E+02   3.400000E+01            96K       1.000000
       RIPL-3                  Compilation          2009        5.220000E+02   3.400000E+01            96K       1.000000
       Mughabghab-2018         Compilation          2018        4.420000E+02   2.900000E+01                      0.846743
-# quantity: 
-#   type: Nuclear data library
-#   average value:  4.782113E+02
-#   relative standard deviation [%]:      8.078301
-# datablock: 
-#   columns: 8
-#   entries: 6
+#   quantity: 
+#     type: EXFOR
+#     average value:  0.000000E+00
+#     relative standard deviation [%]:           NaN
+#   datablock: 
+#     columns: 13
+#     entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      A.R.De L.Musgrove       EXFOR                1976        0.000000E+00   0.000000E+00      30328-006       0.000000   3.000000E-03   2.000000E-01       1.0                                   
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  4.782113E+02
+#     relative standard deviation [%]:      8.078301
+#   datablock: 
+#     columns: 8
+#     entries: 6
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
       cendl3.2                NDL                  2019        4.660810E+02   0.000000E+00                      0.892875

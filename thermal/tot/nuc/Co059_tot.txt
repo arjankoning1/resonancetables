@@ -1,0 +1,42 @@
+# header: 
+#   title: Co059(n,tot) thermal cross section
+#   source: Resonancetables
+#   date: 2025-09-08
+# target: 
+#   Z: 27
+#   A: 59
+#   nuclide: Co059
+# reaction: 
+#   type: (n,tot)
+# observables: 
+#   selected value [b]:  4.893000E+01
+#   selected value uncertainty [b]:  2.446500E+00
+#   selected value source: M.Salama
+#   number of values: 7
+#   average value [b]:  4.443571E+01
+#   relative standard deviation [%]:      9.233499
+#   quantity: 
+#     type: EXFOR
+#     average value:  4.600833E+01
+#     relative standard deviation [%]:      3.316437
+#   datablock: 
+#     columns: 10
+#     entries: 6
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      M.Salama                EXFOR                1973        4.554000E+01   2.277000E+00   30468-005-0        0.930717                  2.590000E-08
+      M.Salama                EXFOR                1973        4.543000E+01   2.271500E+00   30468-005-0        0.928469                  2.550000E-08
+      M.Salama                EXFOR                1973        4.678000E+01   2.339000E+00   30468-005-0        0.956060                  2.510000E-08
+      M.Salama                EXFOR                1973        4.531000E+01   2.265500E+00   30468-005-0        0.926017                  2.470000E-08
+      M.Salama                EXFOR                1973        4.406000E+01   2.203000E+00   30468-005-0        0.900470                  2.440000E-08
+      M.Salama                EXFOR                1973        4.893000E+01   2.446500E+00   30468-005-0        1.000000                  2.400000E-08
+#   quantity: 
+#     type: EXFOR spectrum-averaged
+#     average value:  3.500000E+01
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      J.R.Dunning             EXFOR                1935        3.500000E+01   0.000000E+00   12634-025-0        0.715308   MXW            2.500000E-08

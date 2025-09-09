@@ -1,7 +1,7 @@
 # header: 
 #   title: Er166(n,tot) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 68
 #   A: 166
@@ -12,27 +12,32 @@
 #   selected value [b]:  5.380000E+01
 #   selected value uncertainty [b]:  0.000000E+00
 #   selected value source: Y.Danon
-#   number of values: 6
-#   average value [b]:  3.736215E+01
-#   relative standard deviation [%]:     26.870743
-# quantity: 
-#   type: EXFOR
-#   average value:  5.140000E+01
-#   relative standard deviation [%]:      4.669260
-# datablock: 
-#   columns: 10
-#   entries: 2
+#   number of values: 11
+#   average value [b]:  4.274299E+01
+#   relative standard deviation [%]:     22.214483
+#   quantity: 
+#     type: EXFOR
+#     average value:  4.982857E+01
+#     relative standard deviation [%]:      3.656261
+#   datablock: 
+#     columns: 10
+#     entries: 7
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      V.P.Vertebnyi           EXFOR                1968        4.900000E+01   0.000000E+00   40061-003-0        0.910781                  2.520000E-08
+      V.P.Vertebny            EXFOR                1968        5.000000E+01   0.000000E+00   40061-003-0        0.929368                  2.410000E-08
+      V.P.Vertebny            EXFOR                1968        5.000000E+01   0.000000E+00   40061-003-0        0.929368                  2.450000E-08
+      V.P.Vertebny            EXFOR                1968        5.000000E+01   0.000000E+00   40061-003-0        0.929368                  2.480000E-08
+      V.P.Vertebny            EXFOR                1968        4.900000E+01   0.000000E+00   40061-003-0        0.910781                  2.520000E-08
+      V.P.Vertebny            EXFOR                1968        4.800000E+01   0.000000E+00   40061-003-0        0.892193                  2.560000E-08
+      V.P.Vertebny            EXFOR                1968        4.800000E+01   0.000000E+00   40061-003-0        0.892193                  2.600000E-08
       Y.Danon                 EXFOR                1998        5.380000E+01   0.000000E+00   13725-021-0        1.000000                  2.530000E-08
-# quantity: 
-#   type: Nuclear data library
-#   average value:  3.034323E+01
-#   relative standard deviation [%]:      2.355997
-# datablock: 
-#   columns: 11
-#   entries: 4
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  3.034323E+01
+#     relative standard deviation [%]:      2.355997
+#   datablock: 
+#     columns: 11
+#     entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
       jendl5.0                NDL                  2021        2.918900E+01   0.000000E+00                      0.542546                  2.530000E-08   1.054310E+00

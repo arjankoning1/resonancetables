@@ -1,7 +1,7 @@
 # header: 
 #   title: Ce136(n,g)-m thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 58
 #   A: 136
@@ -12,26 +12,36 @@
 #   selected value [b]:  1.000000E+00
 #   selected value uncertainty [b]:  2.500000E-01
 #   selected value source: RIPL-3
-#   number of values: 3
-#   average value [b]:  5.455167E-01
-#   relative standard deviation [%]:     58.910812
-# quantity: 
-#   type: Compilation
-#   average value:  1.000000E+00
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 1
+#   number of values: 4
+#   average value [b]:  4.951375E-01
+#   relative standard deviation [%]:     58.907204
+#   quantity: 
+#     type: Compilation
+#     average value:  1.000000E+00
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       RIPL-3                  Compilation          2004        1.000000E+00   2.500000E-01                      1.000000                  2.530000E-08
-# quantity: 
-#   type: Nuclear data library
-#   average value:  3.182750E-01
-#   relative standard deviation [%]:      0.061267
-# datablock: 
-#   columns: 11
-#   entries: 2
+#   quantity: 
+#     type: EXFOR spectrum-averaged
+#     average value:  3.440000E-01
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      S.Torrel                EXFOR                2012        3.440000E-01   1.600000E-02   14346-002-0        0.344000   MXW            2.500000E-08
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  3.182750E-01
+#     relative standard deviation [%]:      0.061267
+#   datablock: 
+#     columns: 11
+#     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
       tendl.2025              NDL                  2025        3.180800E-01   0.000000E+00                      0.318080                  2.530000E-08   0.000000E+00

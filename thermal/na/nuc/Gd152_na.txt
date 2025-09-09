@@ -1,7 +1,7 @@
 # header: 
 #   title: Gd152(n,a) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 64
 #   A: 152
@@ -12,18 +12,32 @@
 #   selected value [b]:  7.000000E-03
 #   selected value uncertainty [b]:  0.000000E+00
 #   selected value source: Mughabghab-2018
-#   number of values: 3
-#   average value [b]:  7.000001E-03
-#   relative standard deviation [%]:      0.000007
-# quantity: 
-#   type: Compilation
-#   average value:  7.000001E-03
-#   relative standard deviation [%]:      0.000007
-# datablock: 
-#   columns: 10
-#   entries: 3
+#   number of values: 8
+#   average value [b]:  6.999359E-03
+#   relative standard deviation [%]:      0.239846
+#   quantity: 
+#     type: Compilation
+#     average value:  7.000001E-03
+#     relative standard deviation [%]:      0.000007
+#   datablock: 
+#     columns: 10
+#     entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       Mughabghab-2006         Compilation          2006        7.000000E-03   0.000000E+00                      1.000000                  2.530000E-08
       Sukhoruchkin            Compilation          2015        7.000000E-03   0.000000E+00                      1.000000                  2.530000E-08
       Mughabghab-2018         Compilation          2018        7.000000E-03   0.000000E+00                      1.000000                  2.530000E-08
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  6.998973E-03
+#     relative standard deviation [%]:      0.303268
+#   datablock: 
+#     columns: 10
+#     entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      cendl3.2                NDL                  2019        6.985210E-03   0.000000E+00                      0.997887                  2.530000E-08
+      jendl5.0                NDL                  2021        7.037000E-03   0.000000E+00                      1.005286                  2.530000E-08
+      endfb8.1                NDL                  2024        7.007640E-03   0.000000E+00                      1.001091                  2.530000E-08
+      tendl.2025              NDL                  2025        6.982510E-03   0.000000E+00                      0.997501                  2.530000E-08
+      jeff4.0                 NDL                  2025        6.982510E-03   0.000000E+00                      0.997501                  2.530000E-08

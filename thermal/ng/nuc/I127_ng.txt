@@ -1,7 +1,7 @@
 # header: 
 #   title: I127(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 53
 #   A: 127
@@ -12,38 +12,38 @@
 #   selected value [b]:  5.398000E+00
 #   selected value uncertainty [b]:  8.600000E-02
 #   selected value source: Kayzero
-#   number of values: 32
-#   average value [b]:  6.348378E+00
-#   relative standard deviation [%]:     25.936859
-# quantity: 
-#   type: Compilation
-#   average value:  5.899333E+00
-#   relative standard deviation [%]:      6.009091
-# datablock: 
-#   columns: 10
-#   entries: 3
+#   number of values: 40
+#   average value [b]:  6.317576E+00
+#   relative standard deviation [%]:     23.386101
+#   quantity: 
+#     type: Compilation
+#     average value:  5.899333E+00
+#     relative standard deviation [%]:      6.009091
+#   datablock: 
+#     columns: 10
+#     entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       RIPL-3                  Compilation          2004        6.150000E+00   1.000000E-01                      1.139311                  2.530000E-08
       Mughabghab-2006         Compilation          2006        6.150000E+00   6.000000E-02                      1.139311                  2.530000E-08
       Kayzero                 Compilation          2018        5.398000E+00   8.600000E-02                      1.000000                  2.530000E-08
-# quantity: 
-#   type: Compilation spectrum-averaged
-#   average value:  6.150000E+00
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 1
+#   quantity: 
+#     type: Compilation spectrum-averaged
+#     average value:  6.150000E+00
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       Sukhoruchkin            Compilation          2015        6.150000E+00   6.000000E-02                      1.139311   MXW            2.530000E-08
-# quantity: 
-#   type: EXFOR
-#   average value:  6.537778E+00
-#   relative standard deviation [%]:     42.533630
-# datablock: 
-#   columns: 10
-#   entries: 9
+#   quantity: 
+#     type: EXFOR
+#     average value:  6.387187E+00
+#     relative standard deviation [%]:     32.855587
+#   datablock: 
+#     columns: 10
+#     entries: 16
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       G.A.Fink                EXFOR                1936        1.400000E+01   1.000000E+00   13845-008-0        2.593553                  2.530000E-08
@@ -53,15 +53,22 @@
       G.Gleason               EXFOR                1977        6.600000E+00   2.000000E-01   10662-010-0        1.222675                  2.530000E-08
       L.Friedmann             EXFOR                1983        4.700000E+00   2.000000E-01   23485-002-0        0.870693                  2.530000E-08
       F.De Corte              EXFOR                1988        4.040000E+00   4.040000E-01   23488-056-0        0.748425                  2.530000E-08
+      T.Katoh                 EXFOR                2000        6.400000E+00   2.900000E-01   22426-002-0        1.185624                  2.500000E-08
       B.J.B.Nyarko            EXFOR                2010        4.630000E+00   6.000000E-01   31698-016-0        0.857725                  2.530000E-08
       S.E.Agbemava            EXFOR                2011        5.930000E+00   5.200000E-01   31717-002-0        1.098555                  2.530000E-08
-# quantity: 
-#   type: EXFOR spectrum-averaged
-#   average value:  6.387142E+00
-#   relative standard deviation [%]:     16.554689
-# datablock: 
-#   columns: 10
-#   entries: 14
+      G.Rovira                EXFOR                2024        6.536000E+00   1.880000E-01   23615-002-0        1.210819                  2.403400E-08
+      G.Rovira                EXFOR                2024        6.456000E+00   1.860000E-01   23615-002-0        1.195999                  2.440700E-08
+      G.Rovira                EXFOR                2024        6.050000E+00   1.750000E-01   23615-002-0        1.120786                  2.478800E-08
+      G.Rovira                EXFOR                2024        6.026000E+00   1.750000E-01   23615-002-0        1.116339                  2.517900E-08
+      G.Rovira                EXFOR                2024        5.937000E+00   1.730000E-01   23615-002-0        1.099852                  2.557800E-08
+      G.Rovira                EXFOR                2024        5.950000E+00   1.750000E-01   23615-002-0        1.102260                  2.598800E-08
+#   quantity: 
+#     type: EXFOR spectrum-averaged
+#     average value:  6.374666E+00
+#     relative standard deviation [%]:     16.041372
+#   datablock: 
+#     columns: 10
+#     entries: 15
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       W.E.Grumitt             EXFOR                1944        7.950000E+00   2.000000E-01   12040-002-0        1.472768   MXW            2.530000E-08
@@ -77,14 +84,15 @@
       Yu.Ya.Stavisskii        EXFOR                1965        5.600000E+00   3.000000E-01   41635-004-0        1.037421   MXW            2.530000E-08
       J.C.Robertson           EXFOR                1965        6.170000E+00   2.000000E-01   21150-003-0        1.143016   MXW            2.530000E-08
       D.W.Kappe               EXFOR                1966        5.710000E+00   1.713000E-01   11277-008-2        1.057799   MXW            2.530000E-08
+      R.E.Heft                EXFOR                1978        6.200000E+00   2.000000E+00   12866-112-0        1.148574   SPA            2.500000E-08
       L.Friedmann             EXFOR                1983        7.200000E+00   3.000000E-01   23485-003-0        1.333827   SPA            2.530000E-08
-# quantity: 
-#   type: Nuclear data library
-#   average value:  6.208028E+00
-#   relative standard deviation [%]:      1.588855
-# datablock: 
-#   columns: 11
-#   entries: 5
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  6.208028E+00
+#     relative standard deviation [%]:      1.588855
+#   datablock: 
+#     columns: 11
+#     entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
       cendl3.2                NDL                  2019        6.200180E+00   0.000000E+00                      1.148607                  2.530000E-08   1.000070E+00

@@ -1,7 +1,7 @@
 # header: 
 #   title: Pu240(n,f) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 94
 #   A: 240
@@ -12,50 +12,53 @@
 #   selected value [b]:  5.600000E-02
 #   selected value uncertainty [b]:  3.000000E-02
 #   selected value source: Mughabghab-2018
-#   number of values: 12
-#   average value [b]:  7.232271E-01
-#   relative standard deviation [%]:    206.666611
-# quantity: 
-#   type: Compilation
-#   average value:  5.501250E-02
-#   relative standard deviation [%]:     13.010127
-# datablock: 
-#   columns: 10
-#   entries: 4
+#   number of values: 15
+#   average value [b]:  5.928736E-01
+#   relative standard deviation [%]:    229.737991
+#   quantity: 
+#     type: Compilation
+#     average value:  5.501250E-02
+#     relative standard deviation [%]:     13.010127
+#   datablock: 
+#     columns: 10
+#     entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       RIPL-3                  Compilation          2004        4.400000E-02   0.000000E+00                      0.785714                  2.530000E-08
       Mughabghab-2006         Compilation          2006        5.600000E-02   3.000000E-02                      1.000000                  2.530000E-08
       Sukhoruchkin            Compilation          2015        6.405000E-02   0.000000E+00                      1.143750                  2.530000E-08
       Mughabghab-2018         Compilation          2018        5.600000E-02   3.000000E-02                      1.000000                  2.530000E-08
-# quantity: 
-#   type: EXFOR
-#   average value:  1.865000E+00
-#   relative standard deviation [%]:     98.391418
-# datablock: 
-#   columns: 10
-#   entries: 2
+#   quantity: 
+#     type: EXFOR
+#     average value:  7.888758E-01
+#     relative standard deviation [%]:    184.522217
+#   datablock: 
+#     columns: 10
+#     entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       W.W.Pratt               EXFOR                1956        3.700000E+00   8.000000E+00   12509-004-0       66.071426                  2.530000E-08
       T.A.Eastwood            EXFOR                1958        3.000000E-02   4.500000E-02   12011-006-0        0.535714                  2.530000E-08
-# quantity: 
-#   type: EXFOR spectrum-averaged
-#   average value:  4.400000E+00
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 1
+      A.Stamatopoulos         EXFOR                2020        7.163900E-02   5.395400E-03   23458-004-0        1.279268                  2.541100E-08
+      A.Stamatopoulos         EXFOR                2020        7.304200E-02   5.562400E-03   23458-004-0        1.304321                  2.483300E-08
+      A.Stamatopoulos         EXFOR                2020        6.969800E-02   5.523500E-03   23458-004-0        1.244607                  2.426800E-08
+#   quantity: 
+#     type: EXFOR spectrum-averaged
+#     average value:  4.400000E+00
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       E.K.Hulet               EXFOR                1956        4.400000E+00   5.000000E-01   13466-002-0       78.571426   MXW            2.530000E-08
-# quantity: 
-#   type: Nuclear data library
-#   average value:  6.573502E-02
-#   relative standard deviation [%]:     11.633782
-# datablock: 
-#   columns: 11
-#   entries: 5
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  6.573502E-02
+#     relative standard deviation [%]:     11.633782
+#   datablock: 
+#     columns: 11
+#     entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
       cendl3.2                NDL                  2019        6.403120E-02   0.000000E+00                      1.143414                  2.530000E-08   1.024450E+00

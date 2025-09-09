@@ -1,0 +1,39 @@
+# header: 
+#   title: I127(n,tot) thermal cross section
+#   source: Resonancetables
+#   date: 2025-09-08
+# target: 
+#   Z: 53
+#   A: 127
+#   nuclide: I127
+# reaction: 
+#   type: (n,tot)
+# observables: 
+#   selected value [b]:  9.047000E+00
+#   selected value uncertainty [b]:  0.000000E+00
+#   selected value source: C.S.Wu
+#   number of values: 4
+#   average value [b]:  1.140375E+01
+#   relative standard deviation [%]:     27.953035
+#   quantity: 
+#     type: EXFOR
+#     average value:  1.295750E+01
+#     relative standard deviation [%]:     30.179434
+#   datablock: 
+#     columns: 10
+#     entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Wm.B.Jones Jr           EXFOR                1947        1.686800E+01   0.000000E+00   14691-005-0        1.864486                  2.516000E-08
+      C.S.Wu                  EXFOR                1947        9.047000E+00   0.000000E+00   11751-006-0        1.000000                  2.500000E-08
+#   quantity: 
+#     type: EXFOR spectrum-averaged
+#     average value:  9.850000E+00
+#     relative standard deviation [%]:      4.568531
+#   datablock: 
+#     columns: 10
+#     entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      J.R.Dunning             EXFOR                1935        9.400000E+00   0.000000E+00   12634-046-0        1.039018   MXW            2.500000E-08
+      Wm.B.Jones Jr           EXFOR                1947        1.030000E+01   0.000000E+00   14691-002-0        1.138499   MXW            2.500000E-08

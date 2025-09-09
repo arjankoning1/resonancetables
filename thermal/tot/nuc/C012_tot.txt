@@ -1,7 +1,7 @@
 # header: 
 #   title: C012(n,tot) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 6
 #   A: 12
@@ -9,46 +9,62 @@
 # reaction: 
 #   type: (n,tot)
 # observables: 
-#   selected value [b]:  5.900000E+00
+#   selected value [b]:  5.750000E+00
 #   selected value uncertainty [b]:  0.000000E+00
 #   selected value source: C.D.Bowman
-#   number of values: 10
-#   average value [b]:  4.965602E+00
-#   relative standard deviation [%]:     15.166698
-# quantity: 
-#   type: EXFOR
-#   average value:  5.410000E+00
-#   relative standard deviation [%]:     14.521051
-# datablock: 
-#   columns: 10
-#   entries: 4
+#   number of values: 26
+#   average value [b]:  5.362924E+00
+#   relative standard deviation [%]:     11.097881
+#   quantity: 
+#     type: EXFOR
+#     average value:  5.571000E+00
+#     relative standard deviation [%]:      7.584825
+#   datablock: 
+#     columns: 10
+#     entries: 20
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      H.L.Anderson            EXFOR                1946        4.050000E+00   0.000000E+00   14689-002-0        0.686441                  2.530000E-08
-      C.D.Bowman              EXFOR                2008        5.830000E+00   0.000000E+00   14232-003-0        0.988136                  2.537000E-08
-      C.D.Bowman              EXFOR                2008        5.860000E+00   0.000000E+00   14232-003-0        0.993220                  2.525000E-08
-      C.D.Bowman              EXFOR                2008        5.900000E+00   0.000000E+00   14232-003-0        1.000000                  2.523000E-08
-# quantity: 
-#   type: EXFOR spectrum-averaged
-#   average value:  4.800000E+00
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 1
+      H.L.Anderson            EXFOR                1946        4.050000E+00   0.000000E+00   14689-002-0        0.704348                  2.530000E-08
+      P.A.Egelstaff           EXFOR                1957        5.010000E+00   0.000000E+00   21149-005-0        0.871304                  2.570000E-08
+      P.A.Egelstaff           EXFOR                1957        5.310000E+00   0.000000E+00   21149-005-0        0.923478                  2.420000E-08
+      P.A.Egelstaff           EXFOR                1957        5.190000E+00   0.000000E+00   21149-004-0        0.902609                  2.500000E-08
+      C.D.Bowman              EXFOR                2008        5.710000E+00   0.000000E+00   14232-003-0        0.993043                  2.593000E-08
+      C.D.Bowman              EXFOR                2008        5.740000E+00   0.000000E+00   14232-003-0        0.998261                  2.581000E-08
+      C.D.Bowman              EXFOR                2008        5.760000E+00   0.000000E+00   14232-003-0        1.001739                  2.567000E-08
+      C.D.Bowman              EXFOR                2008        5.790000E+00   0.000000E+00   14232-003-0        1.006956                  2.558000E-08
+      C.D.Bowman              EXFOR                2008        5.810000E+00   0.000000E+00   14232-003-0        1.010435                  2.549000E-08
+      C.D.Bowman              EXFOR                2008        5.830000E+00   0.000000E+00   14232-003-0        1.013913                  2.537000E-08
+      C.D.Bowman              EXFOR                2008        5.860000E+00   0.000000E+00   14232-003-0        1.019130                  2.525000E-08
+      C.D.Bowman              EXFOR                2008        5.900000E+00   0.000000E+00   14232-003-0        1.026087                  2.523000E-08
+      C.D.Bowman              EXFOR                2008        5.880000E+00   0.000000E+00   14232-003-0        1.022609                  2.513000E-08
+      C.D.Bowman              EXFOR                2008        5.910000E+00   0.000000E+00   14232-003-0        1.027826                  2.507000E-08
+      C.D.Bowman              EXFOR                2008        5.420000E+00   0.000000E+00   14232-002-0        0.942609                  2.598000E-08
+      C.D.Bowman              EXFOR                2008        5.580000E+00   0.000000E+00   14232-002-0        0.970435                  2.492000E-08
+      C.D.Bowman              EXFOR                2008        5.600000E+00   0.000000E+00   14232-002-0        0.973913                  2.468000E-08
+      C.D.Bowman              EXFOR                2008        5.660000E+00   0.000000E+00   14232-002-0        0.984348                  2.442000E-08
+      C.D.Bowman              EXFOR                2008        5.660000E+00   0.000000E+00   14232-002-0        0.984348                  2.424000E-08
+      C.D.Bowman              EXFOR                2008        5.750000E+00   0.000000E+00   14232-002-0        1.000000                  2.403000E-08
+#   quantity: 
+#     type: EXFOR spectrum-averaged
+#     average value:  4.800000E+00
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      M.Goldhaber             EXFOR                1937        4.800000E+00   0.000000E+00   22518-002-0        0.813559   MXW            2.530000E-08
-# quantity: 
-#   type: Nuclear data library
-#   average value:  4.643204E+00
-#   relative standard deviation [%]:     13.157516
-# datablock: 
-#   columns: 11
-#   entries: 5
+      M.Goldhaber             EXFOR                1937        4.800000E+00   0.000000E+00   22518-002-0        0.834783   MXW            2.530000E-08
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  4.643204E+00
+#     relative standard deviation [%]:     13.157516
+#   datablock: 
+#     columns: 11
+#     entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
-      cendl3.2                NDL                  2019        4.942650E+00   0.000000E+00                      0.837737                  2.530000E-08   1.127470E+00
-      jendl5.0                NDL                  2021        4.949380E+00   0.000000E+00                      0.838878                  2.530000E-08   1.127440E+00
-      endfb8.1                NDL                  2024        4.951340E+00   0.000000E+00                      0.839210                  2.530000E-08   1.127440E+00
-      tendl.2025              NDL                  2025        3.421360E+00   0.000000E+00                      0.579892                  2.530000E-08   1.127390E+00
-      jeff4.0                 NDL                  2025        4.951290E+00   0.000000E+00                      0.839202                  2.530000E-08   1.127440E+00
+      cendl3.2                NDL                  2019        4.942650E+00   0.000000E+00                      0.859591                  2.530000E-08   1.127470E+00
+      jendl5.0                NDL                  2021        4.949380E+00   0.000000E+00                      0.860762                  2.530000E-08   1.127440E+00
+      endfb8.1                NDL                  2024        4.951340E+00   0.000000E+00                      0.861103                  2.530000E-08   1.127440E+00
+      tendl.2025              NDL                  2025        3.421360E+00   0.000000E+00                      0.595019                  2.530000E-08   1.127390E+00
+      jeff4.0                 NDL                  2025        4.951290E+00   0.000000E+00                      0.861094                  2.530000E-08   1.127440E+00

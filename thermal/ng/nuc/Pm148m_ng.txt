@@ -1,7 +1,7 @@
 # header: 
 #   title: Pm148m(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 61
 #   A: 148
@@ -15,35 +15,35 @@
 #   number of values: 9
 #   average value [b]:  1.067474E+04
 #   relative standard deviation [%]:      3.247907
-# quantity: 
-#   type: Compilation
-#   average value:  1.073333E+04
-#   relative standard deviation [%]:      1.756787
-# datablock: 
-#   columns: 10
-#   entries: 3
+#   quantity: 
+#     type: Compilation
+#     average value:  1.073333E+04
+#     relative standard deviation [%]:      1.756787
+#   datablock: 
+#     columns: 10
+#     entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       RIPL-3                  Compilation          2004        1.060000E+04   8.000000E+02                      0.963636                  2.530000E-08
       Mughabghab-2006         Compilation          2006        1.060000E+04   1.000000E+03                      0.963636                  2.530000E-08
       Mughabghab-2018         Compilation          2018        1.100000E+04   2.000000E+03                      1.000000                  2.530000E-08
-# quantity: 
-#   type: Compilation spectrum-averaged
-#   average value:  1.067000E+04
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 1
+#   quantity: 
+#     type: Compilation spectrum-averaged
+#     average value:  1.067000E+04
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       Sukhoruchkin            Compilation          2015        1.067000E+04   1.005000E+03                      0.970000   MXW            2.530000E-08
-# quantity: 
-#   type: Nuclear data library
-#   average value:  1.064052E+04
-#   relative standard deviation [%]:      4.115866
-# datablock: 
-#   columns: 11
-#   entries: 5
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  1.064052E+04
+#     relative standard deviation [%]:      4.115866
+#   datablock: 
+#     columns: 11
+#     entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
       cendl3.2                NDL                  2019        1.066810E+04   0.000000E+00                      0.969827                  2.530000E-08   1.485650E+00

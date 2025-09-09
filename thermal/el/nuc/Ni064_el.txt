@@ -1,7 +1,7 @@
 # header: 
 #   title: Ni064(n,el) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 28
 #   A: 64
@@ -12,27 +12,37 @@
 #   selected value [b]:  1.400000E-02
 #   selected value uncertainty [b]:  5.000000E-03
 #   selected value source: Mughabghab-2018
-#   number of values: 7
-#   average value [b]:  1.681623E-01
-#   relative standard deviation [%]:     78.986618
-# quantity: 
-#   type: Compilation
-#   average value:  1.400000E-02
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 2
+#   number of values: 8
+#   average value [b]:  3.283921E-01
+#   relative standard deviation [%]:    134.522263
+#   quantity: 
+#     type: Compilation
+#     average value:  1.400000E-02
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       Mughabghab-2006         Compilation          2006        1.400000E-02   5.000000E-03                      1.000000                  2.530000E-08
       Mughabghab-2018         Compilation          2018        1.400000E-02   5.000000E-03                      1.000000                  2.530000E-08
-# quantity: 
-#   type: Nuclear data library
-#   average value:  2.298272E-01
-#   relative standard deviation [%]:     46.438171
-# datablock: 
-#   columns: 11
-#   entries: 5
+#   quantity: 
+#     type: EXFOR
+#     average value:  1.450000E+00
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      E.Doilnitsyn            EXFOR                1965        1.450000E+00   4.000000E-01   41262-007-0      103.571426                  2.500000E-08
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  2.298272E-01
+#     relative standard deviation [%]:     46.438171
+#   datablock: 
+#     columns: 11
+#     entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
       cendl3.2                NDL                  2019        1.637210E-02   0.000000E+00                      1.169436                  2.530000E-08   1.128470E+00

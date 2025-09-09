@@ -1,7 +1,7 @@
 # header: 
 #   title: N014(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 7
 #   A: 14
@@ -15,45 +15,45 @@
 #   number of values: 17
 #   average value [b]:  8.312315E-02
 #   relative standard deviation [%]:     23.416464
-# quantity: 
-#   type: Compilation
-#   average value:  8.005000E-02
-#   relative standard deviation [%]:      0.062462
-# datablock: 
-#   columns: 10
-#   entries: 2
+#   quantity: 
+#     type: Compilation
+#     average value:  8.005000E-02
+#     relative standard deviation [%]:      0.062462
+#   datablock: 
+#     columns: 10
+#     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       RIPL-3                  Compilation          2004        8.000000E-02   1.000000E-03                      0.998752                  2.530000E-08
       Mughabghab-2018         Compilation          2018        8.010000E-02   6.000000E-04                      1.000000                  2.530000E-08
-# quantity: 
-#   type: Compilation spectrum-averaged
-#   average value:  7.755000E-02
-#   relative standard deviation [%]:      3.288199
-# datablock: 
-#   columns: 10
-#   entries: 2
+#   quantity: 
+#     type: Compilation spectrum-averaged
+#     average value:  7.755000E-02
+#     relative standard deviation [%]:      3.288199
+#   datablock: 
+#     columns: 10
+#     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       Mughabghab-2006         Compilation          2006        8.010000E-02   6.000000E-04                      1.000000   MXW            2.530000E-08
       Sukhoruchkin            Compilation          2015        7.500000E-02   5.000000E-03                      0.936330   MXW            2.530000E-08
-# quantity: 
-#   type: EXFOR
-#   average value:  8.000000E-02
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 1
+#   quantity: 
+#     type: EXFOR
+#     average value:  8.000000E-02
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       R.B.Firestone           EXFOR                2016        8.000000E-02   4.000000E-04   31768-004-0        0.998752                  2.530000E-08
-# quantity: 
-#   type: EXFOR spectrum-averaged
-#   average value:  9.017142E-02
-#   relative standard deviation [%]:     31.678993
-# datablock: 
-#   columns: 10
-#   entries: 7
+#   quantity: 
+#     type: EXFOR spectrum-averaged
+#     average value:  9.017142E-02
+#     relative standard deviation [%]:     31.678993
+#   datablock: 
+#     columns: 10
+#     entries: 7
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       B.B.Kinsey              EXFOR                1951        1.600000E-01   0.000000E+00   11273-002-0        1.997503   SPA            2.530000E-08
@@ -63,13 +63,13 @@
       M.A.Islam               EXFOR                1981        7.670000E-02   2.700000E-03   12718-002-0        0.957553   SPA            2.530000E-08
       M.A.Islam               EXFOR                1990        8.010000E-02   2.000000E-03   13151-003-0        1.000000   SPA            2.530000E-08
       M.A.Islam               EXFOR                1990        7.970000E-02   2.400000E-03   13151-002-0        0.995006   SPA            2.530000E-08
-# quantity: 
-#   type: Nuclear data library
-#   average value:  7.733878E-02
-#   relative standard deviation [%]:      6.066051
-# datablock: 
-#   columns: 11
-#   entries: 5
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  7.733878E-02
+#     relative standard deviation [%]:      6.066051
+#   datablock: 
+#     columns: 11
+#     entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
       cendl3.2                NDL                  2019        7.499080E-02   0.000000E+00                      0.936215                  2.530000E-08   9.998700E-01

@@ -1,7 +1,7 @@
 # header: 
 #   title: Tm170(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 69
 #   A: 170
@@ -15,45 +15,45 @@
 #   number of values: 9
 #   average value [b]:  8.470241E+01
 #   relative standard deviation [%]:     28.387579
-# quantity: 
-#   type: Compilation
-#   average value:  9.600000E+01
-#   relative standard deviation [%]:      4.166667
-# datablock: 
-#   columns: 10
-#   entries: 2
+#   quantity: 
+#     type: Compilation
+#     average value:  9.600000E+01
+#     relative standard deviation [%]:      4.166667
+#   datablock: 
+#     columns: 10
+#     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       RIPL-3                  Compilation          2004        1.000000E+02   2.000000E+01                      1.086957                  2.530000E-08
       Mughabghab-2018         Compilation          2018        9.200000E+01   4.000000E+00                      1.000000                  2.530000E-08
-# quantity: 
-#   type: Compilation spectrum-averaged
-#   average value:  5.452500E+01
-#   relative standard deviation [%]:     68.729942
-# datablock: 
-#   columns: 10
-#   entries: 2
+#   quantity: 
+#     type: Compilation spectrum-averaged
+#     average value:  5.452500E+01
+#     relative standard deviation [%]:     68.729942
+#   datablock: 
+#     columns: 10
+#     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       Mughabghab-2006         Compilation          2006        9.200000E+01   4.000000E+00                      1.000000   MXW            2.530000E-08
       Sukhoruchkin            Compilation          2015        1.705000E+01   0.000000E+00                      0.185326   MXW            2.530000E-08
-# quantity: 
-#   type: EXFOR spectrum-averaged
-#   average value:  9.200000E+01
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 1
+#   quantity: 
+#     type: EXFOR spectrum-averaged
+#     average value:  9.200000E+01
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       J.H.Gillette            EXFOR                1967        9.200000E+01   4.000000E+00   10259-003-0        1.000000   MXW            2.530000E-08
-# quantity: 
-#   type: Nuclear data library
-#   average value:  9.231792E+01
-#   relative standard deviation [%]:      0.493228
-# datablock: 
-#   columns: 11
-#   entries: 4
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  9.231792E+01
+#     relative standard deviation [%]:      0.493228
+#   datablock: 
+#     columns: 11
+#     entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
       jendl5.0                NDL                  2021        9.219720E+01   0.000000E+00                      1.002144                  2.530000E-08   9.492600E-01

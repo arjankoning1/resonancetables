@@ -1,7 +1,7 @@
 # header: 
 #   title: Se077(n,a) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 34
 #   A: 77
@@ -12,18 +12,29 @@
 #   selected value [b]:  9.700000E-04
 #   selected value uncertainty [b]:  2.500000E-05
 #   selected value source: Mughabghab-2018
-#   number of values: 3
-#   average value [b]:  6.469900E-04
-#   relative standard deviation [%]:     70.604675
-# quantity: 
-#   type: Compilation
-#   average value:  6.469900E-04
-#   relative standard deviation [%]:     70.604675
-# datablock: 
-#   columns: 10
-#   entries: 3
+#   number of values: 5
+#   average value [b]:  9.710676E-04
+#   relative standard deviation [%]:      0.134649
+#   quantity: 
+#     type: Compilation
+#     average value:  9.700000E-04
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       Mughabghab-2006         Compilation          2006        9.700000E-04   2.500000E-06                      1.000000                  2.530000E-08
-      Sukhoruchkin            Compilation          2015        9.700000E-07   3.000000E-08                      0.001000                  2.530000E-08
+      Sukhoruchkin            Compilation          2015        9.700000E-04   3.000000E-05                      1.000000                  2.530000E-08
       Mughabghab-2018         Compilation          2018        9.700000E-04   2.500000E-05                      1.000000                  2.530000E-08
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  9.726690E-04
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      tendl.2025              NDL                  2025        9.726690E-04   0.000000E+00                      1.002752                  2.530000E-08
+      jeff4.0                 NDL                  2025        9.726690E-04   0.000000E+00                      1.002752                  2.530000E-08

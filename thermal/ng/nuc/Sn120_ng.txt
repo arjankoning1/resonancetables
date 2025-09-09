@@ -1,7 +1,7 @@
 # header: 
 #   title: Sn120(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 50
 #   A: 120
@@ -12,38 +12,48 @@
 #   selected value [b]:  1.420000E-01
 #   selected value uncertainty [b]:  3.000000E-02
 #   selected value source: Mughabghab-2018
-#   number of values: 9
-#   average value [b]:  1.402619E-01
-#   relative standard deviation [%]:      2.636853
-# quantity: 
-#   type: Compilation
-#   average value:  1.365000E-01
-#   relative standard deviation [%]:      4.029307
-# datablock: 
-#   columns: 10
-#   entries: 2
+#   number of values: 10
+#   average value [b]:           NaN
+#   relative standard deviation [%]:           NaN
+#   quantity: 
+#     type: Compilation
+#     average value:  1.365000E-01
+#     relative standard deviation [%]:      4.029307
+#   datablock: 
+#     columns: 10
+#     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       RIPL-3                  Compilation          2004        1.310000E-01   0.000000E+00                      0.922535                  2.530000E-08
       Mughabghab-2018         Compilation          2018        1.420000E-01   3.000000E-02                      1.000000                  2.530000E-08
-# quantity: 
-#   type: Compilation spectrum-averaged
-#   average value:  1.400000E-01
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 2
+#   quantity: 
+#     type: Compilation spectrum-averaged
+#     average value:  1.400000E-01
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       Mughabghab-2006         Compilation          2006        1.400000E-01   3.000000E-02                      0.985915   MXW            2.530000E-08
       Sukhoruchkin            Compilation          2015        1.400000E-01   3.000000E-02                      0.985915   MXW            2.530000E-08
-# quantity: 
-#   type: Nuclear data library
-#   average value:  1.418714E-01
-#   relative standard deviation [%]:      1.451970
-# datablock: 
-#   columns: 11
-#   entries: 5
+#   quantity: 
+#     type: EXFOR
+#     average value:           NaN
+#     relative standard deviation [%]:           NaN
+#   datablock: 
+#     columns: 10
+#     entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      K.Knopf                 EXFOR                1997                 NaN   0.000000E+00   22451-043-1             NaN                  2.530000E-08
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  1.418714E-01
+#     relative standard deviation [%]:      1.451970
+#   datablock: 
+#     columns: 11
+#     entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
       cendl3.2                NDL                  2019        1.392270E-01   0.000000E+00                      0.980472                  2.530000E-08   1.000010E+00

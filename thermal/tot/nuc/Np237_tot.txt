@@ -1,7 +1,7 @@
 # header: 
 #   title: Np237(n,tot) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 93
 #   A: 237
@@ -9,33 +9,40 @@
 # reaction: 
 #   type: (n,tot)
 # observables: 
-#   selected value [b]:  1.820000E+02
+#   selected value [b]:  2.010000E+02
 #   selected value uncertainty [b]:  0.000000E+00
 #   selected value source: M.S.Smith
-#   number of values: 6
-#   average value [b]:  1.871917E+02
-#   relative standard deviation [%]:      3.734393
-# quantity: 
-#   type: EXFOR
-#   average value:  1.820000E+02
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 1
+#   number of values: 13
+#   average value [b]:  1.833192E+02
+#   relative standard deviation [%]:     10.781503
+#   quantity: 
+#     type: EXFOR
+#     average value:  1.802500E+02
+#     relative standard deviation [%]:     13.334332
+#   datablock: 
+#     columns: 10
+#     entries: 8
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      M.S.Smith               EXFOR                1957        1.820000E+02   0.000000E+00   12487-004-0        1.000000                  2.524000E-08
-# quantity: 
-#   type: Nuclear data library
-#   average value:  1.882300E+02
-#   relative standard deviation [%]:      3.837308
-# datablock: 
-#   columns: 11
-#   entries: 5
+      Ju.V.Adamchuk           EXFOR                1955        2.290000E+02   0.000000E+00   40063-012-0        1.139303                  2.459900E-08
+      M.S.Smith               EXFOR                1957        1.450000E+02   0.000000E+00   12487-004-0        0.721393                  2.583000E-08
+      M.S.Smith               EXFOR                1957        1.620000E+02   0.000000E+00   12487-004-0        0.805970                  2.553000E-08
+      M.S.Smith               EXFOR                1957        1.820000E+02   0.000000E+00   12487-004-0        0.905473                  2.524000E-08
+      M.S.Smith               EXFOR                1957        1.670000E+02   0.000000E+00   12487-004-0        0.830846                  2.495000E-08
+      M.S.Smith               EXFOR                1957        1.730000E+02   0.000000E+00   12487-004-0        0.860696                  2.467000E-08
+      M.S.Smith               EXFOR                1957        1.830000E+02   0.000000E+00   12487-004-0        0.910448                  2.439000E-08
+      M.S.Smith               EXFOR                1957        2.010000E+02   0.000000E+00   12487-004-0        1.000000                  2.412000E-08
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  1.882300E+02
+#     relative standard deviation [%]:      3.837308
+#   datablock: 
+#     columns: 11
+#     entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
-      cendl3.2                NDL                  2019        1.744070E+02   0.000000E+00                      0.958280                  2.530000E-08   9.954800E-01
-      jendl5.0                NDL                  2021        1.880900E+02   0.000000E+00                      1.033462                  2.530000E-08   9.930100E-01
-      endfb8.1                NDL                  2024        1.912580E+02   0.000000E+00                      1.050868                  2.530000E-08   9.962700E-01
-      tendl.2025              NDL                  2025        1.930630E+02   0.000000E+00                      1.060786                  2.530000E-08   1.000270E+00
-      jeff4.0                 NDL                  2025        1.943320E+02   0.000000E+00                      1.067758                  2.530000E-08   1.000730E+00
+      cendl3.2                NDL                  2019        1.744070E+02   0.000000E+00                      0.867697                  2.530000E-08   9.954800E-01
+      jendl5.0                NDL                  2021        1.880900E+02   0.000000E+00                      0.935771                  2.530000E-08   9.930100E-01
+      endfb8.1                NDL                  2024        1.912580E+02   0.000000E+00                      0.951532                  2.530000E-08   9.962700E-01
+      tendl.2025              NDL                  2025        1.930630E+02   0.000000E+00                      0.960512                  2.530000E-08   1.000270E+00
+      jeff4.0                 NDL                  2025        1.943320E+02   0.000000E+00                      0.966826                  2.530000E-08   1.000730E+00

@@ -1,7 +1,7 @@
 # header: 
 #   title: Rh103 D1 resonance data
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 45
 #   A: 103
@@ -12,27 +12,37 @@
 #   selected value [eV]:  1.300000E+01
 #   selected value uncertainty [eV]:  1.500000E+00
 #   selected value source: RIPL-3
-#   number of values: 6
-#   average value [b]:  2.315143E+01
-#   relative standard deviation [%]:     34.533680
-# quantity: 
-#   type: Compilation
-#   average value:  1.370000E+01
-#   relative standard deviation [%]:      5.109488
-# datablock: 
-#   columns: 8
-#   entries: 2
+#   number of values: 7
+#   average value [b]:  1.984409E+01
+#   relative standard deviation [%]:     55.299232
+#   quantity: 
+#     type: Compilation
+#     average value:  1.370000E+01
+#     relative standard deviation [%]:      5.109488
+#   datablock: 
+#     columns: 8
+#     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
       RIPL-3                  Compilation          2009        1.300000E+01   1.500000E+00            04I       1.000000
       Mughabghab-2018         Compilation          2018        1.440000E+01   6.000000E-01                      1.107692
-# quantity: 
-#   type: Nuclear data library
-#   average value:  2.787715E+01
-#   relative standard deviation [%]:     19.196829
-# datablock: 
-#   columns: 8
-#   entries: 4
+#   quantity: 
+#     type: EXFOR
+#     average value:  0.000000E+00
+#     relative standard deviation [%]:           NaN
+#   datablock: 
+#     columns: 13
+#     entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      L.C.Mihailescu          EXFOR                2007        0.000000E+00   0.000000E+00      22986-004       0.000000   6.000000E-03   9.600000E-02       1.0                                   
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  2.787715E+01
+#     relative standard deviation [%]:     19.196829
+#   datablock: 
+#     columns: 8
+#     entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
       cendl3.2                NDL                  2019        3.284400E+01   0.000000E+00                      2.526462

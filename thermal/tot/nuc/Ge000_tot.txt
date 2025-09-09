@@ -1,7 +1,7 @@
 # header: 
 #   title: Ge000(n,tot) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 32
 #   A: 0
@@ -9,19 +9,36 @@
 # reaction: 
 #   type: (n,tot)
 # observables: 
-#   selected value [b]:  3.600000E+00
-#   selected value uncertainty [b]:  3.000000E-01
-#   selected value source: R.Fulfaro
-#   number of values: 1
-#   average value [b]:  3.600000E+00
-#   relative standard deviation [%]:      0.000000
-# quantity: 
-#   type: EXFOR
-#   average value:  3.600000E+00
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 1
+#   selected value [b]:  1.184000E+01
+#   selected value uncertainty [b]:  0.000000E+00
+#   selected value source: R.M.A.Maayouf
+#   number of values: 9
+#   average value [b]:  1.381778E+01
+#   relative standard deviation [%]:    157.661362
+#   quantity: 
+#     type: EXFOR
+#     average value:  6.170000E+00
+#     relative standard deviation [%]:     44.467171
+#   datablock: 
+#     columns: 10
+#     entries: 8
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      R.Fulfaro               EXFOR                1971        3.600000E+00   3.000000E-01   30231-002-0        1.000000                  2.530000E-08
+      R.Fulfaro               EXFOR                1971        3.600000E+00   3.000000E-01   30231-002-0        0.304054                  2.530000E-08
+      M.Salama                EXFOR                1983        7.400000E+00   0.000000E+00   30905-002-0        0.625000                  2.420000E-08
+      M.Salama                EXFOR                1983        7.530000E+00   0.000000E+00   30905-002-0        0.635980                  2.480000E-08
+      M.Salama                EXFOR                1983        7.480000E+00   0.000000E+00   30905-002-0        0.631757                  2.550000E-08
+      R.M.A.Maayouf           EXFOR                1983        3.900000E+00   0.000000E+00   30668-003-0        0.329392                  2.420000E-08
+      R.M.A.Maayouf           EXFOR                1983        3.650000E+00   0.000000E+00   30668-003-0        0.308277                  2.480000E-08
+      R.M.A.Maayouf           EXFOR                1983        3.960000E+00   0.000000E+00   30668-003-0        0.334459                  2.550000E-08
+      R.M.A.Maayouf           EXFOR                1983        1.184000E+01   0.000000E+00   30668-002-0        1.000000                  2.480000E-08
+#   quantity: 
+#     type: EXFOR spectrum-averaged
+#     average value:  7.500000E+01
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      J.R.Dunning             EXFOR                1935        7.500000E+01   0.000000E+00   12634-029-0        6.334459   MXW            2.500000E-08

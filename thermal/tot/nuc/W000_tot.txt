@@ -1,7 +1,7 @@
 # header: 
 #   title: W000(n,tot) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 74
 #   A: 0
@@ -9,19 +9,32 @@
 # reaction: 
 #   type: (n,tot)
 # observables: 
-#   selected value [b]:  2.296000E+01
+#   selected value [b]:  2.320800E+01
 #   selected value uncertainty [b]:  0.000000E+00
-#   selected value source: R.E.Schmunk
-#   number of values: 1
-#   average value [b]:  2.296000E+01
-#   relative standard deviation [%]:      0.000000
-# quantity: 
-#   type: EXFOR
-#   average value:  2.296000E+01
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 1
+#   selected value source: G.Kim
+#   number of values: 5
+#   average value [b]:  2.300900E+01
+#   relative standard deviation [%]:      2.013380
+#   quantity: 
+#     type: EXFOR
+#     average value:  2.301125E+01
+#     relative standard deviation [%]:      2.250701
+#   datablock: 
+#     columns: 10
+#     entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      R.E.Schmunk             EXFOR                1960        2.296000E+01   0.000000E+00   11634-007-0        1.000000                  2.527000E-08
+      W.W.Havens Jr           EXFOR                1947        2.365300E+01   3.600000E-01   12184-002-0        1.019174                  2.400000E-08
+      W.W.Havens Jr           EXFOR                1947        2.222400E+01   4.180000E-01   12184-002-0        0.957601                  2.600000E-08
+      R.E.Schmunk             EXFOR                1960        2.296000E+01   0.000000E+00   11634-007-0        0.989314                  2.527000E-08
+      G.Kim                   EXFOR                2003        2.320800E+01   0.000000E+00   31581-002-0        1.000000                  2.449000E-08
+#   quantity: 
+#     type: EXFOR spectrum-averaged
+#     average value:  2.300000E+01
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      J.R.Dunning             EXFOR                1935        2.300000E+01   0.000000E+00   12634-063-0        0.991038   MXW            2.500000E-08

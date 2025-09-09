@@ -1,7 +1,7 @@
 # header: 
 #   title: Pt195(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 78
 #   A: 195
@@ -15,47 +15,47 @@
 #   number of values: 11
 #   average value [b]:  2.645989E+01
 #   relative standard deviation [%]:     30.960766
-# quantity: 
-#   type: Compilation
-#   average value:  2.842500E+01
-#   relative standard deviation [%]:      4.466478
-# datablock: 
-#   columns: 10
-#   entries: 4
+#   quantity: 
+#     type: Compilation
+#     average value:  2.842500E+01
+#     relative standard deviation [%]:      4.466478
+#   datablock: 
+#     columns: 10
+#     entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       RIPL-3                  Compilation          2004        2.800000E+01   1.000000E+00                      0.915033                  2.530000E-08
       Mughabghab-2006         Compilation          2006        2.750000E+01   1.200000E+00                      0.898693                  2.530000E-08
       Sukhoruchkin            Compilation          2015        2.760000E+01   1.200000E+00                      0.901961                  2.530000E-08
       Mughabghab-2018         Compilation          2018        3.060000E+01   1.200000E+00                      1.000000                  2.530000E-08
-# quantity: 
-#   type: EXFOR
-#   average value:  3.040000E+01
-#   relative standard deviation [%]:      1.315788
-# datablock: 
-#   columns: 10
-#   entries: 2
+#   quantity: 
+#     type: EXFOR
+#     average value:  3.040000E+01
+#     relative standard deviation [%]:      1.315788
+#   datablock: 
+#     columns: 10
+#     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       V.P.Vertebnyi           EXFOR                1975        3.000000E+01   1.200000E+00   40276-013-0        0.980392                  2.530000E-08
       R.Massarczyk            EXFOR                2013        3.080000E+01   0.000000E+00   31728-002-0        1.006536                  2.530000E-08
-# quantity: 
-#   type: EXFOR spectrum-averaged
-#   average value:  2.680000E+01
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 1
+#   quantity: 
+#     type: EXFOR spectrum-averaged
+#     average value:  2.680000E+01
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       H.Pomerance             EXFOR                1955        2.680000E+01   1.300000E+00   11885-006-0        0.875817   MXW            2.530000E-08
-# quantity: 
-#   type: Nuclear data library
-#   average value:  2.243971E+01
-#   relative standard deviation [%]:     55.490719
-# datablock: 
-#   columns: 11
-#   entries: 4
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  2.243971E+01
+#     relative standard deviation [%]:     55.490719
+#   datablock: 
+#     columns: 11
+#     entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
       jendl5.0                NDL                  2021        9.843340E-01   0.000000E+00                      0.032168                  2.530000E-08   1.000060E+00

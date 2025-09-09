@@ -1,7 +1,7 @@
 # header: 
 #   title: Pd000(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 46
 #   A: 0
@@ -11,27 +11,37 @@
 # observables: 
 #   selected value [b]:  8.000000E+00
 #   selected value uncertainty [b]:  3.000000E-01
-#   selected value source: Firestone
-#   number of values: 3
-#   average value [b]:  8.300000E+00
-#   relative standard deviation [%]:     18.377609
-# quantity: 
-#   type: Compilation spectrum-averaged
-#   average value:  8.000000E+00
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 1
+#   selected value source: Firestone-2022
+#   number of values: 4
+#   average value [b]:  7.956675E+00
+#   relative standard deviation [%]:     18.206856
+#   quantity: 
+#     type: Compilation spectrum-averaged
+#     average value:  8.000000E+00
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      Firestone               Compilation          2022        8.000000E+00   3.000000E-01                      1.000000   MXW            2.530000E-08
-# quantity: 
-#   type: EXFOR spectrum-averaged
-#   average value:  8.450000E+00
-#   relative standard deviation [%]:     21.893494
-# datablock: 
-#   columns: 10
-#   entries: 2
+      Firestone-2022          Compilation          2022        8.000000E+00   3.000000E-01                      1.000000   MXW            2.530000E-08
+#   quantity: 
+#     type: EXFOR
+#     average value:  6.926700E+00
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      J.Hori                  EXFOR                2005        6.926700E+00   0.000000E+00   22981-002-0        0.865838                  2.573700E-08
+#   quantity: 
+#     type: EXFOR spectrum-averaged
+#     average value:  8.450000E+00
+#     relative standard deviation [%]:     21.893494
+#   datablock: 
+#     columns: 10
+#     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       S.P.Harris              EXFOR                1950        1.030000E+01   5.150000E-01   11528-027-0        1.287500   SPA            2.530000E-08

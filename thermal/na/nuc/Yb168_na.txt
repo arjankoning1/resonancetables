@@ -1,7 +1,7 @@
 # header: 
 #   title: Yb168(n,a) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 70
 #   A: 168
@@ -12,28 +12,39 @@
 #   selected value [b]:  1.000000E-04
 #   selected value uncertainty [b]:  0.000000E+00
 #   selected value source: Mughabghab-2018
-#   number of values: 4
-#   average value [b]:  1.000000E-04
-#   relative standard deviation [%]:      0.000000
-# quantity: 
-#   type: Compilation
-#   average value:  1.000000E-04
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 3
+#   number of values: 6
+#   average value [b]:  9.988830E-05
+#   relative standard deviation [%]:      0.158911
+#   quantity: 
+#     type: Compilation
+#     average value:  1.000000E-04
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       Mughabghab-2006         Compilation          2006        1.000000E-04   0.000000E+00                      1.000000                  2.530000E-08
       Sukhoruchkin            Compilation          2015        1.000000E-04   0.000000E+00                      1.000000                  2.530000E-08
       Mughabghab-2018         Compilation          2018        1.000000E-04   0.000000E+00                      1.000000                  2.530000E-08
-# quantity: 
-#   type: EXFOR spectrum-averaged
-#   average value:  1.000000E-04
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 1
+#   quantity: 
+#     type: EXFOR spectrum-averaged
+#     average value:  1.000000E-04
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       A.Emsallem              EXFOR                1974        1.000000E-04   0.000000E+00   20564-005-0        1.000000   MXW            2.530000E-08
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  9.966490E-05
+#     relative standard deviation [%]:      0.027088
+#   datablock: 
+#     columns: 10
+#     entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      tendl.2025              NDL                  2025        9.969190E-05   0.000000E+00                      0.996919                  2.530000E-08
+      jeff4.0                 NDL                  2025        9.963790E-05   0.000000E+00                      0.996379                  2.530000E-08

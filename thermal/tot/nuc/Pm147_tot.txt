@@ -1,7 +1,7 @@
 # header: 
 #   title: Pm147(n,tot) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 61
 #   A: 147
@@ -12,27 +12,28 @@
 #   selected value [b]:  1.980000E+02
 #   selected value uncertainty [b]:  8.000000E+00
 #   selected value source: G.J.Kirouac
-#   number of values: 7
-#   average value [b]:  1.899032E+02
-#   relative standard deviation [%]:      3.316914
-# quantity: 
-#   type: EXFOR
-#   average value:  1.990000E+02
-#   relative standard deviation [%]:      0.502513
-# datablock: 
-#   columns: 10
-#   entries: 2
+#   number of values: 8
+#   average value [b]:  1.916528E+02
+#   relative standard deviation [%]:      3.909664
+#   quantity: 
+#     type: EXFOR
+#     average value:  2.006333E+02
+#     relative standard deviation [%]:      1.221103
+#   datablock: 
+#     columns: 10
+#     entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       J.W.Codding Jr          EXFOR                1971        2.000000E+02   0.000000E+00   10114-010-0        1.010101                  2.530000E-08
+      G.J.Kirouac             EXFOR                1973        2.039000E+02   0.000000E+00   10258-014-0        1.029798                  2.423000E-08
       G.J.Kirouac             EXFOR                1973        1.980000E+02   8.000000E+00   10258-002-0        1.000000                  2.530000E-08
-# quantity: 
-#   type: Nuclear data library
-#   average value:  1.862644E+02
-#   relative standard deviation [%]:      1.593112
-# datablock: 
-#   columns: 11
-#   entries: 5
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  1.862644E+02
+#     relative standard deviation [%]:      1.593112
+#   datablock: 
+#     columns: 11
+#     entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
       cendl3.2                NDL                  2019        1.886740E+02   0.000000E+00                      0.952899                  2.530000E-08   1.009260E+00

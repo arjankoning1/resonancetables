@@ -1,0 +1,29 @@
+# header: 
+#   title: U238(n,tot) thermal cross section
+#   source: Resonancetables
+#   date: 2025-09-08
+# target: 
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction: 
+#   type: (n,tot)
+# observables: 
+#   selected value [b]:  1.055000E+01
+#   selected value uncertainty [b]:  0.000000E+00
+#   selected value source: M.Adib
+#   number of values: 3
+#   average value [b]:  1.043667E+01
+#   relative standard deviation [%]:      0.783640
+#   quantity: 
+#     type: EXFOR
+#     average value:  1.043667E+01
+#     relative standard deviation [%]:      0.783640
+#   datablock: 
+#     columns: 10
+#     entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      M.Adib                  EXFOR                1982        1.040000E+01   0.000000E+00   30636-003-0        0.985782                  2.420000E-08
+      M.Adib                  EXFOR                1982        1.036000E+01   0.000000E+00   30636-003-0        0.981990                  2.480000E-08
+      M.Adib                  EXFOR                1982        1.055000E+01   0.000000E+00   30636-003-0        1.000000                  2.550000E-08

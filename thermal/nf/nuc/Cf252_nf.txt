@@ -1,7 +1,7 @@
 # header: 
 #   title: Cf252(n,f) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 98
 #   A: 252
@@ -12,29 +12,39 @@
 #   selected value [b]:  3.200000E+01
 #   selected value uncertainty [b]:  4.000000E+00
 #   selected value source: Mughabghab-2018
-#   number of values: 8
-#   average value [b]:  3.250721E+01
-#   relative standard deviation [%]:      1.578350
-# quantity: 
-#   type: Compilation
-#   average value:  3.225000E+01
-#   relative standard deviation [%]:      1.342675
-# datablock: 
-#   columns: 10
-#   entries: 4
+#   number of values: 9
+#   average value [b]:  3.245085E+01
+#   relative standard deviation [%]:      1.569514
+#   quantity: 
+#     type: Compilation
+#     average value:  3.225000E+01
+#     relative standard deviation [%]:      1.342675
+#   datablock: 
+#     columns: 10
+#     entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       RIPL-3                  Compilation          2004        3.200000E+01   4.000000E+00                      1.000000                  2.530000E-08
       Mughabghab-2006         Compilation          2006        3.200000E+01   4.000000E+00                      1.000000                  2.530000E-08
       Sukhoruchkin            Compilation          2015        3.300000E+01   4.000000E+00                      1.031250                  2.530000E-08
       Mughabghab-2018         Compilation          2018        3.200000E+01   4.000000E+00                      1.000000                  2.530000E-08
-# quantity: 
-#   type: Nuclear data library
-#   average value:  3.276443E+01
-#   relative standard deviation [%]:      1.387544
-# datablock: 
-#   columns: 11
-#   entries: 4
+#   quantity: 
+#     type: EXFOR spectrum-averaged
+#     average value:  3.200000E+01
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      J.Halperin              EXFOR                1971        3.200000E+01   4.000000E+00   10222-002-0        1.000000   MXW            2.500000E-08
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  3.276443E+01
+#     relative standard deviation [%]:      1.387544
+#   datablock: 
+#     columns: 11
+#     entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
       jendl5.0                NDL                  2021        3.302690E+01   0.000000E+00                      1.032091                  2.530000E-08   9.972300E-01

@@ -1,7 +1,7 @@
 # header: 
 #   title: Sn000(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 50
 #   A: 0
@@ -11,38 +11,38 @@
 # observables: 
 #   selected value [b]:  6.100000E-01
 #   selected value uncertainty [b]:  3.000000E-03
-#   selected value source: Firestone
+#   selected value source: Firestone-2022
 #   number of values: 6
 #   average value [b]:  6.118333E-01
 #   relative standard deviation [%]:      9.356046
-# quantity: 
-#   type: Compilation spectrum-averaged
-#   average value:  6.100000E-01
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 1
+#   quantity: 
+#     type: Compilation spectrum-averaged
+#     average value:  6.100000E-01
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      Firestone               Compilation          2022        6.100000E-01   3.000000E-03                      1.000000   MXW            2.530000E-08
-# quantity: 
-#   type: EXFOR
-#   average value:  6.155000E-01
-#   relative standard deviation [%]:      1.705928
-# datablock: 
-#   columns: 10
-#   entries: 2
+      Firestone-2022          Compilation          2022        6.100000E-01   3.000000E-03                      1.000000   MXW            2.530000E-08
+#   quantity: 
+#     type: EXFOR
+#     average value:  6.155000E-01
+#     relative standard deviation [%]:      1.705928
+#   datablock: 
+#     columns: 10
+#     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       R.B.Tattersall          EXFOR                1960        6.260000E-01   9.000000E-03   20638-034-0        1.026230                  2.530000E-08
       Al.Stefanescu           EXFOR                1961        6.050000E-01   3.600000E-02   30073-004-0        0.991803                  2.530000E-08
-# quantity: 
-#   type: EXFOR spectrum-averaged
-#   average value:  6.100000E-01
-#   relative standard deviation [%]:     13.182888
-# datablock: 
-#   columns: 10
-#   entries: 3
+#   quantity: 
+#     type: EXFOR spectrum-averaged
+#     average value:  6.100000E-01
+#     relative standard deviation [%]:     13.182888
+#   datablock: 
+#     columns: 10
+#     entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       J.Coltman               EXFOR                1946        5.300000E-01   5.000000E-02   12616-017-0        0.868852   MXW            2.530000E-08

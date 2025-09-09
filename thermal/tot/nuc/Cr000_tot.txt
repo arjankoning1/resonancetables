@@ -1,0 +1,41 @@
+# header: 
+#   title: Cr000(n,tot) thermal cross section
+#   source: Resonancetables
+#   date: 2025-09-08
+# target: 
+#   Z: 24
+#   A: 0
+#   nuclide: Cr000
+# reaction: 
+#   type: (n,tot)
+# observables: 
+#   selected value [b]:  6.460000E+00
+#   selected value uncertainty [b]:  1.400000E-01
+#   selected value source: F.Kropff Moreno
+#   number of values: 6
+#   average value [b]:  6.213333E+00
+#   relative standard deviation [%]:      9.455919
+#   quantity: 
+#     type: EXFOR
+#     average value:  6.476000E+00
+#     relative standard deviation [%]:      0.250896
+#   datablock: 
+#     columns: 10
+#     entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      M.Salama                EXFOR                1973        6.490000E+00   3.245000E-01   30468-002-0        1.004644                  2.550000E-08
+      M.Salama                EXFOR                1973        6.460000E+00   3.230000E-01   30468-002-0        1.000000                  2.470000E-08
+      F.Kropff Moreno         EXFOR                1976        6.470000E+00   1.500000E-01   30311-002-0        1.001548                  2.570000E-08
+      F.Kropff Moreno         EXFOR                1976        6.500000E+00   1.400000E-01   30311-002-0        1.006192                  2.512000E-08
+      F.Kropff Moreno         EXFOR                1976        6.460000E+00   1.400000E-01   30311-002-0        1.000000                  2.455000E-08
+#   quantity: 
+#     type: EXFOR spectrum-averaged
+#     average value:  4.900000E+00
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      J.R.Dunning             EXFOR                1935        4.900000E+00   0.000000E+00   12634-022-0        0.758514   MXW            2.500000E-08

@@ -1,7 +1,7 @@
 # header: 
 #   title: Pt194(n,a) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 78
 #   A: 194
@@ -12,18 +12,31 @@
 #   selected value [b]:  5.000000E-06
 #   selected value uncertainty [b]:  0.000000E+00
 #   selected value source: Mughabghab-2018
-#   number of values: 3
-#   average value [b]:  5.000000E-06
-#   relative standard deviation [%]:      0.000000
-# quantity: 
-#   type: Compilation
-#   average value:  5.000000E-06
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 3
+#   number of values: 7
+#   average value [b]:  3.769020E-06
+#   relative standard deviation [%]:     52.671669
+#   quantity: 
+#     type: Compilation
+#     average value:  5.000000E-06
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       Mughabghab-2006         Compilation          2006        5.000000E-06   0.000000E+00                      1.000000                  2.530000E-08
       Sukhoruchkin            Compilation          2015        5.000000E-06   0.000000E+00                      1.000000                  2.530000E-08
       Mughabghab-2018         Compilation          2018        5.000000E-06   0.000000E+00                      1.000000                  2.530000E-08
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  2.845786E-06
+#     relative standard deviation [%]:     77.848297
+#   datablock: 
+#     columns: 10
+#     entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      jendl5.0                NDL                  2021        6.738900E-10   0.000000E+00                      0.000135                  2.530000E-08
+      endfb8.1                NDL                  2024        1.366670E-06   0.000000E+00                      0.273334                  2.530000E-08
+      tendl.2025              NDL                  2025        5.007900E-06   0.000000E+00                      1.001580                  2.530000E-08
+      jeff4.0                 NDL                  2025        5.007900E-06   0.000000E+00                      1.001580                  2.530000E-08

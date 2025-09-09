@@ -1,7 +1,7 @@
 # header: 
 #   title: S000(n,tot) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 16
 #   A: 0
@@ -9,21 +9,40 @@
 # reaction: 
 #   type: (n,tot)
 # observables: 
-#   selected value [b]:  1.509000E+00
-#   selected value uncertainty [b]:  1.000000E-02
-#   selected value source: V.P.Vertebnyi
-#   number of values: 3
-#   average value [b]:  2.229666E+00
-#   relative standard deviation [%]:     41.014370
-# quantity: 
-#   type: EXFOR
-#   average value:  2.229666E+00
-#   relative standard deviation [%]:     41.014370
-# datablock: 
-#   columns: 10
-#   entries: 3
+#   selected value [b]:  1.474000E+00
+#   selected value uncertainty [b]:  1.600000E-02
+#   selected value source: R.E.Mayer
+#   number of values: 13
+#   average value [b]:  1.742462E+00
+#   relative standard deviation [%]:     31.025267
+#   quantity: 
+#     type: EXFOR
+#     average value:  1.771000E+00
+#     relative standard deviation [%]:     31.235992
+#   datablock: 
+#     columns: 10
+#     entries: 12
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      H.L.Anderson            EXFOR                1946        3.520000E+00   0.000000E+00   14689-010-0        2.332671                  2.530000E-08
-      H.L.Anderson            EXFOR                1946        1.660000E+00   0.000000E+00   14689-009-0        1.100066                  2.530000E-08
-      V.P.Vertebnyi           EXFOR                1982        1.509000E+00   1.000000E-02   40615-002-0        1.000000                  2.530000E-08
+      H.L.Anderson            EXFOR                1946        3.520000E+00   0.000000E+00   14689-010-0        2.388060                  2.530000E-08
+      H.L.Anderson            EXFOR                1946        1.660000E+00   0.000000E+00   14689-009-0        1.126187                  2.530000E-08
+      L.J.Rainwater           EXFOR                1948        1.640000E+00   0.000000E+00   11145-006-0        1.112619                  2.430000E-08
+      R.M.A.Maayouf           EXFOR                1968        1.983000E+00   9.915000E-02   30466-002-0        1.345319                  2.500000E-08
+      R.M.A.Maayouf           EXFOR                1968        1.939000E+00   9.695000E-02   30466-002-0        1.315468                  2.400000E-08
+      V.P.Vertebnyi           EXFOR                1982        1.515000E+00   0.000000E+00   40615-005-0        1.027815                  2.500000E-08
+      V.P.Vertebnyi           EXFOR                1982        1.511000E+00   0.000000E+00   40615-005-0        1.025102                  2.560000E-08
+      V.P.Vertebnyi           EXFOR                1982        1.520000E+00   0.000000E+00   40615-005-0        1.031208                  2.600000E-08
+      V.P.Vertebnyi           EXFOR                1982        1.509000E+00   1.000000E-02   40615-002-0        1.023745                  2.530000E-08
+      R.E.Mayer               EXFOR                1987        1.480000E+00   1.600000E-02   30747-002-0        1.004071                  2.423000E-08
+      R.E.Mayer               EXFOR                1987        1.501000E+00   1.700000E-02   30747-002-0        1.018318                  2.499000E-08
+      R.E.Mayer               EXFOR                1987        1.474000E+00   1.600000E-02   30747-002-0        1.000000                  2.579000E-08
+#   quantity: 
+#     type: EXFOR spectrum-averaged
+#     average value:  1.400000E+00
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      J.R.Dunning             EXFOR                1935        1.400000E+00   0.000000E+00   12634-016-0        0.949796   MXW            2.500000E-08

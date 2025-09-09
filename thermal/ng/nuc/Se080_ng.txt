@@ -1,7 +1,7 @@
 # header: 
 #   title: Se080(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 34
 #   A: 80
@@ -12,48 +12,49 @@
 #   selected value [b]:  5.930000E-01
 #   selected value uncertainty [b]:  4.600000E-02
 #   selected value source: Mughabghab-2018
-#   number of values: 10
-#   average value [b]:  5.852450E-01
-#   relative standard deviation [%]:      7.336084
-# quantity: 
-#   type: Compilation
-#   average value:  5.265000E-01
-#   relative standard deviation [%]:     12.630578
-# datablock: 
-#   columns: 10
-#   entries: 2
+#   number of values: 11
+#   average value [b]:  5.856772E-01
+#   relative standard deviation [%]:      6.993415
+#   quantity: 
+#     type: Compilation
+#     average value:  5.265000E-01
+#     relative standard deviation [%]:     12.630578
+#   datablock: 
+#     columns: 10
+#     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       RIPL-3                  Compilation          2004        4.600000E-01   4.000000E-02                      0.775717                  2.530000E-08
       Mughabghab-2018         Compilation          2018        5.930000E-01   4.600000E-02                      1.000000                  2.530000E-08
-# quantity: 
-#   type: Compilation spectrum-averaged
-#   average value:  5.950000E-01
-#   relative standard deviation [%]:      2.521011
-# datablock: 
-#   columns: 10
-#   entries: 2
+#   quantity: 
+#     type: Compilation spectrum-averaged
+#     average value:  5.933333E-01
+#     relative standard deviation [%]:      2.102057
+#   datablock: 
+#     columns: 10
+#     entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       Mughabghab-2006         Compilation          2006        5.800000E-01   4.000000E-02                      0.978078   MXW            2.530000E-08
       Sukhoruchkin            Compilation          2015        6.100000E-01   4.000000E-02                      1.028668   MXW            2.530000E-08
-# quantity: 
-#   type: EXFOR spectrum-averaged
-#   average value:  5.900000E-01
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 1
+      Firestone-2022          Compilation          2022        5.900000E-01   6.000000E-02                      0.994941   MXW            2.530000E-08
+#   quantity: 
+#     type: EXFOR spectrum-averaged
+#     average value:  5.900000E-01
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       H.Pomerance             EXFOR                1952        5.900000E-01   5.900000E-02   11507-043-0        0.994941   MXW            2.530000E-08
-# quantity: 
-#   type: Nuclear data library
-#   average value:  6.038898E-01
-#   relative standard deviation [%]:      1.251984
-# datablock: 
-#   columns: 11
-#   entries: 5
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  6.038898E-01
+#     relative standard deviation [%]:      1.251984
+#   datablock: 
+#     columns: 11
+#     entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
       cendl3.2                NDL                  2019        6.100630E-01   0.000000E+00                      1.028774                  2.530000E-08   1.000040E+00

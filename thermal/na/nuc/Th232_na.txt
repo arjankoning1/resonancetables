@@ -1,7 +1,7 @@
 # header: 
 #   title: Th232(n,a) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 90
 #   A: 232
@@ -12,16 +12,26 @@
 #   selected value [b]:  1.000000E-04
 #   selected value uncertainty [b]:  0.000000E+00
 #   selected value source: C.Wagemans
-#   number of values: 1
-#   average value [b]:  1.000000E-04
-#   relative standard deviation [%]:      0.000000
-# quantity: 
-#   type: EXFOR spectrum-averaged
-#   average value:  1.000000E-04
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 1
+#   number of values: 2
+#   average value [b]:  5.481589E-04
+#   relative standard deviation [%]:     81.757126
+#   quantity: 
+#     type: EXFOR spectrum-averaged
+#     average value:  1.000000E-04
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       C.Wagemans              EXFOR                1981        1.000000E-04   0.000000E+00   21724-007-0        1.000000   MXW            2.530000E-08
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  9.963179E-04
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      tendl.2025              NDL                  2025        9.963179E-04   0.000000E+00                      9.963180                  2.530000E-08

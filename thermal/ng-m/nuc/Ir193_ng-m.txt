@@ -1,7 +1,7 @@
 # header: 
 #   title: Ir193(n,g)-m thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 77
 #   A: 193
@@ -12,38 +12,39 @@
 #   selected value [b]:  2.000000E-03
 #   selected value uncertainty [b]:  0.000000E+00
 #   selected value source: S.A.Karamian
-#   number of values: 6
-#   average value [b]:  6.833033E+01
-#   relative standard deviation [%]:    147.952026
-# quantity: 
-#   type: EXFOR
-#   average value:  2.000000E-03
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 1
+#   number of values: 7
+#   average value [b]:  7.428315E+01
+#   relative standard deviation [%]:    127.519905
+#   quantity: 
+#     type: EXFOR
+#     average value:  2.000000E-03
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       S.A.Karamian            EXFOR                2014        2.000000E-03   0.000000E+00   41599-006-0        1.000000                  2.530000E-08
-# quantity: 
-#   type: EXFOR spectrum-averaged
-#   average value:  1.346000E+02
-#   relative standard deviation [%]:     80.208115
-# datablock: 
-#   columns: 10
-#   entries: 3
+#   quantity: 
+#     type: EXFOR spectrum-averaged
+#     average value:  1.284500E+02
+#     relative standard deviation [%]:     73.258904
+#   datablock: 
+#     columns: 10
+#     entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       L.Seren                 EXFOR                1947        1.280000E+02   2.560000E+01   11447-122-0    63999.996094   MXW            2.530000E-08
       C.Heiser                EXFOR                1968        5.800000E+00   2.000000E+00   31820-002-0     2900.000000   SPA            2.530000E-08
       J.P.Rambaek             EXFOR                1977        2.700000E+02   1.000000E+01   23383-007-0   135000.000000   SPA            2.530000E-08
-# quantity: 
-#   type: Nuclear data library
-#   average value:  3.090000E+00
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 11
-#   entries: 2
+      R.E.Heft                EXFOR                1978        1.100000E+02   3.000000E+00   12866-190-0    54999.996094   SPA            2.500000E-08
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  3.090000E+00
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 11
+#     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
       tendl.2025              NDL                  2025        3.090000E+00   0.000000E+00                   1544.999878                  2.530000E-08   0.000000E+00

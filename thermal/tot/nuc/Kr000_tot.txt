@@ -1,7 +1,7 @@
 # header: 
 #   title: Kr000(n,tot) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 36
 #   A: 0
@@ -9,29 +9,32 @@
 # reaction: 
 #   type: (n,tot)
 # observables: 
-#   selected value [b]:  3.060000E+01
-#   selected value uncertainty [b]:  1.800000E+00
-#   selected value source: S.J.Cocking
-#   number of values: 2
-#   average value [b]:  1.666500E+01
-#   relative standard deviation [%]:     83.618355
-# quantity: 
-#   type: EXFOR
-#   average value:  3.060000E+01
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 1
+#   selected value [b]:  3.261000E+01
+#   selected value uncertainty [b]:  6.500000E-01
+#   selected value source: R.Genin
+#   number of values: 5
+#   average value [b]:  2.518000E+01
+#   relative standard deviation [%]:     44.747036
+#   quantity: 
+#     type: EXFOR
+#     average value:  3.079250E+01
+#     relative standard deviation [%]:      3.541713
+#   datablock: 
+#     columns: 10
+#     entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      S.J.Cocking             EXFOR                1957        3.060000E+01   1.800000E+00   21201-003-0        1.000000                  2.530000E-08
-# quantity: 
-#   type: EXFOR spectrum-averaged
-#   average value:  2.730000E+00
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 1
+      S.J.Cocking             EXFOR                1957        3.020000E+01   2.114000E+00   21201-006-0        0.926096                  2.500000E-08
+      S.J.Cocking             EXFOR                1957        3.060000E+01   1.800000E+00   21201-003-0        0.938362                  2.530000E-08
+      R.Genin                 EXFOR                1963        2.976000E+01   6.500000E-01   21227-011-0        0.912603                  2.510000E-08
+      R.Genin                 EXFOR                1963        3.261000E+01   6.500000E-01   21227-011-0        1.000000                  2.410000E-08
+#   quantity: 
+#     type: EXFOR spectrum-averaged
+#     average value:  2.730000E+00
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      H.Carroll               EXFOR                1941        2.730000E+00   5.000000E-01   11135-008-0        0.089216   MXW            2.530000E-08
+      H.Carroll               EXFOR                1941        2.730000E+00   5.000000E-01   11135-008-0        0.083717   MXW            2.530000E-08

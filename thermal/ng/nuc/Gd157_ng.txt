@@ -1,7 +1,7 @@
 # header: 
 #   title: Gd157(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 64
 #   A: 157
@@ -12,55 +12,101 @@
 #   selected value [b]:  2.540000E+05
 #   selected value uncertainty [b]:  8.150000E+02
 #   selected value source: Mughabghab-2018
-#   number of values: 17
-#   average value [b]:  2.260400E+05
-#   relative standard deviation [%]:     30.156107
-# quantity: 
-#   type: Compilation
-#   average value:  2.540000E+05
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 4
+#   number of values: 54
+#   average value [b]:  2.408141E+05
+#   relative standard deviation [%]:     16.734842
+#   quantity: 
+#     type: Compilation
+#     average value:  2.540000E+05
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       RIPL-3                  Compilation          2004        2.540000E+05   3.000000E+03                      1.000000                  2.530000E-08
       Mughabghab-2006         Compilation          2006        2.540000E+05   8.150000E+02                      1.000000                  2.530000E-08
       Sukhoruchkin            Compilation          2015        2.540000E+05   8.150000E+02                      1.000000                  2.530000E-08
       Mughabghab-2018         Compilation          2018        2.540000E+05   8.150000E+02                      1.000000                  2.530000E-08
-# quantity: 
-#   type: EXFOR
-#   average value:  2.521840E+05
-#   relative standard deviation [%]:      3.116222
-# datablock: 
-#   columns: 10
-#   entries: 5
+#   quantity: 
+#     type: Compilation spectrum-averaged
+#     average value:  1.960000E+05
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Firestone-2022          Compilation          2022        1.960000E+05   3.000000E+03                      0.771654   MXW            2.530000E-08
+#   quantity: 
+#     type: EXFOR
+#     average value:  2.494195E+05
+#     relative standard deviation [%]:      1.889559
+#   datablock: 
+#     columns: 10
+#     entries: 41
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       N.J.Pattenden           EXFOR                1958        2.640000E+05   4.500000E+03   21325-021-0        1.039370                  2.530000E-08
+      A.Kimura                EXFOR                2023        2.539000E+05   3.942000E+03   23607-009-0        0.999606                  2.407300E-08
+      A.Kimura                EXFOR                2023        2.451700E+05   3.802000E+03   23607-009-0        0.965236                  2.416500E-08
+      A.Kimura                EXFOR                2023        2.471500E+05   3.847000E+03   23607-009-0        0.973032                  2.425900E-08
+      A.Kimura                EXFOR                2023        2.486400E+05   3.880000E+03   23607-009-0        0.978898                  2.435200E-08
+      A.Kimura                EXFOR                2023        2.515600E+05   3.931000E+03   23607-009-0        0.990394                  2.444600E-08
+      A.Kimura                EXFOR                2023        2.509500E+05   3.910000E+03   23607-009-0        0.987992                  2.454100E-08
+      A.Kimura                EXFOR                2023        2.456800E+05   3.838000E+03   23607-009-0        0.967244                  2.463700E-08
+      A.Kimura                EXFOR                2023        2.430300E+05   3.813000E+03   23607-009-0        0.956811                  2.473200E-08
+      A.Kimura                EXFOR                2023        2.468500E+05   3.890000E+03   23607-009-0        0.971850                  2.482900E-08
+      A.Kimura                EXFOR                2023        2.478000E+05   3.903000E+03   23607-009-0        0.975591                  2.492600E-08
+      A.Kimura                EXFOR                2023        2.482300E+05   3.895000E+03   23607-009-0        0.977283                  2.502300E-08
+      A.Kimura                EXFOR                2023        2.457400E+05   3.852000E+03   23607-009-0        0.967480                  2.512100E-08
       A.Kimura                EXFOR                2023        2.431200E+05   3.816000E+03   23607-009-0        0.957165                  2.522000E-08
       A.Kimura                EXFOR                2023        2.480200E+05   3.904000E+03   23607-009-0        0.976457                  2.531900E-08
+      A.Kimura                EXFOR                2023        2.448500E+05   3.827000E+03   23607-009-0        0.963976                  2.541900E-08
+      A.Kimura                EXFOR                2023        2.427900E+05   3.800000E+03   23607-009-0        0.955866                  2.552000E-08
+      A.Kimura                EXFOR                2023        2.447600E+05   3.837000E+03   23607-009-0        0.963622                  2.562100E-08
+      A.Kimura                EXFOR                2023        2.465200E+05   3.871000E+03   23607-009-0        0.970551                  2.572300E-08
+      A.Kimura                EXFOR                2023        2.456700E+05   3.850000E+03   23607-009-0        0.967205                  2.582500E-08
+      A.Kimura                EXFOR                2023        2.404100E+05   3.766000E+03   23607-009-0        0.946496                  2.592800E-08
+      A.Kimura                EXFOR                2023        2.568300E+05   5.072000E+03   23607-008-0        1.011142                  2.407300E-08
+      A.Kimura                EXFOR                2023        2.525300E+05   4.994000E+03   23607-008-0        0.994213                  2.416500E-08
+      A.Kimura                EXFOR                2023        2.531500E+05   5.018000E+03   23607-008-0        0.996654                  2.425900E-08
+      A.Kimura                EXFOR                2023        2.526600E+05   5.018000E+03   23607-008-0        0.994724                  2.435200E-08
+      A.Kimura                EXFOR                2023        2.546500E+05   5.060000E+03   23607-008-0        1.002559                  2.444600E-08
+      A.Kimura                EXFOR                2023        2.507200E+05   4.971000E+03   23607-008-0        0.987087                  2.454100E-08
+      A.Kimura                EXFOR                2023        2.513800E+05   5.001000E+03   23607-008-0        0.989685                  2.463700E-08
+      A.Kimura                EXFOR                2023        2.465700E+05   4.926000E+03   23607-008-0        0.970748                  2.473200E-08
+      A.Kimura                EXFOR                2023        2.542800E+05   5.094000E+03   23607-008-0        1.001102                  2.482900E-08
+      A.Kimura                EXFOR                2023        2.540100E+05   5.085000E+03   23607-008-0        1.000039                  2.492600E-08
+      A.Kimura                EXFOR                2023        2.545800E+05   5.080000E+03   23607-008-0        1.002283                  2.502300E-08
+      A.Kimura                EXFOR                2023        2.486400E+05   4.960000E+03   23607-008-0        0.978898                  2.512100E-08
       A.Kimura                EXFOR                2023        2.470300E+05   4.937000E+03   23607-008-0        0.972559                  2.522000E-08
       A.Kimura                EXFOR                2023        2.587500E+05   5.176000E+03   23607-008-0        1.018701                  2.531900E-08
-# quantity: 
-#   type: EXFOR spectrum-averaged
-#   average value:  9.916666E+04
-#   relative standard deviation [%]:     82.401978
-# datablock: 
-#   columns: 10
-#   entries: 3
+      A.Kimura                EXFOR                2023        2.539300E+05   5.054000E+03   23607-008-0        0.999724                  2.541900E-08
+      A.Kimura                EXFOR                2023        2.459100E+05   4.904000E+03   23607-008-0        0.968150                  2.552000E-08
+      A.Kimura                EXFOR                2023        2.474200E+05   4.939000E+03   23607-008-0        0.974095                  2.562100E-08
+      A.Kimura                EXFOR                2023        2.496800E+05   4.988000E+03   23607-008-0        0.982992                  2.572300E-08
+      A.Kimura                EXFOR                2023        2.509000E+05   5.004000E+03   23607-008-0        0.987795                  2.582500E-08
+      A.Kimura                EXFOR                2023        2.477400E+05   4.947000E+03   23607-008-0        0.975354                  2.592800E-08
+#   quantity: 
+#     type: EXFOR spectrum-averaged
+#     average value:  9.916666E+04
+#     relative standard deviation [%]:     82.401978
+#   datablock: 
+#     columns: 10
+#     entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       M.G.Inghram             EXFOR                1950        5.950000E+04   0.000000E+00   12106-004-0        0.234252   SPA            2.530000E-08
       W.H.Walker              EXFOR                1956        2.500000E+04   0.000000E+00   12127-013-0        0.098425   SPA            2.530000E-08
       R.B.Tattersall          EXFOR                1960        2.130000E+05   2.000000E+03   20638-080-0        0.838583   MXW            2.530000E-08
-# quantity: 
-#   type: Nuclear data library
-#   average value:  2.536520E+05
-#   relative standard deviation [%]:      0.211435
-# datablock: 
-#   columns: 11
-#   entries: 5
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  2.536520E+05
+#     relative standard deviation [%]:      0.211435
+#   datablock: 
+#     columns: 11
+#     entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
       cendl3.2                NDL                  2019        2.536340E+05   0.000000E+00                      0.998559                  2.530000E-08   8.518000E-01

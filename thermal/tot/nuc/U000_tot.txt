@@ -1,7 +1,7 @@
 # header: 
 #   title: U000(n,tot) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 92
 #   A: 0
@@ -12,28 +12,35 @@
 #   selected value [b]:  8.000000E+00
 #   selected value uncertainty [b]:  1.300000E-01
 #   selected value source: A.V.Antonov
-#   number of values: 4
-#   average value [b]:  1.364500E+01
-#   relative standard deviation [%]:     44.638336
-# quantity: 
-#   type: EXFOR
-#   average value:  1.069333E+01
-#   relative standard deviation [%]:     35.752182
-# datablock: 
-#   columns: 10
-#   entries: 3
+#   number of values: 11
+#   average value [b]:  1.763591E+01
+#   relative standard deviation [%]:     50.488255
+#   quantity: 
+#     type: EXFOR
+#     average value:  1.427722E+01
+#     relative standard deviation [%]:     23.761700
+#   datablock: 
+#     columns: 10
+#     entries: 9
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      H.Palevsky              EXFOR                1952        1.590000E+01   0.000000E+00   12376-003-0        1.987500                  2.500000E-08
       P.A.Egelstaff           EXFOR                1954        1.610000E+01   2.000000E-01   21179-008-0        2.012500                  2.530000E-08
+      P.A.Egelstaff           EXFOR                1954        1.650000E+01   2.000000E-01   21179-008-0        2.062500                  2.400000E-08
+      E.Gatti                 EXFOR                1954        1.500000E+01   0.000000E+00   21070-003-0        1.875000                  2.560000E-08
+      E.Gatti                 EXFOR                1954        1.590000E+01   0.000000E+00   21070-003-0        1.987500                  2.430000E-08
+      S.F.Beshai              EXFOR                1966        1.636800E+01   0.000000E+00   20161-003-0        2.046000                  2.590000E-08
+      S.F.Beshai              EXFOR                1966        1.674700E+01   0.000000E+00   20161-003-0        2.093375                  2.490000E-08
       A.V.Antonov             EXFOR                1986        7.980000E+00   7.000000E-02   40974-005-2        0.997500                  2.530000E-08
       A.V.Antonov             EXFOR                1986        8.000000E+00   1.300000E-01   40974-005-1        1.000000                  2.530000E-08
-# quantity: 
-#   type: EXFOR spectrum-averaged
-#   average value:  2.250000E+01
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 1
+#   quantity: 
+#     type: EXFOR spectrum-averaged
+#     average value:  3.275000E+01
+#     relative standard deviation [%]:     31.297710
+#   datablock: 
+#     columns: 10
+#     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      J.R.Dunning             EXFOR                1935        4.300000E+01   0.000000E+00   12634-074-0        5.375000   MXW            2.500000E-08
       K.Hanatani              EXFOR                1945        2.250000E+01   5.000000E-01   23397-004-0        2.812500   SPA            2.530000E-08

@@ -1,7 +1,7 @@
 # header: 
 #   title: Os190(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 76
 #   A: 190
@@ -15,13 +15,13 @@
 #   number of values: 14
 #   average value [b]:  1.321800E+01
 #   relative standard deviation [%]:     61.159016
-# quantity: 
-#   type: Compilation
-#   average value:  1.080200E+01
-#   relative standard deviation [%]:     33.203522
-# datablock: 
-#   columns: 10
-#   entries: 5
+#   quantity: 
+#     type: Compilation
+#     average value:  1.080200E+01
+#     relative standard deviation [%]:     33.203522
+#   datablock: 
+#     columns: 10
+#     entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       RIPL-3                  Compilation          2004        1.300000E+01   3.000000E-01                      1.181818                  2.530000E-08
@@ -29,36 +29,36 @@
       Sukhoruchkin            Compilation          2015        1.310000E+01   3.000000E-01                      1.190909                  2.530000E-08
       Kayzero                 Compilation          2018        3.810000E+00   6.000000E-02                      0.346364                  2.530000E-08
       Mughabghab-2018         Compilation          2018        1.100000E+01   5.000000E-01                      1.000000                  2.530000E-08
-# quantity: 
-#   type: EXFOR
-#   average value:  1.600000E+01
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 1
+#   quantity: 
+#     type: EXFOR
+#     average value:  1.600000E+01
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       V.P.Vertebnyy           EXFOR                1975        1.600000E+01   5.000000E+00   40254-015-0        1.454545                  2.530000E-08
-# quantity: 
-#   type: EXFOR spectrum-averaged
-#   average value:  1.671000E+01
-#   relative standard deviation [%]:     82.217438
-# datablock: 
-#   columns: 10
-#   entries: 4
+#   quantity: 
+#     type: EXFOR spectrum-averaged
+#     average value:  1.671000E+01
+#     relative standard deviation [%]:     82.217438
+#   datablock: 
+#     columns: 10
+#     entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       L.Seren                 EXFOR                1947        8.340000E+00   1.668000E+00   11447-119-0        0.758182   SPA            2.530000E-08
       S.V.Nablo               EXFOR                1958        5.300000E+00   2.000000E+00   14527-003-0        0.481818   SPA            2.530000E-08
       H.S.Hans                EXFOR                1960        4.000000E+01   1.000000E+01   31246-013-0        3.636364   MXW            2.530000E-08
       J.I.Kim                 EXFOR                1968        1.320000E+01   3.000000E-01   20656-010-0        1.200000   MXW            2.530000E-08
-# quantity: 
-#   type: Nuclear data library
-#   average value:  1.205050E+01
-#   relative standard deviation [%]:      8.754826
-# datablock: 
-#   columns: 11
-#   entries: 4
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  1.205050E+01
+#     relative standard deviation [%]:      8.754826
+#   datablock: 
+#     columns: 11
+#     entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
       jendl5.0                NDL                  2021        1.310550E+01   0.000000E+00                      1.191409                  2.530000E-08   9.880100E-01

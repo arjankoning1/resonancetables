@@ -1,7 +1,7 @@
 # header: 
 #   title: Ni058(n,p) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 28
 #   A: 58
@@ -12,16 +12,28 @@
 #   selected value [b]:  3.000000E-02
 #   selected value uncertainty [b]:  3.000000E-03
 #   selected value source: B.L.Robinson
-#   number of values: 1
-#   average value [b]:  3.000000E-02
-#   relative standard deviation [%]:      0.000000
-# quantity: 
-#   type: EXFOR spectrum-averaged
-#   average value:  3.000000E-02
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 1
+#   number of values: 4
+#   average value [b]:  7.500008E-03
+#   relative standard deviation [%]:    173.204834
+#   quantity: 
+#     type: EXFOR spectrum-averaged
+#     average value:  3.000000E-02
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       B.L.Robinson            EXFOR                1956        3.000000E-02   3.000000E-03   14073-002-0        1.000000   SPA            2.530000E-08
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  1.045487E-08
+#     relative standard deviation [%]:     60.140606
+#   datablock: 
+#     columns: 10
+#     entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      jendl5.0                NDL                  2021        1.566800E-09   0.000000E+00                      0.000000                  2.530000E-08
+      tendl.2025              NDL                  2025        1.466880E-08   0.000000E+00                      0.000000                  2.530000E-08
+      jeff4.0                 NDL                  2025        1.512900E-08   0.000000E+00                      0.000001                  2.530000E-08

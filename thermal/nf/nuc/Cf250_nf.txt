@@ -1,7 +1,7 @@
 # header: 
 #   title: Cf250(n,f) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 98
 #   A: 250
@@ -15,35 +15,35 @@
 #   number of values: 8
 #   average value [b]:  1.413724E+02
 #   relative standard deviation [%]:     55.779499
-# quantity: 
-#   type: Compilation
-#   average value:  1.113333E+02
-#   relative standard deviation [%]:      0.846834
-# datablock: 
-#   columns: 10
-#   entries: 3
+#   quantity: 
+#     type: Compilation
+#     average value:  1.113333E+02
+#     relative standard deviation [%]:      0.846834
+#   datablock: 
+#     columns: 10
+#     entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       RIPL-3                  Compilation          2004        1.100000E+02   9.000000E+00                      0.982143                  2.530000E-08
       Sukhoruchkin            Compilation          2015        1.120000E+02   0.000000E+00                      1.000000                  2.530000E-08
       Mughabghab-2018         Compilation          2018        1.120000E+02   9.900000E+01                      1.000000                  2.530000E-08
-# quantity: 
-#   type: EXFOR spectrum-averaged
-#   average value:  3.500000E+02
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 1
+#   quantity: 
+#     type: EXFOR spectrum-averaged
+#     average value:  3.500000E+02
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       D.Metta                 EXFOR                1965        3.500000E+02   0.000000E+00   12562-003-0        3.125000   MXW            2.530000E-08
-# quantity: 
-#   type: Nuclear data library
-#   average value:  1.117448E+02
-#   relative standard deviation [%]:      0.400288
-# datablock: 
-#   columns: 11
-#   entries: 4
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  1.117448E+02
+#     relative standard deviation [%]:      0.400288
+#   datablock: 
+#     columns: 11
+#     entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
       jendl5.0                NDL                  2021        1.120030E+02   0.000000E+00                      1.000027                  2.530000E-08   9.367200E-01

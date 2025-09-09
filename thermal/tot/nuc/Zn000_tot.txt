@@ -1,7 +1,7 @@
 # header: 
 #   title: Zn000(n,tot) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 30
 #   A: 0
@@ -9,19 +9,31 @@
 # reaction: 
 #   type: (n,tot)
 # observables: 
-#   selected value [b]:  3.330000E+00
+#   selected value [b]:  4.110000E+00
 #   selected value uncertainty [b]:  0.000000E+00
 #   selected value source: M.Abu El-Ela
-#   number of values: 1
-#   average value [b]:  3.330000E+00
-#   relative standard deviation [%]:      0.000000
-# quantity: 
-#   type: EXFOR
-#   average value:  3.330000E+00
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 1
+#   number of values: 4
+#   average value [b]:  4.082250E+00
+#   relative standard deviation [%]:     11.998563
+#   quantity: 
+#     type: EXFOR
+#     average value:  3.876333E+00
+#     relative standard deviation [%]:     10.000689
+#   datablock: 
+#     columns: 10
+#     entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      M.Abu El-Ela            EXFOR                1968        3.330000E+00   0.000000E+00   30217-002-0        1.000000                  2.530000E-08
+      W.W.Havens Jr           EXFOR                1951        4.189000E+00   0.000000E+00   11732-005-0        1.019221                  2.500000E-08
+      M.Abu El-Ela            EXFOR                1968        3.330000E+00   0.000000E+00   30217-002-0        0.810219                  2.530000E-08
+      M.Abu El-Ela            EXFOR                1968        4.110000E+00   0.000000E+00   30217-002-0        1.000000                  2.410000E-08
+#   quantity: 
+#     type: EXFOR spectrum-averaged
+#     average value:  4.700000E+00
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      J.R.Dunning             EXFOR                1935        4.700000E+00   0.000000E+00   12634-028-0        1.143552   MXW            2.500000E-08

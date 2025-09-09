@@ -1,7 +1,7 @@
 # header: 
 #   title: U236(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 92
 #   A: 236
@@ -12,43 +12,54 @@
 #   selected value [b]:  5.090000E+00
 #   selected value uncertainty [b]:  1.000000E-01
 #   selected value source: Mughabghab-2018
-#   number of values: 28
-#   average value [b]:  9.538597E+00
-#   relative standard deviation [%]:     80.887054
-# quantity: 
-#   type: Compilation
-#   average value:  5.090000E+00
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 3
+#   number of values: 30
+#   average value [b]:  9.247691E+00
+#   relative standard deviation [%]:     81.457710
+#   quantity: 
+#     type: Compilation
+#     average value:  5.090000E+00
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       Mughabghab-2006         Compilation          2006        5.090000E+00   1.000000E-01                      1.000000                  2.530000E-08
       Sukhoruchkin            Compilation          2015        5.090000E+00   1.000000E-01                      1.000000                  2.530000E-08
       Mughabghab-2018         Compilation          2018        5.090000E+00   1.000000E-01                      1.000000                  2.530000E-08
-# quantity: 
-#   type: EXFOR
-#   average value:  1.156500E+01
-#   relative standard deviation [%]:     77.896454
-# datablock: 
-#   columns: 10
-#   entries: 6
+#   quantity: 
+#     type: Compilation spectrum-averaged
+#     average value:  5.090000E+00
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Firestone-2022          Compilation          2022        5.090000E+00   1.000000E-01                      1.000000   MXW            2.530000E-08
+#   quantity: 
+#     type: EXFOR
+#     average value:  1.066428E+01
+#     relative standard deviation [%]:     80.899361
+#   datablock: 
+#     columns: 10
+#     entries: 7
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       J.-M.Auglair            EXFOR                1955        2.400000E+01   7.000000E+00   21397-003-0        4.715127                  2.530000E-08
       B.V.Efimov              EXFOR                1956        2.460000E+01   6.000000E+00   40370-002-0        4.833006                  2.530000E-08
       E.J.Hennelly            EXFOR                1968        5.600000E+00   0.000000E+00   14565-005-0        1.100196                  2.530000E-08
       A.D.Carlson             EXFOR                1970        5.100000E+00   2.500000E-01   10695-009-0        1.001965                  2.530000E-08
+      A.D.Carlson             EXFOR                1970        5.260000E+00   2.630000E-01   10695-002-0        1.033399                  2.480000E-08
       L.N.Jurova              EXFOR                1984        5.000000E+00   1.400000E-01   40579-006-0        0.982318                  2.530000E-08
       A.N.Davletshin          EXFOR                1987        5.090000E+00   1.000000E-01   40988-002-0        1.000000                  2.530000E-08
-# quantity: 
-#   type: EXFOR spectrum-averaged
-#   average value:  1.118786E+01
-#   relative standard deviation [%]:     74.085831
-# datablock: 
-#   columns: 10
-#   entries: 14
+#   quantity: 
+#     type: EXFOR spectrum-averaged
+#     average value:  1.118786E+01
+#     relative standard deviation [%]:     74.085831
+#   datablock: 
+#     columns: 10
+#     entries: 14
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       H.Diamond               EXFOR                1950        1.600000E+01   0.000000E+00   12464-002-0        3.143418   SPA            2.530000E-08
@@ -65,13 +76,13 @@
       R.P.Schuman             EXFOR                1969        5.400000E+00   1.500000E+00   11687-009-0        1.060904   MXW            2.530000E-08
       M.J.Cabell              EXFOR                1971        8.860000E+00   4.000000E+00   20449-004-0        1.740668   SPA            2.530000E-08
       M.J.Cabell              EXFOR                1971        8.470000E+00   4.000000E+00   20449-005-0        1.664047   MXW            2.530000E-08
-# quantity: 
-#   type: Nuclear data library
-#   average value:  5.158146E+00
-#   relative standard deviation [%]:      1.096712
-# datablock: 
-#   columns: 11
-#   entries: 5
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  5.158146E+00
+#     relative standard deviation [%]:      1.096712
+#   datablock: 
+#     columns: 11
+#     entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
       cendl3.2                NDL                  2019        5.132710E+00   0.000000E+00                      1.008391                  2.530000E-08   1.002340E+00

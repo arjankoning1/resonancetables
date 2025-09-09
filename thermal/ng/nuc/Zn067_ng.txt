@@ -1,7 +1,7 @@
 # header: 
 #   title: Zn067(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 30
 #   A: 67
@@ -12,51 +12,52 @@
 #   selected value [b]:  7.500000E+00
 #   selected value uncertainty [b]:  1.000000E-01
 #   selected value source: Mughabghab-2018
-#   number of values: 13
-#   average value [b]:  7.346372E+00
-#   relative standard deviation [%]:      4.444584
-# quantity: 
-#   type: Compilation
-#   average value:  7.200000E+00
-#   relative standard deviation [%]:      4.166666
-# datablock: 
-#   columns: 10
-#   entries: 2
+#   number of values: 14
+#   average value [b]:  7.314488E+00
+#   relative standard deviation [%]:      4.579701
+#   quantity: 
+#     type: Compilation
+#     average value:  7.200000E+00
+#     relative standard deviation [%]:      4.166666
+#   datablock: 
+#     columns: 10
+#     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       RIPL-3                  Compilation          2004        6.900000E+00   1.400000E+00                      0.920000                  2.530000E-08
       Mughabghab-2018         Compilation          2018        7.500000E+00   1.000000E-01                      1.000000                  2.530000E-08
-# quantity: 
-#   type: Compilation spectrum-averaged
-#   average value:  7.500000E+00
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 2
+#   quantity: 
+#     type: Compilation spectrum-averaged
+#     average value:  7.500000E+00
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       Mughabghab-2006         Compilation          2006        7.500000E+00   1.000000E+00                      1.000000   MXW            2.530000E-08
       Sukhoruchkin            Compilation          2015        7.500000E+00   1.000000E+00                      1.000000   MXW            2.530000E-08
-# quantity: 
-#   type: EXFOR spectrum-averaged
-#   average value:  7.175000E+00
-#   relative standard deviation [%]:      6.638522
-# datablock: 
-#   columns: 10
-#   entries: 4
+#   quantity: 
+#     type: EXFOR spectrum-averaged
+#     average value:  7.120000E+00
+#     relative standard deviation [%]:      6.179775
+#   datablock: 
+#     columns: 10
+#     entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       L.N.Bystrov             EXFOR                1968        8.000000E+00   0.000000E+00   40780-003-0        1.066667   MXW            2.530000E-08
       W.Michaelis             EXFOR                1969        6.900000E+00   0.000000E+00   23372-007-0        0.920000   SPA            2.530000E-08
       W.Michaelis             EXFOR                1969        6.900000E+00   1.400000E+00   23372-002-0        0.920000   SPA            2.530000E-08
       H.Ottmar                EXFOR                1971        6.900000E+00   1.400000E+00   20803-005-0        0.920000   MXW            2.530000E-08
-# quantity: 
-#   type: Nuclear data library
-#   average value:  7.480568E+00
-#   relative standard deviation [%]:      0.178757
-# datablock: 
-#   columns: 11
-#   entries: 5
+      M.Asghar                EXFOR                1978        6.900000E+00   0.000000E+00   21302-005-0        0.920000   MXW            2.500000E-08
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  7.480568E+00
+#     relative standard deviation [%]:      0.178757
+#   datablock: 
+#     columns: 11
+#     entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
       cendl3.2                NDL                  2019        7.469650E+00   0.000000E+00                      0.995953                  2.530000E-08   1.000040E+00

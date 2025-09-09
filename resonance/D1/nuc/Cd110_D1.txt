@@ -1,7 +1,7 @@
 # header: 
 #   title: Cd110 D1 resonance data
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 48
 #   A: 110
@@ -12,36 +12,37 @@
 #   selected value [eV]:  8.000000E+01
 #   selected value uncertainty [eV]:  5.000000E+00
 #   selected value source: RIPL-3
-#   number of values: 7
-#   average value [b]:  1.135581E+02
-#   relative standard deviation [%]:     18.686096
-# quantity: 
-#   type: Compilation
-#   average value:  8.000000E+01
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 8
-#   entries: 1
+#   number of values: 8
+#   average value [b]:  9.936337E+01
+#   relative standard deviation [%]:     42.750706
+#   quantity: 
+#     type: Compilation
+#     average value:  8.000000E+01
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 8
+#     entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
       RIPL-3                  Compilation          2009        8.000000E+01   5.000000E+00            06M       1.000000
-# quantity: 
-#   type: EXFOR
-#   average value:  8.700000E+01
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 13
-#   entries: 1
+#   quantity: 
+#     type: EXFOR
+#     average value:  4.350000E+01
+#     relative standard deviation [%]:    100.000000
+#   datablock: 
+#     columns: 13
+#     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
 ##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      A.R.De L.Musgrove       EXFOR                1978        0.000000E+00   0.000000E+00      30453-011       0.000000   3.000000E-03   9.000000E-02       1.0                                   
       A.R.De L.Musgrove       EXFOR                1978        8.700000E+01   2.000000E+01      30453-011       1.087500   3.000000E-03   9.000000E-02       1.0                                   
-# quantity: 
-#   type: Nuclear data library
-#   average value:  1.255814E+02
-#   relative standard deviation [%]:      8.705658
-# datablock: 
-#   columns: 8
-#   entries: 5
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  1.255814E+02
+#     relative standard deviation [%]:      8.705658
+#   datablock: 
+#     columns: 8
+#     entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
       jendl5.0                NDL                  2021        1.400000E+02   0.000000E+00                      1.750000

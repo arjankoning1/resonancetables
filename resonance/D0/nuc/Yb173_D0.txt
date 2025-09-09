@@ -1,7 +1,7 @@
 # header: 
 #   title: Yb173 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 70
 #   A: 173
@@ -12,40 +12,42 @@
 #   selected value [eV]:  7.500000E+00
 #   selected value uncertainty [eV]:  5.000000E-01
 #   selected value source: RIPL-3
-#   number of values: 11
-#   average value [b]:  9.223718E+00
-#   relative standard deviation [%]:     16.857666
-# quantity: 
-#   type: Compilation
-#   average value:  7.786667E+00
-#   relative standard deviation [%]:      2.938530
-# datablock: 
-#   columns: 9
-#   entries: 3
+#   number of values: 13
+#   average value [b]:  8.012377E+00
+#   relative standard deviation [%]:     39.702805
+#   quantity: 
+#     type: Compilation
+#     average value:  7.786667E+00
+#     relative standard deviation [%]:      2.938530
+#   datablock: 
+#     columns: 9
+#     entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio       #Resonances
 ##      []             []             []             []            [eV]           [eV]            []             []             []
       RIPL-2                  Compilation          2000        7.800000E+00   9.000000E-01            84M       1.040000       10      
       RIPL-3                  Compilation          2009        7.500000E+00   5.000000E-01            0I7       1.000000               
       Mughabghab-2018         Compilation          2018        8.060000E+00   3.600000E-01                      1.074667               
-# quantity: 
-#   type: EXFOR
-#   average value:  7.870000E+00
-#   relative standard deviation [%]:      6.248177
-# datablock: 
-#   columns: 13
-#   entries: 3
+#   quantity: 
+#     type: EXFOR
+#     average value:  5.262000E+00
+#     relative standard deviation [%]:     61.158558
+#   datablock: 
+#     columns: 13
+#     entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
 ##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
       Wang Nai-Yang           EXFOR                1966        7.300000E+00   1.500000E+00      40030-015       0.973333   4.530000E-06   1.300000E-04       0.0                                   
       Wang Nai-Yang           EXFOR                1966        8.500000E+00   1.500000E+00      40030-014       1.133333   4.530000E-06   1.300000E-04       0.0                                   
       H.I.Liou                EXFOR                1973        7.810000E+00   9.300000E-01      10081-043       1.041333   4.500000E-06   1.797000E-03       0.0                                   
-# quantity: 
-#   type: Nuclear data library
-#   average value:  1.089818E+01
-#   relative standard deviation [%]:      0.081813
-# datablock: 
-#   columns: 8
-#   entries: 5
+      E.N.Karzhavina          EXFOR                1975        1.200000E+00   3.000000E-01      41277-005       0.160000   1.700000E-05   6.190000E-04       0.0            3.0                    
+      E.N.Karzhavina          EXFOR                1975        1.500000E+00   5.000000E-01      41277-005       0.200000   1.700000E-05   6.190000E-04       0.0            2.0                    
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  1.089818E+01
+#     relative standard deviation [%]:      0.081813
+#   datablock: 
+#     columns: 8
+#     entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
       jendl5.0                NDL                  2021        1.090910E+01   0.000000E+00                      1.454547

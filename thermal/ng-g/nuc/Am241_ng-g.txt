@@ -1,7 +1,7 @@
 # header: 
 #   title: Am241(n,g)-g thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 95
 #   A: 241
@@ -12,27 +12,27 @@
 #   selected value [b]:  6.600000E+02
 #   selected value uncertainty [b]:  2.500000E+01
 #   selected value source: Mughabghab-2018
-#   number of values: 42
-#   average value [b]:  5.988028E+02
-#   relative standard deviation [%]:     34.552017
-# quantity: 
-#   type: Compilation
-#   average value:  6.150000E+02
-#   relative standard deviation [%]:      7.317073
-# datablock: 
-#   columns: 10
-#   entries: 2
+#   number of values: 103
+#   average value [b]:  6.615580E+02
+#   relative standard deviation [%]:     21.692112
+#   quantity: 
+#     type: Compilation
+#     average value:  6.150000E+02
+#     relative standard deviation [%]:      7.317073
+#   datablock: 
+#     columns: 10
+#     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       RIPL-3                  Compilation          2004        5.700000E+02   1.300000E+01                      0.863636                  2.530000E-08
       Mughabghab-2018         Compilation          2018        6.600000E+02   2.500000E+01                      1.000000                  2.530000E-08
-# quantity: 
-#   type: EXFOR
-#   average value:  6.976345E+02
-#   relative standard deviation [%]:     10.638216
-# datablock: 
-#   columns: 10
-#   entries: 18
+#   quantity: 
+#     type: EXFOR
+#     average value:  7.047581E+02
+#     relative standard deviation [%]:      5.748838
+#   datablock: 
+#     columns: 10
+#     entries: 70
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       R.M.Harbour             EXFOR                1973        7.480000E+02   2.000000E+01   10317-003-0        1.133333                  2.530000E-08
@@ -47,19 +47,71 @@
       M.Jandel                EXFOR                2008        6.650000E+02   3.300000E+01   14209-002-0        1.007576                  2.530000E-08
       A.Letourneau            EXFOR                2009        7.000000E+02   2.300000E+01   22941-014-0        1.060606                  2.530000E-08
       T.Belgya                EXFOR                2012        5.400000E+02   3.200000E+01   31720-002-0        0.818182                  2.530000E-08
+      H.Harada                EXFOR                2014        7.077200E+02   0.000000E+00   23172-003-0        1.072303                  2.409900E-08
+      H.Harada                EXFOR                2014        6.796500E+02   0.000000E+00   23172-003-0        1.029773                  2.429300E-08
+      H.Harada                EXFOR                2014        6.861700E+02   0.000000E+00   23172-003-0        1.039652                  2.448900E-08
+      H.Harada                EXFOR                2014        6.952500E+02   0.000000E+00   23172-003-0        1.053409                  2.468700E-08
+      H.Harada                EXFOR                2014        6.943200E+02   0.000000E+00   23172-003-0        1.052000                  2.488800E-08
+      H.Harada                EXFOR                2014        6.771900E+02   0.000000E+00   23172-003-0        1.026045                  2.509100E-08
       H.Harada                EXFOR                2014        6.929100E+02   0.000000E+00   23172-003-0        1.049864                  2.529700E-08
+      H.Harada                EXFOR                2014        6.759900E+02   0.000000E+00   23172-003-0        1.024227                  2.550500E-08
+      H.Harada                EXFOR                2014        6.786400E+02   0.000000E+00   23172-003-0        1.028242                  2.571600E-08
+      H.Harada                EXFOR                2014        6.606800E+02   0.000000E+00   23172-003-0        1.001030                  2.593000E-08
       C.Genreith              EXFOR                2014        6.499000E+02   2.820000E+01   23264-002-2        0.984697                  2.530000E-08
       C.Genreith              EXFOR                2014        6.630000E+02   2.880000E+01   23264-002-1        1.004545                  2.530000E-08
+      K.Terada                EXFOR                2018        7.380200E+02   3.036000E+01   23445-003-0        1.118212                  2.400600E-08
+      K.Terada                EXFOR                2018        7.313700E+02   3.005500E+01   23445-003-0        1.108136                  2.405400E-08
+      K.Terada                EXFOR                2018        7.163600E+02   2.940800E+01   23445-003-0        1.085394                  2.410200E-08
+      K.Terada                EXFOR                2018        7.273300E+02   2.984500E+01   23445-003-0        1.102015                  2.415000E-08
+      K.Terada                EXFOR                2018        7.310500E+02   2.998600E+01   23445-003-0        1.107651                  2.419900E-08
+      K.Terada                EXFOR                2018        7.188100E+02   2.946200E+01   23445-003-0        1.089106                  2.424700E-08
+      K.Terada                EXFOR                2018        7.212900E+02   2.954600E+01   23445-003-0        1.092864                  2.429600E-08
+      K.Terada                EXFOR                2018        7.257300E+02   2.972500E+01   23445-003-0        1.099591                  2.434400E-08
+      K.Terada                EXFOR                2018        7.217000E+02   2.956000E+01   23445-003-0        1.093485                  2.439300E-08
+      K.Terada                EXFOR                2018        6.999700E+02   2.864500E+01   23445-003-0        1.060561                  2.444200E-08
+      K.Terada                EXFOR                2018        7.393900E+02   3.029100E+01   23445-003-0        1.120288                  2.449200E-08
+      K.Terada                EXFOR                2018        7.262100E+02   2.973900E+01   23445-003-0        1.100318                  2.454100E-08
+      K.Terada                EXFOR                2018        7.019300E+02   2.873200E+01   23445-003-0        1.063530                  2.459000E-08
+      K.Terada                EXFOR                2018        7.224000E+02   2.957700E+01   23445-003-0        1.094545                  2.464000E-08
+      K.Terada                EXFOR                2018        7.296300E+02   2.987300E+01   23445-003-0        1.105500                  2.469000E-08
+      K.Terada                EXFOR                2018        7.159400E+02   2.927800E+01   23445-003-0        1.084758                  2.474000E-08
+      K.Terada                EXFOR                2018        7.128600E+02   2.914100E+01   23445-003-0        1.080091                  2.479000E-08
+      K.Terada                EXFOR                2018        6.967100E+02   2.845600E+01   23445-003-0        1.055621                  2.484000E-08
+      K.Terada                EXFOR                2018        7.042900E+02   2.875800E+01   23445-003-0        1.067106                  2.489100E-08
+      K.Terada                EXFOR                2018        7.122100E+02   2.909200E+01   23445-003-0        1.079106                  2.494100E-08
+      K.Terada                EXFOR                2018        7.149000E+02   2.919200E+01   23445-003-0        1.083182                  2.499200E-08
+      K.Terada                EXFOR                2018        7.088900E+02   2.893400E+01   23445-003-0        1.074076                  2.504300E-08
+      K.Terada                EXFOR                2018        7.106100E+02   2.900900E+01   23445-003-0        1.076682                  2.509400E-08
+      K.Terada                EXFOR                2018        7.033000E+02   2.869700E+01   23445-003-0        1.065606                  2.514500E-08
+      K.Terada                EXFOR                2018        7.029300E+02   2.868300E+01   23445-003-0        1.065045                  2.519600E-08
       K.Terada                EXFOR                2018        7.117000E+02   2.903100E+01   23445-003-0        1.078333                  2.524800E-08
       K.Terada                EXFOR                2018        7.033300E+02   2.866900E+01   23445-003-0        1.065652                  2.529900E-08
       K.Terada                EXFOR                2018        6.945800E+02   2.828100E+01   23445-003-0        1.052394                  2.535100E-08
-# quantity: 
-#   type: EXFOR spectrum-averaged
-#   average value:  4.866277E+02
-#   relative standard deviation [%]:     56.767639
-# datablock: 
-#   columns: 10
-#   entries: 17
+      K.Terada                EXFOR                2018        6.935000E+02   2.821500E+01   23445-003-0        1.050758                  2.540300E-08
+      K.Terada                EXFOR                2018        6.987600E+02   2.840300E+01   23445-003-0        1.058727                  2.545500E-08
+      K.Terada                EXFOR                2018        7.073100E+02   2.875400E+01   23445-003-0        1.071682                  2.550800E-08
+      K.Terada                EXFOR                2018        7.066900E+02   2.867900E+01   23445-003-0        1.070742                  2.556000E-08
+      K.Terada                EXFOR                2018        7.137000E+02   2.895700E+01   23445-003-0        1.081364                  2.561300E-08
+      K.Terada                EXFOR                2018        6.921700E+02   2.806200E+01   23445-003-0        1.048742                  2.566600E-08
+      K.Terada                EXFOR                2018        7.037500E+02   2.851900E+01   23445-003-0        1.066288                  2.571800E-08
+      K.Terada                EXFOR                2018        6.942500E+02   2.812700E+01   23445-003-0        1.051894                  2.577200E-08
+      K.Terada                EXFOR                2018        6.958500E+02   2.820100E+01   23445-003-0        1.054318                  2.582500E-08
+      K.Terada                EXFOR                2018        7.025200E+02   2.846900E+01   23445-003-0        1.064424                  2.587800E-08
+      K.Terada                EXFOR                2018        6.997900E+02   2.838700E+01   23445-003-0        1.060288                  2.593200E-08
+      K.Terada                EXFOR                2018        7.007700E+02   2.844000E+01   23445-003-0        1.061773                  2.598600E-08
+      G.Rovira                EXFOR                2024        7.302400E+02   2.314900E+01   23620-002-0        1.106424                  2.400000E-08
+      G.Rovira                EXFOR                2024        7.216900E+02   2.287800E+01   23620-002-0        1.093470                  2.435000E-08
+      G.Rovira                EXFOR                2024        7.191100E+02   2.286800E+01   23620-002-0        1.089561                  2.470000E-08
+      G.Rovira                EXFOR                2024        7.117400E+02   2.256200E+01   23620-002-0        1.078394                  2.510000E-08
+      G.Rovira                EXFOR                2024        7.026000E+02   2.227200E+01   23620-002-0        1.064545                  2.550000E-08
+      G.Rovira                EXFOR                2024        6.917600E+02   2.192900E+01   23620-002-0        1.048121                  2.590000E-08
+#   quantity: 
+#     type: EXFOR spectrum-averaged
+#     average value:  5.572231E+02
+#     relative standard deviation [%]:     44.091114
+#   datablock: 
+#     columns: 10
+#     entries: 26
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       G.T.Seaborg             EXFOR                1946        8.000000E+02   0.000000E+00   12576-003-0        1.212121   SPA            2.530000E-08
@@ -77,15 +129,24 @@
       G.Fioni                 EXFOR                1998        6.950000E+02   3.000000E+01   22462-002-0        1.053030   MXW            2.530000E-08
       G.Fioni                 EXFOR                2001        6.960000E+02   4.800000E+01   22696-002-0        1.054545   MXW            2.530000E-08
       G.Fioni                 EXFOR                2001        6.360000E+02   4.600000E+01   22696-006-0        0.963636   MXW            2.530000E-08
+      E.F.Fomushkin           EXFOR                2007        8.360000E+02   3.200000E+01   41514-002-0        1.266667   MXW            2.500000E-08
+      M.Jandel                EXFOR                2008        6.480100E+02   1.973000E+01   14209-005-0        0.981833   AV             2.581000E-08
+      M.Jandel                EXFOR                2008        6.900100E+02   2.048000E+01   14209-005-0        1.045470   AV             2.555300E-08
       M.Jandel                EXFOR                2008        6.416700E+02   1.981000E+01   14209-005-0        0.972227   AV             2.529900E-08
+      M.Jandel                EXFOR                2008        6.570300E+02   2.007000E+01   14209-005-0        0.995500   AV             2.504700E-08
+      M.Jandel                EXFOR                2008        6.632100E+02   2.034000E+01   14209-005-0        1.004864   AV             2.479800E-08
+      M.Jandel                EXFOR                2008        6.553600E+02   2.020000E+01   14209-005-0        0.992970   AV             2.455100E-08
+      M.Jandel                EXFOR                2008        6.643400E+02   2.052000E+01   14209-005-0        1.006576   AV             2.430700E-08
+      M.Jandel                EXFOR                2008        6.869900E+02   2.090000E+01   14209-005-0        1.040894   AV             2.406500E-08
+      A.Letourneau            EXFOR                2009        7.141800E+02   2.334000E+01   22941-003-0        1.082091   SPA            2.500000E-08
       A.Letourneau            EXFOR                2009        6.090000E+02   2.000000E+01   22941-013-0        0.922727   MXW            2.530000E-08
-# quantity: 
-#   type: Nuclear data library
-#   average value:  6.179252E+02
-#   relative standard deviation [%]:      5.269104
-# datablock: 
-#   columns: 11
-#   entries: 5
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  6.179252E+02
+#     relative standard deviation [%]:      5.269104
+#   datablock: 
+#     columns: 11
+#     entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
       cendl3.2                NDL                  2019        5.567200E+02   0.000000E+00                      0.843515                  2.530000E-08   1.000450E+00

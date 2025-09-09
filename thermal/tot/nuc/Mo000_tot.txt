@@ -1,0 +1,41 @@
+# header: 
+#   title: Mo000(n,tot) thermal cross section
+#   source: Resonancetables
+#   date: 2025-09-08
+# target: 
+#   Z: 42
+#   A: 0
+#   nuclide: Mo000
+# reaction: 
+#   type: (n,tot)
+# observables: 
+#   selected value [b]:  7.666000E+00
+#   selected value uncertainty [b]:  0.000000E+00
+#   selected value source: A.K.M.Moinul Haque Meaze
+#   number of values: 6
+#   average value [b]:  7.292866E+00
+#   relative standard deviation [%]:      3.328756
+#   quantity: 
+#     type: EXFOR
+#     average value:  7.331440E+00
+#     relative standard deviation [%]:      3.390616
+#   datablock: 
+#     columns: 10
+#     entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      P.A.Egelstaff           EXFOR                1950        7.000000E+00   0.000000E+00   21376-005-0        0.913123                  2.500000E-08
+      M.Salama                EXFOR                1984        7.554800E+00   0.000000E+00   30795-002-0        0.985494                  2.420000E-08
+      M.Salama                EXFOR                1984        7.141900E+00   0.000000E+00   30795-002-0        0.931633                  2.480000E-08
+      M.Salama                EXFOR                1984        7.294500E+00   0.000000E+00   30795-002-0        0.951539                  2.550000E-08
+      A.K.M.Moinul Haque MeazeEXFOR                2007        7.666000E+00   0.000000E+00   31594-002-0        1.000000                  2.469000E-08
+#   quantity: 
+#     type: EXFOR spectrum-averaged
+#     average value:  7.100000E+00
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      J.R.Dunning             EXFOR                1935        7.100000E+00   0.000000E+00   12634-037-0        0.926167   MXW            2.500000E-08

@@ -1,7 +1,7 @@
 # header: 
 #   title: Ba000(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 56
 #   A: 0
@@ -11,27 +11,27 @@
 # observables: 
 #   selected value [b]:  1.160000E+00
 #   selected value uncertainty [b]:  5.000000E-02
-#   selected value source: Firestone
+#   selected value source: Firestone-2022
 #   number of values: 3
 #   average value [b]:  1.170000E+00
 #   relative standard deviation [%]:      8.744165
-# quantity: 
-#   type: Compilation spectrum-averaged
-#   average value:  1.160000E+00
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 1
+#   quantity: 
+#     type: Compilation spectrum-averaged
+#     average value:  1.160000E+00
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      Firestone               Compilation          2022        1.160000E+00   5.000000E-02                      1.000000   MXW            2.530000E-08
-# quantity: 
-#   type: EXFOR spectrum-averaged
-#   average value:  1.175000E+00
-#   relative standard deviation [%]:     10.638298
-# datablock: 
-#   columns: 10
-#   entries: 2
+      Firestone-2022          Compilation          2022        1.160000E+00   5.000000E-02                      1.000000   MXW            2.530000E-08
+#   quantity: 
+#     type: EXFOR spectrum-averaged
+#     average value:  1.175000E+00
+#     relative standard deviation [%]:     10.638298
+#   datablock: 
+#     columns: 10
+#     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       J.Coltman               EXFOR                1946        1.300000E+00   1.000000E-01   12616-019-0        1.120690   MXW            2.530000E-08

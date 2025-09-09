@@ -1,7 +1,7 @@
 # header: 
 #   title: Ni061(n,a) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 28
 #   A: 61
@@ -12,37 +12,49 @@
 #   selected value [b]:  3.000000E-05
 #   selected value uncertainty [b]:  0.000000E+00
 #   selected value source: Mughabghab-2018
-#   number of values: 4
-#   average value [b]:  1.176500E-02
-#   relative standard deviation [%]:    163.239120
-# quantity: 
-#   type: Compilation
-#   average value:  3.000000E-05
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 2
+#   number of values: 7
+#   average value [b]:  6.797328E-03
+#   relative standard deviation [%]:    229.654861
+#   quantity: 
+#     type: Compilation
+#     average value:  3.000000E-05
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       Sukhoruchkin            Compilation          2015        3.000000E-05   0.000000E+00                      1.000000                  2.530000E-08
       Mughabghab-2018         Compilation          2018        3.000000E-05   0.000000E+00                      1.000000                  2.530000E-08
-# quantity: 
-#   type: EXFOR
-#   average value:  2.000000E-03
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 1
+#   quantity: 
+#     type: EXFOR
+#     average value:  2.000000E-03
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       J.Mcdonald              EXFOR                1976        2.000000E-03   0.000000E+00   20433-005-0       66.666672                  2.530000E-08
-# quantity: 
-#   type: EXFOR spectrum-averaged
-#   average value:  4.500000E-02
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 1
+#   quantity: 
+#     type: EXFOR spectrum-averaged
+#     average value:  4.500000E-02
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       F.Muennich              EXFOR                1958        4.500000E-02   2.000000E-02   21340-006-0     1500.000122   MXW            2.530000E-08
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  1.737645E-04
+#     relative standard deviation [%]:    116.931473
+#   datablock: 
+#     columns: 10
+#     entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      jendl5.0                NDL                  2021        4.611120E-04   0.000000E+00                     15.370400                  2.530000E-08
+      tendl.2025              NDL                  2025        3.009010E-05   0.000000E+00                      1.003003                  2.530000E-08
+      jeff4.0                 NDL                  2025        3.009140E-05   0.000000E+00                      1.003047                  2.530000E-08

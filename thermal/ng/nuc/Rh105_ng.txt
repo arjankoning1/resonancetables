@@ -1,7 +1,7 @@
 # header: 
 #   title: Rh105(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 45
 #   A: 105
@@ -15,45 +15,45 @@
 #   number of values: 9
 #   average value [b]:  1.474611E+04
 #   relative standard deviation [%]:     19.893879
-# quantity: 
-#   type: Compilation
-#   average value:  1.350000E+04
-#   relative standard deviation [%]:     18.518518
-# datablock: 
-#   columns: 10
-#   entries: 2
+#   quantity: 
+#     type: Compilation
+#     average value:  1.350000E+04
+#     relative standard deviation [%]:     18.518518
+#   datablock: 
+#     columns: 10
+#     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       RIPL-3                  Compilation          2004        1.100000E+04   3.000000E+03                      0.687500                  2.530000E-08
       Mughabghab-2018         Compilation          2018        1.600000E+04   4.000000E+03                      1.000000                  2.530000E-08
-# quantity: 
-#   type: Compilation spectrum-averaged
-#   average value:  1.600000E+04
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 1
+#   quantity: 
+#     type: Compilation spectrum-averaged
+#     average value:  1.600000E+04
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       Mughabghab-2006         Compilation          2006        1.600000E+04   4.000000E+03                      1.000000   MXW            2.530000E-08
-# quantity: 
-#   type: EXFOR spectrum-averaged
-#   average value:  1.690000E+04
-#   relative standard deviation [%]:      6.508876
-# datablock: 
-#   columns: 10
-#   entries: 2
+#   quantity: 
+#     type: EXFOR spectrum-averaged
+#     average value:  1.690000E+04
+#     relative standard deviation [%]:      6.508876
+#   datablock: 
+#     columns: 10
+#     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       J.Cuninghame            EXFOR                1962        1.800000E+04   0.000000E+00   11918-002-0        1.125000   MXW            2.530000E-08
       P.Lantz                 EXFOR                1966        1.580000E+04   1.500000E+03   11930-002-0        0.987500   SPA            2.530000E-08
-# quantity: 
-#   type: Nuclear data library
-#   average value:  1.397875E+04
-#   relative standard deviation [%]:     24.317631
-# datablock: 
-#   columns: 11
-#   entries: 4
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  1.397875E+04
+#     relative standard deviation [%]:     24.317631
+#   datablock: 
+#     columns: 11
+#     entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
       cendl3.2                NDL                  2019        1.582920E+04   0.000000E+00                      0.989325                  2.530000E-08   9.969900E-01

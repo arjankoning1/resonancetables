@@ -1,7 +1,7 @@
 # header: 
 #   title: Sn117(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 50
 #   A: 117
@@ -12,48 +12,64 @@
 #   selected value [b]:  1.070000E+00
 #   selected value uncertainty [b]:  5.000000E-02
 #   selected value source: Mughabghab-2018
-#   number of values: 10
-#   average value [b]:  1.337762E+00
-#   relative standard deviation [%]:     39.853184
-# quantity: 
-#   type: Compilation
-#   average value:  1.085000E+00
-#   relative standard deviation [%]:      1.382487
-# datablock: 
-#   columns: 10
-#   entries: 2
+#   number of values: 17
+#   average value [b]:           NaN
+#   relative standard deviation [%]:           NaN
+#   quantity: 
+#     type: Compilation
+#     average value:  1.085000E+00
+#     relative standard deviation [%]:      1.382487
+#   datablock: 
+#     columns: 10
+#     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       RIPL-3                  Compilation          2004        1.100000E+00   1.000000E-01                      1.028037                  2.530000E-08
       Mughabghab-2018         Compilation          2018        1.070000E+00   5.000000E-02                      1.000000                  2.530000E-08
-# quantity: 
-#   type: Compilation spectrum-averaged
-#   average value:  1.070000E+00
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 2
+#   quantity: 
+#     type: Compilation spectrum-averaged
+#     average value:  1.070000E+00
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       Mughabghab-2006         Compilation          2006        1.070000E+00   5.000000E-02                      1.000000   MXW            2.530000E-08
       Sukhoruchkin            Compilation          2015        1.070000E+00   5.000000E-02                      1.000000   MXW            2.530000E-08
-# quantity: 
-#   type: EXFOR spectrum-averaged
-#   average value:  2.600000E+00
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 1
+#   quantity: 
+#     type: EXFOR
+#     average value:           NaN
+#     relative standard deviation [%]:           NaN
+#   datablock: 
+#     columns: 10
+#     entries: 7
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      V.P.Alfimenkov          EXFOR                1984        1.220000E+00   3.600000E-01   40865-013-0        1.140187                  2.500000E-08
+      V.P.Alfimenkov          EXFOR                1984        1.310000E+00   3.900000E-01   40865-013-0        1.224299                  2.500000E-08
+      V.P.Alfimenkov          EXFOR                1984        1.440000E+00   2.500000E-01   40865-013-0        1.345794                  2.500000E-08
+      V.P.Alfimenkov          EXFOR                1984        1.390000E+00   2.400000E-01   40865-013-0        1.299065                  2.500000E-08
+      V.P.Alfimenkov          EXFOR                1984        1.150000E+00   3.000000E-01   40865-013-0        1.074766                  2.500000E-08
+      V.P.Alfimenkov          EXFOR                1984        1.320000E+00   1.800000E-01   40865-012-0        1.233645                  2.500000E-08
+      K.Knopf                 EXFOR                1997                 NaN   0.000000E+00   22451-040-1             NaN                  2.530000E-08
+#   quantity: 
+#     type: EXFOR spectrum-averaged
+#     average value:  2.600000E+00
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       L.V.Groshev             EXFOR                1960        2.600000E+00   1.000000E+00   41669-005-0        2.429906   SPA            2.530000E-08
-# quantity: 
-#   type: Nuclear data library
-#   average value:  1.293524E+00
-#   relative standard deviation [%]:     34.011047
-# datablock: 
-#   columns: 11
-#   entries: 5
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  1.293524E+00
+#     relative standard deviation [%]:     34.011047
+#   datablock: 
+#     columns: 11
+#     entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
       cendl3.2                NDL                  2019        2.173380E+00   0.000000E+00                      2.031196                  2.530000E-08   9.997800E-01

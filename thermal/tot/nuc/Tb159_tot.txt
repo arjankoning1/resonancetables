@@ -1,0 +1,39 @@
+# header: 
+#   title: Tb159(n,tot) thermal cross section
+#   source: Resonancetables
+#   date: 2025-09-08
+# target: 
+#   Z: 65
+#   A: 159
+#   nuclide: Tb159
+# reaction: 
+#   type: (n,tot)
+# observables: 
+#   selected value [b]:  5.230000E+01
+#   selected value uncertainty [b]:  0.000000E+00
+#   selected value source: S.S.Malik
+#   number of values: 4
+#   average value [b]:  2.882500E+02
+#   relative standard deviation [%]:    142.560226
+#   quantity: 
+#     type: EXFOR
+#     average value:  5.100000E+01
+#     relative standard deviation [%]:      1.818355
+#   datablock: 
+#     columns: 10
+#     entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      S.S.Malik               EXFOR                1973        5.020000E+01   4.000000E-01   10383-002-0        0.959847                  2.600000E-08
+      S.S.Malik               EXFOR                1973        5.050000E+01   0.000000E+00   10383-002-0        0.965583                  2.500000E-08
+      S.S.Malik               EXFOR                1973        5.230000E+01   0.000000E+00   10383-002-0        1.000000                  2.400000E-08
+#   quantity: 
+#     type: EXFOR spectrum-averaged
+#     average value:  1.000000E+03
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      J.R.Dunning             EXFOR                1935        1.000000E+03   0.000000E+00   12634-055-0       19.120459   MXW            2.500000E-08

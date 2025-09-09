@@ -1,7 +1,7 @@
 # header: 
 #   title: Th232(n,tot) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 90
 #   A: 232
@@ -9,33 +9,61 @@
 # reaction: 
 #   type: (n,tot)
 # observables: 
-#   selected value [b]:  1.888000E+01
+#   selected value [b]:  1.943600E+01
 #   selected value uncertainty [b]:  0.000000E+00
-#   selected value source: D.K.Olsen
-#   number of values: 6
-#   average value [b]:  2.011553E+01
-#   relative standard deviation [%]:      2.751851
-# quantity: 
-#   type: EXFOR
-#   average value:  1.888000E+01
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 1
+#   selected value source: K.Kobayashi
+#   number of values: 25
+#   average value [b]:  1.987517E+01
+#   relative standard deviation [%]:     12.779141
+#   quantity: 
+#     type: EXFOR
+#     average value:  1.906977E+01
+#     relative standard deviation [%]:      1.445563
+#   datablock: 
+#     columns: 10
+#     entries: 17
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      D.K.Olsen               EXFOR                1982        1.888000E+01   0.000000E+00   10973-002-0        1.000000                  2.531300E-08
-# quantity: 
-#   type: Nuclear data library
-#   average value:  2.036264E+01
-#   relative standard deviation [%]:      0.179103
-# datablock: 
-#   columns: 11
-#   entries: 5
+      W.W.Havens Jr           EXFOR                1951        1.920000E+01   0.000000E+00   12247-002-0        0.987858                  2.450000E-08
+      P.A.Egelstaff           EXFOR                1953        1.990000E+01   0.000000E+00   21036-004-0        1.023873                  2.500000E-08
+      D.K.Olsen               EXFOR                1982        1.887000E+01   0.000000E+00   10973-002-0        0.970879                  2.597400E-08
+      D.K.Olsen               EXFOR                1982        1.870000E+01   0.000000E+00   10973-002-0        0.962132                  2.580600E-08
+      D.K.Olsen               EXFOR                1982        1.897000E+01   0.000000E+00   10973-002-0        0.976024                  2.564000E-08
+      D.K.Olsen               EXFOR                1982        1.889000E+01   0.000000E+00   10973-002-0        0.971908                  2.547600E-08
+      D.K.Olsen               EXFOR                1982        1.888000E+01   0.000000E+00   10973-002-0        0.971393                  2.531300E-08
+      D.K.Olsen               EXFOR                1982        1.880000E+01   0.000000E+00   10973-002-0        0.967277                  2.515200E-08
+      D.K.Olsen               EXFOR                1982        1.883000E+01   0.000000E+00   10973-002-0        0.968821                  2.499200E-08
+      D.K.Olsen               EXFOR                1982        1.896000E+01   0.000000E+00   10973-002-0        0.975509                  2.483400E-08
+      D.K.Olsen               EXFOR                1982        1.903000E+01   0.000000E+00   10973-002-0        0.979111                  2.467700E-08
+      D.K.Olsen               EXFOR                1982        1.903000E+01   0.000000E+00   10973-002-0        0.979111                  2.452200E-08
+      D.K.Olsen               EXFOR                1982        1.910000E+01   0.000000E+00   10973-002-0        0.982712                  2.436800E-08
+      D.K.Olsen               EXFOR                1982        1.919000E+01   0.000000E+00   10973-002-0        0.987343                  2.421600E-08
+      D.K.Olsen               EXFOR                1982        1.923000E+01   0.000000E+00   10973-002-0        0.989401                  2.406500E-08
+      K.Kobayashi             EXFOR                1984        1.917000E+01   0.000000E+00   21964-002-0        0.986314                  2.542300E-08
+      K.Kobayashi             EXFOR                1984        1.943600E+01   0.000000E+00   21964-002-0        1.000000                  2.418300E-08
+#   quantity: 
+#     type: EXFOR spectrum-averaged
+#     average value:  2.362667E+01
+#     relative standard deviation [%]:     25.104008
+#   datablock: 
+#     columns: 10
+#     entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      J.R.Dunning             EXFOR                1935        3.200000E+01   0.000000E+00   12634-073-0        1.646429   MXW            2.500000E-08
+      R.C.Little              EXFOR                1981        1.901000E+01   0.000000E+00   10956-002-0        0.978082   AV             2.505000E-08
+      K.Kobayashi             EXFOR                1982        1.987000E+01   1.459000E-01   21759-002-0        1.022330   AV             2.516500E-08
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  2.036264E+01
+#     relative standard deviation [%]:      0.179103
+#   datablock: 
+#     columns: 11
+#     entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
-      cendl3.2                NDL                  2019        2.038090E+01   0.000000E+00                      1.079497                  2.530000E-08   1.079580E+00
-      jendl5.0                NDL                  2021        2.038090E+01   0.000000E+00                      1.079497                  2.530000E-08   1.079580E+00
-      endfb8.1                NDL                  2024        2.038080E+01   0.000000E+00                      1.079492                  2.530000E-08   1.079580E+00
-      tendl.2025              NDL                  2025        2.028970E+01   0.000000E+00                      1.074666                  2.530000E-08   1.079350E+00
-      jeff4.0                 NDL                  2025        2.038090E+01   0.000000E+00                      1.079497                  2.530000E-08   1.079580E+00
+      cendl3.2                NDL                  2019        2.038090E+01   0.000000E+00                      1.048616                  2.530000E-08   1.079580E+00
+      jendl5.0                NDL                  2021        2.038090E+01   0.000000E+00                      1.048616                  2.530000E-08   1.079580E+00
+      endfb8.1                NDL                  2024        2.038080E+01   0.000000E+00                      1.048611                  2.530000E-08   1.079580E+00
+      tendl.2025              NDL                  2025        2.028970E+01   0.000000E+00                      1.043924                  2.530000E-08   1.079350E+00
+      jeff4.0                 NDL                  2025        2.038090E+01   0.000000E+00                      1.048616                  2.530000E-08   1.079580E+00

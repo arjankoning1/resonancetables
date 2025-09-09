@@ -1,7 +1,7 @@
 # header: 
 #   title: Y089(n,tot) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 39
 #   A: 89
@@ -12,26 +12,36 @@
 #   selected value [b]:  8.526000E+00
 #   selected value uncertainty [b]:  0.000000E+00
 #   selected value source: R.E.Schmunk
-#   number of values: 6
-#   average value [b]:  8.896587E+00
-#   relative standard deviation [%]:      1.908203
-# quantity: 
-#   type: EXFOR
-#   average value:  8.526000E+00
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 1
+#   number of values: 7
+#   average value [b]:  1.219114E+02
+#   relative standard deviation [%]:    227.073639
+#   quantity: 
+#     type: EXFOR
+#     average value:  8.526000E+00
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       R.E.Schmunk             EXFOR                1960        8.526000E+00   0.000000E+00   11634-004-0        1.000000                  2.527000E-08
-# quantity: 
-#   type: Nuclear data library
-#   average value:  8.970706E+00
-#   relative standard deviation [%]:      0.449169
-# datablock: 
-#   columns: 11
-#   entries: 5
+#   quantity: 
+#     type: EXFOR spectrum-averaged
+#     average value:  8.000000E+02
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      J.R.Dunning             EXFOR                1935        8.000000E+02   0.000000E+00   12634-034-0       93.830635   MXW            2.500000E-08
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  8.970706E+00
+#     relative standard deviation [%]:      0.449169
+#   datablock: 
+#     columns: 11
+#     entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
       cendl3.2                NDL                  2019        9.028840E+00   0.000000E+00                      1.058977                  2.530000E-08   1.094520E+00

@@ -1,7 +1,7 @@
 # header: 
 #   title: Hf000(n,tot) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 72
 #   A: 0
@@ -9,19 +9,21 @@
 # reaction: 
 #   type: (n,tot)
 # observables: 
-#   selected value [b]:  1.100000E+02
-#   selected value uncertainty [b]:  2.000000E+00
-#   selected value source: E.G.Joki
-#   number of values: 1
-#   average value [b]:  1.100000E+02
-#   relative standard deviation [%]:      0.000000
-# quantity: 
-#   type: EXFOR
-#   average value:  1.100000E+02
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 1
+#   selected value [b]:  1.129600E+02
+#   selected value uncertainty [b]:  3.388800E+00
+#   selected value source: H.J.Cho
+#   number of values: 3
+#   average value [b]:  1.130867E+02
+#   relative standard deviation [%]:      2.275710
+#   quantity: 
+#     type: EXFOR
+#     average value:  1.130867E+02
+#     relative standard deviation [%]:      2.275710
+#   datablock: 
+#     columns: 10
+#     entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      E.G.Joki                EXFOR                1961        1.100000E+02   2.000000E+00   11635-008-0        1.000000                  2.530000E-08
+      R.Schermer              EXFOR                1961        1.163000E+02   0.000000E+00   12124-002-0        1.029568                  2.450000E-08
+      E.G.Joki                EXFOR                1961        1.100000E+02   2.000000E+00   11635-008-0        0.973796                  2.530000E-08
+      H.J.Cho                 EXFOR                2000        1.129600E+02   3.388800E+00   22725-003-0        1.000000                  2.511900E-08

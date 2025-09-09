@@ -1,7 +1,7 @@
 # header: 
 #   title: Ne020(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 10
 #   A: 20
@@ -15,46 +15,46 @@
 #   number of values: 10
 #   average value [b]:  3.724680E-02
 #   relative standard deviation [%]:      2.473279
-# quantity: 
-#   type: Compilation
-#   average value:  3.850000E-02
-#   relative standard deviation [%]:      3.896102
-# datablock: 
-#   columns: 10
-#   entries: 2
+#   quantity: 
+#     type: Compilation
+#     average value:  3.850000E-02
+#     relative standard deviation [%]:      3.896102
+#   datablock: 
+#     columns: 10
+#     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       RIPL-3                  Compilation          2004        4.000000E-02   1.000000E-02                      1.081081                  2.530000E-08
       Mughabghab-2018         Compilation          2018        3.700000E-02   4.000000E-03                      1.000000                  2.530000E-08
-# quantity: 
-#   type: Compilation spectrum-averaged
-#   average value:  3.700000E-02
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 2
+#   quantity: 
+#     type: Compilation spectrum-averaged
+#     average value:  3.700000E-02
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       Mughabghab-2006         Compilation          2006        3.700000E-02   4.000000E-03                      1.000000   MXW            2.530000E-08
       Sukhoruchkin            Compilation          2015        3.700000E-02   4.000000E-03                      1.000000   MXW            2.530000E-08
-# quantity: 
-#   type: EXFOR spectrum-averaged
-#   average value:  3.690000E-02
-#   relative standard deviation [%]:      0.271002
-# datablock: 
-#   columns: 10
-#   entries: 2
+#   quantity: 
+#     type: EXFOR spectrum-averaged
+#     average value:  3.690000E-02
+#     relative standard deviation [%]:      0.271002
+#   datablock: 
+#     columns: 10
+#     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       E.Selin                 EXFOR                1970        3.700000E-02   0.000000E+00   23510-004-2        1.000000   SPA            2.530000E-08
       D.Bellmann              EXFOR                1971        3.680000E-02   4.500000E-03   23482-003-0        0.994595   SPA            2.530000E-08
-# quantity: 
-#   type: Nuclear data library
-#   average value:  3.691700E-02
-#   relative standard deviation [%]:      0.226491
-# datablock: 
-#   columns: 11
-#   entries: 4
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  3.691700E-02
+#     relative standard deviation [%]:      0.226491
+#   datablock: 
+#     columns: 11
+#     entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
       jendl5.0                NDL                  2021        3.680120E-02   0.000000E+00                      0.994627                  2.530000E-08   1.000110E+00

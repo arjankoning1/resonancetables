@@ -1,7 +1,7 @@
 # header: 
 #   title: Es254(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 99
 #   A: 254
@@ -12,56 +12,57 @@
 #   selected value [b]:  2.800000E+01
 #   selected value uncertainty [b]:  3.000000E+00
 #   selected value source: Mughabghab-2018
-#   number of values: 8
-#   average value [b]:  2.654819E+01
-#   relative standard deviation [%]:     16.451340
-# quantity: 
-#   type: Compilation
-#   average value:  2.800000E+01
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 1
+#   number of values: 9
+#   average value [b]:  2.674283E+01
+#   relative standard deviation [%]:     15.534592
+#   quantity: 
+#     type: Compilation
+#     average value:  2.800000E+01
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       Mughabghab-2018         Compilation          2018        2.800000E+01   3.000000E+00                      1.000000                  2.530000E-08
-# quantity: 
-#   type: Compilation spectrum-averaged
-#   average value:  2.830000E+01
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 1
+#   quantity: 
+#     type: Compilation spectrum-averaged
+#     average value:  2.830000E+01
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       Mughabghab-2006         Compilation          2006        2.830000E+01   2.500000E+00                      1.010714   MXW            2.530000E-08
-# quantity: 
-#   type: EXFOR
-#   average value:  2.830000E+01
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 1
+      Firestone-2022          Compilation          2022        2.830000E+01   2.500000E+00                      1.010714   MXW            2.530000E-08
+#   quantity: 
+#     type: EXFOR
+#     average value:  2.830000E+01
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       J.Halperin              EXFOR                1985        2.830000E+01   2.500000E+00   12933-002-0        1.010714                  2.530000E-08
-# quantity: 
-#   type: EXFOR spectrum-averaged
-#   average value:  1.500000E+01
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 1
+#   quantity: 
+#     type: EXFOR spectrum-averaged
+#     average value:  1.500000E+01
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       B.G.Harvey              EXFOR                1954        1.500000E+01   0.000000E+00   12567-010-0        0.535714   SPA            2.530000E-08
-# quantity: 
-#   type: Nuclear data library
-#   average value:  2.819637E+01
-#   relative standard deviation [%]:      0.640848
-# datablock: 
-#   columns: 11
-#   entries: 4
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  2.819637E+01
+#     relative standard deviation [%]:      0.640848
+#   datablock: 
+#     columns: 11
+#     entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
       jendl5.0                NDL                  2021        2.830070E+01   0.000000E+00                      1.010739                  2.530000E-08   1.000030E+00

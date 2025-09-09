@@ -1,7 +1,7 @@
 # header: 
 #   title: Cd000(n,tot) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 48
 #   A: 0
@@ -12,18 +12,37 @@
 #   selected value [b]:  2.450000E+03
 #   selected value uncertainty [b]:  4.000000E+01
 #   selected value source: K.Volev
-#   number of values: 3
-#   average value [b]:  2.444000E+03
-#   relative standard deviation [%]:      0.498891
-# quantity: 
-#   type: EXFOR
-#   average value:  2.444000E+03
-#   relative standard deviation [%]:      0.498891
-# datablock: 
-#   columns: 10
-#   entries: 3
+#   number of values: 13
+#   average value [b]:  2.628977E+03
+#   relative standard deviation [%]:     15.613918
+#   quantity: 
+#     type: EXFOR
+#     average value:  2.573058E+03
+#     relative standard deviation [%]:     14.639555
+#   datablock: 
+#     columns: 10
+#     entries: 12
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      C.P.Baker               EXFOR                1941        3.813700E+03   0.000000E+00   14687-003-0        1.556612                  2.400000E-08
+      L.J.Rainwater           EXFOR                1947        2.398100E+03   0.000000E+00   11685-013-0        0.978816                  2.500000E-08
+      L.J.Rainwater           EXFOR                1947        2.455900E+03   0.000000E+00   11685-003-0        1.002408                  2.500000E-08
+      R.B.Walton              EXFOR                1960        2.550000E+03   0.000000E+00   11359-004-0        1.040816                  2.600000E-08
+      R.B.Walton              EXFOR                1960        2.550000E+03   0.000000E+00   11359-004-0        1.040816                  2.510000E-08
+      R.Oe.Akyuez             EXFOR                1967        2.422000E+03   0.000000E+00   20228-002-0        0.988571                  2.500000E-08
       F.Widder                EXFOR                1968        2.455000E+03   1.000000E+01   21034-004-0        1.002041                  2.530000E-08
+      F.Widder                EXFOR                1968        2.437000E+03   2.708000E+01   21034-002-0        0.994694                  2.572000E-08
       F.Widder                EXFOR                1968        2.427000E+03   2.743000E+01   21034-002-0        0.990612                  2.524000E-08
+      F.Widder                EXFOR                1968        2.446000E+03   2.811000E+01   21034-002-0        0.998367                  2.477000E-08
+      F.Widder                EXFOR                1968        2.472000E+03   2.885000E+01   21034-002-0        1.008980                  2.432000E-08
       K.Volev                 EXFOR                2013        2.450000E+03   4.000000E+01   23196-034-0        1.000000                  2.530000E-08
+#   quantity: 
+#     type: EXFOR spectrum-averaged
+#     average value:  3.300000E+03
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      J.R.Dunning             EXFOR                1935        3.300000E+03   0.000000E+00   12634-042-0        1.346939   MXW            2.500000E-08

@@ -1,7 +1,7 @@
 # header: 
 #   title: Ir193(n,tot) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 77
 #   A: 193
@@ -9,35 +9,42 @@
 # reaction: 
 #   type: (n,tot)
 # observables: 
-#   selected value [b]:  1.230000E+02
+#   selected value [b]:  1.310000E+02
 #   selected value uncertainty [b]:  0.000000E+00
 #   selected value source: V.P.Vertebnyj
-#   number of values: 8
-#   average value [b]:  1.107742E+02
-#   relative standard deviation [%]:     33.872482
-# quantity: 
-#   type: EXFOR
-#   average value:  1.213750E+02
-#   relative standard deviation [%]:      4.314389
-# datablock: 
-#   columns: 10
-#   entries: 4
+#   number of values: 15
+#   average value [b]:  1.188129E+02
+#   relative standard deviation [%]:     24.258652
+#   quantity: 
+#     type: EXFOR
+#     average value:  1.255909E+02
+#     relative standard deviation [%]:      4.236538
+#   datablock: 
+#     columns: 10
+#     entries: 11
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      H.Bolotin               EXFOR                1959        1.125000E+02   7.500000E+00   12155-003-0        0.914634                  2.530000E-08
-      V.P.Vertebnyj           EXFOR                1980        1.260000E+02   0.000000E+00   40536-007-0        1.024390                  2.520000E-08
-      V.P.Vertebnyj           EXFOR                1980        1.240000E+02   0.000000E+00   40536-007-0        1.008130                  2.530000E-08
-      V.P.Vertebnyj           EXFOR                1980        1.230000E+02   0.000000E+00   40536-007-0        1.000000                  2.540000E-08
-# quantity: 
-#   type: Nuclear data library
-#   average value:  1.001734E+02
-#   relative standard deviation [%]:     50.544571
-# datablock: 
-#   columns: 11
-#   entries: 4
+      H.Bolotin               EXFOR                1959        1.125000E+02   7.500000E+00   12155-003-0        0.858779                  2.530000E-08
+      V.P.Vertebnyj           EXFOR                1980        1.350000E+02   0.000000E+00   40536-007-0        1.030534                  2.500000E-08
+      V.P.Vertebnyj           EXFOR                1980        1.250000E+02   0.000000E+00   40536-007-0        0.954198                  2.510000E-08
+      V.P.Vertebnyj           EXFOR                1980        1.260000E+02   0.000000E+00   40536-007-0        0.961832                  2.520000E-08
+      V.P.Vertebnyj           EXFOR                1980        1.240000E+02   0.000000E+00   40536-007-0        0.946565                  2.530000E-08
+      V.P.Vertebnyj           EXFOR                1980        1.230000E+02   0.000000E+00   40536-007-0        0.938931                  2.540000E-08
+      V.P.Vertebnyj           EXFOR                1980        1.290000E+02   0.000000E+00   40536-007-0        0.984733                  2.550000E-08
+      V.P.Vertebnyj           EXFOR                1980        1.250000E+02   0.000000E+00   40536-007-0        0.954198                  2.560000E-08
+      V.P.Vertebnyj           EXFOR                1980        1.260000E+02   0.000000E+00   40536-007-0        0.961832                  2.580000E-08
+      V.P.Vertebnyj           EXFOR                1980        1.250000E+02   0.000000E+00   40536-007-0        0.954198                  2.590000E-08
+      V.P.Vertebnyj           EXFOR                1980        1.310000E+02   0.000000E+00   40536-007-0        1.000000                  2.600000E-08
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  1.001734E+02
+#     relative standard deviation [%]:     50.544571
+#   datablock: 
+#     columns: 11
+#     entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
-      jendl5.0                NDL                  2021        1.264170E+01   0.000000E+00                      0.102778                  2.530000E-08   1.151570E+00
-      endfb8.1                NDL                  2024        1.242680E+02   0.000000E+00                      1.010309                  2.530000E-08   1.028760E+00
-      tendl.2025              NDL                  2025        1.318920E+02   0.000000E+00                      1.072293                  2.530000E-08   1.034360E+00
-      jeff4.0                 NDL                  2025        1.318920E+02   0.000000E+00                      1.072293                  2.530000E-08   1.034360E+00
+      jendl5.0                NDL                  2021        1.264170E+01   0.000000E+00                      0.096502                  2.530000E-08   1.151570E+00
+      endfb8.1                NDL                  2024        1.242680E+02   0.000000E+00                      0.948611                  2.530000E-08   1.028760E+00
+      tendl.2025              NDL                  2025        1.318920E+02   0.000000E+00                      1.006809                  2.530000E-08   1.034360E+00
+      jeff4.0                 NDL                  2025        1.318920E+02   0.000000E+00                      1.006809                  2.530000E-08   1.034360E+00

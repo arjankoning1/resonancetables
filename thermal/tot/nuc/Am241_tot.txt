@@ -1,7 +1,7 @@
 # header: 
 #   title: Am241(n,tot) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 95
 #   A: 241
@@ -9,34 +9,37 @@
 # reaction: 
 #   type: (n,tot)
 # observables: 
-#   selected value [b]:  6.400000E+02
-#   selected value uncertainty [b]:  2.000000E+01
+#   selected value [b]:  6.473800E+02
+#   selected value uncertainty [b]:  0.000000E+00
 #   selected value source: T.S.Belanova
-#   number of values: 7
-#   average value [b]:  6.744754E+02
-#   relative standard deviation [%]:      6.846893
-# quantity: 
-#   type: EXFOR
-#   average value:  6.200000E+02
-#   relative standard deviation [%]:      3.225806
-# datablock: 
-#   columns: 10
-#   entries: 2
+#   number of values: 10
+#   average value [b]:  6.576708E+02
+#   relative standard deviation [%]:      7.263926
+#   quantity: 
+#     type: EXFOR
+#     average value:  6.190760E+02
+#     relative standard deviation [%]:      3.316226
+#   datablock: 
+#     columns: 10
+#     entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      Ju.V.Adamchuk           EXFOR                1955        6.000000E+02   0.000000E+00   40063-019-0        0.937500                  2.529900E-08
-      T.S.Belanova            EXFOR                1976        6.400000E+02   2.000000E+01   40305-006-1        1.000000                  2.530000E-08
-# quantity: 
-#   type: Nuclear data library
-#   average value:  6.962656E+02
-#   relative standard deviation [%]:      4.899784
-# datablock: 
-#   columns: 11
-#   entries: 5
+      Ju.V.Adamchuk           EXFOR                1955        6.000000E+02   0.000000E+00   40063-019-0        0.926813                  2.529900E-08
+      Ju.V.Adamchuk           EXFOR                1955        5.990000E+02   0.000000E+00   40063-016-0        0.925268                  2.549900E-08
+      Ju.V.Adamchuk           EXFOR                1955        6.090000E+02   0.000000E+00   40063-016-0        0.940715                  2.439900E-08
+      T.S.Belanova            EXFOR                1976        6.400000E+02   2.000000E+01   40305-006-1        0.988600                  2.530000E-08
+      T.S.Belanova            EXFOR                1976        6.473800E+02   0.000000E+00   40305-005-0        1.000000                  2.420000E-08
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  6.962656E+02
+#     relative standard deviation [%]:      4.899784
+#   datablock: 
+#     columns: 11
+#     entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
-      cendl3.2                NDL                  2019        6.330370E+02   0.000000E+00                      0.989120                  2.530000E-08   1.002040E+00
-      jendl5.0                NDL                  2021        7.166430E+02   0.000000E+00                      1.119755                  2.530000E-08   9.972500E-01
-      endfb8.1                NDL                  2024        6.990440E+02   0.000000E+00                      1.092256                  2.530000E-08   1.011290E+00
-      tendl.2025              NDL                  2025        6.990450E+02   0.000000E+00                      1.092258                  2.530000E-08   1.011290E+00
-      jeff4.0                 NDL                  2025        7.335590E+02   0.000000E+00                      1.146186                  2.530000E-08   1.009020E+00
+      cendl3.2                NDL                  2019        6.330370E+02   0.000000E+00                      0.977845                  2.530000E-08   1.002040E+00
+      jendl5.0                NDL                  2021        7.166430E+02   0.000000E+00                      1.106990                  2.530000E-08   9.972500E-01
+      endfb8.1                NDL                  2024        6.990440E+02   0.000000E+00                      1.079805                  2.530000E-08   1.011290E+00
+      tendl.2025              NDL                  2025        6.990450E+02   0.000000E+00                      1.079806                  2.530000E-08   1.011290E+00
+      jeff4.0                 NDL                  2025        7.335590E+02   0.000000E+00                      1.133120                  2.530000E-08   1.009020E+00

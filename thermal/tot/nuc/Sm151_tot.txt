@@ -1,7 +1,7 @@
 # header: 
 #   title: Sm151(n,tot) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 62
 #   A: 151
@@ -9,33 +9,36 @@
 # reaction: 
 #   type: (n,tot)
 # observables: 
-#   selected value [b]:  1.500000E+04
-#   selected value uncertainty [b]:  1.800000E+03
-#   selected value source: N.J.Pattenden
-#   number of values: 6
-#   average value [b]:  1.510495E+04
-#   relative standard deviation [%]:      0.895174
-# quantity: 
-#   type: EXFOR
-#   average value:  1.500000E+04
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 1
+#   selected value [b]:  1.595700E+04
+#   selected value uncertainty [b]:  0.000000E+00
+#   selected value source: G.J.Kirouac
+#   number of values: 9
+#   average value [b]:  1.519363E+04
+#   relative standard deviation [%]:      1.990874
+#   quantity: 
+#     type: EXFOR
+#     average value:  1.527825E+04
+#     relative standard deviation [%]:      2.689626
+#   datablock: 
+#     columns: 10
+#     entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      N.J.Pattenden           EXFOR                1963        1.500000E+04   1.800000E+03   12025-007-0        1.000000                  2.530000E-08
-# quantity: 
-#   type: Nuclear data library
-#   average value:  1.512594E+04
-#   relative standard deviation [%]:      0.918366
-# datablock: 
-#   columns: 11
-#   entries: 5
+      N.J.Pattenden           EXFOR                1963        1.500000E+04   1.800000E+03   12025-007-0        0.940026                  2.530000E-08
+      G.J.Kirouac             EXFOR                1975        1.490900E+04   0.000000E+00   10503-008-0        0.934323                  2.575000E-08
+      G.J.Kirouac             EXFOR                1975        1.524700E+04   0.000000E+00   10503-008-0        0.955505                  2.504000E-08
+      G.J.Kirouac             EXFOR                1975        1.595700E+04   0.000000E+00   10503-008-0        1.000000                  2.436000E-08
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  1.512594E+04
+#     relative standard deviation [%]:      0.918366
+#   datablock: 
+#     columns: 11
+#     entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
-      cendl3.2                NDL                  2019        1.517450E+04   0.000000E+00                      1.011633                  2.530000E-08   9.272600E-01
-      jendl5.0                NDL                  2021        1.521050E+04   0.000000E+00                      1.014033                  2.530000E-08   9.274800E-01
-      endfb8.1                NDL                  2024        1.519940E+04   0.000000E+00                      1.013293                  2.530000E-08   9.270400E-01
-      tendl.2025              NDL                  2025        1.519620E+04   0.000000E+00                      1.013080                  2.530000E-08   9.298000E-01
-      jeff4.0                 NDL                  2025        1.484910E+04   0.000000E+00                      0.989940                  2.530000E-08   9.231500E-01
+      cendl3.2                NDL                  2019        1.517450E+04   0.000000E+00                      0.950962                  2.530000E-08   9.272600E-01
+      jendl5.0                NDL                  2021        1.521050E+04   0.000000E+00                      0.953218                  2.530000E-08   9.274800E-01
+      endfb8.1                NDL                  2024        1.519940E+04   0.000000E+00                      0.952522                  2.530000E-08   9.270400E-01
+      tendl.2025              NDL                  2025        1.519620E+04   0.000000E+00                      0.952322                  2.530000E-08   9.298000E-01
+      jeff4.0                 NDL                  2025        1.484910E+04   0.000000E+00                      0.930570                  2.530000E-08   9.231500E-01

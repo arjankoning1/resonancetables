@@ -1,7 +1,7 @@
 # header: 
 #   title: Ba130(n,g)-m thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 56
 #   A: 130
@@ -12,39 +12,40 @@
 #   selected value [b]:  1.000000E+00
 #   selected value uncertainty [b]:  3.000000E-01
 #   selected value source: RIPL-3
-#   number of values: 7
-#   average value [b]:  2.367050E+00
-#   relative standard deviation [%]:    116.071602
-# quantity: 
-#   type: Compilation
-#   average value:  1.000000E+00
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 1
+#   number of values: 8
+#   average value [b]:  2.193669E+00
+#   relative standard deviation [%]:    119.008087
+#   quantity: 
+#     type: Compilation
+#     average value:  1.000000E+00
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       RIPL-3                  Compilation          2004        1.000000E+00   3.000000E-01                      1.000000                  2.530000E-08
-# quantity: 
-#   type: EXFOR spectrum-averaged
-#   average value:  3.604000E+00
-#   relative standard deviation [%]:     86.015938
-# datablock: 
-#   columns: 10
-#   entries: 4
+#   quantity: 
+#     type: EXFOR spectrum-averaged
+#     average value:  3.079200E+00
+#     relative standard deviation [%]:     96.283073
+#   datablock: 
+#     columns: 10
+#     entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       W.S.Lyon                EXFOR                1960        8.800000E+00   8.800000E-01   11625-022-0        8.800000   SPA            2.530000E-08
       H.Arino                 EXFOR                1964        2.520000E+00   0.000000E+00   11817-011-0        2.520000   MXW            2.530000E-08
       R.S.Tilbury             EXFOR                1968        2.500000E+00   3.000000E-01   11927-011-0        2.500000   SPA            2.530000E-08
+      R.E.Heft                EXFOR                1978        9.800000E-01   5.000000E-02   12866-118-0        0.980000   SPA            2.500000E-08
       A.Y.Dauenhauer          EXFOR                2012        5.960000E-01   3.700000E-02   14340-002-0        0.596000   MXW            2.530000E-08
-# quantity: 
-#   type: Nuclear data library
-#   average value:  5.766750E-01
-#   relative standard deviation [%]:      0.000868
-# datablock: 
-#   columns: 11
-#   entries: 2
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  5.766750E-01
+#     relative standard deviation [%]:      0.000868
+#   datablock: 
+#     columns: 11
+#     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
       tendl.2025              NDL                  2025        5.766700E-01   0.000000E+00                      0.576670                  2.530000E-08   0.000000E+00

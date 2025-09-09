@@ -1,7 +1,7 @@
 # header: 
 #   title: Nb093(n,tot) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 41
 #   A: 93
@@ -9,34 +9,56 @@
 # reaction: 
 #   type: (n,tot)
 # observables: 
-#   selected value [b]:  7.024980E+00
-#   selected value uncertainty [b]:  0.000000E+00
-#   selected value source: jendl5.0
-#   number of values: 7
-#   average value [b]:  7.187819E+00
-#   relative standard deviation [%]:      4.958072
-# quantity: 
-#   type: EXFOR
-#   average value:  6.714500E+00
-#   relative standard deviation [%]:      3.373297
-# datablock: 
-#   columns: 10
-#   entries: 2
+#   selected value [b]:  6.962000E+00
+#   selected value uncertainty [b]:  3.340000E-01
+#   selected value source: S.Endo
+#   number of values: 20
+#   average value [b]:  7.039336E+00
+#   relative standard deviation [%]:     24.761965
+#   quantity: 
+#     type: EXFOR
+#     average value:  6.421500E+00
+#     relative standard deviation [%]:     10.398076
+#   datablock: 
+#     columns: 10
+#     entries: 14
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      S.Endo                  EXFOR                2022        6.488000E+00   1.100000E-01   23605-003-0        0.923561                  2.523200E-08
-      S.Endo                  EXFOR                2022        6.941000E+00   3.340000E-01   23605-002-0        0.988046                  2.523200E-08
-# quantity: 
-#   type: Nuclear data library
-#   average value:  7.377146E+00
-#   relative standard deviation [%]:      2.418359
-# datablock: 
-#   columns: 11
-#   entries: 5
+      C.S.Wu                  EXFOR                1947        6.073000E+00   0.000000E+00   11751-005-0        0.872307                  2.490000E-08
+      M.R.Serpa               EXFOR                1970        5.480000E+00   0.000000E+00   10404-006-0        0.787130                  2.577000E-08
+      M.R.Serpa               EXFOR                1970        5.110000E+00   0.000000E+00   10404-006-0        0.733985                  2.504000E-08
+      M.R.Serpa               EXFOR                1970        5.240000E+00   0.000000E+00   10404-006-0        0.752657                  2.452000E-08
+      S.Endo                  EXFOR                2022        6.696000E+00   1.110000E-01   23605-003-0        0.961793                  2.411000E-08
+      S.Endo                  EXFOR                2022        6.552000E+00   1.100000E-01   23605-003-0        0.941109                  2.447600E-08
+      S.Endo                  EXFOR                2022        6.517000E+00   1.100000E-01   23605-003-0        0.936082                  2.485000E-08
+      S.Endo                  EXFOR                2022        6.488000E+00   1.100000E-01   23605-003-0        0.931916                  2.523200E-08
+      S.Endo                  EXFOR                2022        6.510000E+00   1.100000E-01   23605-003-0        0.935076                  2.562300E-08
+      S.Endo                  EXFOR                2022        7.218000E+00   3.360000E-01   23605-002-0        1.036771                  2.411000E-08
+      S.Endo                  EXFOR                2022        7.058000E+00   3.350000E-01   23605-002-0        1.013789                  2.447600E-08
+      S.Endo                  EXFOR                2022        6.962000E+00   3.340000E-01   23605-002-0        1.000000                  2.485000E-08
+      S.Endo                  EXFOR                2022        6.941000E+00   3.340000E-01   23605-002-0        0.996984                  2.523200E-08
+      S.Endo                  EXFOR                2022        7.056000E+00   3.350000E-01   23605-002-0        1.013502                  2.562300E-08
+#   quantity: 
+#     type: EXFOR spectrum-averaged
+#     average value:  1.400000E+01
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      J.R.Dunning             EXFOR                1935        1.400000E+01   0.000000E+00   12634-036-0        2.010916   MXW            2.500000E-08
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  7.377146E+00
+#     relative standard deviation [%]:      2.418359
+#   datablock: 
+#     columns: 11
+#     entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
-      cendl3.2                NDL                  2019        7.497270E+00   0.000000E+00                      1.067230                  2.530000E-08   1.108820E+00
-      jendl5.0                NDL                  2021        7.024980E+00   0.000000E+00                      1.000000                  2.530000E-08   1.145540E+00
-      endfb8.1                NDL                  2024        7.497270E+00   0.000000E+00                      1.067230                  2.530000E-08   1.108820E+00
-      tendl.2025              NDL                  2025        7.433090E+00   0.000000E+00                      1.058094                  2.530000E-08   1.108470E+00
-      jeff4.0                 NDL                  2025        7.433120E+00   0.000000E+00                      1.058098                  2.530000E-08   1.108460E+00
+      cendl3.2                NDL                  2019        7.497270E+00   0.000000E+00                      1.076885                  2.530000E-08   1.108820E+00
+      jendl5.0                NDL                  2021        7.024980E+00   0.000000E+00                      1.009046                  2.530000E-08   1.145540E+00
+      endfb8.1                NDL                  2024        7.497270E+00   0.000000E+00                      1.076885                  2.530000E-08   1.108820E+00
+      tendl.2025              NDL                  2025        7.433090E+00   0.000000E+00                      1.067666                  2.530000E-08   1.108470E+00
+      jeff4.0                 NDL                  2025        7.433120E+00   0.000000E+00                      1.067670                  2.530000E-08   1.108460E+00

@@ -1,7 +1,7 @@
 # header: 
 #   title: Se078 D1 resonance data
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 34
 #   A: 78
@@ -12,27 +12,37 @@
 #   selected value [eV]:  5.000000E+02
 #   selected value uncertainty [eV]:  2.400000E+02
 #   selected value source: RIPL-3
-#   number of values: 8
-#   average value [b]:  4.289450E+03
-#   relative standard deviation [%]:     72.401779
-# quantity: 
-#   type: Compilation
-#   average value:  5.075000E+02
-#   relative standard deviation [%]:      1.477833
-# datablock: 
-#   columns: 8
-#   entries: 2
+#   number of values: 9
+#   average value [b]:  3.867289E+03
+#   relative standard deviation [%]:     81.766129
+#   quantity: 
+#     type: Compilation
+#     average value:  5.075000E+02
+#     relative standard deviation [%]:      1.477833
+#   datablock: 
+#     columns: 8
+#     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
       RIPL-3                  Compilation          2009        5.000000E+02   2.400000E+02            07I       1.000000
       Mughabghab-2018         Compilation          2018        5.150000E+02   3.500000E+02                      1.030000
-# quantity: 
-#   type: Nuclear data library
-#   average value:  5.550100E+03
-#   relative standard deviation [%]:     45.946926
-# datablock: 
-#   columns: 8
-#   entries: 6
+#   quantity: 
+#     type: EXFOR
+#     average value:  4.900000E+02
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 13
+#     entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
+##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
+      N.V.Sosnin              EXFOR                2024        4.900000E+02   5.000000E+01      23666-005       0.980000                                     1.0                                   
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  5.550100E+03
+#     relative standard deviation [%]:     45.946926
+#   datablock: 
+#     columns: 8
+#     entries: 6
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
       cendl3.2                NDL                  2019        3.000000E+03   0.000000E+00                      6.000000

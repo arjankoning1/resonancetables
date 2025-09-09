@@ -1,7 +1,7 @@
 # header: 
 #   title: Ce140 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 58
 #   A: 140
@@ -13,39 +13,39 @@
 #   selected value uncertainty [eV]:  5.000000E+02
 #   selected value source: RIPL-3
 #   number of values: 12
-#   average value [b]:  3.383472E+03
-#   relative standard deviation [%]:     42.852196
-# quantity: 
-#   type: Compilation
-#   average value:  3.100000E+03
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 9
-#   entries: 2
+#   average value [b]:  3.589100E+03
+#   relative standard deviation [%]:     30.225510
+#   quantity: 
+#     type: Compilation
+#     average value:  3.100000E+03
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 9
+#     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio       #Resonances
 ##      []             []             []             []            [eV]           [eV]            []             []             []
       RIPL-2                  Compilation          2000        3.100000E+03   5.000000E+02            96I       1.000000               
       RIPL-3                  Compilation          2009        3.100000E+03   5.000000E+02            96I       1.000000               
-# quantity: 
-#   type: EXFOR
-#   average value:  2.900618E+03
-#   relative standard deviation [%]:     61.781441
-# datablock: 
-#   columns: 13
-#   entries: 4
+#   quantity: 
+#     type: EXFOR
+#     average value:  3.517500E+03
+#     relative standard deviation [%]:     25.066483
+#   datablock: 
+#     columns: 13
+#     entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
 ##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
-      G.Hacken                EXFOR                1974        2.470000E+00   0.000000E+00      10411-004       0.000797   2.543400E-03   6.296700E-02       0.0                                   
+      G.Hacken                EXFOR                1974        2.470000E+03   0.000000E+00      10411-004       0.796774   2.543400E-03   6.296700E-02       0.0                                   
       H.S.Camarda             EXFOR                1978        4.900000E+03   0.000000E+00      10760-004       1.580645   2.000000E-02   2.400000E-01       0.0                                   
       A.R.De L.Musgrove       EXFOR                1979        3.200000E+03   8.000000E+02      30361-003       1.032258   3.000000E-03   1.000000E-01       0.0                                   
       M.Ohkubo                EXFOR                1993        3.500000E+03   8.000000E+02      20819-011       1.129032                                     0.0                                   
-# quantity: 
-#   type: Nuclear data library
-#   average value:  3.799866E+03
-#   relative standard deviation [%]:     34.391685
-# datablock: 
-#   columns: 8
-#   entries: 6
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  3.799866E+03
+#     relative standard deviation [%]:     34.391685
+#   datablock: 
+#     columns: 8
+#     entries: 6
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
       cendl3.2                NDL                  2019        5.128210E+03   0.000000E+00                      1.654261

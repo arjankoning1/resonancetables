@@ -1,7 +1,7 @@
 # header: 
 #   title: Ca000(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 20
 #   A: 0
@@ -11,27 +11,28 @@
 # observables: 
 #   selected value [b]:  4.320000E-01
 #   selected value uncertainty [b]:  1.200000E-02
-#   selected value source: Firestone
-#   number of values: 2
-#   average value [b]:  4.010000E-01
-#   relative standard deviation [%]:      7.730674
-# quantity: 
-#   type: Compilation spectrum-averaged
-#   average value:  4.320000E-01
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 1
+#   selected value source: Firestone-2022
+#   number of values: 3
+#   average value [b]:  4.106667E-01
+#   relative standard deviation [%]:      7.005017
+#   quantity: 
+#     type: Compilation spectrum-averaged
+#     average value:  4.320000E-01
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      Firestone               Compilation          2022        4.320000E-01   1.200000E-02                      1.000000   MXW            2.530000E-08
-# quantity: 
-#   type: EXFOR spectrum-averaged
-#   average value:  3.700000E-01
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 1
+      Firestone-2022          Compilation          2022        4.320000E-01   1.200000E-02                      1.000000   MXW            2.530000E-08
+#   quantity: 
+#     type: EXFOR spectrum-averaged
+#     average value:  4.000000E-01
+#     relative standard deviation [%]:      7.500000
+#   datablock: 
+#     columns: 10
+#     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       J.Coltman               EXFOR                1946        3.700000E-01   4.000000E-02   12616-007-0        0.856481   MXW            2.530000E-08
+      F.P.Cranston            EXFOR                1971        4.300000E-01   4.000000E-02   10168-008-0        0.995370   MXW            2.500000E-08

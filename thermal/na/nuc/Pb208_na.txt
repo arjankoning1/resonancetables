@@ -1,7 +1,7 @@
 # header: 
 #   title: Pb208(n,a) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 82
 #   A: 208
@@ -12,17 +12,29 @@
 #   selected value [b]:  5.000000E-06
 #   selected value uncertainty [b]:  0.000000E+00
 #   selected value source: Mughabghab-2018
-#   number of values: 2
-#   average value [b]:  6.500000E-06
-#   relative standard deviation [%]:     23.076925
-# quantity: 
-#   type: Compilation
-#   average value:  6.500000E-06
-#   relative standard deviation [%]:     23.076925
-# datablock: 
-#   columns: 10
-#   entries: 2
+#   number of values: 5
+#   average value [b]:  4.026968E-06
+#   relative standard deviation [%]:     64.153290
+#   quantity: 
+#     type: Compilation
+#     average value:  6.500000E-06
+#     relative standard deviation [%]:     23.076925
+#   datablock: 
+#     columns: 10
+#     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       Sukhoruchkin            Compilation          2015        8.000000E-06   0.000000E+00                      1.600000                  2.530000E-08
       Mughabghab-2018         Compilation          2018        5.000000E-06   0.000000E+00                      1.000000                  2.530000E-08
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  2.378280E-06
+#     relative standard deviation [%]:     70.710678
+#   datablock: 
+#     columns: 10
+#     entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      jendl5.0                NDL                  2021        3.567420E-06   0.000000E+00                      0.713484                  2.530000E-08
+      tendl.2025              NDL                  2025        1.002400E-20   0.000000E+00                      0.000000                  2.530000E-08
+      jeff4.0                 NDL                  2025        3.567420E-06   0.000000E+00                      0.713484                  2.530000E-08

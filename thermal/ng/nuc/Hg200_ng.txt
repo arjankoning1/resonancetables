@@ -1,7 +1,7 @@
 # header: 
 #   title: Hg200(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 80
 #   A: 200
@@ -15,44 +15,44 @@
 #   number of values: 8
 #   average value [b]:  2.480245E+00
 #   relative standard deviation [%]:    114.596672
-# quantity: 
-#   type: Compilation
-#   average value:  1.400000E+00
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 1
+#   quantity: 
+#     type: Compilation
+#     average value:  1.400000E+00
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       RIPL-3                  Compilation          2004        1.400000E+00   0.000000E+00                      1.000000                  2.530000E-08
-# quantity: 
-#   type: Compilation spectrum-averaged
-#   average value:  5.700000E+00
-#   relative standard deviation [%]:     75.438606
-# datablock: 
-#   columns: 10
-#   entries: 2
+#   quantity: 
+#     type: Compilation spectrum-averaged
+#     average value:  5.700000E+00
+#     relative standard deviation [%]:     75.438606
+#   datablock: 
+#     columns: 10
+#     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       Mughabghab-2006         Compilation          2006        1.000000E+01   0.000000E+00                      7.142857   MXW            2.530000E-08
       Sukhoruchkin            Compilation          2015        1.400000E+00   5.000000E-01                      1.000000   MXW            2.530000E-08
-# quantity: 
-#   type: EXFOR
-#   average value:  1.400000E+00
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 1
+#   quantity: 
+#     type: EXFOR
+#     average value:  1.400000E+00
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       S.F.Mughabghab          EXFOR                2006        1.400000E+00   0.000000E+00   V1002-501-2        1.000000                  2.530000E-08
-# quantity: 
-#   type: Nuclear data library
-#   average value:  1.410490E+00
-#   relative standard deviation [%]:      2.047910
-# datablock: 
-#   columns: 11
-#   entries: 4
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  1.410490E+00
+#     relative standard deviation [%]:      2.047910
+#   datablock: 
+#     columns: 11
+#     entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
       jendl5.0                NDL                  2021        1.435610E+00   0.000000E+00                      1.025436                  2.530000E-08   1.000030E+00

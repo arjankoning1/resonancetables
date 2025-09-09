@@ -1,7 +1,7 @@
 # header: 
 #   title: Er167(n,el) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 68
 #   A: 167
@@ -13,37 +13,37 @@
 #   selected value uncertainty [b]:  5.000000E-01
 #   selected value source: Mughabghab-2018
 #   number of values: 8
-#   average value [b]:  3.140216E+00
-#   relative standard deviation [%]:     88.264725
-# quantity: 
-#   type: Compilation
-#   average value:  1.450000E+00
-#   relative standard deviation [%]:     10.344830
-# datablock: 
-#   columns: 10
-#   entries: 2
+#   average value [b]:  2.552716E+00
+#   relative standard deviation [%]:     83.153023
+#   quantity: 
+#     type: Compilation
+#     average value:  1.450000E+00
+#     relative standard deviation [%]:     10.344830
+#   datablock: 
+#     columns: 10
+#     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       Mughabghab-2006         Compilation          2006        1.600000E+00   9.000000E-01                      1.230769                  2.530000E-08
       Mughabghab-2018         Compilation          2018        1.300000E+00   5.000000E-01                      1.000000                  2.530000E-08
-# quantity: 
-#   type: EXFOR
-#   average value:  7.900000E+00
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 2
+#   quantity: 
+#     type: EXFOR
+#     average value:  5.550000E+00
+#     relative standard deviation [%]:     42.342339
+#   datablock: 
+#     columns: 10
+#     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      V.P.Vertebnyi           EXFOR                1968        7.900000E+00   8.000000E-01   40061-014-0        6.076923                  2.530000E-08
-      V.P.Vertebnyj           EXFOR                1970        7.900000E+00   8.000000E-01   41280-021-0        6.076923                  2.530000E-08
-# quantity: 
-#   type: Nuclear data library
-#   average value:  1.605433E+00
-#   relative standard deviation [%]:     30.621754
-# datablock: 
-#   columns: 11
-#   entries: 4
+      V.P.Vertebny            EXFOR                1968        3.200000E+00   5.000000E-01   40061-014-0        2.461539                  2.530000E-08
+      V.P.Vertebnyy           EXFOR                1970        7.900000E+00   8.000000E-01   41280-021-0        6.076923                  2.530000E-08
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  1.605433E+00
+#     relative standard deviation [%]:     30.621754
+#   datablock: 
+#     columns: 11
+#     entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
       jendl5.0                NDL                  2021        1.334470E+00   0.000000E+00                      1.026515                  2.530000E-08   1.057300E+00

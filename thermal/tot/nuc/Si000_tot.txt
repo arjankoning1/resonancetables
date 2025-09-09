@@ -1,7 +1,7 @@
 # header: 
 #   title: Si000(n,tot) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 14
 #   A: 0
@@ -9,20 +9,63 @@
 # reaction: 
 #   type: (n,tot)
 # observables: 
-#   selected value [b]:  4.391800E-01
-#   selected value uncertainty [b]:  5.415100E-03
+#   selected value [b]:  2.369200E+00
+#   selected value uncertainty [b]:  1.011700E-01
 #   selected value source: J.A.Harvey
-#   number of values: 2
-#   average value [b]:  4.338200E-01
-#   relative standard deviation [%]:      1.235534
-# quantity: 
-#   type: EXFOR
-#   average value:  4.338200E-01
-#   relative standard deviation [%]:      1.235534
-# datablock: 
-#   columns: 10
-#   entries: 2
+#   number of values: 36
+#   average value [b]:  1.190768E+00
+#   relative standard deviation [%]:     79.435081
+#   quantity: 
+#     type: EXFOR
+#     average value:  1.153361E+00
+#     relative standard deviation [%]:     80.866280
+#   datablock: 
+#     columns: 10
+#     entries: 35
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      J.A.Harvey              EXFOR                1982        4.284600E-01   5.429900E-03   13733-004-0        0.975591                  2.522400E-08
-      J.A.Harvey              EXFOR                1982        4.391800E-01   5.415100E-03   13733-004-0        1.000000                  2.535100E-08
+      L.J.Rainwater           EXFOR                1948        2.350000E+00   0.000000E+00   11145-005-0        0.991896                  2.410000E-08
+      M.Adib                  EXFOR                1976        2.450000E+00   1.225000E-01   30469-002-0        1.034104                  2.590000E-08
+      M.Adib                  EXFOR                1976        2.630000E+00   1.315000E-01   30469-002-0        1.110079                  2.450000E-08
+      M.Adib                  EXFOR                1976        2.420000E+00   1.210000E-01   30469-002-0        1.021442                  2.440000E-08
+      M.Adib                  EXFOR                1976        2.460000E+00   1.230000E-01   30469-002-0        1.038325                  2.400000E-08
+      R.M.Brugger             EXFOR                1979        2.313000E-01   0.000000E+00   10943-003-0        0.097628                  2.448000E-08
+      R.M.Brugger             EXFOR                1979        2.045000E-01   5.812000E-03   10943-002-0        0.086316                  2.401000E-08
+      R.M.Brugger             EXFOR                1979        4.277000E-01   0.000000E+00   10943-004-0        0.180525                  2.424000E-08
+      J.A.Harvey              EXFOR                1982        4.016800E-01   5.758000E-03   13733-004-0        0.169542                  2.400100E-08
+      J.A.Harvey              EXFOR                1982        4.052000E-01   5.722200E-03   13733-004-0        0.171028                  2.411900E-08
+      J.A.Harvey              EXFOR                1982        4.057100E-01   5.696900E-03   13733-004-0        0.171243                  2.423800E-08
+      J.A.Harvey              EXFOR                1982        4.210300E-01   5.664800E-03   13733-004-0        0.177710                  2.435800E-08
+      J.A.Harvey              EXFOR                1982        4.098700E-01   5.613600E-03   13733-004-0        0.172999                  2.447900E-08
+      J.A.Harvey              EXFOR                1982        4.229800E-01   5.582800E-03   13733-004-0        0.178533                  2.460100E-08
+      J.A.Harvey              EXFOR                1982        4.135500E-01   5.549200E-03   13733-004-0        0.174553                  2.472400E-08
+      J.A.Harvey              EXFOR                1982        4.214100E-01   5.528700E-03   13733-004-0        0.177870                  2.484700E-08
+      J.A.Harvey              EXFOR                1982        4.297900E-01   5.495100E-03   13733-004-0        0.181407                  2.497200E-08
+      J.A.Harvey              EXFOR                1982        4.309900E-01   5.464600E-03   13733-004-0        0.181914                  2.509700E-08
+      J.A.Harvey              EXFOR                1982        4.284600E-01   5.429900E-03   13733-004-0        0.180846                  2.522400E-08
+      J.A.Harvey              EXFOR                1982        4.391800E-01   5.415100E-03   13733-004-0        0.185371                  2.535100E-08
+      J.A.Harvey              EXFOR                1982        4.393600E-01   5.376100E-03   13733-004-0        0.185447                  2.548000E-08
+      J.A.Harvey              EXFOR                1982        4.373100E-01   5.344300E-03   13733-004-0        0.184581                  2.560900E-08
+      J.A.Harvey              EXFOR                1982        4.385600E-01   5.323500E-03   13733-004-0        0.185109                  2.573900E-08
+      J.A.Harvey              EXFOR                1982        4.306600E-01   5.264500E-03   13733-004-0        0.181774                  2.587100E-08
+      O.Aizawa                EXFOR                1985        8.913000E-01   0.000000E+00   22007-003-0        0.376203                  2.590000E-08
+      O.Aizawa                EXFOR                1985        9.233000E-01   0.000000E+00   22007-003-0        0.389710                  2.400000E-08
+      O.Aizawa                EXFOR                1985        3.592000E-01   0.000000E+00   22007-002-0        0.151612                  2.400000E-08
+      J.A.Harvey              EXFOR                1998        2.166600E+00   9.498500E-02   14225-002-0        0.914486                  2.592600E-08
+      J.A.Harvey              EXFOR                1998        2.308800E+00   9.686800E-02   14225-002-0        0.974506                  2.566300E-08
+      J.A.Harvey              EXFOR                1998        2.087200E+00   9.766900E-02   14225-002-0        0.880972                  2.540300E-08
+      J.A.Harvey              EXFOR                1998        2.499000E+00   9.739800E-02   14225-002-0        1.054786                  2.514700E-08
+      J.A.Harvey              EXFOR                1998        2.194700E+00   9.823300E-02   14225-002-0        0.926346                  2.489500E-08
+      J.A.Harvey              EXFOR                1998        2.358200E+00   9.863400E-02   14225-002-0        0.995357                  2.464700E-08
+      J.A.Harvey              EXFOR                1998        2.260900E+00   9.955900E-02   14225-002-0        0.954288                  2.440300E-08
+      J.A.Harvey              EXFOR                1998        2.369200E+00   1.011700E-01   14225-002-0        1.000000                  2.416200E-08
+#   quantity: 
+#     type: EXFOR spectrum-averaged
+#     average value:  2.500000E+00
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      J.R.Dunning             EXFOR                1935        2.500000E+00   0.000000E+00   12634-014-0        1.055209   MXW            2.500000E-08

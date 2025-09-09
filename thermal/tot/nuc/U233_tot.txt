@@ -1,7 +1,7 @@
 # header: 
 #   title: U233(n,tot) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 92
 #   A: 233
@@ -9,38 +9,63 @@
 # reaction: 
 #   type: (n,tot)
 # observables: 
-#   selected value [b]:  5.694600E+02
-#   selected value uncertainty [b]:  6.905100E+00
+#   selected value [b]:  5.885900E+02
+#   selected value uncertainty [b]:  4.861900E+00
 #   selected value source: J.A.Harvey
-#   number of values: 11
-#   average value [b]:  5.833686E+02
-#   relative standard deviation [%]:      2.940373
-# quantity: 
-#   type: EXFOR
-#   average value:  5.771116E+02
-#   relative standard deviation [%]:      3.679046
-# datablock: 
-#   columns: 10
-#   entries: 6
+#   number of values: 36
+#   average value [b]:  5.863394E+02
+#   relative standard deviation [%]:      3.067832
+#   quantity: 
+#     type: EXFOR
+#     average value:  5.856075E+02
+#     relative standard deviation [%]:      3.290959
+#   datablock: 
+#     columns: 10
+#     entries: 31
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      H.R.Muether             EXFOR                1955        6.002000E+02   0.000000E+00   12324-002-0        1.053981                  2.530000E-08
-      N.J.Pattenden           EXFOR                1956        5.900000E+02   1.500000E+01   21065-003-0        1.036069                  2.530000E-08
-      G.J.Safford             EXFOR                1960        5.848000E+02   1.600000E+00   12362-005-0        1.026938                  2.530000E-08
-      G.J.Safford             EXFOR                1960        5.840000E+02   5.000000E+00   12362-002-0        1.025533                  2.530000E-08
-      J.A.Harvey              EXFOR                1979        5.342100E+02   1.534800E+01   10955-007-0        0.938099                  2.533200E-08
-      J.A.Harvey              EXFOR                1979        5.694600E+02   6.905100E+00   10955-006-0        1.000000                  2.533200E-08
-# quantity: 
-#   type: Nuclear data library
-#   average value:  5.908770E+02
-#   relative standard deviation [%]:      0.292605
-# datablock: 
-#   columns: 11
-#   entries: 5
+      S.J.Nikitin             EXFOR                1955        5.780000E+02   0.000000E+00   41219-004-0        0.982008                  2.500000E-08
+      S.J.Nikitin             EXFOR                1955        6.100000E+02   0.000000E+00   41219-004-0        1.036375                  2.400000E-08
+      S.J.Nikitin             EXFOR                1955        5.800000E+02   2.000000E+01   41219-003-0        0.985406                  2.500000E-08
+      H.R.Muether             EXFOR                1955        6.002000E+02   0.000000E+00   12324-002-0        1.019725                  2.530000E-08
+      N.J.Pattenden           EXFOR                1956        5.900000E+02   1.500000E+01   21065-003-0        1.002396                  2.530000E-08
+      N.J.Pattenden           EXFOR                1956        6.100000E+02   3.000000E+00   21065-002-0        1.036375                  2.457000E-08
+      N.J.Pattenden           EXFOR                1956        6.060000E+02   3.000000E+00   21065-002-0        1.029579                  2.448000E-08
+      G.J.Safford             EXFOR                1960        5.848000E+02   1.600000E+00   12362-005-0        0.993561                  2.530000E-08
+      G.J.Safford             EXFOR                1960        5.840000E+02   5.000000E+00   12362-002-0        0.992202                  2.530000E-08
+      M.S.Moore               EXFOR                1960        5.827000E+02   0.000000E+00   12341-003-0        0.989993                  2.590000E-08
+      M.S.Moore               EXFOR                1960        5.921000E+02   0.000000E+00   12341-003-0        1.005963                  2.490000E-08
+      R.C.Block               EXFOR                1960        5.810000E+02   0.000000E+00   12024-005-0        0.987105                  2.580000E-08
+      R.C.Block               EXFOR                1960        5.880000E+02   0.000000E+00   12024-005-0        0.998998                  2.510000E-08
+      R.C.Block               EXFOR                1960        5.990000E+02   0.000000E+00   12024-005-0        1.017686                  2.450000E-08
+      V.A.Pshenichnyj         EXFOR                1978        5.959800E+02   3.430000E+00   40426-006-0        1.012555                  2.420000E-08
+      V.A.Pshenichnyj         EXFOR                1978        5.947700E+02   3.150000E+00   40426-006-0        1.010500                  2.490000E-08
+      V.A.Pshenichnyj         EXFOR                1978        5.811300E+02   3.000000E+00   40426-006-0        0.987326                  2.560000E-08
+      J.A.Harvey              EXFOR                1979        5.586700E+02   1.614000E+01   10955-007-0        0.949167                  2.414800E-08
+      J.A.Harvey              EXFOR                1979        5.727500E+02   1.569900E+01   10955-007-0        0.973088                  2.472900E-08
+      J.A.Harvey              EXFOR                1979        5.342100E+02   1.534800E+01   10955-007-0        0.907610                  2.533200E-08
+      J.A.Harvey              EXFOR                1979        5.309500E+02   1.501400E+01   10955-007-0        0.902071                  2.595600E-08
+      J.A.Harvey              EXFOR                1979        5.796500E+02   7.261400E+00   10955-006-0        0.984811                  2.414800E-08
+      J.A.Harvey              EXFOR                1979        6.002600E+02   7.115000E+00   10955-006-0        1.019827                  2.472900E-08
+      J.A.Harvey              EXFOR                1979        5.694600E+02   6.905100E+00   10955-006-0        0.967499                  2.533200E-08
+      J.A.Harvey              EXFOR                1979        5.616500E+02   6.737600E+00   10955-006-0        0.954230                  2.595600E-08
+      J.A.Harvey              EXFOR                1979        6.070900E+02   4.645400E+00   10955-005-0        1.031431                  2.410100E-08
+      J.A.Harvey              EXFOR                1979        5.903000E+02   4.409500E+00   10955-005-0        1.002905                  2.487800E-08
+      J.A.Harvey              EXFOR                1979        5.862900E+02   4.230000E+00   10955-005-0        0.996092                  2.569400E-08
+      J.A.Harvey              EXFOR                1979        6.089800E+02   5.512000E+00   10955-004-0        1.034642                  2.410100E-08
+      J.A.Harvey              EXFOR                1979        6.073000E+02   5.320600E+00   10955-004-0        1.031788                  2.487800E-08
+      J.A.Harvey              EXFOR                1979        5.885900E+02   4.861900E+00   10955-004-0        1.000000                  2.569400E-08
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  5.908770E+02
+#     relative standard deviation [%]:      0.292605
+#   datablock: 
+#     columns: 11
+#     entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
-      cendl3.2                NDL                  2019        5.886380E+02   0.000000E+00                      1.033677                  2.530000E-08   1.001780E+00
-      jendl5.0                NDL                  2021        5.928850E+02   0.000000E+00                      1.041135                  2.530000E-08   1.001140E+00
-      endfb8.1                NDL                  2024        5.896110E+02   0.000000E+00                      1.035386                  2.530000E-08   1.002290E+00
-      tendl.2025              NDL                  2025        5.928860E+02   0.000000E+00                      1.041137                  2.530000E-08   1.001140E+00
-      jeff4.0                 NDL                  2025        5.903650E+02   0.000000E+00                      1.036710                  2.530000E-08   1.001710E+00
+      cendl3.2                NDL                  2019        5.886380E+02   0.000000E+00                      1.000082                  2.530000E-08   1.001780E+00
+      jendl5.0                NDL                  2021        5.928850E+02   0.000000E+00                      1.007297                  2.530000E-08   1.001140E+00
+      endfb8.1                NDL                  2024        5.896110E+02   0.000000E+00                      1.001735                  2.530000E-08   1.002290E+00
+      tendl.2025              NDL                  2025        5.928860E+02   0.000000E+00                      1.007299                  2.530000E-08   1.001140E+00
+      jeff4.0                 NDL                  2025        5.903650E+02   0.000000E+00                      1.003016                  2.530000E-08   1.001710E+00

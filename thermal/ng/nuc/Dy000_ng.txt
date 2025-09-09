@@ -1,7 +1,7 @@
 # header: 
 #   title: Dy000(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 66
 #   A: 0
@@ -11,38 +11,43 @@
 # observables: 
 #   selected value [b]:  9.940000E+02
 #   selected value uncertainty [b]:  1.300000E+01
-#   selected value source: Firestone
-#   number of values: 5
-#   average value [b]:  9.380660E+02
-#   relative standard deviation [%]:      3.661974
-# quantity: 
-#   type: Compilation spectrum-averaged
-#   average value:  9.940000E+02
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 1
+#   selected value source: Firestone-2022
+#   number of values: 10
+#   average value [b]:  9.441510E+02
+#   relative standard deviation [%]:      2.842220
+#   quantity: 
+#     type: Compilation spectrum-averaged
+#     average value:  9.940000E+02
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      Firestone               Compilation          2022        9.940000E+02   1.300000E+01                      1.000000   MXW            2.530000E-08
-# quantity: 
-#   type: EXFOR
-#   average value:  9.281650E+02
-#   relative standard deviation [%]:      0.844138
-# datablock: 
-#   columns: 10
-#   entries: 2
+      Firestone-2022          Compilation          2022        9.940000E+02   1.300000E+01                      1.000000   MXW            2.530000E-08
+#   quantity: 
+#     type: EXFOR
+#     average value:  9.439301E+02
+#     relative standard deviation [%]:      1.674716
+#   datablock: 
+#     columns: 10
+#     entries: 7
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       J.W.Meadows             EXFOR                1961        9.360000E+02   2.000000E+01   11028-022-0        0.941650                  2.530000E-08
+      F.Widder                EXFOR                1975        9.311400E+02   2.097000E+01   20437-008-0        0.936761                  2.585400E-08
       F.Widder                EXFOR                1975        9.203300E+02   2.114000E+01   20437-008-0        0.925885                  2.538000E-08
-# quantity: 
-#   type: EXFOR spectrum-averaged
-#   average value:  9.200000E+02
-#   relative standard deviation [%]:      3.260870
-# datablock: 
-#   columns: 10
-#   entries: 2
+      F.Widder                EXFOR                1975        9.385700E+02   2.125000E+01   20437-008-0        0.944235                  2.492000E-08
+      F.Widder                EXFOR                1975        9.569900E+02   2.179000E+01   20437-008-0        0.962767                  2.447100E-08
+      F.Widder                EXFOR                1975        9.691700E+02   2.221000E+01   20437-008-0        0.975020                  2.403500E-08
+      Hyun-Je Cho             EXFOR                1999        9.553100E+02   2.439800E+01   22455-002-0        0.961076                  2.511900E-08
+#   quantity: 
+#     type: EXFOR spectrum-averaged
+#     average value:  9.200000E+02
+#     relative standard deviation [%]:      3.260870
+#   datablock: 
+#     columns: 10
+#     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       H.Pomerance             EXFOR                1951        8.900000E+02   0.000000E+00   11047-051-0        0.895372   MXW            2.530000E-08

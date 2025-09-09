@@ -1,7 +1,7 @@
 # header: 
 #   title: Lu000(n,tot) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 71
 #   A: 0
@@ -12,18 +12,43 @@
 #   selected value [b]:  7.100000E+01
 #   selected value uncertainty [b]:  0.000000E+00
 #   selected value source: T.E.Young
-#   number of values: 3
-#   average value [b]:  7.916000E+01
-#   relative standard deviation [%]:      7.400387
-# quantity: 
-#   type: EXFOR
-#   average value:  7.916000E+01
-#   relative standard deviation [%]:      7.400387
-# datablock: 
-#   columns: 10
-#   entries: 3
+#   number of values: 19
+#   average value [b]:  1.011721E+02
+#   relative standard deviation [%]:     69.773628
+#   quantity: 
+#     type: EXFOR
+#     average value:  8.457055E+01
+#     relative standard deviation [%]:      5.716835
+#   datablock: 
+#     columns: 10
+#     entries: 18
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      A.H.Baston              EXFOR                1960        9.700000E+01   3.000000E+00   21322-002-0        1.366197                  2.580000E-08
+      A.H.Baston              EXFOR                1960        8.700000E+01   3.000000E+00   21322-002-0        1.225352                  2.490000E-08
+      A.H.Baston              EXFOR                1960        9.100000E+01   3.000000E+00   21322-002-0        1.281690                  2.400000E-08
       R.L.Zimmerman           EXFOR                1967        8.200000E+01   3.000000E+00   30224-022-0        1.154930                  2.530000E-08
+      R.L.Zimmerman           EXFOR                1967        8.200000E+01   1.000000E+00   30224-021-0        1.154930                  2.500000E-08
+      J.Brunner               EXFOR                1967        8.563000E+01   7.500000E-01   21025-004-0        1.206056                  2.585000E-08
+      J.Brunner               EXFOR                1967        8.448000E+01   7.400000E-01   21025-004-0        1.189859                  2.560000E-08
       J.Brunner               EXFOR                1967        8.448000E+01   7.500000E-01   21025-004-0        1.189859                  2.536000E-08
+      J.Brunner               EXFOR                1967        8.498000E+01   7.600000E-01   21025-004-0        1.196901                  2.512000E-08
+      J.Brunner               EXFOR                1967        8.498000E+01   7.600000E-01   21025-004-0        1.196901                  2.489000E-08
+      J.Brunner               EXFOR                1967        8.575000E+01   7.800000E-01   21025-004-0        1.207747                  2.467000E-08
+      J.Brunner               EXFOR                1967        8.575000E+01   7.800000E-01   21025-004-0        1.207747                  2.443000E-08
+      J.Brunner               EXFOR                1967        8.572000E+01   7.900000E-01   21025-004-0        1.207324                  2.421000E-08
+      T.E.Young               EXFOR                1968        8.287000E+01   0.000000E+00   14018-003-0        1.167183                  2.421000E-08
+      T.E.Young               EXFOR                1968        8.202000E+01   0.000000E+00   14018-003-0        1.155211                  2.542000E-08
+      T.E.Young               EXFOR                1968        8.327000E+01   0.000000E+00   14018-002-0        1.172817                  2.423000E-08
+      T.E.Young               EXFOR                1968        8.234000E+01   0.000000E+00   14018-002-0        1.159718                  2.544000E-08
       T.E.Young               EXFOR                1970        7.100000E+01   0.000000E+00   14026-002-0        1.000000                  2.530000E-08
+#   quantity: 
+#     type: EXFOR spectrum-averaged
+#     average value:  4.000000E+02
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      J.R.Dunning             EXFOR                1935        4.000000E+02   0.000000E+00   12634-061-0        5.633803   MXW            2.500000E-08

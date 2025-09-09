@@ -1,7 +1,7 @@
 # header: 
 #   title: Eu000(n,tot) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 63
 #   A: 0
@@ -9,21 +9,36 @@
 # reaction: 
 #   type: (n,tot)
 # observables: 
-#   selected value [b]:  4.690000E+03
-#   selected value uncertainty [b]:  1.400000E+02
-#   selected value source: V.P.Vertebny
-#   number of values: 3
-#   average value [b]:  4.393333E+03
-#   relative standard deviation [%]:      7.699473
-# quantity: 
-#   type: EXFOR
-#   average value:  4.393333E+03
-#   relative standard deviation [%]:      7.699473
-# datablock: 
-#   columns: 10
-#   entries: 3
+#   selected value [b]:  4.320000E+03
+#   selected value uncertainty [b]:  0.000000E+00
+#   selected value source: M.Adib
+#   number of values: 9
+#   average value [b]:  4.102222E+03
+#   relative standard deviation [%]:     27.464493
+#   quantity: 
+#     type: EXFOR
+#     average value:  4.490000E+03
+#     relative standard deviation [%]:      6.086131
+#   datablock: 
+#     columns: 10
+#     entries: 8
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      N.J.Pattenden           EXFOR                1958        3.920000E+03   4.500000E+01   21325-017-0        0.835821                  2.530000E-08
-      F.Poortmans             EXFOR                1971        4.570000E+03   1.142500E+02   20221-002-0        0.974414                  2.540000E-08
-      V.P.Vertebny            EXFOR                1972        4.690000E+03   1.400000E+02   40109-004-0        1.000000                  2.530000E-08
+      W.J.Sturm               EXFOR                1947        4.300000E+03   0.000000E+00   12136-009-0        0.995370                  2.430000E-08
+      N.J.Pattenden           EXFOR                1958        3.920000E+03   4.500000E+01   21325-017-0        0.907407                  2.530000E-08
+      F.Poortmans             EXFOR                1971        4.570000E+03   1.142500E+02   20221-002-0        1.057870                  2.540000E-08
+      F.Poortmans             EXFOR                1971        4.720000E+03   1.180000E+02   20221-002-0        1.092593                  2.500000E-08
+      V.P.Vertebny            EXFOR                1972        4.690000E+03   1.400000E+02   40109-004-0        1.085648                  2.530000E-08
+      M.Adib                  EXFOR                1980        4.800000E+03   0.000000E+00   30560-004-0        1.111111                  2.400000E-08
+      M.Adib                  EXFOR                1980        4.600000E+03   0.000000E+00   30560-004-0        1.064815                  2.500000E-08
+      M.Adib                  EXFOR                1980        4.320000E+03   0.000000E+00   30560-004-0        1.000000                  2.600000E-08
+#   quantity: 
+#     type: EXFOR spectrum-averaged
+#     average value:  1.000000E+03
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      J.R.Dunning             EXFOR                1935        1.000000E+03   0.000000E+00   12634-053-0        0.231481   MXW            2.500000E-08

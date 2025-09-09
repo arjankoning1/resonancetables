@@ -1,7 +1,7 @@
 # header: 
 #   title: Lu175(n,tot) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 71
 #   A: 175
@@ -12,26 +12,31 @@
 #   selected value [b]:  2.150000E+01
 #   selected value uncertainty [b]:  0.000000E+00
 #   selected value source: T.E.Young
-#   number of values: 5
-#   average value [b]:  2.800116E+01
-#   relative standard deviation [%]:     11.614334
-# quantity: 
-#   type: EXFOR
-#   average value:  2.150000E+01
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 1
+#   number of values: 10
+#   average value [b]:  2.877758E+01
+#   relative standard deviation [%]:     10.611392
+#   quantity: 
+#     type: EXFOR
+#     average value:  2.821166E+01
+#     relative standard deviation [%]:     13.605427
+#   datablock: 
+#     columns: 10
+#     entries: 6
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      A.H.Baston              EXFOR                1960        3.100000E+01   3.000000E+00   21322-003-0        1.441860                  2.580000E-08
+      A.H.Baston              EXFOR                1960        3.200000E+01   3.000000E+00   21322-003-0        1.488372                  2.490000E-08
+      A.H.Baston              EXFOR                1960        3.200000E+01   3.000000E+00   21322-003-0        1.488372                  2.400000E-08
+      T.E.Young               EXFOR                1968        2.670000E+01   0.000000E+00   14018-004-0        1.241861                  2.422000E-08
+      T.E.Young               EXFOR                1968        2.607000E+01   0.000000E+00   14018-004-0        1.212558                  2.543000E-08
       T.E.Young               EXFOR                1970        2.150000E+01   0.000000E+00   14026-004-0        1.000000                  2.530000E-08
-# quantity: 
-#   type: Nuclear data library
-#   average value:  2.962645E+01
-#   relative standard deviation [%]:      0.381102
-# datablock: 
-#   columns: 11
-#   entries: 4
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  2.962645E+01
+#     relative standard deviation [%]:      0.381102
+#   datablock: 
+#     columns: 11
+#     entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
       jendl5.0                NDL                  2021        2.981350E+01   0.000000E+00                      1.386674                  2.530000E-08   1.031240E+00

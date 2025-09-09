@@ -1,7 +1,7 @@
 # header: 
 #   title: Hf182(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 72
 #   A: 182
@@ -12,26 +12,36 @@
 #   selected value [b]:  1.330000E+02
 #   selected value uncertainty [b]:  1.000000E+01
 #   selected value source: Mughabghab-2018
-#   number of values: 5
-#   average value [b]:  1.332384E+02
-#   relative standard deviation [%]:      0.216691
-# quantity: 
-#   type: Compilation
-#   average value:  1.330000E+02
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 1
+#   number of values: 6
+#   average value [b]:  1.334153E+02
+#   relative standard deviation [%]:      0.356321
+#   quantity: 
+#     type: Compilation
+#     average value:  1.330000E+02
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       Mughabghab-2018         Compilation          2018        1.330000E+02   1.000000E+01                      1.000000                  2.530000E-08
-# quantity: 
-#   type: Nuclear data library
-#   average value:  1.332980E+02
-#   relative standard deviation [%]:      0.220558
-# datablock: 
-#   columns: 11
-#   entries: 4
+#   quantity: 
+#     type: EXFOR
+#     average value:  1.343000E+02
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      C.Vockenhuber           EXFOR                2008        1.343000E+02   1.170000E+01   23022-004-0        1.009774                  2.500000E-08
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  1.332980E+02
+#     relative standard deviation [%]:      0.220558
+#   datablock: 
+#     columns: 11
+#     entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
       jendl5.0                NDL                  2021        1.330040E+02   0.000000E+00                      1.000030                  2.530000E-08   1.000060E+00

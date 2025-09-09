@@ -1,7 +1,7 @@
 # header: 
 #   title: Rb000(n,tot) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 37
 #   A: 0
@@ -9,19 +9,25 @@
 # reaction: 
 #   type: (n,tot)
 # observables: 
-#   selected value [b]:  5.620000E+00
+#   selected value [b]:  6.030000E+00
 #   selected value uncertainty [b]:  0.000000E+00
 #   selected value source: E.G.Joki
-#   number of values: 1
-#   average value [b]:  5.620000E+00
-#   relative standard deviation [%]:      0.000000
-# quantity: 
-#   type: EXFOR
-#   average value:  5.620000E+00
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 1
+#   number of values: 7
+#   average value [b]:  5.790000E+00
+#   relative standard deviation [%]:      3.403276
+#   quantity: 
+#     type: EXFOR
+#     average value:  5.790000E+00
+#     relative standard deviation [%]:      3.403276
+#   datablock: 
+#     columns: 10
+#     entries: 7
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      E.G.Joki                EXFOR                1955        5.620000E+00   0.000000E+00   11443-004-0        1.000000                  2.538000E-08
+      E.G.Joki                EXFOR                1955        5.570000E+00   0.000000E+00   11443-004-0        0.923715                  2.598000E-08
+      E.G.Joki                EXFOR                1955        5.780000E+00   0.000000E+00   11443-004-0        0.958541                  2.568000E-08
+      E.G.Joki                EXFOR                1955        5.620000E+00   0.000000E+00   11443-004-0        0.932007                  2.538000E-08
+      E.G.Joki                EXFOR                1955        5.750000E+00   0.000000E+00   11443-004-0        0.953565                  2.509000E-08
+      E.G.Joki                EXFOR                1955        6.130000E+00   0.000000E+00   11443-004-0        1.016584                  2.481000E-08
+      E.G.Joki                EXFOR                1955        5.650000E+00   0.000000E+00   11443-004-0        0.936982                  2.453000E-08
+      E.G.Joki                EXFOR                1955        6.030000E+00   0.000000E+00   11443-004-0        1.000000                  2.425000E-08

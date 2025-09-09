@@ -1,7 +1,7 @@
 # header: 
 #   title: He000(n,tot) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 2
 #   A: 0
@@ -9,19 +9,30 @@
 # reaction: 
 #   type: (n,tot)
 # observables: 
-#   selected value [b]:  1.510000E+00
-#   selected value uncertainty [b]:  9.000000E-02
-#   selected value source: H.Carroll
-#   number of values: 1
-#   average value [b]:  1.510000E+00
-#   relative standard deviation [%]:      0.000000
-# quantity: 
-#   type: EXFOR spectrum-averaged
-#   average value:  1.510000E+00
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 1
+#   selected value [b]:  8.810000E-01
+#   selected value uncertainty [b]:  3.100000E-02
+#   selected value source: R.Genin
+#   number of values: 3
+#   average value [b]:  1.073333E+00
+#   relative standard deviation [%]:     28.835299
+#   quantity: 
+#     type: EXFOR
+#     average value:  8.550000E-01
+#     relative standard deviation [%]:      3.040935
+#   datablock: 
+#     columns: 10
+#     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      H.Carroll               EXFOR                1941        1.510000E+00   9.000000E-02   11135-002-0        1.000000   MXW            2.530000E-08
+      R.Genin                 EXFOR                1963        8.290000E-01   3.100000E-02   21227-002-0        0.940976                  2.500000E-08
+      R.Genin                 EXFOR                1963        8.810000E-01   3.100000E-02   21227-002-0        1.000000                  2.400000E-08
+#   quantity: 
+#     type: EXFOR spectrum-averaged
+#     average value:  1.510000E+00
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      H.Carroll               EXFOR                1941        1.510000E+00   9.000000E-02   11135-002-0        1.713961   MXW            2.530000E-08

@@ -1,7 +1,7 @@
 # header: 
 #   title: Pu239(n,tot) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 94
 #   A: 239
@@ -12,32 +12,41 @@
 #   selected value [b]:  1.018000E+03
 #   selected value uncertainty [b]:  8.000000E+00
 #   selected value source: G.J.Safford
-#   number of values: 12
-#   average value [b]:  1.032775E+03
-#   relative standard deviation [%]:      1.420672
-# quantity: 
-#   type: EXFOR
-#   average value:  1.036429E+03
-#   relative standard deviation [%]:      1.757936
-# datablock: 
-#   columns: 10
-#   entries: 7
+#   number of values: 21
+#   average value [b]:  1.034871E+03
+#   relative standard deviation [%]:      1.517991
+#   quantity: 
+#     type: EXFOR
+#     average value:  1.037125E+03
+#     relative standard deviation [%]:      1.671050
+#   datablock: 
+#     columns: 10
+#     entries: 16
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      E.E.Anderson            EXFOR                1944        1.075000E+03   0.000000E+00   14734-011-0        1.055992                  2.500000E-08
       E.E.Anderson            EXFOR                1945        1.045000E+03   2.500000E+01   12519-002-0        1.026523                  2.530000E-08
       W.W.Havens Jr           EXFOR                1951        1.067000E+03   2.000000E+01   12517-004-0        1.048134                  2.530000E-08
+      W.W.Havens Jr           EXFOR                1951        1.045000E+03   0.000000E+00   12517-002-0        1.026523                  2.440000E-08
+      S.J.Nikitin             EXFOR                1955        1.040000E+03   3.000000E+01   41219-009-0        1.021611                  2.500000E-08
+      S.J.Nikitin             EXFOR                1955        1.020000E+03   0.000000E+00   41219-008-0        1.001965                  2.590000E-08
+      S.J.Nikitin             EXFOR                1955        1.045000E+03   0.000000E+00   41219-008-0        1.026523                  2.460000E-08
       H.Palevsky              EXFOR                1955        1.025000E+03   1.000000E+01   12520-003-0        1.006876                  2.530000E-08
+      H.Palevsky              EXFOR                1955        1.041000E+03   0.000000E+00   12520-002-0        1.022593                  2.510000E-08
+      H.Palevsky              EXFOR                1955        1.033000E+03   0.000000E+00   12520-002-0        1.014735                  2.420000E-08
       N.J.Pattenden           EXFOR                1956        1.015000E+03   3.000000E+01   21033-003-0        0.997053                  2.530000E-08
+      N.J.Pattenden           EXFOR                1956        1.020000E+03   5.500000E+01   21033-002-0        1.001965                  2.460000E-08
       B.R.Leonard Jr          EXFOR                1956        1.055000E+03   1.371500E+01   12518-002-0        1.036346                  2.530000E-08
       L.M.Bollinger           EXFOR                1958        1.030000E+03   0.000000E+00   12502-003-0        1.011788                  2.530000E-08
+      L.M.Bollinger           EXFOR                1958        1.020000E+03   0.000000E+00   12502-003-0        1.001965                  2.420000E-08
       G.J.Safford             EXFOR                1961        1.018000E+03   8.000000E+00   12507-002-0        1.000000                  2.530000E-08
-# quantity: 
-#   type: Nuclear data library
-#   average value:  1.027660E+03
-#   relative standard deviation [%]:      0.258778
-# datablock: 
-#   columns: 11
-#   entries: 5
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  1.027660E+03
+#     relative standard deviation [%]:      0.258778
+#   datablock: 
+#     columns: 11
+#     entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
       cendl3.2                NDL                  2019        1.026100E+03   0.000000E+00                      1.007957                  2.530000E-08   1.078200E+00

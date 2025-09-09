@@ -1,7 +1,7 @@
 # header: 
 #   title: C000(n,el) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 6
 #   A: 0
@@ -9,19 +9,20 @@
 # reaction: 
 #   type: (n,el)
 # observables: 
-#   selected value [b]:  3.400000E+00
+#   selected value [b]:  4.800000E+00
 #   selected value uncertainty [b]:  0.000000E+00
-#   selected value source: A.C.G.Mitchell
-#   number of values: 1
-#   average value [b]:  3.400000E+00
-#   relative standard deviation [%]:      0.000000
-# quantity: 
-#   type: EXFOR
-#   average value:  3.400000E+00
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 1
+#   selected value source: B.Kimura
+#   number of values: 2
+#   average value [b]:  4.100000E+00
+#   relative standard deviation [%]:     17.073172
+#   quantity: 
+#     type: EXFOR
+#     average value:  4.100000E+00
+#     relative standard deviation [%]:     17.073172
+#   datablock: 
+#     columns: 10
+#     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      A.C.G.Mitchell          EXFOR                1936        3.400000E+00   0.000000E+00   14700-002-0        1.000000                  2.530000E-08
+      A.C.G.Mitchell          EXFOR                1936        3.400000E+00   0.000000E+00   14700-002-0        0.708333                  2.530000E-08
+      B.Kimura                EXFOR                1942        4.800000E+00   0.000000E+00   23489-003-0        1.000000                  2.600000E-08

@@ -1,7 +1,7 @@
 # header: 
 #   title: Th230(n,el) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 90
 #   A: 230
@@ -12,36 +12,26 @@
 #   selected value [b]:  1.040000E+01
 #   selected value uncertainty [b]:  2.500000E+00
 #   selected value source: Mughabghab-2006
-#   number of values: 6
-#   average value [b]:  1.042093E+01
-#   relative standard deviation [%]:      0.342667
-# quantity: 
-#   type: Compilation
-#   average value:  1.040000E+01
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 1
+#   number of values: 5
+#   average value [b]:  1.042512E+01
+#   relative standard deviation [%]:      0.362098
+#   quantity: 
+#     type: Compilation
+#     average value:  1.040000E+01
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       Mughabghab-2006         Compilation          2006        1.040000E+01   2.500000E+00                      1.000000                  2.530000E-08
-# quantity: 
-#   type: EXFOR
-#   average value:  1.040000E+01
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
-##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      S.F.Mughabghab          EXFOR                2006        1.040000E+01   2.500000E+00   V1002-557-3        1.000000                  2.530000E-08
-# quantity: 
-#   type: Nuclear data library
-#   average value:  1.043140E+01
-#   relative standard deviation [%]:      0.381542
-# datablock: 
-#   columns: 11
-#   entries: 4
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  1.043140E+01
+#     relative standard deviation [%]:      0.381542
+#   datablock: 
+#     columns: 11
+#     entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
       jendl5.0                NDL                  2021        1.039160E+01   0.000000E+00                      0.999192                  2.530000E-08   1.125360E+00

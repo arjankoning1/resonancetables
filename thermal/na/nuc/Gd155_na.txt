@@ -1,7 +1,7 @@
 # header: 
 #   title: Gd155(n,a) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 64
 #   A: 155
@@ -12,28 +12,42 @@
 #   selected value [b]:  8.200000E-05
 #   selected value uncertainty [b]:  1.100000E-05
 #   selected value source: Mughabghab-2018
-#   number of values: 4
-#   average value [b]:  7.825000E-05
-#   relative standard deviation [%]:      8.300562
-# quantity: 
-#   type: Compilation
-#   average value:  7.700000E-05
-#   relative standard deviation [%]:      9.183205
-# datablock: 
-#   columns: 10
-#   entries: 3
+#   number of values: 9
+#   average value [b]:  7.768902E-05
+#   relative standard deviation [%]:     10.418902
+#   quantity: 
+#     type: Compilation
+#     average value:  7.700000E-05
+#     relative standard deviation [%]:      9.183205
+#   datablock: 
+#     columns: 10
+#     entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       Mughabghab-2006         Compilation          2006        8.200000E-05   1.100000E-05                      1.000000                  2.530000E-08
       Sukhoruchkin            Compilation          2015        6.700000E-05   0.000000E+00                      0.817073                  2.530000E-08
       Mughabghab-2018         Compilation          2018        8.200000E-05   1.100000E-05                      1.000000                  2.530000E-08
-# quantity: 
-#   type: EXFOR spectrum-averaged
-#   average value:  8.200000E-05
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 1
+#   quantity: 
+#     type: EXFOR spectrum-averaged
+#     average value:  8.200000E-05
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       K.Beg                   EXFOR                1969        8.200000E-05   7.000000E-06   12139-002-0        1.000000   MXW            2.530000E-08
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  7.724022E-05
+#     relative standard deviation [%]:     11.846685
+#   datablock: 
+#     columns: 10
+#     entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      cendl3.2                NDL                  2019        8.165530E-05   0.000000E+00                      0.995796                  2.530000E-08
+      jendl5.0                NDL                  2021        8.946630E-05   0.000000E+00                      1.091053                  2.530000E-08
+      endfb8.1                NDL                  2024        6.657180E-05   0.000000E+00                      0.811851                  2.530000E-08
+      tendl.2025              NDL                  2025        8.193590E-05   0.000000E+00                      0.999218                  2.530000E-08
+      jeff4.0                 NDL                  2025        6.657180E-05   0.000000E+00                      0.811851                  2.530000E-08

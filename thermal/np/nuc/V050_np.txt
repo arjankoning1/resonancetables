@@ -1,7 +1,7 @@
 # header: 
 #   title: V050(n,p) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 23
 #   A: 50
@@ -12,27 +12,50 @@
 #   selected value [b]:  7.000000E-04
 #   selected value uncertainty [b]:  4.000000E-04
 #   selected value source: Mughabghab-2018
-#   number of values: 3
-#   average value [b]:  7.033334E-04
-#   relative standard deviation [%]:      0.670245
-# quantity: 
-#   type: Compilation
-#   average value:  7.000000E-04
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 2
+#   number of values: 8
+#   average value [b]:  6.374994E-04
+#   relative standard deviation [%]:     21.753370
+#   quantity: 
+#     type: Compilation
+#     average value:  7.000000E-04
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       Sukhoruchkin            Compilation          2015        7.000000E-04   4.000000E-04                      1.000000                  2.530000E-08
       Mughabghab-2018         Compilation          2018        7.000000E-04   4.000000E-04                      1.000000                  2.530000E-08
-# quantity: 
-#   type: EXFOR
-#   average value:  7.100000E-04
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 1
+#   quantity: 
+#     type: EXFOR
+#     average value:  7.100000E-04
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       C.Wagemans              EXFOR                1994        7.100000E-04   4.000000E-05   22302-002-0        1.014286                  2.530000E-08
+#   quantity: 
+#     type: EXFOR spectrum-averaged
+#     average value:  2.770000E-04
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      Ju.Andrzejevski         EXFOR                1991        2.770000E-04   4.200000E-05   41193-003-0        0.395714   MXW            2.500000E-08
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  6.782488E-04
+#     relative standard deviation [%]:      4.766743
+#   datablock: 
+#     columns: 10
+#     entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      jendl5.0                NDL                  2021        7.100220E-04   0.000000E+00                      1.014317                  2.530000E-08
+      endfb8.1                NDL                  2024        7.100220E-04   0.000000E+00                      1.014317                  2.530000E-08
+      tendl.2025              NDL                  2025        6.380240E-04   0.000000E+00                      0.911463                  2.530000E-08
+      jeff4.0                 NDL                  2025        6.549270E-04   0.000000E+00                      0.935610                  2.530000E-08

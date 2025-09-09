@@ -1,7 +1,7 @@
 # header: 
 #   title: Dy000(n,tot) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 66
 #   A: 0
@@ -9,29 +9,38 @@
 # reaction: 
 #   type: (n,tot)
 # observables: 
-#   selected value [b]:  1.041000E+03
-#   selected value uncertainty [b]:  2.100000E+01
-#   selected value source: K.Higurashi
-#   number of values: 2
-#   average value [b]:  1.029000E+03
-#   relative standard deviation [%]:      1.166181
-# quantity: 
-#   type: EXFOR
-#   average value:  1.017000E+03
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 1
+#   selected value [b]:  9.170900E+02
+#   selected value uncertainty [b]:  0.000000E+00
+#   selected value source: G.Kim
+#   number of values: 11
+#   average value [b]:  9.906900E+02
+#   relative standard deviation [%]:     10.028496
+#   quantity: 
+#     type: EXFOR
+#     average value:  1.017399E+03
+#     relative standard deviation [%]:      4.029411
+#   datablock: 
+#     columns: 10
+#     entries: 9
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      A.Abdel-Kawi            EXFOR                1972        1.017000E+03   5.085000E+01   30467-006-0        0.976945                  2.530000E-08
-# quantity: 
-#   type: EXFOR spectrum-averaged
-#   average value:  1.041000E+03
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 1
+      J.Brunner               EXFOR                1967        1.006900E+03   3.260000E+00   21025-002-0        1.097929                  2.593000E-08
+      J.Brunner               EXFOR                1967        1.015500E+03   3.300000E+00   21025-002-0        1.107307                  2.544000E-08
+      J.Brunner               EXFOR                1967        1.023400E+03   3.330000E+00   21025-002-0        1.115921                  2.497000E-08
+      J.Brunner               EXFOR                1967        1.031900E+03   3.360000E+00   21025-002-0        1.125189                  2.451000E-08
+      J.Brunner               EXFOR                1967        1.042800E+03   3.400000E+00   21025-002-0        1.137075                  2.407000E-08
+      A.Abdel-Kawi            EXFOR                1972        1.017000E+03   5.085000E+01   30467-006-0        1.108942                  2.530000E-08
+      A.Abdel-Kawi            EXFOR                1972        1.021000E+03   5.105000E+01   30467-006-0        1.113304                  2.410000E-08
+      H.J.Cho                 EXFOR                2000        1.081000E+03   3.242900E+01   22725-002-0        1.178728                  2.510000E-08
+      G.Kim                   EXFOR                2003        9.170900E+02   0.000000E+00   31530-002-0        1.000000                  2.470000E-08
+#   quantity: 
+#     type: EXFOR spectrum-averaged
+#     average value:  8.705000E+02
+#     relative standard deviation [%]:     19.586445
+#   datablock: 
+#     columns: 10
+#     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      K.Higurashi             EXFOR                1988        1.041000E+03   2.100000E+01   22088-004-0        1.000000   SPA            2.530000E-08
+      J.R.Dunning             EXFOR                1935        7.000000E+02   0.000000E+00   12634-056-0        0.763284   MXW            2.500000E-08
+      K.Higurashi             EXFOR                1988        1.041000E+03   2.100000E+01   22088-004-0        1.135112   SPA            2.530000E-08

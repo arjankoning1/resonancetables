@@ -1,7 +1,7 @@
 # header: 
 #   title: Ni000(n,tot) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 28
 #   A: 0
@@ -9,19 +9,35 @@
 # reaction: 
 #   type: (n,tot)
 # observables: 
-#   selected value [b]:  1.970000E+01
+#   selected value [b]:  1.850000E+01
 #   selected value uncertainty [b]:  0.000000E+00
-#   selected value source: M.Goldhaber
-#   number of values: 1
-#   average value [b]:  1.970000E+01
-#   relative standard deviation [%]:      0.000000
-# quantity: 
-#   type: EXFOR spectrum-averaged
-#   average value:  1.970000E+01
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 1
+#   selected value source: R.J.Brown
+#   number of values: 8
+#   average value [b]:  1.888087E+01
+#   relative standard deviation [%]:      8.637965
+#   quantity: 
+#     type: EXFOR
+#     average value:  1.932450E+01
+#     relative standard deviation [%]:      5.712217
+#   datablock: 
+#     columns: 10
+#     entries: 6
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      M.Goldhaber             EXFOR                1937        1.970000E+01   0.000000E+00   22518-006-0        1.000000   MXW            2.530000E-08
+      W.W.Havens Jr           EXFOR                1951        1.894700E+01   1.840000E-01   11732-004-0        1.024162                  2.500000E-08
+      R.G.Allen               EXFOR                1954        2.070000E+01   0.000000E+00   11762-002-0        1.118919                  2.580000E-08
+      R.G.Allen               EXFOR                1954        2.100000E+01   0.000000E+00   11762-002-0        1.135135                  2.500000E-08
+      R.J.Brown               EXFOR                1958        1.820000E+01   0.000000E+00   11468-003-0        0.983784                  2.600000E-08
+      R.J.Brown               EXFOR                1958        1.860000E+01   0.000000E+00   11468-003-0        1.005405                  2.550000E-08
+      R.J.Brown               EXFOR                1958        1.850000E+01   0.000000E+00   11468-003-0        1.000000                  2.490000E-08
+#   quantity: 
+#     type: EXFOR spectrum-averaged
+#     average value:  1.755000E+01
+#     relative standard deviation [%]:     12.250716
+#   datablock: 
+#     columns: 10
+#     entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      J.R.Dunning             EXFOR                1935        1.540000E+01   0.000000E+00   12634-026-0        0.832432   MXW            2.500000E-08
+      M.Goldhaber             EXFOR                1937        1.970000E+01   0.000000E+00   22518-006-0        1.064865   MXW            2.530000E-08

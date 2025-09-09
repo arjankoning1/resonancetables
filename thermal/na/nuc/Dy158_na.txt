@@ -1,7 +1,7 @@
 # header: 
 #   title: Dy158(n,a) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 66
 #   A: 158
@@ -12,17 +12,29 @@
 #   selected value [b]:  5.000000E-03
 #   selected value uncertainty [b]:  0.000000E+00
 #   selected value source: Mughabghab-2018
-#   number of values: 2
-#   average value [b]:  5.500000E-03
-#   relative standard deviation [%]:      9.090911
-# quantity: 
-#   type: Compilation
-#   average value:  5.500000E-03
-#   relative standard deviation [%]:      9.090911
-# datablock: 
-#   columns: 10
-#   entries: 2
+#   number of values: 5
+#   average value [b]:  4.605257E-03
+#   relative standard deviation [%]:     50.551018
+#   quantity: 
+#     type: Compilation
+#     average value:  5.500000E-03
+#     relative standard deviation [%]:      9.090911
+#   datablock: 
+#     columns: 10
+#     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       Sukhoruchkin            Compilation          2015        6.000000E-03   0.000000E+00                      1.200000                  2.530000E-08
       Mughabghab-2018         Compilation          2018        5.000000E-03   0.000000E+00                      1.000000                  2.530000E-08
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  4.008761E-03
+#     relative standard deviation [%]:     70.452385
+#   datablock: 
+#     columns: 10
+#     entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      jendl5.0                NDL                  2021        1.464360E-05   0.000000E+00                      0.002929                  2.530000E-08
+      tendl.2025              NDL                  2025        6.007000E-03   0.000000E+00                      1.201400                  2.530000E-08
+      jeff4.0                 NDL                  2025        6.004640E-03   0.000000E+00                      1.200928                  2.530000E-08

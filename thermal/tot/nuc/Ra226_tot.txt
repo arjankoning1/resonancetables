@@ -1,7 +1,7 @@
 # header: 
 #   title: Ra226(n,tot) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 88
 #   A: 226
@@ -9,32 +9,36 @@
 # reaction: 
 #   type: (n,tot)
 # observables: 
-#   selected value [b]:  2.110000E+01
+#   selected value [b]:  2.100000E+01
 #   selected value uncertainty [b]:  0.000000E+00
-#   selected value source: M.I.Pevzner
-#   number of values: 5
-#   average value [b]:  2.271428E+01
-#   relative standard deviation [%]:      4.075196
-# quantity: 
-#   type: EXFOR
-#   average value:  2.110000E+01
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 1
+#   selected value source: S.M.Kalebin
+#   number of values: 9
+#   average value [b]:  2.175238E+01
+#   relative standard deviation [%]:      6.068629
+#   quantity: 
+#     type: EXFOR
+#     average value:  2.066000E+01
+#     relative standard deviation [%]:      2.402649
+#   datablock: 
+#     columns: 10
+#     entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      M.I.Pevzner             EXFOR                1956        2.110000E+01   0.000000E+00   40351-003-0        1.000000                  2.520000E-08
-# quantity: 
-#   type: Nuclear data library
-#   average value:  2.311785E+01
-#   relative standard deviation [%]:      2.191596
-# datablock: 
-#   columns: 11
-#   entries: 4
+      M.I.Pevzner             EXFOR                1956        2.040000E+01   0.000000E+00   40351-003-0        0.971429                  2.580000E-08
+      M.I.Pevzner             EXFOR                1956        2.110000E+01   0.000000E+00   40351-003-0        1.004762                  2.520000E-08
+      M.I.Pevzner             EXFOR                1956        2.100000E+01   0.000000E+00   40351-003-0        1.000000                  2.460000E-08
+      M.I.Pevzner             EXFOR                1956        1.980000E+01   0.000000E+00   40351-003-0        0.942857                  2.410000E-08
+      S.M.Kalebin             EXFOR                1971        2.100000E+01   0.000000E+00   40170-013-0        1.000000                  2.600000E-08
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  2.311785E+01
+#     relative standard deviation [%]:      2.191596
+#   datablock: 
+#     columns: 11
+#     entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
-      jendl5.0                NDL                  2021        2.261120E+01   0.000000E+00                      1.071621                  2.530000E-08   1.091960E+00
-      endfb8.1                NDL                  2024        2.261120E+01   0.000000E+00                      1.071621                  2.530000E-08   1.091960E+00
-      tendl.2025              NDL                  2025        2.362450E+01   0.000000E+00                      1.119645                  2.530000E-08   1.090810E+00
-      jeff4.0                 NDL                  2025        2.362450E+01   0.000000E+00                      1.119645                  2.530000E-08   1.090810E+00
+      jendl5.0                NDL                  2021        2.261120E+01   0.000000E+00                      1.076724                  2.530000E-08   1.091960E+00
+      endfb8.1                NDL                  2024        2.261120E+01   0.000000E+00                      1.076724                  2.530000E-08   1.091960E+00
+      tendl.2025              NDL                  2025        2.362450E+01   0.000000E+00                      1.124976                  2.530000E-08   1.090810E+00
+      jeff4.0                 NDL                  2025        2.362450E+01   0.000000E+00                      1.124976                  2.530000E-08   1.090810E+00

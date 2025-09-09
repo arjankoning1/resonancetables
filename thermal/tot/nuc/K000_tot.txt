@@ -1,7 +1,7 @@
 # header: 
 #   title: K000(n,tot) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 19
 #   A: 0
@@ -9,19 +9,35 @@
 # reaction: 
 #   type: (n,tot)
 # observables: 
-#   selected value [b]:  4.257000E+00
+#   selected value [b]:  4.289000E+00
 #   selected value uncertainty [b]:  0.000000E+00
 #   selected value source: E.G.Joki
-#   number of values: 1
-#   average value [b]:  4.257000E+00
-#   relative standard deviation [%]:      0.000000
-# quantity: 
-#   type: EXFOR
-#   average value:  4.257000E+00
-#   relative standard deviation [%]:      0.000000
-# datablock: 
-#   columns: 10
-#   entries: 1
+#   number of values: 8
+#   average value [b]:  4.725875E+00
+#   relative standard deviation [%]:     27.792164
+#   quantity: 
+#     type: EXFOR
+#     average value:  4.229571E+00
+#     relative standard deviation [%]:      0.740883
+#   datablock: 
+#     columns: 10
+#     entries: 7
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      E.G.Joki                EXFOR                1955        4.257000E+00   0.000000E+00   11443-003-0        1.000000                  2.524000E-08
+      E.G.Joki                EXFOR                1955        4.209000E+00   0.000000E+00   11443-003-0        0.981348                  2.583000E-08
+      E.G.Joki                EXFOR                1955        4.208000E+00   0.000000E+00   11443-003-0        0.981115                  2.553000E-08
+      E.G.Joki                EXFOR                1955        4.257000E+00   0.000000E+00   11443-003-0        0.992539                  2.524000E-08
+      E.G.Joki                EXFOR                1955        4.196000E+00   0.000000E+00   11443-003-0        0.978317                  2.495000E-08
+      E.G.Joki                EXFOR                1955        4.208000E+00   0.000000E+00   11443-003-0        0.981115                  2.467000E-08
+      E.G.Joki                EXFOR                1955        4.240000E+00   0.000000E+00   11443-003-0        0.988575                  2.439000E-08
+      E.G.Joki                EXFOR                1955        4.289000E+00   0.000000E+00   11443-003-0        1.000000                  2.412000E-08
+#   quantity: 
+#     type: EXFOR spectrum-averaged
+#     average value:  8.200000E+00
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      J.R.Dunning             EXFOR                1935        8.200000E+00   0.000000E+00   12634-018-0        1.911867   MXW            2.500000E-08

@@ -1,7 +1,7 @@
 # header: 
 #   title: P031(n,tot) thermal cross section
 #   source: Resonancetables
-#   date: 2025-08-25
+#   date: 2025-09-08
 # target: 
 #   Z: 15
 #   A: 31
@@ -9,34 +9,45 @@
 # reaction: 
 #   type: (n,tot)
 # observables: 
-#   selected value [b]:  8.770000E+00
+#   selected value [b]:  4.210000E+00
 #   selected value uncertainty [b]:  0.000000E+00
-#   selected value source: J.Rossel
-#   number of values: 7
-#   average value [b]:  5.667901E+00
-#   relative standard deviation [%]:     65.981041
-# quantity: 
-#   type: EXFOR spectrum-averaged
-#   average value:  1.118500E+01
-#   relative standard deviation [%]:     21.591415
-# datablock: 
-#   columns: 10
-#   entries: 2
+#   selected value source: W.W.Havens Jr
+#   number of values: 9
+#   average value [b]:  6.509479E+00
+#   relative standard deviation [%]:     67.785423
+#   quantity: 
+#     type: EXFOR
+#     average value:  4.210000E+00
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 10
+#     entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      M.Goldhaber             EXFOR                1937        1.360000E+01   0.000000E+00   22518-004-0        1.550741   MXW            2.530000E-08
-      J.Rossel                EXFOR                1947        8.770000E+00   0.000000E+00   21234-006-0        1.000000   MXW            2.530000E-08
-# quantity: 
-#   type: Nuclear data library
-#   average value:  3.461062E+00
-#   relative standard deviation [%]:     12.970870
-# datablock: 
-#   columns: 11
-#   entries: 5
+      W.W.Havens Jr           EXFOR                1952        4.210000E+00   0.000000E+00   11361-004-0        1.000000                  2.560000E-08
+#   quantity: 
+#     type: EXFOR spectrum-averaged
+#     average value:  1.235667E+01
+#     relative standard deviation [%]:     20.843870
+#   datablock: 
+#     columns: 10
+#     entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
+      J.R.Dunning             EXFOR                1935        1.470000E+01   0.000000E+00   12634-015-0        3.491686   MXW            2.500000E-08
+      M.Goldhaber             EXFOR                1937        1.360000E+01   0.000000E+00   22518-004-0        3.230404   MXW            2.530000E-08
+      J.Rossel                EXFOR                1947        8.770000E+00   0.000000E+00   21234-006-0        2.083135   MXW            2.530000E-08
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  3.461062E+00
+#     relative standard deviation [%]:     12.970870
+#   datablock: 
+#     columns: 11
+#     entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
-      cendl3.2                NDL                  2019        3.358500E+00   0.000000E+00                      0.382953                  2.530000E-08   1.122420E+00
-      jendl5.0                NDL                  2021        3.351150E+00   0.000000E+00                      0.382115                  2.530000E-08   1.121950E+00
-      endfb8.1                NDL                  2024        4.336060E+00   0.000000E+00                      0.494420                  2.530000E-08   1.123200E+00
-      tendl.2025              NDL                  2025        3.129800E+00   0.000000E+00                      0.356876                  2.530000E-08   1.121410E+00
-      jeff4.0                 NDL                  2025        3.129800E+00   0.000000E+00                      0.356876                  2.530000E-08   1.121410E+00
+      cendl3.2                NDL                  2019        3.358500E+00   0.000000E+00                      0.797743                  2.530000E-08   1.122420E+00
+      jendl5.0                NDL                  2021        3.351150E+00   0.000000E+00                      0.795998                  2.530000E-08   1.121950E+00
+      endfb8.1                NDL                  2024        4.336060E+00   0.000000E+00                      1.029943                  2.530000E-08   1.123200E+00
+      tendl.2025              NDL                  2025        3.129800E+00   0.000000E+00                      0.743420                  2.530000E-08   1.121410E+00
+      jeff4.0                 NDL                  2025        3.129800E+00   0.000000E+00                      0.743420                  2.530000E-08   1.121410E+00

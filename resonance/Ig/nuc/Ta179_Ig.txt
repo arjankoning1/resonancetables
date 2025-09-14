@@ -1,7 +1,7 @@
 # header: 
 #   title: Ta179 Ig resonance data
 #   source: Resonancetables
-#   date: 2025-09-08
+#   date: 2025-09-14
 # target: 
 #   Z: 73
 #   A: 179
@@ -12,9 +12,9 @@
 #   selected value [eV]:  1.216000E+03
 #   selected value uncertainty [eV]:  6.900000E+01
 #   selected value source: Mughabghab-2018
-#   number of values: 2
-#   average value [b]:  1.216000E+03
-#   relative standard deviation [%]:      0.000000
+#   number of values: 5
+#   average value [b]:  1.695000E+03
+#   relative standard deviation [%]:     23.436106
 #   quantity: 
 #     type: Compilation
 #     average value:  1.216000E+03
@@ -27,11 +27,14 @@
       Mughabghab-2018         Compilation          2018        1.216000E+03   6.900000E+01                      1.000000
 #   quantity: 
 #     type: EXFOR
-#     average value:  1.216000E+03
-#     relative standard deviation [%]:      0.000000
+#     average value:  1.814750E+03
+#     relative standard deviation [%]:     19.525116
 #   datablock: 
 #     columns: 8
-#     entries: 1
+#     entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Schumann                EXFOR                1999        1.216000E+03   6.900000E+01       22490003       1.000000
+      M.Schumann              EXFOR                1999        1.216000E+03   6.900000E+01      22490-003       1.000000
+      R.Garg                  EXFOR                2023        2.013000E+03   1.480000E+02      23791-007       1.655428
+      R.Garg                  EXFOR                2023        2.125000E+03   1.800000E+02      23791-005       1.747533
+      R.Garg                  EXFOR                2023        1.905000E+03   1.670000E+02      23791-003       1.566612

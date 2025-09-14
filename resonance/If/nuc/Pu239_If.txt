@@ -1,7 +1,7 @@
 # header: 
 #   title: Pu239 If resonance data
 #   source: Resonancetables
-#   date: 2025-09-08
+#   date: 2025-09-14
 # target: 
 #   Z: 94
 #   A: 239
@@ -12,9 +12,9 @@
 #   selected value [eV]:  3.030000E+02
 #   selected value uncertainty [eV]:  1.000000E+01
 #   selected value source: Mughabghab-2018
-#   number of values: 20
-#   average value [b]:  4.030049E+02
-#   relative standard deviation [%]:    100.687668
+#   number of values: 66
+#   average value [b]:  1.442544E+02
+#   relative standard deviation [%]:    198.133408
 #   quantity: 
 #     type: Compilation
 #     average value:  3.029000E+02
@@ -29,25 +29,71 @@
       Mughabghab-2018         Compilation          2018        3.030000E+02   1.000000E+01                      1.000000
 #   quantity: 
 #     type: EXFOR
-#     average value:  4.700083E+02
-#     relative standard deviation [%]:    109.151413
+#     average value:  1.224274E+02
+#     relative standard deviation [%]:    243.713638
 #   datablock: 
 #     columns: 8
-#     entries: 12
+#     entries: 58
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Cornish                 EXFOR                1956        4.340000E+02   1.800000E+01       12367005       1.432343
-      Hardyjr                 EXFOR                1961        3.270000E+02   2.200000E+01       12405003       1.079208
-      Bigham                  EXFOR                1964        3.140000E+02   9.000000E+00       12230007       1.036304
-      Bigham                  EXFOR                1964        3.850000E+02   1.800000E+01       12230006       1.270627
-      Hellstrand              EXFOR                1965        3.010000E+02   1.000000E+01       20018003       0.993399
-      Yasuno                  EXFOR                1967        3.660000E+02   2.600000E+01       20310002       1.207921
-      Ryabov                  EXFOR                1968        1.481000E+02   4.500000E+00       41275012       0.488779
-      Bak                     EXFOR                1970        3.300000E+02   3.000000E+01      403490031       1.089109
-      Eiland                  EXFOR                1971        2.310000E+02   1.400000E+01       10143015       0.762376
-      Zhuravlev               EXFOR                1975        3.280000E+02   2.200000E+01       40436011       1.082508
-      Gavrilov                EXFOR                1976        3.200000E+02   1.900000E+01       40467006       1.056106
-      Kim                     EXFOR                1979        2.156000E+03   5.936830E+01       21571002       7.115511
+      F.W.Cornish             EXFOR                1957        4.340000E+02   1.800000E+01      12367-005       1.432343
+      C.G.Campbell            EXFOR                1958        2.820000E+02   0.000000E+00      23370-004       0.930693
+      C.G.Campbell            EXFOR                1958        3.160000E+02   0.000000E+00      23370-004       1.042904
+      J.Hardy Jr              EXFOR                1961        3.270000E+02   2.200000E+01      12405-003       1.079208
+      C.B.Bigham              EXFOR                1964        3.140000E+02   9.000000E+00      12230-007       1.036304
+      C.B.Bigham              EXFOR                1964        3.850000E+02   1.800000E+01      12230-006       1.270627
+      E.Hellstrand            EXFOR                1965        3.010000E+02   1.000000E+01      20018-003       0.993399
+      T.Yasuno                EXFOR                1967        3.660000E+02   2.600000E+01      20310-002       1.207921
+      Yu.V.Ryabov             EXFOR                1968        1.481000E+02   4.500000E+00      41275-012       0.488779
+      Yu.V.Ryabov             EXFOR                1968        1.250000E+00   0.000000E+00      41275-007       0.004125
+      Yu.V.Ryabov             EXFOR                1968        3.550000E+00   0.000000E+00      41275-007       0.011716
+      Yu.V.Ryabov             EXFOR                1968        5.800000E+00   0.000000E+00      41275-007       0.019142
+      Yu.V.Ryabov             EXFOR                1968        7.800000E+00   0.000000E+00      41275-007       0.025743
+      Yu.V.Ryabov             EXFOR                1968        5.400000E+00   0.000000E+00      41275-007       0.017822
+      Yu.V.Ryabov             EXFOR                1968        7.500000E+00   0.000000E+00      41275-007       0.024752
+      Yu.V.Ryabov             EXFOR                1968        1.600000E+00   0.000000E+00      41275-007       0.005281
+      Yu.V.Ryabov             EXFOR                1968        1.180000E+01   0.000000E+00      41275-007       0.038944
+      Yu.V.Ryabov             EXFOR                1968        5.700000E+00   0.000000E+00      41275-007       0.018812
+      Yu.V.Ryabov             EXFOR                1968        9.900000E+00   0.000000E+00      41275-007       0.032673
+      Yu.V.Ryabov             EXFOR                1968        4.300000E-01   0.000000E+00      41275-007       0.001419
+      Yu.V.Ryabov             EXFOR                1968        1.090000E+01   0.000000E+00      41275-007       0.035974
+      Yu.V.Ryabov             EXFOR                1968        1.490000E+01   0.000000E+00      41275-007       0.049175
+      Yu.V.Ryabov             EXFOR                1968        4.640000E+01   0.000000E+00      41275-007       0.153135
+      Yu.V.Ryabov             EXFOR                1968        1.260000E+01   0.000000E+00      41275-007       0.041584
+      Yu.V.Ryabov             EXFOR                1968        2.600000E+00   0.000000E+00      41275-007       0.008581
+      M.A.Bak                 EXFOR                1970        3.300000E+02   3.000000E+01      40349-003       1.089109
+      H.M.Eiland              EXFOR                1971        2.310000E+02   1.400000E+01      10143-015       0.762376
+      A.J.Deruytter           EXFOR                1972        3.840000E+00   0.000000E+00      20132-003       0.012673
+      A.J.Deruytter           EXFOR                1972        1.005000E+01   0.000000E+00      20132-003       0.033168
+      A.J.Deruytter           EXFOR                1972        3.521000E+01   0.000000E+00      20132-003       0.116205
+      A.J.Deruytter           EXFOR                1972        8.031000E+01   0.000000E+00      20132-003       0.265049
+      A.J.Deruytter           EXFOR                1972        4.510000E+01   0.000000E+00      20132-003       0.148845
+      A.J.Deruytter           EXFOR                1972        2.315000E+01   0.000000E+00      20132-003       0.076403
+      K.D.Zhuravlev           EXFOR                1975        3.280000E+02   2.200000E+01      40436-011       1.082508
+      V.D.Gavrilov            EXFOR                1976        3.200000E+02   1.900000E+01      40467-006       1.056106
+      J.I.Kim                 EXFOR                1979        2.156000E+03   0.000000E+00      21571-002       7.115511
+      V.F.Gerasimov           EXFOR                1987        1.820000E+00   0.000000E+00      40993-002       0.006007
+      V.F.Gerasimov           EXFOR                1987        2.280000E+00   0.000000E+00      40993-002       0.007525
+      V.F.Gerasimov           EXFOR                1987        3.230000E+00   0.000000E+00      40993-002       0.010660
+      V.F.Gerasimov           EXFOR                1987        4.580000E+00   0.000000E+00      40993-002       0.015116
+      V.F.Gerasimov           EXFOR                1987        8.440000E+00   0.000000E+00      40993-002       0.027855
+      V.F.Gerasimov           EXFOR                1987        1.230000E+01   0.000000E+00      40993-002       0.040594
+      V.F.Gerasimov           EXFOR                1987        1.880000E+01   0.000000E+00      40993-002       0.062046
+      V.F.Gerasimov           EXFOR                1987        3.570000E+01   0.000000E+00      40993-002       0.117822
+      V.F.Gerasimov           EXFOR                1987        2.020000E+01   0.000000E+00      40993-002       0.066667
+      V.F.Gerasimov           EXFOR                1987        1.039000E+02   0.000000E+00      40993-002       0.342904
+      V.F.Gerasimov           EXFOR                1987        3.720000E+01   0.000000E+00      40993-002       0.122772
+      V.F.Gerasimov           EXFOR                1997        1.820000E+00   0.000000E+00      41369-005       0.006007
+      V.F.Gerasimov           EXFOR                1997        2.280000E+00   0.000000E+00      41369-005       0.007525
+      V.F.Gerasimov           EXFOR                1997        3.230000E+00   0.000000E+00      41369-005       0.010660
+      V.F.Gerasimov           EXFOR                1997        4.580000E+00   0.000000E+00      41369-005       0.015116
+      V.F.Gerasimov           EXFOR                1997        8.440000E+00   0.000000E+00      41369-005       0.027855
+      V.F.Gerasimov           EXFOR                1997        1.230000E+01   0.000000E+00      41369-005       0.040594
+      V.F.Gerasimov           EXFOR                1997        1.880000E+01   0.000000E+00      41369-005       0.062046
+      V.F.Gerasimov           EXFOR                1997        5.570000E+01   0.000000E+00      41369-005       0.183828
+      V.F.Gerasimov           EXFOR                1997        2.020000E+01   0.000000E+00      41369-005       0.066667
+      V.F.Gerasimov           EXFOR                1997        1.039000E+02   0.000000E+00      41369-005       0.342904
+      V.F.Gerasimov           EXFOR                1997        3.720000E+01   0.000000E+00      41369-005       0.122772
 #   quantity: 
 #     type: Nuclear data library
 #     average value:  3.022596E+02

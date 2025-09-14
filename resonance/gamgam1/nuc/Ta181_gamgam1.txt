@@ -1,7 +1,7 @@
 # header: 
 #   title: Ta181 gamgam1 resonance data
 #   source: Resonancetables
-#   date: 2025-09-08
+#   date: 2025-09-14
 # target: 
 #   Z: 73
 #   A: 181
@@ -12,9 +12,9 @@
 #   selected value [eV]:  4.340000E-02
 #   selected value uncertainty [eV]:  4.300000E-03
 #   selected value source: Mughabghab-2018
-#   number of values: 1
-#   average value [b]:  4.340000E-02
-#   relative standard deviation [%]:      0.000000
+#   number of values: 4
+#   average value [b]:  5.582500E-02
+#   relative standard deviation [%]:     18.469795
 #   quantity: 
 #     type: Compilation
 #     average value:  4.340000E-02
@@ -25,3 +25,15 @@
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
       Mughabghab-2018         Compilation          2018        4.340000E-02   4.300000E-03                      1.000000
+#   quantity: 
+#     type: EXFOR
+#     average value:  5.996666E-02
+#     relative standard deviation [%]:     14.261144
+#   datablock: 
+#     columns: 8
+#     entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      T.Y.Byoun               EXFOR                1973        7.200000E-02   0.000000E+00      10577-040       1.658986
+      B.J.Mcdermott           EXFOR                2017        5.290000E-02   1.350000E-02      14473-004       1.218894
+      B.J.Mcdermott           EXFOR                2017        5.500000E-02   1.310000E-02      14473-004       1.267281

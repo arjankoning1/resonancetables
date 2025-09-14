@@ -1,7 +1,7 @@
 # header: 
 #   title: Hg199 gamgam resonance data
 #   source: Resonancetables
-#   date: 2025-09-08
+#   date: 2025-09-14
 # target: 
 #   Z: 80
 #   A: 199
@@ -12,9 +12,9 @@
 #   selected value [eV]:  2.950000E-01
 #   selected value uncertainty [eV]:  2.000000E-02
 #   selected value source: RIPL-3
-#   number of values: 8
-#   average value [b]:  2.751730E-01
-#   relative standard deviation [%]:      8.524744
+#   number of values: 10
+#   average value [b]:  2.746384E-01
+#   relative standard deviation [%]:     10.878503
 #   quantity: 
 #     type: Compilation
 #     average value:  2.930000E-01
@@ -27,6 +27,17 @@
       RIPL-2                  Compilation          2000        2.950000E-01   2.000000E-02            97I       1.000000
       RIPL-3                  Compilation          2009        2.950000E-01   2.000000E-02            97I       1.000000
       Mughabghab-2018         Compilation          2018        2.890000E-01   1.700000E-02                      0.979661
+#   quantity: 
+#     type: EXFOR
+#     average value:  2.725000E-01
+#     relative standard deviation [%]:     17.431194
+#   datablock: 
+#     columns: 8
+#     entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      J.Julien                EXFOR                1969        3.200000E-01   0.000000E+00      20687-042       1.084746
+      J.Julien                EXFOR                1969        2.250000E-01   0.000000E+00      20687-042       0.762712
 #   quantity: 
 #     type: Nuclear data library
 #     average value:  2.644768E-01

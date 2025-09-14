@@ -1,7 +1,7 @@
 # header: 
 #   title: Cd116 gamgam resonance data
 #   source: Resonancetables
-#   date: 2025-09-08
+#   date: 2025-09-14
 # target: 
 #   Z: 48
 #   A: 116
@@ -12,9 +12,9 @@
 #   selected value [eV]:  5.000000E-02
 #   selected value uncertainty [eV]:  5.000000E-03
 #   selected value source: RIPL-3
-#   number of values: 8
-#   average value [b]:  5.603765E-02
-#   relative standard deviation [%]:     14.163053
+#   number of values: 10
+#   average value [b]:  5.425012E-02
+#   relative standard deviation [%]:     14.651189
 #   quantity: 
 #     type: Compilation
 #     average value:  4.900000E-02
@@ -27,6 +27,17 @@
       RIPL-2                  Compilation          2000        4.700000E-02   4.000000E-03            78M       0.940000
       RIPL-3                  Compilation          2009        5.000000E-02   5.000000E-03            06M       1.000000
       Mughabghab-2018         Compilation          2018        5.000000E-02   5.000000E-03                      1.000000
+#   quantity: 
+#     type: EXFOR
+#     average value:  4.710000E-02
+#     relative standard deviation [%]:      0.212318
+#   datablock: 
+#     columns: 8
+#     entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      A.R.De L.Musgrove       EXFOR                1978        4.700000E-02   0.000000E+00      30453-023       0.940000
+      K.Volev                 EXFOR                2013        4.720000E-02   0.000000E+00      23196-017       0.944000
 #   quantity: 
 #     type: Nuclear data library
 #     average value:  6.026024E-02

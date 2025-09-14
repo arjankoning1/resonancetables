@@ -1,7 +1,7 @@
 # header: 
 #   title: Pm148 Ig resonance data
 #   source: Resonancetables
-#   date: 2025-09-08
+#   date: 2025-09-14
 # target: 
 #   Z: 61
 #   A: 148
@@ -9,29 +9,20 @@
 # reaction: 
 #   type: Ig
 #   parameters: 
-#   selected value [eV]:  2.600000E+03
-#   selected value uncertainty [eV]:  2.400000E+03
-#   selected value source: JUKO
+#   selected value [eV]:  6.000000E+03
+#   selected value uncertainty [eV]:  1.000000E+03
+#   selected value source: K.Broderick
 #   number of values: 2
-#   average value [b]:  2.330000E+04
-#   relative standard deviation [%]:     88.841202
-#   quantity: 
-#     type: Compilation
-#     average value:  2.600000E+03
-#     relative standard deviation [%]:      0.000000
-#   datablock: 
-#     columns: 8
-#     entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      JUKO                    Compilation          2000        2.600000E+03   2.400000E+03                      1.000000
+#   average value [b]:  2.500000E+04
+#   relative standard deviation [%]:     76.000000
 #   quantity: 
 #     type: EXFOR
-#     average value:  4.400000E+04
-#     relative standard deviation [%]:      0.000000
+#     average value:  2.500000E+04
+#     relative standard deviation [%]:     76.000000
 #   datablock: 
 #     columns: 8
-#     entries: 1
+#     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Schuman                 EXFOR                1962        4.400000E+04   0.000000E+00       12100009      16.923077
+      R.P.Schuman             EXFOR                1962        4.400000E+04   0.000000E+00      12100-009       7.333333
+      K.Broderick             EXFOR                2019        6.000000E+03   1.000000E+03      14680-015       1.000000

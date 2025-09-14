@@ -1,7 +1,7 @@
 # header: 
 #   title: Zr092 Ig resonance data
 #   source: Resonancetables
-#   date: 2025-09-08
+#   date: 2025-09-14
 # target: 
 #   Z: 40
 #   A: 92
@@ -13,19 +13,28 @@
 #   selected value uncertainty [eV]:  6.000000E-02
 #   selected value source: Sukhoruchkin
 #   number of values: 7
-#   average value [b]:  5.851642E-01
-#   relative standard deviation [%]:     13.827081
+#   average value [b]:  5.580214E-01
+#   relative standard deviation [%]:     16.018747
 #   quantity: 
 #     type: Compilation
-#     average value:  6.650000E-01
-#     relative standard deviation [%]:      3.759399
+#     average value:  6.900000E-01
+#     relative standard deviation [%]:      0.000000
 #   datablock: 
 #     columns: 8
-#     entries: 2
+#     entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      JUKO                    Compilation          2000        6.400000E-01   2.000000E-01                      0.927536
       Sukhoruchkin            Compilation          2015        6.900000E-01   6.000000E-02                      1.000000
+#   quantity: 
+#     type: EXFOR
+#     average value:  4.500000E-01
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 8
+#     entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      J.W.Boldeman            EXFOR                1976        4.500000E-01   5.000000E-02      30358-005       0.652174
 #   quantity: 
 #     type: Nuclear data library
 #     average value:  5.532300E-01

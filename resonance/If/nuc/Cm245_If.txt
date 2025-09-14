@@ -1,7 +1,7 @@
 # header: 
 #   title: Cm245 If resonance data
 #   source: Resonancetables
-#   date: 2025-09-08
+#   date: 2025-09-14
 # target: 
 #   Z: 96
 #   A: 245
@@ -12,9 +12,9 @@
 #   selected value [eV]:  7.720000E+02
 #   selected value uncertainty [eV]:  4.000000E+01
 #   selected value source: Mughabghab-2018
-#   number of values: 13
-#   average value [b]:  8.649479E+02
-#   relative standard deviation [%]:     13.891186
+#   number of values: 45
+#   average value [b]:  3.309703E+02
+#   relative standard deviation [%]:    141.031509
 #   quantity: 
 #     type: Compilation
 #     average value:  8.150000E+02
@@ -29,19 +29,51 @@
       Mughabghab-2018         Compilation          2018        7.720000E+02   4.000000E+01                      1.000000
 #   quantity: 
 #     type: EXFOR
-#     average value:  9.131667E+02
-#     relative standard deviation [%]:     17.796078
+#     average value:  2.402195E+02
+#     relative standard deviation [%]:    188.472534
 #   datablock: 
 #     columns: 8
-#     entries: 6
+#     entries: 38
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Halperin                EXFOR                1970        1.140000E+03   1.000000E+02       10165003       1.476684
-      Halperin                EXFOR                1970        1.140000E+03   1.000000E+02       10165003       1.476684
-      Benjamin                EXFOR                1972        7.720000E+02   4.000000E+01       10128005       1.000000
-      Benjamin                EXFOR                1972        7.720000E+02   4.000000E+01       10128005       1.000000
-      Zhuravlev               EXFOR                1975        8.050000E+02   8.000000E+01       40436016       1.042746
-      Gavrilov                EXFOR                1976        8.500000E+02   6.000000E+01       40467021       1.101036
+      J.Halperin              EXFOR                1970        1.140000E+03   1.000000E+02      10165-003       1.476684
+      R.W.Benjamin            EXFOR                1972        7.720000E+02   4.000000E+01      10128-005       1.000000
+      K.D.Zhuravlev           EXFOR                1975        8.050000E+02   8.000000E+01      40436-016       1.042746
+      V.D.Gavrilov            EXFOR                1976        8.500000E+02   6.000000E+01      40467-021       1.101036
+      V.F.Gerasimov           EXFOR                1987        3.640000E+00   0.000000E+00      40993-005       0.004715
+      V.F.Gerasimov           EXFOR                1987        5.100000E+00   0.000000E+00      40993-005       0.006606
+      V.F.Gerasimov           EXFOR                1987        7.120000E+00   0.000000E+00      40993-005       0.009223
+      V.F.Gerasimov           EXFOR                1987        1.053000E+01   0.000000E+00      40993-005       0.013640
+      V.F.Gerasimov           EXFOR                1987        1.363000E+01   0.000000E+00      40993-005       0.017655
+      V.F.Gerasimov           EXFOR                1987        2.002000E+01   0.000000E+00      40993-005       0.025933
+      V.F.Gerasimov           EXFOR                1987        3.560000E+01   0.000000E+00      40993-005       0.046114
+      V.F.Gerasimov           EXFOR                1987        6.640000E+01   0.000000E+00      40993-005       0.086010
+      V.F.Gerasimov           EXFOR                1987        6.940000E+01   0.000000E+00      40993-005       0.089896
+      V.F.Gerasimov           EXFOR                1987        3.640000E+01   0.000000E+00      40993-005       0.047150
+      V.F.Gerasimov           EXFOR                1987        2.120000E+02   0.000000E+00      40993-005       0.274611
+      V.F.Gerasimov           EXFOR                1997        3.600000E+00   0.000000E+00      41369-008       0.004663
+      V.F.Gerasimov           EXFOR                1997        5.100000E+00   0.000000E+00      41369-008       0.006606
+      V.F.Gerasimov           EXFOR                1997        7.100000E+00   0.000000E+00      41369-008       0.009197
+      V.F.Gerasimov           EXFOR                1997        1.050000E+01   0.000000E+00      41369-008       0.013601
+      V.F.Gerasimov           EXFOR                1997        1.360000E+01   0.000000E+00      41369-008       0.017617
+      V.F.Gerasimov           EXFOR                1997        2.000000E+01   0.000000E+00      41369-008       0.025907
+      V.F.Gerasimov           EXFOR                1997        3.560000E+01   0.000000E+00      41369-008       0.046114
+      V.F.Gerasimov           EXFOR                1997        6.640000E+01   0.000000E+00      41369-008       0.086010
+      V.F.Gerasimov           EXFOR                1997        6.940000E+01   0.000000E+00      41369-008       0.089896
+      V.F.Gerasimov           EXFOR                1997        3.640000E+01   0.000000E+00      41369-008       0.047150
+      V.F.Gerasimov           EXFOR                1997        2.120000E+02   0.000000E+00      41369-008       0.274611
+      O.Serot                 EXFOR                2009        4.900000E+01   2.200000E+01      23120-004       0.063472
+      O.Serot                 EXFOR                2009        2.100000E+01   5.000000E+00      23120-004       0.027202
+      O.Serot                 EXFOR                2009        4.200000E+01   6.000000E+00      23120-004       0.054404
+      O.Serot                 EXFOR                2009        3.900000E+01   6.000000E+00      23120-004       0.050518
+      O.Serot                 EXFOR                2009        2.300000E+01   4.000000E+00      23120-004       0.029793
+      O.Serot                 EXFOR                2009        5.910000E+02   2.100000E+01      23120-004       0.765544
+      M.Calviani              EXFOR                2012        2.830000E+01   0.000000E+00      23168-004       0.036658
+      M.Calviani              EXFOR                2012        5.490000E+01   0.000000E+00      23168-004       0.071114
+      M.Calviani              EXFOR                2012        1.092000E+02   0.000000E+00      23168-004       0.141451
+      M.Calviani              EXFOR                2012        7.658000E+02   0.000000E+00      23168-004       0.991969
+      M.Calviani              EXFOR                2012        5.734000E+02   0.000000E+00      23168-004       0.742746
+      M.Calviani              EXFOR                2012        2.305200E+03   0.000000E+00      23168-004       2.986010
 #   quantity: 
 #     type: Nuclear data library
 #     average value:  8.300807E+02

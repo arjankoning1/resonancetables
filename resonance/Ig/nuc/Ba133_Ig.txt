@@ -1,7 +1,7 @@
 # header: 
 #   title: Ba133 Ig resonance data
 #   source: Resonancetables
-#   date: 2025-09-08
+#   date: 2025-09-14
 # target: 
 #   Z: 56
 #   A: 133
@@ -13,16 +13,25 @@
 #   selected value uncertainty [eV]:  2.900000E+01
 #   selected value source: Sukhoruchkin
 #   number of values: 2
-#   average value [b]:  1.080000E+02
-#   relative standard deviation [%]:      1.851852
+#   average value [b]:  9.550000E+01
+#   relative standard deviation [%]:     10.994764
 #   quantity: 
 #     type: Compilation
-#     average value:  1.080000E+02
-#     relative standard deviation [%]:      1.851852
+#     average value:  1.060000E+02
+#     relative standard deviation [%]:      0.000000
 #   datablock: 
 #     columns: 8
-#     entries: 2
+#     entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      JUKO                    Compilation          2000        1.100000E+02   3.000000E+01                      1.037736
       Sukhoruchkin            Compilation          2015        1.060000E+02   2.900000E+01                      1.000000
+#   quantity: 
+#     type: EXFOR
+#     average value:  8.500000E+01
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 8
+#     entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      S.M.Masyanov            EXFOR                1990        8.500000E+01   3.100000E+01      41103-006       0.801887

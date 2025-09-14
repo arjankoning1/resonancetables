@@ -1,7 +1,7 @@
 # header: 
 #   title: Bi209 gamgam1 resonance data
 #   source: Resonancetables
-#   date: 2025-09-08
+#   date: 2025-09-14
 # target: 
 #   Z: 83
 #   A: 209
@@ -12,9 +12,9 @@
 #   selected value [eV]:  3.900000E-02
 #   selected value uncertainty [eV]:  1.200000E-02
 #   selected value source: RIPL-3
-#   number of values: 9
-#   average value [b]:  4.058824E-02
-#   relative standard deviation [%]:     19.950237
+#   number of values: 10
+#   average value [b]:  3.989942E-02
+#   relative standard deviation [%]:     19.937654
 #   quantity: 
 #     type: Compilation
 #     average value:  3.300000E-02
@@ -27,6 +27,16 @@
       RIPL-2                  Compilation          2000        3.400000E-02   1.000000E-02            97I       0.871795
       RIPL-3                  Compilation          2009        3.900000E-02   1.200000E-02            04I       1.000000
       Mughabghab-2018         Compilation          2018        2.600000E-02   3.000000E-03                      0.666667
+#   quantity: 
+#     type: EXFOR
+#     average value:  3.370000E-02
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 8
+#     entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      R.Macklin               EXFOR                1976        3.370000E-02   0.000000E+00      10610-003       0.864103
 #   quantity: 
 #     type: Nuclear data library
 #     average value:  4.438237E-02

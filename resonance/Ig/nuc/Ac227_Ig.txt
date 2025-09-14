@@ -1,7 +1,7 @@
 # header: 
 #   title: Ac227 Ig resonance data
 #   source: Resonancetables
-#   date: 2025-09-08
+#   date: 2025-09-14
 # target: 
 #   Z: 89
 #   A: 227
@@ -12,30 +12,35 @@
 #   selected value [eV]:  1.660000E+03
 #   selected value uncertainty [eV]:  3.000000E+01
 #   selected value source: Mughabghab-2018
-#   number of values: 6
-#   average value [b]:  1.613667E+03
-#   relative standard deviation [%]:     26.163309
+#   number of values: 11
+#   average value [b]:  1.865818E+03
+#   relative standard deviation [%]:     22.709991
 #   quantity: 
 #     type: Compilation
 #     average value:  1.660000E+03
 #     relative standard deviation [%]:      0.000000
 #   datablock: 
 #     columns: 8
-#     entries: 2
+#     entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      JUKO                    Compilation          2000        1.660000E+03   8.000000E+01                      1.000000
       Mughabghab-2018         Compilation          2018        1.660000E+03   3.000000E+01                      1.000000
 #   quantity: 
 #     type: EXFOR
-#     average value:  1.590500E+03
-#     relative standard deviation [%]:     32.412075
+#     average value:  1.886400E+03
+#     relative standard deviation [%]:     23.278990
 #   datablock: 
 #     columns: 8
-#     entries: 4
+#     entries: 10
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Cabell                  EXFOR                1959        1.177000E+03   1.900000E+01       12254002       0.709036
-      Aly                     EXFOR                1974        1.889000E+03   1.970000E+02       23378004       1.137952
-      Aly                     EXFOR                1974        2.279000E+03   1.050000E+02       23378003       1.372892
-      Monsecour               EXFOR                1975        1.017000E+03   1.030000E+02       20636003       0.612651
+      M.J.Cabell              EXFOR                1959        1.177000E+03   1.900000E+01      12254-002       0.709036
+      H.F.Aly                 EXFOR                1974        1.763000E+03   5.900000E+01      23378-007       1.062048
+      H.F.Aly                 EXFOR                1974        1.943000E+03   1.790000E+02      23378-007       1.170482
+      H.F.Aly                 EXFOR                1974        1.960000E+03   4.600000E+01      23378-007       1.180723
+      H.F.Aly                 EXFOR                1974        1.889000E+03   1.970000E+02      23378-004       1.137952
+      H.F.Aly                 EXFOR                1974        2.138000E+03   1.200000E+01      23378-006       1.287952
+      H.F.Aly                 EXFOR                1974        2.349000E+03   1.490000E+02      23378-006       1.415060
+      H.F.Aly                 EXFOR                1974        2.349000E+03   2.900000E+01      23378-006       1.415060
+      H.F.Aly                 EXFOR                1974        2.279000E+03   1.050000E+02      23378-003       1.372892
+      M.Monsecour             EXFOR                1975        1.017000E+03   1.030000E+02      20636-003       0.612651

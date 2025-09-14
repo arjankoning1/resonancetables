@@ -1,7 +1,7 @@
 # header: 
 #   title: Ti047 Ig resonance data
 #   source: Resonancetables
-#   date: 2025-09-08
+#   date: 2025-09-14
 # target: 
 #   Z: 22
 #   A: 47
@@ -13,19 +13,28 @@
 #   selected value uncertainty [eV]:  1.600000E-01
 #   selected value source: Sukhoruchkin
 #   number of values: 7
-#   average value [b]:  1.439457E+00
-#   relative standard deviation [%]:      5.848186
+#   average value [b]:  1.316029E+00
+#   relative standard deviation [%]:     21.963671
 #   quantity: 
 #     type: Compilation
-#     average value:  1.430000E+00
-#     relative standard deviation [%]:      4.895104
+#     average value:  1.360000E+00
+#     relative standard deviation [%]:      0.000000
 #   datablock: 
 #     columns: 8
-#     entries: 2
+#     entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      JUKO                    Compilation          2000        1.500000E+00   2.000000E-01                      1.102941
       Sukhoruchkin            Compilation          2015        1.360000E+00   1.600000E-01                      1.000000
+#   quantity: 
+#     type: EXFOR
+#     average value:  6.360000E-01
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 8
+#     entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      B.J.Allen               EXFOR                1977        6.360000E-01   7.600000E-02      30359-009       0.467647
 #   quantity: 
 #     type: Nuclear data library
 #     average value:  1.443240E+00

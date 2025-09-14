@@ -1,7 +1,7 @@
 # header: 
 #   title: U235 Ig resonance data
 #   source: Resonancetables
-#   date: 2025-09-08
+#   date: 2025-09-14
 # target: 
 #   Z: 92
 #   A: 235
@@ -12,37 +12,54 @@
 #   selected value [eV]:  1.460000E+02
 #   selected value uncertainty [eV]:  6.000000E+00
 #   selected value source: Mughabghab-2018
-#   number of values: 15
-#   average value [b]:  1.493714E+02
-#   relative standard deviation [%]:     22.880777
+#   number of values: 32
+#   average value [b]:  6.102287E+01
+#   relative standard deviation [%]:    106.768997
 #   quantity: 
 #     type: Compilation
-#     average value:  1.871333E+02
-#     relative standard deviation [%]:     33.223991
+#     average value:  1.432000E+02
+#     relative standard deviation [%]:      1.955309
 #   datablock: 
 #     columns: 8
-#     entries: 3
+#     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      JUKO                    Compilation          2000        2.750000E+02   5.000000E+00                      1.883562
       Sukhoruchkin            Compilation          2015        1.404000E+02   0.000000E+00                      0.961644
       Mughabghab-2018         Compilation          2018        1.460000E+02   6.000000E+00                      1.000000
 #   quantity: 
 #     type: EXFOR
-#     average value:  1.384571E+02
-#     relative standard deviation [%]:      6.284405
+#     average value:  3.825440E+01
+#     relative standard deviation [%]:    144.664581
 #   datablock: 
 #     columns: 8
-#     entries: 7
+#     entries: 25
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Durham                  EXFOR                1966        1.430000E+02   7.000000E+00       12428003       0.979452
-      Conway                  EXFOR                1967        1.360000E+02   8.000000E+00       12313004       0.931507
-      Ryabov                  EXFOR                1968        1.342000E+02   8.100000E+00       41275011       0.919178
-      Eiland                  EXFOR                1971        1.280000E+02   5.000000E+00       10143005       0.876712
-      Eiland                  EXFOR                1971        1.500000E+02   6.000000E+00       10143002       1.027397
-      Eiland                  EXFOR                1971        1.280000E+02   5.000000E+00       10143005       0.876712
-      Eiland                  EXFOR                1971        1.500000E+02   6.000000E+00       10143002       1.027397
+      F.D.Brooks              EXFOR                1966        1.253000E+02   0.000000E+00      20938-023       0.858219
+      R.W.Durham              EXFOR                1966        1.430000E+02   7.000000E+00      12428-003       0.979452
+      D.E.Conway              EXFOR                1967        1.360000E+02   8.000000E+00      12313-004       0.931507
+      Yu.V.Ryabov             EXFOR                1968        3.300000E-01   0.000000E+00      41275-005       0.002260
+      Yu.V.Ryabov             EXFOR                1968        7.300000E-01   0.000000E+00      41275-005       0.005000
+      Yu.V.Ryabov             EXFOR                1968        1.800000E+00   0.000000E+00      41275-005       0.012329
+      Yu.V.Ryabov             EXFOR                1968        2.800000E+00   0.000000E+00      41275-005       0.019178
+      Yu.V.Ryabov             EXFOR                1968        5.800000E+00   0.000000E+00      41275-005       0.039726
+      Yu.V.Ryabov             EXFOR                1968        4.500000E+00   0.000000E+00      41275-005       0.030822
+      Yu.V.Ryabov             EXFOR                1968        8.700000E+00   0.000000E+00      41275-005       0.059589
+      Yu.V.Ryabov             EXFOR                1968        2.300000E+00   0.000000E+00      41275-005       0.015753
+      Yu.V.Ryabov             EXFOR                1968        5.200000E+00   0.000000E+00      41275-005       0.035616
+      Yu.V.Ryabov             EXFOR                1968        2.900000E+00   0.000000E+00      41275-005       0.019863
+      Yu.V.Ryabov             EXFOR                1968        1.120000E+01   0.000000E+00      41275-005       0.076712
+      Yu.V.Ryabov             EXFOR                1968        1.020000E+01   0.000000E+00      41275-005       0.069863
+      Yu.V.Ryabov             EXFOR                1968        1.600000E+01   0.000000E+00      41275-005       0.109589
+      Yu.V.Ryabov             EXFOR                1968        1.160000E+01   0.000000E+00      41275-005       0.079452
+      Yu.V.Ryabov             EXFOR                1968        2.100000E+01   0.000000E+00      41275-005       0.143836
+      Yu.V.Ryabov             EXFOR                1968        1.040000E+01   0.000000E+00      41275-005       0.071233
+      Yu.V.Ryabov             EXFOR                1968        1.410000E+01   0.000000E+00      41275-005       0.096575
+      Yu.V.Ryabov             EXFOR                1968        3.200000E+00   0.000000E+00      41275-005       0.021918
+      Yu.V.Ryabov             EXFOR                1968        7.100000E+00   0.000000E+00      41275-005       0.048630
+      Yu.V.Ryabov             EXFOR                1968        1.342000E+02   8.100000E+00      41275-011       0.919178
+      H.M.Eiland              EXFOR                1971        1.280000E+02   5.000000E+00      10143-005       0.876712
+      H.M.Eiland              EXFOR                1971        1.500000E+02   6.000000E+00      10143-002       1.027397
 #   quantity: 
 #     type: Nuclear data library
 #     average value:  1.419944E+02

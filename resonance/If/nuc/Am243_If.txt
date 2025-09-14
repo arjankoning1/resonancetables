@@ -1,7 +1,7 @@
 # header: 
 #   title: Am243 If resonance data
 #   source: Resonancetables
-#   date: 2025-09-08
+#   date: 2025-09-14
 # target: 
 #   Z: 95
 #   A: 243
@@ -12,9 +12,9 @@
 #   selected value [eV]:  2.300000E+00
 #   selected value uncertainty [eV]:  3.000000E-01
 #   selected value source: Mughabghab-2018
-#   number of values: 11
-#   average value [b]:  5.918194E+00
-#   relative standard deviation [%]:     70.959244
+#   number of values: 14
+#   average value [b]:  5.525010E+00
+#   relative standard deviation [%]:     69.227783
 #   quantity: 
 #     type: Compilation
 #     average value:  6.066666E+00
@@ -29,16 +29,19 @@
       Mughabghab-2018         Compilation          2018        2.300000E+00   3.000000E-01                      1.000000
 #   quantity: 
 #     type: EXFOR
-#     average value:  9.520000E+00
-#     relative standard deviation [%]:     62.899731
+#     average value:  6.801666E+00
+#     relative standard deviation [%]:     74.675453
 #   datablock: 
 #     columns: 8
-#     entries: 3
+#     entries: 6
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Zhuravlev               EXFOR                1975        9.000000E+00   1.000000E+00       40436014       3.913043
-      Gavrilov                EXFOR                1976        1.710000E+01   1.300000E+00       40467008       7.434783
-      Alekseev                EXFOR                2011        2.460000E+00   1.753260E-01       41578005       1.069565
+      K.D.Zhuravlev           EXFOR                1975        9.000000E+00   1.000000E+00      40436-014       3.913043
+      V.D.Gavrilov            EXFOR                1976        1.710000E+01   1.300000E+00      40467-008       7.434783
+      H.Knitter               EXFOR                1988        5.400000E+00   3.000000E-01      22032-004       2.347826
+      H.Knitter               EXFOR                1988        3.800000E+00   2.000000E-01      22032-004       1.652174
+      H.Knitter               EXFOR                1988        3.050000E+00   1.500000E-01      22032-004       1.326087
+      A.A.Alekseev            EXFOR                2011        2.460000E+00   0.000000E+00      41578-005       1.069565
 #   quantity: 
 #     type: Nuclear data library
 #     average value:  3.668028E+00

@@ -1,7 +1,7 @@
 # header: 
 #   title: Fe058 gamgam1 resonance data
 #   source: Resonancetables
-#   date: 2025-09-08
+#   date: 2025-09-14
 # target: 
 #   Z: 26
 #   A: 58
@@ -12,9 +12,9 @@
 #   selected value [eV]:  3.650000E-01
 #   selected value uncertainty [eV]:  1.050000E-01
 #   selected value source: RIPL-3
-#   number of values: 9
-#   average value [b]:  3.677937E-01
-#   relative standard deviation [%]:     34.319885
+#   number of values: 10
+#   average value [b]:  3.310143E-01
+#   relative standard deviation [%]:     49.191860
 #   quantity: 
 #     type: Compilation
 #     average value:  3.766667E-01
@@ -27,6 +27,16 @@
       RIPL-2                  Compilation          2000        4.000000E-01   1.000000E-01            96I       1.095890
       RIPL-3                  Compilation          2009        3.650000E-01   1.050000E-01            06M       1.000000
       Mughabghab-2018         Compilation          2018        3.650000E-01   1.050000E-01                      1.000000
+#   quantity: 
+#     type: EXFOR
+#     average value:  0.000000E+00
+#     relative standard deviation [%]:           NaN
+#   datablock: 
+#     columns: 8
+#     entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      B.J.Allen               EXFOR                1980        0.000000E+00   0.000000E+00      30486-003       0.000000
 #   quantity: 
 #     type: Nuclear data library
 #     average value:  3.633572E-01

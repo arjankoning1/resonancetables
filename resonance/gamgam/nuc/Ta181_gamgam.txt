@@ -1,7 +1,7 @@
 # header: 
 #   title: Ta181 gamgam resonance data
 #   source: Resonancetables
-#   date: 2025-09-08
+#   date: 2025-09-14
 # target: 
 #   Z: 73
 #   A: 181
@@ -12,9 +12,9 @@
 #   selected value [eV]:  5.700000E-02
 #   selected value uncertainty [eV]:  3.000000E-03
 #   selected value source: RIPL-3
-#   number of values: 10
-#   average value [b]:  6.361594E-02
-#   relative standard deviation [%]:      7.254902
+#   number of values: 15
+#   average value [b]:  6.287729E-02
+#   relative standard deviation [%]:      6.340297
 #   quantity: 
 #     type: Compilation
 #     average value:  5.873333E-02
@@ -29,14 +29,19 @@
       Mughabghab-2018         Compilation          2018        6.220000E-02   9.000000E-04                      1.091228
 #   quantity: 
 #     type: EXFOR
-#     average value:  5.700000E-02
-#     relative standard deviation [%]:      0.000000
+#     average value:  6.066667E-02
+#     relative standard deviation [%]:      3.374987
 #   datablock: 
 #     columns: 8
-#     entries: 1
+#     entries: 6
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Vertebnyj               EXFOR                1983        5.700000E-02   4.000000E-03      408810023       1.000000
+      T.Y.Byoun               EXFOR                1973        6.000000E-02   0.000000E+00      10577-040       1.052631
+      V.P.Vertebnyy           EXFOR                1983        5.700000E-02   4.000000E-03      40881-002       1.000000
+      B.J.Mcdermott           EXFOR                2017        6.050000E-02   0.000000E+00      14473-004       1.061403
+      B.J.Mcdermott           EXFOR                2017        6.050000E-02   0.000000E+00      14473-004       1.061403
+      B.J.Mcdermott           EXFOR                2017        6.340000E-02   5.300000E-03      14473-004       1.112281
+      B.J.Mcdermott           EXFOR                2017        6.260000E-02   5.100000E-03      14473-004       1.098246
 #   quantity: 
 #     type: Nuclear data library
 #     average value:  6.715990E-02

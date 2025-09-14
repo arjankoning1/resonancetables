@@ -1,7 +1,7 @@
 # header: 
 #   title: Zr091 gamgam1 resonance data
 #   source: Resonancetables
-#   date: 2025-09-08
+#   date: 2025-09-14
 # target: 
 #   Z: 40
 #   A: 91
@@ -12,9 +12,9 @@
 #   selected value [eV]:  2.200000E-01
 #   selected value uncertainty [eV]:  3.000000E-02
 #   selected value source: RIPL-3
-#   number of values: 9
-#   average value [b]:  2.056082E-01
-#   relative standard deviation [%]:     12.756911
+#   number of values: 11
+#   average value [b]:  2.164067E-01
+#   relative standard deviation [%]:     17.631155
 #   quantity: 
 #     type: Compilation
 #     average value:  2.276667E-01
@@ -27,6 +27,17 @@
       RIPL-2                  Compilation          2000        2.200000E-01   3.000000E-02            96I       1.000000
       RIPL-3                  Compilation          2009        2.200000E-01   3.000000E-02            07I       1.000000
       Mughabghab-2018         Compilation          2018        2.430000E-01   2.400000E-02                      1.104545
+#   quantity: 
+#     type: EXFOR
+#     average value:  2.650000E-01
+#     relative standard deviation [%]:     16.981133
+#   datablock: 
+#     columns: 8
+#     entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      J.Morgenstern           EXFOR                1969        3.100000E-01   0.000000E+00      20684-014       1.409091
+      A.R.De L.Musgrove       EXFOR                1977        2.200000E-01   1.100000E-01      30423-004       1.000000
 #   quantity: 
 #     type: Nuclear data library
 #     average value:  1.945790E-01

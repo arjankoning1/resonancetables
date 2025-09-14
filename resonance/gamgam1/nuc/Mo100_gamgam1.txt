@@ -1,7 +1,7 @@
 # header: 
 #   title: Mo100 gamgam1 resonance data
 #   source: Resonancetables
-#   date: 2025-09-08
+#   date: 2025-09-14
 # target: 
 #   Z: 42
 #   A: 100
@@ -12,9 +12,9 @@
 #   selected value [eV]:  9.500001E-02
 #   selected value uncertainty [eV]:  1.500000E-02
 #   selected value source: RIPL-3
-#   number of values: 9
-#   average value [b]:  8.663550E-02
-#   relative standard deviation [%]:      7.891326
+#   number of values: 10
+#   average value [b]:  8.647195E-02
+#   relative standard deviation [%]:      7.521960
 #   quantity: 
 #     type: Compilation
 #     average value:  9.600001E-02
@@ -27,6 +27,16 @@
       RIPL-2                  Compilation          2000        1.000000E-01   1.000000E-02            96I       1.052631
       RIPL-3                  Compilation          2009        9.500001E-02   1.500000E-02            04I       1.000000
       Mughabghab-2018         Compilation          2018        9.300000E-02   1.200000E-02                      0.978947
+#   quantity: 
+#     type: EXFOR
+#     average value:  8.500000E-02
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 8
+#     entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      A.R.De L.Musgrove       EXFOR                1976        8.500000E-02   1.100000E-02      30357-021       0.894737
 #   quantity: 
 #     type: Nuclear data library
 #     average value:  8.195325E-02

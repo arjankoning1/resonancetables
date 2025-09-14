@@ -1,7 +1,7 @@
 # header: 
 #   title: Gd160 Ig resonance data
 #   source: Resonancetables
-#   date: 2025-09-08
+#   date: 2025-09-14
 # target: 
 #   Z: 64
 #   A: 160
@@ -12,31 +12,32 @@
 #   selected value [eV]:  5.970000E+00
 #   selected value uncertainty [eV]:  9.200000E-01
 #   selected value source: Kayzero
-#   number of values: 9
-#   average value [b]:  8.056967E+00
-#   relative standard deviation [%]:     30.372860
+#   number of values: 10
+#   average value [b]:  8.007271E+00
+#   relative standard deviation [%]:     29.066736
 #   quantity: 
 #     type: Compilation
-#     average value:  7.190000E+00
-#     relative standard deviation [%]:     12.829269
+#     average value:  7.085000E+00
+#     relative standard deviation [%]:     15.737473
+#   datablock: 
+#     columns: 8
+#     entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      Sukhoruchkin            Compilation          2015        8.200000E+00   1.000000E+00                      1.373534
+      Kayzero                 Compilation          2018        5.970000E+00   9.200000E-01                      1.000000
+#   quantity: 
+#     type: EXFOR
+#     average value:  6.220000E+00
+#     relative standard deviation [%]:     28.745335
 #   datablock: 
 #     columns: 8
 #     entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      JUKO                    Compilation          2000        7.400000E+00   1.000000E+00                      1.239531
-      Sukhoruchkin            Compilation          2015        8.200000E+00   1.000000E+00                      1.373534
-      Kayzero                 Compilation          2018        5.970000E+00   9.200000E-01                      1.000000
-#   quantity: 
-#     type: EXFOR
-#     average value:  3.700000E+00
-#     relative standard deviation [%]:      0.000000
-#   datablock: 
-#     columns: 8
-#     entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      Vanderlinden            EXFOR                1974        3.700000E+00   1.700000E-01       21697013       0.619766
+      R.Van Der Linden        EXFOR                1974        3.700000E+00   1.700000E-01      21697-013       0.619766
+      G.Leinweber             EXFOR                2006        7.660000E+00   0.000000E+00      14110-052       1.283082
+      Y.-R.Kang               EXFOR                2015        7.300000E+00   1.000000E-01      14343-018       1.222781
 #   quantity: 
 #     type: Nuclear data library
 #     average value:  9.448541E+00

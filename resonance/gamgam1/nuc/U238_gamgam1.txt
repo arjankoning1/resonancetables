@@ -1,7 +1,7 @@
 # header: 
 #   title: U238 gamgam1 resonance data
 #   source: Resonancetables
-#   date: 2025-09-08
+#   date: 2025-09-14
 # target: 
 #   Z: 92
 #   A: 238
@@ -12,9 +12,9 @@
 #   selected value [eV]:  1.720000E-02
 #   selected value uncertainty [eV]:  4.000000E-04
 #   selected value source: Mughabghab-2018
-#   number of values: 7
-#   average value [b]:  2.296561E-02
-#   relative standard deviation [%]:     10.498762
+#   number of values: 11
+#   average value [b]:  2.801448E-02
+#   relative standard deviation [%]:     34.174007
 #   quantity: 
 #     type: Compilation
 #     average value:  1.720000E-02
@@ -25,6 +25,19 @@
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
       Mughabghab-2018         Compilation          2018        1.720000E-02   4.000000E-04                      1.000000
+#   quantity: 
+#     type: EXFOR
+#     average value:  3.685000E-02
+#     relative standard deviation [%]:     29.628197
+#   datablock: 
+#     columns: 8
+#     entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      N.W.Glass               EXFOR                1968        1.910000E-02   6.000000E-04      12471-005       1.110465
+      T.Y.Byoun               EXFOR                1973        3.700000E-02   0.000000E+00      10577-038       2.151163
+      T.Y.Byoun               EXFOR                1973        4.380000E-02   0.000000E+00      10577-038       2.546512
+      T.Y.Byoun               EXFOR                1973        4.750000E-02   0.000000E+00      10577-038       2.761628
 #   quantity: 
 #     type: Nuclear data library
 #     average value:  2.392655E-02

@@ -1,7 +1,7 @@
 # header: 
 #   title: Mn055 Ig resonance data
 #   source: Resonancetables
-#   date: 2025-09-08
+#   date: 2025-09-14
 # target: 
 #   Z: 25
 #   A: 55
@@ -12,55 +12,59 @@
 #   selected value [eV]:  1.390000E+01
 #   selected value uncertainty [eV]:  4.000000E-01
 #   selected value source: Kayzero
-#   number of values: 33
-#   average value [b]:  1.259894E+01
-#   relative standard deviation [%]:     20.460562
+#   number of values: 37
+#   average value [b]:  1.222389E+01
+#   relative standard deviation [%]:     23.049479
 #   quantity: 
 #     type: Compilation
-#     average value:  1.352500E+01
-#     relative standard deviation [%]:      1.683998
+#     average value:  1.356667E+01
+#     relative standard deviation [%]:      1.838651
 #   datablock: 
 #     columns: 8
-#     entries: 4
+#     entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      JUKO                    Compilation          2000        1.340000E+01   5.000000E-01                      0.964029
       Sukhoruchkin            Compilation          2015        1.350000E+01   9.000000E-01                      0.971223
       Kayzero                 Compilation          2018        1.390000E+01   4.000000E-01                      1.000000
       Mughabghab-2018         Compilation          2018        1.330000E+01   5.000000E-01                      0.956835
 #   quantity: 
 #     type: EXFOR
-#     average value:  1.226500E+01
-#     relative standard deviation [%]:     23.836166
+#     average value:  1.187169E+01
+#     relative standard deviation [%]:     25.832624
 #   datablock: 
 #     columns: 8
-#     entries: 24
+#     entries: 29
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Macklin                 EXFOR                1955        1.080000E+01   4.320000E-01      143880162       0.776978
-      Tattersall              EXFOR                1960        9.500000E+00   5.000000E+00       20638009       0.683453
-      Walker                  EXFOR                1960        7.800000E+00   8.000000E-01       11525002       0.561151
-      Dahlberg                EXFOR                1961        8.150000E+00   6.000000E-01       20049003       0.586331
-      Feiner                  EXFOR                1961        1.550000E+01   6.000000E-01      114540022       1.115108
-      Feiner                  EXFOR                1961        1.570000E+01   6.000000E-01      114540021       1.129496
-      Berreth                 EXFOR                1962        1.400000E+01   0.000000E+00       12635005       1.007194
-      Sampson                 EXFOR                1962        7.500000E+00   8.000000E-01       11655003       0.539568
-      Axton                   EXFOR                1963        8.600000E+00   0.000000E+00       20640002       0.618705
-      Louwrier                EXFOR                1965        1.500000E+01   1.400000E+00       20641002       1.079137
-      Carre                   EXFOR                1966        1.050000E+01   1.000000E+00       20658005       0.755396
-      Koehler                 EXFOR                1967        1.260000E+01   5.000000E-01       20654007       0.906475
-      Borchardt               EXFOR                1967        1.280000E+01   1.100000E+00       20647003       0.920863
-      Ryves                   EXFOR                1968        5.700000E+00   1.700000E+00       20642002       0.410072
-      Orvini                  EXFOR                1968        1.370000E+01   7.280110E-01       20633002       0.985611
-      Sher                    EXFOR                1968        1.441000E+01   4.800000E-01       11689002       1.036691
-      Schuman                 EXFOR                1969        1.400000E+01   0.000000E+00       11687004       1.007194
-      Schuman                 EXFOR                1969        1.130000E+01   7.000000E-01       11687002       0.812950
-      Nanjyo                  EXFOR                1970        1.410000E+01   6.000000E-01       20314002       1.014389
-      Breitenhuber            EXFOR                1970        1.540000E+01   7.700000E-01       20029003       1.107914
-      Vanderlinden            EXFOR                1972        1.380000E+01   8.000000E-01      206430151       0.992806
-      Gleason                 EXFOR                1975        1.560000E+01   5.000000E-01       10644020       1.122302
-      Heft                    EXFOR                1978        1.400000E+01   9.000000E-01       12866025       1.007194
-      Kimura                  EXFOR                1989        1.390000E+01   4.086600E-01       23491005       1.000000
+      S.P.Harris              EXFOR                1950        9.800000E+00   0.000000E+00      11343-007       0.705036
+      R.L.Macklin             EXFOR                1955        1.080000E+01   0.000000E+00      14388-016       0.776978
+      R.L.Macklin             EXFOR                1955        1.180000E+01   0.000000E+00      14388-016       0.848921
+      R.B.Tattersall          EXFOR                1960        9.500000E+00   5.000000E+00      20638-009       0.683453
+      W.H.Walker              EXFOR                1960        7.800000E+00   8.000000E-01      11525-002       0.561151
+      R.Dahlberg              EXFOR                1961        8.150000E+00   6.000000E-01      20049-003       0.586331
+      F.Feiner                EXFOR                1961        1.550000E+01   6.000000E-01      11454-002       1.115108
+      F.Feiner                EXFOR                1961        1.570000E+01   6.000000E-01      11454-002       1.129496
+      J.R.Berreth             EXFOR                1962        1.400000E+01   0.000000E+00      12635-005       1.007194
+      J.B.Sampson             EXFOR                1962        7.500000E+00   8.000000E-01      11655-003       0.539568
+      E.J.Axton               EXFOR                1963        8.600000E+00   0.000000E+00      20640-002       0.618705
+      P.W.F.Louwrier          EXFOR                1965        1.500000E+01   1.400000E+00      20641-002       1.079137
+      J.C.Carre               EXFOR                1966        1.050000E+01   1.000000E+00      20658-005       0.755396
+      W.Koehler               EXFOR                1967        1.260000E+01   5.000000E-01      20654-007       0.906475
+      G.Borchardt             EXFOR                1967        1.280000E+01   1.100000E+00      20647-003       0.920863
+      T.B.Ryves               EXFOR                1968        5.700000E+00   1.700000E+00      20642-002       0.410072
+      E.Orvini                EXFOR                1968        1.370000E+01   2.000000E-01      20633-002       0.985611
+      R.Sher                  EXFOR                1968        1.441000E+01   4.800000E-01      11689-002       1.036691
+      R.P.Schuman             EXFOR                1969        1.400000E+01   0.000000E+00      11687-004       1.007194
+      R.P.Schuman             EXFOR                1969        1.130000E+01   7.000000E-01      11687-002       0.812950
+      T.Nanjyo                EXFOR                1970        5.100000E+00   3.000000E-01      20314-003       0.366906
+      T.Nanjyo                EXFOR                1970        9.000000E+00   3.000000E-01      20314-004       0.647482
+      T.Nanjyo                EXFOR                1970        1.410000E+01   6.000000E-01      20314-002       1.014389
+      L.Breitenhuber          EXFOR                1970        1.540000E+01   7.700000E-01      20029-003       1.107914
+      R.Van Der Linden        EXFOR                1972        1.380000E+01   8.000000E-01      20643-015       0.992806
+      G.Gleason               EXFOR                1975        1.560000E+01   5.000000E-01      10644-020       1.122302
+      J.B.Garg                EXFOR                1978        1.421900E+01   0.000000E+00      10716-006       1.022950
+      R.E.Heft                EXFOR                1978        1.400000E+01   9.000000E-01      12866-025       1.007194
+      I.Kimura                EXFOR                1989        1.390000E+01   4.086600E-01      23491-005       1.000000
 #   quantity: 
 #     type: Nuclear data library
 #     average value:  1.346098E+01

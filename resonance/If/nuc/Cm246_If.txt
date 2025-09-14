@@ -1,7 +1,7 @@
 # header: 
 #   title: Cm246 If resonance data
 #   source: Resonancetables
-#   date: 2025-09-08
+#   date: 2025-09-14
 # target: 
 #   Z: 96
 #   A: 246
@@ -12,9 +12,9 @@
 #   selected value [eV]:  1.020000E+01
 #   selected value uncertainty [eV]:  4.000000E-01
 #   selected value source: Mughabghab-2018
-#   number of values: 9
-#   average value [b]:  7.841330E+00
-#   relative standard deviation [%]:     42.632736
+#   number of values: 11
+#   average value [b]:  6.736906E+00
+#   relative standard deviation [%]:     56.780724
 #   quantity: 
 #     type: Compilation
 #     average value:  9.966667E+00
@@ -29,15 +29,17 @@
       Mughabghab-2018         Compilation          2018        1.020000E+01   4.000000E-01                      1.000000
 #   quantity: 
 #     type: EXFOR
-#     average value:  1.165000E+01
-#     relative standard deviation [%]:     14.163092
+#     average value:  6.708499E+00
+#     relative standard deviation [%]:     75.686409
 #   datablock: 
 #     columns: 8
-#     entries: 2
+#     entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Benjamin                EXFOR                1972        1.000000E+01   4.000000E-01       10128007       0.980392
-      Zhuravlev               EXFOR                1975        1.330000E+01   1.500000E+00       40436017       1.303922
+      R.W.Benjamin            EXFOR                1972        1.000000E+01   4.000000E-01      10128-007       0.980392
+      K.D.Zhuravlev           EXFOR                1975        1.330000E+01   1.500000E+00      40436-017       1.303922
+      A.A.Alekseev            EXFOR                2010        1.734000E+00   1.000000E-01      41533-005       0.170000
+      A.A.Alekseev            EXFOR                2010        1.800000E+00   2.200000E-01      41533-005       0.176471
 #   quantity: 
 #     type: Nuclear data library
 #     average value:  4.342990E+00

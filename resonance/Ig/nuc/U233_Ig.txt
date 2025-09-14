@@ -1,7 +1,7 @@
 # header: 
 #   title: U233 Ig resonance data
 #   source: Resonancetables
-#   date: 2025-09-08
+#   date: 2025-09-14
 # target: 
 #   Z: 92
 #   A: 233
@@ -12,33 +12,40 @@
 #   selected value [eV]:  1.380000E+02
 #   selected value uncertainty [eV]:  6.000000E+00
 #   selected value source: Mughabghab-2018
-#   number of values: 9
-#   average value [b]:  1.234556E+02
-#   relative standard deviation [%]:     27.656166
+#   number of values: 16
+#   average value [b]:  5.440625E+01
+#   relative standard deviation [%]:    111.935379
 #   quantity: 
 #     type: Compilation
-#     average value:  1.390333E+02
-#     relative standard deviation [%]:      1.051084
+#     average value:  1.395500E+02
+#     relative standard deviation [%]:      1.110715
 #   datablock: 
 #     columns: 8
-#     entries: 3
+#     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      JUKO                    Compilation          2000        1.380000E+02   6.000000E+00                      1.000000
       Sukhoruchkin            Compilation          2015        1.411000E+02   0.000000E+00                      1.022464
       Mughabghab-2018         Compilation          2018        1.380000E+02   6.000000E+00                      1.000000
 #   quantity: 
 #     type: EXFOR
-#     average value:  1.156667E+02
-#     relative standard deviation [%]:     34.207870
+#     average value:  4.224286E+01
+#     relative standard deviation [%]:    130.836884
 #   datablock: 
 #     columns: 8
-#     entries: 6
+#     entries: 14
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Halperin                EXFOR                1963        1.470000E+02   7.350000E+00       12335004       1.065217
-      Conway                  EXFOR                1967        1.350000E+02   8.000000E+00       12313002       0.978261
-      Eiland                  EXFOR                1971        6.000000E+01   3.000000E+00       10143011       0.434783
-      Eiland                  EXFOR                1971        1.460000E+02   8.000000E+00       10143008       1.057971
-      Eiland                  EXFOR                1971        6.000000E+01   3.000000E+00       10143011       0.434783
-      Eiland                  EXFOR                1971        1.460000E+02   8.000000E+00       10143008       1.057971
+      J.Halperin              EXFOR                1963        1.470000E+02   7.350000E+00      12335-004       1.065217
+      F.D.Brooks              EXFOR                1966        1.400000E+01   0.000000E+00      20917-003       0.101449
+      F.D.Brooks              EXFOR                1966        9.000000E-01   0.000000E+00      20917-003       0.006522
+      F.D.Brooks              EXFOR                1966        4.600000E+01   0.000000E+00      20917-003       0.333333
+      F.D.Brooks              EXFOR                1966        2.500000E+01   0.000000E+00      20917-003       0.181159
+      F.D.Brooks              EXFOR                1966        4.600000E+00   0.000000E+00      20917-003       0.033333
+      F.D.Brooks              EXFOR                1966        3.200000E+00   0.000000E+00      20917-003       0.023188
+      F.D.Brooks              EXFOR                1966        2.700000E+00   0.000000E+00      20917-003       0.019565
+      F.D.Brooks              EXFOR                1966        1.300000E+00   0.000000E+00      20917-003       0.009420
+      F.D.Brooks              EXFOR                1966        1.500000E+00   0.000000E+00      20917-003       0.010870
+      F.D.Brooks              EXFOR                1966        4.200000E+00   0.000000E+00      20917-003       0.030435
+      D.E.Conway              EXFOR                1967        1.350000E+02   8.000000E+00      12313-002       0.978261
+      H.M.Eiland              EXFOR                1971        6.000000E+01   3.000000E+00      10143-011       0.434783
+      H.M.Eiland              EXFOR                1971        1.460000E+02   8.000000E+00      10143-008       1.057971

@@ -1,7 +1,7 @@
 # header: 
 #   title: Am241 Ig resonance data
 #   source: Resonancetables
-#   date: 2025-09-08
+#   date: 2025-09-14
 # target: 
 #   Z: 95
 #   A: 241
@@ -12,43 +12,48 @@
 #   selected value [eV]:  1.425000E+03
 #   selected value uncertainty [eV]:  1.000000E+02
 #   selected value source: Mughabghab-2018
-#   number of values: 19
-#   average value [b]:  1.275653E+03
-#   relative standard deviation [%]:     71.850655
+#   number of values: 24
+#   average value [b]:  1.534708E+03
+#   relative standard deviation [%]:     57.272495
 #   quantity: 
 #     type: Compilation
-#     average value:  1.009133E+03
-#     relative standard deviation [%]:     70.012894
+#     average value:  1.506500E+03
+#     relative standard deviation [%]:      5.409891
 #   datablock: 
 #     columns: 8
-#     entries: 3
+#     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      JUKO                    Compilation          2000        1.440000E+01   1.000000E+00                      0.010105
       Sukhoruchkin            Compilation          2015        1.588000E+03   1.110000E+02                      1.114386
       Mughabghab-2018         Compilation          2018        1.425000E+03   1.000000E+02                      1.000000
 #   quantity: 
 #     type: EXFOR
-#     average value:  1.325625E+03
-#     relative standard deviation [%]:     71.094162
+#     average value:  1.537273E+03
+#     relative standard deviation [%]:     59.695190
 #   datablock: 
 #     columns: 8
-#     entries: 16
+#     entries: 22
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Deal                    EXFOR                1964        9.000000E+02   0.000000E+00       12573003       0.631579
-      Bak                     EXFOR                1967        3.000000E+02   3.000000E+01       40062007       0.210526
-      Bak                     EXFOR                1967        2.100000E+03   2.000000E+02       40062006       1.473684
-      Hellstrand              EXFOR                1970        2.700000E+03   0.000000E+00       13935003       1.894737
-      Harbour                 EXFOR                1973        1.330000E+03   1.170000E+02       10317005       0.933333
-      Harbour                 EXFOR                1973        2.080000E+02   1.800000E+01       10317004       0.145965
-      Harbour                 EXFOR                1973        1.330000E+03   1.170000E+02       10317005       0.933333
-      Harbour                 EXFOR                1973        2.080000E+02   1.800000E+01       10317004       0.145965
-      Gavrilov                EXFOR                1976        2.300000E+02   8.000000E+01       40467016       0.161404
-      Gavrilov                EXFOR                1976        1.570000E+03   1.100000E+02       40467015       1.101754
-      Shinohara               EXFOR                1997        1.808000E+03   1.460000E+02       22727007       1.268772
-      Shinohara               EXFOR                1997        1.694000E+03   1.460000E+02       22727006       1.188772
-      Shinohara               EXFOR                1997        1.140000E+02   7.000000E+00       22727005       0.080000
-      Maidana                 EXFOR                2001        1.665000E+03   9.100000E+01       31518003       1.168421
-      ShojiNAKAMURAA          EXFOR                2007        3.500000E+03   3.000000E+02       22998003       2.456140
-      Jandel                  EXFOR                2008        1.553000E+03   7.000000E+00       14209003       1.089825
+      R.A.Deal                EXFOR                1964        9.000000E+02   0.000000E+00      12573-003       0.631579
+      M.A.Bak                 EXFOR                1967        3.000000E+02   3.000000E+01      40062-007       0.210526
+      M.A.Bak                 EXFOR                1967        2.100000E+03   2.000000E+02      40062-006       1.473684
+      E.Hellstrand            EXFOR                1970        2.700000E+03   0.000000E+00      13935-003       1.894737
+      R.M.Harbour             EXFOR                1973        1.330000E+03   1.170000E+02      10317-005       0.933333
+      R.M.Harbour             EXFOR                1973        2.080000E+02   1.800000E+01      10317-004       0.145965
+      V.D.Gavrilov            EXFOR                1976        2.300000E+02   8.000000E+01      40467-016       0.161404
+      V.D.Gavrilov            EXFOR                1976        1.570000E+03   1.100000E+02      40467-015       1.101754
+      N.Shinohara             EXFOR                1997        1.808000E+03   1.460000E+02      22727-007       1.268772
+      N.Shinohara             EXFOR                1997        1.694000E+03   1.460000E+02      22727-006       1.188772
+      N.Shinohara             EXFOR                1997        1.140000E+02   7.000000E+00      22727-005       0.080000
+      N.Shinohara             EXFOR                1997        1.897000E+03   9.300000E+01      22346-007       1.331228
+      N.Shinohara             EXFOR                1997        1.684000E+03   9.200000E+01      22346-006       1.181754
+      N.Shinohara             EXFOR                1997        2.130000E+02   1.300000E+01      22346-005       0.149474
+      N.L.Maidana             EXFOR                2001        1.665000E+03   9.100000E+01      31518-003       1.168421
+      Shoji Nakamura          EXFOR                2007        3.500000E+03   3.000000E+02      22998-003       2.456140
+      M.Jandel                EXFOR                2008        1.553000E+03   7.000000E+00      14209-003       1.089825
+      K.Fraval                EXFOR                2014        1.425000E+03   0.000000E+00      23237-005       1.000000
+      E.Mendoza               EXFOR                2018        1.792000E+03   0.000000E+00      23369-008       1.257544
+      E.Mendoza               EXFOR                2018        1.889000E+03   0.000000E+00      23369-008       1.325614
+      E.Mendoza               EXFOR                2018        1.938000E+03   0.000000E+00      23369-008       1.360000
+      E.Mendoza               EXFOR                2018        3.310000E+03   0.000000E+00      23369-008       2.322807

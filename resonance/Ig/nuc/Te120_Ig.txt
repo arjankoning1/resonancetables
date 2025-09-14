@@ -1,7 +1,7 @@
 # header: 
 #   title: Te120 Ig resonance data
 #   source: Resonancetables
-#   date: 2025-09-08
+#   date: 2025-09-14
 # target: 
 #   Z: 52
 #   A: 120
@@ -9,22 +9,12 @@
 # reaction: 
 #   type: Ig
 #   parameters: 
-#   selected value [eV]:  1.000000E+00
-#   selected value uncertainty [eV]:  0.000000E+00
-#   selected value source: JUKO
-#   number of values: 6
-#   average value [b]:  3.248890E+01
-#   relative standard deviation [%]:     92.193474
-#   quantity: 
-#     type: Compilation
-#     average value:  1.000000E+00
-#     relative standard deviation [%]:      0.000000
-#   datablock: 
-#     columns: 8
-#     entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      JUKO                    Compilation          2000        1.000000E+00   0.000000E+00                      1.000000
+#   selected value [eV]:  3.910000E+00
+#   selected value uncertainty [eV]:  1.700000E-01
+#   selected value source: M.C.Eastman
+#   number of values: 5
+#   average value [b]:  3.878668E+01
+#   relative standard deviation [%]:     74.662117
 #   quantity: 
 #     type: EXFOR
 #     average value:  3.910000E+00
@@ -34,7 +24,7 @@
 #     entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Eastman                 EXFOR                2008        3.910000E+00   1.700000E-01       14165013       3.910000
+      M.C.Eastman             EXFOR                2008        3.910000E+00   1.700000E-01      14165-013       1.000000
 #   quantity: 
 #     type: Nuclear data library
 #     average value:  4.750585E+01
@@ -44,7 +34,7 @@
 #     entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      jendl5.0                NDL                  2021        5.258340E+01   0.000000E+00                     52.583401
-      endfb8.1                NDL                  2024        2.236600E+01   0.000000E+00                     22.365999
-      tendl.2025              NDL                  2025        2.742400E+01   0.000000E+00                     27.424000
-      jeff4.0                 NDL                  2025        8.765000E+01   0.000000E+00                     87.650002
+      jendl5.0                NDL                  2021        5.258340E+01   0.000000E+00                     13.448440
+      endfb8.1                NDL                  2024        2.236600E+01   0.000000E+00                      5.720204
+      tendl.2025              NDL                  2025        2.742400E+01   0.000000E+00                      7.013811
+      jeff4.0                 NDL                  2025        8.765000E+01   0.000000E+00                     22.416880

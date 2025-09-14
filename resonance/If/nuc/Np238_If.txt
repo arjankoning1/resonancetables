@@ -1,7 +1,7 @@
 # header: 
 #   title: Np238 If resonance data
 #   source: Resonancetables
-#   date: 2025-09-08
+#   date: 2025-09-14
 # target: 
 #   Z: 93
 #   A: 238
@@ -12,9 +12,9 @@
 #   selected value [eV]:  8.830000E+02
 #   selected value uncertainty [eV]:  7.000000E+01
 #   selected value source: Mughabghab-2018
-#   number of values: 11
-#   average value [b]:  1.041751E+03
-#   relative standard deviation [%]:     15.049567
+#   number of values: 17
+#   average value [b]:  1.015486E+03
+#   relative standard deviation [%]:     15.433757
 #   quantity: 
 #     type: Compilation
 #     average value:  9.553333E+02
@@ -29,16 +29,22 @@
       Mughabghab-2018         Compilation          2018        8.830000E+02   7.000000E+01                      1.000000
 #   quantity: 
 #     type: EXFOR
-#     average value:  1.054667E+03
-#     relative standard deviation [%]:     21.766621
+#     average value:  9.964445E+02
+#     relative standard deviation [%]:     18.293785
 #   datablock: 
 #     columns: 8
-#     entries: 3
+#     entries: 9
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Spencer                 EXFOR                1969        8.800000E+02   7.000000E+01       12475003       0.996602
-      Abramovich              EXFOR                1995        9.050000E+02   4.800000E+01       41324004       1.024915
-      Danon                   EXFOR                1996        1.379000E+03   3.000000E+01       13602011       1.561721
+      J.D.Spencer             EXFOR                1969        8.800000E+02   7.000000E+01      12475-003       0.996602
+      S.Abramovich            EXFOR                1995        1.221000E+03   1.360000E+02      41324-005       1.382786
+      S.Abramovich            EXFOR                1995        7.840000E+02   5.200000E+01      41324-005       0.887882
+      S.Abramovich            EXFOR                1995        1.024000E+03   6.300000E+01      41324-005       1.159683
+      S.Abramovich            EXFOR                1995        9.830000E+02   6.100000E+01      41324-005       1.113250
+      S.Abramovich            EXFOR                1995        9.800000E+02   6.600000E+01      41324-005       1.109853
+      S.Abramovich            EXFOR                1995        8.120000E+02   5.400000E+01      41324-005       0.919592
+      S.Abramovich            EXFOR                1995        9.050000E+02   4.800000E+01      41324-004       1.024915
+      Y.Danon                 EXFOR                1996        1.379000E+03   3.000000E+01      13602-011       1.561721
 #   quantity: 
 #     type: Nuclear data library
 #     average value:  1.085853E+03

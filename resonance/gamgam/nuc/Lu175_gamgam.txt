@@ -1,7 +1,7 @@
 # header: 
 #   title: Lu175 gamgam resonance data
 #   source: Resonancetables
-#   date: 2025-09-08
+#   date: 2025-09-14
 # target: 
 #   Z: 71
 #   A: 175
@@ -12,9 +12,9 @@
 #   selected value [eV]:  7.700001E-02
 #   selected value uncertainty [eV]:  5.000000E-03
 #   selected value source: RIPL-3
-#   number of values: 8
-#   average value [b]:  7.566694E-02
-#   relative standard deviation [%]:      3.990602
+#   number of values: 10
+#   average value [b]:  7.636455E-02
+#   relative standard deviation [%]:     41.393845
 #   quantity: 
 #     type: Compilation
 #     average value:  7.700000E-02
@@ -27,6 +27,17 @@
       RIPL-2                  Compilation          2000        7.700001E-02   2.300000E-02            97I       1.000000
       RIPL-3                  Compilation          2009        7.700001E-02   5.000000E-03            06M       1.000000
       Mughabghab-2018         Compilation          2018        7.700000E-02   5.000000E-03                      1.000000
+#   quantity: 
+#     type: EXFOR
+#     average value:  7.915500E-02
+#     relative standard deviation [%]:     88.882568
+#   datablock: 
+#     columns: 8
+#     entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      H.Beer                  EXFOR                1981        8.800000E-03   0.000000E+00      21737-010       0.114286
+      H.Beer                  EXFOR                1981        1.495100E-01   0.000000E+00      21737-010       1.941688
 #   quantity: 
 #     type: Nuclear data library
 #     average value:  7.486711E-02

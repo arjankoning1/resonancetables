@@ -1,7 +1,7 @@
 # header: 
 #   title: Y089 gamgam resonance data
 #   source: Resonancetables
-#   date: 2025-09-08
+#   date: 2025-09-14
 # target: 
 #   Z: 39
 #   A: 89
@@ -12,9 +12,9 @@
 #   selected value [eV]:  1.300000E-01
 #   selected value uncertainty [eV]:  4.000000E-02
 #   selected value source: RIPL-3
-#   number of values: 9
-#   average value [b]:  1.666918E-01
-#   relative standard deviation [%]:     23.205685
+#   number of values: 10
+#   average value [b]:  1.615226E-01
+#   relative standard deviation [%]:     24.664680
 #   quantity: 
 #     type: Compilation
 #     average value:  1.313333E-01
@@ -27,6 +27,16 @@
       RIPL-2                  Compilation          2000        1.300000E-01   4.000000E-02            96I       1.000000
       RIPL-3                  Compilation          2009        1.300000E-01   4.000000E-02            96I       1.000000
       Mughabghab-2018         Compilation          2018        1.340000E-01   1.000000E-02                      1.030769
+#   quantity: 
+#     type: EXFOR
+#     average value:  1.150000E-01
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 8
+#     entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      J.W.Boldeman            EXFOR                1977        1.150000E-01   1.500000E-02      30391-003       0.884615
 #   quantity: 
 #     type: Nuclear data library
 #     average value:  1.843710E-01

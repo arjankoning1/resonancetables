@@ -1,7 +1,7 @@
 # header: 
 #   title: Eu000 Ig resonance data
 #   source: Resonancetables
-#   date: 2025-09-08
+#   date: 2025-09-14
 # target: 
 #   Z: 63
 #   A: 0
@@ -9,19 +9,22 @@
 # reaction: 
 #   type: Ig
 #   parameters: 
-#   selected value [eV]:  4.346000E+03
-#   selected value uncertainty [eV]:  1.700000E+02
-#   selected value source: Kim
-#   number of values: 1
-#   average value [b]:  4.346000E+03
-#   relative standard deviation [%]:      0.000000
+#   selected value [eV]:  0.000000E+00
+#   selected value uncertainty [eV]:  0.000000E+00
+#   selected value source: J.I.Kim
+#   number of values: 4
+#   average value [b]:  3.299250E+03
+#   relative standard deviation [%]:     70.590034
 #   quantity: 
 #     type: EXFOR
-#     average value:  4.346000E+03
-#     relative standard deviation [%]:      0.000000
+#     average value:  3.299250E+03
+#     relative standard deviation [%]:     70.590034
 #   datablock: 
 #     columns: 8
-#     entries: 1
+#     entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Kim                     EXFOR                1975        4.346000E+03   1.700000E+02      206570032       1.000000
+      J.I.Kim                 EXFOR                1975        2.531000E+03   1.670000E+02      20657-003       1.000000
+      J.I.Kim                 EXFOR                1975        6.320000E+03   8.690000E+02      20657-003       1.000000
+      J.I.Kim                 EXFOR                1975        4.346000E+03   1.700000E+02      20657-003       1.000000
+      J.I.Kim                 EXFOR                1975        0.000000E+00   0.000000E+00      20657-003       1.000000

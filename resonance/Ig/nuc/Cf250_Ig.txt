@@ -1,7 +1,7 @@
 # header: 
 #   title: Cf250 Ig resonance data
 #   source: Resonancetables
-#   date: 2025-09-08
+#   date: 2025-09-14
 # target: 
 #   Z: 98
 #   A: 250
@@ -12,29 +12,30 @@
 #   selected value [eV]:  1.190000E+04
 #   selected value uncertainty [eV]:  5.000000E+02
 #   selected value source: Mughabghab-2018
-#   number of values: 5
-#   average value [b]:  1.040000E+04
-#   relative standard deviation [%]:     25.993570
+#   number of values: 6
+#   average value [b]:  1.166667E+04
+#   relative standard deviation [%]:     28.765057
 #   quantity: 
 #     type: Compilation
-#     average value:  1.180000E+04
-#     relative standard deviation [%]:      1.198486
-#   datablock: 
-#     columns: 8
-#     entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      JUKO                    Compilation          2000        1.160000E+04   5.000000E+02                      0.974790
-      Sukhoruchkin            Compilation          2015        1.190000E+04   5.220000E+02                      1.000000
-      Mughabghab-2018         Compilation          2018        1.190000E+04   5.000000E+02                      1.000000
-#   quantity: 
-#     type: EXFOR
-#     average value:  8.300000E+03
-#     relative standard deviation [%]:     39.759037
+#     average value:  1.190000E+04
+#     relative standard deviation [%]:      0.000000
 #   datablock: 
 #     columns: 8
 #     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Halperin                EXFOR                1971        1.160000E+04   5.000000E+02       10119005       0.974790
-      Gavrilov                EXFOR                1978        5.000000E+03   0.000000E+00       40486015       0.420168
+      Sukhoruchkin            Compilation          2015        1.190000E+04   5.220000E+02                      1.000000
+      Mughabghab-2018         Compilation          2018        1.190000E+04   5.000000E+02                      1.000000
+#   quantity: 
+#     type: EXFOR
+#     average value:  1.155000E+04
+#     relative standard deviation [%]:     35.542683
+#   datablock: 
+#     columns: 8
+#     entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      J.Halperin              EXFOR                1971        1.160000E+04   5.000000E+02      10119-005       0.974790
+      V.D.Gavrilov            EXFOR                1978        5.000000E+03   0.000000E+00      40486-015       0.420168
+      V.A.Anufriev            EXFOR                1993        1.350000E+04   2.000000E+03      41128-005       1.134454
+      V.A.Anufriev            EXFOR                1993        1.610000E+04   2.000000E+03      41128-005       1.352941

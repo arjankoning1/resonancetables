@@ -1,7 +1,7 @@
 # header: 
 #   title: Cr052 gamgam1 resonance data
 #   source: Resonancetables
-#   date: 2025-09-08
+#   date: 2025-09-14
 # target: 
 #   Z: 24
 #   A: 52
@@ -12,9 +12,9 @@
 #   selected value [eV]:  7.000000E-01
 #   selected value uncertainty [eV]:  3.000000E-01
 #   selected value source: RIPL-3
-#   number of values: 9
-#   average value [b]:  5.877466E-01
-#   relative standard deviation [%]:     19.504261
+#   number of values: 11
+#   average value [b]:  5.727018E-01
+#   relative standard deviation [%]:     20.493628
 #   quantity: 
 #     type: Compilation
 #     average value:  5.733333E-01
@@ -27,6 +27,17 @@
       RIPL-2                  Compilation          2000        3.100000E-01   9.000000E-02            89R       0.442857
       RIPL-3                  Compilation          2009        7.000000E-01   3.000000E-01            07I       1.000000
       Mughabghab-2018         Compilation          2018        7.100000E-01   3.000000E-01                      1.014286
+#   quantity: 
+#     type: EXFOR
+#     average value:  5.050000E-01
+#     relative standard deviation [%]:     20.792080
+#   datablock: 
+#     columns: 8
+#     entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      B.J.Allen               EXFOR                1975        4.000000E-01   0.000000E+00      30288-019       0.571429
+      M.J.Kenny               EXFOR                1977        6.100000E-01   0.000000E+00      30393-011       0.871429
 #   quantity: 
 #     type: Nuclear data library
 #     average value:  5.949532E-01

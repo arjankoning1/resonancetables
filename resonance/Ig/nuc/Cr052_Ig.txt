@@ -1,7 +1,7 @@
 # header: 
 #   title: Cr052 Ig resonance data
 #   source: Resonancetables
-#   date: 2025-09-08
+#   date: 2025-09-14
 # target: 
 #   Z: 24
 #   A: 52
@@ -12,20 +12,30 @@
 #   selected value [eV]:  4.900000E-01
 #   selected value uncertainty [eV]:  5.000000E-02
 #   selected value source: Sukhoruchkin
-#   number of values: 7
-#   average value [b]:  4.952891E-01
-#   relative standard deviation [%]:      3.992656
+#   number of values: 8
+#   average value [b]:  4.371280E-01
+#   relative standard deviation [%]:     31.550804
 #   quantity: 
 #     type: Compilation
-#     average value:  4.850000E-01
-#     relative standard deviation [%]:      1.030930
+#     average value:  4.900000E-01
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 8
+#     entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      Sukhoruchkin            Compilation          2015        4.900000E-01   5.000000E-02                      1.000000
+#   quantity: 
+#     type: EXFOR
+#     average value:  2.550000E-01
+#     relative standard deviation [%]:     68.627449
 #   datablock: 
 #     columns: 8
 #     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      JUKO                    Compilation          2000        4.800000E-01   2.000000E-02                      0.979592
-      Sukhoruchkin            Compilation          2015        4.900000E-01   5.000000E-02                      1.000000
+      S.P.Kapchigashev        EXFOR                1964        8.000000E-02   1.000000E-02      40684-008       0.163265
+      S.P.Kapchigashev        EXFOR                1964        4.300000E-01   4.000000E-02      40684-009       0.877551
 #   quantity: 
 #     type: Nuclear data library
 #     average value:  4.994048E-01

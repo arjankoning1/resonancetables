@@ -1,7 +1,7 @@
 # header: 
 #   title: Zr090 Ig resonance data
 #   source: Resonancetables
-#   date: 2025-09-08
+#   date: 2025-09-14
 # target: 
 #   Z: 40
 #   A: 90
@@ -12,30 +12,32 @@
 #   selected value [eV]:  1.630000E-01
 #   selected value uncertainty [eV]:  1.500000E-02
 #   selected value source: Sukhoruchkin
-#   number of values: 8
-#   average value [b]:  1.659826E-01
-#   relative standard deviation [%]:      8.144737
+#   number of values: 10
+#   average value [b]:  1.441861E-01
+#   relative standard deviation [%]:     28.260376
 #   quantity: 
 #     type: Compilation
-#     average value:  1.665000E-01
-#     relative standard deviation [%]:      2.102102
-#   datablock: 
-#     columns: 8
-#     entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      JUKO                    Compilation          2000        1.700000E-01   2.000000E-02                      1.042945
-      Sukhoruchkin            Compilation          2015        1.630000E-01   1.500000E-02                      1.000000
-#   quantity: 
-#     type: EXFOR
-#     average value:  2.000000E-01
+#     average value:  1.630000E-01
 #     relative standard deviation [%]:      0.000000
 #   datablock: 
 #     columns: 8
 #     entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Kapchigashev            EXFOR                1965        2.000000E-01   3.000000E-02       40034005       1.226994
+      Sukhoruchkin            Compilation          2015        1.630000E-01   1.500000E-02                      1.000000
+#   quantity: 
+#     type: EXFOR
+#     average value:  1.210000E-01
+#     relative standard deviation [%]:     47.063923
+#   datablock: 
+#     columns: 8
+#     entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      S.P.Kapchigashev        EXFOR                1964        4.400000E-02   0.000000E+00      41233-006       0.269939
+      S.P.Kapchigashev        EXFOR                1964        1.000000E-01   3.000000E-02      41233-006       0.613497
+      S.P.Kapchigashev        EXFOR                1964        1.400000E-01   3.000000E-02      41233-006       0.858896
+      S.P.Kapchigashev        EXFOR                1965        2.000000E-01   3.000000E-02      40034-005       1.226994
 #   quantity: 
 #     type: Nuclear data library
 #     average value:  1.589722E-01

@@ -1,7 +1,7 @@
 # header: 
 #   title: Gd155 Ig resonance data
 #   source: Resonancetables
-#   date: 2025-09-08
+#   date: 2025-09-14
 # target: 
 #   Z: 64
 #   A: 155
@@ -12,20 +12,32 @@
 #   selected value [eV]:  1.539000E+03
 #   selected value uncertainty [eV]:  9.900000E+01
 #   selected value source: Sukhoruchkin
-#   number of values: 7
-#   average value [b]:  1.538203E+03
-#   relative standard deviation [%]:      0.904677
+#   number of values: 10
+#   average value [b]:  1.439242E+03
+#   relative standard deviation [%]:     20.654726
 #   quantity: 
 #     type: Compilation
-#     average value:  1.539500E+03
-#     relative standard deviation [%]:      0.032478
+#     average value:  1.539000E+03
+#     relative standard deviation [%]:      0.000000
 #   datablock: 
 #     columns: 8
-#     entries: 2
+#     entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      JUKO                    Compilation          2000        1.540000E+03   1.000000E+02                      1.000650
       Sukhoruchkin            Compilation          2015        1.539000E+03   9.900000E+01                      1.000000
+#   quantity: 
+#     type: EXFOR
+#     average value:  1.291250E+03
+#     relative standard deviation [%]:     33.227608
+#   datablock: 
+#     columns: 8
+#     entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      G.Leinweber             EXFOR                2006        1.570000E+03   0.000000E+00      14110-044       1.020143
+      Y.-R.Kang               EXFOR                2015        1.535000E+03   9.000000E+00      14343-014       0.997401
+      Y.-U.Kye                EXFOR                2020        5.490000E+02   6.000000E+00      23720-012       0.356725
+      Y.-U.Kye                EXFOR                2020        1.511000E+03   2.500000E+01      23720-012       0.981806
 #   quantity: 
 #     type: Nuclear data library
 #     average value:  1.537684E+03

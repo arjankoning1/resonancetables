@@ -1,7 +1,7 @@
 # header: 
 #   title: Gd156 Ig resonance data
 #   source: Resonancetables
-#   date: 2025-09-08
+#   date: 2025-09-14
 # target: 
 #   Z: 64
 #   A: 156
@@ -12,30 +12,32 @@
 #   selected value [eV]:  1.080000E+02
 #   selected value uncertainty [eV]:  1.500000E+01
 #   selected value source: Sukhoruchkin
-#   number of values: 8
-#   average value [b]:  1.043739E+02
-#   relative standard deviation [%]:      2.745474
+#   number of values: 10
+#   average value [b]:  9.599910E+01
+#   relative standard deviation [%]:     25.498030
 #   quantity: 
 #     type: Compilation
-#     average value:  1.060000E+02
-#     relative standard deviation [%]:      1.886792
-#   datablock: 
-#     columns: 8
-#     entries: 2
-##    Author                         Type           Year           Value         dValue        Reference        Ratio
-##      []             []             []             []            [eV]           [eV]            []             []
-      JUKO                    Compilation          2000        1.040000E+02   1.500000E+01                      0.962963
-      Sukhoruchkin            Compilation          2015        1.080000E+02   1.500000E+01                      1.000000
-#   quantity: 
-#     type: EXFOR
-#     average value:  1.000000E+02
+#     average value:  1.080000E+02
 #     relative standard deviation [%]:      0.000000
 #   datablock: 
 #     columns: 8
 #     entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Dobrozemsky             EXFOR                1971        1.000000E+02   3.000000E+01       20637009       0.925926
+      Sukhoruchkin            Compilation          2015        1.080000E+02   1.500000E+01                      1.000000
+#   quantity: 
+#     type: EXFOR
+#     average value:  8.225000E+01
+#     relative standard deviation [%]:     41.625805
+#   datablock: 
+#     columns: 8
+#     entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      P.M.Lantz               EXFOR                1965        2.300000E+01   0.000000E+00      11938-005       0.212963
+      R.Dobrozemsky           EXFOR                1971        1.000000E+02   3.000000E+01      20637-009       0.925926
+      G.Leinweber             EXFOR                2006        1.040000E+02   0.000000E+00      14110-046       0.962963
+      Y.-R.Kang               EXFOR                2015        1.020000E+02   2.000000E+00      14343-015       0.944444
 #   quantity: 
 #     type: Nuclear data library
 #     average value:  1.045982E+02

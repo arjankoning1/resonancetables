@@ -1,7 +1,7 @@
 # header: 
 #   title: Np236 If resonance data
 #   source: Resonancetables
-#   date: 2025-09-08
+#   date: 2025-09-14
 # target: 
 #   Z: 93
 #   A: 236
@@ -12,9 +12,9 @@
 #   selected value [eV]:  1.174000E+03
 #   selected value uncertainty [eV]:  7.300000E+01
 #   selected value source: Sukhoruchkin
-#   number of values: 9
-#   average value [b]:  1.216636E+03
-#   relative standard deviation [%]:      7.763049
+#   number of values: 23
+#   average value [b]:  5.350792E+02
+#   relative standard deviation [%]:    104.372070
 #   quantity: 
 #     type: Compilation
 #     average value:  1.262000E+03
@@ -28,15 +28,29 @@
       Sukhoruchkin            Compilation          2015        1.174000E+03   7.300000E+01                      1.000000
 #   quantity: 
 #     type: EXFOR
-#     average value:  1.196500E+03
-#     relative standard deviation [%]:     13.079816
+#     average value:  2.343813E+02
+#     relative standard deviation [%]:    164.891373
 #   datablock: 
 #     columns: 8
-#     entries: 2
+#     entries: 16
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Valskiy                 EXFOR                1987        1.040000E+03   6.000000E+01       40995004       0.885860
-      Danon                   EXFOR                1996        1.353000E+03   8.600000E+01       13602013       1.152470
+      G.V.Val'Skiy            EXFOR                1987        1.040000E+03   6.000000E+01      40995-004       0.885860
+      Y.Danon                 EXFOR                1996        1.353000E+03   8.600000E+01      13602-013       1.152470
+      V.F.Gerasimov           EXFOR                1997        3.300000E+00   0.000000E+00      41369-003       0.002811
+      V.F.Gerasimov           EXFOR                1997        4.900000E+00   0.000000E+00      41369-003       0.004174
+      V.F.Gerasimov           EXFOR                1997        7.100000E+00   0.000000E+00      41369-003       0.006048
+      V.F.Gerasimov           EXFOR                1997        1.030000E+01   0.000000E+00      41369-003       0.008773
+      V.F.Gerasimov           EXFOR                1997        1.500000E+01   0.000000E+00      41369-003       0.012777
+      V.F.Gerasimov           EXFOR                1997        2.150000E+01   0.000000E+00      41369-003       0.018313
+      V.F.Gerasimov           EXFOR                1997        3.100000E+01   0.000000E+00      41369-003       0.026405
+      V.F.Gerasimov           EXFOR                1997        4.500000E+01   0.000000E+00      41369-003       0.038330
+      V.F.Gerasimov           EXFOR                1997        6.900000E+01   0.000000E+00      41369-003       0.058773
+      V.F.Gerasimov           EXFOR                1997        1.230000E+02   0.000000E+00      41369-003       0.104770
+      V.F.Gerasimov           EXFOR                1997        1.100000E+02   0.000000E+00      41369-003       0.093697
+      V.F.Gerasimov           EXFOR                1997        1.920000E+02   0.000000E+00      41369-003       0.163543
+      V.F.Gerasimov           EXFOR                1997        2.600000E+02   0.000000E+00      41369-003       0.221465
+      V.F.Gerasimov           EXFOR                1997        4.650000E+02   0.000000E+00      41369-003       0.396082
 #   quantity: 
 #     type: Nuclear data library
 #     average value:  1.206544E+03

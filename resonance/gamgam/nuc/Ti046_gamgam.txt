@@ -1,7 +1,7 @@
 # header: 
 #   title: Ti046 gamgam resonance data
 #   source: Resonancetables
-#   date: 2025-09-08
+#   date: 2025-09-14
 # target: 
 #   Z: 22
 #   A: 46
@@ -12,9 +12,9 @@
 #   selected value [eV]:  1.400000E+00
 #   selected value uncertainty [eV]:  4.000000E-01
 #   selected value source: RIPL-3
-#   number of values: 9
-#   average value [b]:  1.513762E+00
-#   relative standard deviation [%]:     13.136633
+#   number of values: 10
+#   average value [b]:  1.530386E+00
+#   relative standard deviation [%]:     12.750591
 #   quantity: 
 #     type: Compilation
 #     average value:  1.393333E+00
@@ -27,6 +27,16 @@
       RIPL-2                  Compilation          2000        1.400000E+00   4.000000E-01            88V       1.000000
       RIPL-3                  Compilation          2009        1.400000E+00   4.000000E-01            00I       1.000000
       Mughabghab-2018         Compilation          2018        1.380000E+00   0.000000E+00                      0.985714
+#   quantity: 
+#     type: EXFOR
+#     average value:  1.680000E+00
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 8
+#     entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      B.J.Allen               EXFOR                1977        1.680000E+00   1.100000E+00      30359-002       1.200000
 #   quantity: 
 #     type: Nuclear data library
 #     average value:  1.573977E+00

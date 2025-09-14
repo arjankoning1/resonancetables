@@ -1,7 +1,7 @@
 # header: 
 #   title: Pu239 Ig resonance data
 #   source: Resonancetables
-#   date: 2025-09-08
+#   date: 2025-09-14
 # target: 
 #   Z: 94
 #   A: 239
@@ -12,31 +12,46 @@
 #   selected value [eV]:  1.800000E+02
 #   selected value uncertainty [eV]:  2.000000E+01
 #   selected value source: Mughabghab-2018
-#   number of values: 7
-#   average value [b]:  2.017143E+02
-#   relative standard deviation [%]:     35.809349
+#   number of values: 22
+#   average value [b]:  5.519546E+01
+#   relative standard deviation [%]:    156.348068
 #   quantity: 
 #     type: Compilation
-#     average value:  2.619000E+02
-#     relative standard deviation [%]:     22.112326
+#     average value:  2.413500E+02
+#     relative standard deviation [%]:     25.419518
 #   datablock: 
 #     columns: 8
-#     entries: 3
+#     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      JUKO                    Compilation          2000        3.030000E+02   1.000000E+01                      1.683333
       Sukhoruchkin            Compilation          2015        3.027000E+02   0.000000E+00                      1.681667
       Mughabghab-2018         Compilation          2018        1.800000E+02   2.000000E+01                      1.000000
 #   quantity: 
 #     type: EXFOR
-#     average value:  1.565750E+02
-#     relative standard deviation [%]:     27.552160
+#     average value:  3.658000E+01
+#     relative standard deviation [%]:    172.974899
 #   datablock: 
 #     columns: 8
-#     entries: 4
+#     entries: 20
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Cornish                 EXFOR                1956        1.330000E+02   1.000000E+01       12367008       0.738889
-      Cornish                 EXFOR                1956        2.210000E+02   1.100000E+01       12367004       1.227778
-      Ryabov                  EXFOR                1968        1.053000E+02   9.500000E+00       41275013       0.585000
-      Eiland                  EXFOR                1971        1.670000E+02   7.000000E+00       10143014       0.927778
+      F.W.Cornish             EXFOR                1957        1.330000E+02   1.000000E+01      12367-008       0.738889
+      F.W.Cornish             EXFOR                1957        2.210000E+02   1.100000E+01      12367-004       1.227778
+      Yu.V.Ryabov             EXFOR                1968        1.053000E+02   9.500000E+00      41275-013       0.585000
+      Yu.V.Ryabov             EXFOR                1968        4.300000E-01   0.000000E+00      41275-008       0.002389
+      Yu.V.Ryabov             EXFOR                1968        1.270000E+00   0.000000E+00      41275-008       0.007056
+      Yu.V.Ryabov             EXFOR                1968        4.600000E+00   0.000000E+00      41275-008       0.025556
+      Yu.V.Ryabov             EXFOR                1968        1.540000E+01   0.000000E+00      41275-008       0.085556
+      Yu.V.Ryabov             EXFOR                1968        6.800000E+00   0.000000E+00      41275-008       0.037778
+      Yu.V.Ryabov             EXFOR                1968        8.600000E+00   0.000000E+00      41275-008       0.047778
+      Yu.V.Ryabov             EXFOR                1968        1.700000E+00   0.000000E+00      41275-008       0.009444
+      Yu.V.Ryabov             EXFOR                1968        6.200000E+00   0.000000E+00      41275-008       0.034444
+      Yu.V.Ryabov             EXFOR                1968        2.500000E+00   0.000000E+00      41275-008       0.013889
+      Yu.V.Ryabov             EXFOR                1968        9.500000E+00   0.000000E+00      41275-008       0.052778
+      Yu.V.Ryabov             EXFOR                1968        1.300000E-01   0.000000E+00      41275-008       0.000722
+      Yu.V.Ryabov             EXFOR                1968        6.400000E+00   0.000000E+00      41275-008       0.035556
+      Yu.V.Ryabov             EXFOR                1968        6.700000E+00   0.000000E+00      41275-008       0.037222
+      Yu.V.Ryabov             EXFOR                1968        2.530000E+01   0.000000E+00      41275-008       0.140556
+      Yu.V.Ryabov             EXFOR                1968        9.100000E+00   0.000000E+00      41275-008       0.050556
+      Yu.V.Ryabov             EXFOR                1968        6.700000E-01   0.000000E+00      41275-008       0.003722
+      H.M.Eiland              EXFOR                1971        1.670000E+02   7.000000E+00      10143-014       0.927778

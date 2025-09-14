@@ -5,7 +5,7 @@ module A0_resonancetables_mod
 !                                                                                                                                   
 ! Revision    Date      Author           Description                                                                                
 ! ====================================================                                                                              
-!    1     2025-09-07   A.J. Koning      Original code                                                                              
+!    1     2025-09-14   A.J. Koning      Original code                                                                              
 !-----------------------------------------------------------------------------------------------------------------------------------
 !                                                                                                                                   
 ! *** Use data from other modules                                                                                                   
@@ -25,7 +25,7 @@ module A0_resonancetables_mod
   integer, parameter :: numisom=2   ! maximum number of isomers                                                                 
   integer, parameter :: numlib=6    ! maximum number of databases
   integer, parameter :: numndlib=5  ! maximum number of ND libraries                                                          
-  integer, parameter :: numtype=9   ! number of reaction types
+  integer, parameter :: numtype=10  ! number of reaction types
   integer, parameter :: numex=1000  ! number of subentries per reaction
   integer, parameter :: numdat=1000 ! number of total Z, A data points
 !                                                                                                                                   

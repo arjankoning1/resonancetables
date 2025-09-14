@@ -5,7 +5,7 @@ subroutine readresonance(Z, A, Liso, type)
 !
 ! Revision    Date      Author      Quality  Description
 ! ======================================================
-!    1     2025-02-08   A.J. Koning    A     Original code
+!    1     2025-09-14   A.J. Koning    A     Original code
 !-----------------------------------------------------------------------------------------------------------------------------------
 !
 ! *** Use data from other modules
@@ -21,7 +21,8 @@ subroutine readresonance(Z, A, Liso, type)
   character(len=10)  :: ext
   character(len=3)   :: Zstring
   character(len=3)   :: Astring
-  character(len=10)   :: nucstring
+  character(len=10)  :: nucstring
+  character(len=10)  :: exfdir(10)
   character(len=9)   :: ref        ! reference
   character(len=9)   :: sub        ! subentry
   character(len=24)  :: author     ! author
@@ -49,6 +50,7 @@ subroutine readresonance(Z, A, Liso, type)
   real(sgl)          :: CE        
   real(sgl)          :: Emin
   real(sgl)          :: Emax
+  real(sgl)          :: dE
   real(sgl)          :: rL
   real(sgl)          :: rJ
   real(sgl)          :: rP
@@ -65,9 +67,18 @@ subroutine readresonance(Z, A, Liso, type)
 ! type = 5: S1
 ! type = 6: gamgam1
 ! type = 7: D2
-! type = 8: Ig
-! type = 9: If
+! type = 8: R
+! type = 9: Ig
+! type = 10: If
 !
+  exfdir = ''
+  exfdir(1) = 'n-0'
+  exfdir(3) = 'gamgam'
+  exfdir(4) = 'n-0'
+  exfdir(6) = 'gamgam'
+  exfdir(7) = 'n-0'
+  exfdir(9) = 'Ig'
+  exfdir(10) = 'If'
   res_author = ''
   res_type = ''
   res_year = 0
@@ -174,7 +185,7 @@ subroutine readresonance(Z, A, Liso, type)
   xs = 0.
   dxs = 0.
   ref = ''
-  if (type >= 8) then
+  if (type >= 9) then
     resfile = trim(filespath)//'resint.juko'
     open (unit = 2, status = 'old', file = resfile)
     do
@@ -184,7 +195,7 @@ subroutine readresonance(Z, A, Liso, type)
       if (line(1:1) == '#') cycle
       read(line, * ) ia, iz
       if (iz == Z .and. ia == A .and. Liso == 0) then
-        if (type == 8 .or. type == 9 .and. line(37:41) == '(n,f)') then
+        if ((type == 9 .and. line(37:41) == '(n,g') .or. (type == 10 .and. line(37:41) == '(n,f)')) then
           xs = rochread(line(49:56))
           dxs = rochread(line(66:73))
           if (xs > 0.) then
@@ -248,10 +259,14 @@ subroutine readresonance(Z, A, Liso, type)
         dxs = rochread(line(1117:1124))
       endif
       if (type == 8) then
+        xs = rochread(line(380:388))
+        dxs = rochread(line(392:401))
+      endif
+      if (type == 9) then
         xs = rochread(line(607:615))
         dxs = rochread(line(619:626))
       endif
-      if (type == 9) then
+      if (type == 10) then
         xs = rochread(line(357:364))
         dxs = rochread(line(368:377))
       endif
@@ -274,7 +289,7 @@ subroutine readresonance(Z, A, Liso, type)
 !
   xs = 0.
   dxs = 0.
-  if (type == 8) then
+  if (type == 9) then
     resfile = trim(filespath)//'kayzero.txt'
     open (unit = 2, status = 'old', file = resfile)
     do
@@ -307,7 +322,7 @@ subroutine readresonance(Z, A, Liso, type)
 !
   xs = 0.
   dxs = 0.
-  if (type >= 8) then
+  if (type >= 9) then
     resfile = trim(filespath)//'sukhoruchkin.txt'
     open (unit = 2, status = 'old', file = resfile)
     do
@@ -318,11 +333,11 @@ subroutine readresonance(Z, A, Liso, type)
       read(line(10:24), * ) ia, iz, isoT
       if (ia == 0) cycle
       if (iz == Z .and. ia == A .and. Liso == isoT) then
-        if (type == 8) then
+        if (type == 9) then
           xs = rochread(line(112:123))
           dxs = rochread(line(127:136))
         endif
-        if (type == 9) then
+        if (type == 10) then
           xs = rochread(line(61:72))
           dxs = rochread(line(76:84))
         endif
@@ -346,39 +361,34 @@ subroutine readresonance(Z, A, Liso, type)
 !
   xs = 0.
   dxs = 0.
-! if (type == 8 .or. type == 9) then
-!   if (type == 8) ext='Ig'
-!   else
-!     ext='If'
-!   endif
-    ext=restype(type)
-    do lib = 1, numndlib
-      resfile = trim(libspath)//trim(ndlib(lib))//'.'//trim(ext)
-      inquire (file = resfile, exist = lexist)
-      if (lexist) then
-        open (unit = 2, status = 'old', file = resfile)
-        do
-          read(2, '(a)', iostat = istat) line
-          if (istat == -1) exit
-          if (istat > 0) call read_error(resfile, istat)
-          if (line(1:1) == '#') cycle
-          read(line, * ) iz, ia, isoT, CE, chi2, xs
-          if (iz == Z .and. ia == A .and. Liso == isoT) then
-            k = k + 1
-            res_author(k) = ndlib(lib)
-            res_type(k) = 'NDL'
-            res_year(k) = ndyear(lib)
-            res_ref(k) = ref
-            res_xs(k) = xs
-            res_dxs(k) = dxs
-            res_av(k) = ''
-            res_exist = .true.
-            exit
-          endif
-        enddo
-        close (2)
-      endif
-    enddo
+  ext=restype(type)
+  do lib = 1, numndlib
+    resfile = trim(libspath)//trim(ndlib(lib))//'.'//trim(ext)
+    inquire (file = resfile, exist = lexist)
+    if (lexist) then
+      open (unit = 2, status = 'old', file = resfile)
+      do
+        read(2, '(a)', iostat = istat) line
+        if (istat == -1) exit
+        if (istat > 0) call read_error(resfile, istat)
+        if (line(1:1) == '#') cycle
+        read(line, * ) iz, ia, isoT, CE, chi2, xs
+        if (iz == Z .and. ia == A .and. Liso == isoT) then
+          k = k + 1
+          res_author(k) = ndlib(lib)
+          res_type(k) = 'NDL'
+          res_year(k) = ndyear(lib)
+          res_ref(k) = ref
+          res_xs(k) = xs
+          res_dxs(k) = dxs
+          res_av(k) = ''
+          res_exist = .true.
+          exit
+        endif
+      enddo
+      close (2)
+    endif
+  enddo
 ! endif
 !
 ! Number of cases
@@ -387,10 +397,16 @@ subroutine readresonance(Z, A, Liso, type)
 !
 ! EXFOR database
 !
-  if (type /= 2) then
+! if (type /= 2) then
     xs = 0.
     dxs = 0.
-    if (type == 1 .or. type == 4 .or. type == 7) then
+    Emin = 0.
+    Emax = 0.
+    dE = 0.
+    rL = 0.
+    rJ = 0.
+    rP = 0.
+!   if (type == 1 .or. type == 3 .or. type == 4 .or. type == 6 .or. type == 7) then
       nucstring='          '
       Zstring='   '
       write(Zstring,'(i3)') Z
@@ -400,7 +416,7 @@ subroutine readresonance(Z, A, Liso, type)
       if (Unuc(2:2) /= ' ') Unuc(2:2) = achar(iachar(Unuc(2:2)) - 32)
       write(nucstring,'(a,"-",a,"-",a)') trim(adjustl(Zstring)),trim(Unuc),trim(adjustl(Astring))
       if (Liso == 1) nucstring=trim(nucstring)//'-M'
-      resfile = trim(filespath)//'exforfiles/n-0/'//trim(nucstring)//'.txt'
+      resfile = trim(filespath)//'exforfiles/'//trim(exfdir(type))//'/'//trim(nucstring)//'.txt'
       inquire (file = resfile, exist = lexist)
       if (lexist .and. Liso <= 1) then
         open (unit = 2, status = 'old', file = resfile)
@@ -411,14 +427,25 @@ subroutine readresonance(Z, A, Liso, type)
           if (line(1:1) == '#') cycle
           if (line(1:1) == ' ') cycle
           if (line(1:4) == 'RIPL') exit
+          ix = index(line,'CALC')
+          if (ix > 0) cycle
+          ix = index(line,'RECOM')
+          if (ix > 0) cycle
           sub=line(1:12)
           author=line(21:44)
-          read(line(45:160), *, iostat=istat ) year, Emin, Emax, xs, dxs, rL, rJ, rP
+          if (type <= 8) then
+            read(line(45:160), *, iostat=istat ) year, Emin, dE, xs, dxs, rL, rJ, rP
+          else
+            read(line(45:160), *, iostat=istat ) year, Emin, Emax, xs, dxs
+          endif
+          if (istat > 0) call read_error(resfile, istat)
           if (isnan(xs)) xs = 0.
           if (isnan(dxs)) dxs = 0.
           if (isnan(rL)) rL = 0.
           if (type == 1 .and. rL /= 0.) cycle
+          if (type == 3 .and. rL == 1.) cycle
           if (type == 4 .and. rL /= 1.) cycle
+          if (type == 6 .and. rL /= 1.) cycle
           if (type == 7 .and. rL /= 2.) cycle
           if (istat > 0) then
             write(*,*) "EXFOR problem: ",trim(line)
@@ -439,6 +466,7 @@ subroutine readresonance(Z, A, Liso, type)
           if (Emax > 1.) write(*,*) "Warning: for Z=", Z," A=",A," resonance range given as ", Emin, " - ", Emax," MeV"
           if (.not.isnan(Emin)) write(res_Emin(k)(1:15),'(es15.6)') Emin
           if (.not.isnan(Emax)) write(res_Emax(k)(1:15),'(es15.6)') Emax
+          if (.not.isnan(dE)) write(res_Emax(k)(1:15),'(es15.6)') dE
           if (.not.isnan(rL)) write(res_L(k)(7:10),'(f4.1)') rL
           if (.not.isnan(rJ)) write(res_J(k)(7:10),'(f4.1)') rJ
           if (.not.isnan(rP)) write(res_P(k)(7:10),'(f4.1)') rP
@@ -447,36 +475,36 @@ subroutine readresonance(Z, A, Liso, type)
         enddo
         close (2)
       endif
-    else
-      resfile = trim(exforpath)//'exfor_'//trim(restype(type))//'.txt'
-      inquire (file = resfile, exist = lexist)
-      if (lexist) then
-        open (unit = 2, status = 'old', file = resfile)
-        do
-          read(2, '(a)', iostat = istat) line
-          if (istat == -1) exit
-          if (istat > 0) call read_error(resfile, istat)
-          read(line, * ) iz, ia, isoT, isoR, xs ,dxs, Einc, author, year, sub
-          if (iz == Z .and. ia == A .and. Liso == isoT) then
-            Nres_exp = Nres_exp + 1
-            if (Nres_exp  > numex) then
-              Nres_exp = numex
-              exit         
-            endif
-            k = k + 1      
-            res_author(k) = author       
-            res_type(k) = 'EXFOR'        
-            res_year(k) = year
-            res_ref(k) = sub
-            res_xs(k) = xs 
-            res_dxs(k) = dxs
-            res_exist = .true.
-          endif            
-        enddo
-        close (2)          
-      endif
-    endif
-  endif
+!   else
+!     resfile = trim(exforpath)//'exfor_'//trim(restype(type))//'.txt'
+!     inquire (file = resfile, exist = lexist)
+!     if (lexist) then
+!       open (unit = 2, status = 'old', file = resfile)
+!       do
+!         read(2, '(a)', iostat = istat) line
+!         if (istat == -1) exit
+!         if (istat > 0) call read_error(resfile, istat)
+!         read(line, * ) iz, ia, isoT, isoR, xs ,dxs, Einc, author, year, sub
+!         if (iz == Z .and. ia == A .and. Liso == isoT) then
+!           Nres_exp = Nres_exp + 1
+!           if (Nres_exp  > numex) then
+!             Nres_exp = numex
+!             exit         
+!           endif
+!           k = k + 1      
+!           res_author(k) = author       
+!           res_type(k) = 'EXFOR'        
+!           res_year(k) = year
+!           res_ref(k) = sub
+!           res_xs(k) = xs 
+!           res_dxs(k) = dxs
+!           res_exist = .true.
+!         endif            
+!       enddo
+!       close (2)          
+!     endif
+!   endif
+! endif
 !
 ! resbase (TARES database)
 !
@@ -497,8 +525,13 @@ subroutine readresonance(Z, A, Liso, type)
       if (type == 4) ix=index(line,'Ave. D        l=1')
       if (type == 5) ix=index(line,'Ave. S        l=1')
       if (type == 6) ix=index(line,'Ave. Gg       l=1')
+      if (type == 8) ix=index(line,'Scattering')
       if (ix > 0) then
-        read(line(22:35),*) xs
+        if (type == 8) then
+          read(line(26:30),*) xs
+        else
+          read(line(22:35),*) xs
+        endif
         exit
       endif
     enddo

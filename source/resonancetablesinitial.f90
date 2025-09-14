@@ -5,7 +5,7 @@ subroutine resonancetablesinitial
 !
 ! Revision    Date      Author      Quality  Description
 ! ======================================================
-!    1     2025-05-25   A.J. Koning    A     Original code
+!    1     2025-09-14   A.J. Koning    A     Original code
 !-----------------------------------------------------------------------------------------------------------------------------------
 !
 ! *** Use data from other modules
@@ -65,8 +65,9 @@ subroutine resonancetablesinitial
   restype(5) = 'S1'
   restype(6) = 'gamgam1'
   restype(7) = 'D2'
-  restype(8) = 'Ig'
-  restype(9) = 'If'
+  restype(8) = 'R'
+  restype(9) = 'Ig'
+  restype(10) = 'If'
   ndlib(1) = 'cendl3.2  '
   ndyear(1) = 2019
   ndlib(2) = 'endfb8.1  '

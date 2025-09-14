@@ -29,11 +29,12 @@ subroutine resonance
 ! type = 5: S1
 ! type = 6: gamgam1
 ! type = 7: D2
-! type = 8: Ig
-! type = 9: If
+! type = 8: R
+! type = 9: Ig
+! type = 10: If
 !     
   write(*, *) "Resonance databases"
-  do type = 1, 9
+  do type = 1, 10
     Nsave = 0
     do Z = 1, numZ
       do A = 0, heavy(Z) + 3

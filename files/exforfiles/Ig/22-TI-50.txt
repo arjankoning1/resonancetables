@@ -1,0 +1,38 @@
+# Header: 
+#   title: 22-TI-50(N,G) resonance_integral cross section 
+#   source: EXFOR 
+#   date created: 2025-09-08 
+# Target: 
+#   Z: 22 
+#   A: 50 
+#   Nuclide: 22-TI-50 
+# Reaction: 
+#   Type: N,G 
+#   Type: N,G 
+#   Incident energy       : 5.0000e-07 MeV - 2.9300e-01 MeV 
+# Residual: 
+#   Z:  
+#   A:  
+#   Nuclide: 
+# Statistics:
+#   Resonance Integral Simple Mean  |  Simple Stdev        : 9.84080E-01  |   1.90963E+00   (N = 5)
+#   Resonance Integral Weighted Mean +/- Weighted Error      : 1.25316E-01 +/-  5.73488E-03   (N = 5)
+#   LIM Simple Mean           |  Simple Stdev        : 8.50000E-03  |           NAN   (N = 1)
+#   LIM Weighted Mean        +/- Weighted Error      :         NAN +/-          NAN   (N = 1)
+#   RNV Simple Mean           |  Simple Stdev        : 3.80000E-02  |           NAN   (N = 1)
+#   RNV Weighted Mean        +/- Weighted Error      :         NAN +/-          NAN   (N = 1)
+#
+# Data Table
+#   Experimental Data
+# EXFOR ID          First Author            Year   En_inc [MeV] dEn_inc      Data [B]     dData         sf8    sf9
+20643-012-1         R.Van Der Linden        1972   5.5000E-07   0.0000E+00   4.4000E+00   4.0000E-01                
+10644-015-0         G.Gleason               1975   5.0000E-07   0.0000E+00   1.1000E-01   1.0000E-02                
+10637-005-0         L.Sage                  1976   5.0000E-07   0.0000E+00   1.5200E-01   0.0000E+00                
+12866-019-0         R.E.Heft                1978   5.0000E-07   0.0000E+00   1.1700E-01   1.1000E-02                
+23491-003-0         I.Kimura                1989   5.0000E-07   0.0000E+00   1.4140E-01   9.0779E-03                
+30359-024-0         B.J.Allen               1977   1.5135E-01   0.0000E+00   8.5000E-03   1.1000E-03     LIM        
+20789-011-0         T.B.Ryves               1970   5.0000E-07   0.0000E+00   3.8000E-02   0.0000E+00     RNV        
+#   Recom./Eval./Deriv./Calc. Data
+# EXFOR ID          First Author            Year   En_inc [MeV] dEn_inc      Data [B]     dData         sf8    sf9
+V1001-169-2         S.F.Mughabghab          2006   2.9300E-01   0.0000E+00   8.3000E-02   6.0000E-03     LIM    CALC
+V1001-169-1         S.F.Mughabghab          2006   2.9300E-01   0.0000E+00   1.1800E-01   1.1000E-02     LIM   RECOM

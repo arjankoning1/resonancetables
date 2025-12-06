@@ -5,7 +5,7 @@ module A0_resonancetables_mod
 !                                                                                                                                   
 ! Revision    Date      Author           Description                                                                                
 ! ====================================================                                                                              
-!    1     2025-09-14   A.J. Koning      Original code                                                                              
+!    1     2025-12-01   A.J. Koning      Original code                                                                              
 !-----------------------------------------------------------------------------------------------------------------------------------
 !                                                                                                                                   
 ! *** Use data from other modules                                                                                                   
@@ -35,9 +35,10 @@ module A0_resonancetables_mod
   character(len=132) :: libspath    ! directory containing data from nuclear data libraries
   character(len=132) :: exforpath   ! directory containing X4 data
   character(len=132) :: resbasepath ! directory containing TARES data
-  character(len=132) :: thermalpath ! directory containing data libraries
-  character(len=132) :: macspath    ! directory containing data libraries
-  character(len=132) :: respath     ! directory containing data libraries
+  character(len=132) :: thermalpath ! directory containing thermal cross sections
+  character(len=132) :: macspath    ! directory containing MACS libraries
+  character(len=132) :: respath     ! directory containing dresonance parametersata libraries
+  character(len=132) :: resparpath  ! directory containing resonance parameters
 !
 ! thermalbaseinitial
 !

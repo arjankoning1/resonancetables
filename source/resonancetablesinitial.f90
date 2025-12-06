@@ -15,7 +15,9 @@ subroutine resonancetablesinitial
 ! *** Declaration of local data
 !
   implicit none
-  character(len=80) :: cmd       ! command
+  character(len=132):: cmd       ! command
+  character(len=132):: string1   ! command
+  character(len=132):: string2   ! command
   integer           :: isys      ! counter
   integer           :: i         ! counter
   integer           :: system    ! system command
@@ -123,6 +125,14 @@ subroutine resonancetablesinitial
     cmd = 'mkdir -p '//trim(respath)//trim(restype(i))//'/nuc'
     isys = system(cmd)
     cmd = 'mkdir -p '//trim(respath)//trim(restype(i))//'/all'
+    isys = system(cmd)
+  enddo
+  do i = 2, 5
+    cmd = 'mkdir -p '//trim(respath)//trim(ndlib(i))
+    isys = system(cmd)
+    string1 = trim(resparpath)//'res_'//trim(ndlib(i))//'/*/files/n*txt'
+    string2 = trim(respath)//trim(ndlib(i))
+    cmd = 'cp -p '//trim(string1)//' '//trim(string2)
     isys = system(cmd)
   enddo
   return

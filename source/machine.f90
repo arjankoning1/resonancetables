@@ -35,6 +35,7 @@ subroutine machine
   thermalpath = 'thermal/'
   macspath = 'macs/'
   respath = 'resonance/'
+  resparpath = trim(basedir)//'tendl/'
 !
 ! Set date
 !

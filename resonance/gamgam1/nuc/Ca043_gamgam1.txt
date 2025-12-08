@@ -1,7 +1,7 @@
 # header: 
 #   title: Ca043 gamgam1 resonance data
 #   source: Resonancetables
-#   date: 2025-12-03
+#   date: 2025-12-08
 # target: 
 #   Z: 20
 #   A: 43
@@ -12,9 +12,9 @@
 #   selected value [eV]:  5.000000E-01
 #   selected value uncertainty [eV]:  0.000000E+00
 #   selected value source: A.R.De L.Musgrove
-#   number of values: 1
-#   average value [b]:  5.000000E-01
-#   relative standard deviation [%]:      0.000000
+#   number of values: 6
+#   average value [b]:  7.265782E-01
+#   relative standard deviation [%]:     14.621043
 #   quantity: 
 #     type: EXFOR
 #     average value:  5.000000E-01
@@ -25,3 +25,17 @@
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
       A.R.De L.Musgrove       EXFOR                1977        5.000000E-01   0.000000E+00      30356-007       1.000000
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  7.718938E-01
+#     relative standard deviation [%]:      4.527969
+#   datablock: 
+#     columns: 8
+#     entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        7.066670E-01   0.000000E+00                      1.413334
+      endfb8.1                NDL                  2024        8.125000E-01   0.000000E+00                      1.625000
+      TARES                   NDL                  2025        7.807390E-01   0.000000E+00                      1.561478
+      tendl.2025              NDL                  2025        7.807390E-01   0.000000E+00                      1.561478
+      jeff4.0                 NDL                  2025        7.788240E-01   0.000000E+00                      1.557648

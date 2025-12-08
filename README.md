@@ -51,6 +51,9 @@ cd resonancetables
 install_resonancetables.bash
 ```
 
+Running the code requires the *exfortables* and *libraries* databases to be installed in your home directory.
+These can be obtained from https://nds.iaea.org/talys
+
 The above instructions will produce a *resonancetables* executable in the *resonancetables/bin* directory. 
 The compiler and its flags can be set in either the *source/Makefile* or in *code_build.bash*.
 

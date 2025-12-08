@@ -1,7 +1,7 @@
 # header: 
 #   title: Fe059(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2025-12-03
+#   date: 2025-12-08
 # target: 
 #   Z: 26
 #   A: 59
@@ -12,9 +12,9 @@
 #   selected value [b]:  1.300000E+01
 #   selected value uncertainty [b]:  3.000000E+00
 #   selected value source: RIPL-3
-#   number of values: 6
-#   average value [b]:  8.833774E+00
-#   relative standard deviation [%]:     51.639256
+#   number of values: 3
+#   average value [b]:  8.666667E+00
+#   relative standard deviation [%]:     35.667763
 #   quantity: 
 #     type: Compilation
 #     average value:  1.300000E+01
@@ -36,15 +36,3 @@
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
       A.Elhardt               EXFOR                1998        7.000000E+00   1.400000E+00   23811-002-0        0.538462   SPA            2.530000E-08
       K.Knie                  EXFOR                2003        6.000000E+00   1.300000E+00   23795-002-0        0.461538   MXW            2.530000E-08
-#   quantity: 
-#     type: Nuclear data library
-#     average value:  9.000880E+00
-#     relative standard deviation [%]:     62.854382
-#   datablock: 
-#     columns: 11
-#     entries: 3
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
-##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
-      jendl5.0                NDL                  2021        1.000040E+00   0.000000E+00                      0.076926                  2.530000E-08   1.000050E+00
-      tendl.2025              NDL                  2025        1.300130E+01   0.000000E+00                      1.000100                  2.530000E-08   9.987900E-01
-      jeff4.0                 NDL                  2025        1.300130E+01   0.000000E+00                      1.000100                  2.530000E-08   9.987900E-01

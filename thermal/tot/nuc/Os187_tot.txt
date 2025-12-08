@@ -1,7 +1,7 @@
 # header: 
 #   title: Os187(n,tot) thermal cross section
 #   source: Resonancetables
-#   date: 2025-12-03
+#   date: 2025-12-08
 # target: 
 #   Z: 76
 #   A: 187
@@ -12,9 +12,9 @@
 #   selected value [b]:  3.580000E+02
 #   selected value uncertainty [b]:  0.000000E+00
 #   selected value source: V.P.Vertebny
-#   number of values: 3
-#   average value [b]:  3.480000E+02
-#   relative standard deviation [%]:      2.031916
+#   number of values: 7
+#   average value [b]:  3.358249E+02
+#   relative standard deviation [%]:      3.433311
 #   quantity: 
 #     type: EXFOR
 #     average value:  3.480000E+02
@@ -27,3 +27,16 @@
       V.P.Vertebny            EXFOR                1969        3.430000E+02   0.000000E+00   40094-002-0        0.958101                  2.560000E-08
       V.P.Vertebny            EXFOR                1969        3.430000E+02   1.200000E+01   40094-002-0        0.958101                  2.490000E-08
       V.P.Vertebny            EXFOR                1969        3.580000E+02   0.000000E+00   40094-002-0        1.000000                  2.410000E-08
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  3.266935E+02
+#     relative standard deviation [%]:      0.234318
+#   datablock: 
+#     columns: 11
+#     entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      jendl5.0                NDL                  2021        3.274590E+02   0.000000E+00                      0.914690                  2.530000E-08   9.873700E-01
+      endfb8.1                NDL                  2024        3.274590E+02   0.000000E+00                      0.914690                  2.530000E-08   9.873700E-01
+      tendl.2025              NDL                  2025        3.259280E+02   0.000000E+00                      0.910413                  2.530000E-08   9.865400E-01
+      jeff4.0                 NDL                  2025        3.259280E+02   0.000000E+00                      0.910413                  2.530000E-08   9.865400E-01

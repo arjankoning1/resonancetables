@@ -1,7 +1,7 @@
 # header: 
 #   title: Ta182(n,tot) thermal cross section
 #   source: Resonancetables
-#   date: 2025-12-03
+#   date: 2025-12-08
 # target: 
 #   Z: 73
 #   A: 182
@@ -12,9 +12,9 @@
 #   selected value [b]:  8.265500E+03
 #   selected value uncertainty [b]:  0.000000E+00
 #   selected value source: G.E.Stokes
-#   number of values: 7
-#   average value [b]:  8.257329E+03
-#   relative standard deviation [%]:      0.929527
+#   number of values: 10
+#   average value [b]:  8.261233E+03
+#   relative standard deviation [%]:      0.812325
 #   quantity: 
 #     type: EXFOR
 #     average value:  8.257329E+03
@@ -31,3 +31,15 @@
       G.E.Stokes              EXFOR                1968        8.299100E+03   0.000000E+00   10407-005-0        1.004065                  2.441000E-08
       G.E.Stokes              EXFOR                1968        8.230800E+03   0.000000E+00   10407-004-0        0.995802                  2.514000E-08
       G.E.Stokes              EXFOR                1968        8.265500E+03   0.000000E+00   10407-004-0        1.000000                  2.415000E-08
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  8.270347E+03
+#     relative standard deviation [%]:      0.409483
+#   datablock: 
+#     columns: 11
+#     entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
+##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
+      endfb8.1                NDL                  2024        8.318240E+03   0.000000E+00                      1.006381                  2.530000E-08   1.642240E+00
+      tendl.2025              NDL                  2025        8.246400E+03   0.000000E+00                      0.997689                  2.530000E-08   1.630970E+00
+      jeff4.0                 NDL                  2025        8.246400E+03   0.000000E+00                      0.997689                  2.530000E-08   1.630970E+00

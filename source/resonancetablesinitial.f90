@@ -62,7 +62,7 @@ subroutine resonancetablesinitial
   reac(9) = 'nup'
   restype(1) = 'D0'
   restype(2) = 'S0'
-  restype(3) = 'gamgam'
+  restype(3) = 'gamgam0'
   restype(4) = 'D1'
   restype(5) = 'S1'
   restype(6) = 'gamgam1'

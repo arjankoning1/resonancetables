@@ -12,6 +12,7 @@ subroutine readresonance(Z, A, Liso, type)
 !
   use A0_resonancetables_mod
   use A1_error_handling_mod
+  use, intrinsic :: ieee_arithmetic
 !
 ! *** Declaration of local data
 !
@@ -154,10 +155,10 @@ subroutine readresonance(Z, A, Liso, type)
               open (unit = 3, status = 'old', file = Nrfile)
               read(3,'(//)')
               do
-                read(3, '(i4,4x,i3,11x,i3)', iostat = istat) iz, ia, Nrr
+                read(3, '(i4,4x,i3,11x,i4)', iostat = istat) iz, ia, Nrr
                 if (istat == -1) exit
                 if (istat > 0) call read_error(resfile, istat)
-                if (iz == Z .and. ia == A .and. Liso == 0) then
+                if (iz == Z .and. ia == A + 1 .and. Liso == 0) then
                   write(res_Nrr(k)(1:15),'(6x,i3)') Nrr
                   exit
                 endif
@@ -439,15 +440,15 @@ subroutine readresonance(Z, A, Liso, type)
             read(line(45:160), *, iostat=istat ) year, Emin, Emax, xs, dxs
           endif
           if (istat > 0) call read_error(resfile, istat)
-          if (isnan(xs)) xs = 0.
-          if (isnan(dxs)) dxs = 0.
-          if (isnan(rL)) rL = 0.
+          if (ieee_is_nan(xs)) xs = 0.
+          if (ieee_is_nan(dxs)) dxs = 0.
+          if (ieee_is_nan(rL)) rL = 0.
           if (type == 1 .and. rL /= 0.) cycle
           if (type == 3 .and. rL == 1.) cycle
           if (type == 4 .and. rL /= 1.) cycle
           if (type == 6 .and. rL /= 1.) cycle
           if (type == 7 .and. rL /= 2.) cycle
-          if (istat > 0) then
+          if (istat > 0 .or. xs <= 0.) then
             write(*,*) "EXFOR problem: ",trim(line)
             cycle
           endif
@@ -464,12 +465,12 @@ subroutine readresonance(Z, A, Liso, type)
           res_xs(k) = xs
           res_dxs(k) = dxs
           if (Emax > 1.) write(*,*) "Warning: for Z=", Z," A=",A," resonance range given as ", Emin, " - ", Emax," MeV"
-          if (.not.isnan(Emin)) write(res_Emin(k)(1:15),'(es15.6)') Emin
-          if (.not.isnan(Emax)) write(res_Emax(k)(1:15),'(es15.6)') Emax
-          if (.not.isnan(dE)) write(res_Emax(k)(1:15),'(es15.6)') dE
-          if (.not.isnan(rL)) write(res_L(k)(7:10),'(f4.1)') rL
-          if (.not.isnan(rJ)) write(res_J(k)(7:10),'(f4.1)') rJ
-          if (.not.isnan(rP)) write(res_P(k)(7:10),'(f4.1)') rP
+          if (.not.ieee_is_nan(Emin)) write(res_Emin(k)(1:15),'(es15.6)') Emin
+          if (.not.ieee_is_nan(Emax)) write(res_Emax(k)(1:15),'(es15.6)') Emax
+          if (.not.ieee_is_nan(dE)) write(res_Emax(k)(1:15),'(es15.6)') dE
+          if (.not.ieee_is_nan(rL)) write(res_L(k)(7:10),'(f4.1)') rL
+          if (.not.ieee_is_nan(rJ)) write(res_J(k)(7:10),'(f4.1)') rJ
+          if (.not.ieee_is_nan(rP)) write(res_P(k)(7:10),'(f4.1)') rP
           res_av(k) = ''
           res_exist = .true.
         enddo

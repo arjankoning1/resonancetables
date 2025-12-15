@@ -98,6 +98,10 @@ subroutine sumresonance(type)
     un(4) = 'eV'
     un(5) = 'eV'
   endif
+  if (type == 8) then
+    un(5) = 'fm'
+    un(6) = 'fm'
+  endif
   un(7) = '%'
   un(8) = '%'
   un(9) = '%'

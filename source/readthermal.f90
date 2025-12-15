@@ -12,6 +12,7 @@ subroutine readthermal(Z, A, Liso, Riso, type)
 !
   use A0_resonancetables_mod
   use A1_error_handling_mod
+  use, intrinsic :: ieee_arithmetic
 !
 ! *** Declaration of local data
 !
@@ -105,6 +106,7 @@ subroutine readthermal(Z, A, Liso, Riso, type)
       if (istat == -1) exit
       if (istat > 0) call read_error(thermfile, istat)
       read(line, * ) IZA, isoT, MT, isoR, xs ,dxs
+      if (xs <= 0.) cycle
       iz=IZA/1000
       ia=IZA-1000*Z
       if (isoR == 99) isoR = -1
@@ -578,6 +580,7 @@ subroutine readthermal(Z, A, Liso, Riso, type)
           write(*,*) "EXFOR problem: ",trim(line)
           cycle
         endif
+        if (ieee_is_nan(xs)) cycle
         if (xs <= 0.) cycle
         Nres_exp = Nres_exp + 1
         if (Nres_exp  > numex - 20) then

@@ -3,12 +3,13 @@ program resonancetables
 !-----------------------------------------------------------------------------------------------------------------------------------
 ! Purpose: Unify databases for thermal cross sections, resonance integrals, average resonance parameters, and MACS
 !
-! Revision    Date      Author      Quality  Description
-! ======================================================
-!    1     2025-12-01   A.J. Koning    A     Original code
+!
+! Author    : Arjan Koning
+! 2025-12-13: Current revision
 !-----------------------------------------------------------------------------------------------------------------------------------
 !
 !   |-------------------------------------------------------|
+!   |                 RESONANCETABLES-2.2                   |
 !   |                 Arjan Koning                          |
 !   |                                                       |
 !   | Email: A.Koning@@iaea.org                             |
@@ -51,5 +52,6 @@ program resonancetables
   call thermal
   call macs
   call resonance
+  write(*, *) "Resonancetables is done"
 end program resonancetables
 ! Copyright A.J. Koning 2025

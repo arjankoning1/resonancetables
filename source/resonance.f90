@@ -24,7 +24,7 @@ subroutine resonance
 !   
 ! type = 1: D0
 ! type = 2: S0
-! type = 3: gamgam 
+! type = 3: gamgam0
 ! type = 4: D1
 ! type = 5: S1
 ! type = 6: gamgam1

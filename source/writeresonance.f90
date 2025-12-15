@@ -5,7 +5,7 @@ subroutine writeresonance(Z, A, Liso, type)
 !
 ! Revision    Date      Author      Quality  Description
 ! ======================================================
-!    1     2025-05-25   A.J. Koning    A     Original code
+!    1     2025-12-13   A.J. Koning    A     Original code
 !-----------------------------------------------------------------------------------------------------------------------------------
 !
 ! *** Use data from other modules
@@ -64,6 +64,10 @@ subroutine writeresonance(Z, A, Liso, type)
     un(5) = 'eV'
     un(6) = 'eV'
   endif
+  if (type == 8) then
+    un(5) = 'fm'
+    un(6) = 'fm'
+  endif
   col(7) = 'Reference'
   col(8) = 'Ratio'
   Ncol = 8
@@ -91,7 +95,7 @@ subroutine writeresonance(Z, A, Liso, type)
           write(1, '(a30,a15,6x,i4,5x,2es15.6,3x,a12,f15.6,a15)') res_author(k), res_type(k), res_year(k), res_xs(k), &
  &          res_dxs(k), trim(adjustl(res_ref(k))), F, res_Nrr(k)
         else
-          write(1, '(a30,a15,6x,i4,5x,2es15.6,3x,a12,f15.6,a15)') res_author(k), res_type(k), res_year(k), res_xs(k), &
+          write(1, '(a30,a15,6x,i4,5x,2es15.6,3x,a12,f15.6)') res_author(k), res_type(k), res_year(k), res_xs(k), &
  &          res_dxs(k), trim(adjustl(res_ref(k))), F
         endif
       endif

@@ -1,0 +1,43 @@
+# header: 
+#   title: Yb172 gamgam0 resonance data
+#   source: Resonancetables
+#   date: 2025-12-15
+# target: 
+#   Z: 70
+#   A: 172
+#   nuclide: Yb172
+# reaction: 
+#   type: gamgam0
+#   parameters: 
+#   selected value [eV]:  7.700001E-02
+#   selected value uncertainty [eV]:  1.000000E-02
+#   selected value source: RIPL-3
+#   number of values: 8
+#   average value [b]:  7.453804E-02
+#   relative standard deviation [%]:      3.134611
+#   quantity: 
+#     type: Compilation
+#     average value:  7.633334E-02
+#     relative standard deviation [%]:      3.267826
+#   datablock: 
+#     columns: 8
+#     entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      RIPL-2                  Compilation          2000        7.900000E-02   2.000000E-02            84M       1.025974
+      RIPL-3                  Compilation          2009        7.700001E-02   1.000000E-02            0I7       1.000000
+      Mughabghab-2018         Compilation          2018        7.300000E-02   1.100000E-02                      0.948052
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  7.346086E-02
+#     relative standard deviation [%]:      1.879879
+#   datablock: 
+#     columns: 8
+#     entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        7.515220E-02   0.000000E+00                      0.976003
+      endfb8.1                NDL                  2024        7.515220E-02   0.000000E+00                      0.976003
+      TARES                   NDL                  2025        7.233330E-02   0.000000E+00                      0.939393
+      tendl.2025              NDL                  2025        7.233330E-02   0.000000E+00                      0.939393
+      jeff4.0                 NDL                  2025        7.233330E-02   0.000000E+00                      0.939393

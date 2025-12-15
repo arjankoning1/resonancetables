@@ -1,0 +1,43 @@
+# header: 
+#   title: Ir192 gamgam0 resonance data
+#   source: Resonancetables
+#   date: 2025-12-15
+# target: 
+#   Z: 77
+#   A: 192
+#   nuclide: Ir192
+# reaction: 
+#   type: gamgam0
+#   parameters: 
+#   selected value [eV]:  1.000000E-01
+#   selected value uncertainty [eV]:  1.000000E-02
+#   selected value source: RIPL-3
+#   number of values: 8
+#   average value [b]:  9.399409E-02
+#   relative standard deviation [%]:      8.167452
+#   quantity: 
+#     type: Compilation
+#     average value:  9.800000E-02
+#     relative standard deviation [%]:      2.886153
+#   datablock: 
+#     columns: 8
+#     entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      RIPL-2                  Compilation          2000        1.000000E-01   2.000000E-02            97I       1.000000
+      RIPL-3                  Compilation          2009        1.000000E-01   1.000000E-02            0I7       1.000000
+      Mughabghab-2018         Compilation          2018        9.400000E-02   6.000000E-03                      0.940000
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  9.159057E-02
+#     relative standard deviation [%]:      9.397916
+#   datablock: 
+#     columns: 8
+#     entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        9.800000E-02   0.000000E+00                      0.980000
+      endfb8.1                NDL                  2024        1.010990E-01   0.000000E+00                      1.010990
+      TARES                   NDL                  2025        9.643360E-02   0.000000E+00                      0.964336
+      tendl.2025              NDL                  2025        8.121010E-02   0.000000E+00                      0.812101
+      jeff4.0                 NDL                  2025        8.121010E-02   0.000000E+00                      0.812101

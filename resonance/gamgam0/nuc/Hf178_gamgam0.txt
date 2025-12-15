@@ -1,0 +1,44 @@
+# header: 
+#   title: Hf178 gamgam0 resonance data
+#   source: Resonancetables
+#   date: 2025-12-15
+# target: 
+#   Z: 72
+#   A: 178
+#   nuclide: Hf178
+# reaction: 
+#   type: gamgam0
+#   parameters: 
+#   selected value [eV]:  5.400000E-02
+#   selected value uncertainty [eV]:  5.000000E-03
+#   selected value source: RIPL-3
+#   number of values: 9
+#   average value [b]:  4.722628E-02
+#   relative standard deviation [%]:     33.315796
+#   quantity: 
+#     type: Compilation
+#     average value:  5.383334E-02
+#     relative standard deviation [%]:      0.437838
+#   datablock: 
+#     columns: 8
+#     entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      RIPL-2                  Compilation          2000        5.400000E-02   5.000000E-03            97I       1.000000
+      RIPL-3                  Compilation          2009        5.400000E-02   5.000000E-03            97I       1.000000
+      Mughabghab-2018         Compilation          2018        5.350000E-02   5.500000E-03                      0.990741
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  4.392275E-02
+#     relative standard deviation [%]:     41.891827
+#   datablock: 
+#     columns: 8
+#     entries: 6
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        5.083330E-02   0.000000E+00                      0.941357
+      jendl5.0                NDL                  2021        5.095450E-02   0.000000E+00                      0.943602
+      endfb8.1                NDL                  2024        5.081820E-02   0.000000E+00                      0.941078
+      TARES                   NDL                  2025        5.923050E-02   0.000000E+00                      1.096861
+      tendl.2025              NDL                  2025        3.500000E-03   0.000000E+00                      0.064815
+      jeff4.0                 NDL                  2025        4.820000E-02   0.000000E+00                      0.892593

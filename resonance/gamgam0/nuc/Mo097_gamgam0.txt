@@ -1,0 +1,55 @@
+# header: 
+#   title: Mo097 gamgam0 resonance data
+#   source: Resonancetables
+#   date: 2025-12-15
+# target: 
+#   Z: 42
+#   A: 97
+#   nuclide: Mo097
+# reaction: 
+#   type: gamgam0
+#   parameters: 
+#   selected value [eV]:  1.300000E-01
+#   selected value uncertainty [eV]:  2.000000E-02
+#   selected value source: RIPL-3
+#   number of values: 11
+#   average value [b]:  1.476291E-01
+#   relative standard deviation [%]:      8.966356
+#   quantity: 
+#     type: Compilation
+#     average value:  1.330000E-01
+#     relative standard deviation [%]:      3.189951
+#   datablock: 
+#     columns: 8
+#     entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      RIPL-2                  Compilation          2000        1.300000E-01   2.000000E-02            96I       1.000000
+      RIPL-3                  Compilation          2009        1.300000E-01   2.000000E-02            07I       1.000000
+      Mughabghab-2018         Compilation          2018        1.390000E-01   2.000000E-02                      1.069231
+#   quantity: 
+#     type: EXFOR
+#     average value:  1.450000E-01
+#     relative standard deviation [%]:     10.344828
+#   datablock: 
+#     columns: 8
+#     entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      H.Weigmann              EXFOR                1971        1.600000E-01   1.500000E-02      20398-024       1.230769
+      A.R.De L.Musgrove       EXFOR                1976        1.300000E-01   2.000000E-02      30357-015       1.000000
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  1.558200E-01
+#     relative standard deviation [%]:      5.005393
+#   datablock: 
+#     columns: 8
+#     entries: 6
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        1.593080E-01   0.000000E+00                      1.225446
+      jendl5.0                NDL                  2021        1.383800E-01   0.000000E+00                      1.064461
+      endfb8.1                NDL                  2024        1.593080E-01   0.000000E+00                      1.225446
+      TARES                   NDL                  2025        1.593080E-01   0.000000E+00                      1.225446
+      tendl.2025              NDL                  2025        1.593080E-01   0.000000E+00                      1.225446
+      jeff4.0                 NDL                  2025        1.593080E-01   0.000000E+00                      1.225446

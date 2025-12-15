@@ -1,0 +1,43 @@
+# header: 
+#   title: Pa233 gamgam0 resonance data
+#   source: Resonancetables
+#   date: 2025-12-15
+# target: 
+#   Z: 91
+#   A: 233
+#   nuclide: Pa233
+# reaction: 
+#   type: gamgam0
+#   parameters: 
+#   selected value [eV]:  4.700000E-02
+#   selected value uncertainty [eV]:  5.000000E-03
+#   selected value source: RIPL-3
+#   number of values: 8
+#   average value [b]:  5.207440E-02
+#   relative standard deviation [%]:      7.531928
+#   quantity: 
+#     type: Compilation
+#     average value:  4.716666E-02
+#     relative standard deviation [%]:      0.499719
+#   datablock: 
+#     columns: 8
+#     entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      RIPL-2                  Compilation          2000        4.700000E-02   5.000000E-03            97I       1.000000
+      RIPL-3                  Compilation          2009        4.700000E-02   5.000000E-03            04I       1.000000
+      Mughabghab-2018         Compilation          2018        4.750000E-02   1.700000E-03                      1.010638
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  5.501904E-02
+#     relative standard deviation [%]:      2.194792
+#   datablock: 
+#     columns: 8
+#     entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        5.442460E-02   0.000000E+00                      1.157970
+      endfb8.1                NDL                  2024        5.385910E-02   0.000000E+00                      1.145938
+      TARES                   NDL                  2025        5.647620E-02   0.000000E+00                      1.201621
+      tendl.2025              NDL                  2025        5.647620E-02   0.000000E+00                      1.201621
+      jeff4.0                 NDL                  2025        5.385910E-02   0.000000E+00                      1.145938

@@ -1,0 +1,63 @@
+# header: 
+#   title: U235 gamgam0 resonance data
+#   source: Resonancetables
+#   date: 2025-12-15
+# target: 
+#   Z: 92
+#   A: 235
+#   nuclide: U235
+# reaction: 
+#   type: gamgam0
+#   parameters: 
+#   selected value [eV]:  3.800000E-02
+#   selected value uncertainty [eV]:  3.000000E-03
+#   selected value source: RIPL-3
+#   number of values: 19
+#   average value [b]:  4.207007E-02
+#   relative standard deviation [%]:      6.989864
+#   quantity: 
+#     type: Compilation
+#     average value:  3.703333E-02
+#     relative standard deviation [%]:      3.883970
+#   datablock: 
+#     columns: 8
+#     entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      RIPL-2                  Compilation          2000        3.500000E-02   3.000000E-03            97I       0.921053
+      RIPL-3                  Compilation          2009        3.800000E-02   3.000000E-03            05I       1.000000
+      Mughabghab-2018         Compilation          2018        3.810000E-02   1.700000E-03                      1.002632
+#   quantity: 
+#     type: EXFOR
+#     average value:  4.358000E-02
+#     relative standard deviation [%]:      5.463726
+#   datablock: 
+#     columns: 8
+#     entries: 10
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      A.Michaudon             EXFOR                1965        4.620000E-02   0.000000E+00      20727-005       1.215789
+      M.G.Cao                 EXFOR                1968        4.900000E-02   1.600000E-03      20129-007       1.289474
+      M.G.Cao                 EXFOR                1968        4.520000E-02   1.200000E-03      20129-007       1.189474
+      M.G.Cao                 EXFOR                1968        4.080000E-02   1.800000E-03      20129-007       1.073684
+      Yu.V.Ryabov             EXFOR                1970        4.300000E-02   2.000000E-03      40070-032       1.131579
+      Yu.V.Ryabov             EXFOR                1970        4.200000E-02   2.000000E-03      40070-032       1.105263
+      Yu.V.Ryabov             EXFOR                1970        4.300000E-02   2.000000E-03      40070-031       1.131579
+      J.Blons                 EXFOR                1971        4.270000E-02   0.000000E+00      20483-004       1.123684
+      J.Blons                 EXFOR                1971        4.260000E-02   0.000000E+00      20483-004       1.121053
+      J.Blons                 EXFOR                1971        4.130000E-02   0.000000E+00      20483-004       1.086842
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  4.207188E-02
+#     relative standard deviation [%]:      1.531927
+#   datablock: 
+#     columns: 8
+#     entries: 6
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        4.332100E-02   0.000000E+00                      1.140026
+      jendl5.0                NDL                  2021        4.183430E-02   0.000000E+00                      1.100903
+      endfb8.1                NDL                  2024        4.206570E-02   0.000000E+00                      1.106992
+      TARES                   NDL                  2025        4.203640E-02   0.000000E+00                      1.106221
+      tendl.2025              NDL                  2025        4.203640E-02   0.000000E+00                      1.106221
+      jeff4.0                 NDL                  2025        4.113750E-02   0.000000E+00                      1.082566

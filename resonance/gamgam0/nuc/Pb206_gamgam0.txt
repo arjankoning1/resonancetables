@@ -1,0 +1,57 @@
+# header: 
+#   title: Pb206 gamgam0 resonance data
+#   source: Resonancetables
+#   date: 2025-12-15
+# target: 
+#   Z: 82
+#   A: 206
+#   nuclide: Pb206
+# reaction: 
+#   type: gamgam0
+#   parameters: 
+#   selected value [eV]:  2.100000E+00
+#   selected value uncertainty [eV]:  2.000000E-01
+#   selected value source: RIPL-3
+#   number of values: 13
+#   average value [b]:  2.025032E+00
+#   relative standard deviation [%]:     59.024906
+#   quantity: 
+#     type: Compilation
+#     average value:  2.120000E+00
+#     relative standard deviation [%]:      0.943395
+#   datablock: 
+#     columns: 8
+#     entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      RIPL-3                  Compilation          2009        2.100000E+00   2.000000E-01            05I       1.000000
+      Mughabghab-2018         Compilation          2018        2.140000E+00   1.100000E-01                      1.019048
+#   quantity: 
+#     type: EXFOR
+#     average value:  8.380000E-01
+#     relative standard deviation [%]:     70.639557
+#   datablock: 
+#     columns: 8
+#     entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      B.J.Allen               EXFOR                1973        1.600000E+00   2.000000E-01      10155-013       0.761905
+      A.R.Musgrove            EXFOR                1980        4.800000E-01   7.000000E-02      30386-004       0.228571
+      A.R.Musgrove            EXFOR                1980        3.800000E-01   8.000000E-02      30386-004       0.180952
+      A.R.Musgrove            EXFOR                1980        1.510000E+00   6.000000E-01      30386-004       0.719048
+      A.R.Musgrove            EXFOR                1980        2.200000E-01   6.000000E-02      30386-004       0.104762
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  2.982570E+00
+#     relative standard deviation [%]:     28.236048
+#   datablock: 
+#     columns: 8
+#     entries: 6
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        4.578310E+00   0.000000E+00                      2.180147
+      jendl5.0                NDL                  2021        2.418500E+00   0.000000E+00                      1.151667
+      endfb8.1                NDL                  2024        3.643110E+00   0.000000E+00                      1.734814
+      TARES                   NDL                  2025        2.418500E+00   0.000000E+00                      1.151667
+      tendl.2025              NDL                  2025        2.418500E+00   0.000000E+00                      1.151667
+      jeff4.0                 NDL                  2025        2.418500E+00   0.000000E+00                      1.151667

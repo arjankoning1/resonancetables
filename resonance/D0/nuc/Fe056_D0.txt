@@ -1,7 +1,7 @@
 # header: 
 #   title: Fe056 D0 resonance data
 #   source: Resonancetables
-#   date: 2025-12-08
+#   date: 2025-12-15
 # target: 
 #   Z: 26
 #   A: 56
@@ -12,9 +12,9 @@
 #   selected value [eV]:  2.540000E+04
 #   selected value uncertainty [eV]:  2.200000E+03
 #   selected value source: RIPL-3
-#   number of values: 14
-#   average value [b]:  2.191254E+04
-#   relative standard deviation [%]:     37.487358
+#   number of values: 13
+#   average value [b]:  2.359812E+04
+#   relative standard deviation [%]:     24.303034
 #   quantity: 
 #     type: Compilation
 #     average value:  2.426667E+04
@@ -24,23 +24,22 @@
 #     entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio       #Resonances
 ##      []             []             []             []            [eV]           [eV]            []             []             []
-      RIPL-2                  Compilation          2000        2.540000E+04   2.200000E+03            90P       1.000000               
+      RIPL-2                  Compilation          2000        2.540000E+04   2.200000E+03            90P       1.000000       41      
       RIPL-3                  Compilation          2009        2.540000E+04   2.200000E+03            90P       1.000000               
       Mughabghab-2018         Compilation          2018        2.200000E+04   1.700000E+03                      0.866142               
 #   quantity: 
 #     type: EXFOR
-#     average value:  1.492000E+04
-#     relative standard deviation [%]:     70.047623
+#     average value:  1.865000E+04
+#     relative standard deviation [%]:     43.878647
 #   datablock: 
 #     columns: 13
-#     entries: 5
+#     entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio          E-min          E-max       Momentum L       Spin J         Parity
 ##      []             []             []             []            [eV]           [eV]            []             []            [MeV]          [MeV]           []             []             []
       G.Rohr                  EXFOR                1966        1.960000E+04   4.400000E+03      20367-006       0.771654   5.400000E-02   2.610000E-01       0.0                                   
       A.Ernst                 EXFOR                1970        5.000000E+03   0.000000E+00      20370-010       0.196850   5.800000E-03   1.000000E-01       0.0                                   
       J.B.Garg                EXFOR                1971        2.500000E+04   5.000000E+03      10172-050       0.984252  -2.000000E-03   1.870000E-01       0.0                                   
       B.J.Allen               EXFOR                1976        2.500000E+04   5.000000E+03      30355-005       0.984252   2.500000E-03   5.000000E-01       0.0                                   
-      B.J.Allen               EXFOR                1976        0.000000E+00   0.000000E+00      30355-005       0.000000   1.000000E-03   8.500000E-01       0.0                                   
 #   quantity: 
 #     type: Nuclear data library
 #     average value:  2.656260E+04

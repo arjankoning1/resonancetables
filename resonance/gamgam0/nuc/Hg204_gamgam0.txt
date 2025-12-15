@@ -1,0 +1,40 @@
+# header: 
+#   title: Hg204 gamgam0 resonance data
+#   source: Resonancetables
+#   date: 2025-12-15
+# target: 
+#   Z: 80
+#   A: 204
+#   nuclide: Hg204
+# reaction: 
+#   type: gamgam0
+#   parameters: 
+#   selected value [eV]:  1.980000E+00
+#   selected value uncertainty [eV]:  3.600000E-01
+#   selected value source: Mughabghab-2018
+#   number of values: 5
+#   average value [b]:  2.282400E+00
+#   relative standard deviation [%]:     12.203769
+#   quantity: 
+#     type: Compilation
+#     average value:  1.980000E+00
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 8
+#     entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      Mughabghab-2018         Compilation          2018        1.980000E+00   3.600000E-01                      1.000000
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  2.358000E+00
+#     relative standard deviation [%]:     11.091590
+#   datablock: 
+#     columns: 8
+#     entries: 4
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        1.905000E+00   0.000000E+00                      0.962121
+      TARES                   NDL                  2025        2.509000E+00   0.000000E+00                      1.267172
+      tendl.2025              NDL                  2025        2.509000E+00   0.000000E+00                      1.267172
+      jeff4.0                 NDL                  2025        2.509000E+00   0.000000E+00                      1.267172

@@ -1,0 +1,53 @@
+# header: 
+#   title: Ca044 gamgam0 resonance data
+#   source: Resonancetables
+#   date: 2025-12-15
+# target: 
+#   Z: 20
+#   A: 44
+#   nuclide: Ca044
+# reaction: 
+#   type: gamgam0
+#   parameters: 
+#   selected value [eV]:  1.300000E+00
+#   selected value uncertainty [eV]:  4.000000E-01
+#   selected value source: RIPL-3
+#   number of values: 9
+#   average value [b]:  1.253991E+00
+#   relative standard deviation [%]:      8.806227
+#   quantity: 
+#     type: Compilation
+#     average value:  1.300000E+00
+#     relative standard deviation [%]:      0.000005
+#   datablock: 
+#     columns: 8
+#     entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      RIPL-2                  Compilation          2000        1.300000E+00   4.000000E-01            88V       1.000000
+      RIPL-3                  Compilation          2009        1.300000E+00   4.000000E-01            96I       1.000000
+      Mughabghab-2018         Compilation          2018        1.300000E+00   4.000000E-01                      1.000000
+#   quantity: 
+#     type: EXFOR
+#     average value:  1.300000E+00
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 8
+#     entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      A.R.De L.Musgrove       EXFOR                1977        1.300000E+00   1.200000E+00      30356-010       1.000000
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  1.217184E+00
+#     relative standard deviation [%]:     11.295329
+#   datablock: 
+#     columns: 8
+#     entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        1.048800E+00   0.000000E+00                      0.806769
+      endfb8.1                NDL                  2024        1.048800E+00   0.000000E+00                      0.806769
+      TARES                   NDL                  2025        1.329440E+00   0.000000E+00                      1.022646
+      tendl.2025              NDL                  2025        1.329440E+00   0.000000E+00                      1.022646
+      jeff4.0                 NDL                  2025        1.329440E+00   0.000000E+00                      1.022646

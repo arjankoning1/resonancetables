@@ -1,0 +1,59 @@
+# header: 
+#   title: Pr141 gamgam0 resonance data
+#   source: Resonancetables
+#   date: 2025-12-15
+# target: 
+#   Z: 59
+#   A: 141
+#   nuclide: Pr141
+# reaction: 
+#   type: gamgam0
+#   parameters: 
+#   selected value [eV]:  8.800001E-02
+#   selected value uncertainty [eV]:  9.000001E-03
+#   selected value source: RIPL-3
+#   number of values: 15
+#   average value [b]:  9.101900E-02
+#   relative standard deviation [%]:     17.801874
+#   quantity: 
+#     type: Compilation
+#     average value:  8.650001E-02
+#     relative standard deviation [%]:      2.452398
+#   datablock: 
+#     columns: 8
+#     entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      RIPL-2                  Compilation          2000        8.800001E-02   9.000001E-03            96I       1.000000
+      RIPL-3                  Compilation          2009        8.800001E-02   9.000001E-03            96I       1.000000
+      Mughabghab-2018         Compilation          2018        8.350000E-02   2.500000E-03                      0.948864
+#   quantity: 
+#     type: EXFOR
+#     average value:  9.800000E-02
+#     relative standard deviation [%]:     23.807098
+#   datablock: 
+#     columns: 8
+#     entries: 6
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      J.H.Gibbons             EXFOR                1961        1.500000E-01   0.000000E+00      11329-093       1.704545
+      Wang Nai-Yen            EXFOR                1965        8.600000E-02   0.000000E+00      41210-004       0.977273
+      J.Morgenstern           EXFOR                1969        8.500000E-02   0.000000E+00      20684-024       0.965909
+      R.B.Taylor              EXFOR                1979        8.800000E-02   9.000000E-03      30490-003       1.000000
+      R.B.Taylor              EXFOR                1979        9.100000E-02   9.000000E-03      30490-003       1.034091
+      R.B.Taylor              EXFOR                1979        8.800000E-02   9.000000E-03      30490-003       1.000000
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  8.629754E-02
+#     relative standard deviation [%]:      6.189394
+#   datablock: 
+#     columns: 8
+#     entries: 6
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        8.456250E-02   0.000000E+00                      0.960937
+      jendl5.0                NDL                  2021        9.817290E-02   0.000000E+00                      1.115601
+      endfb8.1                NDL                  2024        8.480000E-02   0.000000E+00                      0.963636
+      TARES                   NDL                  2025        8.341660E-02   0.000000E+00                      0.947916
+      tendl.2025              NDL                  2025        8.341660E-02   0.000000E+00                      0.947916
+      jeff4.0                 NDL                  2025        8.341660E-02   0.000000E+00                      0.947916

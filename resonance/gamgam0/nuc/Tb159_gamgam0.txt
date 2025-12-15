@@ -1,0 +1,58 @@
+# header: 
+#   title: Tb159 gamgam0 resonance data
+#   source: Resonancetables
+#   date: 2025-12-15
+# target: 
+#   Z: 65
+#   A: 159
+#   nuclide: Tb159
+# reaction: 
+#   type: gamgam0
+#   parameters: 
+#   selected value [eV]:  9.700000E-02
+#   selected value uncertainty [eV]:  7.000000E-03
+#   selected value source: RIPL-3
+#   number of values: 14
+#   average value [b]:  1.031617E-01
+#   relative standard deviation [%]:     13.607129
+#   quantity: 
+#     type: Compilation
+#     average value:  9.700000E-02
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 8
+#     entries: 2
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      RIPL-2                  Compilation          2000        9.700000E-02   7.000000E-03            97I       1.000000
+      RIPL-3                  Compilation          2009        9.700000E-02   7.000000E-03            06M       1.000000
+#   quantity: 
+#     type: EXFOR
+#     average value:  1.074286E-01
+#     relative standard deviation [%]:     17.541098
+#   datablock: 
+#     columns: 8
+#     entries: 7
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      J.H.Gibbons             EXFOR                1961        1.500000E-01   0.000000E+00      11329-095       1.546392
+      J.Julien                EXFOR                1969        8.500000E-02   0.000000E+00      20687-037       0.876289
+      H.Derrien               EXFOR                1976        9.700000E-02   7.500000E-03      20577-002       1.000000
+      M.Ohkubo                EXFOR                1979        1.090000E-01   8.000000E-03      20817-004       1.123711
+      M.Ohkubo                EXFOR                1979        1.070000E-01   7.000000E-03      20817-004       1.103093
+      M.Ohkubo                EXFOR                1979        1.020000E-01   1.300000E-02      20817-004       1.051546
+      V.P.Vertebnyy           EXFOR                1983        1.020000E-01   5.000000E-03      40846-003       1.051546
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  9.965290E-02
+#     relative standard deviation [%]:      1.270243
+#   datablock: 
+#     columns: 8
+#     entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        9.804430E-02   0.000000E+00                      1.010766
+      endfb8.1                NDL                  2024        9.816220E-02   0.000000E+00                      1.011981
+      TARES                   NDL                  2025        1.006860E-01   0.000000E+00                      1.038000
+      tendl.2025              NDL                  2025        1.006860E-01   0.000000E+00                      1.038000
+      jeff4.0                 NDL                  2025        1.006860E-01   0.000000E+00                      1.038000

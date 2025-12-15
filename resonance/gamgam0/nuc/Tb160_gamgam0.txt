@@ -1,0 +1,51 @@
+# header: 
+#   title: Tb160 gamgam0 resonance data
+#   source: Resonancetables
+#   date: 2025-12-15
+# target: 
+#   Z: 65
+#   A: 160
+#   nuclide: Tb160
+# reaction: 
+#   type: gamgam0
+#   parameters: 
+#   selected value [eV]:  1.070000E-01
+#   selected value uncertainty [eV]:  1.100000E-02
+#   selected value source: Mughabghab-2018
+#   number of values: 7
+#   average value [b]:  8.986257E-02
+#   relative standard deviation [%]:     18.101042
+#   quantity: 
+#     type: Compilation
+#     average value:  1.070000E-01
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 8
+#     entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      Mughabghab-2018         Compilation          2018        1.070000E-01   1.100000E-02                      1.000000
+#   quantity: 
+#     type: EXFOR
+#     average value:  1.020000E-01
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 8
+#     entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      V.P.Vertebnyy           EXFOR                1983        1.020000E-01   1.700000E-02      40846-005       0.953271
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  8.400761E-02
+#     relative standard deviation [%]:     18.743530
+#   datablock: 
+#     columns: 8
+#     entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        1.016000E-01   0.000000E+00                      0.949533
+      endfb8.1                NDL                  2024        1.049000E-01   0.000000E+00                      0.980374
+      TARES                   NDL                  2025        7.115700E-02   0.000000E+00                      0.665019
+      tendl.2025              NDL                  2025        7.115700E-02   0.000000E+00                      0.665019
+      jeff4.0                 NDL                  2025        7.122400E-02   0.000000E+00                      0.665645

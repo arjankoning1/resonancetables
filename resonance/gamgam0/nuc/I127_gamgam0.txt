@@ -1,0 +1,58 @@
+# header: 
+#   title: I127 gamgam0 resonance data
+#   source: Resonancetables
+#   date: 2025-12-15
+# target: 
+#   Z: 53
+#   A: 127
+#   nuclide: I127
+# reaction: 
+#   type: gamgam0
+#   parameters: 
+#   selected value [eV]:  1.100000E-01
+#   selected value uncertainty [eV]:  1.000000E-02
+#   selected value source: RIPL-3
+#   number of values: 14
+#   average value [b]:  1.517143E+07
+#   relative standard deviation [%]:    245.435455
+#   quantity: 
+#     type: Compilation
+#     average value:  1.033333E-01
+#     relative standard deviation [%]:      9.123959
+#   datablock: 
+#     columns: 8
+#     entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      RIPL-2                  Compilation          2000        9.000000E-02   1.000000E-02            96I       0.818182
+      RIPL-3                  Compilation          2009        1.100000E-01   1.000000E-02            00I       1.000000
+      Mughabghab-2018         Compilation          2018        1.100000E-01   1.000000E-02                      1.000000
+#   quantity: 
+#     type: EXFOR
+#     average value:  4.248000E+07
+#     relative standard deviation [%]:    122.821861
+#   datablock: 
+#     columns: 8
+#     entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      J.H.Gibbons             EXFOR                1961        1.070000E-01   0.000000E+00      11329-091       0.972727
+      Zo In Ok                EXFOR                1982        1.200000E-01   9.000000E-03      41287-006       1.090909
+      G.Noguere               EXFOR                2002        1.000000E-01   2.260000E-02      22686-006       0.909091
+      G.Noguere               EXFOR                2006        1.124000E+08   0.000000E+00      22948-011***************
+      G.Noguere               EXFOR                2006        1.000000E+08   2.260000E+07      22948-005***************
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  1.070465E-01
+#     relative standard deviation [%]:      9.247554
+#   datablock: 
+#     columns: 8
+#     entries: 6
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        8.715590E-02   0.000000E+00                      0.792326
+      jendl5.0                NDL                  2021        1.048370E-01   0.000000E+00                      0.953064
+      endfb8.1                NDL                  2024        1.195720E-01   0.000000E+00                      1.087018
+      TARES                   NDL                  2025        1.102380E-01   0.000000E+00                      1.002164
+      tendl.2025              NDL                  2025        1.102380E-01   0.000000E+00                      1.002164
+      jeff4.0                 NDL                  2025        1.102380E-01   0.000000E+00                      1.002164

@@ -1,0 +1,60 @@
+# header: 
+#   title: Np237 gamgam0 resonance data
+#   source: Resonancetables
+#   date: 2025-12-15
+# target: 
+#   Z: 93
+#   A: 237
+#   nuclide: Np237
+# reaction: 
+#   type: gamgam0
+#   parameters: 
+#   selected value [eV]:  4.080000E-02
+#   selected value uncertainty [eV]:  1.200000E-03
+#   selected value source: RIPL-3
+#   number of values: 16
+#   average value [b]:  4.039102E-02
+#   relative standard deviation [%]:      1.788843
+#   quantity: 
+#     type: Compilation
+#     average value:  4.076667E-02
+#     relative standard deviation [%]:      0.115637
+#   datablock: 
+#     columns: 8
+#     entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      RIPL-2                  Compilation          2000        4.080000E-02   1.200000E-03            97I       1.000000
+      RIPL-3                  Compilation          2009        4.080000E-02   1.200000E-03            97I       1.000000
+      Mughabghab-2018         Compilation          2018        4.070000E-02   5.000000E-04                      0.997549
+#   quantity: 
+#     type: EXFOR
+#     average value:  4.011429E-02
+#     relative standard deviation [%]:      2.158600
+#   datablock: 
+#     columns: 8
+#     entries: 7
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      V.Gressier              EXFOR                2000        4.000000E-02   2.000000E-03      23070-010       0.980392
+      V.Gressier              EXFOR                2000        3.850000E-02   2.200000E-03      23070-003       0.943627
+      V.Gressier              EXFOR                2000        3.990000E-02   6.000000E-04      23070-002       0.977941
+      F.Corvi                 EXFOR                2002        3.990000E-02   1.000000E-03      22697-003       0.977941
+      C.Guerrero              EXFOR                2012        4.010000E-02   8.000000E-04      23069-007       0.982843
+      C.Guerrero              EXFOR                2012        4.150000E-02   8.000000E-04      23069-007       1.017157
+      C.Guerrero              EXFOR                2012        4.090000E-02   1.800000E-03      23069-003       1.002451
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  4.052603E-02
+#     relative standard deviation [%]:      1.434869
+#   datablock: 
+#     columns: 8
+#     entries: 6
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        4.058890E-02   0.000000E+00                      0.994826
+      jendl5.0                NDL                  2021        4.060780E-02   0.000000E+00                      0.995289
+      endfb8.1                NDL                  2024        4.058890E-02   0.000000E+00                      0.994826
+      TARES                   NDL                  2025        4.103420E-02   0.000000E+00                      1.005740
+      tendl.2025              NDL                  2025        4.103420E-02   0.000000E+00                      1.005740
+      jeff4.0                 NDL                  2025        3.930220E-02   0.000000E+00                      0.963289

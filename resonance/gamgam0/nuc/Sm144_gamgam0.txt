@@ -1,0 +1,44 @@
+# header: 
+#   title: Sm144 gamgam0 resonance data
+#   source: Resonancetables
+#   date: 2025-12-15
+# target: 
+#   Z: 62
+#   A: 144
+#   nuclide: Sm144
+# reaction: 
+#   type: gamgam0
+#   parameters: 
+#   selected value [eV]:  7.400000E-02
+#   selected value uncertainty [eV]:  5.000000E-03
+#   selected value source: RIPL-3
+#   number of values: 9
+#   average value [b]:  7.564481E-02
+#   relative standard deviation [%]:      1.444957
+#   quantity: 
+#     type: Compilation
+#     average value:  7.533333E-02
+#     relative standard deviation [%]:      1.655599
+#   datablock: 
+#     columns: 8
+#     entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      RIPL-2                  Compilation          2000        7.500000E-02   5.000000E-03            93M       1.013514
+      RIPL-3                  Compilation          2009        7.400000E-02   5.000000E-03            06M       1.000000
+      Mughabghab-2018         Compilation          2018        7.700000E-02   5.000000E-03                      1.040541
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  7.580055E-02
+#     relative standard deviation [%]:      1.280115
+#   datablock: 
+#     columns: 8
+#     entries: 6
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        7.668460E-02   0.000000E+00                      1.036278
+      jendl5.0                NDL                  2021        7.668460E-02   0.000000E+00                      1.036278
+      endfb8.1                NDL                  2024        7.378420E-02   0.000000E+00                      0.997084
+      TARES                   NDL                  2025        7.588330E-02   0.000000E+00                      1.025450
+      tendl.2025              NDL                  2025        7.588330E-02   0.000000E+00                      1.025450
+      jeff4.0                 NDL                  2025        7.588330E-02   0.000000E+00                      1.025450

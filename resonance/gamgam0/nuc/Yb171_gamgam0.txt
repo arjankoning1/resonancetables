@@ -1,0 +1,53 @@
+# header: 
+#   title: Yb171 gamgam0 resonance data
+#   source: Resonancetables
+#   date: 2025-12-15
+# target: 
+#   Z: 70
+#   A: 171
+#   nuclide: Yb171
+# reaction: 
+#   type: gamgam0
+#   parameters: 
+#   selected value [eV]:  7.500000E-02
+#   selected value uncertainty [eV]:  5.000000E-03
+#   selected value source: RIPL-3
+#   number of values: 9
+#   average value [b]:  7.704791E-02
+#   relative standard deviation [%]:      3.343826
+#   quantity: 
+#     type: Compilation
+#     average value:  7.586667E-02
+#     relative standard deviation [%]:      1.615533
+#   datablock: 
+#     columns: 8
+#     entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      RIPL-2                  Compilation          2000        7.500000E-02   5.000000E-03            84M       1.000000
+      RIPL-3                  Compilation          2009        7.500000E-02   5.000000E-03            0I7       1.000000
+      Mughabghab-2018         Compilation          2018        7.760000E-02   3.000000E-03                      1.034667
+#   quantity: 
+#     type: EXFOR
+#     average value:  8.400000E-02
+#     relative standard deviation [%]:      0.000000
+#   datablock: 
+#     columns: 8
+#     entries: 1
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      Wang Nai-Yang           EXFOR                1966        8.400000E-02   1.100000E-02      40030-005       1.120000
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  7.636626E-02
+#     relative standard deviation [%]:      0.366048
+#   datablock: 
+#     columns: 8
+#     entries: 5
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      jendl5.0                NDL                  2021        7.602390E-02   0.000000E+00                      1.013652
+      endfb8.1                NDL                  2024        7.602390E-02   0.000000E+00                      1.013652
+      TARES                   NDL                  2025        7.659450E-02   0.000000E+00                      1.021260
+      tendl.2025              NDL                  2025        7.659450E-02   0.000000E+00                      1.021260
+      jeff4.0                 NDL                  2025        7.659450E-02   0.000000E+00                      1.021260

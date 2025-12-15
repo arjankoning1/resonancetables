@@ -1,0 +1,59 @@
+# header: 
+#   title: Ta181 gamgam0 resonance data
+#   source: Resonancetables
+#   date: 2025-12-15
+# target: 
+#   Z: 73
+#   A: 181
+#   nuclide: Ta181
+# reaction: 
+#   type: gamgam0
+#   parameters: 
+#   selected value [eV]:  5.700000E-02
+#   selected value uncertainty [eV]:  3.000000E-03
+#   selected value source: RIPL-3
+#   number of values: 15
+#   average value [b]:  6.287729E-02
+#   relative standard deviation [%]:      6.340297
+#   quantity: 
+#     type: Compilation
+#     average value:  5.873333E-02
+#     relative standard deviation [%]:      4.173611
+#   datablock: 
+#     columns: 8
+#     entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      RIPL-2                  Compilation          2000        5.700000E-02   3.000000E-03            97I       1.000000
+      RIPL-3                  Compilation          2009        5.700000E-02   3.000000E-03            97I       1.000000
+      Mughabghab-2018         Compilation          2018        6.220000E-02   9.000000E-04                      1.091228
+#   quantity: 
+#     type: EXFOR
+#     average value:  6.066667E-02
+#     relative standard deviation [%]:      3.374987
+#   datablock: 
+#     columns: 8
+#     entries: 6
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      T.Y.Byoun               EXFOR                1973        6.000000E-02   0.000000E+00      10577-040       1.052631
+      V.P.Vertebnyy           EXFOR                1983        5.700000E-02   4.000000E-03      40881-002       1.000000
+      B.J.Mcdermott           EXFOR                2017        6.050000E-02   0.000000E+00      14473-004       1.061403
+      B.J.Mcdermott           EXFOR                2017        6.050000E-02   0.000000E+00      14473-004       1.061403
+      B.J.Mcdermott           EXFOR                2017        6.340000E-02   5.300000E-03      14473-004       1.112281
+      B.J.Mcdermott           EXFOR                2017        6.260000E-02   5.100000E-03      14473-004       1.098246
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  6.715990E-02
+#     relative standard deviation [%]:      1.265324
+#   datablock: 
+#     columns: 8
+#     entries: 6
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        6.773830E-02   0.000000E+00                      1.188391
+      jendl5.0                NDL                  2021        6.756690E-02   0.000000E+00                      1.185384
+      endfb8.1                NDL                  2024        6.786090E-02   0.000000E+00                      1.190542
+      TARES                   NDL                  2025        6.596620E-02   0.000000E+00                      1.157302
+      tendl.2025              NDL                  2025        6.596620E-02   0.000000E+00                      1.157302
+      jeff4.0                 NDL                  2025        6.786090E-02   0.000000E+00                      1.190542

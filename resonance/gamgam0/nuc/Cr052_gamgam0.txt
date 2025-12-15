@@ -1,0 +1,56 @@
+# header: 
+#   title: Cr052 gamgam0 resonance data
+#   source: Resonancetables
+#   date: 2025-12-15
+# target: 
+#   Z: 24
+#   A: 52
+#   nuclide: Cr052
+# reaction: 
+#   type: gamgam0
+#   parameters: 
+#   selected value [eV]:  2.000000E+00
+#   selected value uncertainty [eV]:  5.000000E-01
+#   selected value source: RIPL-3
+#   number of values: 12
+#   average value [b]:  1.642730E+00
+#   relative standard deviation [%]:     33.521412
+#   quantity: 
+#     type: Compilation
+#     average value:  1.950000E+00
+#     relative standard deviation [%]:      3.626185
+#   datablock: 
+#     columns: 8
+#     entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      RIPL-2                  Compilation          2000        1.850000E+00   5.500000E-01            89R       0.925000
+      RIPL-3                  Compilation          2009        2.000000E+00   5.000000E-01            07I       1.000000
+      Mughabghab-2018         Compilation          2018        2.000000E+00   0.000000E+00                      1.000000
+#   quantity: 
+#     type: EXFOR
+#     average value:  2.016667E+00
+#     relative standard deviation [%]:     42.699051
+#   datablock: 
+#     columns: 8
+#     entries: 3
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      B.J.Allen               EXFOR                1975        1.500000E+00   0.000000E+00      30288-019       0.750000
+      M.J.Kenny               EXFOR                1977        3.230000E+00   0.000000E+00      30393-011       1.615000
+      A.Brusegan              EXFOR                1985        1.320000E+00   1.920000E+00      22041-012       0.660000
+#   quantity: 
+#     type: Nuclear data library
+#     average value:  1.302127E+00
+#     relative standard deviation [%]:      0.728942
+#   datablock: 
+#     columns: 8
+#     entries: 6
+##    Author                         Type           Year           Value         dValue        Reference        Ratio
+##      []             []             []             []            [eV]           [eV]            []             []
+      cendl3.2                NDL                  2019        1.323330E+00   0.000000E+00                      0.661665
+      jendl5.0                NDL                  2021        1.297510E+00   0.000000E+00                      0.648755
+      endfb8.1                NDL                  2024        1.297510E+00   0.000000E+00                      0.648755
+      TARES                   NDL                  2025        1.298450E+00   0.000000E+00                      0.649225
+      tendl.2025              NDL                  2025        1.298450E+00   0.000000E+00                      0.649225
+      jeff4.0                 NDL                  2025        1.297510E+00   0.000000E+00                      0.648755

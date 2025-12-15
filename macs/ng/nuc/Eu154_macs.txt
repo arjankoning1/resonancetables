@@ -1,7 +1,7 @@
 # header: 
 #   title: Eu154(n,g) MACS
 #   source: Resonancetables
-#   date: 2025-12-08
+#   date: 2025-12-15
 # target: 
 #   Z: 63
 #   A: 154
@@ -9,24 +9,23 @@
 # reaction: 
 #   type: (n,g)
 # observables: 
-#   selected value [b]:  4.420000E+00
-#   selected value uncertainty [b]:  6.700000E-01
-#   selected value source: Bao
-#   number of values: 8
-#   average value [b]:  3.838700E+00
-#   relative standard deviation [%]:     16.378824
+#   selected value [b]:  0.000000E+00
+#   selected value uncertainty [b]:  0.000000E+00
+#   selected value source: 
+#   number of values: 7
+#   average value [b]:  3.755657E+00
+#   relative standard deviation [%]:     16.768560
 #   quantity: 
 #     type: Compilation spectrum-averaged
-#     average value:  3.787667E+00
-#     relative standard deviation [%]:     11.820795
+#     average value:  3.471500E+00
+#     relative standard deviation [%]:      0.820970
 #   datablock: 
 #     columns: 11
-#     entries: 3
+#     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
-      Bao                     Compilation          2000        4.420000E+00   6.700000E-01                      1.000000   MXW            3.000000E-02
-      Sukhoruchkin            Compilation          2015        3.500000E+00   8.000000E-01                      0.791855   MXW            3.000000E-02
-      Mughabghab-2018         Compilation          2018        3.443000E+00   7.500000E-01                      0.778959   MXW            3.000000E-02
+      Sukhoruchkin            Compilation          2015        3.500000E+00   8.000000E-01                      1.000000   MXW            3.000000E-02
+      Mughabghab-2018         Compilation          2018        3.443000E+00   7.500000E-01                      1.000000   MXW            3.000000E-02
 #   quantity: 
 #     type: Nuclear data library
 #     average value:  3.869320E+00
@@ -36,8 +35,8 @@
 #     entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
-      cendl3.2                NDL                  2019        3.483600E+00   0.000000E+00                      0.788145   MXW            3.000000E-02   1.001170E+00
-      jendl5.0                NDL                  2021        3.486900E+00   0.000000E+00                      0.788891   MXW            3.000000E-02   1.016970E+00
-      endfb8.1                NDL                  2024        3.483600E+00   0.000000E+00                      0.788145   MXW            3.000000E-02   1.001170E+00
-      tendl.2025              NDL                  2025        5.294500E+00   0.000000E+00                      1.197851   MXW            3.000000E-02   1.064250E+00
-      jeff4.0                 NDL                  2025        3.598000E+00   0.000000E+00                      0.814027   MXW            3.000000E-02   1.034050E+00
+      cendl3.2                NDL                  2019        3.483600E+00   0.000000E+00                      1.000000   MXW            3.000000E-02   1.001170E+00
+      jendl5.0                NDL                  2021        3.486900E+00   0.000000E+00                      1.000000   MXW            3.000000E-02   1.016970E+00
+      endfb8.1                NDL                  2024        3.483600E+00   0.000000E+00                      1.000000   MXW            3.000000E-02   1.001170E+00
+      tendl.2025              NDL                  2025        5.294500E+00   0.000000E+00                      1.000000   MXW            3.000000E-02   1.064250E+00
+      jeff4.0                 NDL                  2025        3.598000E+00   0.000000E+00                      1.000000   MXW            3.000000E-02   1.034050E+00

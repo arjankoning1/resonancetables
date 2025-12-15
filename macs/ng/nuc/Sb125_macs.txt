@@ -1,7 +1,7 @@
 # header: 
 #   title: Sb125(n,g) MACS
 #   source: Resonancetables
-#   date: 2025-12-08
+#   date: 2025-12-15
 # target: 
 #   Z: 51
 #   A: 125
@@ -9,22 +9,12 @@
 # reaction: 
 #   type: (n,g)
 # observables: 
-#   selected value [b]:  2.600000E-01
-#   selected value uncertainty [b]:  7.000000E-02
-#   selected value source: Bao
-#   number of values: 6
-#   average value [b]:  2.895740E-01
-#   relative standard deviation [%]:     55.272015
-#   quantity: 
-#     type: Compilation spectrum-averaged
-#     average value:  2.600000E-01
-#     relative standard deviation [%]:      0.000000
-#   datablock: 
-#     columns: 11
-#     entries: 1
-##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
-##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
-      Bao                     Compilation          2000        2.600000E-01   7.000000E-02                      1.000000   MXW            3.000000E-02
+#   selected value [b]:  0.000000E+00
+#   selected value uncertainty [b]:  0.000000E+00
+#   selected value source: 
+#   number of values: 5
+#   average value [b]:  2.954888E-01
+#   relative standard deviation [%]:     59.132557
 #   quantity: 
 #     type: Nuclear data library
 #     average value:  2.954888E-01
@@ -34,8 +24,8 @@
 #     entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
-      cendl3.2                NDL                  2019        4.606000E-01   0.000000E+00                      1.771538   MXW            3.000000E-02   9.211810E-01
-      jendl5.0                NDL                  2021        2.442700E-01   0.000000E+00                      0.939500   MXW            3.000000E-02   1.004400E+00
-      endfb8.1                NDL                  2024        5.278300E-01   0.000000E+00                      2.030115   MXW            3.000000E-02   9.499190E-01
-      tendl.2025              NDL                  2025        5.586400E-02   0.000000E+00                      0.214862   MXW            3.000000E-02   1.111000E+00
-      jeff4.0                 NDL                  2025        1.888800E-01   0.000000E+00                      0.726461   MXW            3.000000E-02   1.048780E+00
+      cendl3.2                NDL                  2019        4.606000E-01   0.000000E+00                      1.000000   MXW            3.000000E-02   9.211810E-01
+      jendl5.0                NDL                  2021        2.442700E-01   0.000000E+00                      1.000000   MXW            3.000000E-02   1.004400E+00
+      endfb8.1                NDL                  2024        5.278300E-01   0.000000E+00                      1.000000   MXW            3.000000E-02   9.499190E-01
+      tendl.2025              NDL                  2025        5.586400E-02   0.000000E+00                      1.000000   MXW            3.000000E-02   1.111000E+00
+      jeff4.0                 NDL                  2025        1.888800E-01   0.000000E+00                      1.000000   MXW            3.000000E-02   1.048780E+00

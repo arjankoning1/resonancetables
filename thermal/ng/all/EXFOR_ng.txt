@@ -1,14 +1,14 @@
 # header: 
 #   title: (n,g) thermal cross section for EXFOR
 #   source: Resonancetables
-#   date: 2025-12-08
+#   date: 2025-12-15
 # reaction: 
 #   type: (n,g)
 # quantity: 
 #   type: thermal cross section
 # datablock: 
 #   columns: 10
-#   entries: 3527
+#   entries: 3522
 ##       Z              A            Liso           Value         dValue          Ratio        Reference       Author                        Nuclide
 ##      []             []             []             [b]            [b]            []             [%]            [%]            [%]            [%]
          1              1              0        3.800000E+01   3.000000E+00       114.2514   13845-002-0       G.A.Fink                      H001
@@ -162,7 +162,6 @@
          8             18              0        1.420000E-04   1.100000E-05         0.9467   23296-018-2       R.B.Firestone                 O018
          8             18              0        1.520000E-04   1.400000E-05         1.0133   23296-018-2       R.B.Firestone                 O018
          8             18              0        1.410000E-04   1.100000E-05         0.9400   23296-018-2       R.B.Firestone                 O018
-         8             18              0                 NaN   0.000000E+00            NaN   23296-018-2       R.B.Firestone                 O018
          8             18              0        1.380000E-04   7.000000E-06         0.9200   23296-018-1       R.B.Firestone                 O018
          8             18              0        1.330000E-04   1.200000E-05         0.8867   23296-018-1       R.B.Firestone                 O018
          8             18              0        1.400000E-04   8.000000E-06         0.9333   23296-018-1       R.B.Firestone                 O018
@@ -1264,12 +1263,8 @@
         50            117              0        1.390000E+00   2.400000E-01         1.2991   40865-013-0       V.P.Alfimenkov                Sn117
         50            117              0        1.150000E+00   3.000000E-01         1.0748   40865-013-0       V.P.Alfimenkov                Sn117
         50            117              0        1.320000E+00   1.800000E-01         1.2336   40865-012-0       V.P.Alfimenkov                Sn117
-        50            117              0                 NaN   0.000000E+00            NaN   22451-040-1       K.Knopf                       Sn117
         50            117              0        2.600000E+00   1.000000E+00         2.4299   41669-005-0       L.V.Groshev                   Sn117
-        50            118              0                 NaN   0.000000E+00            NaN   22451-041-1       K.Knopf                       Sn118
-        50            119              0                 NaN   0.000000E+00            NaN   22451-042-1       K.Knopf                       Sn119
         50            119              0        2.300000E+00   1.000000E+00         1.0502   41669-006-0       L.V.Groshev                   Sn119
-        50            120              0                 NaN   0.000000E+00            NaN   22451-043-1       K.Knopf                       Sn120
         51              0              0        4.800000E+00   3.000000E-01         0.9562   12616-018-0       J.Coltman                     Sb000
         51              0              0        8.150000E+00   4.075000E-01         1.6235   11528-030-0       S.P.Harris                    Sb000
         51              0              0        5.300000E+00   2.650000E-01         1.0558   11047-061-0       H.Pomerance                   Sb000

@@ -1,7 +1,7 @@
 # header: 
 #   title: Cd116(n,g)-m thermal cross section
 #   source: Resonancetables
-#   date: 2025-12-18
+#   date: 2026-03-28
 # target: 
 #   Z: 48
 #   A: 116
@@ -9,22 +9,23 @@
 # reaction: 
 #   type: (n,g)-m
 # observables: 
-#   selected value [b]:  2.600000E-02
+#   selected value [b]:  2.500000E-02
 #   selected value uncertainty [b]:  1.000000E-02
-#   selected value source: RIPL-3
-#   number of values: 6
-#   average value [b]:  2.500881E-01
-#   relative standard deviation [%]:    205.642502
+#   selected value source: Mughabghab-2018
+#   number of values: 7
+#   average value [b]:  2.179327E-01
+#   relative standard deviation [%]:    221.448395
 #   quantity: 
 #     type: Compilation
-#     average value:  2.600000E-02
-#     relative standard deviation [%]:      0.000000
+#     average value:  2.550000E-02
+#     relative standard deviation [%]:      1.960785
 #   datablock: 
 #     columns: 10
-#     entries: 1
+#     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      RIPL-3                  Compilation          2004        2.600000E-02   1.000000E-02                      1.000000                  2.530000E-08
+      RIPL-3                  Compilation          2004        2.600000E-02   1.000000E-02                      1.040000                  2.530000E-08
+      Mughabghab-2018         Compilation          2018        2.500000E-02   1.000000E-02                      1.000000                  2.530000E-08
 #   quantity: 
 #     type: EXFOR spectrum-averaged
 #     average value:  7.135000E-01
@@ -34,8 +35,8 @@
 #     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      L.Seren                 EXFOR                1947        1.400000E+00   2.800000E-01   11447-071-0       53.846153   SPA            2.530000E-08
-      D.Decat                 EXFOR                1966        2.700000E-02   5.000000E-03   20252-002-0        1.038462   SPA            2.530000E-08
+      L.Seren                 EXFOR                1947        1.400000E+00   2.800000E-01   11447-071-0       56.000000   SPA            2.530000E-08
+      D.Decat                 EXFOR                1966        2.700000E-02   5.000000E-03   20252-002-0        1.080000   SPA            2.530000E-08
 #   quantity: 
 #     type: Nuclear data library
 #     average value:  1.584293E-02
@@ -45,6 +46,6 @@
 #     entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
-      jendl5.0                NDL                  2021        9.733400E-03   0.000000E+00                      0.374362                  2.530000E-08   0.000000E+00
-      tendl.2025              NDL                  2025        1.889770E-02   0.000000E+00                      0.726835                  2.530000E-08   0.000000E+00
-      jeff4.0                 NDL                  2025        1.889770E-02   0.000000E+00                      0.726835                  2.530000E-08   0.000000E+00
+      jendl5.0                NDL                  2021        9.733400E-03   0.000000E+00                      0.389336                  2.530000E-08   0.000000E+00
+      tendl.2025              NDL                  2025        1.889770E-02   0.000000E+00                      0.755908                  2.530000E-08   0.000000E+00
+      jeff4.0                 NDL                  2025        1.889770E-02   0.000000E+00                      0.755908                  2.530000E-08   0.000000E+00

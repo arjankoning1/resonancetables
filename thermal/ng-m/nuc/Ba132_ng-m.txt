@@ -1,7 +1,7 @@
 # header: 
 #   title: Ba132(n,g)-m thermal cross section
 #   source: Resonancetables
-#   date: 2025-12-18
+#   date: 2026-03-28
 # target: 
 #   Z: 56
 #   A: 132
@@ -9,22 +9,23 @@
 # reaction: 
 #   type: (n,g)-m
 # observables: 
-#   selected value [b]:  8.400000E-01
-#   selected value uncertainty [b]:  0.000000E+00
-#   selected value source: RIPL-3
-#   number of values: 9
-#   average value [b]:  1.037307E+00
-#   relative standard deviation [%]:    106.090332
+#   selected value [b]:  7.200000E-01
+#   selected value uncertainty [b]:  3.000000E-02
+#   selected value source: Mughabghab-2018
+#   number of values: 10
+#   average value [b]:  1.005576E+00
+#   relative standard deviation [%]:    104.252670
 #   quantity: 
 #     type: Compilation
-#     average value:  8.400000E-01
-#     relative standard deviation [%]:      0.000000
+#     average value:  7.800000E-01
+#     relative standard deviation [%]:      7.692304
 #   datablock: 
 #     columns: 10
-#     entries: 1
+#     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      RIPL-3                  Compilation          2004        8.400000E-01   0.000000E+00                      1.000000                  2.530000E-08
+      RIPL-3                  Compilation          2004        8.400000E-01   0.000000E+00                      1.166667                  2.530000E-08
+      Mughabghab-2018         Compilation          2018        7.200000E-01   3.000000E-02                      1.000000                  2.530000E-08
 #   quantity: 
 #     type: EXFOR
 #     average value:  7.950000E-01
@@ -34,8 +35,8 @@
 #     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      F.De Corte              EXFOR                1988        8.400000E-01   0.000000E+00   23488-058-0        1.000000                  2.530000E-08
-      F.Farina Arbocco        EXFOR                2013        7.500000E-01   0.000000E+00   23266-115-0        0.892857                  2.530000E-08
+      F.De Corte              EXFOR                1988        8.400000E-01   0.000000E+00   23488-058-0        1.166667                  2.530000E-08
+      F.Farina Arbocco        EXFOR                2013        7.500000E-01   0.000000E+00   23266-115-0        1.041667                  2.530000E-08
 #   quantity: 
 #     type: EXFOR spectrum-averaged
 #     average value:  1.395500E+00
@@ -45,10 +46,10 @@
 #     entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      H.S.Hans                EXFOR                1960        4.100000E+00   1.500000E+00   31246-008-0        4.880952   MXW            2.530000E-08
-      S.K.Mangal              EXFOR                1963        1.500000E-01   0.000000E+00   31249-004-0        0.178571   SPA            2.530000E-08
-      A.Y.Dauenhauer          EXFOR                2012        5.820000E-01   2.900000E-02   14340-004-0        0.692857   MXW            2.530000E-08
-      F.Farina Arbocco        EXFOR                2013        7.500000E-01   1.000000E-02   23266-114-0        0.892857   AV             2.530000E-08
+      H.S.Hans                EXFOR                1960        4.100000E+00   1.500000E+00   31246-008-0        5.694444   MXW            2.530000E-08
+      S.K.Mangal              EXFOR                1963        1.500000E-01   0.000000E+00   31249-004-0        0.208333   SPA            2.530000E-08
+      A.Y.Dauenhauer          EXFOR                2012        5.820000E-01   2.900000E-02   14340-004-0        0.808333   MXW            2.530000E-08
+      F.Farina Arbocco        EXFOR                2013        7.500000E-01   1.000000E-02   23266-114-0        1.041667   AV             2.530000E-08
 #   quantity: 
 #     type: Nuclear data library
 #     average value:  6.618800E-01
@@ -58,5 +59,5 @@
 #     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
-      tendl.2025              NDL                  2025        6.615500E-01   0.000000E+00                      0.787560                  2.530000E-08   0.000000E+00
-      jeff4.0                 NDL                  2025        6.622100E-01   0.000000E+00                      0.788345                  2.530000E-08   0.000000E+00
+      tendl.2025              NDL                  2025        6.615500E-01   0.000000E+00                      0.918819                  2.530000E-08   0.000000E+00
+      jeff4.0                 NDL                  2025        6.622100E-01   0.000000E+00                      0.919736                  2.530000E-08   0.000000E+00

@@ -1,7 +1,7 @@
 # header: 
 #   title: Sn122(n,g)-m thermal cross section
 #   source: Resonancetables
-#   date: 2025-12-18
+#   date: 2026-03-28
 # target: 
 #   Z: 50
 #   A: 122
@@ -9,22 +9,23 @@
 # reaction: 
 #   type: (n,g)-m
 # observables: 
-#   selected value [b]:  1.500000E-01
-#   selected value uncertainty [b]:  2.000000E-02
-#   selected value source: RIPL-3
-#   number of values: 12
-#   average value [b]:  1.256123E-01
-#   relative standard deviation [%]:     40.086971
+#   selected value [b]:  1.420000E-01
+#   selected value uncertainty [b]:  4.000000E-03
+#   selected value source: Mughabghab-2018
+#   number of values: 13
+#   average value [b]:  1.268729E-01
+#   relative standard deviation [%]:     38.286671
 #   quantity: 
 #     type: Compilation
-#     average value:  1.500000E-01
-#     relative standard deviation [%]:      0.000000
+#     average value:  1.460000E-01
+#     relative standard deviation [%]:      2.739727
 #   datablock: 
 #     columns: 10
-#     entries: 1
+#     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      RIPL-3                  Compilation          2004        1.500000E-01   2.000000E-02                      1.000000                  2.530000E-08
+      RIPL-3                  Compilation          2004        1.500000E-01   2.000000E-02                      1.056338                  2.530000E-08
+      Mughabghab-2018         Compilation          2018        1.420000E-01   4.000000E-03                      1.000000                  2.530000E-08
 #   quantity: 
 #     type: EXFOR
 #     average value:  1.420000E-01
@@ -34,8 +35,8 @@
 #     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      F.De Corte              EXFOR                1988        1.460000E-01   3.650000E-03   23488-051-0        0.973333                  2.530000E-08
-      K.S.Krane               EXFOR                2006        1.380000E-01   1.000000E-02   14107-007-0        0.920000                  2.530000E-08
+      F.De Corte              EXFOR                1988        1.460000E-01   3.650000E-03   23488-051-0        1.028169                  2.530000E-08
+      K.S.Krane               EXFOR                2006        1.380000E-01   1.000000E-02   14107-007-0        0.971831                  2.530000E-08
 #   quantity: 
 #     type: EXFOR spectrum-averaged
 #     average value:  1.327429E-01
@@ -45,13 +46,13 @@
 #     entries: 7
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      L.Seren                 EXFOR                1947        1.420000E-02   2.840000E-03   11447-078-0        0.094667   SPA            2.530000E-08
-      C.Nelson                EXFOR                1950        1.000000E-01   2.000000E-02   11961-008-0        0.666667   SPA            2.530000E-08
-      S.K.Mangal              EXFOR                1963        2.060000E-01   3.090000E-02   31249-003-0        1.373333   SPA            2.530000E-08
-      R.S.Tilbury             EXFOR                1968        1.500000E-01   2.000000E-02   11927-005-0        1.000000   SPA            2.530000E-08
-      M.Ricabarra             EXFOR                1973        1.800000E-01   2.000000E-02   31477-004-0        1.200000   MXW            2.530000E-08
-      W.Maenhaut              EXFOR                1973        1.450000E-01   0.000000E+00   20731-007-0        0.966667   MXW            2.530000E-08
-      R.E.Heft                EXFOR                1978        1.340000E-01   1.500000E-02   12866-104-0        0.893333   SPA            2.500000E-08
+      L.Seren                 EXFOR                1947        1.420000E-02   2.840000E-03   11447-078-0        0.100000   SPA            2.530000E-08
+      C.Nelson                EXFOR                1950        1.000000E-01   2.000000E-02   11961-008-0        0.704225   SPA            2.530000E-08
+      S.K.Mangal              EXFOR                1963        2.060000E-01   3.090000E-02   31249-003-0        1.450704   SPA            2.530000E-08
+      R.S.Tilbury             EXFOR                1968        1.500000E-01   2.000000E-02   11927-005-0        1.056338   SPA            2.530000E-08
+      M.Ricabarra             EXFOR                1973        1.800000E-01   2.000000E-02   31477-004-0        1.267606   MXW            2.530000E-08
+      W.Maenhaut              EXFOR                1973        1.450000E-01   0.000000E+00   20731-007-0        1.021127   MXW            2.530000E-08
+      R.E.Heft                EXFOR                1978        1.340000E-01   1.500000E-02   12866-104-0        0.943662   SPA            2.500000E-08
 #   quantity: 
 #     type: Nuclear data library
 #     average value:  7.207380E-02
@@ -61,5 +62,5 @@
 #     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
-      tendl.2025              NDL                  2025        7.207380E-02   0.000000E+00                      0.480492                  2.530000E-08   9.999600E-01
-      jeff4.0                 NDL                  2025        7.207380E-02   0.000000E+00                      0.480492                  2.530000E-08   9.999600E-01
+      tendl.2025              NDL                  2025        7.207380E-02   0.000000E+00                      0.507562                  2.530000E-08   9.999600E-01
+      jeff4.0                 NDL                  2025        7.207380E-02   0.000000E+00                      0.507562                  2.530000E-08   9.999600E-01

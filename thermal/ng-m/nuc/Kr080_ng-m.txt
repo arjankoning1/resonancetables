@@ -1,7 +1,7 @@
 # header: 
 #   title: Kr080(n,g)-m thermal cross section
 #   source: Resonancetables
-#   date: 2025-12-18
+#   date: 2026-03-28
 # target: 
 #   Z: 36
 #   A: 80
@@ -9,22 +9,23 @@
 # reaction: 
 #   type: (n,g)-m
 # observables: 
-#   selected value [b]:  4.600000E+00
+#   selected value [b]:  4.530000E+00
 #   selected value uncertainty [b]:  6.500000E-01
-#   selected value source: RIPL-3
-#   number of values: 5
-#   average value [b]:  4.533094E+00
-#   relative standard deviation [%]:     30.347006
+#   selected value source: Mughabghab-2018
+#   number of values: 6
+#   average value [b]:  4.532578E+00
+#   relative standard deviation [%]:     27.706066
 #   quantity: 
 #     type: Compilation
-#     average value:  4.600000E+00
-#     relative standard deviation [%]:      0.000000
+#     average value:  4.565000E+00
+#     relative standard deviation [%]:      0.766700
 #   datablock: 
 #     columns: 10
-#     entries: 1
+#     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      RIPL-3                  Compilation          2004        4.600000E+00   6.500000E-01                      1.000000                  2.530000E-08
+      RIPL-3                  Compilation          2004        4.600000E+00   6.500000E-01                      1.015453                  2.530000E-08
+      Mughabghab-2018         Compilation          2018        4.530000E+00   6.500000E-01                      1.000000                  2.530000E-08
 #   quantity: 
 #     type: EXFOR spectrum-averaged
 #     average value:  4.550000E+00
@@ -34,7 +35,7 @@
 #     entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      E.Kondaiah              EXFOR                1968        4.550000E+00   6.500000E-01   11883-004-0        0.989130   MXW            2.530000E-08
+      E.Kondaiah              EXFOR                1968        4.550000E+00   6.500000E-01   11883-004-0        1.004415   MXW            2.530000E-08
 #   quantity: 
 #     type: Nuclear data library
 #     average value:  4.505157E+00
@@ -44,6 +45,6 @@
 #     entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
-      jendl5.0                NDL                  2021        7.015810E+00   0.000000E+00                      1.525176                  2.530000E-08   0.000000E+00
-      tendl.2025              NDL                  2025        3.248200E+00   0.000000E+00                      0.706130                  2.530000E-08   0.000000E+00
-      jeff4.0                 NDL                  2025        3.251460E+00   0.000000E+00                      0.706839                  2.530000E-08   0.000000E+00
+      jendl5.0                NDL                  2021        7.015810E+00   0.000000E+00                      1.548744                  2.530000E-08   0.000000E+00
+      tendl.2025              NDL                  2025        3.248200E+00   0.000000E+00                      0.717042                  2.530000E-08   0.000000E+00
+      jeff4.0                 NDL                  2025        3.251460E+00   0.000000E+00                      0.717762                  2.530000E-08   0.000000E+00

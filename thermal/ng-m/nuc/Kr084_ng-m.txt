@@ -1,7 +1,7 @@
 # header: 
 #   title: Kr084(n,g)-m thermal cross section
 #   source: Resonancetables
-#   date: 2025-12-18
+#   date: 2026-03-28
 # target: 
 #   Z: 36
 #   A: 84
@@ -9,22 +9,23 @@
 # reaction: 
 #   type: (n,g)-m
 # observables: 
-#   selected value [b]:  9.000000E-02
-#   selected value uncertainty [b]:  1.300000E-02
-#   selected value source: RIPL-3
-#   number of values: 9
-#   average value [b]:  1.823987E-01
-#   relative standard deviation [%]:    168.548157
+#   selected value [b]:  8.600000E-02
+#   selected value uncertainty [b]:  6.000000E-03
+#   selected value source: Mughabghab-2018
+#   number of values: 10
+#   average value [b]:  1.727588E-01
+#   relative standard deviation [%]:    169.649033
 #   quantity: 
 #     type: Compilation
-#     average value:  9.000000E-02
-#     relative standard deviation [%]:      0.000000
+#     average value:  8.800000E-02
+#     relative standard deviation [%]:      2.272728
 #   datablock: 
 #     columns: 10
-#     entries: 1
+#     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      RIPL-3                  Compilation          2004        9.000000E-02   1.300000E-02                      1.000000                  2.530000E-08
+      RIPL-3                  Compilation          2004        9.000000E-02   1.300000E-02                      1.046512                  2.530000E-08
+      Mughabghab-2018         Compilation          2018        8.600000E-02   6.000000E-03                      1.000000                  2.530000E-08
 #   quantity: 
 #     type: EXFOR spectrum-averaged
 #     average value:  2.726000E-01
@@ -34,11 +35,11 @@
 #     entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      J.Macnamara             EXFOR                1950        1.050000E+00   0.000000E+00   11858-013-0       11.666666   SPA            2.530000E-08
-      E.Hoagland              EXFOR                1951        9.600000E-02   0.000000E+00   11887-003-0        1.066667   SPA            2.530000E-08
-      T.Eastwood              EXFOR                1963        4.200000E-02   4.200000E-03   11849-003-0        0.466667   SPA            2.530000E-08
-      E.Kondaiah              EXFOR                1968        9.000000E-02   1.300000E-02   11883-006-0        1.000000   MXW            2.530000E-08
-      R.D.Penzhorn            EXFOR                1983        8.500000E-02   6.000000E-03   21896-003-0        0.944444   MXW            2.500000E-08
+      J.Macnamara             EXFOR                1950        1.050000E+00   0.000000E+00   11858-013-0       12.209301   SPA            2.530000E-08
+      E.Hoagland              EXFOR                1951        9.600000E-02   0.000000E+00   11887-003-0        1.116279   SPA            2.530000E-08
+      T.Eastwood              EXFOR                1963        4.200000E-02   4.200000E-03   11849-003-0        0.488372   SPA            2.530000E-08
+      E.Kondaiah              EXFOR                1968        9.000000E-02   1.300000E-02   11883-006-0        1.046512   MXW            2.530000E-08
+      R.D.Penzhorn            EXFOR                1983        8.500000E-02   6.000000E-03   21896-003-0        0.988372   MXW            2.500000E-08
 #   quantity: 
 #     type: Nuclear data library
 #     average value:  6.286280E-02
@@ -48,6 +49,6 @@
 #     entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
-      jendl5.0                NDL                  2021        9.208090E-02   0.000000E+00                      1.023121                  2.530000E-08   9.999300E-01
-      tendl.2025              NDL                  2025        4.824580E-02   0.000000E+00                      0.536064                  2.530000E-08   1.000030E+00
-      jeff4.0                 NDL                  2025        4.826170E-02   0.000000E+00                      0.536241                  2.530000E-08   1.000070E+00
+      jendl5.0                NDL                  2021        9.208090E-02   0.000000E+00                      1.070708                  2.530000E-08   9.999300E-01
+      tendl.2025              NDL                  2025        4.824580E-02   0.000000E+00                      0.560998                  2.530000E-08   1.000030E+00
+      jeff4.0                 NDL                  2025        4.826170E-02   0.000000E+00                      0.561182                  2.530000E-08   1.000070E+00

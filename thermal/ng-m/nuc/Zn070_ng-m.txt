@@ -1,7 +1,7 @@
 # header: 
 #   title: Zn070(n,g)-m thermal cross section
 #   source: Resonancetables
-#   date: 2025-12-18
+#   date: 2026-03-28
 # target: 
 #   Z: 30
 #   A: 70
@@ -9,22 +9,23 @@
 # reaction: 
 #   type: (n,g)-m
 # observables: 
-#   selected value [b]:  8.100000E-03
+#   selected value [b]:  8.700000E-03
 #   selected value uncertainty [b]:  5.000000E-04
-#   selected value source: RIPL-3
-#   number of values: 10
-#   average value [b]:  1.784474E-02
-#   relative standard deviation [%]:    172.220474
+#   selected value source: Mughabghab-2018
+#   number of values: 11
+#   average value [b]:  1.701340E-02
+#   relative standard deviation [%]:    172.921265
 #   quantity: 
 #     type: Compilation
-#     average value:  8.100000E-03
-#     relative standard deviation [%]:      0.000000
+#     average value:  8.400001E-03
+#     relative standard deviation [%]:      3.571428
 #   datablock: 
 #     columns: 10
-#     entries: 1
+#     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      RIPL-3                  Compilation          2004        8.100000E-03   5.000000E-04                      1.000000                  2.530000E-08
+      RIPL-3                  Compilation          2004        8.100000E-03   5.000000E-04                      0.931035                  2.530000E-08
+      Mughabghab-2018         Compilation          2018        8.700000E-03   5.000000E-04                      1.000000                  2.530000E-08
 #   quantity: 
 #     type: EXFOR spectrum-averaged
 #     average value:  2.205714E-02
@@ -34,13 +35,13 @@
 #     entries: 7
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      S.K.Mangal              EXFOR                1962        9.000000E-03   1.800000E-03   31248-004-0        1.111111   MXW            2.530000E-08
-      H.Arino                 EXFOR                1964        8.400000E-03   0.000000E+00   11817-003-0        1.037037   MXW            2.530000E-08
-      L.N.Bystrov             EXFOR                1968        1.100000E-01   0.000000E+00   40780-006-0       13.580247   MXW            2.530000E-08
-      W.Mannhart              EXFOR                1968        8.100000E-03   5.000000E-04   22521-003-0        1.000000   MXW            2.530000E-08
-      K.S.Krane               EXFOR                2017        6.500000E-03   1.000000E-03   14468-008-0        0.802469   MXW            2.530000E-08
-      K.S.Krane               EXFOR                2017        6.300000E-03   6.000000E-04   14468-008-0        0.777778   MXW            2.530000E-08
-      K.S.Krane               EXFOR                2017        6.100000E-03   9.000000E-04   14468-008-0        0.753086   MXW            2.530000E-08
+      S.K.Mangal              EXFOR                1962        9.000000E-03   1.800000E-03   31248-004-0        1.034483   MXW            2.530000E-08
+      H.Arino                 EXFOR                1964        8.400000E-03   0.000000E+00   11817-003-0        0.965517   MXW            2.530000E-08
+      L.N.Bystrov             EXFOR                1968        1.100000E-01   0.000000E+00   40780-006-0       12.643678   MXW            2.530000E-08
+      W.Mannhart              EXFOR                1968        8.100000E-03   5.000000E-04   22521-003-0        0.931035   MXW            2.530000E-08
+      K.S.Krane               EXFOR                2017        6.500000E-03   1.000000E-03   14468-008-0        0.747126   MXW            2.530000E-08
+      K.S.Krane               EXFOR                2017        6.300000E-03   6.000000E-04   14468-008-0        0.724138   MXW            2.530000E-08
+      K.S.Krane               EXFOR                2017        6.100000E-03   9.000000E-04   14468-008-0        0.701149   MXW            2.530000E-08
 #   quantity: 
 #     type: Nuclear data library
 #     average value:  7.973710E-03
@@ -50,5 +51,5 @@
 #     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
-      tendl.2025              NDL                  2025        7.973590E-03   0.000000E+00                      0.984394                  2.530000E-08   1.000050E+00
-      jeff4.0                 NDL                  2025        7.973830E-03   0.000000E+00                      0.984423                  2.530000E-08   1.000050E+00
+      tendl.2025              NDL                  2025        7.973590E-03   0.000000E+00                      0.916505                  2.530000E-08   1.000050E+00
+      jeff4.0                 NDL                  2025        7.973830E-03   0.000000E+00                      0.916532                  2.530000E-08   1.000050E+00

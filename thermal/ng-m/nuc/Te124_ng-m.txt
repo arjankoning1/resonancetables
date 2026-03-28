@@ -1,7 +1,7 @@
 # header: 
 #   title: Te124(n,g)-m thermal cross section
 #   source: Resonancetables
-#   date: 2025-12-18
+#   date: 2026-03-28
 # target: 
 #   Z: 52
 #   A: 124
@@ -9,22 +9,23 @@
 # reaction: 
 #   type: (n,g)-m
 # observables: 
-#   selected value [b]:  5.000000E-02
-#   selected value uncertainty [b]:  2.500000E-02
-#   selected value source: RIPL-3
-#   number of values: 11
-#   average value [b]:  2.311879E+00
-#   relative standard deviation [%]:    100.980713
+#   selected value [b]:  8.500000E-01
+#   selected value uncertainty [b]:  6.000000E-01
+#   selected value source: Mughabghab-2018
+#   number of values: 12
+#   average value [b]:  2.190056E+00
+#   relative standard deviation [%]:    103.713730
 #   quantity: 
 #     type: Compilation
-#     average value:  5.000000E-02
-#     relative standard deviation [%]:      0.000000
+#     average value:  4.500000E-01
+#     relative standard deviation [%]:     88.888885
 #   datablock: 
 #     columns: 10
-#     entries: 1
+#     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      RIPL-3                  Compilation          2004        5.000000E-02   2.500000E-02                      1.000000                  2.530000E-08
+      RIPL-3                  Compilation          2004        5.000000E-02   2.500000E-02                      0.058824                  2.530000E-08
+      Mughabghab-2018         Compilation          2018        8.500000E-01   6.000000E-01                      1.000000                  2.530000E-08
 #   quantity: 
 #     type: EXFOR
 #     average value:  2.306000E+00
@@ -34,11 +35,11 @@
 #     entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      V.S.Gvozdev             EXFOR                1959        4.000000E-02   2.500000E-02   41633-002-0        0.800000                  2.530000E-08
-      V.G.Alpatov             EXFOR                1990        1.120000E+00   7.000000E-02   41039-004-0       22.400000                  2.530000E-08
-      J.Honzatko              EXFOR                1993        3.150000E+00   0.000000E+00   31417-002-1       63.000000                  2.530000E-08
-      V.G.Alpatov             EXFOR                1995        1.120000E+00   7.000000E-02   41168-004-0       22.400000                  2.530000E-08
-      I.Tomandl               EXFOR                2003        6.100000E+00   7.000000E-01   31567-003-0      122.000000                  2.530000E-08
+      V.S.Gvozdev             EXFOR                1959        4.000000E-02   2.500000E-02   41633-002-0        0.047059                  2.530000E-08
+      V.G.Alpatov             EXFOR                1990        1.120000E+00   7.000000E-02   41039-004-0        1.317647                  2.530000E-08
+      J.Honzatko              EXFOR                1993        3.150000E+00   0.000000E+00   31417-002-1        3.705882                  2.530000E-08
+      V.G.Alpatov             EXFOR                1995        1.120000E+00   7.000000E-02   41168-004-0        1.317647                  2.530000E-08
+      I.Tomandl               EXFOR                2003        6.100000E+00   7.000000E-01   31567-003-0        7.176470                  2.530000E-08
 #   quantity: 
 #     type: EXFOR spectrum-averaged
 #     average value:  4.117000E+00
@@ -48,9 +49,9 @@
 #     entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      R.Hill                  EXFOR                1949        5.000000E+00   0.000000E+00   11998-002-0      100.000000   MXW            2.530000E-08
-      H.Pomerance             EXFOR                1952        6.500000E+00   1.300000E+00   11507-063-0      130.000000   MXW            2.530000E-08
-      M.C.Eastman             EXFOR                2008        8.510000E-01   6.100000E-02   14165-005-0       17.020000   MXW            2.530000E-08
+      R.Hill                  EXFOR                1949        5.000000E+00   0.000000E+00   11998-002-0        5.882353   MXW            2.530000E-08
+      H.Pomerance             EXFOR                1952        6.500000E+00   1.300000E+00   11507-063-0        7.647058   MXW            2.530000E-08
+      M.C.Eastman             EXFOR                2008        8.510000E-01   6.100000E-02   14165-005-0        1.001176   MXW            2.530000E-08
 #   quantity: 
 #     type: Nuclear data library
 #     average value:  7.498350E-01
@@ -60,5 +61,5 @@
 #     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
-      tendl.2025              NDL                  2025        7.498300E-01   0.000000E+00                     14.996600                  2.530000E-08   0.000000E+00
-      jeff4.0                 NDL                  2025        7.498400E-01   0.000000E+00                     14.996800                  2.530000E-08   0.000000E+00
+      tendl.2025              NDL                  2025        7.498300E-01   0.000000E+00                      0.882153                  2.530000E-08   0.000000E+00
+      jeff4.0                 NDL                  2025        7.498400E-01   0.000000E+00                      0.882165                  2.530000E-08   0.000000E+00

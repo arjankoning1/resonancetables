@@ -1,7 +1,7 @@
 # header: 
 #   title: Na023(n,g)-m thermal cross section
 #   source: Resonancetables
-#   date: 2025-12-18
+#   date: 2026-03-28
 # target: 
 #   Z: 11
 #   A: 23
@@ -9,22 +9,23 @@
 # reaction: 
 #   type: (n,g)-m
 # observables: 
-#   selected value [b]:  4.300000E-01
-#   selected value uncertainty [b]:  3.000000E-02
-#   selected value source: RIPL-3
-#   number of values: 2
-#   average value [b]:  4.144295E-01
-#   relative standard deviation [%]:      3.757094
+#   selected value [b]:  5.010000E-01
+#   selected value uncertainty [b]:  6.000000E-03
+#   selected value source: Mughabghab-2018
+#   number of values: 3
+#   average value [b]:  4.432863E-01
+#   relative standard deviation [%]:      9.642554
 #   quantity: 
 #     type: Compilation
-#     average value:  4.300000E-01
-#     relative standard deviation [%]:      0.000000
+#     average value:  4.655000E-01
+#     relative standard deviation [%]:      7.626206
 #   datablock: 
 #     columns: 10
-#     entries: 1
+#     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      RIPL-3                  Compilation          2004        4.300000E-01   3.000000E-02                      1.000000                  2.530000E-08
+      RIPL-3                  Compilation          2004        4.300000E-01   3.000000E-02                      0.858283                  2.530000E-08
+      Mughabghab-2018         Compilation          2018        5.010000E-01   6.000000E-03                      1.000000                  2.530000E-08
 #   quantity: 
 #     type: Nuclear data library
 #     average value:  3.988590E-01
@@ -34,4 +35,4 @@
 #     entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
-      jendl5.0                NDL                  2021        3.988590E-01   0.000000E+00                      0.927579                  2.530000E-08   9.997700E-01
+      jendl5.0                NDL                  2021        3.988590E-01   0.000000E+00                      0.796126                  2.530000E-08   9.997700E-01

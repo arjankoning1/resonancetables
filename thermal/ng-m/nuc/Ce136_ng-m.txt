@@ -1,7 +1,7 @@
 # header: 
 #   title: Ce136(n,g)-m thermal cross section
 #   source: Resonancetables
-#   date: 2025-12-18
+#   date: 2026-03-28
 # target: 
 #   Z: 58
 #   A: 136
@@ -9,22 +9,23 @@
 # reaction: 
 #   type: (n,g)-m
 # observables: 
-#   selected value [b]:  1.000000E+00
-#   selected value uncertainty [b]:  2.500000E-01
-#   selected value source: RIPL-3
-#   number of values: 4
-#   average value [b]:  4.951375E-01
-#   relative standard deviation [%]:     58.907204
+#   selected value [b]:  3.440000E-01
+#   selected value uncertainty [b]:  1.400000E-02
+#   selected value source: Mughabghab-2018
+#   number of values: 5
+#   average value [b]:  4.649100E-01
+#   relative standard deviation [%]:     57.600891
 #   quantity: 
 #     type: Compilation
-#     average value:  1.000000E+00
-#     relative standard deviation [%]:      0.000000
+#     average value:  6.720000E-01
+#     relative standard deviation [%]:     48.809525
 #   datablock: 
 #     columns: 10
-#     entries: 1
+#     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      RIPL-3                  Compilation          2004        1.000000E+00   2.500000E-01                      1.000000                  2.530000E-08
+      RIPL-3                  Compilation          2004        1.000000E+00   2.500000E-01                      2.906977                  2.530000E-08
+      Mughabghab-2018         Compilation          2018        3.440000E-01   1.400000E-02                      1.000000                  2.530000E-08
 #   quantity: 
 #     type: EXFOR spectrum-averaged
 #     average value:  3.440000E-01
@@ -34,7 +35,7 @@
 #     entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      S.Torrel                EXFOR                2012        3.440000E-01   1.600000E-02   14346-002-0        0.344000   MXW            2.500000E-08
+      S.Torrel                EXFOR                2012        3.440000E-01   1.600000E-02   14346-002-0        1.000000   MXW            2.500000E-08
 #   quantity: 
 #     type: Nuclear data library
 #     average value:  3.182750E-01
@@ -44,5 +45,5 @@
 #     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
-      tendl.2025              NDL                  2025        3.180800E-01   0.000000E+00                      0.318080                  2.530000E-08   0.000000E+00
-      jeff4.0                 NDL                  2025        3.184700E-01   0.000000E+00                      0.318470                  2.530000E-08   0.000000E+00
+      tendl.2025              NDL                  2025        3.180800E-01   0.000000E+00                      0.924651                  2.530000E-08   0.000000E+00
+      jeff4.0                 NDL                  2025        3.184700E-01   0.000000E+00                      0.925785                  2.530000E-08   0.000000E+00

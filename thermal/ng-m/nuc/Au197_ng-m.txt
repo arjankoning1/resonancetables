@@ -1,7 +1,7 @@
 # header: 
 #   title: Au197(n,g)-m thermal cross section
 #   source: Resonancetables
-#   date: 2025-12-18
+#   date: 2026-03-28
 # target: 
 #   Z: 79
 #   A: 197
@@ -9,22 +9,23 @@
 # reaction: 
 #   type: (n,g)-m
 # observables: 
-#   selected value [b]:  5.000000E-02
-#   selected value uncertainty [b]:  0.000000E+00
-#   selected value source: RIPL-3
-#   number of values: 3
-#   average value [b]:  1.949717E-02
-#   relative standard deviation [%]:    111.734062
+#   selected value [b]:  8.000000E-03
+#   selected value uncertainty [b]:  2.000000E-03
+#   selected value source: Mughabghab-2018
+#   number of values: 4
+#   average value [b]:  1.662288E-02
+#   relative standard deviation [%]:    117.381241
 #   quantity: 
 #     type: Compilation
-#     average value:  5.000000E-02
-#     relative standard deviation [%]:      0.000000
+#     average value:  2.900000E-02
+#     relative standard deviation [%]:     72.413795
 #   datablock: 
 #     columns: 10
-#     entries: 1
+#     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      RIPL-3                  Compilation          2004        5.000000E-02   0.000000E+00                      1.000000                  2.530000E-08
+      RIPL-3                  Compilation          2004        5.000000E-02   0.000000E+00                      6.250000                  2.530000E-08
+      Mughabghab-2018         Compilation          2018        8.000000E-03   2.000000E-03                      1.000000                  2.530000E-08
 #   quantity: 
 #     type: Nuclear data library
 #     average value:  4.245760E-03
@@ -34,5 +35,5 @@
 #     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
-      tendl.2025              NDL                  2025        7.995610E-03   0.000000E+00                      0.159912                  2.530000E-08   0.000000E+00
-      jeff4.0                 NDL                  2025        4.959110E-04   0.000000E+00                      0.009918                  2.530000E-08   0.000000E+00
+      tendl.2025              NDL                  2025        7.995610E-03   0.000000E+00                      0.999451                  2.530000E-08   0.000000E+00
+      jeff4.0                 NDL                  2025        4.959110E-04   0.000000E+00                      0.061989                  2.530000E-08   0.000000E+00

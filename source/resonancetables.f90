@@ -5,11 +5,11 @@ program resonancetables
 !
 !
 ! Author    : Arjan Koning
-! 2025-12-18: Current revision
+! 2026-02-20: Current revision
 !-----------------------------------------------------------------------------------------------------------------------------------
 !
 !   |-------------------------------------------------------|
-!   |                 RESONANCETABLES-2.2                   |
+!   |                 RESONANCETABLES-2.21                  |
 !   |                 Arjan Koning                          |
 !   |                                                       |
 !   | Email: A.Koning@@iaea.org                             |
@@ -17,7 +17,7 @@ program resonancetables
 !
 ! MIT License
 !
-! Copyright (c) 2025 Arjan Koning
+! Copyright (c) 2026 Arjan Koning
 !
 ! Permission is hereby granted, free of charge, to any person obtaining a copy
 ! of this software and associated documentation files (the "Software"), to deal
@@ -54,4 +54,4 @@ program resonancetables
   call resonance
   write(*, *) "Resonancetables is done"
 end program resonancetables
-! Copyright A.J. Koning 2025
+! Copyright A.J. Koning 2026

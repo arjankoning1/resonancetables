@@ -5,7 +5,7 @@ module A0_resonancetables_mod
 !                                                                                                                                   
 ! Revision    Date      Author           Description                                                                                
 ! ====================================================                                                                              
-!    1     2025-12-18   A.J. Koning      Original code                                                                              
+!    1     2026-02-20   A.J. Koning      Original code                                                                              
 !-----------------------------------------------------------------------------------------------------------------------------------
 !                                                                                                                                   
 ! *** Use data from other modules                                                                                                   
@@ -123,4 +123,4 @@ module A0_resonancetables_mod
   integer                             :: Atarget
   character(len=6)                    :: targetnuclide    
 end module A0_resonancetables_mod                                                                                          
-!Copyright (C) 2025  A.J. Koning                                                                                                    
+!Copyright (C) 2026  A.J. Koning                                                                                                    

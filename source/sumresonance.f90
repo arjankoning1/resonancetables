@@ -48,7 +48,7 @@ subroutine sumresonance(type)
   integer            :: Ncol       ! number of columns
   integer            :: type       ! reaction type
 !
-! **************** Write databases for thermal cross sections *****
+! **************** Write databases for resonance data *****
 !
   indent = 0
   react=restype(type)
@@ -175,6 +175,7 @@ subroutine sumresonance(type)
       Ncol = 10
     else
       col(7) = 'Nuclide'
+      un(7) = ''
       Ncol = 7
     endif
     open (unit = 1, status = 'unknown', file = trim(sourcefile(isource)))

@@ -108,7 +108,7 @@ subroutine readthermal(Z, A, Liso, Riso, type)
       read(line, * ) IZA, isoT, MT, isoR, xs ,dxs
       if (xs <= 0.) cycle
       iz=IZA/1000
-      ia=IZA-1000*Z
+      ia=IZA-1000*iz
       if (isoR == 99) isoR = -1
       if (iz == Z .and. ia == A .and. Liso == isoT .and. Riso == isoR) then
         go = 0
@@ -235,8 +235,8 @@ subroutine readthermal(Z, A, Liso, Riso, type)
         if (Riso == 1) then
           xs0 = rochread(line(85:93))
           dxs0 = rochread(line(97:106))
-          xs = max(rochread(line(160:170)),xs0)
-          dxs = max(rochread(line(174:184)),dxs0)
+          xs1 = rochread(line(160:170))
+          dxs1 = rochread(line(174:184))
           xs = max(xs1, xs0)
           dxs = max(dxs1, dxs0)
           if (xs > 0.) go = 1
@@ -302,7 +302,7 @@ subroutine readthermal(Z, A, Liso, Riso, type)
 !
       if (type == 9) then
         xs = rochread(line(334:341))
-        dxs = rochread(line(354:354))
+        dxs = rochread(line(345:354))
         if (xs > 0.) go = 1
       endif
       if (xs <= 0.) go = 0

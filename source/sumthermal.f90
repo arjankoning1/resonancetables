@@ -178,6 +178,7 @@ subroutine sumthermal(Riso, type)
       Ncol = 10
     else
       col(7) = 'Nuclide'
+      un(7) = ''
       Ncol = 7
     endif
      open (unit = 1, status = 'unknown', file = trim(sourcefile(isource)))

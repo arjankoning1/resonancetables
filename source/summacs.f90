@@ -46,7 +46,7 @@ subroutine summacs
   real               :: dxs
   real               :: ratio
 !
-! **************** Write databases for thermal cross sections *****
+! **************** Write databases for Maxwellian-averaged cross sections *****
 !
   indent = 0
   msource(1) = 'Astral'
@@ -164,6 +164,7 @@ subroutine summacs
       Ncol = 10
     else
       col(7) = 'Nuclide'
+      un(7) = ''
       Ncol = 7
     endif
     open (unit = 1, status = 'unknown', file = trim(sourcefile(isource)))

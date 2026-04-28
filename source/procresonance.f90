@@ -5,7 +5,7 @@ subroutine procresonance(Z, A, Liso, type)
 !
 ! Revision    Date      Author      Quality  Description
 ! ======================================================
-!    1     2025-02-08   A.J. Koning    A     Original code
+!    1     2024-04-28   A.J. Koning    A     Original code
 !-----------------------------------------------------------------------------------------------------------------------------------
 !
 ! *** Use data from other modules
@@ -193,7 +193,7 @@ subroutine procresonance(Z, A, Liso, type)
 ! Final dataset
 ! Rule D0: RIPL-3 > RIPL-2 > Mughabghab 2018 > EXFOR
 ! Rule S0, gamgam: RIPL-3 > RIPL-2 > Mughabghab 2018 > > EXFOR
-! Rule Ig, If: Kayzero > Mughabghab 2018 > Sukhoruchkin 2015 >  JUKO > EXFOR
+! Rule Ig, If: Mughabghab 2018 > Kayzero > Sukhoruchkin 2015 >  JUKO > EXFOR
 !       
   Nsel = 0
   N = Nres
@@ -223,13 +223,13 @@ Loop1:  do
   else
 Loop2:  do
       do i = 1, N
-        if (res_author(i) == 'Kayzero') then
+        if (res_author(i) == 'Mughabghab-2018') then
           Nsel = i
           exit Loop2
         endif
       enddo
       do i = 1, N
-        if (res_author(i) == 'Mughabghab-2018') then
+        if (res_author(i) == 'Kayzero') then
           Nsel = i
           exit Loop2
         endif

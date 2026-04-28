@@ -5,11 +5,11 @@ program resonancetables
 !
 !
 ! Author    : Arjan Koning
-! 2026-02-20: Current revision
+! 2026-04-28: Current revision
 !-----------------------------------------------------------------------------------------------------------------------------------
 !
 !   |-------------------------------------------------------|
-!   |                 RESONANCETABLES-2.21                  |
+!   |                 RESONANCETABLES-2.23                  |
 !   |                 Arjan Koning                          |
 !   |                                                       |
 !   | Email: A.Koning@@iaea.org                             |

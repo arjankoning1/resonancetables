@@ -5,7 +5,7 @@ subroutine writethermal(Z, A, Liso, Riso, type)
 !
 ! Revision    Date      Author      Quality  Description
 ! ======================================================
-!    1     2025-08-22   A.J. Koning    A     Original code
+!    1     2026-04-28   A.J. Koning    A     Original code
 !-----------------------------------------------------------------------------------------------------------------------------------
 !
 ! *** Use data from other modules
@@ -67,8 +67,8 @@ subroutine writethermal(Z, A, Liso, Riso, type)
     call write_real(id2,'selected value [b]',res_xs_sel)
     call write_real(id2,'selected value uncertainty [b]',res_dxs_sel)
   else
-    call write_real(id2,'selected value]',res_xs_sel)
-    call write_real(id2,'selected value uncertainty]',res_dxs_sel)
+    call write_real(id2,'selected value',res_xs_sel)
+    call write_real(id2,'selected value uncertainty',res_dxs_sel)
   endif
   call write_char(id2,'selected value source',res_author_sel)
   call write_integer(id2,'number of values',Nres)

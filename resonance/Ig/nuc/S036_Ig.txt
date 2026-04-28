@@ -1,7 +1,7 @@
 # header: 
 #   title: S036 Ig resonance data
 #   source: Resonancetables
-#   date: 2026-04-12
+#   date: 2026-04-28
 # target: 
 #   Z: 16
 #   A: 36
@@ -9,9 +9,9 @@
 # reaction: 
 #   type: Ig
 #   parameters: 
-#   selected value [eV]:  3.590000E-01
-#   selected value uncertainty [eV]:  3.590000E-01
-#   selected value source: Kayzero
+#   selected value [eV]:  1.700000E-01
+#   selected value uncertainty [eV]:  4.000000E-03
+#   selected value source: Mughabghab-2018
 #   number of values: 8
 #   average value [b]:  1.553341E-01
 #   relative standard deviation [%]:     52.603359
@@ -24,8 +24,8 @@
 #     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Kayzero                 Compilation          2018        3.590000E-01   3.590000E-01                      1.000000
-      Mughabghab-2018         Compilation          2018        1.700000E-01   4.000000E-03                      0.473538
+      Kayzero                 Compilation          2018        3.590000E-01   3.590000E-01                      2.111765
+      Mughabghab-2018         Compilation          2018        1.700000E-01   4.000000E-03                      1.000000
 #   quantity: 
 #     type: EXFOR
 #     average value:  1.700000E-01
@@ -35,7 +35,7 @@
 #     entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      R.Van Der Linden        EXFOR                1974        1.700000E-01   1.000000E-02      21697-003       0.473538
+      R.Van Der Linden        EXFOR                1974        1.700000E-01   1.000000E-02      21697-003       1.000000
 #   quantity: 
 #     type: Nuclear data library
 #     average value:  1.087345E-01
@@ -45,8 +45,8 @@
 #     entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      cendl3.2                NDL                  2019        9.001070E-02   0.000000E+00                      0.250726
-      jendl5.0                NDL                  2021        1.206200E-01   0.000000E+00                      0.335989
-      endfb8.1                NDL                  2024        1.206200E-01   0.000000E+00                      0.335989
-      tendl.2025              NDL                  2025        1.062110E-01   0.000000E+00                      0.295852
-      jeff4.0                 NDL                  2025        1.062110E-01   0.000000E+00                      0.295852
+      cendl3.2                NDL                  2019        9.001070E-02   0.000000E+00                      0.529475
+      jendl5.0                NDL                  2021        1.206200E-01   0.000000E+00                      0.709529
+      endfb8.1                NDL                  2024        1.206200E-01   0.000000E+00                      0.709529
+      tendl.2025              NDL                  2025        1.062110E-01   0.000000E+00                      0.624771
+      jeff4.0                 NDL                  2025        1.062110E-01   0.000000E+00                      0.624771

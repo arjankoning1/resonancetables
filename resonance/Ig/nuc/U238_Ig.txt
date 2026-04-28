@@ -1,7 +1,7 @@
 # header: 
 #   title: U238 Ig resonance data
 #   source: Resonancetables
-#   date: 2026-04-12
+#   date: 2026-04-28
 # target: 
 #   Z: 92
 #   A: 238
@@ -9,9 +9,9 @@
 # reaction: 
 #   type: Ig
 #   parameters: 
-#   selected value [eV]:  2.760000E+02
-#   selected value uncertainty [eV]:  4.000000E+00
-#   selected value source: Kayzero
+#   selected value [eV]:  2.770000E+02
+#   selected value uncertainty [eV]:  3.000000E+00
+#   selected value source: Mughabghab-2018
 #   number of values: 18
 #   average value [b]:  2.762797E+02
 #   relative standard deviation [%]:      1.998561
@@ -24,9 +24,9 @@
 #     entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Sukhoruchkin            Compilation          2015        2.756000E+02   0.000000E+00                      0.998551
-      Kayzero                 Compilation          2018        2.760000E+02   4.000000E+00                      1.000000
-      Mughabghab-2018         Compilation          2018        2.770000E+02   3.000000E+00                      1.003623
+      Sukhoruchkin            Compilation          2015        2.756000E+02   0.000000E+00                      0.994946
+      Kayzero                 Compilation          2018        2.760000E+02   4.000000E+00                      0.996390
+      Mughabghab-2018         Compilation          2018        2.770000E+02   3.000000E+00                      1.000000
 #   quantity: 
 #     type: EXFOR
 #     average value:  2.766200E+02
@@ -36,16 +36,16 @@
 #     entries: 10
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      H.L.Anderson            EXFOR                1950        2.900000E+02   1.160000E+02      12467-002       1.050725
-      R.L.Macklin             EXFOR                1955        2.820000E+02   0.000000E+00      14388-067       1.021739
-      R.L.Macklin             EXFOR                1956        2.810000E+02   2.000000E+01      12261-003       1.018116
-      J.Hardy Jr              EXFOR                1962        2.820000E+02   8.000000E+00      12454-002       1.021739
-      N.P.Baumann             EXFOR                1964        2.770000E+02   1.000000E+01      12442-002       1.003623
-      E.Steinnes              EXFOR                1972        2.670000E+02   5.000000E+00      20188-031       0.967391
-      R.Van Der Linden        EXFOR                1974        2.650000E+02   0.000000E+00      20645-064       0.960145
-      G.K.Underhill           EXFOR                1974        2.694000E+02   5.200000E+00      10448-003       0.976087
-      I.Kimura                EXFOR                1989        2.748000E+02   1.398700E+01      23491-016       0.995652
-      M.U.Rajput              EXFOR                1995        2.780000E+02   1.750000E+01      23388-013       1.007246
+      H.L.Anderson            EXFOR                1950        2.900000E+02   1.160000E+02      12467-002       1.046931
+      R.L.Macklin             EXFOR                1955        2.820000E+02   0.000000E+00      14388-067       1.018051
+      R.L.Macklin             EXFOR                1956        2.810000E+02   2.000000E+01      12261-003       1.014440
+      J.Hardy Jr              EXFOR                1962        2.820000E+02   8.000000E+00      12454-002       1.018051
+      N.P.Baumann             EXFOR                1964        2.770000E+02   1.000000E+01      12442-002       1.000000
+      E.Steinnes              EXFOR                1972        2.670000E+02   5.000000E+00      20188-031       0.963899
+      R.Van Der Linden        EXFOR                1974        2.650000E+02   0.000000E+00      20645-064       0.956679
+      G.K.Underhill           EXFOR                1974        2.694000E+02   5.200000E+00      10448-003       0.972563
+      I.Kimura                EXFOR                1989        2.748000E+02   1.398700E+01      23491-016       0.992058
+      M.U.Rajput              EXFOR                1995        2.780000E+02   1.750000E+01      23388-013       1.003610
 #   quantity: 
 #     type: Nuclear data library
 #     average value:  2.756470E+02
@@ -55,8 +55,8 @@
 #     entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      cendl3.2                NDL                  2019        2.755410E+02   0.000000E+00                      0.998337
-      jendl5.0                NDL                  2021        2.752370E+02   0.000000E+00                      0.997235
-      endfb8.1                NDL                  2024        2.752320E+02   0.000000E+00                      0.997217
-      tendl.2025              NDL                  2025        2.749660E+02   0.000000E+00                      0.996254
-      jeff4.0                 NDL                  2025        2.772590E+02   0.000000E+00                      1.004562
+      cendl3.2                NDL                  2019        2.755410E+02   0.000000E+00                      0.994733
+      jendl5.0                NDL                  2021        2.752370E+02   0.000000E+00                      0.993635
+      endfb8.1                NDL                  2024        2.752320E+02   0.000000E+00                      0.993617
+      tendl.2025              NDL                  2025        2.749660E+02   0.000000E+00                      0.992657
+      jeff4.0                 NDL                  2025        2.772590E+02   0.000000E+00                      1.000935

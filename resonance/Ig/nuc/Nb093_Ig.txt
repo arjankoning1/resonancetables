@@ -1,7 +1,7 @@
 # header: 
 #   title: Nb093 Ig resonance data
 #   source: Resonancetables
-#   date: 2026-04-12
+#   date: 2026-04-28
 # target: 
 #   Z: 41
 #   A: 93
@@ -9,9 +9,9 @@
 # reaction: 
 #   type: Ig
 #   parameters: 
-#   selected value [eV]:  8.450000E+00
-#   selected value uncertainty [eV]:  1.040000E+00
-#   selected value source: Kayzero
+#   selected value [eV]:  8.370000E+00
+#   selected value uncertainty [eV]:  3.700000E-01
+#   selected value source: Mughabghab-2018
 #   number of values: 27
 #   average value [b]:  9.427622E+00
 #   relative standard deviation [%]:     43.078747
@@ -24,9 +24,9 @@
 #     entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Sukhoruchkin            Compilation          2015        9.900000E+00   8.000000E-01                      1.171598
-      Kayzero                 Compilation          2018        8.450000E+00   1.040000E+00                      1.000000
-      Mughabghab-2018         Compilation          2018        8.370000E+00   3.700000E-01                      0.990533
+      Sukhoruchkin            Compilation          2015        9.900000E+00   8.000000E-01                      1.182796
+      Kayzero                 Compilation          2018        8.450000E+00   1.040000E+00                      1.009558
+      Mughabghab-2018         Compilation          2018        8.370000E+00   3.700000E-01                      1.000000
 #   quantity: 
 #     type: EXFOR
 #     average value:  9.540317E+00
@@ -36,25 +36,25 @@
 #     entries: 19
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      S.P.Harris              EXFOR                1950        4.190000E+00   0.000000E+00      11343-015       0.495858
-      R.L.Macklin             EXFOR                1955        8.300000E+00   0.000000E+00      14388-031       0.982249
-      R.L.Macklin             EXFOR                1955        3.870000E+00   0.000000E+00      14388-031       0.457988
-      R.B.Tattersall          EXFOR                1960        1.300000E+01   5.000000E+00      20638-021       1.538462
-      F.Feiner                EXFOR                1961        1.380000E+01   2.200000E+00      11454-003       1.633136
-      L.Lesage                EXFOR                1966        1.730000E+01   2.000000E+00      11754-016       2.047337
-      L.Lesage                EXFOR                1966        2.040000E+01   4.000000E+00      11754-015       2.414201
-      L.Lesage                EXFOR                1966        1.880000E+01   3.000000E+00      11754-003       2.224852
-      R.E.Druschel            EXFOR                1968        8.500000E+00   1.275000E+00      10347-003       1.005917
-      Vichai Hayodom          EXFOR                1969        5.800000E+00   0.000000E+00      30368-012       0.686391
-      R.Schuman               EXFOR                1969        8.500000E+00   5.000000E-01      11899-003       1.005917
-      T.B.Ryves               EXFOR                1971        6.200000E+00   0.000000E+00      20791-010       0.733728
-      R.Van Der Linden        EXFOR                1972        8.400000E+00   2.600000E+00      20643-039       0.994083
-      L.Sage                  EXFOR                1976        6.560000E+00   1.960000E+00      10637-009       0.776331
-      I.Kimura                EXFOR                1989        6.246000E+00   3.810100E-01      23491-009       0.739172
-      K.S.Krane               EXFOR                2019        5.600000E+00   7.000000E-01      14602-005       0.662722
-      K.S.Krane               EXFOR                2019        5.200000E+00   8.000000E-01      14602-004       0.615385
-      S.Nakamura              EXFOR                2023        1.010000E+01   6.000000E-01      23611-004       1.195266
-      S.Nakamura              EXFOR                2023        1.050000E+01   6.000000E-01      23611-003       1.242604
+      S.P.Harris              EXFOR                1950        4.190000E+00   0.000000E+00      11343-015       0.500597
+      R.L.Macklin             EXFOR                1955        8.300000E+00   0.000000E+00      14388-031       0.991637
+      R.L.Macklin             EXFOR                1955        3.870000E+00   0.000000E+00      14388-031       0.462366
+      R.B.Tattersall          EXFOR                1960        1.300000E+01   5.000000E+00      20638-021       1.553166
+      F.Feiner                EXFOR                1961        1.380000E+01   2.200000E+00      11454-003       1.648746
+      L.Lesage                EXFOR                1966        1.730000E+01   2.000000E+00      11754-016       2.066905
+      L.Lesage                EXFOR                1966        2.040000E+01   4.000000E+00      11754-015       2.437276
+      L.Lesage                EXFOR                1966        1.880000E+01   3.000000E+00      11754-003       2.246117
+      R.E.Druschel            EXFOR                1968        8.500000E+00   1.275000E+00      10347-003       1.015532
+      Vichai Hayodom          EXFOR                1969        5.800000E+00   0.000000E+00      30368-012       0.692951
+      R.Schuman               EXFOR                1969        8.500000E+00   5.000000E-01      11899-003       1.015532
+      T.B.Ryves               EXFOR                1971        6.200000E+00   0.000000E+00      20791-010       0.740741
+      R.Van Der Linden        EXFOR                1972        8.400000E+00   2.600000E+00      20643-039       1.003584
+      L.Sage                  EXFOR                1976        6.560000E+00   1.960000E+00      10637-009       0.783751
+      I.Kimura                EXFOR                1989        6.246000E+00   3.810100E-01      23491-009       0.746237
+      K.S.Krane               EXFOR                2019        5.600000E+00   7.000000E-01      14602-005       0.669056
+      K.S.Krane               EXFOR                2019        5.200000E+00   8.000000E-01      14602-004       0.621266
+      S.Nakamura              EXFOR                2023        1.010000E+01   6.000000E-01      23611-004       1.206691
+      S.Nakamura              EXFOR                2023        1.050000E+01   6.000000E-01      23611-003       1.254480
 #   quantity: 
 #     type: Nuclear data library
 #     average value:  9.311962E+00
@@ -64,8 +64,8 @@
 #     entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      cendl3.2                NDL                  2019        8.975600E+00   0.000000E+00                      1.062201
-      jendl5.0                NDL                  2021        1.071810E+01   0.000000E+00                      1.268414
-      endfb8.1                NDL                  2024        8.931880E+00   0.000000E+00                      1.057027
-      tendl.2025              NDL                  2025        8.967030E+00   0.000000E+00                      1.061187
-      jeff4.0                 NDL                  2025        8.967200E+00   0.000000E+00                      1.061207
+      cendl3.2                NDL                  2019        8.975600E+00   0.000000E+00                      1.072354
+      jendl5.0                NDL                  2021        1.071810E+01   0.000000E+00                      1.280538
+      endfb8.1                NDL                  2024        8.931880E+00   0.000000E+00                      1.067130
+      tendl.2025              NDL                  2025        8.967030E+00   0.000000E+00                      1.071330
+      jeff4.0                 NDL                  2025        8.967200E+00   0.000000E+00                      1.071350

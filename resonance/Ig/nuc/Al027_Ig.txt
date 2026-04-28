@@ -1,7 +1,7 @@
 # header: 
 #   title: Al027 Ig resonance data
 #   source: Resonancetables
-#   date: 2026-04-12
+#   date: 2026-04-28
 # target: 
 #   Z: 13
 #   A: 27
@@ -9,9 +9,9 @@
 # reaction: 
 #   type: Ig
 #   parameters: 
-#   selected value [eV]:  1.610000E-01
-#   selected value uncertainty [eV]:  1.000000E-03
-#   selected value source: Kayzero
+#   selected value [eV]:  1.250000E-01
+#   selected value uncertainty [eV]:  6.000000E-03
+#   selected value source: Mughabghab-2018
 #   number of values: 19
 #   average value [b]:  1.451882E-01
 #   relative standard deviation [%]:     26.207785
@@ -24,9 +24,9 @@
 #     entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Sukhoruchkin            Compilation          2015        1.310000E-01   9.000000E-03                      0.813665
-      Kayzero                 Compilation          2018        1.610000E-01   1.000000E-03                      1.000000
-      Mughabghab-2018         Compilation          2018        1.250000E-01   6.000000E-03                      0.776398
+      Sukhoruchkin            Compilation          2015        1.310000E-01   9.000000E-03                      1.048000
+      Kayzero                 Compilation          2018        1.610000E-01   1.000000E-03                      1.288000
+      Mughabghab-2018         Compilation          2018        1.250000E-01   6.000000E-03                      1.000000
 #   quantity: 
 #     type: EXFOR
 #     average value:  1.546364E-01
@@ -36,17 +36,17 @@
 #     entries: 11
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      S.P.Harris              EXFOR                1950        1.400000E-01   0.000000E+00      11343-003       0.869565
-      R.L.Macklin             EXFOR                1955        1.800000E-01   0.000000E+00      14388-005       1.118012
-      R.L.Macklin             EXFOR                1955        1.600000E-01   0.000000E+00      14388-005       0.993789
-      R.B.Tattersall          EXFOR                1960        8.000000E-02   0.000000E+00      20638-005       0.496894
-      T.B.Ryves               EXFOR                1970        6.600000E-02   0.000000E+00      20789-005       0.409938
-      L.Breitenhuber          EXFOR                1970        1.780000E-01   8.900000E-03      20029-002       1.105590
-      R.Van Der Linden        EXFOR                1972        2.450000E-01   5.000000E-03      20643-005       1.521739
-      G.Gleason               EXFOR                1975        1.550000E-01   1.000000E-02      10644-007       0.962733
-      E.M.Gryntakis           EXFOR                1976        1.750000E-01   5.000000E-03      20625-005       1.086957
-      L.Sage                  EXFOR                1976        1.790000E-01   7.060000E-02      10637-004       1.111801
-      R.E.Heft                EXFOR                1978        1.430000E-01   1.000000E-02      12866-007       0.888199
+      S.P.Harris              EXFOR                1950        1.400000E-01   0.000000E+00      11343-003       1.120000
+      R.L.Macklin             EXFOR                1955        1.800000E-01   0.000000E+00      14388-005       1.440000
+      R.L.Macklin             EXFOR                1955        1.600000E-01   0.000000E+00      14388-005       1.280000
+      R.B.Tattersall          EXFOR                1960        8.000000E-02   0.000000E+00      20638-005       0.640000
+      T.B.Ryves               EXFOR                1970        6.600000E-02   0.000000E+00      20789-005       0.528000
+      L.Breitenhuber          EXFOR                1970        1.780000E-01   8.900000E-03      20029-002       1.424000
+      R.Van Der Linden        EXFOR                1972        2.450000E-01   5.000000E-03      20643-005       1.960000
+      G.Gleason               EXFOR                1975        1.550000E-01   1.000000E-02      10644-007       1.240000
+      E.M.Gryntakis           EXFOR                1976        1.750000E-01   5.000000E-03      20625-005       1.400000
+      L.Sage                  EXFOR                1976        1.790000E-01   7.060000E-02      10637-004       1.432000
+      R.E.Heft                EXFOR                1978        1.430000E-01   1.000000E-02      12866-007       1.144000
 #   quantity: 
 #     type: Nuclear data library
 #     average value:  1.281150E-01
@@ -56,8 +56,8 @@
 #     entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      cendl3.2                NDL                  2019        1.296630E-01   0.000000E+00                      0.805360
-      jendl5.0                NDL                  2021        1.223050E-01   0.000000E+00                      0.759658
-      endfb8.1                NDL                  2024        1.296810E-01   0.000000E+00                      0.805472
-      tendl.2025              NDL                  2025        1.295830E-01   0.000000E+00                      0.804863
-      jeff4.0                 NDL                  2025        1.293430E-01   0.000000E+00                      0.803373
+      cendl3.2                NDL                  2019        1.296630E-01   0.000000E+00                      1.037304
+      jendl5.0                NDL                  2021        1.223050E-01   0.000000E+00                      0.978440
+      endfb8.1                NDL                  2024        1.296810E-01   0.000000E+00                      1.037448
+      tendl.2025              NDL                  2025        1.295830E-01   0.000000E+00                      1.036664
+      jeff4.0                 NDL                  2025        1.293430E-01   0.000000E+00                      1.034744

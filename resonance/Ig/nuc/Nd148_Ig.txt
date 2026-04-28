@@ -1,7 +1,7 @@
 # header: 
 #   title: Nd148 Ig resonance data
 #   source: Resonancetables
-#   date: 2026-04-12
+#   date: 2026-04-28
 # target: 
 #   Z: 60
 #   A: 148
@@ -9,9 +9,9 @@
 # reaction: 
 #   type: Ig
 #   parameters: 
-#   selected value [eV]:  1.253000E+01
-#   selected value uncertainty [eV]:  4.200000E-01
-#   selected value source: Kayzero
+#   selected value [eV]:  1.430000E+01
+#   selected value uncertainty [eV]:  1.300000E+00
+#   selected value source: Mughabghab-2018
 #   number of values: 18
 #   average value [b]:  1.420667E+01
 #   relative standard deviation [%]:     13.636793
@@ -24,9 +24,9 @@
 #     entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Sukhoruchkin            Compilation          2015        1.600000E+01   1.500000E+00                      1.276935
-      Kayzero                 Compilation          2018        1.253000E+01   4.200000E-01                      1.000000
-      Mughabghab-2018         Compilation          2018        1.430000E+01   1.300000E+00                      1.141261
+      Sukhoruchkin            Compilation          2015        1.600000E+01   1.500000E+00                      1.118881
+      Kayzero                 Compilation          2018        1.253000E+01   4.200000E-01                      0.876224
+      Mughabghab-2018         Compilation          2018        1.430000E+01   1.300000E+00                      1.000000
 #   quantity: 
 #     type: EXFOR
 #     average value:  1.388700E+01
@@ -36,16 +36,16 @@
 #     entries: 10
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      C.P.Ruiz                EXFOR                1964        1.870000E+01   5.000000E-01      12049-002       1.492418
-      J.Alstad                EXFOR                1967        1.400000E+01   2.000000E+00      20044-009       1.117319
-      M.D.Ricabarra           EXFOR                1973        1.050000E+01   9.000000E-01      30239-006       0.837989
-      M.D.Ricabarra           EXFOR                1973        1.170000E+01   1.000000E+00      30239-003       0.933759
-      R.Van Der Linden        EXFOR                1974        1.400000E+01   0.000000E+00      20645-020       1.117319
-      E.Steinnes              EXFOR                1975        1.410000E+01   1.300000E+00      20635-003       1.125299
-      E.M.Gryntakis           EXFOR                1976        1.377000E+01   1.000000E+00      20625-021       1.098963
-      R.E.Heft                EXFOR                1978        1.650000E+01   3.000000E+00      12866-139       1.316840
-      D.P.Barry               EXFOR                2006        1.100000E+01   2.000000E-01      14093-012       0.877893
-      M.Karadag               EXFOR                2014        1.460000E+01   1.300000E+00      23202-005       1.165204
+      C.P.Ruiz                EXFOR                1964        1.870000E+01   5.000000E-01      12049-002       1.307692
+      J.Alstad                EXFOR                1967        1.400000E+01   2.000000E+00      20044-009       0.979021
+      M.D.Ricabarra           EXFOR                1973        1.050000E+01   9.000000E-01      30239-006       0.734266
+      M.D.Ricabarra           EXFOR                1973        1.170000E+01   1.000000E+00      30239-003       0.818182
+      R.Van Der Linden        EXFOR                1974        1.400000E+01   0.000000E+00      20645-020       0.979021
+      E.Steinnes              EXFOR                1975        1.410000E+01   1.300000E+00      20635-003       0.986014
+      E.M.Gryntakis           EXFOR                1976        1.377000E+01   1.000000E+00      20625-021       0.962937
+      R.E.Heft                EXFOR                1978        1.650000E+01   3.000000E+00      12866-139       1.153846
+      D.P.Barry               EXFOR                2006        1.100000E+01   2.000000E-01      14093-012       0.769231
+      M.Karadag               EXFOR                2014        1.460000E+01   1.300000E+00      23202-005       1.020979
 #   quantity: 
 #     type: Nuclear data library
 #     average value:  1.480400E+01
@@ -55,8 +55,8 @@
 #     entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      cendl3.2                NDL                  2019        1.388480E+01   0.000000E+00                      1.108124
-      jendl5.0                NDL                  2021        1.384980E+01   0.000000E+00                      1.105331
-      endfb8.1                NDL                  2024        1.606940E+01   0.000000E+00                      1.282474
-      tendl.2025              NDL                  2025        1.510010E+01   0.000000E+00                      1.205116
-      jeff4.0                 NDL                  2025        1.511590E+01   0.000000E+00                      1.206377
+      cendl3.2                NDL                  2019        1.388480E+01   0.000000E+00                      0.970965
+      jendl5.0                NDL                  2021        1.384980E+01   0.000000E+00                      0.968517
+      endfb8.1                NDL                  2024        1.606940E+01   0.000000E+00                      1.123734
+      tendl.2025              NDL                  2025        1.510010E+01   0.000000E+00                      1.055951
+      jeff4.0                 NDL                  2025        1.511590E+01   0.000000E+00                      1.057056

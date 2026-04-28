@@ -1,7 +1,7 @@
 # header: 
 #   title: Zn064 Ig resonance data
 #   source: Resonancetables
-#   date: 2026-04-12
+#   date: 2026-04-28
 # target: 
 #   Z: 30
 #   A: 64
@@ -9,9 +9,9 @@
 # reaction: 
 #   type: Ig
 #   parameters: 
-#   selected value [eV]:  1.420000E+00
-#   selected value uncertainty [eV]:  7.000000E-02
-#   selected value source: Kayzero
+#   selected value [eV]:  1.370000E+00
+#   selected value uncertainty [eV]:  6.000000E-02
+#   selected value source: Mughabghab-2018
 #   number of values: 18
 #   average value [b]:  1.377802E+00
 #   relative standard deviation [%]:     19.712311
@@ -24,9 +24,9 @@
 #     entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Sukhoruchkin            Compilation          2015        1.420000E+00   6.000000E-02                      1.000000
-      Kayzero                 Compilation          2018        1.420000E+00   7.000000E-02                      1.000000
-      Mughabghab-2018         Compilation          2018        1.370000E+00   6.000000E-02                      0.964789
+      Sukhoruchkin            Compilation          2015        1.420000E+00   6.000000E-02                      1.036496
+      Kayzero                 Compilation          2018        1.420000E+00   7.000000E-02                      1.036496
+      Mughabghab-2018         Compilation          2018        1.370000E+00   6.000000E-02                      1.000000
 #   quantity: 
 #     type: EXFOR
 #     average value:  1.355000E+00
@@ -36,16 +36,16 @@
 #     entries: 10
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      D.Brune                 EXFOR                1963        6.700000E-01   1.400000E-01      20050-003       0.471831
-      G.H.E.Sims              EXFOR                1967        1.340000E+00   6.000000E-02      11813-004       0.943662
-      J.I.Kim                 EXFOR                1968        1.100000E+00   5.000000E-02      20656-005       0.774648
-      M.D.Ricabarra           EXFOR                1969        8.600000E-01   9.000000E-02      30128-002       0.605634
-      R.Van Der Linden        EXFOR                1972        1.800000E+00   1.000000E-01      20643-020       1.267606
-      E.Steinnes              EXFOR                1972        1.430000E+00   1.000000E-01      20188-007       1.007042
-      G.Gleason               EXFOR                1975        1.730000E+00   8.000000E-02      10644-024       1.218310
-      R.E.Heft                EXFOR                1978        1.400000E+00   3.000000E-02      12866-035       0.985915
-      K.S.Krane               EXFOR                2017        1.440000E+00   5.000000E-02      14468-003       1.014085
-      K.S.Krane               EXFOR                2017        1.780000E+00   7.000000E-02      14468-003       1.253521
+      D.Brune                 EXFOR                1963        6.700000E-01   1.400000E-01      20050-003       0.489051
+      G.H.E.Sims              EXFOR                1967        1.340000E+00   6.000000E-02      11813-004       0.978102
+      J.I.Kim                 EXFOR                1968        1.100000E+00   5.000000E-02      20656-005       0.802920
+      M.D.Ricabarra           EXFOR                1969        8.600000E-01   9.000000E-02      30128-002       0.627737
+      R.Van Der Linden        EXFOR                1972        1.800000E+00   1.000000E-01      20643-020       1.313869
+      E.Steinnes              EXFOR                1972        1.430000E+00   1.000000E-01      20188-007       1.043796
+      G.Gleason               EXFOR                1975        1.730000E+00   8.000000E-02      10644-024       1.262774
+      R.E.Heft                EXFOR                1978        1.400000E+00   3.000000E-02      12866-035       1.021898
+      K.S.Krane               EXFOR                2017        1.440000E+00   5.000000E-02      14468-003       1.051095
+      K.S.Krane               EXFOR                2017        1.780000E+00   7.000000E-02      14468-003       1.299270
 #   quantity: 
 #     type: Nuclear data library
 #     average value:  1.408086E+00
@@ -55,8 +55,8 @@
 #     entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      cendl3.2                NDL                  2019        1.417300E+00   0.000000E+00                      0.998099
-      jendl5.0                NDL                  2021        1.419040E+00   0.000000E+00                      0.999324
-      endfb8.1                NDL                  2024        1.416920E+00   0.000000E+00                      0.997831
-      tendl.2025              NDL                  2025        1.392230E+00   0.000000E+00                      0.980444
-      jeff4.0                 NDL                  2025        1.394940E+00   0.000000E+00                      0.982352
+      cendl3.2                NDL                  2019        1.417300E+00   0.000000E+00                      1.034526
+      jendl5.0                NDL                  2021        1.419040E+00   0.000000E+00                      1.035796
+      endfb8.1                NDL                  2024        1.416920E+00   0.000000E+00                      1.034248
+      tendl.2025              NDL                  2025        1.392230E+00   0.000000E+00                      1.016226
+      jeff4.0                 NDL                  2025        1.394940E+00   0.000000E+00                      1.018204

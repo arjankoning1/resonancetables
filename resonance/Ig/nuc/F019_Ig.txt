@@ -1,7 +1,7 @@
 # header: 
 #   title: F019 Ig resonance data
 #   source: Resonancetables
-#   date: 2026-04-12
+#   date: 2026-04-28
 # target: 
 #   Z: 9
 #   A: 19
@@ -9,9 +9,9 @@
 # reaction: 
 #   type: Ig
 #   parameters: 
-#   selected value [eV]:  2.020000E-02
-#   selected value uncertainty [eV]:  2.000000E-04
-#   selected value source: Kayzero
+#   selected value [eV]:  1.800000E-02
+#   selected value uncertainty [eV]:  3.000000E-03
+#   selected value source: Mughabghab-2018
 #   number of values: 9
 #   average value [b]:  2.053289E-02
 #   relative standard deviation [%]:     32.516296
@@ -24,9 +24,9 @@
 #     entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Sukhoruchkin            Compilation          2015        1.640000E-02   5.000000E-04                      0.811881
-      Kayzero                 Compilation          2018        2.020000E-02   2.000000E-04                      1.000000
-      Mughabghab-2018         Compilation          2018        1.800000E-02   3.000000E-03                      0.891089
+      Sukhoruchkin            Compilation          2015        1.640000E-02   5.000000E-04                      0.911111
+      Kayzero                 Compilation          2018        2.020000E-02   2.000000E-04                      1.122222
+      Mughabghab-2018         Compilation          2018        1.800000E-02   3.000000E-03                      1.000000
 #   quantity: 
 #     type: EXFOR
 #     average value:  3.900000E-02
@@ -36,7 +36,7 @@
 #     entries: 1
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      R.Van Der Linden        EXFOR                1972        3.900000E-02   1.000000E-03      20643-002       1.930693
+      R.Van Der Linden        EXFOR                1972        3.900000E-02   1.000000E-03      20643-002       2.166667
 #   quantity: 
 #     type: Nuclear data library
 #     average value:  1.823920E-02
@@ -46,8 +46,8 @@
 #     entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      cendl3.2                NDL                  2019        1.620850E-02   0.000000E+00                      0.802401
-      jendl5.0                NDL                  2021        1.939630E-02   0.000000E+00                      0.960213
-      endfb8.1                NDL                  2024        1.939850E-02   0.000000E+00                      0.960322
-      tendl.2025              NDL                  2025        1.679420E-02   0.000000E+00                      0.831396
-      jeff4.0                 NDL                  2025        1.939850E-02   0.000000E+00                      0.960322
+      cendl3.2                NDL                  2019        1.620850E-02   0.000000E+00                      0.900472
+      jendl5.0                NDL                  2021        1.939630E-02   0.000000E+00                      1.077572
+      endfb8.1                NDL                  2024        1.939850E-02   0.000000E+00                      1.077694
+      tendl.2025              NDL                  2025        1.679420E-02   0.000000E+00                      0.933011
+      jeff4.0                 NDL                  2025        1.939850E-02   0.000000E+00                      1.077694

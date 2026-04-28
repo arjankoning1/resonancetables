@@ -5,7 +5,7 @@ subroutine procthermal(Z, A, Liso)
 !
 ! Revision    Date      Author      Quality  Description
 ! ======================================================
-!    1     2025-08-10   A.J. Koning    A     Original code
+!    1     2026-04-28   A.J. Koning    A     Original code
 !-----------------------------------------------------------------------------------------------------------------------------------
 !
 ! *** Use data from other modules
@@ -193,17 +193,17 @@ subroutine procthermal(Z, A, Liso)
   N = Nres
 !
 ! Final dataset
-! Rule for xs: Kayzero > Mughabghab 2018 > Sukhoruchkin 2015 > Mughabghab 2006 > RIPL-3 > Firestone > EXFOR
+! Rule for xs: Mughabghab 2018 > Kayzero > Sukhoruchkin 2015 > Mughabghab 2006 > RIPL-3 > Firestone > EXFOR
 !
   Loop1:  do
     do i = 1, N
-      if (res_author(i) == 'Kayzero') then
+      if (res_author(i) == 'Mughabghab-2018') then
         Nsel = i
         exit Loop1
       endif
     enddo
     do i = 1, N
-      if (res_author(i) == 'Mughabghab-2018') then
+      if (res_author(i) == 'Kayzero') then
         Nsel = i
         exit Loop1
       endif

@@ -1,7 +1,7 @@
 # header: 
 #   title: Yb174(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2026-04-12
+#   date: 2026-04-28
 # target: 
 #   Z: 70
 #   A: 174
@@ -9,9 +9,9 @@
 # reaction: 
 #   type: (n,g)
 # observables: 
-#   selected value [b]:  6.219000E+01
-#   selected value uncertainty [b]:  1.480000E+00
-#   selected value source: Kayzero
+#   selected value [b]:  6.320000E+01
+#   selected value uncertainty [b]:  1.500000E+00
+#   selected value source: Mughabghab-2018
 #   number of values: 22
 #   average value [b]:  7.917754E+01
 #   relative standard deviation [%]:     38.874115
@@ -24,10 +24,10 @@
 #     entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      RIPL-3                  Compilation          2004        1.200000E+02   1.000000E+01                      1.929571                  2.530000E-08
-      Sukhoruchkin            Compilation          2015        6.320000E+01   1.500000E+00                      1.016241                  2.530000E-08
-      Kayzero                 Compilation          2018        6.219000E+01   1.480000E+00                      1.000000                  2.530000E-08
-      Mughabghab-2018         Compilation          2018        6.320000E+01   1.500000E+00                      1.016241                  2.530000E-08
+      RIPL-3                  Compilation          2004        1.200000E+02   1.000000E+01                      1.898734                  2.530000E-08
+      Sukhoruchkin            Compilation          2015        6.320000E+01   1.500000E+00                      1.000000                  2.530000E-08
+      Kayzero                 Compilation          2018        6.219000E+01   1.480000E+00                      0.984019                  2.530000E-08
+      Mughabghab-2018         Compilation          2018        6.320000E+01   1.500000E+00                      1.000000                  2.530000E-08
 #   quantity: 
 #     type: EXFOR
 #     average value:  8.594445E+01
@@ -37,15 +37,15 @@
 #     entries: 9
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      G.H.E.Sims              EXFOR                1970        1.410000E+02   0.000000E+00   10608-015-0        2.267246                  2.530000E-08
-      F.De Corte              EXFOR                1988        1.280000E+02   7.680000E+00   23488-077-0        2.058209                  2.530000E-08
-      M.Karadag               EXFOR                2008        1.265000E+02   6.600000E+00   23025-002-0        2.034089                  2.500000E-08
-      F.Farina Arbocco        EXFOR                2014        6.220000E+01   0.000000E+00   23260-128-0        1.000161                  2.530000E-08
-      F.Farina Arbocco        EXFOR                2014        6.340000E+01   0.000000E+00   23260-128-0        1.019457                  2.530000E-08
-      F.Farina Arbocco        EXFOR                2014        6.290000E+01   0.000000E+00   23260-128-0        1.011417                  2.530000E-08
-      F.Farina Arbocco        EXFOR                2014        6.320000E+01   0.000000E+00   23260-128-0        1.016241                  2.530000E-08
-      F.Farina Arbocco        EXFOR                2014        6.330000E+01   0.000000E+00   23260-128-0        1.017848                  2.530000E-08
-      F.Farina Arbocco        EXFOR                2014        6.300000E+01   5.000000E-01   23260-127-0        1.013025                  2.530000E-08
+      G.H.E.Sims              EXFOR                1970        1.410000E+02   0.000000E+00   10608-015-0        2.231013                  2.530000E-08
+      F.De Corte              EXFOR                1988        1.280000E+02   7.680000E+00   23488-077-0        2.025316                  2.530000E-08
+      M.Karadag               EXFOR                2008        1.265000E+02   6.600000E+00   23025-002-0        2.001582                  2.500000E-08
+      F.Farina Arbocco        EXFOR                2014        6.220000E+01   0.000000E+00   23260-128-0        0.984177                  2.530000E-08
+      F.Farina Arbocco        EXFOR                2014        6.340000E+01   0.000000E+00   23260-128-0        1.003165                  2.530000E-08
+      F.Farina Arbocco        EXFOR                2014        6.290000E+01   0.000000E+00   23260-128-0        0.995253                  2.530000E-08
+      F.Farina Arbocco        EXFOR                2014        6.320000E+01   0.000000E+00   23260-128-0        1.000000                  2.530000E-08
+      F.Farina Arbocco        EXFOR                2014        6.330000E+01   0.000000E+00   23260-128-0        1.001582                  2.530000E-08
+      F.Farina Arbocco        EXFOR                2014        6.300000E+01   5.000000E-01   23260-127-0        0.996835                  2.530000E-08
 #   quantity: 
 #     type: EXFOR spectrum-averaged
 #     average value:  8.140000E+01
@@ -55,11 +55,11 @@
 #     entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      W.H.Walker              EXFOR                1956        7.200000E+01   6.000000E+00   12127-025-0        1.157742   SPA            2.530000E-08
-      K.F.Alexander           EXFOR                1963        4.600000E+01   4.000000E+00   31003-008-0        0.739669   MXW            2.530000E-08
-      G.H.E.Sims              EXFOR                1970        1.410000E+02   0.000000E+00   10608-014-0        2.267246   MXW            2.530000E-08
-      J.Alstad                EXFOR                1972        4.000000E+01   1.500000E+00   20094-006-0        0.643190   MXW            2.530000E-08
-      R.E.Heft                EXFOR                1978        1.080000E+02   4.000000E+00   12866-168-0        1.736614   SPA            2.500000E-08
+      W.H.Walker              EXFOR                1956        7.200000E+01   6.000000E+00   12127-025-0        1.139241   SPA            2.530000E-08
+      K.F.Alexander           EXFOR                1963        4.600000E+01   4.000000E+00   31003-008-0        0.727848   MXW            2.530000E-08
+      G.H.E.Sims              EXFOR                1970        1.410000E+02   0.000000E+00   10608-014-0        2.231013   MXW            2.530000E-08
+      J.Alstad                EXFOR                1972        4.000000E+01   1.500000E+00   20094-006-0        0.632911   MXW            2.530000E-08
+      R.E.Heft                EXFOR                1978        1.080000E+02   4.000000E+00   12866-168-0        1.708861   SPA            2.500000E-08
 #   quantity: 
 #     type: Nuclear data library
 #     average value:  6.320403E+01
@@ -69,7 +69,7 @@
 #     entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
-      jendl5.0                NDL                  2021        6.319490E+01   0.000000E+00                      1.016159                  2.530000E-08   9.990700E-01
-      endfb8.1                NDL                  2024        6.319490E+01   0.000000E+00                      1.016159                  2.530000E-08   9.990700E-01
-      tendl.2025              NDL                  2025        6.321300E+01   0.000000E+00                      1.016450                  2.530000E-08   9.990700E-01
-      jeff4.0                 NDL                  2025        6.321330E+01   0.000000E+00                      1.016454                  2.530000E-08   9.990700E-01
+      jendl5.0                NDL                  2021        6.319490E+01   0.000000E+00                      0.999919                  2.530000E-08   9.990700E-01
+      endfb8.1                NDL                  2024        6.319490E+01   0.000000E+00                      0.999919                  2.530000E-08   9.990700E-01
+      tendl.2025              NDL                  2025        6.321300E+01   0.000000E+00                      1.000206                  2.530000E-08   9.990700E-01
+      jeff4.0                 NDL                  2025        6.321330E+01   0.000000E+00                      1.000210                  2.530000E-08   9.990700E-01

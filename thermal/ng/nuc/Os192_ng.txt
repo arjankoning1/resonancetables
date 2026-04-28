@@ -1,7 +1,7 @@
 # header: 
 #   title: Os192(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2026-04-12
+#   date: 2026-04-28
 # target: 
 #   Z: 76
 #   A: 192
@@ -9,9 +9,9 @@
 # reaction: 
 #   type: (n,g)
 # observables: 
-#   selected value [b]:  3.190000E+00
+#   selected value [b]:  3.160000E+00
 #   selected value uncertainty [b]:  1.600000E-01
-#   selected value source: Kayzero
+#   selected value source: Mughabghab-2018
 #   number of values: 9
 #   average value [b]:  3.127280E+00
 #   relative standard deviation [%]:      1.643121
@@ -24,11 +24,11 @@
 #     entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      RIPL-3                  Compilation          2004        3.000000E+00   1.000000E-01                      0.940439                  2.530000E-08
-      Mughabghab-2006         Compilation          2006        3.120000E+00   1.600000E-01                      0.978056                  2.530000E-08
-      Sukhoruchkin            Compilation          2015        3.120000E+00   1.600000E-01                      0.978056                  2.530000E-08
-      Kayzero                 Compilation          2018        3.190000E+00   1.600000E-01                      1.000000                  2.530000E-08
-      Mughabghab-2018         Compilation          2018        3.160000E+00   1.600000E-01                      0.990596                  2.530000E-08
+      RIPL-3                  Compilation          2004        3.000000E+00   1.000000E-01                      0.949367                  2.530000E-08
+      Mughabghab-2006         Compilation          2006        3.120000E+00   1.600000E-01                      0.987342                  2.530000E-08
+      Sukhoruchkin            Compilation          2015        3.120000E+00   1.600000E-01                      0.987342                  2.530000E-08
+      Kayzero                 Compilation          2018        3.190000E+00   1.600000E-01                      1.009494                  2.530000E-08
+      Mughabghab-2018         Compilation          2018        3.160000E+00   1.600000E-01                      1.000000                  2.530000E-08
 #   quantity: 
 #     type: Nuclear data library
 #     average value:  3.138880E+00
@@ -38,7 +38,7 @@
 #     entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
-      jendl5.0                NDL                  2021        3.117000E+00   0.000000E+00                      0.977116                  2.530000E-08   9.997900E-01
-      endfb8.1                NDL                  2024        3.117000E+00   0.000000E+00                      0.977116                  2.530000E-08   9.997900E-01
-      tendl.2025              NDL                  2025        3.160760E+00   0.000000E+00                      0.990834                  2.530000E-08   9.998100E-01
-      jeff4.0                 NDL                  2025        3.160760E+00   0.000000E+00                      0.990834                  2.530000E-08   9.998100E-01
+      jendl5.0                NDL                  2021        3.117000E+00   0.000000E+00                      0.986392                  2.530000E-08   9.997900E-01
+      endfb8.1                NDL                  2024        3.117000E+00   0.000000E+00                      0.986392                  2.530000E-08   9.997900E-01
+      tendl.2025              NDL                  2025        3.160760E+00   0.000000E+00                      1.000240                  2.530000E-08   9.998100E-01
+      jeff4.0                 NDL                  2025        3.160760E+00   0.000000E+00                      1.000240                  2.530000E-08   9.998100E-01

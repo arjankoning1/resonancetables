@@ -1,7 +1,7 @@
 # header: 
 #   title: Sr084(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2026-04-12
+#   date: 2026-04-28
 # target: 
 #   Z: 38
 #   A: 84
@@ -9,9 +9,9 @@
 # reaction: 
 #   type: (n,g)
 # observables: 
-#   selected value [b]:  7.140000E-01
-#   selected value uncertainty [b]:  1.400000E-02
-#   selected value source: Kayzero
+#   selected value [b]:  8.520000E-01
+#   selected value uncertainty [b]:  1.000000E-01
+#   selected value source: Mughabghab-2018
 #   number of values: 9
 #   average value [b]:  8.179671E-01
 #   relative standard deviation [%]:      4.948202
@@ -24,9 +24,9 @@
 #     entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      RIPL-3                  Compilation          2004        8.000000E-01   7.000000E-02                      1.120448                  2.530000E-08
-      Kayzero                 Compilation          2018        7.140000E-01   1.400000E-02                      1.000000                  2.530000E-08
-      Mughabghab-2018         Compilation          2018        8.520000E-01   1.000000E-01                      1.193277                  2.530000E-08
+      RIPL-3                  Compilation          2004        8.000000E-01   7.000000E-02                      0.938967                  2.530000E-08
+      Kayzero                 Compilation          2018        7.140000E-01   1.400000E-02                      0.838028                  2.530000E-08
+      Mughabghab-2018         Compilation          2018        8.520000E-01   1.000000E-01                      1.000000                  2.530000E-08
 #   quantity: 
 #     type: Compilation spectrum-averaged
 #     average value:  8.210000E-01
@@ -36,8 +36,8 @@
 #     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      Mughabghab-2006         Compilation          2006        8.220000E-01   1.200000E-01                      1.151261   MXW            2.530000E-08
-      Sukhoruchkin            Compilation          2015        8.200000E-01   1.200000E-01                      1.148459   MXW            2.530000E-08
+      Mughabghab-2006         Compilation          2006        8.220000E-01   1.200000E-01                      0.964789   MXW            2.530000E-08
+      Sukhoruchkin            Compilation          2015        8.200000E-01   1.200000E-01                      0.962441   MXW            2.530000E-08
 #   quantity: 
 #     type: Nuclear data library
 #     average value:  8.384260E-01
@@ -47,7 +47,7 @@
 #     entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
-      jendl5.0                NDL                  2021        8.275620E-01   0.000000E+00                      1.159050                  2.530000E-08   1.000060E+00
-      endfb8.1                NDL                  2024        8.220270E-01   0.000000E+00                      1.151298                  2.530000E-08   1.000060E+00
-      tendl.2025              NDL                  2025        8.516570E-01   0.000000E+00                      1.192797                  2.530000E-08   1.000050E+00
-      jeff4.0                 NDL                  2025        8.524580E-01   0.000000E+00                      1.193919                  2.530000E-08   9.998700E-01
+      jendl5.0                NDL                  2021        8.275620E-01   0.000000E+00                      0.971317                  2.530000E-08   1.000060E+00
+      endfb8.1                NDL                  2024        8.220270E-01   0.000000E+00                      0.964820                  2.530000E-08   1.000060E+00
+      tendl.2025              NDL                  2025        8.516570E-01   0.000000E+00                      0.999597                  2.530000E-08   1.000050E+00
+      jeff4.0                 NDL                  2025        8.524580E-01   0.000000E+00                      1.000538                  2.530000E-08   9.998700E-01

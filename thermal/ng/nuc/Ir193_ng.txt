@@ -1,7 +1,7 @@
 # header: 
 #   title: Ir193(n,g) thermal cross section
 #   source: Resonancetables
-#   date: 2026-04-12
+#   date: 2026-04-28
 # target: 
 #   Z: 77
 #   A: 193
@@ -9,9 +9,9 @@
 # reaction: 
 #   type: (n,g)
 # observables: 
-#   selected value [b]:  1.186000E+02
-#   selected value uncertainty [b]:  1.200000E+00
-#   selected value source: Kayzero
+#   selected value [b]:  1.110000E+02
+#   selected value uncertainty [b]:  5.000000E+00
+#   selected value source: Mughabghab-2018
 #   number of values: 9
 #   average value [b]:  1.004522E+02
 #   relative standard deviation [%]:     34.405708
@@ -24,11 +24,11 @@
 #     entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]
-      RIPL-3                  Compilation          2004        1.160000E+02   5.000000E+00                      0.978078                  2.530000E-08
-      Mughabghab-2006         Compilation          2006        1.110000E+02   5.000000E+00                      0.935919                  2.530000E-08
-      Sukhoruchkin            Compilation          2015        1.110000E+02   5.000000E+00                      0.935919                  2.530000E-08
-      Kayzero                 Compilation          2018        1.186000E+02   1.200000E+00                      1.000000                  2.530000E-08
-      Mughabghab-2018         Compilation          2018        1.110000E+02   5.000000E+00                      0.935919                  2.530000E-08
+      RIPL-3                  Compilation          2004        1.160000E+02   5.000000E+00                      1.045045                  2.530000E-08
+      Mughabghab-2006         Compilation          2006        1.110000E+02   5.000000E+00                      1.000000                  2.530000E-08
+      Sukhoruchkin            Compilation          2015        1.110000E+02   5.000000E+00                      1.000000                  2.530000E-08
+      Kayzero                 Compilation          2018        1.186000E+02   1.200000E+00                      1.068468                  2.530000E-08
+      Mughabghab-2018         Compilation          2018        1.110000E+02   5.000000E+00                      1.000000                  2.530000E-08
 #   quantity: 
 #     type: Nuclear data library
 #     average value:  8.411744E+01
@@ -38,7 +38,7 @@
 #     entries: 4
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio        Spectrum        Energy        G-factor
 ##      []             []             []             []             [b]            [b]            []             []             []            [MeV]           []
-      jendl5.0                NDL                  2021        2.977740E+00   0.000000E+00                      0.025107                  2.530000E-08   1.000060E+00
-      endfb8.1                NDL                  2024        1.111440E+02   0.000000E+00                      0.937133                  2.530000E-08   1.017400E+00
-      tendl.2025              NDL                  2025        1.111740E+02   0.000000E+00                      0.937386                  2.530000E-08   1.017400E+00
-      jeff4.0                 NDL                  2025        1.111740E+02   0.000000E+00                      0.937386                  2.530000E-08   1.017400E+00
+      jendl5.0                NDL                  2021        2.977740E+00   0.000000E+00                      0.026826                  2.530000E-08   1.000060E+00
+      endfb8.1                NDL                  2024        1.111440E+02   0.000000E+00                      1.001297                  2.530000E-08   1.017400E+00
+      tendl.2025              NDL                  2025        1.111740E+02   0.000000E+00                      1.001568                  2.530000E-08   1.017400E+00
+      jeff4.0                 NDL                  2025        1.111740E+02   0.000000E+00                      1.001568                  2.530000E-08   1.017400E+00

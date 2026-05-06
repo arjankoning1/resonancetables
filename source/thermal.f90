@@ -49,7 +49,7 @@ subroutine thermal
               if (Liso == 1) targetnuclide = trim(targetnuclide)//'m'
               if (Liso == 2) targetnuclide = trim(targetnuclide)//'n'
               call readthermal(Z, A, Liso, Riso, type)
-              if (res_exist) call procthermal(Z, A, Liso)
+              if (res_exist) call procthermal(Z, A, Liso, type)
               if (res_exist) call writethermal(Z, A, Liso, Riso, type)
             enddo
           endif

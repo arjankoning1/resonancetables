@@ -1,11 +1,11 @@
-subroutine procthermal(Z, A, Liso)
+subroutine procthermal(Z, A, Liso, type)
 !
 !-----------------------------------------------------------------------------------------------------------------------------------
 ! Purpose: Process thermal cross section data
 !
 ! Revision    Date      Author      Quality  Description
 ! ======================================================
-!    1     2026-04-28   A.J. Koning    A     Original code
+!    1     2026-04-29   A.J. Koning    A     Original code
 !-----------------------------------------------------------------------------------------------------------------------------------
 !
 ! *** Use data from other modules
@@ -28,6 +28,7 @@ subroutine procthermal(Z, A, Liso)
   integer            :: iz
   integer            :: ia
   integer            :: istat
+  integer            :: type 
   integer            :: i             ! counter
   integer            :: j             ! counter
   integer            :: Nsel          ! counter
@@ -193,17 +194,11 @@ subroutine procthermal(Z, A, Liso)
   N = Nres
 !
 ! Final dataset
-! Rule for xs: Mughabghab 2018 > Kayzero > Sukhoruchkin 2015 > Mughabghab 2006 > RIPL-3 > Firestone > EXFOR
+! Rule for xs: Mughabghab 2018 > Sukhoruchkin 2015 > Mughabghab 2006 > Kayzero > RIPL-3 > Firestone > EXFOR
 !
   Loop1:  do
     do i = 1, N
       if (res_author(i) == 'Mughabghab-2018') then
-        Nsel = i
-        exit Loop1
-      endif
-    enddo
-    do i = 1, N
-      if (res_author(i) == 'Kayzero') then
         Nsel = i
         exit Loop1
       endif
@@ -216,6 +211,12 @@ subroutine procthermal(Z, A, Liso)
     enddo
     do i = 1, N
       if (res_author(i) == 'Mughabghab-2006') then
+        Nsel = i
+        exit Loop1
+      endif
+    enddo
+    do i = 1, N
+      if (res_author(i) == 'Kayzero') then
         Nsel = i
         exit Loop1
       endif
@@ -238,22 +239,26 @@ subroutine procthermal(Z, A, Liso)
 !
 ! Overrule rule by specific cases
 !
-  thermfile = trim(filespath)//'thermal_koning.ng'
-  open (unit = 2, status = 'old', file = thermfile)
-  do
-    read(2,'(2i4, 1x, a)', iostat = istat) iz, ia, thermchoice
-    if (istat == -1) exit
-    if (istat > 0) call read_error(thermfile, istat)
-    if (iz == Z .and. ia == A) then
-      do i = 1, N
-        if (trim(res_author(i)) == trim(thermchoice)) then
-          Nsel = i
-          exit
-        endif
-      enddo
-    endif
-  enddo
-  close(2)
+  if (type == 2 .or. type == 3 .or. type == 4) then
+    if (type == 2) thermfile = trim(filespath)//'thermal_koning.el'
+    if (type == 3) thermfile = trim(filespath)//'thermal_koning.nf'
+    if (type == 4) thermfile = trim(filespath)//'thermal_koning.ng'
+    open (unit = 2, status = 'old', file = thermfile)
+    do
+      read(2,'(2i4, 1x, a)', iostat = istat) iz, ia, thermchoice
+      if (istat == -1) exit
+      if (istat > 0) call read_error(thermfile, istat)
+      if (iz == Z .and. ia == A) then
+        do i = 1, N
+          if (trim(res_author(i)) == trim(thermchoice)) then
+            Nsel = i
+            exit
+          endif
+        enddo
+      endif
+    enddo
+    close(2)
+  endif
   if (Nsel > 0) then
     res_xs_sel = res_xs(Nsel)
     res_dxs_sel = res_dxs(Nsel)

@@ -1,7 +1,7 @@
 # header: 
 #   title: Gd160 Ig resonance data
 #   source: Resonancetables
-#   date: 2026-04-28
+#   date: 2026-05-13
 # target: 
 #   Z: 64
 #   A: 160
@@ -9,9 +9,9 @@
 # reaction: 
 #   type: Ig
 #   parameters: 
-#   selected value [eV]:  5.970000E+00
-#   selected value uncertainty [eV]:  9.200000E-01
-#   selected value source: Kayzero
+#   selected value [eV]:  8.200000E+00
+#   selected value uncertainty [eV]:  1.000000E+00
+#   selected value source: Sukhoruchkin
 #   number of values: 10
 #   average value [b]:  8.007271E+00
 #   relative standard deviation [%]:     29.066736
@@ -24,8 +24,8 @@
 #     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Sukhoruchkin            Compilation          2015        8.200000E+00   1.000000E+00                      1.373534
-      Kayzero                 Compilation          2018        5.970000E+00   9.200000E-01                      1.000000
+      Sukhoruchkin            Compilation          2015        8.200000E+00   1.000000E+00                      1.000000
+      Kayzero                 Compilation          2018        5.970000E+00   9.200000E-01                      0.728049
 #   quantity: 
 #     type: EXFOR
 #     average value:  6.220000E+00
@@ -35,9 +35,9 @@
 #     entries: 3
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      R.Van Der Linden        EXFOR                1974        3.700000E+00   1.700000E-01      21697-013       0.619766
-      G.Leinweber             EXFOR                2006        7.660000E+00   0.000000E+00      14110-052       1.283082
-      Y.-R.Kang               EXFOR                2015        7.300000E+00   1.000000E-01      14343-018       1.222781
+      R.Van Der Linden        EXFOR                1974        3.700000E+00   1.700000E-01      21697-013       0.451220
+      G.Leinweber             EXFOR                2006        7.660000E+00   0.000000E+00      14110-052       0.934146
+      Y.-R.Kang               EXFOR                2015        7.300000E+00   1.000000E-01      14343-018       0.890244
 #   quantity: 
 #     type: Nuclear data library
 #     average value:  9.448541E+00
@@ -47,8 +47,8 @@
 #     entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      cendl3.2                NDL                  2019        1.201000E+01   0.000000E+00                      2.011725
-      jendl5.0                NDL                  2021        1.178960E+01   0.000000E+00                      1.974808
-      endfb8.1                NDL                  2024        8.162370E+00   0.000000E+00                      1.367231
-      tendl.2025              NDL                  2025        7.947090E+00   0.000000E+00                      1.331171
-      jeff4.0                 NDL                  2025        7.333640E+00   0.000000E+00                      1.228415
+      cendl3.2                NDL                  2019        1.201000E+01   0.000000E+00                      1.464634
+      jendl5.0                NDL                  2021        1.178960E+01   0.000000E+00                      1.437756
+      endfb8.1                NDL                  2024        8.162370E+00   0.000000E+00                      0.995411
+      tendl.2025              NDL                  2025        7.947090E+00   0.000000E+00                      0.969157
+      jeff4.0                 NDL                  2025        7.333640E+00   0.000000E+00                      0.894346

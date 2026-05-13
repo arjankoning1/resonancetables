@@ -1,7 +1,7 @@
 # header: 
 #   title: Dy164 Ig resonance data
 #   source: Resonancetables
-#   date: 2026-04-28
+#   date: 2026-05-13
 # target: 
 #   Z: 66
 #   A: 164
@@ -9,9 +9,9 @@
 # reaction: 
 #   type: Ig
 #   parameters: 
-#   selected value [eV]:  4.810000E+02
-#   selected value uncertainty [eV]:  1.100000E+01
-#   selected value source: Kayzero
+#   selected value [eV]:  3.430000E+02
+#   selected value uncertainty [eV]:  2.000000E+01
+#   selected value source: Sukhoruchkin
 #   number of values: 18
 #   average value [b]:  4.584200E+02
 #   relative standard deviation [%]:     33.543037
@@ -24,8 +24,8 @@
 #     entries: 2
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      Sukhoruchkin            Compilation          2015        3.430000E+02   2.000000E+01                      0.713098
-      Kayzero                 Compilation          2018        4.810000E+02   1.100000E+01                      1.000000
+      Sukhoruchkin            Compilation          2015        3.430000E+02   2.000000E+01                      1.000000
+      Kayzero                 Compilation          2018        4.810000E+02   1.100000E+01                      1.402332
 #   quantity: 
 #     type: EXFOR
 #     average value:  5.200909E+02
@@ -35,17 +35,17 @@
 #     entries: 11
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      J.J.Scoville            EXFOR                1966        3.750000E+02   3.400000E+01      12101-013       0.779626
-      J.Alstad                EXFOR                1972        8.200000E+02   6.000000E+01      20187-009       1.704782
-      R.Van Der Linden        EXFOR                1974        4.700000E+02   2.000000E+01      21697-014       0.977131
-      R.Van Der Linden        EXFOR                1974        7.800000E+02   0.000000E+00      20645-029       1.621622
-      T.B.Ryves               EXFOR                1974        5.140000E+02   1.150000E+02      20561-011       1.068607
-      E.Steinnes              EXFOR                1975        3.350000E+02   2.700000E+01      20635-008       0.696466
-      R.E.Heft                EXFOR                1978        5.750000E+02   1.000000E+02      12866-159       1.195426
-      Hyun-Je Cho             EXFOR                2001        6.490000E+02   2.400000E+01      22862-003       1.349272
-      M.Karadag               EXFOR                2005        5.270000E+02   8.900000E+01      22891-003       1.095634
-      S.G.Shin                EXFOR                2017        3.380000E+02   8.000000E-01      14514-011       0.702703
-      R.C.Block               EXFOR                2017        3.380000E+02   1.000000E+00      14470-004       0.702703
+      J.J.Scoville            EXFOR                1966        3.750000E+02   3.400000E+01      12101-013       1.093295
+      J.Alstad                EXFOR                1972        8.200000E+02   6.000000E+01      20187-009       2.390671
+      R.Van Der Linden        EXFOR                1974        4.700000E+02   2.000000E+01      21697-014       1.370262
+      R.Van Der Linden        EXFOR                1974        7.800000E+02   0.000000E+00      20645-029       2.274052
+      T.B.Ryves               EXFOR                1974        5.140000E+02   1.150000E+02      20561-011       1.498542
+      E.Steinnes              EXFOR                1975        3.350000E+02   2.700000E+01      20635-008       0.976676
+      R.E.Heft                EXFOR                1978        5.750000E+02   1.000000E+02      12866-159       1.676385
+      Hyun-Je Cho             EXFOR                2001        6.490000E+02   2.400000E+01      22862-003       1.892128
+      M.Karadag               EXFOR                2005        5.270000E+02   8.900000E+01      22891-003       1.536443
+      S.G.Shin                EXFOR                2017        3.380000E+02   8.000000E-01      14514-011       0.985423
+      R.C.Block               EXFOR                2017        3.380000E+02   1.000000E+00      14470-004       0.985423
 #   quantity: 
 #     type: Nuclear data library
 #     average value:  3.413120E+02
@@ -55,8 +55,8 @@
 #     entries: 5
 ##    Author                         Type           Year           Value         dValue        Reference        Ratio
 ##      []             []             []             []            [eV]           [eV]            []             []
-      cendl3.2                NDL                  2019        3.423710E+02   0.000000E+00                      0.711790
-      jendl5.0                NDL                  2021        3.410200E+02   0.000000E+00                      0.708981
-      endfb8.1                NDL                  2024        3.381120E+02   0.000000E+00                      0.702936
-      tendl.2025              NDL                  2025        3.425080E+02   0.000000E+00                      0.712075
-      jeff4.0                 NDL                  2025        3.425490E+02   0.000000E+00                      0.712160
+      cendl3.2                NDL                  2019        3.423710E+02   0.000000E+00                      0.998166
+      jendl5.0                NDL                  2021        3.410200E+02   0.000000E+00                      0.994227
+      endfb8.1                NDL                  2024        3.381120E+02   0.000000E+00                      0.985749
+      tendl.2025              NDL                  2025        3.425080E+02   0.000000E+00                      0.998566
+      jeff4.0                 NDL                  2025        3.425490E+02   0.000000E+00                      0.998685

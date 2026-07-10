@@ -22,6 +22,7 @@ subroutine procthermal(Z, A, Liso, type)
   character(len=40)  :: avtmp 
   character(len=40)  :: thermchoice
   character(len=132) :: thermfile 
+  logical            :: lexist
   integer            :: Z             ! charge number
   integer            :: A             ! mass number
   integer            :: N             ! counter
@@ -243,21 +244,24 @@ subroutine procthermal(Z, A, Liso, type)
     if (type == 2) thermfile = trim(filespath)//'thermal_koning.el'
     if (type == 3) thermfile = trim(filespath)//'thermal_koning.nf'
     if (type == 4) thermfile = trim(filespath)//'thermal_koning.ng'
-    open (unit = 2, status = 'old', file = thermfile)
-    do
-      read(2,'(2i4, 1x, a)', iostat = istat) iz, ia, thermchoice
-      if (istat == -1) exit
-      if (istat > 0) call read_error(thermfile, istat)
-      if (iz == Z .and. ia == A) then
-        do i = 1, N
-          if (trim(res_author(i)) == trim(thermchoice)) then
-            Nsel = i
-            exit
-          endif
-        enddo
-      endif
-    enddo
-    close(2)
+    inquire (file = thermfile, exist = lexist)
+    if (lexist) then
+      open (unit = 2, status = 'old', file = thermfile)
+      do
+        read(2,'(2i4, 1x, a)', iostat = istat) iz, ia, thermchoice
+        if (istat == -1) exit
+        if (istat > 0) call read_error(thermfile, istat)
+        if (iz == Z .and. ia == A) then
+          do i = 1, N
+            if (trim(res_author(i)) == trim(thermchoice)) then
+              Nsel = i
+              exit
+            endif
+          enddo
+        endif
+      enddo
+      close(2)
+    endif
   endif
   if (Nsel > 0) then
     res_xs_sel = res_xs(Nsel)

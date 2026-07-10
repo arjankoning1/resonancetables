@@ -25,9 +25,15 @@ subroutine procresonance(Z, A, Liso, type)
   character(len=15)  :: jtmp
   character(len=15)  :: Ntmp
   character(len=15)  :: ptmp
+  character(len=40)  :: reschoice
+  character(len=132) :: resfile 
+  logical            :: lexist
   integer            :: Z             ! charge number
   integer            :: A             ! mass number
   integer            :: N             ! counter
+  integer            :: iz
+  integer            :: ia
+  integer            :: istat
   integer            :: i             ! counter
   integer            :: j             ! counter
   integer            :: Nsel          ! counter
@@ -249,6 +255,27 @@ Loop2:  do
       Nsel = Nres_exp
       exit Loop2
     enddo Loop2
+    if (type == 9) then
+      resfile = trim(filespath)//'Ig_koning.ng'
+      inquire (file = resfile, exist = lexist)
+      if (lexist) then
+        open (unit = 2, status = 'old', file = resfile)
+        do
+          read(2,'(2i4, 1x, a)', iostat = istat) iz, ia, reschoice
+          if (istat == -1) exit
+          if (istat > 0) call read_error(resfile, istat)
+          if (iz == Z .and. ia == A) then
+            do i = 1, N
+              if (trim(res_author(i)) == trim(reschoice)) then
+                Nsel = i
+                exit
+              endif
+            enddo
+          endif
+        enddo
+        close(2)
+      endif
+    endif
   endif
   if (Nsel > 0) then
     res_xs_sel = res_xs(Nsel)

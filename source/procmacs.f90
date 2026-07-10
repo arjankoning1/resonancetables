@@ -33,6 +33,7 @@ subroutine procmacs(Z, A, Liso)
   integer            :: iz
   integer            :: ia
   integer            :: istat
+  logical            :: lexist
   real(sgl)          :: xstmp         ! cross section
   real(sgl)          :: Etmp 
   real(sgl)          :: Gtmp 
@@ -217,21 +218,24 @@ Loop1:  do
 ! Overrule rule by specific cases
 !
   macsfile = trim(filespath)//'macs_koning.ng'
-  open (unit = 2, status = 'old', file = macsfile)
-  do
-    read(2,'(2i4, 1x, a)', iostat = istat) iz, ia, macschoice
-    if (istat == -1) exit
-    if (istat > 0) call read_error(macsfile, istat)
-    if (iz == Z .and. ia == A) then
-      do i = 1, N
-        if (trim(res_author(i)) == trim(macschoice)) then
-          Nsel = i
-          exit 
-        endif
-      enddo
-    endif
-  enddo
-  close(2)
+  inquire (file = macsfile, exist = lexist)
+  if (lexist) then
+    open (unit = 2, status = 'old', file = macsfile)
+    do
+      read(2,'(2i4, 1x, a)', iostat = istat) iz, ia, macschoice
+      if (istat == -1) exit
+      if (istat > 0) call read_error(macsfile, istat)
+      if (iz == Z .and. ia == A) then
+        do i = 1, N
+          if (trim(res_author(i)) == trim(macschoice)) then
+            Nsel = i
+            exit 
+          endif
+        enddo
+      endif
+    enddo
+    close(2)
+  endif
   if (Nsel > 0) then
      res_xs_sel = res_xs(Nsel)
      res_dxs_sel = res_dxs(Nsel)

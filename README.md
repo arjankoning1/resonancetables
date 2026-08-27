@@ -1,83 +1,180 @@
-
 # RESONANCETABLES
-RESONANCETABLES is a software package to unify existing databases for thermal cross sections, 
-resonance integrals, MACS, resonance parameters and average resonance parameters. 
-The final database is the result of a priority setting for various original databases.
-The provided database can be used directly, or the code can be installed for user-specified reproduction of the database.
+
+RESONANCETABLES is a software package to unify existing databases for thermal cross sections, resonance integrals, Maxwellian-averaged cross sections (MACS), resonance parameters and average resonance parameters. The final database is obtained through a priority selection among the original databases.
+
+Most users can use the database supplied with this repository directly. Installing and running the code is mainly relevant when the database needs to be reconstructed.
 
 ## Documentation and reference
-A description of the code and its options can be found in the 
-[RESONANCETABLES tutorial (pdf)](https://github.com/arjankoning1/resonancetables/blob/main/doc/resonancetables.pdf).
-The reference to be used for RESONANCETABLES is
 
-D. Rochman, A.J. Koning, J.-Ch. Sublet, A statistical analysis of evaluated neutron resonances with TARES for JEFF-3.3, JENDL-4.0, ENDF/B-VIII.0 and TENDL-2019, Nuclear Data Sheets 163, 163 (2020).
+A description of the code and its options can be found in the [RESONANCETABLES tutorial (pdf)](https://github.com/arjankoning1/resonancetables/blob/main/doc/resonancetables.pdf).
+
+The reference to be used for RESONANCETABLES is:
+
+D. Rochman, A.J. Koning, J.-Ch. Sublet, *A statistical analysis of evaluated neutron resonances with TARES for JEFF-3.3, JENDL-4.0, ENDF/B-VIII.0 and TENDL-2019*, Nuclear Data Sheets 163, 163 (2020).
 
 ## Installation
 
-### Prerequisites:
+### Prerequisites
 
 The following are the prerequisites for compiling RESONANCETABLES:
-  - git (only if the package is downloaded via Github)
-  - a recent Fortran compiler such as gcc (gfortran)
 
-### Downloads:
+- git (only if the package is downloaded via GitHub)
+- GNU make
+- a recent Fortran compiler, such as GNU Fortran (gfortran)
 
-To download RESONANCEtables, you can use one of the following options:
-#### 1. Download the tar file (frozen version):
+Reconstructing the complete database also requires external data installed as sibling directories of `resonancetables/`:
+
+```text
+.../resonancetables/
+.../exfortables/
+.../libraries/
+.../tendl/
 ```
-https://nds.iaea.org/talys/resonancetables.tar
+
+In particular, RESONANCETABLES uses:
+
+```text
+.../exfortables/special/
+.../libraries/resbase/
+.../tendl/
+```
+
+The required external databases can be obtained from the TALYS/TENDL distribution area at:
+
+```text
+https://nds.iaea.org/talys/
+```
+
+### Downloads
+
+#### 1. Download the tar file (frozen version)
+
+```bash
+curl -LO https://nds.iaea.org/talys/resonancetables.tar
 tar zxf resonancetables.tar
 ```
 
-#### 2. Using git (latest beta version):
-```
-git clone https://github.com/arjankoning1/resonancetables.git
-```
-### Installation instructions:
+#### 2. Using git (latest beta version)
 
-This is only relevant if you want to reconstruct the database yourself.
-Most users won't use this as the database is directly available.
-To install RESONANCETABLES, you can use one of the following options:
-#### 1. Using make:
-```
+```bash
 git clone https://github.com/arjankoning1/resonancetables.git
+```
+
+### Installation instructions
+
+#### 1. For the frozen tar version
+
+```bash
+cd resonancetables
+./install_resonancetables.bash
+```
+
+An alternative is:
+
+```bash
 cd resonancetables/source
 make
 ```
-#### 2. Using the install_resonancetables.bash script:
-```
-git clone https://github.com/arjankoning1/resonancetables.git
+
+The frozen distribution retains its own installation scripts and settings.
+
+#### 2. For the git version (latest beta version)
+
+```bash
 cd resonancetables
-install_resonancetables.bash
+./install_resonancetables.bash
 ```
 
-Running the code requires the *exfortables* and *libraries* databases to be installed in your home directory.
-These can be obtained from https://nds.iaea.org/talys
+which automatically executes the `Makefile` in `resonancetables/source`.
 
-The above instructions will produce a *resonancetables* executable in the *resonancetables/bin* directory. 
-The compiler and its flags can be set in either the *source/Makefile* or in *code_build.bash*.
+An alternative is:
+
+```bash
+cd resonancetables/source
+make
+```
+
+For the git version, the default compiler is `gfortran`. When `gfortran` is used and no `FFLAGS` are supplied, the Makefile uses:
+
+```text
+-w -O3 -ffp-contract=off
+```
+
+For other compilers, no default compiler flags are imposed.
+
+Compiler and compilation options can be passed through `install_resonancetables.bash`, for example:
+
+```bash
+./install_resonancetables.bash FC=gfortran FFLAGS="-O3 -ffp-contract=off"
+./install_resonancetables.bash FC=ifx FFLAGS="-O3"
+```
+
+The executable is installed as:
+
+```text
+resonancetables/bin/resonancetables
+```
+
+Set `RESONANCETABLES_DIR` to the RESONANCETABLES installation directory. For example:
+
+```bash
+export RESONANCETABLES_DIR="/Users/koning/resonancetables"
+```
+
+If you want to run `resonancetables` from anywhere, add its `bin` directory to `PATH`:
+
+```bash
+export PATH="$RESONANCETABLES_DIR/bin:$PATH"
+```
+
+These lines can be added to `~/.zshrc` or `~/.profile`.
+
+If setting `RESONANCETABLES_DIR` is not possible, edit `code_dir` in `source/machine.f90` and rebuild RESONANCETABLES.
+
+No user-name environment variable is needed by RESONANCETABLES.
+
+For the modern git version, `code_build.bash` and `path_change.bash` are no longer required and can be removed after adopting the new installer, Makefile and `machine.f90`.
 
 ## The RESONANCETABLES package
 
-The *resonancetables/* directory contains the following directories and files:
+The `resonancetables/` directory contains:
 
-+ `README.md` is this README file
-+ `LICENSE` is the License file
-+ `install_resonancetables.bash`, `code_build.bash` and `path_change.bash` installation scripts
-+ `source/` contains the Fortran source code of RESONANCETABLES and the Makefile
-+ `bin/` contains the executable after successful installation
-+ `doc/` contains the tutorial in pdf format
-+ `files/` contains the input files for RESONANCETABLES: the original databases
-+ `libs/` contains the results from the available nuclear data libraries
-+ `macs/` contains the produced Maxwellian-averaged cross section (MACS) tables
-+ `thermal/` contains the produced thermal cross section tables
-+ `resonance/` contains the produced (average) resonance parameter tables
+- `README.md` this README file
+- `LICENSE` the license file
+- `install_resonancetables.bash` installation script
+- `source/` the Fortran source code and Makefile
+- `bin/` the executable after successful installation
+- `doc/` the tutorial
+- `files/` original input databases
+- `libs/` results extracted from nuclear data libraries
+- `thermal/` produced thermal cross-section tables
+- `macs/` produced Maxwellian-averaged cross-section tables
+- `resonance/` produced resonance and average-resonance-parameter tables
 
+## Reconstructing and checking the database
 
-## Sample cases
+A successful installation can be tested by reconstructing the database. The full run takes roughly 10 minutes.
 
-A successful installation can be verified by simply running *resonancetables* in an empty directory. This will take about 10 minutes.
-Again, most users will probably be interested in the database which is produced by me for this repo.
+**Important:** RESONANCETABLES removes and recreates directories named `thermal/`, `macs/` and `resonance/` in the directory from which it is run. Therefore, run it in an empty or dedicated working directory unless you deliberately want those directories replaced.
+
+For example:
+
+```bash
+mkdir resonancetables_test
+cd resonancetables_test
+resonancetables > resonancetables.out
+```
+
+assuming that `resonancetables/bin` has been added to `PATH`.
+
+From the top-level RESONANCETABLES directory, the same check can be started safely with:
+
+```bash
+make -C source check
+```
+
+`make check` verifies that the required sibling `exfortables/special/`, `libraries/resbase/` and `tendl/` directories exist, then runs RESONANCETABLES in a temporary empty directory. The temporary output is removed after the check, so the database directories shipped in the repository are not overwritten.
 
 ## License and Copyright
+
 This software is distributed and copyrighted according to the [LICENSE](LICENSE) file.

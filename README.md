@@ -25,18 +25,20 @@ The following are the prerequisites for compiling RESONANCETABLES:
 Reconstructing the complete database also requires external data installed as sibling directories of `resonancetables/`:
 
 ```text
-.../resonancetables/
-.../exfortables/
-.../libraries/
-.../tendl/
+parent_directory/
+├── resonancetables/
+├── exfortables/
+├── libraries/
+├── tendl/
 ```
 
 In particular, RESONANCETABLES uses:
 
 ```text
-.../exfortables/special/
-.../libraries/resbase/
-.../tendl/
+parent_directory/
+├── exfortables/special/
+├── libraries/resbase/
+├── tendl/
 ```
 
 The required external databases can be obtained from the TALYS/TENDL distribution area at:

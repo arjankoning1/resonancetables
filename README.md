@@ -29,7 +29,7 @@ parent_directory/
 ├── resonancetables/
 ├── exfortables/
 ├── libraries/
-├── tendl/
+└── tendl/
 ```
 
 In particular, RESONANCETABLES uses:
@@ -38,7 +38,7 @@ In particular, RESONANCETABLES uses:
 parent_directory/
 ├── exfortables/special/
 ├── libraries/resbase/
-├── tendl/
+└── tendl/
 ```
 
 The required external databases can be obtained from the TALYS/TENDL distribution area at:

@@ -51,7 +51,7 @@ https://nds.iaea.org/talys/
 
 #### 1. Download the tar file (frozen version)
 
-This is available at the the [TALYS page](https://nds.iaea.org/talys/), and can be downloaded by clicking on the download link or
+This is available at the the [TALYS page](https://nds.iaea.org/talys/), and can be retrieved by clicking on the download link or
 ```bash
 curl -LO https://nds.iaea.org/talys/codes/resonancetables.tar
 tar zxf resonancetables.tar

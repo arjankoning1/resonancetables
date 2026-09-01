@@ -52,7 +52,7 @@ https://nds.iaea.org/talys/
 #### 1. Download the tar file (frozen version)
 
 ```bash
-curl -LO https://nds.iaea.org/talys/resonancetables.tar
+curl -LO https://nds.iaea.org/talys/codes/resonancetables.tar
 tar zxf resonancetables.tar
 ```
 

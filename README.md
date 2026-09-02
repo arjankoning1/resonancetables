@@ -18,9 +18,9 @@ D. Rochman, A.J. Koning, J.-Ch. Sublet, *A statistical analysis of evaluated neu
 
 The following are the prerequisites for compiling RESONANCETABLES:
 
-- git (only if the package is downloaded via GitHub)
 - GNU make
 - a recent Fortran compiler, such as GNU Fortran (gfortran)
+- git, only when RESONANCETABLES is downloaded using `git clone`
 
 Reconstructing the complete database also requires external data installed as sibling directories of `resonancetables/`:
 
@@ -49,23 +49,56 @@ https://nds.iaea.org/talys/
 
 ### Downloads
 
-#### 1. Download the tar file (frozen version)
+RESONANCETABLES can be downloaded in one of the following ways.
 
-This is available at the the [TALYS page](https://nds.iaea.org/talys/), and can be retrieved by clicking on the download link or
+#### 1. Frozen version (December 2025)
+
+The frozen RESONANCETABLES distribution is available from the [TALYS page](https://nds.iaea.org/talys/). It can be retrieved by clicking on the download link or with
+
 ```bash
 curl -LO https://nds.iaea.org/talys/codes/resonancetables.tar
 tar zxf resonancetables.tar
 ```
 
-#### 2. Using git (latest beta version)
+This version is fixed and will not change.
+
+#### 2. Latest beta version without git
+
+Users who do not have git can download a snapshot of the current `main` branch directly from GitHub:
+
+```bash
+curl -L \
+  -o resonancetables-main.tar.gz \
+  https://github.com/arjankoning1/resonancetables/archive/refs/heads/main.tar.gz
+
+tar zxf resonancetables-main.tar.gz
+mv resonancetables-main resonancetables
+```
+
+This produces the same `resonancetables/` directory structure as the git version, but without the git history.
+
+The downloaded snapshot contains the latest version of the `main` branch at the time of download. To obtain a newer version later, download the snapshot again.
+
+#### 3. Latest beta version using git
+
+Users with git can clone the repository with
 
 ```bash
 git clone https://github.com/arjankoning1/resonancetables.git
 ```
 
+The advantage of this method is that the local RESONANCETABLES installation can subsequently be updated with
+
+```bash
+cd resonancetables
+git pull --ff-only
+```
+
 ### Installation instructions
 
-#### 1. For the frozen tar version
+#### 1. Frozen version
+
+For the frozen tar distribution:
 
 ```bash
 cd resonancetables
@@ -81,10 +114,13 @@ make
 
 The frozen distribution retains its own installation scripts and settings.
 
-#### 2. For the git version (latest beta version)
+#### 2. Latest beta version
+
+The installation procedure is identical whether the latest beta version was obtained as a GitHub tar snapshot or using `git clone`.
+
+From the `resonancetables/` directory, run
 
 ```bash
-cd resonancetables
 ./install_resonancetables.bash
 ```
 
@@ -97,7 +133,13 @@ cd resonancetables/source
 make
 ```
 
-For the git version, the default compiler is `gfortran`. When `gfortran` is used and no `FFLAGS` are supplied, the Makefile uses:
+The executable is installed as:
+
+```text
+resonancetables/bin/resonancetables
+```
+
+For the latest beta version, the default compiler is `gfortran`. When `gfortran` is used and no `FFLAGS` are supplied, the Makefile uses:
 
 ```text
 -w -O3 -ffp-contract=off
@@ -108,14 +150,11 @@ For other compilers, no default compiler flags are imposed.
 Compiler and compilation options can be passed through `install_resonancetables.bash`, for example:
 
 ```bash
+# GNU Fortran
 ./install_resonancetables.bash FC=gfortran FFLAGS="-O3 -ffp-contract=off"
+
+# Intel Fortran
 ./install_resonancetables.bash FC=ifx FFLAGS="-O3"
-```
-
-The executable is installed as:
-
-```text
-resonancetables/bin/resonancetables
 ```
 
 Set `RESONANCETABLES_DIR` to the RESONANCETABLES installation directory. For example:
@@ -135,8 +174,6 @@ These lines can be added to `~/.zshrc` or `~/.profile`.
 If setting `RESONANCETABLES_DIR` is not possible, edit `code_dir` in `source/machine.f90` and rebuild RESONANCETABLES.
 
 No user-name environment variable is needed by RESONANCETABLES.
-
-For the modern git version, `code_build.bash` and `path_change.bash` are no longer required and can be removed after adopting the new installer, Makefile and `machine.f90`.
 
 ## The RESONANCETABLES package
 
